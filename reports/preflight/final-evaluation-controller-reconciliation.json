@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "observed_at": "2026-10-16T09:10:25.668570+00:00",
+  "primary_job_matrix": {
+    "one_step": 30,
+    "direct_horizon": 10,
+    "response_all_groups": 5,
+    "response_heldout_groups": 5
+  },
+  "primary_jobs": 50,
+  "supplementary_fits": 10,
+  "scope": "Frozen scored-report identities, complete phase matrix, feedback sensitivity labeling, fixed response eligibility and explicit supplementary human-coverage limitation. No private arrays, fresh scoring or new formal certificate replay."
+}

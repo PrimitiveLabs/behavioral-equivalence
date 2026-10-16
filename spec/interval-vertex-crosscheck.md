@@ -1,0 +1,17 @@
+# Independent interval verification by finite vertices
+
+The uncertainty semantics here are rectangular: each transition step may choose any feasible row from its interval-constrained simplex. This includes fixed unknown kernels but can produce wider bounds. It is not exact optimization over one globally fixed kernel.
+
+For state s, let Q_s = {q: sum_j q_j = 1, l_sj <= q_j <= u_sj}. For bounded reachability, initialize V_0(s) to the target indicator. At a target state set V_h(s)=1; elsewhere optimize q dot V_(h-1) over Q_s. Each objective is linear on a nonempty compact polytope, so a minimum and maximum occur at vertices. Replacing every vertex with an ordinary MDP action therefore preserves both rectangular finite-horizon extrema by induction on h.
+
+A vertex has at most one coordinate strictly between its bounds. If two coordinates were interior, opposite sufficiently small perturbations of those coordinates would preserve the sum and bounds, expressing the point as a nontrivial midpoint. Thus enumeration fixes all but one coordinate at bounds and solves the remaining coordinate from the sum. Duplicate vertices are removed. Degenerate coordinates and singleton simplices are allowed. This argument establishes completeness of tools/interval_vertices.py's enumeration for feasible input rows.
+
+The implementation uses exact Fraction values of the supplied binary floating-point bounds. Its oracle recurrence also uses Fractions. The ordinary MDP exporter serializes point probabilities as 17-digit decimals. The measured fixtures use dyadic probabilities exactly representable as binary floats; arbitrary rational export does not inherit an exact serialization claim. Vertex enumeration is exponential and restricted to rows with at most eight coordinates. It is an independent small-model oracle, not the scalable production algorithm.
+
+## Measured cross-check
+
+Report: reports/preflight/interval-vertex-crosscheck-b46ea5f89886b53e.json. Pinned PRISM 4.11, ordinary explicit MDP backend. Four dyadic fixtures with 2, 3, 3 and 4 states include represented edges whose lower bounds are zero. All initial states, horizons 0, 1, 5, 10, 25 and 50, and both extrema give 144 external queries. The largest PRISM versus exact-oracle difference is 1.1102230246251565e-16. Every exact oracle value lies inside the production directed-integer enclosure. Seven focused tests passed in the pinned cloud environment. These observations do not establish external-checker coverage of every large uncertainty-benchmark instance.
+
+The retained earlier native IDTMC pilot failed with: “Transition probability has lower bound of 0 in state (0).” See reports/preflight/retained-pilot-20261015-b-robust-min.log and its uncertainty.prism model. That is evidence about the pinned pilot configuration, not a claim that all versions or engines reject such models. The vertex-MDP encoding avoids that particular native representation while preserving the stated rectangular semantics.
+
+PRISM's official [uncertain-model properties](https://www.prismmodelchecker.org/manual/PropertySpecification/UncertainModels) describe robust min/max queries and the distinction between interval and nondeterministic choices. The [uncertain-model language](https://www.prismmodelchecker.org/manual/ThePRISMLanguage/UncertainModels) specifies interval probabilities. The finite-vertex equivalence argument above is our analytical justification for this cross-check encoding, separate from the documentation and numerical observations.

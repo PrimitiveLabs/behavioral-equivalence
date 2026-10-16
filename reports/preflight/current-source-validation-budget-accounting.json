@@ -1,0 +1,57 @@
+{
+  "observed_at": "2026-10-16T09:34:13.965607+00:00",
+  "attempts": [
+    {
+      "path": ".campaign/source-package-ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12-e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e-explicit-checker-mount.json",
+      "function_call_id": "fc-01M52005M9CY5V7YA022PPCBRN",
+      "reservation": {
+        "run_id": "source-package-ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12-e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e-explicit-checker-mount",
+        "reserved_usd": 0.14,
+        "total_reserved_usd": 18.278034,
+        "ceiling_usd": 25.0,
+        "actual_billing_usd": null,
+        "status": "reserved; idempotent run identity"
+      },
+      "budget_ledger": ".campaign/synthetic-budget.sqlite",
+      "source_bundle_sha256": "ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12",
+      "checker_source_sha256": "e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e"
+    },
+    {
+      "path": ".campaign/source-package-ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12-e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e.json",
+      "function_call_id": "fc-01M51ZWGW0M1GPEMT2V56VRMS0",
+      "reservation": {
+        "run_id": "source-package-ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12-e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e",
+        "reserved_usd": 0.14,
+        "total_reserved_usd": 18.138034,
+        "ceiling_usd": 25.0,
+        "actual_billing_usd": null,
+        "status": "reserved; idempotent run identity"
+      },
+      "budget_ledger": ".campaign/synthetic-budget.sqlite",
+      "source_bundle_sha256": "ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12",
+      "checker_source_sha256": "e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e"
+    },
+    {
+      "path": ".campaign/source-package-ecc5a586bd135738b51dca2b392f55da94e9f8aeba4fcfe1a76f296ccde84cb2-e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e-explicit-checker-mount.json",
+      "function_call_id": "fc-01M520Y7NHR8HFS7ZY04DKRJWF",
+      "reservation": {
+        "run_id": "source-package-ecc5a586bd135738b51dca2b392f55da94e9f8aeba4fcfe1a76f296ccde84cb2-e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e-explicit-checker-mount",
+        "reserved_usd": 0.14,
+        "total_reserved_usd": 18.418034,
+        "ceiling_usd": 25.0,
+        "actual_billing_usd": null,
+        "status": "reserved; idempotent run identity"
+      },
+      "budget_ledger": ".campaign/synthetic-budget.sqlite",
+      "source_bundle_sha256": "ecc5a586bd135738b51dca2b392f55da94e9f8aeba4fcfe1a76f296ccde84cb2",
+      "checker_source_sha256": "e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e"
+    }
+  ],
+  "total_recent_release_reservations_usd": 0.42,
+  "ledger_ceiling_usd": 25.0,
+  "ledger_reserved_usd": 18.418034,
+  "ledger_unreserved_usd": 6.581966,
+  "ceilings_changed": false,
+  "actual_new_billing_usd": null,
+  "scope": "One terminal mount-failed 490-file attempt, one successful explicit-mount parent, and one separately submitted current 492-file validation. Reservation totals are not actual provider spend."
+}

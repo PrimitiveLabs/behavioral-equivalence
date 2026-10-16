@@ -1,0 +1,37 @@
+{
+  "status": "complete_composed_validation",
+  "source_archive_sha256": "2551fc19e520f83b73e8b0a049c509f86007c32cfb8ee35d4b329dcb7eef03ad",
+  "source_files": 448,
+  "cloud_parent_archive_sha256": "6b90415e31c165375a0470e0b1b01b488e9afefa6d89d09e508687c66db2f979",
+  "cloud_report": "reports/preflight/source-package-reproduction-6b90415e31c16537-e52eea4696b4.json",
+  "parent_files_unchanged": 441,
+  "added": [
+    "tests/test_abstraction_boundaries.py",
+    "tests/test_decision_boundaries.py",
+    "tests/test_evaluation_boundaries.py",
+    "tests/test_history_support_boundaries.py",
+    "tests/test_intervention_boundaries.py",
+    "tests/test_numerical_boundaries.py",
+    "tests/test_preparation_boundaries.py"
+  ],
+  "changed": [],
+  "removed": [],
+  "supplemental_reports": [
+    "reports/preflight/numerical-boundaries-installed-wheel.json",
+    "reports/preflight/evaluation-boundaries-installed-wheel.json",
+    "reports/preflight/preparation-support-installed-wheel.json",
+    "reports/preflight/abstraction-boundaries-installed-wheel.json",
+    "reports/preflight/intervention-boundaries-installed-wheel.json"
+  ],
+  "same_installed_wheel_sha256": "d035f9594ff2921ae72ffd2ccae3bb5fb3edb6a795c51d16542b69c28c021ede",
+  "supplemental_dependency_versions_match_cloud": true,
+  "full_local_tests_passed": 899,
+  "full_local_tests_skipped": 8,
+  "full_local_command": "PYTHONPATH=/tmp/research-qa-polars .venv/bin/pytest -q -W error",
+  "local_additional_dependency": "polars==1.31.0",
+  "parent_cloud_tests_passed": 626,
+  "parent_cloud_tests_skipped": 0,
+  "additional_installed_wheel_tests_passed": 286,
+  "additional_installed_wheel_tests_skipped": 0,
+  "scope": "All 441 cloud-tested files unchanged; seven new test files executed against identical installed wheel locally with matching dependencies. Prior cloud scientific subset retained. No new full-cloud-run claim."
+}

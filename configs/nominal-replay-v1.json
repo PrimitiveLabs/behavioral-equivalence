@@ -1,0 +1,13 @@
+{
+  "schema_version": "nominal-replay-v1",
+  "campaign": "uncertainty-repeated-v1-d567478458e8",
+  "nominal_relative": "nominal-a0450320cc941c72",
+  "nominal_source_digest": "a0450320cc941c72da068fb7873cd294c60d4b1d3bb6c8c0f2ee58e7b006960d",
+  "nominal_manifest_sha256": "41683bc731fb206428ebd6e38aa7f34e19fa2509217ee511f88f90c883c68a7e",
+  "original_manifest_sha256": "38ebd31d33c62c5ea172123273804ba134af0c7e1735314ba31bde90d1cd6905",
+  "original_protocol_digest": "d567478458e8b39c9c67c4024a890215fb09ffcce298347a1d947d4ff78351ba",
+  "chunks": 400,
+  "datasets": 4000,
+  "point_certificates": 8000,
+  "scope": "Separate arithmetic replay of persisted empirical-point certificates on original retained synthetic counts. No new draws, human observations, model-provider calls, or independent theorem-proof claim."
+}

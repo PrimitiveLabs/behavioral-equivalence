@@ -1,0 +1,27 @@
+{
+  "dataset": "KuaiRand",
+  "record": "10439422",
+  "archive_license": "CC-BY-4.0",
+  "archive_license_evidence": "rights/zenodo-record.json",
+  "repository_license": "CC-BY-SA-4.0",
+  "repository_license_evidence": "rights/repository-LICENSE.txt",
+  "commercial_use": "permitted by both declared licenses, subject to their terms",
+  "use_status": "private research ingestion under attribution/share-alike obligations; product integration and weight release excluded pending review",
+  "attribution": "Gao et al. (2022), KuaiRand, DOI 10.1145/3511808.3557624",
+  "raw_redistribution": "not planned; provide official download URLs",
+  "weights_release": "pending artifact-specific review; do not integrate with Instinct product",
+  "privacy": "private research storage; local reports exclude individual user rows",
+  "checked_at": "2026-10-15",
+  "embedded_archive_license": "CC-BY-SA-4.0",
+  "embedded_archive_license_evidence": "rights/archive-LICENSE.txt",
+  "embedded_archive_license_sha256": "187442db4df3afd21f2f0525739fd4beac28a62daaba3ee8d3533f60e7c33ec7",
+  "embedded_archive_license_scope": "KuaiRand-1K only; do not infer the 27K archive contains this license",
+  "kuairand_27k": {
+    "license": "CC-BY-4.0",
+    "basis": "Zenodo deposit metadata matched to exact file name, 9892191178 bytes and MD5 3e3c799a24e2d23a4d2c757fbf9adf59",
+    "metadata_evidence": "rights/zenodo-record-full-20261015.json",
+    "embedded_license": "none found in completed full archive inspection",
+    "use_status": "private attributed research; no raw redistribution or product integration",
+    "inspection_evidence": "../reports/preflight/kuairand-27k-inspection.json"
+  }
+}

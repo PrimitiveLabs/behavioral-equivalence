@@ -1,0 +1,1034 @@
+{
+  "updated_at": "2026-10-16T06:07:54.590212+00:00",
+  "persistent_goal_status": "active",
+  "architecture": "complete",
+  "cloud_jobs_submitted": 200,
+  "cloud_spend_usd": 38.54944787,
+  "cloud_access": "Modal CPU and T4 training exercised; Fireworks account and R2 remote roundtrip verified",
+  "runner": "Source-bound controllers retain immutable sources, task handles, source/parent identities and evidence. E1 and synthetic intervention/uncertainty campaigns complete; final human evaluation, nominal arithmetic replay and multistep comparators continue. Generic DAG reconciliation remains incomplete.",
+  "budget_usd": null,
+  "completion": "not_complete",
+  "next_tasks": [
+    "Complete source-change QA review and address any concrete gaps before committing/pushing",
+    "Finalize the accepted release artifact and publication package after review",
+    "Perform the final requirement-by-requirement goal audit"
+  ],
+  "task_status": {
+    "P00": "complete",
+    "P01": "complete",
+    "P02": "complete",
+    "A01": "complete",
+    "A02": "complete",
+    "C01": "complete",
+    "C02": "complete",
+    "B01": "complete",
+    "B02": "complete",
+    "A03": "complete",
+    "A04": "complete",
+    "D01": "complete",
+    "D02": "complete",
+    "D03": "complete",
+    "D04": "in_progress",
+    "B03": "complete",
+    "B04": "in_progress",
+    "C03": "complete",
+    "C04": "complete",
+    "D05": "in_progress",
+    "P03S": "complete",
+    "P03U": "complete",
+    "P03I": "complete",
+    "P03": "complete",
+    "P04": "in_progress",
+    "E1": "complete",
+    "E2": "in_progress",
+    "E3S": "complete",
+    "E3H": "planned",
+    "E4S": "complete",
+    "E4H": "in_progress",
+    "D08A": "in_progress",
+    "D08B": "planned",
+    "R01": "in_progress",
+    "R02": "planned",
+    "R03": "planned",
+    "R04": "planned"
+  },
+  "scientific_claims": {
+    "formal_correctness": "Full frozen numerical E1 complete, 55,200 PRISM point checks and 26,400 exact-normalized integer certificates. Ten tiny requested-budget exceedances and serialized exact-radius effects reported. General proof review remains open.",
+    "human_noninferiority": "All10fixed strict primary abstractions retain256of256states and fail2xcompression. Final human noninferiority and secondary predictive scores remain unevaluated.",
+    "uncertainty_coverage": "Repeated extension: all tested outcome enclosures contain known probabilities in 4,000 datasets per paired method/support control. Hoeffding kernel inclusion 4,000/4,000; floating Clopper-Pearson 3,970/4,000. Intervals are often close to vacuous. 320 simultaneous fixed-design Monte Carlo intervals reported; no human coverage guarantee.",
+    "human_intervention_transfer": "not_evaluated; synthetic refinement pilot complete",
+    "synthetic_intervention_transfer": "400 worlds, 300 response-changing and 100 negative controls, complete with all model/certificate bindings audited. Targeted refinement improves over matched random splits; adaptive RBF search is worse than random/grid with the same refinement. No human transfer evidence."
+  },
+  "implementation": "core, exact rational fixtures, PRISM adapter, data controls and cloud pilots",
+  "engineering_pilots_complete": 4,
+  "cloud_billing_status": "Modal research app-attributed meter 34.03882299 USD observed 2026-10-16T02:18:55.160880+00:00, latest hour 2026-10-16T01:00:00Z. Unposted usage, unattributed storage, R2 and Codex costs not reconciled; no user-approved global numeric cap.",
+  "test_count": 301,
+  "test_status": "301passed,8skipped locally; all6head/target tests passed on cloud with sklearn installed",
+  "human_pilot_rows_prepared": 11661848,
+  "human_timestamp_bundles": 2032217,
+  "human_training_status": "29/30completed fitted encoders at latest direct Modal report poll; final human test metrics remain ungenerated",
+  "live_cloud_jobs": 11,
+  "last_turn_classification": "progress: implemented/train-tested25direct horizon event heads, retained L-BFGS convergence failure, solved same objective with Newton-Cholesky, verified all first-fit output hashes and submitted fixed30fit batch under bounded existing reservation",
+  "cloud_integration_tests_passed": 8,
+  "local_cloud_dependency_test_skips": 5,
+  "full_uncertainty_benchmark_status": "200 worlds, 600 paired datasets, 1200 method evaluations, all certificate hashes and complete world/property matrix audited. Probability coverage 1200/1200 method-datasets; Hoeffding kernel inclusion 600/600, CP 594/600. Monte Carlo uncertainty and further fixed-world repetitions remain open.",
+  "integer_certificates_verified": 26400,
+  "integer_certificate_scope": "26,400 main frozen-matrix certificates verified over 1,200 worlds. Earlier audit waves overlap and must not be added; the separate 512-state smoke is not pooled.",
+  "human_27k_status": "Full candidate preparation, pilot exclusion, independent converted-source audit, shared-calendar support, per-user case construction and independent all-case/history audits complete. Timing proxies remain assumptions. No final predictive scores inspected.",
+  "cloud_job_count_unit": "recorded app runs; mapped worker inputs live in each campaign manifest",
+  "provider_api_constraints": {
+    "provider_api_model_denylist": [
+      "gpt-6.1*",
+      "claude*"
+    ],
+    "reason": "User instruction: avoid these provider API calls to save costs.",
+    "scope": "All research work, reviews, baselines and intervention generation",
+    "recorded_at": "2026-10-15T18:30:23.113000+00:00",
+    "provider_inference_calls_to_date": 0
+  },
+  "human_property_compression_pilot": "All 12 finite-property settings miss the 2x compression target. Best chronological 1.610x and unseen-user 1.497x; NLL noninferiority margins met only in exploratory pilot.",
+  "previous_goal_turn_classification": "progress: provider exclusions persisted and completed GRU parent evidence retrieved",
+  "human_case_construction": {
+    "source_digest": "d05a64f50a264877b4acd1e3cf61dfa80738fb667cb4f469330fc70c8e2e5585",
+    "primary_known_train_cases": 6623154,
+    "primary_known_test_cases": 3220197,
+    "primary_unseen_test_cases": 321623,
+    "unseen_test_users": 2582,
+    "status": "complete and independently audited, all three embargo policies"
+  },
+  "synthetic_main_progress": {
+    "status": "complete_after_reconciliation",
+    "completed_inputs": 1200,
+    "total_inputs": 1200,
+    "original_coordinator_failed_inputs": 1,
+    "reconciled_failed_worlds": 0,
+    "summary": "reports/preflight/synthetic-main-summary.json"
+  },
+  "integer_campaign_audit": {
+    "status": "complete",
+    "audit_source_digest": "6d9dbce18e2635f04651415ab849d5081c5007bffc0ca931d246603cde3036eb",
+    "worlds_audited": 1200,
+    "verified_certificates": 26400,
+    "strict_requested_epsilon_exceedances": 10,
+    "maximum_exact_budget_excess_for_display": 1.7355908377147956e-17,
+    "serialized_exact_quotients_with_nonzero_radius": 900,
+    "maximum_serialized_exact_radius_for_display": 4.470165557157735e-17,
+    "evidence": "reports/preflight/integer-campaign-audit-manifest.json"
+  },
+  "measured_figures_available": 4,
+  "full_case_audit": {
+    "source_digest": "69ea08c4b9ccfe9cc60ef1e2fa99496c6111851abf6bdd6cf27ca483fb03a965",
+    "cases_by_embargo_hours": {
+      "0": 14690640,
+      "24": 14534926,
+      "48": 14064461
+    },
+    "status": "complete"
+  },
+  "training_feature_review": "reports/preflight/human-training-feature-review.json",
+  "gpu_preflight": {
+    "function_call_id": "fc-01M50F4ATD4DAWSEZXSD5K6M80",
+    "source_digest": "4fc554c78ba6392eb086ef5520b751d4a2a002910d1d6f3de9ee4e7a811cd17b",
+    "status": "pending allocation, no task ID as last verified",
+    "primary_full_neural_fits_started": 0
+  },
+  "item_metadata_audit": {
+    "status": "complete",
+    "function_call_id": "fc-01M50FSE2DWNKACE7SJKKFWGP3",
+    "phase": "intrinsic item fields, source archive verification and randomized-pool support; no feedback prediction scores",
+    "report": "reports/preflight/kuairand-27k-item-metadata-audit.json",
+    "source_digest": "14656b2136c2c3d01067acd48f5ab052acc636a4edc479ab8c7cdfba24dd056a"
+  },
+  "human_training_protocol_status": "All 30 calendar neural fits and all 30 direct-horizon fits complete. All 50 frozen primary scores and independent aggregate-output audit complete; supplementary endpoint and trajectory studies complete and audited. Scientific negative findings retained.",
+  "source_release_snapshot": {
+    "package": "reports/current-source-package.json",
+    "sha256": "ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12",
+    "source_files": 490,
+    "includes_latest_changes": true,
+    "reproduction_status": "local_corrected_wheel_validated_with_optional_skips",
+    "validation_report": "reports/preflight/source-correction-ad74b89a721bbbba.json",
+    "local_installed_wheel_tests_passed": 1627,
+    "local_installed_wheel_tests_skipped": 3,
+    "historical_cloud_report": "reports/preflight/source-package-reproduction-6b90415e31c16537-e52eea4696b4.json",
+    "historical_cloud_tests_passed": 626,
+    "historical_cloud_tests_skipped": 0,
+    "scope": "Eight corrected library modules and three corrected tools retain original source fixtures. Current local library/tool suite passes with three Torch skips and three retained warnings. Strict final environment validation remains open. No original human output mutation or fresh cloud claim.",
+    "latest_local_validation_report": "reports/preflight/stochastic-campaign-local-validation.json",
+    "local_installed_wheel_warnings": 3
+  },
+  "local_verification": {
+    "pytest": "259 passed, 6 skipped in1.92s",
+    "ruff": "All checks passed;214maintained files already formatted",
+    "format": "passed, 155 maintained files; immutable generated renderer/snapshot copies excluded"
+  },
+  "live_observation": {
+    "synthetic_main_completed_inputs": 1200,
+    "synthetic_main_expected": 1200,
+    "synthetic_main_failed": 0,
+    "integer_audit_worlds": 1200,
+    "integer_audit_certificates": 26400,
+    "repeated_uncertainty_chunks_complete": 400,
+    "repeated_uncertainty_chunks_expected": 400,
+    "human_full_matrix": "19/30 final fits complete at latest saved checkpoint; eight completed GRU quantizations/calibrated parents, ninth quantization running, final unseen-user GRU still fitting; final predictive scores unopened",
+    "observed_at": "2026-10-15T22:20:36.741005+00:00",
+    "intervention_full": "400/400 worlds and full structural/statistical analysis complete",
+    "human_five_seed_supplement": "Live Modal app verified with six tasks; 12 additional fits, combined 30 fits across five seeds",
+    "time_scope": "Most recent saved checkpoints from separate polls in this turn; source snapshot file mtimes retained below",
+    "adjacent_calibration": "All 32 buckets independently audited: 2,039,043 queries, 1,393,257 known-user transitions and 139,378 unseen-user transitions",
+    "repeated_uncertainty_replay": "Complete, all 400 chunks / 4,000 datasets / 16,000 paired evaluations",
+    "synthetic_original_coordinator_failed_inputs": 1
+  },
+  "provider_inference_calls": 0,
+  "source_integrity": "Original human training source rechecked: 8c2afe99bb7532b901952f872abe18ce2ac08b4f9b5b340eaa0280cdb3a1383e unchanged. Supplement 609ecd456db71cad956927bdde31c32c05952571cb381f9893da86789a050b55 changes seeds/budget only; invariant regression passes.",
+  "deterministic_quality": "First scan passes JSON/TOML/Semgrep/offline links; public synthetic SHA256 key false positives verified against all 1200 specs and narrowly exempted. Final scan pending.",
+  "checkpoint_observations": {
+    "reports/preflight/synthetic-main-progress.json": {
+      "scope": "Original coordinator checkpoint, retains one timeout. Reconciled full manifest and complete integer audit are authoritative for accepted world evidence."
+    },
+    "reports/preflight/uncertainty-repeated-progress.json": {
+      "last_saved_at": "2026-10-15T20:23:34.224421+00:00",
+      "checkpoint": {
+        "chunks_complete": 290,
+        "chunks_expected": 400,
+        "failures": []
+      }
+    },
+    "reports/preflight/intervention-main-progress.json": {
+      "last_saved_at": "2026-10-15T20:23:36.854259+00:00",
+      "checkpoint": {
+        "worlds_complete": 120,
+        "worlds_expected": 400,
+        "failures": []
+      }
+    },
+    "reports/preflight/integer-campaign-audit-progress.json": {
+      "scope": "Last live progress precedes terminal complete audit manifest; do not infer a running job from this file."
+    }
+  },
+  "experiments_started": 4,
+  "experiments_completed_end_to_end": 1,
+  "measured_core_figures": 4,
+  "provider_restrictions": {
+    "gpt_6_1_api": "prohibited by user",
+    "claude_api": "prohibited by user",
+    "current_execution": "Custom Torch models on Modal; no provider inference calls"
+  },
+  "human_adjacent_calibration_audit": {
+    "status": "complete",
+    "queries": 2039043,
+    "known_transitions": 1393257,
+    "known_users": 25522,
+    "unseen_transitions": 139378,
+    "unseen_users": 2542,
+    "evidence": "reports/preflight/human-adjacent-calibration-independent-audit.json"
+  },
+  "experiment_completion_scope": "E1 numerical benchmark and audit complete. D1 general proof review and final E2/E3H/E4H evidence remain open.",
+  "spending_checkpoint": {
+    "path": "reports/preflight/research-spend-checkpoint.json",
+    "provider_metered_usd": 16.88744858,
+    "estimated_current_usd": [
+      20,
+      30
+    ],
+    "reserved_usd": 287.526805,
+    "global_cap_usd": null,
+    "provider_inference_calls": 0
+  },
+  "human_nested_completed": 5,
+  "human_nested_primary_compression_successes": 0,
+  "typed_evidence_registry": {
+    "artifacts": 37,
+    "scope": "artifact_identity_only",
+    "path": "reports/evidence-registry.json"
+  },
+  "nominal_uncertainty_ablation": {
+    "status": "full campaign, paired summary and proven-failure classification complete; independent nominal arithmetic replay open",
+    "source_digest": "a0450320cc941c72da068fb7873cd294c60d4b1d3bb6c8c0f2ee58e7b006960d",
+    "planned_reservation_usd": 1.991194,
+    "campaign_allowance_usd": 2,
+    "user_approved_global_cap_usd": null,
+    "statistical_coverage_claim": "none",
+    "smoke_point_evaluations": 20,
+    "call_id": "fc-01M50VWD5JBH65CQHRRMGDJZ7X",
+    "app_id": "ap-cLsJPjHF8inTJui3robBpH",
+    "analysis_status": "paired structural aggregation implementation tested, not applied before campaign completion",
+    "observed_completed_chunks": 400,
+    "expected_chunks": 400,
+    "point_evaluations": 8000,
+    "analysis_source_digest": "2dc0028c982330fed7450605a13027b7d5002202236a39369a7ee05d66e42b25",
+    "summary_sha256": "acb6832263d4a4cbd5b091c49d11a1fbbe30c2d8ea1f9ff498ea0cf5d3da1ea4",
+    "total_planned_reservation_usd": 1.999609,
+    "known_terminal_uniform_containment": [
+      1877,
+      2000
+    ],
+    "known_terminal_imbalanced_containment": [
+      102,
+      2000
+    ]
+  },
+  "human_multistep_cohort": {
+    "status": "All 32 input buckets constructed and independently reconstructed, no prediction scores",
+    "config": "configs/human-multistep-cohort-v1.json",
+    "selection": "outcome blind, support censoring retained",
+    "formal_graph_alignment": "H decisions uses 2H-1 graph transitions",
+    "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+    "smoke_known_origins": 48666,
+    "smoke_unseen_origins": 5096,
+    "campaign_allowance_usd": 2,
+    "report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+    "known_origins": 1539530,
+    "known_users": 25796,
+    "unseen_origins": 153863,
+    "unseen_users": 2582,
+    "total_preparation_reserved_usd": 1.433552,
+    "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a"
+  },
+  "verification_current": {
+    "tests_passed": 186,
+    "tests_skipped": 6,
+    "ruff": "passed",
+    "format": "166 files unchanged",
+    "scope": "maintained source tests, no final human claims"
+  },
+  "figure_01_03_archive": {
+    "files": 18,
+    "status": "remote uploaded and download SHA verified",
+    "storage_semantics": "content addressed, not server-enforced WORM"
+  },
+  "theory_review": {
+    "status": "focused_internal_source_comparison_complete_independent_review_open",
+    "artifact": "spec/theory-comparison.md",
+    "new_theorem_claim": false,
+    "full_novelty_review": "open"
+  },
+  "human_primary_evaluator": {
+    "status": "implementation_tested_not_applied_to_final_test_results",
+    "fixed_seeds": [
+      20261015,
+      20261016,
+      20261017,
+      20261018,
+      20261019
+    ],
+    "protocols": [
+      "known_users",
+      "unseen_users"
+    ],
+    "rule": "all ten fixed models must pass compression and upper95CI < 0.01; incomplete matrix cannot succeed"
+  },
+  "training_preemption_observation": {
+    "main_and_supplement_logs_inspected": true,
+    "supplement_preemption_at": "2026-10-15T15:33:30-07:00",
+    "restart_policy": "Modal platform restart; no new call submitted by agent",
+    "cost_scope": "Timeout reservations are not a hard lifetime bound under preemption; no optimizer/RNG resume state exists in frozen training controller"
+  },
+  "blog_draft": {
+    "path": "reports/blog-draft.md",
+    "status": "interim measured findings; human study incomplete; unpublished"
+  },
+  "human_training_liveness_diagnosis": "Old failure markers correspond to preempted attempts; no duplicate recovery submitted",
+  "human_intervention_design": {
+    "status": "candidate, no final response scores",
+    "state_semantics": "pre-exposure frozen history encoder required, original D6 post-exposure representation not reused as pretreatment state",
+    "selection_helpers": "tested",
+    "remaining": "full randomized case construction, history quantization, concrete calibration/search controls and final freeze"
+  },
+  "human_history_state_pipeline": "All ten GRU history-only quantizers complete across five fixed seeds and both protocols, source ced0bbdf76c3. Each uses 100000 standard training cases. Outcome-free support matrix in progress, no final predictive scoring.",
+  "human_random_calibration": "First K256 history-only observed-response calibration complete: discovery100168cases/10495users, estimation97705cases/10516users. Zero supported cells under 50 users/2000 cases. Preserve negative result; investigate training-defined coarser resolutions with unchanged support rules before final freeze.",
+  "human_neural_completed_fits": 23,
+  "human_history_resolution_support": "All50 outcome-free checks complete: five known-user K32 joint supported pair counts6/6/4/7/9; every unseen-user resolution has zero supported pairs. Thresholds unchanged. No final human predictive scores.",
+  "human_history_states_completed": 10,
+  "human_history_resolution_checks_completed": 50,
+  "human_response_frontier": "All-group A:100models/7500one-step arithmetic replays complete. Heldout B:600models/45000context and600neutral certificate replays complete with output hashes verified. No final human predictive evaluation.",
+  "human_response_point_certificates": "Complete7500one-step point-model certificates with arithmetic replay. Primary uniform context/state discrepancies0.393-0.407 are wide. No tight uniform preservation or human confidence guarantee.",
+  "validation_precision_planning": "Ten validation-only K128/K256 variance proxies complete. Normal planning at assumed0.01gap requires21-31users, at0.005gap83-122; not final nested-model power or human intervention power guarantee.",
+  "human_case_inference_validation": "Raw audited case/context roundtrip passed1594880known-user validation forecasts; max absolute reproduction error1.1920929e-7. Empty history marker17 excluded from history length; no current target fields or final test predictions.",
+  "environment_diversity_extension": "Complete400worlds,96000metric rows,19200persisted-kernel certificate replays; broad-narrow full-state initial-completion absolute error delta-0.012345, exploratory95%seed-cluster interval[-0.013800,-0.010859]. Negative-control maximum mean error4.75e-16. No human inference.",
+  "human_intervention_withheld_conditions": "Open implementable six-fold duration-group calibration/refinement holdout design, five known-user fits. Existing all-group100candidate models only test future recorded responses. Do not substitute them for held-out-condition transfer. Teacher priors and controls still require implementation and freeze.",
+  "human_response_precision_planning": "Five all-group models: validation-only retrodictive variance proxy complete, fixed known-duration test eligibility375340cases/23284users. No final predictions/metrics. Separate held-out-condition models not built.",
+  "heldout_response_construction": {
+    "fitted_seeds": 5,
+    "folds_per_seed": 6,
+    "models": 600,
+    "point_certificates_replayed": 45000,
+    "neutral_certificates_replayed": 600,
+    "stored_output_hashes_verified": true,
+    "final_test_scoring": "none"
+  },
+  "nested_primary_compression": "All ten fixed primary strict outputs retain256of256latent states, failing2xcompression. Secondary finite-property models do not replace primary.",
+  "nested_output_hash_audit": "10 fits,670 stored model/certificate files match recorded hashes; no additional numerical replay claim",
+  "heldout_response_precision": {
+    "status": "complete",
+    "aggregate_fits": 5,
+    "fold_pairs": 30,
+    "structurally_identical_fold_pairs": 18,
+    "canonical_test_cases": 375340,
+    "canonical_test_users": 23284,
+    "final_test_scores": 0
+  },
+  "comparative_validation_bridge": {
+    "status": "complete",
+    "source_digest": "22d587bbc968fded84ac0649bbe755787c5e80d4abc601ce7de38e80e5801b1e",
+    "probes": 2,
+    "models_per_probe": 42,
+    "total_cases": 1753939,
+    "verified_output_files": 66,
+    "maximum_neural_reproduction_error": 1.7881393432617188e-07,
+    "exact_quantizer_assignment_roundtrip": true,
+    "scope": "Retrospective validation comparator engineering checks, not final human predictive fidelity."
+  },
+  "nominal_replay": {
+    "status": "complete",
+    "source_digest": "15ecee307ea68a1611f7e29b5ce16c8dd3646784c12cbc1ba35887905a8f446f",
+    "chunks": 400,
+    "verified_datasets": 4000,
+    "verified_point_certificates": 8000,
+    "failures": 0,
+    "scope": "Separately executed arithmetic replay, not an independent theorem proof"
+  },
+  "multistep_direct_heads": {
+    "preparation_status": "complete",
+    "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+    "known_train_origins": 1654438,
+    "known_validation_origins": 1396339,
+    "unseen_train_origins": 1158132,
+    "unseen_validation_origins": 139656,
+    "independent_audit": "Complete32buckets, reportSHA93565442cd23ad7cfb2fa9eb44578cf9335ce37081ff3b58c9516d56d890a80f",
+    "head_spec": "configs/human-horizon-heads-v1.json",
+    "head_training": {
+      "status": "full_batch_submitted_waiting_for_last_encoder",
+      "source_digest": "1d02241d8a785a9587f2c411cdcf957118c35bf451f545e5d0b0b259d0e38077",
+      "function_call_id": "fc-01M519AGR0JCD3F83JVJ1H90JG",
+      "expected_fits": 30,
+      "smoke_complete": true,
+      "first_fit_max_iterations": 13,
+      "first_fit_wall_seconds": 37.806101111000004,
+      "full_worker_concurrency": 2,
+      "reservation_usd": 4.5,
+      "new_budget_ceiling_added": false,
+      "failed_original_solver_preserved": true
+    },
+    "final_test_scores": 0
+  },
+  "user_cluster_uncertainty": {
+    "status": "all_models_constructed_and_hash_verified",
+    "module": "src/behavioral_equivalence/cluster_ratio.py",
+    "specification": "spec/user-cluster-transition-uncertainty.md",
+    "focused_tests_passed": 10,
+    "scope": "Conditional simultaneous pooled user-count ratio intervals, not human Markov or multistep coverage",
+    "aggregate_interface": "Memory-bounded sufficient statistics; cap and unique-user audit required upstream",
+    "compiler": "pooled_decision_intervals: count-based emissions plus conditional transitions; total alpha split across families",
+    "function_call_id": "fc-01M51A9WY0ZTNKGDPPBNGHSSH6",
+    "app_id": "ap-IlKFAx2u96uwkedYWemaxo",
+    "source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+    "internal_reservation_usd": 0.5,
+    "internal_uncertainty_reserved_usd": 6.741612,
+    "internal_uncertainty_ceiling_usd": 8.0,
+    "collected_parent_reports": 10,
+    "expected_parent_reports": 10,
+    "preliminary_result": "All seven collected K256 models have wholly vacuous emission intervals; final manifest and certificate audit pending",
+    "verified_output_files": 100,
+    "model_count": 50,
+    "results": "reports/human-cluster-uncertainty-results.md",
+    "remaining": "Final held-out diagnostics, nominal comparisons, shift analysis and independent statistical review"
+  },
+  "latest_local_test_run": {
+    "passed": 345,
+    "skipped": 9,
+    "scope": "Current local environment; full installed-wheel cloud suite passes361with zero skips"
+  },
+  "horizon_comparator_checkpoint": {
+    "complete": 30,
+    "expected": 30,
+    "failures": 0,
+    "evidence": "reports/preflight/horizon-head-full-manifest.json",
+    "scope": "All30fits and990output hashes verified; no final test scoring",
+    "audit": "reports/preflight/horizon-head-full-output-audit.json",
+    "verified_output_files": 990
+  },
+  "billing_reconciliation_note": {
+    "old_query_excluded_research_rows": 14,
+    "old_window_missing_usd": "0.46373874",
+    "shared_row_cost_changes_usd": "0.00000000",
+    "reason": "Old query relied partly on recent-app inventory; whole-workspace prefix/identity filtering recovers omitted older research app IDs."
+  },
+  "final_one_step_evaluator": {
+    "status": "implemented_not_submitted",
+    "controller": "cloud/evaluate_human_one_step.py",
+    "config": "configs/human-final-one-step-v1.json",
+    "fit_matrix": 10,
+    "gate_tests": 12,
+    "remaining": "Joint analysis freeze, full source-bound cloud execution, human response/horizon/uncertainty evaluation integration and final figures",
+    "feedback_availability_hours": [
+      0,
+      24,
+      48
+    ]
+  },
+  "final_multistep_evaluator": {
+    "status": "implemented_data_free_cloud_check_passed",
+    "controller": "cloud/evaluate_human_horizons.py",
+    "config": "configs/human-final-horizon-v1.json",
+    "fit_matrix": 10,
+    "methods": "Three direct encoders, finite parent and full nested grid, Markov/neural/teacher frozen-origin iid references",
+    "storage": "Lossless factorized forecast archive",
+    "final_test_scoring": "none",
+    "cloud_tests_passed": 24,
+    "source_digest": "cef14a90ffca1e891a554df03668f977c3ff94eb17c752d5aabb2a41975003cd",
+    "test_report": "reports/preflight/horizon-final-implementation-cef14a90ffca1e89.json",
+    "scope": "Synthetic numerical bridge and integrity tests, no final human predictions"
+  },
+  "joint_human_analysis_lock": {
+    "status": "frozen_and_remote_hash_verified",
+    "phases": [
+      "one_step",
+      "direct_horizon",
+      "response_all_groups",
+      "response_heldout_groups"
+    ],
+    "specification": "spec/human-final-analysis-freeze.md",
+    "remaining": "Run and independently audit all50final jobs, interpret results, complete publication and release obligations",
+    "freeze_sha256": "f8711071351e0709e79518e030f17d3b79495c78050c13683781982b3b5b6cac",
+    "bound_artifacts": 113,
+    "manifest": "reports/final-analysis-freeze.json"
+  },
+  "final_response_evaluators": {
+    "status": "implemented_data_free_tests_passed_before_resource_config_lock",
+    "controller": "cloud/evaluate_human_responses.py",
+    "phases": [
+      "response_all_groups",
+      "response_heldout_groups"
+    ],
+    "seeds_per_phase": 5,
+    "variants_per_fold": 20,
+    "heldout_folds": 6,
+    "replicas_per_original_case": 3,
+    "cloud_check_tests_passed_each": 32,
+    "scope": "All variants, strong baseline comparisons, original-user scoring. No final human predictions."
+  },
+  "final_compute_quote": "reports/preflight/final-human-compute-quote.json",
+  "final_human_execution": {
+    "status": "scoring_and_full_output_audit_complete",
+    "plan": "reports/final-human-job-plan.json",
+    "progress": "reports/preflight/final-human-job-progress.json",
+    "jobs": 50,
+    "maximum_attached_jobs": 2,
+    "reservations_usd": 21.56144,
+    "campaign_reserved_usd": 39.702368,
+    "campaign_ceiling_usd": 40,
+    "scope": "Reservations are not actual billing or provider-enforced lifetime caps",
+    "complete": 50,
+    "expected": 50,
+    "failed_or_unresolved": 0,
+    "runner_session_id": 77418,
+    "primary_decisions": "reports/final-human-primary-decisions.json",
+    "output_audit": "reports/preflight/final-human-output-audit-c35f26f7073a-df48b059eac8.json",
+    "output_audit_summary": {
+      "jobs": 50,
+      "hashes": 1660,
+      "proper_loss_cells": 13320,
+      "primary_bootstraps": 290,
+      "maximum_nll_difference": 5.551115123125783e-16
+    }
+  },
+  "publication_update": {
+    "status": "interim_drafts_rewritten",
+    "paper": "reports/paper-draft.md",
+    "blog": "reports/blog-draft.md",
+    "scope": "Corrected stale model counts and duplicate checkpoints, added completed uncertainty findings and labeled first-seed human results preliminary. Full human results and figures pending."
+  },
+  "human_figure_preparation": {
+    "status": "aggregate_table_builder_and_cloud_renderer_implemented_not_rendered",
+    "tool": "tools/build_human_figure_tables.py",
+    "required_primary_fits": 10,
+    "required_response_fits": 10,
+    "scope": "Complete primary and response matrices required; plots use every fixed seed and model family. No substitute synthetic human figures",
+    "renderer": "cloud/figure_human.py"
+  },
+  "final_output_audit": {
+    "status": "first_five_job_batch_passed",
+    "controller": "cloud/audit_final_human.py",
+    "function_call_id": "fc-01M51CNQF5ANP68K5MBZXP1H35",
+    "jobs_in_batch": 5,
+    "scope": "Output hashes, all-case/aggregate proper losses and explicit original-user primary bootstrap replay; secondary calibration and neural forward replay excluded",
+    "internal_reservation_usd": 0.18,
+    "files_hash_verified": 167,
+    "proper_loss_cells_replayed": 2345,
+    "primary_bootstraps_replayed": 53
+  },
+  "formal_proof_check": {
+    "status": "recurrence_coupling_and_weighted_event_components_checked",
+    "report": "reports/preflight/formal-bounds-1ced0e17dddc9982.json",
+    "lean": "4.19.0",
+    "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+    "scope": "Generic finite maximal coupling, weighted-event inequality and recurrence/interval lemmas checked. Partition lift/path-law integration remains analytical; statistical and numerical implementation proofs remain separate.",
+    "coupling_report": "reports/preflight/finite-coupling-4ceca2656733c1b0.json",
+    "event_report": "reports/preflight/weighted-events-15700c304db4d15e.json",
+    "invalid_proof_controls_rejected": 2,
+    "retained_failed_coupling_attempts": 2,
+    "integration": "spec/coupling-integration.md"
+  },
+  "billing_checkpoint": {
+    "observed_at": "2026-10-16T04:00:09.911568+00:00",
+    "posted_research_usd": "35.87953251",
+    "latest_populated_hour": "2026-10-16T03:00:00Z",
+    "scope": "Research apps only, whole-workspace query filtered after retrieval. Posted metered cost, not net invoice or total project cost."
+  },
+  "execution_release_review": {
+    "status": "in_progress",
+    "audit": "reports/qa/execution-release-iteration-1.md",
+    "packager_boundary_tests_passed": 8,
+    "packager_lint": "passed",
+    "remaining": [
+      "broader execution/release QA and whole-repository coverage audit",
+      "new source package and reproduction after operational fixes"
+    ],
+    "locked_inference_changed": false,
+    "runner_operational_amendment": "reports/qa/runner-operational-amendment.md",
+    "targeted_runner_packager_tests_passed": 21,
+    "legacy_runner_restarted": false,
+    "runner_tests_passed": 23,
+    "recovery_boundary_simulations": 5,
+    "live_observation": "reports/preflight/final-human-live-observation.json",
+    "concurrent_sibling_error_test": "passed with retained original handles and pending third job"
+  },
+  "supplementary_outcomes": {
+    "status": "fitting_cohort_complete_first_of30_head_fits_submitted",
+    "specification": "spec/supplementary-outcomes.md",
+    "target_tests_passed": 15,
+    "cloud_jobs_submitted": 2,
+    "provider_inference_calls": 0,
+    "next_gate": "Complete fitting cohort and independently audit role/sample identity before head fitting",
+    "physical_source_join": "implemented and corruption tested; complete cloud attachment audit pending",
+    "audit_allowance_remaining_usd": 0.374062,
+    "function_call_id": "fc-01M51FS1QRRKQGTA6HZR0NZ96W",
+    "source_digest": "53b74b1e479f0a1fb83d3e33db428c906050870d1011e02155e756bc6f7f3758",
+    "reservation_usd": 0.3,
+    "observed_at": "2026-10-16T04:41:01.882673+00:00",
+    "attachment_report": "reports/preflight/supplementary-targets-53b74b1e479f0a1f.json",
+    "canonical_cases": 14534926,
+    "pending": "Pinned fitting tests, supplementary training freeze/quote, head fitting, emission/certificate construction and complete scoring",
+    "validation_report": "reports/preflight/supplementary-validation-d36ae2269d0933a4.json",
+    "cloud_validation_tests_passed": 25,
+    "cloud_validation_skipped": 0,
+    "validation_reservation_usd": 0.03,
+    "candidate_fitting_design": "configs/human-supplementary-heads-v1.json",
+    "planned_head_reservation_usd": 4.5,
+    "head_budget_status": "quoted_not_reserved",
+    "current_local_target_and_score_tests_passed": 31,
+    "current_local_optional_fit_tests_skipped": 2,
+    "cloud_validation_scope": "25 tests at retained d36ae2269d0933a4 snapshot; later sampling/scoring helpers not yet cloud revalidated",
+    "fitting_cohort_job": [
+      {
+        "function_call_id": "fc-01M51G2KMDRSNVTCM101VB1H6T",
+        "source_digest": "287d52d00557d282db992afca78bd4b29413c26dfb7bbde9913f5a69ee8770ca",
+        "statuses": [
+          "0"
+        ]
+      }
+    ],
+    "cohort_preparation_reservation_usd": 0.1,
+    "head_source_digest": "5d9fae59fec2dbbfeafa086f78d98e16347ff7c3a020fb22cc43c89b5f5a3e5a",
+    "first_head_call_id": "fc-01M51G6GSKFZM4RR3DAQ7M5NV9",
+    "head_matrix_reserved_usd": 4.5,
+    "head_fit_jobs_submitted": 1,
+    "cohort_report": "reports/preflight/supplementary-fit-cohort-287d52d00557d282.json",
+    "one_outcome_abstraction_tests_passed": 5,
+    "one_outcome_certificate_scope": "separate endpoint next-observation only; no new sequential or joint-endpoint guarantee",
+    "calibration_target_attachment": "all32 complete with independent target arithmetic replay",
+    "calibration_target_report": "reports/preflight/supplementary-adjacent-targets-128efa849c042a5b.json",
+    "calibration_queries": 2039043,
+    "calibration_target_runtime_seconds": 28.0743266,
+    "calibration_target_reservation_usd": 0.3,
+    "calibration_state_reuse": "Existing10 GRU/quantizer parent state files, no new neural calibration inference required",
+    "calibration_matrix_reservation_usd": 1.5,
+    "calibration_first_call": "fc-01M51GPYNS8G6DQ9RKGKSQ4ZCH",
+    "calibration_source_digest": "68edad5c7113cb6d09663a86f3c465e0293d9625475e7c8f82999e39646dc531",
+    "scoring_helpers": "tools/supplementary_metrics.py",
+    "uniform_uncertainty_envelope": "spec/supplementary-uncertainty-envelope.md",
+    "scoring_and_envelope_tests_passed": 9,
+    "calibration_known_user_fits_complete": 5,
+    "head_fits_complete": 30,
+    "calibration_fits_complete": 10,
+    "calibration_point_interval_models": 300,
+    "calibration_certificates_replayed": 1200,
+    "final_config_sha256": "a4b6c454cfd265e2bfd93f834f1db2b8af59e6aee95e6c8ed0904c4a0b407df0",
+    "final_source_digest": "9a4cb36c39c2419e034a088daa1a6622c6bec84f45f443a5ecb69e2a35b8f4d1",
+    "final_scoring_matrix_reservation_usd": 3,
+    "final_status": "all first-job source buckets processed; aggregate/bootstrap/diagnostic phase still running",
+    "first_final_function_call_id": "fc-01M51HEHJ4KRGAB82YC98933D7",
+    "final_scoring_reservation_status": "all10 reserved within existing40 allowance",
+    "first_final_processed_cases": 3220197,
+    "first_final_completed_buckets": 32,
+    "current_local_tests_passed": 439,
+    "current_local_optional_skips": 11,
+    "archive_status": "freeze/source, completed summaries and proof artifacts uploaded to private R2 and downloaded for SHA verification",
+    "output_audit_controller": "cloud/audit_supplementary.py",
+    "output_audit_helper_tests_passed": 3,
+    "output_audit_status": "implemented_not_submitted_pending_complete_scored_report",
+    "output_audit_planned_reservation_usd": 1
+  },
+  "latest_budget_checkpoint": {
+    "observed_at": "2026-10-16T06:06:47.726679+00:00",
+    "posted_modal_research_usd": "38.54944787",
+    "latest_populated_hour": "2026-10-16T05:00:00Z",
+    "scope": "Research apps only, whole-workspace query filtered after retrieval. Posted metered cost, not net invoice or total project cost.",
+    "internal_campaign_allowances_usd": 414.0,
+    "internal_reservations_usd": 369.382919,
+    "user_approved_global_cap_usd": null,
+    "ledgers": [
+      {
+        "ledger": "adjacent-audit-budget.sqlite",
+        "ceiling_usd": 5.0,
+        "reserved_usd": 2.123776
+      },
+      {
+        "ledger": "adjacent-calibration-budget.sqlite",
+        "ceiling_usd": 3.0,
+        "reserved_usd": 1.995044
+      },
+      {
+        "ledger": "calendar-quantization-budget.sqlite",
+        "ceiling_usd": 40.0,
+        "reserved_usd": 36.330144
+      },
+      {
+        "ledger": "calendar-support-budget.sqlite",
+        "ceiling_usd": 2.0,
+        "reserved_usd": 0.86834
+      },
+      {
+        "ledger": "calibrated-parent-budget.sqlite",
+        "ceiling_usd": 25.0,
+        "reserved_usd": 21.815072
+      },
+      {
+        "ledger": "case-inference-verification-budget.sqlite",
+        "ceiling_usd": 0.5,
+        "reserved_usd": 0.257728
+      },
+      {
+        "ledger": "environment-diversity-budget.sqlite",
+        "ceiling_usd": 8.0,
+        "reserved_usd": 7.830904
+      },
+      {
+        "ledger": "heldout-response-budget.sqlite",
+        "ceiling_usd": 4.0,
+        "reserved_usd": 2.122313
+      },
+      {
+        "ledger": "history-state-budget.sqlite",
+        "ceiling_usd": 4.0,
+        "reserved_usd": 3.39592
+      },
+      {
+        "ledger": "human-case-audit-budget.sqlite",
+        "ceiling_usd": 4.0,
+        "reserved_usd": 3.625938
+      },
+      {
+        "ledger": "human-cases-budget.sqlite",
+        "ceiling_usd": 4.0,
+        "reserved_usd": 3.794316
+      },
+      {
+        "ledger": "human-training-calendar-budget.sqlite",
+        "ceiling_usd": 15.0,
+        "reserved_usd": 14.299953
+      },
+      {
+        "ledger": "human-training-calendar-v2-budget.sqlite",
+        "ceiling_usd": 30.0,
+        "reserved_usd": 29.987888
+      },
+      {
+        "ledger": "human-training-calendar-v3-budget.sqlite",
+        "ceiling_usd": 60.0,
+        "reserved_usd": 58.414352
+      },
+      {
+        "ledger": "human-training-calendar-v4-replicates-budget.sqlite",
+        "ceiling_usd": 40.0,
+        "reserved_usd": 36.879728
+      },
+      {
+        "ledger": "integer-audit-budget.sqlite",
+        "ceiling_usd": 30.0,
+        "reserved_usd": 28.515328
+      },
+      {
+        "ledger": "intervention-analysis-budget.sqlite",
+        "ceiling_usd": 3.0,
+        "reserved_usd": 2.014338
+      },
+      {
+        "ledger": "intervention-budget.sqlite",
+        "ceiling_usd": 20.0,
+        "reserved_usd": 16.2074
+      },
+      {
+        "ledger": "multistep-audit-budget.sqlite",
+        "ceiling_usd": 1.0,
+        "reserved_usd": 0.988762
+      },
+      {
+        "ledger": "multistep-test-budget.sqlite",
+        "ceiling_usd": 2.0,
+        "reserved_usd": 1.433552
+      },
+      {
+        "ledger": "nested-human-budget.sqlite",
+        "ceiling_usd": 40.0,
+        "reserved_usd": 39.702368
+      },
+      {
+        "ledger": "nominal-ablation-budget.sqlite",
+        "ceiling_usd": 2.0,
+        "reserved_usd": 1.999609
+      },
+      {
+        "ledger": "random-response-calibration-budget.sqlite",
+        "ceiling_usd": 3.0,
+        "reserved_usd": 1.12148
+      },
+      {
+        "ledger": "randomized-audit-budget.sqlite",
+        "ceiling_usd": 1.0,
+        "reserved_usd": 0.988762
+      },
+      {
+        "ledger": "randomized-cases-budget.sqlite",
+        "ceiling_usd": 2.0,
+        "reserved_usd": 1.433552
+      },
+      {
+        "ledger": "repeated-replay-budget.sqlite",
+        "ceiling_usd": 12.0,
+        "reserved_usd": 11.645488
+      },
+      {
+        "ledger": "resolution-support-budget.sqlite",
+        "ceiling_usd": 3.0,
+        "reserved_usd": 2.21296
+      },
+      {
+        "ledger": "response-certificate-budget.sqlite",
+        "ceiling_usd": 1.0,
+        "reserved_usd": 0.29579
+      },
+      {
+        "ledger": "response-frontier-budget.sqlite",
+        "ceiling_usd": 1.0,
+        "reserved_usd": 0.29579
+      },
+      {
+        "ledger": "synthetic-budget.sqlite",
+        "ceiling_usd": 25.0,
+        "reserved_usd": 17.998034
+      },
+      {
+        "ledger": "uncertainty-budget.sqlite",
+        "ceiling_usd": 8.0,
+        "reserved_usd": 7.121612
+      },
+      {
+        "ledger": "uncertainty-repeated-budget.sqlite",
+        "ceiling_usd": 15.0,
+        "reserved_usd": 11.176928
+      },
+      {
+        "ledger": "validation-precision-budget.sqlite",
+        "ceiling_usd": 0.5,
+        "reserved_usd": 0.48975
+      }
+    ],
+    "coverage_correction": {
+      "old_query_excluded_research_rows": 14,
+      "old_window_missing_usd": "0.46373874",
+      "shared_row_cost_changes_usd": "0.00000000",
+      "reason": "Old query relied partly on recent-app inventory; whole-workspace prefix/identity filtering recovers omitted older research app IDs."
+    },
+    "unreconciled": [
+      "Unposted live compute",
+      "Unattributed provider storage and volume costs",
+      "Cloudflare R2",
+      "Credits and net invoice treatment",
+      "Codex conversation costs"
+    ],
+    "provider_inference_calls": 0,
+    "reservation_observed_at": "2026-10-16T06:07:54.590212+00:00"
+  },
+  "human_response_decisions": {
+    "status": "complete_scoring_both_fixed5seed_studies",
+    "study_A": "unsupported under all5 strict improvement criterion",
+    "study_B": "unsupported under all5 strict improvement criterion",
+    "output_audit": "full50 job replay pending",
+    "report": "reports/human-response-final-decisions.md"
+  },
+  "cloud_spend_scope": "Research apps only, whole-workspace query filtered after retrieval. Posted metered cost, not net invoice or total project cost.",
+  "completion_audit_open_requirements": {
+    "unified_ablation_evidence": "reports/unified-ablation-evidence.md",
+    "complete_horizon_extraction": "reports/human-horizon-comparison-table.json"
+  },
+  "sample_size_requirement_reconciliation": "Original certification-data-availability ablation is covered by 100/1000/10000 transition-row samples. Human encoder learning-curve retraining is not an additional required gate.",
+  "trajectory_extension": {
+    "status": "scoring_and_independent_replay_complete",
+    "implementation": "tools/trajectory_likelihood.py",
+    "specification": "spec/trajectory-evaluation.md",
+    "focused_tests_passed": 26,
+    "primary_analysis_changed": false,
+    "new_cloud_jobs": 1,
+    "reconstruction_source": "cloud/prepare_trajectory_sequences.py",
+    "sequence_checks": "tools/trajectory_targets.py",
+    "reconstruction_reservation_usd": 0.3,
+    "reconstruction_ledger": "calibrated-parent-budget.sqlite",
+    "log": "/tmp/research-trajectory-sequences.log",
+    "design": "configs/human-trajectory-supplement-v1.json",
+    "scoring_status": "not_launched",
+    "inference_reused": true,
+    "reconstruction_report": "reports/preflight/trajectory-sequences-f0ea31ab14ee9c5e.json",
+    "reconstruction_origins": 1539530,
+    "scoring_source": "cloud/evaluate_trajectories.py",
+    "scoring_source_digest": "008e1d7a132aabdb0479b8f6a6ab5cf7e9bb09f028d219b6f496b11d1658a5f0",
+    "scoring_config": "configs/human-trajectory-final-v1.json",
+    "scoring_config_sha256": "d835fc6ded1b46f5982efabed5677910ca9ecea64911bf2a429f2be7b12ab6cf",
+    "scoring_completed": 10,
+    "scoring_expected": 10,
+    "scoring_matrix_reserved_usd": 3.0,
+    "campaign_reserved_usd": 21.515072,
+    "first_result": "reports/trajectory-final/known_users-20261015.json",
+    "scoring_log": "/tmp/research-trajectory-matrix.log",
+    "audit_source": "cloud/audit_trajectories.py",
+    "audit_log": "/tmp/research-trajectory-audit.log",
+    "audit_reservation_usd": 0.3,
+    "audit_report": "reports/preflight/trajectory-output-audit-6963249238dc5d0e.json",
+    "results": "reports/human-trajectory-results.md"
+  },
+  "deliverable_completion": {
+    "D1": "complete",
+    "D2": "complete",
+    "D3": "complete",
+    "D4": "complete",
+    "D5": "complete",
+    "D6": "complete",
+    "D7": "complete",
+    "D8": "complete",
+    "D9": "in_progress"
+  },
+  "supplementary_endpoint_execution": {
+    "scoring_complete": 10,
+    "expected": 10,
+    "audit_status": "complete",
+    "audit_log": "/tmp/research-supplementary-audit-matrix.log",
+    "results": "reports/supplementary-endpoint-results.md",
+    "audit_summary": "reports/preflight/supplementary-output-audit-summary.json"
+  },
+  "state_sufficiency_diagnostic": {
+    "status": "complete",
+    "cloud_source": "cloud/diagnose_state_sufficiency.py",
+    "local_unit_tests_passed": 7,
+    "log": "/tmp/research-state-sufficiency.log",
+    "reservation_usd": 0.25,
+    "ledger": "calibrated-parent-budget.sqlite",
+    "scope": "Post-hoc descriptive within-state heterogeneity; not a Markov sufficiency theorem or adjusted discovery.",
+    "report": "reports/preflight/state-sufficiency-d1d51a45cdd9c084.json",
+    "interpretation": "reports/state-sufficiency-results.md"
+  },
+  "release_candidate": {
+    "status": "candidate_pending_final_review",
+    "path": "reports/releases/behavioral-equivalence-research-fbe7d105b85dad46.tar.gz",
+    "sha256": "fbe7d105b85dad46ff5f5c9732461d768c9018a5dae321d35ba6f4f726e59e56",
+    "bytes": 20437182,
+    "files": 859,
+    "contents_manifest": "reports/releases/contents-b06c0cf8b5de7a8a.json",
+    "contents_sha256": "b06c0cf8b5de7a8a05bd21b7c5dd4aa6b9143c949babc569360fcc8e0436138b",
+    "all_archive_members_readback_verified": true,
+    "source_archive_sha256": "a17e2c0f4cb5207b74a57bc2847612bb3e2b13b0b616e8ff31b4b60764b54b1b",
+    "validation": "reports/qa/release-candidate-validation.md",
+    "r2_archive_readback": "complete",
+    "secret_scan": "passed"
+  },
+  "latest_local_validation": {
+    "tests_passed": 1257,
+    "tests_skipped": 7,
+    "command": "installed-wheel full suite, exact command retained in reports/preflight/identifier-integrity-corrected-wheel-validation.json",
+    "lint": "passed",
+    "scope": "Corrected wheel, no source-path injection; pinned local Polars; eight optional skips"
+  },
+  "latest_release_candidate_includes_current_source": false,
+  "final_qa": {
+    "inventory": "reports/qa/source-audit-inventory.json",
+    "source_files": 210,
+    "source_files_with_linked_scoped_review": 64,
+    "whole_repository_ship_ready": false,
+    "remaining": "Review unassessed source and close identified gaps, then refresh and accept final release package and publish permitted source repository."
+  },
+  "budget_checkpoint": "reports/preflight/research-budget-checkpoint.json",
+  "release_source_review": {
+    "status": "ship_ready_research_release",
+    "inventory": "reports/qa/source-audit-inventory.json",
+    "scoped_review_links": 210,
+    "executable_source_files": 210,
+    "remaining_source_files": [],
+    "latest_review": "reports/qa/whole-source-release-audit.md",
+    "selected_figure_integrity": "reports/preflight/selected-figure-artifact-review.json",
+    "scope": "Scoped review links and artifact identity are not whole-source acceptance. Strict environment validation and final candidate/publication remain open.",
+    "identity_check": "reports/preflight/complete-source-review-identity.json",
+    "whole_source_acceptance": "reports/preflight/whole-source-release-qa-acceptance.json"
+  },
+  "current_source_strict_validation": {
+    "status": "complete",
+    "report": "reports/preflight/source-package-reproduction-ecc5a586bd135738-e52eea4696b4.json",
+    "source_archive_sha256": "ecc5a586bd135738b51dca2b392f55da94e9f8aeba4fcfe1a76f296ccde84cb2",
+    "source_files": 492,
+    "tests_passed": 1663,
+    "tests_skipped": 0,
+    "warnings_as_errors": true,
+    "scientific_reproduction": {
+      "status": "complete",
+      "worlds": 10,
+      "mechanism_families": [
+        "preference",
+        "belief",
+        "trust",
+        "patience",
+        "memory"
+      ],
+      "method_families": 6,
+      "certificate_replays": 10,
+      "external_queries": 20,
+      "maximum_external_difference": 3.3306690738754696e-16,
+      "scope": "Fresh 32-state scientific subset, all five mechanisms, exact/perturbed worlds, all six abstraction method families and all four horizons; 20 independent PRISM point queries. Not a repeat of the full 1200-world matrix or human training."
+    },
+    "function_call_id": "fc-01M520Y7NHR8HFS7ZY04DKRJWF",
+    "budget_accounting": "reports/preflight/current-source-validation-budget-accounting.json"
+  },
+  "current_source_test_extension": {
+    "status": "verified_test_only_extension",
+    "observed_at": "2026-10-16T09:33:01.306460+00:00",
+    "current_source": {
+      "sha256": "ecc5a586bd135738b51dca2b392f55da94e9f8aeba4fcfe1a76f296ccde84cb2",
+      "path": "reports/source-snapshots/source-ecc5a586bd135738b51dca2b392f55da94e9f8aeba4fcfe1a76f296ccde84cb2.tar.gz",
+      "source_files": 492,
+      "bytes": 757122
+    },
+    "parent_source_sha256": "ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12",
+    "parent_strict_validation": "reports/preflight/source-package-reproduction-ad74b89a721bbbba-e52eea4696b4-explicit-mount.json",
+    "unchanged_parent_source_entries": 490,
+    "added": [
+      "tests/test_final_controller_freeze_gates.py",
+      "tests/test_release_checker_boundaries.py"
+    ],
+    "generated_manifest_changed": true,
+    "release_checker_tests": 16,
+    "release_checker_test_sha256": "c2ac0dd498ff34d9603e9a849653c671b378af1c6c2d9276cdc6ba7930d632cd",
+    "test_command": "PYTHONPATH=/tmp/research-response-installed .venv/bin/python -m pytest -q -W error -o pythonpath= tests/test_release_checker_boundaries.py",
+    "test_output": "16 passed in 0.10s",
+    "scope": "All 490 parent source entries unchanged. Sixteen added checker and twelve actual-controller freeze-gate tests pass locally. Parent 1635-test cloud run plus 28 added local tests are separate executions, not a new 1663-test cloud run.",
+    "final_controller_freeze_tests": 12,
+    "total_added_tests": 28,
+    "final_controller_freeze_test_sha256": "78d108b4326f84c09a9937efbb211e77d8b1962b13b0acede2c30b535fa3efd0"
+  }
+}

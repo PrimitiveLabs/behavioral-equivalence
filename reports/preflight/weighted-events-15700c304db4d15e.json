@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "source_digest": "15700c304db4d15e8c44768ff35ef5b68df46405694853041e272bbf81cc745b",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "lean_version": "Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)",
+  "returncode": 0,
+  "invalid_proof_control_returncode": 1,
+  "invalid_proof_control_output": "/tmp/invalid-coupling-control.lean:1:22: error: type mismatch\n  True.intro\nhas type\n  True : Prop\nbut is expected to have type\n  False : Prop\n",
+  "compiler_output": "/research/WeightedEvents.lean:13:0: warning: automatically included section variable(s) unused in theorem 'BehavioralEvents.finite_absolute_sum':\n  [Fintype \u03a9]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [Fintype \u03a9] in theorem ...\nnote: this linter can be disabled with `set_option linter.unusedSectionVars false`\n'BehavioralEvents.event_difference_from_matched_paths' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "proof_sha256": "1eb801090186b87ca0c5eb105655953aa92601c800f150c1c919e7139d05fea8",
+  "theorems": [
+    "BehavioralEvents.finite_absolute_sum",
+    "BehavioralEvents.event_difference_from_matched_paths"
+  ],
+  "scope": "Finite joint-path weighted event-disagreement inequality and complement-mass identity. Joint-path construction from stochastic kernels and statistical/numerical validity remain separate obligations.",
+  "wall_seconds": 5.5281553379999995,
+  "root": "/artifacts/weighted-events-15700c304db4d15e"
+}

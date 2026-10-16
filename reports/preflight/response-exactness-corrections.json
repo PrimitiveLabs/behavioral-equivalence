@@ -1,0 +1,22 @@
+{
+  "status": "verified_local_corrections",
+  "corrected_modules": [
+    {
+      "module": "heldout_response.py",
+      "old_sha256": "68a56391e31d57e3c106f01556e21a6f7103c50901f7dab9faee668561d516bc",
+      "new_sha256": "08aceca2ffb6dde58f3ca381777e59715b2cc019753f7da4ff70bbe7387151d1"
+    },
+    {
+      "module": "neutral_response.py",
+      "old_sha256": "2d8ca6b014de61f960f51240024acaf75780162f14859e8d8ac0c5386a8cdb4d",
+      "new_sha256": "62698e9b15740ca2c71b5aff81b113f7db34e8306330545cc7d7e54d490a8a07"
+    }
+  ],
+  "defects": [
+    "Teacher-response prior fails with accepted uint64 environment keys after mixed-integer promotion",
+    "Exact empirical response gap rounded integer success counts through float, losing a one-count difference above 2**53"
+  ],
+  "compatibility": "Teacher-prior arrays match the original for int16 environment inputs. Twenty synthetic bounded-count tables yield identical rational gaps; recorded observation counts are below 2**53. No original forecasts or tables overwritten.",
+  "scope": "Exactness for supplied fitted empirical counts only; no human significance, transition-kernel coverage or real intervention guarantee",
+  "frozen_source_restoration": "reports/preflight/frozen-human-source-restoration.json"
+}

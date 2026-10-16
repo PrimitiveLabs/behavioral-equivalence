@@ -1,0 +1,55 @@
+{
+  "status": "complete_with_optional_skips",
+  "scope": "Local installed-wheel numeric response regressions and full suite; no fresh cloud run, human inference or training",
+  "wheel_sha256": "8d9f08b5d571da66f2ffb389d6f935dfc46e8ac07b7beb57db0e0455f570dbeb",
+  "historical_cloud_wheel_sha256": "d035f9594ff2921ae72ffd2ccae3bb5fb3edb6a795c51d16542b69c28c021ede",
+  "wheel_python_modules_changed_from_cloud": [
+    "behavioral_equivalence/data_audit.py",
+    "behavioral_equivalence/heldout_response.py",
+    "behavioral_equivalence/human_protocol.py",
+    "behavioral_equivalence/item_context.py",
+    "behavioral_equivalence/neutral_response.py",
+    "behavioral_equivalence/quantization.py",
+    "behavioral_equivalence/random_response.py",
+    "behavioral_equivalence/resolution_support.py"
+  ],
+  "all_wheel_python_modules_match_current_source": true,
+  "installed_wheel_import_verified": true,
+  "checks": [
+    {
+      "command": [
+        "/Users/rohittalluri/projects/behavioral-equivalence/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error",
+        "-o",
+        "pythonpath=",
+        "tests/test_response_numeric_boundaries.py"
+      ],
+      "stdout": "......................                                                   [100%]\n22 passed in 0.08s\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/Users/rohittalluri/projects/behavioral-equivalence/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error",
+        "-o",
+        "pythonpath=",
+        "tests"
+      ],
+      "stdout": "........................................................................ [  5%]\n........................................................................ [ 11%]\n........................................................................ [ 16%]\n........................................................................ [ 22%]\n........................................................................ [ 28%]\n.....................................................................ss. [ 33%]\n........................................................................ [ 39%]\n........................................................................ [ 44%]\n........................................................................ [ 50%]\n........................................................................ [ 56%]\n........................................................................ [ 61%]\n........................................................................ [ 67%]\n........................................................................ [ 72%]\n........................................................................ [ 78%]\n........................................................................ [ 84%]\n...............ss....................................................... [ 89%]\n........................................................................ [ 95%]\n...........................................................              [100%]\n1279 passed, 7 skipped in 5.42s\n",
+      "stderr": "",
+      "returncode": 0
+    }
+  ],
+  "full_tests_passed": 1279,
+  "full_tests_skipped": 7,
+  "added_tests_passed": 22
+}

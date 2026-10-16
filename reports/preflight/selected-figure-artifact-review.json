@@ -1,0 +1,54 @@
+{
+  "status": "complete",
+  "scope": "Read-only retained figure file and input identities, not new rendering, arithmetic certification or human validation",
+  "selected_packages": 5,
+  "figures": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "bound_files": 46,
+  "records": [
+    {
+      "root": "reports/figures/figure-01/figure01-5fcd76d2f800",
+      "bound_files": 8,
+      "manifest_sha256": "461cc313c8626bca9631deeb7adae0025b0e2b0ba9925b8d0fe9188342668664",
+      "prior_visual_qa_status": "accepted"
+    },
+    {
+      "root": "reports/figures/figure-03/figure03-4018f31e66d7",
+      "bound_files": 6,
+      "manifest_sha256": "3ba8eccfaac171c745d7355d7326bd82dd67e680a1c2ce9f4f86f29000e29550",
+      "prior_visual_qa_status": "accepted"
+    },
+    {
+      "root": "reports/figures/figure-04/figure04-da567fa770d4",
+      "bound_files": 10,
+      "manifest_sha256": "771618f0e8ead1ce0e2ba4e3014ea7aef5b62c47584fb3d4fcc82a31ab2288e9",
+      "prior_visual_qa_status": "accepted"
+    },
+    {
+      "root": "reports/figures/figure-05/figure05-a1131dd6a645",
+      "bound_files": 15,
+      "manifest_sha256": "40b01da3b6a41c62a35e2e6b11658e2ed8d874ebd8b96602e26406b24d3a0661",
+      "prior_visual_qa_status": "accepted"
+    },
+    {
+      "root": "reports/figures/human-final-d424315e2f17fb77",
+      "bound_files": 7,
+      "manifest_path": "reports/preflight/human-figures-d424315e2f17fb77.json",
+      "manifest_sha256": "2362e70076aa44980b0bfea1ad1b642ba248d36b7f0e3ae3b56e71780ee96d71",
+      "figures": [
+        2,
+        6
+      ],
+      "all_twenty_input_report_hashes_match": true,
+      "plotted_table_matches_current_frozen_aggregates": true
+    }
+  ],
+  "human_visual_qa": "reports/figures/human-final-d424315e2f17fb77/visual-qa.json",
+  "human_visual_qa_sha256": "557718349bf893234b7c6adf1d726fda8b7c0c38bdab8c48163568db2b94a9ab"
+}

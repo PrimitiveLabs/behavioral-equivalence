@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "worlds": 1,
+  "failed_worlds": 0,
+  "bound_violations": 0,
+  "results": [
+    {
+      "key": "16aa2b7c90964c54f63d06fbf997c526d8e8eb6d09079425551e786e6fee1855",
+      "status": "complete",
+      "bound_violations": 0,
+      "wall_seconds": 92.814387608,
+      "cached": false
+    }
+  ],
+  "source_digest": "efb1f2efdad610e42c84d6e1ff786df54e4674510ffdba1a8b628cc739ff1089",
+  "protocol_digest": "5e94b1abc2e04633ab01879a7a5754e61df5601092b456653b9220d9ec18ecfa",
+  "resource_bound_estimate_usd": 2.7632432,
+  "actual_billing_usd": null,
+  "wall_seconds": 96.687504944,
+  "phase": "engineering_smoke",
+  "scope": "numerical synthetic checks; no human-fidelity or universal numerical soundness claim"
+}

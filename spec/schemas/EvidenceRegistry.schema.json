@@ -1,0 +1,126 @@
+{
+  "$defs": {
+    "ArtifactRef": {
+      "additionalProperties": false,
+      "properties": {
+        "sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        },
+        "uri": {
+          "minLength": 1,
+          "title": "Uri",
+          "type": "string"
+        },
+        "media_type": {
+          "minLength": 1,
+          "title": "Media Type",
+          "type": "string"
+        },
+        "bytes": {
+          "minimum": 0,
+          "title": "Bytes",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "sha256",
+        "uri",
+        "media_type",
+        "bytes"
+      ],
+      "title": "ArtifactRef",
+      "type": "object"
+    },
+    "EvidenceEntry": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence_id": {
+          "minLength": 1,
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "stage": {
+          "enum": [
+            "synthetic_summary",
+            "certificate_audit",
+            "uncertainty_summary",
+            "intervention_summary",
+            "human_training_checkpoint",
+            "human_quantization",
+            "human_calibrated_parent",
+            "human_nested_abstraction",
+            "human_data_audit",
+            "human_multistep_inputs",
+            "human_uncertainty",
+            "release_test_reproduction"
+          ],
+          "title": "Stage",
+          "type": "string"
+        },
+        "domain": {
+          "enum": [
+            "specified_model",
+            "human_data",
+            "release"
+          ],
+          "title": "Domain",
+          "type": "string"
+        },
+        "artifact": {
+          "$ref": "#/$defs/ArtifactRef"
+        },
+        "scope": {
+          "minLength": 1,
+          "title": "Scope",
+          "type": "string"
+        },
+        "parents": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Parents",
+          "type": "array"
+        }
+      },
+      "required": [
+        "evidence_id",
+        "stage",
+        "domain",
+        "artifact",
+        "scope"
+      ],
+      "title": "EvidenceEntry",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "0.1",
+      "default": "0.1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "verification_scope": {
+      "const": "artifact_identity_only",
+      "default": "artifact_identity_only",
+      "title": "Verification Scope",
+      "type": "string"
+    },
+    "entries": {
+      "items": {
+        "$ref": "#/$defs/EvidenceEntry"
+      },
+      "title": "Entries",
+      "type": "array"
+    }
+  },
+  "required": [
+    "entries"
+  ],
+  "title": "EvidenceRegistry",
+  "type": "object"
+}

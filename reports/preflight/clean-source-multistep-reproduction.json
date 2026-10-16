@@ -1,0 +1,10 @@
+{
+  "source_bundle": "reports/source-snapshots/source-b41522eff5b9d49af710f33332043422409ec080a591a11e8a2b1dfa8db8d275.tar.gz",
+  "sha256": "b41522eff5b9d49af710f33332043422409ec080a591a11e8a2b1dfa8db8d275",
+  "source_files": 237,
+  "tests_passed": 183,
+  "tests_skipped": 6,
+  "exit_code": 0,
+  "import_path": "/private/var/folders/36/q7wwvkz93znfkw5jst21_ff80000gn/T/behavioral-full-input-repro-r9pgm00a/src/behavioral_equivalence/__init__.py",
+  "scope": "Clean extracted source tests, not independent scientific campaign reproduction"
+}

@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "fits": 10,
+  "inputs": [
+    {
+      "path": "reports/supplementary-output-audit/known_users-20261015.json",
+      "sha256": "bfdf26f12e6e0ef8978f8c9a0fd3b2a8e246887765ddc3bb951e5c25bb8aeb17"
+    },
+    {
+      "path": "reports/supplementary-output-audit/known_users-20261016.json",
+      "sha256": "399d6f3a234f19e7b94151ab9f4c949f76ebcaa6dfea10e55a9a07bde7789400"
+    },
+    {
+      "path": "reports/supplementary-output-audit/known_users-20261017.json",
+      "sha256": "90053aa728557fe288ddc8361c35ff26d8d4ead7e969219cd21461fea24d94d5"
+    },
+    {
+      "path": "reports/supplementary-output-audit/known_users-20261018.json",
+      "sha256": "d739203d8184ae71bb025f201ab5f7af7df6f2a25fce8ace1be03e8b0dd67cff"
+    },
+    {
+      "path": "reports/supplementary-output-audit/known_users-20261019.json",
+      "sha256": "d69db8a7693fffcb1c11b0e81278a7a087f89fffe8cfe50a7ee896f694e3f308"
+    },
+    {
+      "path": "reports/supplementary-output-audit/unseen_users-20261015.json",
+      "sha256": "ccc0eb5d49000555963eb9a1bf480df1f47cba3ea734cee03df3a5c3e59dfece"
+    },
+    {
+      "path": "reports/supplementary-output-audit/unseen_users-20261016.json",
+      "sha256": "cfce3cd44be87031a43fd4e9daa8f3ef78008b845840d943f8715721d06d984c"
+    },
+    {
+      "path": "reports/supplementary-output-audit/unseen_users-20261017.json",
+      "sha256": "105e1eb2ad897c061c5ba8f17a23805d762fb42e2672a75c9f1bf6089810d25b"
+    },
+    {
+      "path": "reports/supplementary-output-audit/unseen_users-20261018.json",
+      "sha256": "28b49a2f3c8bbd31475280ba96e41ca2ddd3766819ff963c0f3b134d26f3cab9"
+    },
+    {
+      "path": "reports/supplementary-output-audit/unseen_users-20261019.json",
+      "sha256": "79f0884340f53287e6c2ff60fc22f28bf6258eee10d4f1cf7e79e19e34a5a5bf"
+    }
+  ],
+  "output_hashes_checked": 340,
+  "proper_loss_cells_checked": 7200,
+  "bootstrap_contrasts_checked": 1860,
+  "maximum_loss_difference": 8.881784197001252e-16,
+  "maximum_calibration_difference": 1.741606858729483e-12,
+  "scope": "Independent saved-forecast reconstruction and sorted-user categorical proper losses, all reported class/top calibration cells, private user statistics and all paired NLL bootstrap contrasts. No neural-forward/state-assignment recomputation. Interval compatibility diagnostics and uniform-envelope arithmetic are not independently replayed by this audit."
+}

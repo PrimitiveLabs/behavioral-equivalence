@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "observed_at": "2026-10-16T09:09:29.915147+00:00",
+  "inputs": [
+    {
+      "path": "reports/preflight/state-sufficiency-d1d51a45cdd9c084.json",
+      "sha256": "311c7dbce79ef8e97474f2ad3a2f3b1ac527d4fb25ffb00ee8f6886251e2abbd"
+    },
+    {
+      "path": "reports/preflight/environment-diversity-summary.json",
+      "sha256": "15fe472035a8f7002b1d32cfd3d557af9b9c5c266229f6f5a4d9d94f9d322d58"
+    },
+    {
+      "path": "reports/preflight/source-package-reproduction-6b90415e31c16537-e52eea4696b4.json",
+      "sha256": "cd33190cba48a1f01aac19b95b5e3057cf92311da8ba26b41e02fb04a43b024e"
+    },
+    {
+      "path": "reports/preflight/human-resolution-support-known_users-20261015.json",
+      "sha256": "095dc4ab4741759f9e6c29ee98c5b499714cd3fba44284ea75868ad390f2be5a"
+    },
+    {
+      "path": "reports/preflight/human-resolution-support-known_users-20261016.json",
+      "sha256": "06035623c6827da45790f0c6b72cef78fba4afcd83dbe1179541fb465ed7656d"
+    },
+    {
+      "path": "reports/preflight/human-resolution-support-known_users-20261017.json",
+      "sha256": "3971e381a950fcc6416b0d7351fe7dd114f22ab78f1a7d48fde664bfdd80ec99"
+    },
+    {
+      "path": "reports/preflight/human-resolution-support-known_users-20261018.json",
+      "sha256": "a02f91be671ddc955300877fa139c6ca366e7d497b931a7a00332e3f8ec209c4"
+    },
+    {
+      "path": "reports/preflight/human-resolution-support-known_users-20261019.json",
+      "sha256": "af188b2a18d6f0caf58709be14e96c57973d3c5c55fb856dd4859e2d69947f5e"
+    },
+    {
+      "path": "reports/preflight/human-resolution-support-unseen_users-20261015.json",
+      "sha256": "34a94cf3e854c689f04876c631ad96750a9d728c2049c5b09f5fe32ad642ad0e"
+    },
+    {
+      "path": "reports/preflight/human-resolution-support-unseen_users-20261016.json",
+      "sha256": "d003d6dbe86fb866ac98a7d857f7fe553790637e4446ae68126250f5676a2329"
+    },
+    {
+      "path": "reports/preflight/human-resolution-support-unseen_users-20261017.json",
+      "sha256": "2eb00334d02831d8afc8f9fa52aaded28e1028a964dbca1dc1629af41401f6a0"
+    },
+    {
+      "path": "reports/preflight/human-resolution-support-unseen_users-20261018.json",
+      "sha256": "2338d92a061c6db1d04d224dd5945e65601a6d644bc7438102f71ac0316a1efb"
+    },
+    {
+      "path": "reports/preflight/human-resolution-support-unseen_users-20261019.json",
+      "sha256": "a6f0bbe2a590888c9e52e2b691818d98362aa930436e31932530242de2a6eaf8"
+    }
+  ],
+  "state_sufficiency_fits": 10,
+  "resolution_support_fits": 10,
+  "synthetic_diversity_worlds": 400,
+  "diversity_recorded_certificate_replays": 19200,
+  "historical_installed_wheel_tests": 626,
+  "current_source_strict_validation": "still_open",
+  "scope": "Retained report scope and source linkage. No fresh private-data diagnostic, certificate replay, provider execution or strict test run."
+}

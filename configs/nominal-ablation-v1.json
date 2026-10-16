@@ -1,0 +1,18 @@
+{
+  "schema_version": "nominal-ablation-v1",
+  "phase": "secondary synthetic ablation after inspecting uncertainty results",
+  "campaign": "uncertainty-repeated-v1-d567478458e8",
+  "original_manifest_sha256": "38ebd31d33c62c5ea172123273804ba134af0c7e1735314ba31bde90d1cd6905",
+  "original_replay_source": "0c72c9bd01f19b9a920d5af19e16180fdc70e1dfb8ced0588c50ef7d42ddcde2",
+  "chunks": 400,
+  "datasets": 4000,
+  "expected_point_evaluations": 8000,
+  "statistical_coverage_claim": "none",
+  "budget_usd": 2,
+  "worker_timeout_seconds": 120,
+  "worker_cpu": 2,
+  "worker_memory_gib": 4,
+  "coordinator_timeout_seconds": 3600,
+  "maximum_workers": 4,
+  "scope": "Reuse original retained counts; remove statistical transition uncertainty while retaining the uniform hidden-state abstraction envelope. No new human inference or provider API calls."
+}

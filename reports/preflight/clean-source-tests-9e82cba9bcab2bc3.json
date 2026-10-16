@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-16T01:36:05.901367+00:00",
+  "source_bundle_sha256": "c9a9cb04f7847acfe6fc68220dbca8a85a2ae67d431feb747967c95c60c3e6c2",
+  "source_files": 304,
+  "source_hashes_verified": true,
+  "imported_from_clean_source": true,
+  "pytest_exit_code": 0,
+  "pytest_stdout": "........................................................................ [ 26%]\n........................................................................ [ 52%]\n........................................................................ [ 78%]\n............................................................             [100%]\n276 passed, 6 skipped in 1.90s\n",
+  "pytest_stderr": "",
+  "scope": "Tests in a fresh extracted source tree using existing local dependency environment. Not independent full scientific reproduction, fresh dependency resolution, or external proof review."
+}

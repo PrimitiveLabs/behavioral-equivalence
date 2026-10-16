@@ -1,0 +1,387 @@
+{
+  "status": "complete",
+  "phase": "exploratory 1K learned certified compression pilot",
+  "source_run": "human-training-pilot-20261015-b",
+  "records": [
+    {
+      "protocol": "chronological",
+      "candidate_k": 64,
+      "epsilon_budget": 0.005,
+      "reduced_latent_states": 256,
+      "compression_ratio": 1.0,
+      "parent_labeled_states": 768,
+      "abstract_labeled_states": 768,
+      "calibration_pairs": 202165,
+      "zero_count_transition_rows": 1,
+      "transition_prior": "one total uniform Dirichlet pseudocount per state/outcome row",
+      "paired_test_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "users": 979,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "certificate": "chronological-k64-eps0.005.json.gz",
+      "certificate_sha256": "d7211cf978a9cccd00ce40d11fab8fbc98af2f5f9db44be46f0a359da5ada407",
+      "seconds": 31.220237507
+    },
+    {
+      "protocol": "chronological",
+      "candidate_k": 64,
+      "epsilon_budget": 0.03,
+      "reduced_latent_states": 256,
+      "compression_ratio": 1.0,
+      "parent_labeled_states": 768,
+      "abstract_labeled_states": 768,
+      "calibration_pairs": 202165,
+      "zero_count_transition_rows": 1,
+      "transition_prior": "one total uniform Dirichlet pseudocount per state/outcome row",
+      "paired_test_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "users": 979,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "certificate": "chronological-k64-eps0.03.json.gz",
+      "certificate_sha256": "d7211cf978a9cccd00ce40d11fab8fbc98af2f5f9db44be46f0a359da5ada407",
+      "seconds": 34.51040498300001
+    },
+    {
+      "protocol": "chronological",
+      "candidate_k": 64,
+      "epsilon_budget": 0.1,
+      "reduced_latent_states": 255,
+      "compression_ratio": 1.003921568627451,
+      "parent_labeled_states": 768,
+      "abstract_labeled_states": 765,
+      "calibration_pairs": 202165,
+      "zero_count_transition_rows": 1,
+      "transition_prior": "one total uniform Dirichlet pseudocount per state/outcome row",
+      "paired_test_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": -7.322470524900729e-06,
+        "ci95": [
+          -1.7314461336862037e-05,
+          -1.6494548285438718e-07
+        ],
+        "users": 979,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "certificate": "chronological-k64-eps0.1.json.gz",
+      "certificate_sha256": "3f38a7590db97a4662b04e6fea36d10bf6e7bf22e5478a03b14b2859e52326df",
+      "seconds": 34.512530850000005
+    },
+    {
+      "protocol": "chronological",
+      "candidate_k": 128,
+      "epsilon_budget": 0.005,
+      "reduced_latent_states": 256,
+      "compression_ratio": 1.0,
+      "parent_labeled_states": 768,
+      "abstract_labeled_states": 768,
+      "calibration_pairs": 202165,
+      "zero_count_transition_rows": 1,
+      "transition_prior": "one total uniform Dirichlet pseudocount per state/outcome row",
+      "paired_test_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "users": 979,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "certificate": "chronological-k128-eps0.005.json.gz",
+      "certificate_sha256": "ce6e6f2894a0f287ddd6bd1f3028d808b963271c9ff7770e0c5f62dc9086a562",
+      "seconds": 31.548716697000003
+    },
+    {
+      "protocol": "chronological",
+      "candidate_k": 128,
+      "epsilon_budget": 0.03,
+      "reduced_latent_states": 256,
+      "compression_ratio": 1.0,
+      "parent_labeled_states": 768,
+      "abstract_labeled_states": 768,
+      "calibration_pairs": 202165,
+      "zero_count_transition_rows": 1,
+      "transition_prior": "one total uniform Dirichlet pseudocount per state/outcome row",
+      "paired_test_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "users": 979,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "certificate": "chronological-k128-eps0.03.json.gz",
+      "certificate_sha256": "ce6e6f2894a0f287ddd6bd1f3028d808b963271c9ff7770e0c5f62dc9086a562",
+      "seconds": 32.47055058999999
+    },
+    {
+      "protocol": "chronological",
+      "candidate_k": 128,
+      "epsilon_budget": 0.1,
+      "reduced_latent_states": 256,
+      "compression_ratio": 1.0,
+      "parent_labeled_states": 768,
+      "abstract_labeled_states": 768,
+      "calibration_pairs": 202165,
+      "zero_count_transition_rows": 1,
+      "transition_prior": "one total uniform Dirichlet pseudocount per state/outcome row",
+      "paired_test_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "users": 979,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "certificate": "chronological-k128-eps0.1.json.gz",
+      "certificate_sha256": "ce6e6f2894a0f287ddd6bd1f3028d808b963271c9ff7770e0c5f62dc9086a562",
+      "seconds": 30.935484470999995
+    },
+    {
+      "protocol": "users",
+      "candidate_k": 64,
+      "epsilon_budget": 0.005,
+      "reduced_latent_states": 256,
+      "compression_ratio": 1.0,
+      "parent_labeled_states": 768,
+      "abstract_labeled_states": 768,
+      "calibration_pairs": 223707,
+      "zero_count_transition_rows": 3,
+      "transition_prior": "one total uniform Dirichlet pseudocount per state/outcome row",
+      "paired_test_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "users": 100,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "certificate": "users-k64-eps0.005.json.gz",
+      "certificate_sha256": "e14fbfcc452749aef698e114fd55cc5697eb3394c78d9c7b87e0c3adeda4e3cb",
+      "seconds": 30.755325674999966
+    },
+    {
+      "protocol": "users",
+      "candidate_k": 64,
+      "epsilon_budget": 0.03,
+      "reduced_latent_states": 256,
+      "compression_ratio": 1.0,
+      "parent_labeled_states": 768,
+      "abstract_labeled_states": 768,
+      "calibration_pairs": 223707,
+      "zero_count_transition_rows": 3,
+      "transition_prior": "one total uniform Dirichlet pseudocount per state/outcome row",
+      "paired_test_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "users": 100,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "certificate": "users-k64-eps0.03.json.gz",
+      "certificate_sha256": "e14fbfcc452749aef698e114fd55cc5697eb3394c78d9c7b87e0c3adeda4e3cb",
+      "seconds": 33.740418155999976
+    },
+    {
+      "protocol": "users",
+      "candidate_k": 64,
+      "epsilon_budget": 0.1,
+      "reduced_latent_states": 256,
+      "compression_ratio": 1.0,
+      "parent_labeled_states": 768,
+      "abstract_labeled_states": 768,
+      "calibration_pairs": 223707,
+      "zero_count_transition_rows": 3,
+      "transition_prior": "one total uniform Dirichlet pseudocount per state/outcome row",
+      "paired_test_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "users": 100,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "certificate": "users-k64-eps0.1.json.gz",
+      "certificate_sha256": "e14fbfcc452749aef698e114fd55cc5697eb3394c78d9c7b87e0c3adeda4e3cb",
+      "seconds": 35.275195310000015
+    },
+    {
+      "protocol": "users",
+      "candidate_k": 128,
+      "epsilon_budget": 0.005,
+      "reduced_latent_states": 256,
+      "compression_ratio": 1.0,
+      "parent_labeled_states": 768,
+      "abstract_labeled_states": 768,
+      "calibration_pairs": 223707,
+      "zero_count_transition_rows": 3,
+      "transition_prior": "one total uniform Dirichlet pseudocount per state/outcome row",
+      "paired_test_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "users": 100,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "certificate": "users-k128-eps0.005.json.gz",
+      "certificate_sha256": "7f661ea1d101d692e83ab3498ac417a6c1afa31caf40ca5424ddd2742f1e2430",
+      "seconds": 31.86847110100001
+    },
+    {
+      "protocol": "users",
+      "candidate_k": 128,
+      "epsilon_budget": 0.03,
+      "reduced_latent_states": 256,
+      "compression_ratio": 1.0,
+      "parent_labeled_states": 768,
+      "abstract_labeled_states": 768,
+      "calibration_pairs": 223707,
+      "zero_count_transition_rows": 3,
+      "transition_prior": "one total uniform Dirichlet pseudocount per state/outcome row",
+      "paired_test_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "users": 100,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "certificate": "users-k128-eps0.03.json.gz",
+      "certificate_sha256": "7f661ea1d101d692e83ab3498ac417a6c1afa31caf40ca5424ddd2742f1e2430",
+      "seconds": 31.14523277899997
+    },
+    {
+      "protocol": "users",
+      "candidate_k": 128,
+      "epsilon_budget": 0.1,
+      "reduced_latent_states": 256,
+      "compression_ratio": 1.0,
+      "parent_labeled_states": 768,
+      "abstract_labeled_states": 768,
+      "calibration_pairs": 223707,
+      "zero_count_transition_rows": 3,
+      "transition_prior": "one total uniform Dirichlet pseudocount per state/outcome row",
+      "paired_test_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "users": 100,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "certificate": "users-k128-eps0.1.json.gz",
+      "certificate_sha256": "7f661ea1d101d692e83ab3498ac417a6c1afa31caf40ca5424ddd2742f1e2430",
+      "seconds": 33.735275203000015
+    }
+  ],
+  "wall_seconds": 438.458834913,
+  "limitations": [
+    "Certificates apply to estimated point models, not the unknown human process.",
+    "Within-user transition dependence does not satisfy fixed-iid-row confidence assumptions.",
+    "One fitted seed, exploratory epsilon choices, pilot timing proxies, no final 27K evaluation.",
+    "One uniform representative exposure per timestamp bundle defines the calibration transition estimand.",
+    "Large error tolerances can produce vacuous long-horizon bounds; report the full frontier."
+  ]
+}

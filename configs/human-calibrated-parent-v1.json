@@ -1,0 +1,18 @@
+{
+  "schema_version": "human-calibrated-point-model-v1",
+  "calibration_root": "datasets/kuairand-27k/prepared-candidate-v2/adjacent-calibration-314b2e408cb56897",
+  "calibration_report_sha256": "ded969e03e56d879bb7a2dbff3aa637c69eee821e45024125103a7a21ea09b19",
+  "state_counts": [
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "transition_prior_mass_per_outcome_row": 1.0,
+  "smoothing_scope": "Nominal additive uniform prior; not a human confidence interval or statistical coverage guarantee",
+  "initial_mixture": "Equal weight per supported calibration user, equal weight across that user's sampled origins",
+  "inference_batch_size": 2048,
+  "test_scoring": "none",
+  "event_model": "3K nonterminal labeled stages: pending, negative, positive; one decision emits in one graph step and advances to next pending state in another"
+}

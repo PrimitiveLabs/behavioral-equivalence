@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "source_digest": "1ced0e17dddc99825a7986abf68672f5eee75d3aac978d48a6b8b3fb359831b0",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "lean_version": "Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)",
+  "returncode": 0,
+  "compiler_output": "'BehavioralBounds.match_probability_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'BehavioralBounds.finite_horizon_event_error' depends on axioms: [propext, Classical.choice, Quot.sound]\n'BehavioralBounds.uncertainty_interval_composition' depends on axioms: [propext, Classical.choice, Quot.sound]\n'BehavioralBounds.zero_event_discrepancy' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "proof_sha256": "6871d18117cf67cf7c698a1076884ac251b6f47df50c4eee31caf68c9b4a57fc",
+  "theorems": [
+    "BehavioralBounds.match_probability_lower_bound",
+    "BehavioralBounds.finite_horizon_event_error",
+    "BehavioralBounds.uncertainty_interval_composition",
+    "BehavioralBounds.zero_event_discrepancy"
+  ],
+  "scope": "Mechanical checking of recurrence-to-event error and interval expansion over real numbers. Coupling construction, kernel-to-recurrence mapping, event-indicator inequality, statistical sampling assumptions and numerical implementation proofs remain outside this module. This is not a complete formalization of stochastic behavioral abstraction or human validity.",
+  "wall_seconds": 6.755546905999999,
+  "root": "/artifacts/formal-bounds-1ced0e17dddc9982"
+}

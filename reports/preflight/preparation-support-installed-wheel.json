@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "Local added support/preparation/decision tests against exact cloud-tested installed wheel and pinned Polars, not new cloud compute",
+  "wheel_sha256": "d035f9594ff2921ae72ffd2ccae3bb5fb3edb6a795c51d16542b69c28c021ede",
+  "cloud_parent": "reports/preflight/source-package-reproduction-6b90415e31c16537-e52eea4696b4.json",
+  "test_files": {
+    "tests/test_history_support_boundaries.py": "4dd9c5c13c27cb0dce22cab8cd2371dceb28cca3cdc2dba0bd3e29161f86d363",
+    "tests/test_preparation_boundaries.py": "8dfe6ca3cbd94b3f84cc86b87c2f8335f8c37c744d615d095b12506635a98f6b",
+    "tests/test_decision_boundaries.py": "40a4ee583d061b0e455fd261efdc9d0b080c7adc11e08c778ccb758f636b584e"
+  },
+  "tests_passed": 49,
+  "tests_skipped": 0,
+  "installed_wheel_import_verified": true,
+  "dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pydantic": "2.11.7",
+    "pytest": "8.4.1"
+  },
+  "additional_dependency_versions": {
+    "polars": "1.31.0"
+  },
+  "command": [
+    "/Users/rohittalluri/projects/behavioral-equivalence/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-W",
+    "error",
+    "-o",
+    "pythonpath=",
+    "tests/test_history_support_boundaries.py",
+    "tests/test_preparation_boundaries.py",
+    "tests/test_decision_boundaries.py"
+  ],
+  "stdout": ".................................................                        [100%]\n49 passed in 0.11s\n",
+  "stderr": ""
+}

@@ -1,0 +1,163 @@
+{
+  "status": "complete",
+  "source_digest": "a8517d89c673b9d43722f5a399e8bcdd8962e9b2efc21b4776bbd37a92f99bd9",
+  "protocol": "known_users",
+  "seed": 20261018,
+  "input_reports": {
+    "history": "2337739a7ddf01315825064a802481791e8d8fe51ec45bf003dc26e52565d9a3",
+    "calibration": "830308447fe128bca9a861eb56409144310d7116adcc4f1f150d0ab4e00a201b",
+    "support": "a02f91be671ddc955300877fa139c6ca366e7d497b931a7a00332e3f8ec209c4"
+  },
+  "records": [
+    {
+      "name": "unrefined",
+      "latent_states": 8,
+      "split_budget": 0,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "full_parent",
+      "latent_states": 32,
+      "split_budget": 0,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.0
+    },
+    {
+      "name": "targeted-b2",
+      "latent_states": 10,
+      "split_budget": 2,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_environment-b2",
+      "latent_states": 10,
+      "split_budget": 2,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "fixed_grid-b2",
+      "latent_states": 10,
+      "split_budget": 2,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "uncertainty-b2",
+      "latent_states": 10,
+      "split_budget": 2,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_witness-b2",
+      "latent_states": 10,
+      "split_budget": 2,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_capacity-b2",
+      "latent_states": 10,
+      "split_budget": 2,
+      "random_fill_states": 2,
+      "maximum_point_discrepancy": 0.45238095238095244
+    },
+    {
+      "name": "targeted-b4",
+      "latent_states": 12,
+      "split_budget": 4,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_environment-b4",
+      "latent_states": 12,
+      "split_budget": 4,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "fixed_grid-b4",
+      "latent_states": 12,
+      "split_budget": 4,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "uncertainty-b4",
+      "latent_states": 12,
+      "split_budget": 4,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_witness-b4",
+      "latent_states": 12,
+      "split_budget": 4,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3999999999999999
+    },
+    {
+      "name": "random_capacity-b4",
+      "latent_states": 12,
+      "split_budget": 4,
+      "random_fill_states": 4,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "targeted-b8",
+      "latent_states": 13,
+      "split_budget": 8,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_environment-b8",
+      "latent_states": 13,
+      "split_budget": 8,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "fixed_grid-b8",
+      "latent_states": 13,
+      "split_budget": 8,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "uncertainty-b8",
+      "latent_states": 13,
+      "split_budget": 8,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_witness-b8",
+      "latent_states": 13,
+      "split_budget": 8,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_capacity-b8",
+      "latent_states": 13,
+      "split_budget": 8,
+      "random_fill_states": 5,
+      "maximum_point_discrepancy": 0.45238095238095244
+    }
+  ],
+  "primary_candidate": "targeted-b8",
+  "primary_reference": "random_capacity-b8",
+  "output_sha256": {
+    "models.npz": "b0d64109c20b3e0ac155f308cece4cd7a00ffeb7345b8f2451b406dc1c096b24",
+    "partitions.json": "886610b4a79d559cb02d9664c4e050f70dfa784d78592174677a4ecc5ce530ef"
+  },
+  "root": "/artifacts/human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261018/history-states-ced0bbdf76c3-6472527fcb5f/response-frontier-a8517d89c673b9d4",
+  "final_test_scoring": "none",
+  "scope": "Fitted one-step observed-response models. Numerical point discrepancies are not arithmetic certificates or human confidence bounds. No final test scoring in construction.",
+  "search_scope": "Offline selectors share the full observed calibration table. This is not active acquisition or a search-efficiency claim."
+}

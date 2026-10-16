@@ -1,0 +1,33 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Sha256",
+      "type": "string"
+    },
+    "uri": {
+      "minLength": 1,
+      "title": "Uri",
+      "type": "string"
+    },
+    "media_type": {
+      "minLength": 1,
+      "title": "Media Type",
+      "type": "string"
+    },
+    "bytes": {
+      "minimum": 0,
+      "title": "Bytes",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "sha256",
+    "uri",
+    "media_type",
+    "bytes"
+  ],
+  "title": "ArtifactRef",
+  "type": "object"
+}

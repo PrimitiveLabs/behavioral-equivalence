@@ -1,0 +1,3171 @@
+{
+  "status": "complete",
+  "source_digest": "a0450320cc941c72da068fb7873cd294c60d4b1d3bb6c8c0f2ee58e7b006960d",
+  "phase": "smoke",
+  "original_manifest_sha256": "38ebd31d33c62c5ea172123273804ba134af0c7e1735314ba31bde90d1cd6905",
+  "chunks": [
+    {
+      "status": "complete",
+      "calibration_report_sha256": "5482afd40a28497a63015e84f7bd4189fc8804635fac31b9eb5403a4306388ae",
+      "original_chunk_digest": "3eb8f3a7daa1fae2ab967a8371530cd14048d3755f80f3bd2736b277fcd108cc",
+      "spec": {
+        "family": "preference",
+        "size": 128,
+        "seed": 30000,
+        "regime": "imbalanced_active",
+        "first_repetition": 0,
+        "last_repetition": 10
+      },
+      "records": [
+        {
+          "repetition": 0,
+          "support": "unknown_terminal_rows",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 103,
+              "proven_noncoverage_count": 25,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3233930310984383,
+              "maximum_width": 0.6123713751880615
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 68,
+              "proven_noncoverage_count": 60,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4087332485499574,
+              "maximum_width": 0.6353845531793354
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2702551331142866,
+              "maximum_width": 0.37661175401355607
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.09070052331420064,
+              "maximum_width": 0.12498419248737136
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 88,
+              "proven_noncoverage_count": 40,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2802070564975754,
+              "maximum_width": 0.6475640222487797
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 84,
+              "proven_noncoverage_count": 44,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3788808719950518,
+              "maximum_width": 0.6416548418993493
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 7,
+              "proven_noncoverage_count": 121,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.27546837561902227,
+              "maximum_width": 0.372273773549459
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.09837571835848136,
+              "maximum_width": 0.13021261101981807
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3243045221186942,
+              "maximum_width": 0.6830536490119208
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.25511432322000505,
+              "maximum_width": 0.4984969772404213
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.07721487417565509,
+              "maximum_width": 0.1528286463262205
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.010082636723226956,
+              "maximum_width": 0.01995310299604469
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 272,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.33561638061786747,
+              "initial_weighted_width": 0.09825431190983736
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.4225031144074529,
+              "initial_weighted_width": 0.23984523073667674
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.278890273832437,
+              "initial_weighted_width": 0.22210662085492672
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.09358639131394876,
+              "initial_weighted_width": 0.07678780963252052
+            }
+          ]
+        },
+        {
+          "repetition": 0,
+          "support": "known_closed_terminal_labels",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3096609370341128,
+              "maximum_width": 0.6240545445180103
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3965435778347455,
+              "maximum_width": 0.7735923452144178
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4202936502421901,
+              "maximum_width": 0.8111831430887406
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.42047786322115943,
+              "maximum_width": 0.8115169421447916
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 116,
+              "proven_noncoverage_count": 12,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.27554815414344147,
+              "maximum_width": 0.6889557197783738
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.37805019502475645,
+              "maximum_width": 0.7855675916241616
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4194888507829957,
+              "maximum_width": 0.810963298248069
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.42047608330979125,
+              "maximum_width": 0.8115160141717759
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3243045221186942,
+              "maximum_width": 0.6830536490119208
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.25511432322000505,
+              "maximum_width": 0.4984969772404213
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.07721487417565509,
+              "maximum_width": 0.1528286463262205
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.010082636723226956,
+              "maximum_width": 0.01995310299604469
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 272,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.33030499950305364,
+              "initial_weighted_width": 0.03529201033142826
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.42297981635706183,
+              "initial_weighted_width": 0.06757653964037402
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.4483132269250028,
+              "initial_weighted_width": 0.08445425172961762
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.44850972076923673,
+              "initial_weighted_width": 0.0847816190601236
+            }
+          ]
+        },
+        {
+          "repetition": 1,
+          "support": "unknown_terminal_rows",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 103,
+              "proven_noncoverage_count": 25,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3116701323456438,
+              "maximum_width": 0.6137300375472776
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 72,
+              "proven_noncoverage_count": 56,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.40488599892599986,
+              "maximum_width": 0.6173645289395893
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.28125944368810185,
+              "maximum_width": 0.3898184020279629
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.09790663875163885,
+              "maximum_width": 0.1350269457203872
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 96,
+              "proven_noncoverage_count": 32,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2964024675202309,
+              "maximum_width": 0.601133010179911
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 77,
+              "proven_noncoverage_count": 51,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3926460367318647,
+              "maximum_width": 0.6091662281067869
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2727890700070308,
+              "maximum_width": 0.3626107812063424
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.09302836742243903,
+              "maximum_width": 0.12205011522558706
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.32338760399394895,
+              "maximum_width": 0.6137274786792801
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2557416247452654,
+              "maximum_width": 0.46937172953512274
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.07348526566534419,
+              "maximum_width": 0.13503693450401855
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.008707460896485442,
+              "maximum_width": 0.015999674878557357
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 267,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.3235050542151215,
+              "initial_weighted_width": 0.08885519847192214
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.41859410393033514,
+              "initial_weighted_width": 0.22942914239841272
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.29026711183396375,
+              "initial_weighted_width": 0.2275994001842747
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.1010258908744324,
+              "initial_weighted_width": 0.08208653919911058
+            }
+          ]
+        },
+        {
+          "repetition": 1,
+          "support": "known_closed_terminal_labels",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3017167266456531,
+              "maximum_width": 0.6323971931603936
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4008860241129871,
+              "maximum_width": 0.7214229342719953
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4364105872420756,
+              "maximum_width": 0.745286810613873
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4370451889957546,
+              "maximum_width": 0.7456612913478331
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 116,
+              "proven_noncoverage_count": 12,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2915645964540632,
+              "maximum_width": 0.6305668029126394
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.39675810639874076,
+              "maximum_width": 0.714151988148874
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4362577243290753,
+              "maximum_width": 0.7443595676722161
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4370448312177295,
+              "maximum_width": 0.7456599217436768
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.32338760399394895,
+              "maximum_width": 0.6137274786792801
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2557416247452654,
+              "maximum_width": 0.46937172953512274
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.07348526566534419,
+              "maximum_width": 0.13503693450401855
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.008707460896485442,
+              "maximum_width": 0.015999674878557357
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 267,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.32183117508869663,
+              "initial_weighted_width": 0.02969743816619541
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.42761175905385296,
+              "initial_weighted_width": 0.06083394357917271
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.4655046263915473,
+              "initial_weighted_width": 0.08020970262224836
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.46618153492880493,
+              "initial_weighted_width": 0.08070831101895592
+            }
+          ]
+        },
+        {
+          "repetition": 2,
+          "support": "unknown_terminal_rows",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 108,
+              "proven_noncoverage_count": 20,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.29450896447380304,
+              "maximum_width": 0.6216902426450339
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 70,
+              "proven_noncoverage_count": 58,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3866750750099367,
+              "maximum_width": 0.6064426398400116
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 8,
+              "proven_noncoverage_count": 120,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2751545520593659,
+              "maximum_width": 0.38700975077967215
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.09707660780648097,
+              "maximum_width": 0.1349222352627244
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 104,
+              "proven_noncoverage_count": 24,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.33412415324885425,
+              "maximum_width": 0.7314863804076168
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 84,
+              "proven_noncoverage_count": 44,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4430884988408841,
+              "maximum_width": 0.7296318008319922
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 20,
+              "proven_noncoverage_count": 108,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.33422842261534724,
+              "maximum_width": 0.46728162470666135
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.13894101453274477,
+              "maximum_width": 0.19134844996402123
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.35320560515084354,
+              "maximum_width": 0.7008140335000625
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.29274070761090454,
+              "maximum_width": 0.5421848582795583
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.10239377091784707,
+              "maximum_width": 0.18989408205026237
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.01691299156558934,
+              "maximum_width": 0.03135677214272903
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 271,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.3057044183712724,
+              "initial_weighted_width": 0.09809181023421232
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.3997945385284555,
+              "initial_weighted_width": 0.23010502674264544
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.2839763490621586,
+              "initial_weighted_width": 0.22620252016124454
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.10017057851375585,
+              "initial_weighted_width": 0.08278909849571647
+            }
+          ]
+        },
+        {
+          "repetition": 2,
+          "support": "known_closed_terminal_labels",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2912186849565356,
+              "maximum_width": 0.6477750334497259
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.39466081926061836,
+              "maximum_width": 0.7201569716780725
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.44015170127472925,
+              "maximum_width": 0.7621003142976832
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4422177360150965,
+              "maximum_width": 0.768241300217916
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 116,
+              "proven_noncoverage_count": 12,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3189018647665737,
+              "maximum_width": 0.7406241215066522
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4151045141290648,
+              "maximum_width": 0.7809238316670282
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4421469751410707,
+              "maximum_width": 0.7699828695568236
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.442236292416218,
+              "maximum_width": 0.7683077663664442
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.35320560515084354,
+              "maximum_width": 0.7008140335000625
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.29274070761090454,
+              "maximum_width": 0.5421848582795583
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.10239377091784707,
+              "maximum_width": 0.18989408205026237
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.01691299156558934,
+              "maximum_width": 0.03135677214272903
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 271,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.31063326395363794,
+              "initial_weighted_width": 0.04407139818308181
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.4209715405446596,
+              "initial_weighted_width": 0.07699282409370056
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.4694951480263779,
+              "initial_weighted_width": 0.0965254261666928
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.47169891841610295,
+              "initial_weighted_width": 0.09734771197404513
+            }
+          ]
+        },
+        {
+          "repetition": 3,
+          "support": "unknown_terminal_rows",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 95,
+              "proven_noncoverage_count": 33,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.30232604012312647,
+              "maximum_width": 0.5683204971418654
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 64,
+              "proven_noncoverage_count": 64,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.38989139915485416,
+              "maximum_width": 0.6087960146525333
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2624607645124011,
+              "maximum_width": 0.3538390284221187
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.0862825868288919,
+              "maximum_width": 0.11431707638963218
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 97,
+              "proven_noncoverage_count": 31,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.300253867246304,
+              "maximum_width": 0.6939414380986513
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 84,
+              "proven_noncoverage_count": 44,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.40648541504303193,
+              "maximum_width": 0.6794953202575371
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 16,
+              "proven_noncoverage_count": 112,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3065589928268433,
+              "maximum_width": 0.4398521616607205
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.12085339283554675,
+              "maximum_width": 0.1719789971358523
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3279364762431778,
+              "maximum_width": 0.6541867173331362
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.26238359412435575,
+              "maximum_width": 0.5279635309594397
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.08276644618151319,
+              "maximum_width": 0.17060393641882854
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.011893188436474467,
+              "maximum_width": 0.02457124982443304
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 266,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.31380315595425057,
+              "initial_weighted_width": 0.09533227131823097
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.40306858496300746,
+              "initial_weighted_width": 0.22674260701190718
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.2708461445192178,
+              "initial_weighted_width": 0.21423185535952882
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.08902454967364572,
+              "initial_weighted_width": 0.07298635392725927
+            }
+          ]
+        },
+        {
+          "repetition": 3,
+          "support": "known_closed_terminal_labels",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.29500465970878154,
+              "maximum_width": 0.5896678037934748
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.39022909091174207,
+              "maximum_width": 0.7161827038930184
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4251960320004622,
+              "maximum_width": 0.7603564406581569
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.42609432519233137,
+              "maximum_width": 0.7623995341365735
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 116,
+              "proven_noncoverage_count": 12,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.289094340634957,
+              "maximum_width": 0.7070260600866618
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3900434301606742,
+              "maximum_width": 0.7553210013853402
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.425547130997439,
+              "maximum_width": 0.7624680277281684
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4260959471573339,
+              "maximum_width": 0.7624041048921804
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3279364762431778,
+              "maximum_width": 0.6541867173331362
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.26238359412435575,
+              "maximum_width": 0.5279635309594397
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.08276644618151319,
+              "maximum_width": 0.17060393641882854
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.011893188436474467,
+              "maximum_width": 0.02457124982443304
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 266,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.3146716370227003,
+              "initial_weighted_width": 0.0373639405888575
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.41624436363919154,
+              "initial_weighted_width": 0.06330620377426044
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.45354243413382633,
+              "initial_weighted_width": 0.07832462437461274
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.4545006135384868,
+              "initial_weighted_width": 0.07880624330219987
+            }
+          ]
+        },
+        {
+          "repetition": 4,
+          "support": "unknown_terminal_rows",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 91,
+              "proven_noncoverage_count": 37,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.29532191243799366,
+              "maximum_width": 0.6977992385991953
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 53,
+              "proven_noncoverage_count": 75,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.36761883294086817,
+              "maximum_width": 0.6271059841631583
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.22223814157195676,
+              "maximum_width": 0.3014958771416012
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.06040452543300889,
+              "maximum_width": 0.08037160293879353
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 95,
+              "proven_noncoverage_count": 33,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3037583697013524,
+              "maximum_width": 0.6583292720250356
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 80,
+              "proven_noncoverage_count": 48,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.39743977451777146,
+              "maximum_width": 0.6604315009669222
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 12,
+              "proven_noncoverage_count": 116,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.28236080408958997,
+              "maximum_width": 0.4024554505654301
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.10084756045489851,
+              "maximum_width": 0.14203402453753
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.31449206662273355,
+              "maximum_width": 0.6792161601854616
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2394368888127374,
+              "maximum_width": 0.4908725066051929
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.06289409614694064,
+              "maximum_width": 0.13007662704322343
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.0064589734797402265,
+              "maximum_width": 0.013366764859064517
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 264,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.3064606214191817,
+              "initial_weighted_width": 0.09496871588968148
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.37996100281441997,
+              "initial_weighted_width": 0.2208795346450323
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.22928070756335545,
+              "initial_weighted_width": 0.18893853951358608
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.06230789993469514,
+              "initial_weighted_width": 0.05331588132337828
+            }
+          ]
+        },
+        {
+          "repetition": 4,
+          "support": "known_closed_terminal_labels",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.28939499053935214,
+              "maximum_width": 0.7292019281257041
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3786532960220874,
+              "maximum_width": 0.778297537597652
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.40824932495158983,
+              "maximum_width": 0.7841872133541159
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4087188846833695,
+              "maximum_width": 0.7842672190866438
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 116,
+              "proven_noncoverage_count": 12,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2928562991637754,
+              "maximum_width": 0.6783271227933376
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3814332679000083,
+              "maximum_width": 0.7376055308770795
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.40839446031220583,
+              "maximum_width": 0.7836783898897117
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.40871918174566557,
+              "maximum_width": 0.7842669925142651
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.31449206662273355,
+              "maximum_width": 0.6792161601854616
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2394368888127374,
+              "maximum_width": 0.4908725066051929
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.06289409614694064,
+              "maximum_width": 0.13007662704322343
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.0064589734797402265,
+              "maximum_width": 0.013366764859064517
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 264,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.30868798990864227,
+              "initial_weighted_width": 0.03985971082829565
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.40389684909022655,
+              "initial_weighted_width": 0.0700406573788186
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.43546594661502913,
+              "initial_weighted_width": 0.08622111050396342
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.4359668103289274,
+              "initial_weighted_width": 0.0866149040673605
+            }
+          ]
+        },
+        {
+          "repetition": 5,
+          "support": "unknown_terminal_rows",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 108,
+              "proven_noncoverage_count": 20,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3067568716377065,
+              "maximum_width": 0.6699767927131077
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 68,
+              "proven_noncoverage_count": 60,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.401664267179616,
+              "maximum_width": 0.6546406585405506
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 7,
+              "proven_noncoverage_count": 121,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2820349997234145,
+              "maximum_width": 0.3747461180381322
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.09822126761179206,
+              "maximum_width": 0.12772295555350865
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 104,
+              "proven_noncoverage_count": 24,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.28465913835397505,
+              "maximum_width": 0.643684480715109
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 80,
+              "proven_noncoverage_count": 48,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3781631947847087,
+              "maximum_width": 0.6251822577697936
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.26520772354252375,
+              "maximum_width": 0.36371268014762137
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.09081883904480259,
+              "maximum_width": 0.12327283104528775
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3135375285551316,
+              "maximum_width": 0.614703436641129
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.24709125919222552,
+              "maximum_width": 0.4772339223705693
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.0712263354119338,
+              "maximum_width": 0.1397634946588262
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.008541320392056018,
+              "maximum_width": 0.01677162722183212
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 264,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.3184133146298051,
+              "initial_weighted_width": 0.10747960845948157
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.4152824798811134,
+              "initial_weighted_width": 0.24071893500174468
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.2910699807020684,
+              "initial_weighted_width": 0.23201778407816676
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.10135031813210844,
+              "initial_weighted_width": 0.08366294754612369
+            }
+          ]
+        },
+        {
+          "repetition": 5,
+          "support": "known_closed_terminal_labels",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.29397541747563083,
+              "maximum_width": 0.6792505905955046
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3861659280167131,
+              "maximum_width": 0.7326847375239751
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.41657524191219186,
+              "maximum_width": 0.7364742148038665
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.41699845008233516,
+              "maximum_width": 0.7363861442665147
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 116,
+              "proven_noncoverage_count": 12,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.27994837553446195,
+              "maximum_width": 0.6500561755798024
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3791407701384273,
+              "maximum_width": 0.6927661307794324
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4161431758846431,
+              "maximum_width": 0.734809896300213
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.41699728261300595,
+              "maximum_width": 0.7363833244661855
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3135375285551316,
+              "maximum_width": 0.614703436641129
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.24709125919222552,
+              "maximum_width": 0.4772339223705693
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.0712263354119338,
+              "maximum_width": 0.1397634946588262
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.008541320392056018,
+              "maximum_width": 0.01677162722183212
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 264,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.3135737786406729,
+              "initial_weighted_width": 0.051189785628903195
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.41191032321782733,
+              "initial_weighted_width": 0.08297944394950107
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.44434692470633796,
+              "initial_weighted_width": 0.10039432211142696
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.4447983467544908,
+              "initial_weighted_width": 0.10082317980416988
+            }
+          ]
+        },
+        {
+          "repetition": 6,
+          "support": "unknown_terminal_rows",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 104,
+              "proven_noncoverage_count": 24,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.30476125025950096,
+              "maximum_width": 0.602184962146108
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 72,
+              "proven_noncoverage_count": 56,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4050585561769042,
+              "maximum_width": 0.7164130576215122
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 12,
+              "proven_noncoverage_count": 116,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.29692707677805275,
+              "maximum_width": 0.4862374469780626
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.1137302109350492,
+              "maximum_width": 0.1841425840888995
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 100,
+              "proven_noncoverage_count": 28,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.31747194822500957,
+              "maximum_width": 0.6561853515795377
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 84,
+              "proven_noncoverage_count": 44,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.41923369498591445,
+              "maximum_width": 0.7140770768335685
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 16,
+              "proven_noncoverage_count": 112,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.31082616604423596,
+              "maximum_width": 0.504707053036249
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.12476179751566396,
+              "maximum_width": 0.2012065728299426
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3350086667835205,
+              "maximum_width": 0.7588883959415824
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.27306659432054015,
+              "maximum_width": 0.6900569083267278
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.09546299541138392,
+              "maximum_width": 0.2620821780958451
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.016350039044305875,
+              "maximum_width": 0.04511832163942131
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 269,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.3164037362777787,
+              "initial_weighted_width": 0.09743577369653522
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.4188212193122501,
+              "initial_weighted_width": 0.2349930066239203
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.3064745461815414,
+              "initial_weighted_width": 0.23912992441629655
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.11736891494908441,
+              "initial_weighted_width": 0.09461221369877038
+            }
+          ]
+        },
+        {
+          "repetition": 6,
+          "support": "known_closed_terminal_labels",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2968202006808057,
+              "maximum_width": 0.6118654475639502
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3983183392714992,
+              "maximum_width": 0.779533113087215
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.43695393432617424,
+              "maximum_width": 0.8528955791505872
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4386641969961579,
+              "maximum_width": 0.8588980800980544
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 116,
+              "proven_noncoverage_count": 12,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3053889823230912,
+              "maximum_width": 0.67009667690429
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4042997828418634,
+              "maximum_width": 0.7836361252844029
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4380701561454755,
+              "maximum_width": 0.8576371738359683
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.43868140311029313,
+              "maximum_width": 0.8589625772009306
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3350086667835205,
+              "maximum_width": 0.7588883959415824
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.27306659432054015,
+              "maximum_width": 0.6900569083267278
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.09546299541138392,
+              "maximum_width": 0.2620821780958451
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.016350039044305875,
+              "maximum_width": 0.04511832163942131
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 269,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.3166082140595261,
+              "initial_weighted_width": 0.044276543628253506
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.4248728952229325,
+              "initial_weighted_width": 0.07638227629630379
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.46608419661458583,
+              "initial_weighted_width": 0.09610643529877905
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.46790847679590175,
+              "initial_weighted_width": 0.0968283184472547
+            }
+          ]
+        },
+        {
+          "repetition": 7,
+          "support": "unknown_terminal_rows",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 104,
+              "proven_noncoverage_count": 24,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3290976918153542,
+              "maximum_width": 0.6711650442055479
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 80,
+              "proven_noncoverage_count": 48,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4371264259011671,
+              "maximum_width": 0.6890821368201081
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 24,
+              "proven_noncoverage_count": 104,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.319376763278838,
+              "maximum_width": 0.4483898187192885
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.12470837096091625,
+              "maximum_width": 0.17307041842749626
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 85,
+              "proven_noncoverage_count": 43,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.29958678140649897,
+              "maximum_width": 0.6355250470925249
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 80,
+              "proven_noncoverage_count": 48,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.41545127234288526,
+              "maximum_width": 0.6860990140146548
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 16,
+              "proven_noncoverage_count": 112,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3278766418052451,
+              "maximum_width": 0.4737202714727182
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.1383726031408996,
+              "maximum_width": 0.1980065453005544
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.33945023721457956,
+              "maximum_width": 0.6806449485345176
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.281559338222229,
+              "maximum_width": 0.5537948209503725
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.0948426671798338,
+              "maximum_width": 0.18812969094821952
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.014750363133895328,
+              "maximum_width": 0.02925734864956908
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 270,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.34166377855394525,
+              "initial_weighted_width": 0.09434537501289597
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.45197464263062653,
+              "initial_weighted_width": 0.2442826134470728
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.329648808560104,
+              "initial_weighted_width": 0.25393670041359684
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.1287025654695139,
+              "initial_weighted_width": 0.10223765822085795
+            }
+          ]
+        },
+        {
+          "repetition": 7,
+          "support": "known_closed_terminal_labels",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3162437880911102,
+              "maximum_width": 0.6948302857389095
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.42316886298275513,
+              "maximum_width": 0.8012979908673792
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.46151353703119313,
+              "maximum_width": 0.8561825316820943
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.46215614286530027,
+              "maximum_width": 0.8571651659007067
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 116,
+              "proven_noncoverage_count": 12,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.29307664740383854,
+              "maximum_width": 0.6525226830509752
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.410605872052217,
+              "maximum_width": 0.806779973433823
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.460880234758404,
+              "maximum_width": 0.8560969115310328
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.462154314464162,
+              "maximum_width": 0.8571641351206054
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.33945023721457956,
+              "maximum_width": 0.6806449485345176
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.281559338222229,
+              "maximum_width": 0.5537948209503725
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.0948426671798338,
+              "maximum_width": 0.18812969094821952
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.014750363133895328,
+              "maximum_width": 0.02925734864956908
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 270,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.3373267072971842,
+              "initial_weighted_width": 0.03367495688589983
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.4513801205149388,
+              "initial_weighted_width": 0.06391410598104486
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.49228110616660603,
+              "initial_weighted_width": 0.08270545972293775
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.49296655238965364,
+              "initial_weighted_width": 0.08323146257307457
+            }
+          ]
+        },
+        {
+          "repetition": 8,
+          "support": "unknown_terminal_rows",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 104,
+              "proven_noncoverage_count": 24,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.28976251249763674,
+              "maximum_width": 0.5474969594886971
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 64,
+              "proven_noncoverage_count": 64,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3840621696735107,
+              "maximum_width": 0.574432747853141
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 7,
+              "proven_noncoverage_count": 121,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.27144602571894527,
+              "maximum_width": 0.37163584404640915
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.09358083785851168,
+              "maximum_width": 0.12726054932883102
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 97,
+              "proven_noncoverage_count": 31,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.29822908617053245,
+              "maximum_width": 0.5711043026248355
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 76,
+              "proven_noncoverage_count": 52,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4011370507886227,
+              "maximum_width": 0.6150437275081835
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 8,
+              "proven_noncoverage_count": 120,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.28342926712973915,
+              "maximum_width": 0.3758524749216754
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.0996578904798292,
+              "maximum_width": 0.13112658276084943
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3176974419367218,
+              "maximum_width": 0.5877788558907859
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.25363776477885736,
+              "maximum_width": 0.47183159711957856
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.07277471619879283,
+              "maximum_width": 0.13756636624722063
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.008433369560269632,
+              "maximum_width": 0.01593990985806215
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 271,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.3008231714575433,
+              "initial_weighted_width": 0.093123164981467
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.3971006720155529,
+              "initial_weighted_width": 0.22601512637825394
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.2801412488044715,
+              "initial_weighted_width": 0.22251430686925744
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.09656025419919144,
+              "initial_weighted_width": 0.07957862098670532
+            }
+          ]
+        },
+        {
+          "repetition": 8,
+          "support": "known_closed_terminal_labels",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2837159251451131,
+              "maximum_width": 0.5739127375253084
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3855828551103646,
+              "maximum_width": 0.6848460550796638
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.42636814349741015,
+              "maximum_width": 0.7239029086876094
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4274726989266463,
+              "maximum_width": 0.725048260191933
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 116,
+              "proven_noncoverage_count": 12,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2884964121555651,
+              "maximum_width": 0.5894958926925327
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3912661650400737,
+              "maximum_width": 0.6947005363902292
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.42699809239748643,
+              "maximum_width": 0.7242784098181332
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.42747584475956824,
+              "maximum_width": 0.725051465165663
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3176974419367218,
+              "maximum_width": 0.5877788558907859
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.25363776477885736,
+              "maximum_width": 0.47183159711957856
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.07277471619879283,
+              "maximum_width": 0.13756636624722063
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.008433369560269632,
+              "maximum_width": 0.01593990985806215
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 271,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.30263032015478736,
+              "initial_weighted_width": 0.03854667249699162
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.4112883787843889,
+              "initial_weighted_width": 0.06887261930295097
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.45479268639723747,
+              "initial_weighted_width": 0.08680073882708328
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.4559708788550894,
+              "initial_weighted_width": 0.08736497462944826
+            }
+          ]
+        },
+        {
+          "repetition": 9,
+          "support": "unknown_terminal_rows",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 112,
+              "proven_noncoverage_count": 16,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3113757334700009,
+              "maximum_width": 0.559898772912117
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 76,
+              "proven_noncoverage_count": 52,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.40610340464162187,
+              "maximum_width": 0.6103988462922594
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 20,
+              "proven_noncoverage_count": 108,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.29360531407166557,
+              "maximum_width": 0.4037508437901245
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.10826007584988873,
+              "maximum_width": 0.14723503160025686
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 92,
+              "proven_noncoverage_count": 36,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.26100120614264843,
+              "maximum_width": 0.500673917168502
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 64,
+              "proven_noncoverage_count": 64,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.35097219137957913,
+              "maximum_width": 0.5627235803179751
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.24230996745624,
+              "maximum_width": 0.33637062306894805
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 4,
+              "proven_noncoverage_count": 124,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.07627978831588411,
+              "maximum_width": 0.10353581728588068
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3143463581283965,
+              "maximum_width": 0.6143349729276899
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.25114089061160805,
+              "maximum_width": 0.5080519864450146
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.0740265470760485,
+              "maximum_width": 0.15421736374537431
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.009217270440905811,
+              "maximum_width": 0.019237981254409675
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 263,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.3231883391953011,
+              "initial_weighted_width": 0.09710037196647292
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.4198768063443699,
+              "initial_weighted_width": 0.23669013651445425
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.30303510407037243,
+              "initial_weighted_width": 0.23831994140521218
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.11171725597588349,
+              "initial_weighted_width": 0.09115123702752115
+            }
+          ]
+        },
+        {
+          "repetition": 9,
+          "support": "known_closed_terminal_labels",
+          "method": "empirical_point",
+          "kernel_membership": false,
+          "concrete_states": 128,
+          "abstract_states": 32,
+          "properties": [
+            {
+              "property": "complete",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2961386983938319,
+              "maximum_width": 0.5794204875205615
+            },
+            {
+              "property": "complete",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3833588985345001,
+              "maximum_width": 0.6889263569814545
+            },
+            {
+              "property": "complete",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.4115481925889931,
+              "maximum_width": 0.7173407386508188
+            },
+            {
+              "property": "complete",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.41192121938272097,
+              "maximum_width": 0.7175948181029455
+            },
+            {
+              "property": "disengage",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 116,
+              "proven_noncoverage_count": 12,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.2617287432066808,
+              "maximum_width": 0.5202181080383603
+            },
+            {
+              "property": "disengage",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3660148887912812,
+              "maximum_width": 0.6553810538088918
+            },
+            {
+              "property": "disengage",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.41058605103491874,
+              "maximum_width": 0.7154201551518824
+            },
+            {
+              "property": "disengage",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.41191772247781355,
+              "maximum_width": 0.7175887824660663
+            },
+            {
+              "property": "survival",
+              "horizon": 5,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.3143463581283965,
+              "maximum_width": 0.6143349729276899
+            },
+            {
+              "property": "survival",
+              "horizon": 10,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.25114089061160805,
+              "maximum_width": 0.5080519864450146
+            },
+            {
+              "property": "survival",
+              "horizon": 25,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.0740265470760485,
+              "maximum_width": 0.15421736374537431
+            },
+            {
+              "property": "survival",
+              "horizon": 50,
+              "states": 128,
+              "enclosure_containment_count": 128,
+              "proven_noncoverage_count": 0,
+              "unresolved_count": 0,
+              "average_width_all_concrete_states": 0.009217270440905811,
+              "maximum_width": 0.019237981254409675
+            }
+          ],
+          "conditional_certificate_contradictions": 0,
+          "represented_zero_lower_edges": 263,
+          "statistical_unit": "one sampled transition dataset; state/property/horizon checks are dependent",
+          "numeric_status": "directed integer enclosures for binary-rational kernels and bounds",
+          "semantics": "uniform hidden-state envelope with per-step rectangular choices; no added nominal epsilon",
+          "completion_widths": [
+            {
+              "horizon": 5,
+              "mean_active_width": 0.315881278286754,
+              "initial_weighted_width": 0.03709059967345141
+            },
+            {
+              "horizon": 10,
+              "mean_active_width": 0.4089161584368001,
+              "initial_weighted_width": 0.06660649261627327
+            },
+            {
+              "horizon": 25,
+              "mean_active_width": 0.43898473876159266,
+              "initial_weighted_width": 0.08217698243187499
+            },
+            {
+              "horizon": 50,
+              "mean_active_width": 0.4393826340082357,
+              "initial_weighted_width": 0.08252647829759852
+            }
+          ]
+        }
+      ],
+      "statistical_coverage_claim": "none",
+      "scope": "Secondary paired ablation on retained counts; generating probabilities are known synthetic quantities, not human confidence coverage.",
+      "source_digest": "a0450320cc941c72da068fb7873cd294c60d4b1d3bb6c8c0f2ee58e7b006960d",
+      "evidence_sha256": "d0709f53d6fcdd741d12e6636553a84a50e2befe9e8eea197caaa5821e159a55"
+    }
+  ],
+  "failures": [],
+  "point_evaluations": 20,
+  "root": "/artifacts/uncertainty-repeated-v1-d567478458e8/nominal-a0450320cc941c72",
+  "statistical_coverage_claim": "none"
+}

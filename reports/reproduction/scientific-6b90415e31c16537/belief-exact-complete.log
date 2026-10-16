@@ -1,0 +1,46 @@
+PRISM
+=====
+
+Version: 4.11
+Date: Fri Oct 16 07:08:24 UTC 2026
+Hostname: modal
+Memory limits: cudd=1g, java(heap)=2g
+Command line: prism /tmp/source-reproduction-5sm01v59/scientific-rerun/belief-exact.prism -pf 'P=? [ F<=10 "complete" ]' -explicit
+
+Parsing PRISM model file "/tmp/source-reproduction-5sm01v59/scientific-rerun/belief-exact.prism"...
+
+Type:        DTMC
+Modules:     behavioral
+Actions:     []
+Variables:   s
+Labels:      "active" "complete" "disengage"
+
+1 property:
+(1) P=? [ F<=10 "complete" ]
+
+---------------------------------------------------------------------
+
+Model checking: P=? [ F<=10 "complete" ]
+
+Building model (engine:explicit)...
+
+Computing reachable states... 8 states
+Reachable states exploration and model construction done in 0.009 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.035 seconds.
+
+Type:        DTMC
+States:      8 (1 initial)
+Transitions: 48
+
+Starting bounded probabilistic reachability...
+Bounded probabilistic reachability took 10 iterations and 0.001 seconds.
+
+Value in the initial state: 0.0
+
+Time for model checking: 0.006 seconds.
+
+Result: 0.0 (exact floating point)
+
+

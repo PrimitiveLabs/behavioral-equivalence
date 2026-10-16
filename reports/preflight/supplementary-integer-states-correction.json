@@ -1,0 +1,22 @@
+{
+  "status": "verified_local_correction",
+  "module": "tools/supplementary_counts.py",
+  "old_sha256": "80cfd181e159bc5e11ad4a5a6f23846d76dd25dd9ee90f25fa3d51ed062503da",
+  "new_sha256": "e6d7cc7b43f370fe19aa5ca9acea982b94e4b5f7a00513dce081c137d142e5af",
+  "defect": "Accepted uint64 state keys promote mixed signed label arithmetic to float and fail bincount",
+  "scope": "Normalize bounded state/label indices before integer bincount; recorded signed-state counts identical, no human output mutation",
+  "fixture": "data/synthetic/fixtures/release/supplementary-integer-states-v1.json",
+  "original_source_matches_cloud_archive": true,
+  "frozen_supplementary_source_restoration": [
+    {
+      "snapshot": "supplementary-calibration-68edad5c7113cb6d.json",
+      "restored_digest": "68edad5c7113cb6d09663a86f3c465e0293d9625475e7c8f82999e39646dc531",
+      "exact_match": true
+    },
+    {
+      "snapshot": "supplementary-final-9a4cb36c39c2419e.json",
+      "restored_digest": "9a4cb36c39c2419e034a088daa1a6622c6bec84f45f443a5ecb69e2a35b8f4d1",
+      "exact_match": true
+    }
+  ]
+}

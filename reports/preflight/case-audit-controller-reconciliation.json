@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "scope": "Read-only reconciliation of five retained 32-bucket audit aggregates; no raw source replay, new inference or human validity guarantee",
+  "audit_reports": 5,
+  "bucket_records": 160,
+  "shared_case_report_binding_matches": true,
+  "all_published_aggregate_counts_match": true,
+  "inputs": [
+    {
+      "path": "reports/preflight/kuairand-27k-confirmatory-case-audit.json",
+      "sha256": "0901cdc50e2282dbe81564fa709a9ee5f7f1c3f9729887b611eeab760b8967cb"
+    },
+    {
+      "path": "reports/preflight/kuairand-27k-case-context-audit.json",
+      "sha256": "8db0da944401d3e5347aeab4defadab01be4a22d9599e3d99ea7f2217d05cafd"
+    },
+    {
+      "path": "reports/preflight/human-adjacent-calibration-independent-audit.json",
+      "sha256": "625edd22d6843fde7e89708de4b57de959657b08810cfb7799baef6f9668a398"
+    },
+    {
+      "path": "reports/preflight/human-multistep-independent-audit.json",
+      "sha256": "9f0a885467acd10e56c143bff1c0ce4c81a165e0ec46ca5c5cf94efd4b7dfa25"
+    },
+    {
+      "path": "reports/preflight/multistep-fit-independent-audit.json",
+      "sha256": "93565442cd23ad7cfb2fa9eb44578cf9335ce37081ff3b58c9516d56d890a80f"
+    }
+  ]
+}

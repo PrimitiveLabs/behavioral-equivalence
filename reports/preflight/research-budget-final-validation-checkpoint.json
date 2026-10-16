@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-16T09:14:10.300320+00:00",
+  "latest_populated_hour": "2026-10-16T07:00:00Z",
+  "posted_modal_research_usd": "38.65024160",
+  "billing_evidence": "reports/preflight/research-provider-billing-all-app-query.json",
+  "new_final_validation_reservation_usd": ".14",
+  "new_final_validation_actual_usd": null,
+  "assignment": "reports/preflight/final-validation-budget-assignment.json",
+  "frontier_research_inference_calls": 0,
+  "scope": "Posted provider compute usage, excludes unposted final-validation usage, storage, net credits and conversation costs. Existing internal ceilings unchanged; reservation is not spending."
+}

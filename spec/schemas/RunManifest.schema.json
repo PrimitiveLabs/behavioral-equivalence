@@ -1,0 +1,149 @@
+{
+  "$defs": {
+    "ArtifactRef": {
+      "additionalProperties": false,
+      "properties": {
+        "sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        },
+        "uri": {
+          "minLength": 1,
+          "title": "Uri",
+          "type": "string"
+        },
+        "media_type": {
+          "minLength": 1,
+          "title": "Media Type",
+          "type": "string"
+        },
+        "bytes": {
+          "minimum": 0,
+          "title": "Bytes",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "sha256",
+        "uri",
+        "media_type",
+        "bytes"
+      ],
+      "title": "ArtifactRef",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "0.1",
+      "default": "0.1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "run_id": {
+      "minLength": 1,
+      "title": "Run Id",
+      "type": "string"
+    },
+    "task_id": {
+      "minLength": 1,
+      "title": "Task Id",
+      "type": "string"
+    },
+    "phase": {
+      "enum": [
+        "engineering_pilot",
+        "exploratory",
+        "confirmatory",
+        "reproduction"
+      ],
+      "title": "Phase",
+      "type": "string"
+    },
+    "source_digest": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Source Digest",
+      "type": "string"
+    },
+    "config_digest": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Config Digest",
+      "type": "string"
+    },
+    "inputs": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/ArtifactRef"
+      },
+      "title": "Inputs",
+      "type": "array"
+    },
+    "outputs": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/ArtifactRef"
+      },
+      "title": "Outputs",
+      "type": "array"
+    },
+    "cloud_job_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Cloud Job Id"
+    },
+    "state": {
+      "enum": [
+        "planned",
+        "submitted",
+        "running",
+        "complete",
+        "failed",
+        "blocked"
+      ],
+      "title": "State",
+      "type": "string"
+    },
+    "scientific_outcome": {
+      "enum": [
+        "not_evaluated",
+        "supported",
+        "unsupported",
+        "inconclusive"
+      ],
+      "title": "Scientific Outcome",
+      "type": "string"
+    },
+    "failure_reason": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Failure Reason"
+    }
+  },
+  "required": [
+    "run_id",
+    "task_id",
+    "phase",
+    "source_digest",
+    "config_digest",
+    "state",
+    "scientific_outcome"
+  ],
+  "title": "RunManifest",
+  "type": "object"
+}

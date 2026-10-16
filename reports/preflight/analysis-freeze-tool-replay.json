@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "scope": "Read-only reconstruction from retained reports and frozen controller bindings; no lock publication, reservation, submission or test inspection",
+  "supplementary_config_byte_identical": true,
+  "supplementary_config_sha256": "a4b6c454cfd265e2bfd93f834f1db2b8af59e6aee95e6c8ed0904c4a0b407df0",
+  "supplementary_probes": 10,
+  "supplementary_heads": 30,
+  "primary_job_matrix_exact_fields_match": true,
+  "primary_jobs": 50,
+  "historical_reservation_total_usd": 21.561439999999997,
+  "reservation_scope": "Historical planned reservations only, not new spending or invoice charges"
+}

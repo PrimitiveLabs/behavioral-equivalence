@@ -1,0 +1,5732 @@
+{
+  "status": "complete",
+  "phase": "full",
+  "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+  "config": {
+    "schema_version": "human-multistep-fit-v1",
+    "status": "Training/validation preparation for secondary direct horizon predictors; final test analysis remains unscored",
+    "prepared_root": "datasets/kuairand-27k/prepared-candidate-v2",
+    "prepared_report_sha256": "f94f6807749dcfa8b98df4329f3102081d057f90ec96aee6129cc03f030492fd",
+    "protocols": [
+      "known_users",
+      "unseen_users"
+    ],
+    "embargo_hours": 24,
+    "decision_horizons": [
+      1,
+      5,
+      10,
+      25,
+      50
+    ],
+    "origin_cap_per_user": 64,
+    "origin_seed": 20261021,
+    "representative_seed_base": 20261021,
+    "representative_rule": "Reuse the adjacent-calibration full-bundle representative rule with seed base plus source bucket. Sort exposures by bundle_index then immutable case_id before sampling one exposure per bundle.",
+    "origin_rule": "Uniform within each user and declared fitting/validation calendar role, before future support or outcomes.",
+    "observed_cohort": "H consecutive original timestamp bundles, including the origin, all within the same user's test role. No skipping excluded bundles or crossing user boundaries.",
+    "events": [
+      "positive occupancy at H",
+      "positive at least once through H",
+      "negative at least once through H",
+      "at least two positives through H",
+      "at least four positives through H"
+    ],
+    "graph_transitions": "2*H-1 from a pending origin in the emission-aware decision lift",
+    "missing_target": -1,
+    "censoring_report": "Selected, observed and unavailable origins and users, separately for every horizon and evaluation protocol. Do not count unavailable outcomes as negative.",
+    "weighting": "Equal users within each supported observed-horizon cohort; report case-weighted descriptive sensitivity separately.",
+    "minimum_inferential_support": {
+      "users": 50,
+      "observed_origins": 2000
+    },
+    "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+    "execution": "Prepare both roles in one pass per source bucket; no final evaluation.",
+    "independent_audit_sha256": "0176129f335c54fb3589e8149cea335f14edc903dee777bcd760a7fc4336d26d",
+    "calendar": {
+      "train_end": 1651190400000,
+      "validation_end": 1651449600000,
+      "calibration_end": 1651708800000
+    },
+    "metadata_root": "datasets/kuairand-27k/item-metadata-v1-14656b2136c2c3d0",
+    "metadata_report_sha256": "3bc4cd805d7d510c0eeb981368d68d33bec0c20441dab597f088a6d16e644548",
+    "resource_budget": {
+      "campaign_allowance_usd": 4,
+      "worker_cpu": 2,
+      "worker_memory_gib": 8,
+      "worker_timeout_seconds": 600,
+      "coordinator_timeout_seconds": 3600,
+      "max_workers": 4,
+      "scope": "Smoke/full timeout and startup reservations; not provider-enforced billing cap",
+      "ledger": "Existing human-cases allowance; no new ceiling"
+    },
+    "splits": [
+      "train",
+      "validation"
+    ]
+  },
+  "buckets": [
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 0,
+      "input_sha256": {
+        "interactions.parquet": "146291769e9a048ba0afd50c802034e453663e98f4ae6abfa3fb41ed191279d9",
+        "timestamp-bundles.parquet": "53e0111f47df074cfc35a993f593e274b9d522205eaa246060cec78fdba1f808"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "ec71ea89084c203137dd5559ea6182da954f38b1127ed7019d692bc2e5472b0f",
+        "validation-cohort.npz": "71cfc73d65953fdcbb33f47877033e510b66f1e6ec5f8e2928d83a147ad752c2"
+      },
+      "complete_source_bundles": 1716645,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51272,
+          "users": 808,
+          "known_duration_origins": 36826,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51272,
+              "observed_users": 808,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 50898,
+              "observed_users": 807,
+              "censored_origins": 374
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50438,
+              "observed_users": 805,
+              "censored_origins": 834
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49060,
+              "observed_users": 803,
+              "censored_origins": 2212
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46860,
+              "observed_users": 796,
+              "censored_origins": 4412
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 34717,
+          "users": 547,
+          "known_duration_origins": 24824,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 34717,
+              "observed_users": 547,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 34464,
+              "observed_users": 546,
+              "censored_origins": 253
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 34150,
+              "observed_users": 544,
+              "censored_origins": 567
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33214,
+              "observed_users": 544,
+              "censored_origins": 1503
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 31765,
+              "observed_users": 539,
+              "censored_origins": 2952
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43465,
+          "users": 800,
+          "known_duration_origins": 30918,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43465,
+              "observed_users": 800,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41511,
+              "observed_users": 784,
+              "censored_origins": 1954
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39118,
+              "observed_users": 775,
+              "censored_origins": 4347
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32415,
+              "observed_users": 717,
+              "censored_origins": 11050
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23579,
+              "observed_users": 601,
+              "censored_origins": 19886
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4690,
+          "users": 85,
+          "known_duration_origins": 3421,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4690,
+              "observed_users": 85,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4496,
+              "observed_users": 82,
+              "censored_origins": 194
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4260,
+              "observed_users": 81,
+              "censored_origins": 430
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3591,
+              "observed_users": 78,
+              "censored_origins": 1099
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2686,
+              "observed_users": 67,
+              "censored_origins": 2004
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 12.384043676000001,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 1,
+      "input_sha256": {
+        "interactions.parquet": "115fcd680b6dc4769cd041da5b8d51be1200014de2ebbebb57705d7917383cfc",
+        "timestamp-bundles.parquet": "e99c52e1385acc241ce80e20d43eadcfaa2d2af73928991e9c180eafc0cd120b"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "c932f9004d4c615417d6578b95f1cf7cd033b70587732d546309752ae756278b",
+        "validation-cohort.npz": "01085429194867604934496691c4ff980769e136a990ac3259cc82adda5ddc09"
+      },
+      "complete_source_bundles": 1707158,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51777,
+          "users": 816,
+          "known_duration_origins": 37323,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51777,
+              "observed_users": 816,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51381,
+              "observed_users": 812,
+              "censored_origins": 396
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50909,
+              "observed_users": 811,
+              "censored_origins": 868
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49532,
+              "observed_users": 810,
+              "censored_origins": 2245
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 47172,
+              "observed_users": 808,
+              "censored_origins": 4605
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 35136,
+          "users": 554,
+          "known_duration_origins": 25460,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 35136,
+              "observed_users": 554,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 34854,
+              "observed_users": 552,
+              "censored_origins": 282
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 34509,
+              "observed_users": 551,
+              "censored_origins": 627
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33558,
+              "observed_users": 550,
+              "censored_origins": 1578
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 31878,
+              "observed_users": 548,
+              "censored_origins": 3258
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43501,
+          "users": 803,
+          "known_duration_origins": 30884,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43501,
+              "observed_users": 803,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41520,
+              "observed_users": 787,
+              "censored_origins": 1981
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39120,
+              "observed_users": 779,
+              "censored_origins": 4381
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32450,
+              "observed_users": 708,
+              "censored_origins": 11051
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23550,
+              "observed_users": 607,
+              "censored_origins": 19951
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4103,
+          "users": 79,
+          "known_duration_origins": 2842,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4103,
+              "observed_users": 79,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3898,
+              "observed_users": 78,
+              "censored_origins": 205
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3649,
+              "observed_users": 77,
+              "censored_origins": 454
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 2975,
+              "observed_users": 70,
+              "censored_origins": 1128
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2174,
+              "observed_users": 54,
+              "censored_origins": 1929
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.724026066,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 2,
+      "input_sha256": {
+        "interactions.parquet": "0b3a25385ff362df0da6b33743fc30021ed936d204ebf0a216fb9c52274d4dc1",
+        "timestamp-bundles.parquet": "29474d3c6ec16b773f1870817403a5ec2bd99df042eb699291cc368d449a9765"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "7a5c7e158c8daae9861fab8c4be7256d7e0d24c5a638ad79c905b40d3699c012",
+        "validation-cohort.npz": "d03a4a5b778d6f55fe9ac97dafcfc6b8612cdfeaec62d4c898fcc5ee0a6c4b17"
+      },
+      "complete_source_bundles": 1737378,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51871,
+          "users": 816,
+          "known_duration_origins": 37203,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51871,
+              "observed_users": 816,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51472,
+              "observed_users": 814,
+              "censored_origins": 399
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50987,
+              "observed_users": 814,
+              "censored_origins": 884
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49487,
+              "observed_users": 813,
+              "censored_origins": 2384
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 47070,
+              "observed_users": 807,
+              "censored_origins": 4801
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36810,
+          "users": 578,
+          "known_duration_origins": 26327,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36810,
+              "observed_users": 578,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36548,
+              "observed_users": 578,
+              "censored_origins": 262
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 36221,
+              "observed_users": 578,
+              "censored_origins": 589
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 35177,
+              "observed_users": 577,
+              "censored_origins": 1633
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33545,
+              "observed_users": 573,
+              "censored_origins": 3265
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43567,
+          "users": 803,
+          "known_duration_origins": 30735,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43567,
+              "observed_users": 803,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41589,
+              "observed_users": 793,
+              "censored_origins": 1978
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39187,
+              "observed_users": 776,
+              "censored_origins": 4380
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32678,
+              "observed_users": 708,
+              "censored_origins": 10889
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23775,
+              "observed_users": 610,
+              "censored_origins": 19792
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 3653,
+          "users": 70,
+          "known_duration_origins": 2629,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 3653,
+              "observed_users": 70,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3471,
+              "observed_users": 70,
+              "censored_origins": 182
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3256,
+              "observed_users": 66,
+              "censored_origins": 397
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 2709,
+              "observed_users": 58,
+              "censored_origins": 944
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 1937,
+              "observed_users": 51,
+              "censored_origins": 1716
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.737385159000002,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 3,
+      "input_sha256": {
+        "interactions.parquet": "80e5be980709c8e32863d4e85254d3362e1bfd0e4cef27df8a44efefed6559ec",
+        "timestamp-bundles.parquet": "0659d1a7e7e4e44d1417367d1402d7348709b47543625ab154a9f6cfd5dabaca"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "2f5a61dba52b2843593e86d85e4aa24118c4969977092ca78970eacdca8dd8f3",
+        "validation-cohort.npz": "003b545802bb624bc159b3e8a0f0c3a95de49fbe32001b28e3271d63c00cd080"
+      },
+      "complete_source_bundles": 1735678,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51584,
+          "users": 815,
+          "known_duration_origins": 36928,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51584,
+              "observed_users": 815,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51172,
+              "observed_users": 812,
+              "censored_origins": 412
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50653,
+              "observed_users": 812,
+              "censored_origins": 931
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49077,
+              "observed_users": 810,
+              "censored_origins": 2507
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46652,
+              "observed_users": 801,
+              "censored_origins": 4932
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36037,
+          "users": 568,
+          "known_duration_origins": 25882,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36037,
+              "observed_users": 568,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 35751,
+              "observed_users": 567,
+              "censored_origins": 286
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35380,
+              "observed_users": 567,
+              "censored_origins": 657
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34245,
+              "observed_users": 567,
+              "censored_origins": 1792
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32510,
+              "observed_users": 559,
+              "censored_origins": 3527
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 44254,
+          "users": 799,
+          "known_duration_origins": 31206,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 44254,
+              "observed_users": 799,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 42356,
+              "observed_users": 793,
+              "censored_origins": 1898
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 40029,
+              "observed_users": 777,
+              "censored_origins": 4225
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33752,
+              "observed_users": 716,
+              "censored_origins": 10502
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 25018,
+              "observed_users": 629,
+              "censored_origins": 19236
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 3944,
+          "users": 73,
+          "known_duration_origins": 2770,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 3944,
+              "observed_users": 73,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3752,
+              "observed_users": 73,
+              "censored_origins": 192
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3526,
+              "observed_users": 70,
+              "censored_origins": 418
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 2953,
+              "observed_users": 63,
+              "censored_origins": 991
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2167,
+              "observed_users": 56,
+              "censored_origins": 1777
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 16.424779186,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 4,
+      "input_sha256": {
+        "interactions.parquet": "267828396ab5ad7d3ebf66ebd358d177d33f1ad4cd41c7c4b2530865a4bbc523",
+        "timestamp-bundles.parquet": "6725a4f46cdf4eb823f1e7e02e4c42f7690ad1d22191f4b313b52bfa61b157eb"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "bc6abce69ef640e7b1e2465dbbf3761e963defba39a072af2dfa22e7f1ac6baf",
+        "validation-cohort.npz": "d72ae92cd57eedf26d4467128adf7f3f0f2a06113f8156598606aa7033729e3d"
+      },
+      "complete_source_bundles": 1747641,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51817,
+          "users": 815,
+          "known_duration_origins": 37331,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51817,
+              "observed_users": 815,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51409,
+              "observed_users": 815,
+              "censored_origins": 408
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50868,
+              "observed_users": 815,
+              "censored_origins": 949
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49350,
+              "observed_users": 812,
+              "censored_origins": 2467
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46898,
+              "observed_users": 805,
+              "censored_origins": 4919
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 38201,
+          "users": 601,
+          "known_duration_origins": 27513,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 38201,
+              "observed_users": 601,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 37874,
+              "observed_users": 601,
+              "censored_origins": 327
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 37447,
+              "observed_users": 601,
+              "censored_origins": 754
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 36251,
+              "observed_users": 599,
+              "censored_origins": 1950
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 34314,
+              "observed_users": 593,
+              "censored_origins": 3887
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43338,
+          "users": 799,
+          "known_duration_origins": 30634,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43338,
+              "observed_users": 799,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41405,
+              "observed_users": 790,
+              "censored_origins": 1933
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39007,
+              "observed_users": 772,
+              "censored_origins": 4331
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32382,
+              "observed_users": 708,
+              "censored_origins": 10956
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23569,
+              "observed_users": 601,
+              "censored_origins": 19769
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 3933,
+          "users": 67,
+          "known_duration_origins": 2726,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 3933,
+              "observed_users": 67,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3781,
+              "observed_users": 67,
+              "censored_origins": 152
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3587,
+              "observed_users": 67,
+              "censored_origins": 346
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3025,
+              "observed_users": 66,
+              "censored_origins": 908
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2228,
+              "observed_users": 57,
+              "censored_origins": 1705
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.502677146999998,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 5,
+      "input_sha256": {
+        "interactions.parquet": "fe3640b55eda10fefafd9d3f735e23a9b88aa9da3250ded4a1effebfc81a5de2",
+        "timestamp-bundles.parquet": "1552276dd0c98ac26443291513c173f5e2c04f1a7e77436d952a49b51730d944"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "4630f4db9d6619ccece98259447d2dddd066fdf3aaf2aa42bef785010399854a",
+        "validation-cohort.npz": "bc0e84fda60a7ad0606f45d78300bdd2b4c1c0e8f8511bc8465f5aef8adb50b6"
+      },
+      "complete_source_bundles": 1605469,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51591,
+          "users": 814,
+          "known_duration_origins": 37124,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51591,
+              "observed_users": 814,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51162,
+              "observed_users": 813,
+              "censored_origins": 429
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50640,
+              "observed_users": 813,
+              "censored_origins": 951
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49053,
+              "observed_users": 806,
+              "censored_origins": 2538
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46552,
+              "observed_users": 802,
+              "censored_origins": 5039
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36489,
+          "users": 577,
+          "known_duration_origins": 26320,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36489,
+              "observed_users": 577,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36183,
+              "observed_users": 576,
+              "censored_origins": 306
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35815,
+              "observed_users": 576,
+              "censored_origins": 674
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34682,
+              "observed_users": 570,
+              "censored_origins": 1807
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32940,
+              "observed_users": 566,
+              "censored_origins": 3549
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43501,
+          "users": 795,
+          "known_duration_origins": 31134,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43501,
+              "observed_users": 795,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41522,
+              "observed_users": 782,
+              "censored_origins": 1979
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39057,
+              "observed_users": 773,
+              "censored_origins": 4444
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32225,
+              "observed_users": 721,
+              "censored_origins": 11276
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 22875,
+              "observed_users": 601,
+              "censored_origins": 20626
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4589,
+          "users": 85,
+          "known_duration_origins": 3281,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4589,
+              "observed_users": 85,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4379,
+              "observed_users": 81,
+              "censored_origins": 210
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4132,
+              "observed_users": 79,
+              "censored_origins": 457
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3484,
+              "observed_users": 75,
+              "censored_origins": 1105
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2541,
+              "observed_users": 65,
+              "censored_origins": 2048
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.579441919000004,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 6,
+      "input_sha256": {
+        "interactions.parquet": "8ee516bd73e66f8e0f508039f0893e13de6a27217211881a066e84438868e298",
+        "timestamp-bundles.parquet": "f9412afd7f3e758dba06cf7011fbdd6d2180d8aa2f116ec43044b9965e0e8aab"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "f31ebd6da1c7f0754d678ec8e79894a19a241f2aa2bdbeeee56c9275e6aa0a72",
+        "validation-cohort.npz": "5a6207d83ce1797e1e37ed1e8841a03a7c6301e36ac6ed4bffa1d39079f6fdf3"
+      },
+      "complete_source_bundles": 1696820,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51511,
+          "users": 815,
+          "known_duration_origins": 36758,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51511,
+              "observed_users": 815,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51078,
+              "observed_users": 811,
+              "censored_origins": 433
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50547,
+              "observed_users": 809,
+              "censored_origins": 964
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49091,
+              "observed_users": 806,
+              "censored_origins": 2420
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46818,
+              "observed_users": 801,
+              "censored_origins": 4693
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 37018,
+          "users": 586,
+          "known_duration_origins": 26346,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 37018,
+              "observed_users": 586,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36713,
+              "observed_users": 583,
+              "censored_origins": 305
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 36340,
+              "observed_users": 581,
+              "censored_origins": 678
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 35335,
+              "observed_users": 579,
+              "censored_origins": 1683
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33733,
+              "observed_users": 576,
+              "censored_origins": 3285
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43634,
+          "users": 799,
+          "known_duration_origins": 30831,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43634,
+              "observed_users": 799,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41688,
+              "observed_users": 790,
+              "censored_origins": 1946
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39333,
+              "observed_users": 769,
+              "censored_origins": 4301
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32840,
+              "observed_users": 710,
+              "censored_origins": 10794
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23957,
+              "observed_users": 620,
+              "censored_origins": 19677
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 3989,
+          "users": 74,
+          "known_duration_origins": 2779,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 3989,
+              "observed_users": 74,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3821,
+              "observed_users": 74,
+              "censored_origins": 168
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3608,
+              "observed_users": 70,
+              "censored_origins": 381
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3046,
+              "observed_users": 63,
+              "censored_origins": 943
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2279,
+              "observed_users": 58,
+              "censored_origins": 1710
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 16.108765303,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 7,
+      "input_sha256": {
+        "interactions.parquet": "f414d4b736117f72c2206768f0f7f9f44995a265fbc987833a0e7b1860ec36bd",
+        "timestamp-bundles.parquet": "22230d551b22584e0d9a2fef24f726610df9e9302ecf5deac29573a2f3fb8437"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "93a00d84d749a4c64ae9fd21bd36dbb85730b1abe96eb3384c7ad56ca32d8853",
+        "validation-cohort.npz": "faa1f217f9f8f0c16766ba0110afcf7b8c5ba0d81b72dd6062d854162fc3a745"
+      },
+      "complete_source_bundles": 1727458,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51596,
+          "users": 811,
+          "known_duration_origins": 37171,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51596,
+              "observed_users": 811,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51217,
+              "observed_users": 808,
+              "censored_origins": 379
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50742,
+              "observed_users": 808,
+              "censored_origins": 854
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49378,
+              "observed_users": 807,
+              "censored_origins": 2218
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 47117,
+              "observed_users": 804,
+              "censored_origins": 4479
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36435,
+          "users": 574,
+          "known_duration_origins": 26262,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36435,
+              "observed_users": 574,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36159,
+              "observed_users": 571,
+              "censored_origins": 276
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35815,
+              "observed_users": 571,
+              "censored_origins": 620
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34866,
+              "observed_users": 570,
+              "censored_origins": 1569
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33308,
+              "observed_users": 567,
+              "censored_origins": 3127
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43740,
+          "users": 800,
+          "known_duration_origins": 31206,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43740,
+              "observed_users": 800,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41788,
+              "observed_users": 793,
+              "censored_origins": 1952
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39441,
+              "observed_users": 775,
+              "censored_origins": 4299
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33049,
+              "observed_users": 703,
+              "censored_origins": 10691
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 24507,
+              "observed_users": 620,
+              "censored_origins": 19233
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 3579,
+          "users": 65,
+          "known_duration_origins": 2461,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 3579,
+              "observed_users": 65,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3416,
+              "observed_users": 65,
+              "censored_origins": 163
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3211,
+              "observed_users": 64,
+              "censored_origins": 368
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 2683,
+              "observed_users": 58,
+              "censored_origins": 896
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 1934,
+              "observed_users": 51,
+              "censored_origins": 1645
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 16.649988538,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 8,
+      "input_sha256": {
+        "interactions.parquet": "d326f9637c27fe4708204db5c53be2770c77a8fbd406942869622b2fb4fa78e7",
+        "timestamp-bundles.parquet": "f00794602987723358fb7dd6a512e9e4e2afcfc80ec5d18198ebad1792f58983"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "d2e8c26991d26f09357b15b587eee279d294b4ab4b0672e977ebd95ace59ac0b",
+        "validation-cohort.npz": "ccb338c8fb27e184fa00b30486025453c28068578ce0294f65c73b7d2d204cbf"
+      },
+      "complete_source_bundles": 1640733,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 52005,
+          "users": 818,
+          "known_duration_origins": 37409,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 52005,
+              "observed_users": 818,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51603,
+              "observed_users": 817,
+              "censored_origins": 402
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 51114,
+              "observed_users": 816,
+              "censored_origins": 891
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49707,
+              "observed_users": 813,
+              "censored_origins": 2298
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 47342,
+              "observed_users": 811,
+              "censored_origins": 4663
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36591,
+          "users": 577,
+          "known_duration_origins": 26367,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36591,
+              "observed_users": 577,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36297,
+              "observed_users": 576,
+              "censored_origins": 294
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35968,
+              "observed_users": 575,
+              "censored_origins": 623
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34973,
+              "observed_users": 572,
+              "censored_origins": 1618
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33337,
+              "observed_users": 570,
+              "censored_origins": 3254
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43766,
+          "users": 802,
+          "known_duration_origins": 31217,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43766,
+              "observed_users": 802,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41800,
+              "observed_users": 784,
+              "censored_origins": 1966
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39410,
+              "observed_users": 774,
+              "censored_origins": 4356
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32688,
+              "observed_users": 716,
+              "censored_origins": 11078
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23653,
+              "observed_users": 611,
+              "censored_origins": 20113
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4767,
+          "users": 83,
+          "known_duration_origins": 3362,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4767,
+              "observed_users": 83,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4581,
+              "observed_users": 82,
+              "censored_origins": 186
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4359,
+              "observed_users": 82,
+              "censored_origins": 408
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3655,
+              "observed_users": 76,
+              "censored_origins": 1112
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2678,
+              "observed_users": 68,
+              "censored_origins": 2089
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.169773525,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 9,
+      "input_sha256": {
+        "interactions.parquet": "9cc693f076f818f439d436e2de3ce3ff98e8173d7f8ecd91cac07f992d841831",
+        "timestamp-bundles.parquet": "a83f525bcaacef77fd467f4ea7c1c812e6be93404c3b51376b220b222a272658"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "56638990e7a53c636eca7fe875e0a86814d108fbd89c4f4ba2c04918f0d344dd",
+        "validation-cohort.npz": "578e9df10347aee201978d6769ad16a9ff0c311ea9b49c40c26a2e4908568cf0"
+      },
+      "complete_source_bundles": 1675147,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 52019,
+          "users": 818,
+          "known_duration_origins": 37748,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 52019,
+              "observed_users": 818,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51626,
+              "observed_users": 817,
+              "censored_origins": 393
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 51147,
+              "observed_users": 816,
+              "censored_origins": 872
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49715,
+              "observed_users": 814,
+              "censored_origins": 2304
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 47441,
+              "observed_users": 810,
+              "censored_origins": 4578
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 35499,
+          "users": 558,
+          "known_duration_origins": 25879,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 35499,
+              "observed_users": 558,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 35231,
+              "observed_users": 557,
+              "censored_origins": 268
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 34917,
+              "observed_users": 556,
+              "censored_origins": 582
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33959,
+              "observed_users": 556,
+              "censored_origins": 1540
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32453,
+              "observed_users": 552,
+              "censored_origins": 3046
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 44286,
+          "users": 811,
+          "known_duration_origins": 31941,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 44286,
+              "observed_users": 811,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 42293,
+              "observed_users": 796,
+              "censored_origins": 1993
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39866,
+              "observed_users": 774,
+              "censored_origins": 4420
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33189,
+              "observed_users": 726,
+              "censored_origins": 11097
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 24088,
+              "observed_users": 628,
+              "censored_origins": 20198
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4186,
+          "users": 76,
+          "known_duration_origins": 2975,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4186,
+              "observed_users": 76,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4013,
+              "observed_users": 74,
+              "censored_origins": 173
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3803,
+              "observed_users": 72,
+              "censored_origins": 383
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3225,
+              "observed_users": 68,
+              "censored_origins": 961
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2450,
+              "observed_users": 60,
+              "censored_origins": 1736
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 16.256935041,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 10,
+      "input_sha256": {
+        "interactions.parquet": "4dd8aa2d9f50972fdb8677481cb2d30d4fe34a4516f3c207364935f60890d36c",
+        "timestamp-bundles.parquet": "7011e4bfa2bb1893d68d77884c511fd73a1d5925692e46f76c9e8a6298b61790"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "2ec2073b88be24e92cf065e68a9bdbf0ba1348420de452fdcdbba7ac65422b4c",
+        "validation-cohort.npz": "f88263925c94fe9102523c8fc0859810e236e3f6be3397164e7ee364842580a7"
+      },
+      "complete_source_bundles": 1641480,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51859,
+          "users": 815,
+          "known_duration_origins": 37519,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51859,
+              "observed_users": 815,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51454,
+              "observed_users": 814,
+              "censored_origins": 405
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50945,
+              "observed_users": 812,
+              "censored_origins": 914
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49419,
+              "observed_users": 811,
+              "censored_origins": 2440
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46946,
+              "observed_users": 807,
+              "censored_origins": 4913
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36516,
+          "users": 575,
+          "known_duration_origins": 26390,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36516,
+              "observed_users": 575,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36224,
+              "observed_users": 574,
+              "censored_origins": 292
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35879,
+              "observed_users": 572,
+              "censored_origins": 637
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34798,
+              "observed_users": 571,
+              "censored_origins": 1718
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33131,
+              "observed_users": 568,
+              "censored_origins": 3385
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 41855,
+          "users": 788,
+          "known_duration_origins": 29350,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 41855,
+              "observed_users": 788,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 39874,
+              "observed_users": 782,
+              "censored_origins": 1981
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 37431,
+              "observed_users": 762,
+              "censored_origins": 4424
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 30765,
+              "observed_users": 686,
+              "censored_origins": 11090
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 22268,
+              "observed_users": 575,
+              "censored_origins": 19587
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4577,
+          "users": 87,
+          "known_duration_origins": 3249,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4577,
+              "observed_users": 87,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4360,
+              "observed_users": 86,
+              "censored_origins": 217
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4088,
+              "observed_users": 85,
+              "censored_origins": 489
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3338,
+              "observed_users": 77,
+              "censored_origins": 1239
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2406,
+              "observed_users": 62,
+              "censored_origins": 2171
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.685695594000002,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 11,
+      "input_sha256": {
+        "interactions.parquet": "dbaf82f0bd57903449916573e00af8f327431abe1542aebf9ecc18db59f5ec8c",
+        "timestamp-bundles.parquet": "2226e8785b29dd3275f4e3e204fb3ed1721f08116f2bc72f47df14949c7ad438"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "c14e31881f3cf0081781e4d75a812d46a4b133ab376799a7803d8fe200b8c061",
+        "validation-cohort.npz": "984eb96db96b5e6868eca8c8234c68cb0a4a536052353684888ab178102dd0d2"
+      },
+      "complete_source_bundles": 1664257,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51250,
+          "users": 809,
+          "known_duration_origins": 36962,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51250,
+              "observed_users": 809,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 50836,
+              "observed_users": 807,
+              "censored_origins": 414
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50355,
+              "observed_users": 805,
+              "censored_origins": 895
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 48835,
+              "observed_users": 804,
+              "censored_origins": 2415
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46457,
+              "observed_users": 796,
+              "censored_origins": 4793
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36140,
+          "users": 570,
+          "known_duration_origins": 26112,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36140,
+              "observed_users": 570,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 35844,
+              "observed_users": 569,
+              "censored_origins": 296
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35499,
+              "observed_users": 568,
+              "censored_origins": 641
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34428,
+              "observed_users": 567,
+              "censored_origins": 1712
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32741,
+              "observed_users": 561,
+              "censored_origins": 3399
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43963,
+          "users": 802,
+          "known_duration_origins": 31664,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43963,
+              "observed_users": 802,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 42021,
+              "observed_users": 790,
+              "censored_origins": 1942
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39697,
+              "observed_users": 779,
+              "censored_origins": 4266
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33165,
+              "observed_users": 717,
+              "censored_origins": 10798
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 24286,
+              "observed_users": 626,
+              "censored_origins": 19677
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4070,
+          "users": 79,
+          "known_duration_origins": 2957,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4070,
+              "observed_users": 79,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3881,
+              "observed_users": 76,
+              "censored_origins": 189
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3659,
+              "observed_users": 76,
+              "censored_origins": 411
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3037,
+              "observed_users": 69,
+              "censored_origins": 1033
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2315,
+              "observed_users": 54,
+              "censored_origins": 1755
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.254433664999993,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 12,
+      "input_sha256": {
+        "interactions.parquet": "a2f3d304654da3ad7f6336bbe1643b447feca1b1196040c75eaec7377cb5bb15",
+        "timestamp-bundles.parquet": "49a636cc452776767871aef481ab4081f0f4e53285934467835208458cae5341"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "9f693d7849257aa092acab0d323d330d85670bb869a39990d65c5a385b5a5ec4",
+        "validation-cohort.npz": "b6f71f89188e8a4c9e99d8851c81606bf30c1161e65147d68e4c797e5a4938e1"
+      },
+      "complete_source_bundles": 1626328,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51382,
+          "users": 814,
+          "known_duration_origins": 36949,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51382,
+              "observed_users": 814,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 50959,
+              "observed_users": 811,
+              "censored_origins": 423
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50469,
+              "observed_users": 809,
+              "censored_origins": 913
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49017,
+              "observed_users": 804,
+              "censored_origins": 2365
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46653,
+              "observed_users": 799,
+              "censored_origins": 4729
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 35626,
+          "users": 565,
+          "known_duration_origins": 25695,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 35626,
+              "observed_users": 565,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 35322,
+              "observed_users": 562,
+              "censored_origins": 304
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 34966,
+              "observed_users": 560,
+              "censored_origins": 660
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33940,
+              "observed_users": 557,
+              "censored_origins": 1686
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32256,
+              "observed_users": 554,
+              "censored_origins": 3370
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 42823,
+          "users": 801,
+          "known_duration_origins": 30359,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 42823,
+              "observed_users": 801,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 40821,
+              "observed_users": 785,
+              "censored_origins": 2002
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 38386,
+              "observed_users": 767,
+              "censored_origins": 4437
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 31765,
+              "observed_users": 694,
+              "censored_origins": 11058
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 22832,
+              "observed_users": 600,
+              "censored_origins": 19991
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 3376,
+          "users": 64,
+          "known_duration_origins": 2301,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 3376,
+              "observed_users": 64,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3212,
+              "observed_users": 62,
+              "censored_origins": 164
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3008,
+              "observed_users": 61,
+              "censored_origins": 368
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 2462,
+              "observed_users": 54,
+              "censored_origins": 914
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 1748,
+              "observed_users": 46,
+              "censored_origins": 1628
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 16.91048724000001,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 13,
+      "input_sha256": {
+        "interactions.parquet": "3cd321d4cc1dfd402893f28f958d928b5235c07395f9861856a575b04e9565f2",
+        "timestamp-bundles.parquet": "952e0c9cb6445870cf81f22f31cc8a815a19876bf56e7857516989e11e5e550e"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "8d01a8f6ce793218a4cab29d8939961fb71929a432cbd791721c8e801759ff2f",
+        "validation-cohort.npz": "7476d672fffa9ab116efe02a181a6e73b5bee90afb9d8e4ba9921a63342a57be"
+      },
+      "complete_source_bundles": 1679612,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51843,
+          "users": 817,
+          "known_duration_origins": 37108,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51843,
+              "observed_users": 817,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51453,
+              "observed_users": 816,
+              "censored_origins": 390
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50925,
+              "observed_users": 814,
+              "censored_origins": 918
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49386,
+              "observed_users": 811,
+              "censored_origins": 2457
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46985,
+              "observed_users": 806,
+              "censored_origins": 4858
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 35998,
+          "users": 566,
+          "known_duration_origins": 25796,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 35998,
+              "observed_users": 566,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 35734,
+              "observed_users": 565,
+              "censored_origins": 264
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35365,
+              "observed_users": 564,
+              "censored_origins": 633
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34312,
+              "observed_users": 563,
+              "censored_origins": 1686
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32660,
+              "observed_users": 561,
+              "censored_origins": 3338
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43395,
+          "users": 803,
+          "known_duration_origins": 30839,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43395,
+              "observed_users": 803,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41388,
+              "observed_users": 795,
+              "censored_origins": 2007
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 38990,
+              "observed_users": 769,
+              "censored_origins": 4405
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32515,
+              "observed_users": 706,
+              "censored_origins": 10880
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23609,
+              "observed_users": 611,
+              "censored_origins": 19786
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4477,
+          "users": 82,
+          "known_duration_origins": 3146,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4477,
+              "observed_users": 82,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4274,
+              "observed_users": 82,
+              "censored_origins": 203
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4007,
+              "observed_users": 81,
+              "censored_origins": 470
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3268,
+              "observed_users": 74,
+              "censored_origins": 1209
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2336,
+              "observed_users": 62,
+              "censored_origins": 2141
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 16.970165349,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 14,
+      "input_sha256": {
+        "interactions.parquet": "01748a85e4bf34e484696c37cd36e5b64679340725e906ec123af4c5b633281a",
+        "timestamp-bundles.parquet": "fcfcd28db9be925b71b42ac62ef7d8a2d144d006283976672aeb131707e38602"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "88342aaad542be4481497fc92451ae984fe660c92c3422fd4f3968cedf2d64a0",
+        "validation-cohort.npz": "ebd4a8e960fddf6191a05fdf0999a7293c72d92a7e953ee129731709d3f5b921"
+      },
+      "complete_source_bundles": 1728717,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 52049,
+          "users": 819,
+          "known_duration_origins": 37400,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 52049,
+              "observed_users": 819,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51639,
+              "observed_users": 818,
+              "censored_origins": 410
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 51132,
+              "observed_users": 817,
+              "censored_origins": 917
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49647,
+              "observed_users": 815,
+              "censored_origins": 2402
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 47255,
+              "observed_users": 811,
+              "censored_origins": 4794
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36391,
+          "users": 573,
+          "known_duration_origins": 26097,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36391,
+              "observed_users": 573,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36107,
+              "observed_users": 572,
+              "censored_origins": 284
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35760,
+              "observed_users": 572,
+              "censored_origins": 631
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34722,
+              "observed_users": 570,
+              "censored_origins": 1669
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33071,
+              "observed_users": 567,
+              "censored_origins": 3320
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 44031,
+          "users": 807,
+          "known_duration_origins": 30874,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 44031,
+              "observed_users": 807,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 42080,
+              "observed_users": 785,
+              "censored_origins": 1951
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39739,
+              "observed_users": 771,
+              "censored_origins": 4292
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33337,
+              "observed_users": 717,
+              "censored_origins": 10694
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 24450,
+              "observed_users": 618,
+              "censored_origins": 19581
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4607,
+          "users": 88,
+          "known_duration_origins": 3206,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4607,
+              "observed_users": 88,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4385,
+              "observed_users": 85,
+              "censored_origins": 222
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4099,
+              "observed_users": 83,
+              "censored_origins": 508
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3337,
+              "observed_users": 79,
+              "censored_origins": 1270
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2320,
+              "observed_users": 59,
+              "censored_origins": 2287
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 17.791984685999992,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 15,
+      "input_sha256": {
+        "interactions.parquet": "dd902f977c26513c23861f13792076d451cf8d4f5b854d0fca7cf614e7d9223c",
+        "timestamp-bundles.parquet": "a1ea3441ddefd0166fdc3dfd1594a3cf46e5e50ce7c9ebfa2225849054180089"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "167b8e16877be2f7a8032e30374be6e69de10636a32e9fd0f6f10c0ded430ce3",
+        "validation-cohort.npz": "1963f3716a169adce531ac97dd4652a421bd069f9db910a71bd4922a4b1a6733"
+      },
+      "complete_source_bundles": 1634200,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51972,
+          "users": 818,
+          "known_duration_origins": 37407,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51972,
+              "observed_users": 818,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51516,
+              "observed_users": 817,
+              "censored_origins": 456
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50968,
+              "observed_users": 817,
+              "censored_origins": 1004
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49324,
+              "observed_users": 815,
+              "censored_origins": 2648
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46745,
+              "observed_users": 807,
+              "censored_origins": 5227
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 34884,
+          "users": 549,
+          "known_duration_origins": 25155,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 34884,
+              "observed_users": 549,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 34579,
+              "observed_users": 549,
+              "censored_origins": 305
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 34202,
+              "observed_users": 549,
+              "censored_origins": 682
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33060,
+              "observed_users": 548,
+              "censored_origins": 1824
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 31342,
+              "observed_users": 541,
+              "censored_origins": 3542
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43192,
+          "users": 806,
+          "known_duration_origins": 30586,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43192,
+              "observed_users": 806,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41137,
+              "observed_users": 798,
+              "censored_origins": 2055
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 38607,
+              "observed_users": 782,
+              "censored_origins": 4585
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 31896,
+              "observed_users": 701,
+              "censored_origins": 11296
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23036,
+              "observed_users": 601,
+              "censored_origins": 20156
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 5060,
+          "users": 90,
+          "known_duration_origins": 3572,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5060,
+              "observed_users": 90,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4836,
+              "observed_users": 90,
+              "censored_origins": 224
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4561,
+              "observed_users": 90,
+              "censored_origins": 499
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3823,
+              "observed_users": 84,
+              "censored_origins": 1237
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2787,
+              "observed_users": 69,
+              "censored_origins": 2273
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.200731679,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 16,
+      "input_sha256": {
+        "interactions.parquet": "2974a69d4819a34c10c7d6d97229ad877bdb7192bbf15877f81afe581bd4e17b",
+        "timestamp-bundles.parquet": "2dbfd4e9530d3999cce7221631eb1920285e7671622f949a74f0e85cd97e0fcf"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "ecbb6012e7fd6b5a2e251dce7436757c534b7bf64abcc9f079d309dd38d92348",
+        "validation-cohort.npz": "2bd36ebf2b91517d1001a305b434d75fec039f7c35efeaf1238baad97f8549b4"
+      },
+      "complete_source_bundles": 1605278,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51406,
+          "users": 814,
+          "known_duration_origins": 37187,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51406,
+              "observed_users": 814,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 50995,
+              "observed_users": 809,
+              "censored_origins": 411
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50508,
+              "observed_users": 806,
+              "censored_origins": 898
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49057,
+              "observed_users": 804,
+              "censored_origins": 2349
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46670,
+              "observed_users": 801,
+              "censored_origins": 4736
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36953,
+          "users": 584,
+          "known_duration_origins": 26525,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36953,
+              "observed_users": 584,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36658,
+              "observed_users": 580,
+              "censored_origins": 295
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 36308,
+              "observed_users": 580,
+              "censored_origins": 645
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 35247,
+              "observed_users": 578,
+              "censored_origins": 1706
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33523,
+              "observed_users": 576,
+              "censored_origins": 3430
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43526,
+          "users": 799,
+          "known_duration_origins": 31230,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43526,
+              "observed_users": 799,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41578,
+              "observed_users": 781,
+              "censored_origins": 1948
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39246,
+              "observed_users": 772,
+              "censored_origins": 4280
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32491,
+              "observed_users": 718,
+              "censored_origins": 11035
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23407,
+              "observed_users": 604,
+              "censored_origins": 20119
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4030,
+          "users": 71,
+          "known_duration_origins": 2815,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4030,
+              "observed_users": 71,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3866,
+              "observed_users": 71,
+              "censored_origins": 164
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3646,
+              "observed_users": 71,
+              "censored_origins": 384
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3039,
+              "observed_users": 66,
+              "censored_origins": 991
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2176,
+              "observed_users": 57,
+              "censored_origins": 1854
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.056925742000004,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 17,
+      "input_sha256": {
+        "interactions.parquet": "06f5fc6d52c5d96c9f8f2851f643d31f016acd6fb90f5bd45b2d0d14adcdc643",
+        "timestamp-bundles.parquet": "b352eee09b3ea473a18257d825a3e8b8042e29ea2e667036f004ede60061e6c3"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "1e1cfac65b478682074ac6a2f840f1c9a6f4ee7d5b7027fae38ef14a689e57fc",
+        "validation-cohort.npz": "79f255074bd8f85a7b4cba1e99ac7dc6061dbe3b150615b567d132955f786e41"
+      },
+      "complete_source_bundles": 1707056,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51455,
+          "users": 813,
+          "known_duration_origins": 36874,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51455,
+              "observed_users": 813,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51024,
+              "observed_users": 812,
+              "censored_origins": 431
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50476,
+              "observed_users": 811,
+              "censored_origins": 979
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 48802,
+              "observed_users": 806,
+              "censored_origins": 2653
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46200,
+              "observed_users": 799,
+              "censored_origins": 5255
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 35987,
+          "users": 568,
+          "known_duration_origins": 25662,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 35987,
+              "observed_users": 568,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 35700,
+              "observed_users": 568,
+              "censored_origins": 287
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35333,
+              "observed_users": 567,
+              "censored_origins": 654
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34219,
+              "observed_users": 564,
+              "censored_origins": 1768
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32500,
+              "observed_users": 559,
+              "censored_origins": 3487
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43265,
+          "users": 801,
+          "known_duration_origins": 30661,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43265,
+              "observed_users": 801,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41305,
+              "observed_users": 781,
+              "censored_origins": 1960
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 38987,
+              "observed_users": 764,
+              "censored_origins": 4278
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32505,
+              "observed_users": 708,
+              "censored_origins": 10760
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23744,
+              "observed_users": 611,
+              "censored_origins": 19521
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 5077,
+          "users": 95,
+          "known_duration_origins": 3621,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5077,
+              "observed_users": 95,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4854,
+              "observed_users": 94,
+              "censored_origins": 223
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4571,
+              "observed_users": 93,
+              "censored_origins": 506
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3775,
+              "observed_users": 84,
+              "censored_origins": 1302
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2741,
+              "observed_users": 69,
+              "censored_origins": 2336
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 17.054509974,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 18,
+      "input_sha256": {
+        "interactions.parquet": "7f073102bc0302d35ecf516b9d33f0a2af1eb1602fd7d431af7a3dd82527a54c",
+        "timestamp-bundles.parquet": "43f47ca1164d411a3bbdac510868463277b3f91bc017881f6d89aeb015cfdf9b"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "574e4cae07c93d23efe90d44c93a0b693e49dc355a4f1dc25a21a99570f7f4f6",
+        "validation-cohort.npz": "9554644b854fc586b35ef2a1f0bbafebd1aea9d0cf7bd4c8f07b367119b91c07"
+      },
+      "complete_source_bundles": 1613451,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51758,
+          "users": 815,
+          "known_duration_origins": 37079,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51758,
+              "observed_users": 815,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51344,
+              "observed_users": 815,
+              "censored_origins": 414
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50835,
+              "observed_users": 813,
+              "censored_origins": 923
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49324,
+              "observed_users": 809,
+              "censored_origins": 2434
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46891,
+              "observed_users": 806,
+              "censored_origins": 4867
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 37578,
+          "users": 593,
+          "known_duration_origins": 26939,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 37578,
+              "observed_users": 593,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 37285,
+              "observed_users": 593,
+              "censored_origins": 293
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 36917,
+              "observed_users": 591,
+              "censored_origins": 661
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 35832,
+              "observed_users": 587,
+              "censored_origins": 1746
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 34087,
+              "observed_users": 585,
+              "censored_origins": 3491
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43863,
+          "users": 806,
+          "known_duration_origins": 31172,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43863,
+              "observed_users": 806,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41888,
+              "observed_users": 795,
+              "censored_origins": 1975
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39452,
+              "observed_users": 783,
+              "censored_origins": 4411
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32565,
+              "observed_users": 724,
+              "censored_origins": 11298
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23453,
+              "observed_users": 613,
+              "censored_origins": 20410
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 3982,
+          "users": 73,
+          "known_duration_origins": 2878,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 3982,
+              "observed_users": 73,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3790,
+              "observed_users": 73,
+              "censored_origins": 192
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3545,
+              "observed_users": 72,
+              "censored_origins": 437
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 2798,
+              "observed_users": 68,
+              "censored_origins": 1184
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 1859,
+              "observed_users": 53,
+              "censored_origins": 2123
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.019156889000001,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 19,
+      "input_sha256": {
+        "interactions.parquet": "7b7f5d52090dbfe0c89dd20c6d2f46dab683b65e62d62b58892009a92f2aabc8",
+        "timestamp-bundles.parquet": "c3720ac2409dbc58f83126d1b9e24071d879c11cce063f127907daa6ec17e862"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "acac1b62523ab98fa0768e710587af6485a526f5b27e699eac39ff876f2319a1",
+        "validation-cohort.npz": "4a70c28acb7a68fed1c0b9f8c1da1fe6961847d307bb28fb4faa2d4d8d488126"
+      },
+      "complete_source_bundles": 1623070,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51450,
+          "users": 816,
+          "known_duration_origins": 36840,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51450,
+              "observed_users": 816,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 50986,
+              "observed_users": 813,
+              "censored_origins": 464
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50423,
+              "observed_users": 811,
+              "censored_origins": 1027
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 48809,
+              "observed_users": 806,
+              "censored_origins": 2641
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46251,
+              "observed_users": 799,
+              "censored_origins": 5199
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 34882,
+          "users": 554,
+          "known_duration_origins": 25054,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 34882,
+              "observed_users": 554,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 34559,
+              "observed_users": 551,
+              "censored_origins": 323
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 34163,
+              "observed_users": 549,
+              "censored_origins": 719
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33078,
+              "observed_users": 546,
+              "censored_origins": 1804
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 31352,
+              "observed_users": 542,
+              "censored_origins": 3530
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43022,
+          "users": 800,
+          "known_duration_origins": 30657,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43022,
+              "observed_users": 800,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41031,
+              "observed_users": 781,
+              "censored_origins": 1991
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 38648,
+              "observed_users": 765,
+              "censored_origins": 4374
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32107,
+              "observed_users": 698,
+              "censored_origins": 10915
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23030,
+              "observed_users": 602,
+              "censored_origins": 19992
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4696,
+          "users": 85,
+          "known_duration_origins": 3315,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4696,
+              "observed_users": 85,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4481,
+              "observed_users": 83,
+              "censored_origins": 215
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4237,
+              "observed_users": 82,
+              "censored_origins": 459
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3498,
+              "observed_users": 76,
+              "censored_origins": 1198
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2471,
+              "observed_users": 67,
+              "censored_origins": 2225
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 14.645629850999995,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 20,
+      "input_sha256": {
+        "interactions.parquet": "691289951dffd7fe1c3f880023e8b51bcca7f760648e81f051cad587f924cf07",
+        "timestamp-bundles.parquet": "b82de4582689b50ef061ea8fed8cdf8b0dee96d767edc422a745bb7b1429c601"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "691cd69ca1372682cc8308c4672ef4413239eb0a3aaaadcb04706d8f70d3829e",
+        "validation-cohort.npz": "5f38ce7c3d7003e16abb9c44d8d2bd7f2c3ebe8bd5c72f66cdd5eb870bd29075"
+      },
+      "complete_source_bundles": 1666837,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51871,
+          "users": 818,
+          "known_duration_origins": 37215,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51871,
+              "observed_users": 818,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51463,
+              "observed_users": 817,
+              "censored_origins": 408
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50953,
+              "observed_users": 817,
+              "censored_origins": 918
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49420,
+              "observed_users": 812,
+              "censored_origins": 2451
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46918,
+              "observed_users": 807,
+              "censored_origins": 4953
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 37031,
+          "users": 585,
+          "known_duration_origins": 26631,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 37031,
+              "observed_users": 585,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36744,
+              "observed_users": 584,
+              "censored_origins": 287
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 36362,
+              "observed_users": 584,
+              "censored_origins": 669
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 35237,
+              "observed_users": 579,
+              "censored_origins": 1794
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33410,
+              "observed_users": 576,
+              "censored_origins": 3621
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43833,
+          "users": 801,
+          "known_duration_origins": 31081,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43833,
+              "observed_users": 801,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41895,
+              "observed_users": 790,
+              "censored_origins": 1938
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39472,
+              "observed_users": 775,
+              "censored_origins": 4361
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32960,
+              "observed_users": 713,
+              "censored_origins": 10873
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23952,
+              "observed_users": 617,
+              "censored_origins": 19881
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4565,
+          "users": 83,
+          "known_duration_origins": 3099,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4565,
+              "observed_users": 83,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4351,
+              "observed_users": 81,
+              "censored_origins": 214
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4086,
+              "observed_users": 79,
+              "censored_origins": 479
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3352,
+              "observed_users": 73,
+              "censored_origins": 1213
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2293,
+              "observed_users": 67,
+              "censored_origins": 2272
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.310601031999994,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 21,
+      "input_sha256": {
+        "interactions.parquet": "ec9b16b95b8bef24c4e554186134f056525b7ad276bce5cca6b8cba1e16fd061",
+        "timestamp-bundles.parquet": "bb44538e0863bebccd1e85dc6f92b745a87edef575c9254ae90c8a0820eefd7f"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "d4ca2f49c90f89f86b80843e6da736aa02ed70fe99b9ae6683c809cccddb6955",
+        "validation-cohort.npz": "b3ea59739ae3d9a59cffd19d31cb4b15362ba641e9b03a664aefa643c1306dcb"
+      },
+      "complete_source_bundles": 1725798,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51653,
+          "users": 814,
+          "known_duration_origins": 37036,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51653,
+              "observed_users": 814,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51274,
+              "observed_users": 814,
+              "censored_origins": 379
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50775,
+              "observed_users": 813,
+              "censored_origins": 878
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49266,
+              "observed_users": 812,
+              "censored_origins": 2387
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46843,
+              "observed_users": 802,
+              "censored_origins": 4810
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 35251,
+          "users": 553,
+          "known_duration_origins": 25437,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 35251,
+              "observed_users": 553,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 35001,
+              "observed_users": 553,
+              "censored_origins": 250
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 34690,
+              "observed_users": 553,
+              "censored_origins": 561
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33693,
+              "observed_users": 553,
+              "censored_origins": 1558
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32056,
+              "observed_users": 549,
+              "censored_origins": 3195
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43950,
+          "users": 802,
+          "known_duration_origins": 31231,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43950,
+              "observed_users": 802,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 42015,
+              "observed_users": 787,
+              "censored_origins": 1935
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39667,
+              "observed_users": 769,
+              "censored_origins": 4283
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33173,
+              "observed_users": 720,
+              "censored_origins": 10777
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 24201,
+              "observed_users": 620,
+              "censored_origins": 19749
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4914,
+          "users": 89,
+          "known_duration_origins": 3490,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4914,
+              "observed_users": 89,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4700,
+              "observed_users": 87,
+              "censored_origins": 214
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4438,
+              "observed_users": 86,
+              "censored_origins": 476
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3702,
+              "observed_users": 83,
+              "censored_origins": 1212
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2683,
+              "observed_users": 69,
+              "censored_origins": 2231
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 16.292055430999994,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 22,
+      "input_sha256": {
+        "interactions.parquet": "75b03aa30a3ac23a1a1015c996a6b1d6a05d0f481485f99cac5fe1628ee300c4",
+        "timestamp-bundles.parquet": "e9fc0cc907fef88baf0d72d267d4713c578a873614e348108e0296e357177d83"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "36257ccd2e8028aa8cfc4479e65952f03ba20a0edcaf7c08a72d7cb3f9abe4fa",
+        "validation-cohort.npz": "9a254ccdf7a5a72188c9e6cb5e312055b2d6423020f780f8a85b6fc2f9bff729"
+      },
+      "complete_source_bundles": 1645469,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51648,
+          "users": 816,
+          "known_duration_origins": 37335,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51648,
+              "observed_users": 816,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51220,
+              "observed_users": 815,
+              "censored_origins": 428
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50645,
+              "observed_users": 813,
+              "censored_origins": 1003
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49074,
+              "observed_users": 808,
+              "censored_origins": 2574
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46627,
+              "observed_users": 802,
+              "censored_origins": 5021
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36767,
+          "users": 583,
+          "known_duration_origins": 26537,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36767,
+              "observed_users": 583,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36452,
+              "observed_users": 582,
+              "censored_origins": 315
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 36042,
+              "observed_users": 580,
+              "censored_origins": 725
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34922,
+              "observed_users": 575,
+              "censored_origins": 1845
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33248,
+              "observed_users": 570,
+              "censored_origins": 3519
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43847,
+          "users": 802,
+          "known_duration_origins": 31542,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43847,
+              "observed_users": 802,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41849,
+              "observed_users": 794,
+              "censored_origins": 1998
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39363,
+              "observed_users": 780,
+              "censored_origins": 4484
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32650,
+              "observed_users": 723,
+              "censored_origins": 11197
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23458,
+              "observed_users": 612,
+              "censored_origins": 20389
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4823,
+          "users": 85,
+          "known_duration_origins": 3453,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4823,
+              "observed_users": 85,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4628,
+              "observed_users": 84,
+              "censored_origins": 195
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4380,
+              "observed_users": 84,
+              "censored_origins": 443
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3702,
+              "observed_users": 79,
+              "censored_origins": 1121
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2750,
+              "observed_users": 69,
+              "censored_origins": 2073
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.308275863999995,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 23,
+      "input_sha256": {
+        "interactions.parquet": "d9c8b98f2b2f8bd54232162a3644c001ed4158f140760f56ae09cb46a1492c96",
+        "timestamp-bundles.parquet": "03e58d155764af7efe85551239883fd6c44b6f41b9e8b56ce6ece451b2243f77"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "6ff454ad4c0731f2881cc71719fe2aae29ef2b2fed9f0cc7462818d979cdc982",
+        "validation-cohort.npz": "cbffe871e1acc087c1ce59c9da68cff1ac44818b59d597eee2d394786a09c72d"
+      },
+      "complete_source_bundles": 1564230,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51736,
+          "users": 815,
+          "known_duration_origins": 37425,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51736,
+              "observed_users": 815,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51293,
+              "observed_users": 815,
+              "censored_origins": 443
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50750,
+              "observed_users": 813,
+              "censored_origins": 986
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49151,
+              "observed_users": 811,
+              "censored_origins": 2585
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46612,
+              "observed_users": 803,
+              "censored_origins": 5124
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 34402,
+          "users": 543,
+          "known_duration_origins": 24928,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 34402,
+              "observed_users": 543,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 34106,
+              "observed_users": 543,
+              "censored_origins": 296
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 33723,
+              "observed_users": 542,
+              "censored_origins": 679
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32645,
+              "observed_users": 540,
+              "censored_origins": 1757
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 30940,
+              "observed_users": 533,
+              "censored_origins": 3462
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43098,
+          "users": 803,
+          "known_duration_origins": 30688,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43098,
+              "observed_users": 803,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41016,
+              "observed_users": 790,
+              "censored_origins": 2082
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 38509,
+              "observed_users": 772,
+              "censored_origins": 4589
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 31508,
+              "observed_users": 725,
+              "censored_origins": 11590
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 22249,
+              "observed_users": 586,
+              "censored_origins": 20849
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4783,
+          "users": 88,
+          "known_duration_origins": 3343,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4783,
+              "observed_users": 88,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4549,
+              "observed_users": 87,
+              "censored_origins": 234
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4263,
+              "observed_users": 85,
+              "censored_origins": 520
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3451,
+              "observed_users": 78,
+              "censored_origins": 1332
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2307,
+              "observed_users": 68,
+              "censored_origins": 2476
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 14.943311426000008,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 24,
+      "input_sha256": {
+        "interactions.parquet": "de0e117c5d20459590a7c617cde727716612150ed7a68e4f3907edd87f139fe9",
+        "timestamp-bundles.parquet": "2e558737710488f035b1b72541043ea49d979dbfc79422e974430908b015e036"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "090011a8232ba204b91f9174ca150261092f550906b9ce5f27ba8b317030877b",
+        "validation-cohort.npz": "81855cf32ca591db3f065e6aee38dfe7ae4bbcfe95fc11ef9df30e5633d8b3a6"
+      },
+      "complete_source_bundles": 1671514,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51638,
+          "users": 813,
+          "known_duration_origins": 37047,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51638,
+              "observed_users": 813,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51229,
+              "observed_users": 811,
+              "censored_origins": 409
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50727,
+              "observed_users": 811,
+              "censored_origins": 911
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49183,
+              "observed_users": 810,
+              "censored_origins": 2455
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46763,
+              "observed_users": 803,
+              "censored_origins": 4875
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36788,
+          "users": 579,
+          "known_duration_origins": 26399,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36788,
+              "observed_users": 579,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36498,
+              "observed_users": 578,
+              "censored_origins": 290
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 36131,
+              "observed_users": 578,
+              "censored_origins": 657
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 35005,
+              "observed_users": 577,
+              "censored_origins": 1783
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33236,
+              "observed_users": 572,
+              "censored_origins": 3552
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43343,
+          "users": 805,
+          "known_duration_origins": 30644,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43343,
+              "observed_users": 805,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41304,
+              "observed_users": 795,
+              "censored_origins": 2039
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 38853,
+              "observed_users": 780,
+              "censored_origins": 4490
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32116,
+              "observed_users": 703,
+              "censored_origins": 11227
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23101,
+              "observed_users": 601,
+              "censored_origins": 20242
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4058,
+          "users": 78,
+          "known_duration_origins": 2878,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4058,
+              "observed_users": 78,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3866,
+              "observed_users": 75,
+              "censored_origins": 192
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3647,
+              "observed_users": 73,
+              "censored_origins": 411
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3045,
+              "observed_users": 63,
+              "censored_origins": 1013
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2235,
+              "observed_users": 58,
+              "censored_origins": 1823
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.807258113999993,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 25,
+      "input_sha256": {
+        "interactions.parquet": "b1a1b5f4b3ce3131eaae6f7f9b405e096e6e235d403af30550b1e25d76c52db7",
+        "timestamp-bundles.parquet": "a822f4eb6332a0263ba487d88142fd5993604dc44882e42b94a7e6dd06e0f276"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "bde4fb333953f1707c0a67a08ca8a48d13ba26d426c1488098b4d5c0e27de393",
+        "validation-cohort.npz": "d060f33680608ca21c863c2a0a1839792d169777b2237410f07753e892f09b0f"
+      },
+      "complete_source_bundles": 1644416,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51725,
+          "users": 816,
+          "known_duration_origins": 37310,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51725,
+              "observed_users": 816,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51329,
+              "observed_users": 813,
+              "censored_origins": 396
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50827,
+              "observed_users": 812,
+              "censored_origins": 898
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49375,
+              "observed_users": 809,
+              "censored_origins": 2350
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 47001,
+              "observed_users": 806,
+              "censored_origins": 4724
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36790,
+          "users": 580,
+          "known_duration_origins": 26479,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36790,
+              "observed_users": 580,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36516,
+              "observed_users": 578,
+              "censored_origins": 274
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 36180,
+              "observed_users": 578,
+              "censored_origins": 610
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 35174,
+              "observed_users": 576,
+              "censored_origins": 1616
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33474,
+              "observed_users": 573,
+              "censored_origins": 3316
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43290,
+          "users": 801,
+          "known_duration_origins": 30899,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43290,
+              "observed_users": 801,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41285,
+              "observed_users": 784,
+              "censored_origins": 2005
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 38914,
+              "observed_users": 765,
+              "censored_origins": 4376
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32213,
+              "observed_users": 714,
+              "censored_origins": 11077
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 22982,
+              "observed_users": 606,
+              "censored_origins": 20308
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4235,
+          "users": 77,
+          "known_duration_origins": 2954,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4235,
+              "observed_users": 77,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4037,
+              "observed_users": 77,
+              "censored_origins": 198
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3799,
+              "observed_users": 74,
+              "censored_origins": 436
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3133,
+              "observed_users": 69,
+              "censored_origins": 1102
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2169,
+              "observed_users": 60,
+              "censored_origins": 2066
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.064765894000004,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 26,
+      "input_sha256": {
+        "interactions.parquet": "abb343de6fd726860f79b6bbe536dfea2e1c9344e2186964c878732dd19ba2c8",
+        "timestamp-bundles.parquet": "22a0477e8d7279d2e461f1257334d59111739f81d16c611a7ef2cb2a5fa72b12"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "343f9962eeb6aaef1263e76ce880b987344c453477605c90fb386e6d7e65e66c",
+        "validation-cohort.npz": "f779c95bde3cc71ef785b03bbdf8ca15384e5244e951fc8d3ef08479426e83ad"
+      },
+      "complete_source_bundles": 1742935,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51712,
+          "users": 814,
+          "known_duration_origins": 36893,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51712,
+              "observed_users": 814,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51305,
+              "observed_users": 813,
+              "censored_origins": 407
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50800,
+              "observed_users": 811,
+              "censored_origins": 912
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49409,
+              "observed_users": 810,
+              "censored_origins": 2303
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 47030,
+              "observed_users": 806,
+              "censored_origins": 4682
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 35776,
+          "users": 563,
+          "known_duration_origins": 25425,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 35776,
+              "observed_users": 563,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 35486,
+              "observed_users": 562,
+              "censored_origins": 290
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35122,
+              "observed_users": 561,
+              "censored_origins": 654
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34147,
+              "observed_users": 560,
+              "censored_origins": 1629
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32478,
+              "observed_users": 558,
+              "censored_origins": 3298
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 44462,
+          "users": 805,
+          "known_duration_origins": 31373,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 44462,
+              "observed_users": 805,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 42577,
+              "observed_users": 795,
+              "censored_origins": 1885
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 40249,
+              "observed_users": 782,
+              "censored_origins": 4213
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33707,
+              "observed_users": 729,
+              "censored_origins": 10755
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 24781,
+              "observed_users": 632,
+              "censored_origins": 19681
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4781,
+          "users": 87,
+          "known_duration_origins": 3381,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4781,
+              "observed_users": 87,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4571,
+              "observed_users": 85,
+              "censored_origins": 210
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4333,
+              "observed_users": 84,
+              "censored_origins": 448
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3613,
+              "observed_users": 79,
+              "censored_origins": 1168
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2639,
+              "observed_users": 68,
+              "censored_origins": 2142
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 16.402170487000006,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 27,
+      "input_sha256": {
+        "interactions.parquet": "ca5e86316a1cc43db88b8b352753ac31cbe8acf7ae217b31cc8fa6ba15f38a34",
+        "timestamp-bundles.parquet": "82cbde3f86bdd2efdb0a66d4d1a3c185b3c0ffdaae88a900707e339659a45bb5"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "2981e0f97016061d2c91adbcef3eed0b63d596f1b39902388b746b28b8996367",
+        "validation-cohort.npz": "ccb6c1ab2a5d81741fa817dd87c977469eaaa815bc349f18d194d1ec692e191d"
+      },
+      "complete_source_bundles": 1660592,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51577,
+          "users": 818,
+          "known_duration_origins": 37118,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51577,
+              "observed_users": 818,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51119,
+              "observed_users": 814,
+              "censored_origins": 458
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50588,
+              "observed_users": 811,
+              "censored_origins": 989
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49031,
+              "observed_users": 808,
+              "censored_origins": 2546
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 46466,
+              "observed_users": 801,
+              "censored_origins": 5111
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36472,
+          "users": 576,
+          "known_duration_origins": 26339,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36472,
+              "observed_users": 576,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36167,
+              "observed_users": 574,
+              "censored_origins": 305
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35831,
+              "observed_users": 572,
+              "censored_origins": 641
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34824,
+              "observed_users": 570,
+              "censored_origins": 1648
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33076,
+              "observed_users": 568,
+              "censored_origins": 3396
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43178,
+          "users": 797,
+          "known_duration_origins": 30685,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43178,
+              "observed_users": 797,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41186,
+              "observed_users": 781,
+              "censored_origins": 1992
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 38828,
+              "observed_users": 761,
+              "censored_origins": 4350
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32240,
+              "observed_users": 710,
+              "censored_origins": 10938
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 23250,
+              "observed_users": 599,
+              "censored_origins": 19928
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 3701,
+          "users": 71,
+          "known_duration_origins": 2620,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 3701,
+              "observed_users": 71,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3519,
+              "observed_users": 68,
+              "censored_origins": 182
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3303,
+              "observed_users": 68,
+              "censored_origins": 398
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 2692,
+              "observed_users": 60,
+              "censored_origins": 1009
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 1932,
+              "observed_users": 51,
+              "censored_origins": 1769
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 18.991951058000012,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 28,
+      "input_sha256": {
+        "interactions.parquet": "9c501973b5ed6a6430420800f60083a65fe5ff9dedcee8ab52a6d791afd0bcf0",
+        "timestamp-bundles.parquet": "ea8e872fe770cce45c6908cdbcc8b4a1c984f9522659fbebacbdcd3c2c9c2eea"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "2d423214dc604861dc38b4de14e7af1b127c8e15cd07334fae9df100a903a242",
+        "validation-cohort.npz": "b243a6de6482e1c2f5cf901c1b27468da0c3c4d612712ce8ff7d1c6e9191b33e"
+      },
+      "complete_source_bundles": 1709509,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51469,
+          "users": 812,
+          "known_duration_origins": 36851,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51469,
+              "observed_users": 812,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51096,
+              "observed_users": 811,
+              "censored_origins": 373
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 50640,
+              "observed_users": 808,
+              "censored_origins": 829
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49215,
+              "observed_users": 805,
+              "censored_origins": 2254
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 47054,
+              "observed_users": 801,
+              "censored_origins": 4415
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36442,
+          "users": 574,
+          "known_duration_origins": 26130,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36442,
+              "observed_users": 574,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36167,
+              "observed_users": 574,
+              "censored_origins": 275
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35837,
+              "observed_users": 571,
+              "censored_origins": 605
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34812,
+              "observed_users": 569,
+              "censored_origins": 1630
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33226,
+              "observed_users": 568,
+              "censored_origins": 3216
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 44536,
+          "users": 798,
+          "known_duration_origins": 31679,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 44536,
+              "observed_users": 798,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 42636,
+              "observed_users": 785,
+              "censored_origins": 1900
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 40352,
+              "observed_users": 774,
+              "censored_origins": 4184
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33813,
+              "observed_users": 733,
+              "censored_origins": 10723
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 24620,
+              "observed_users": 631,
+              "censored_origins": 19916
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 3956,
+          "users": 71,
+          "known_duration_origins": 2852,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 3956,
+              "observed_users": 71,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3793,
+              "observed_users": 70,
+              "censored_origins": 163
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3587,
+              "observed_users": 68,
+              "censored_origins": 369
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3011,
+              "observed_users": 65,
+              "censored_origins": 945
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2132,
+              "observed_users": 56,
+              "censored_origins": 1824
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 16.140260409999996,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 29,
+      "input_sha256": {
+        "interactions.parquet": "1cdc843952ce987ccc33fc6d9bc606e42045f9ff167c0c078e6f165fe7cef67e",
+        "timestamp-bundles.parquet": "1922eee61cabdc0a4d9f9cb0b49467b5c3f960c108c198d4124ef8d96b632471"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "f6182477e6346fecabb9b81c23c58dab3a7cc6bc37d1ee58876dd5007d4f6032",
+        "validation-cohort.npz": "6a08fa32a11dcf0386f3ec065c1e86609703f9c0c7a5e040bf94baa7ae1f2507"
+      },
+      "complete_source_bundles": 1648099,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 52124,
+          "users": 816,
+          "known_duration_origins": 37513,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 52124,
+              "observed_users": 816,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51705,
+              "observed_users": 816,
+              "censored_origins": 419
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 51220,
+              "observed_users": 816,
+              "censored_origins": 904
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49713,
+              "observed_users": 816,
+              "censored_origins": 2411
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 47223,
+              "observed_users": 813,
+              "censored_origins": 4901
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 35740,
+          "users": 560,
+          "known_duration_origins": 25581,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 35740,
+              "observed_users": 560,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 35451,
+              "observed_users": 560,
+              "censored_origins": 289
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35108,
+              "observed_users": 560,
+              "censored_origins": 632
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34036,
+              "observed_users": 560,
+              "censored_origins": 1704
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32284,
+              "observed_users": 557,
+              "censored_origins": 3456
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 43725,
+          "users": 803,
+          "known_duration_origins": 31067,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 43725,
+              "observed_users": 803,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 41682,
+              "observed_users": 790,
+              "censored_origins": 2043
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 39249,
+              "observed_users": 778,
+              "censored_origins": 4476
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 32333,
+              "observed_users": 724,
+              "censored_origins": 11392
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 22911,
+              "observed_users": 609,
+              "censored_origins": 20814
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4866,
+          "users": 87,
+          "known_duration_origins": 3510,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4866,
+              "observed_users": 87,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4653,
+              "observed_users": 86,
+              "censored_origins": 213
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4397,
+              "observed_users": 85,
+              "censored_origins": 469
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3677,
+              "observed_users": 79,
+              "censored_origins": 1189
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2645,
+              "observed_users": 71,
+              "censored_origins": 2221
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 15.242489665000022,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 30,
+      "input_sha256": {
+        "interactions.parquet": "c8832ee0c8cf09f575133f0e1e2c9c4b246429f11cdc9c185cc3070c82c35583",
+        "timestamp-bundles.parquet": "a5dd9e783edbc19c2b019e1642722d9c34feb0243028ebf7471969755466c57f"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "9ef1b4f0349af92386bf2aa2768bfc4d247e8e202885afab7fac897015dad64c",
+        "validation-cohort.npz": "dcd02463c72087a63c9de34ddc5ec0ae63e518ff893d2c454074eecedf6191d7"
+      },
+      "complete_source_bundles": 1755125,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51952,
+          "users": 816,
+          "known_duration_origins": 37204,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51952,
+              "observed_users": 816,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51597,
+              "observed_users": 814,
+              "censored_origins": 355
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 51176,
+              "observed_users": 814,
+              "censored_origins": 776
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49880,
+              "observed_users": 813,
+              "censored_origins": 2072
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 47797,
+              "observed_users": 809,
+              "censored_origins": 4155
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36457,
+          "users": 573,
+          "known_duration_origins": 26084,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36457,
+              "observed_users": 573,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36189,
+              "observed_users": 571,
+              "censored_origins": 268
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35912,
+              "observed_users": 571,
+              "censored_origins": 545
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34978,
+              "observed_users": 570,
+              "censored_origins": 1479
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33519,
+              "observed_users": 568,
+              "censored_origins": 2938
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 44890,
+          "users": 809,
+          "known_duration_origins": 32186,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 44890,
+              "observed_users": 809,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 42937,
+              "observed_users": 801,
+              "censored_origins": 1953
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 40596,
+              "observed_users": 786,
+              "censored_origins": 4294
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33930,
+              "observed_users": 734,
+              "censored_origins": 10960
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 24596,
+              "observed_users": 629,
+              "censored_origins": 20294
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4719,
+          "users": 81,
+          "known_duration_origins": 3449,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4719,
+              "observed_users": 81,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4547,
+              "observed_users": 80,
+              "censored_origins": 172
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4323,
+              "observed_users": 79,
+              "censored_origins": 396
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3675,
+              "observed_users": 77,
+              "censored_origins": 1044
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2709,
+              "observed_users": 68,
+              "censored_origins": 2010
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 16.203517888999983,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    },
+    {
+      "status": "complete",
+      "source_digest": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "bucket": 31,
+      "input_sha256": {
+        "interactions.parquet": "31cc386313e6dfee1349e917f0573cb482b4801db086f21c6a22a71a3ca3db94",
+        "timestamp-bundles.parquet": "fa18e1d14713cf59cf8ed8d671bdf9127fad42d8b2a145b0cff0aa0f02b9cf64"
+      },
+      "output_sha256": {
+        "train-cohort.npz": "960ba9f006f8b87c2317d737f0d9a62700dbd35bf09df44303970886c32ad9b7",
+        "validation-cohort.npz": "5c40e85de4ebf6f00c38f1d1b6cca99df4eb599d1e9332526054f3e568179fb7"
+      },
+      "complete_source_bundles": 1772329,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 51866,
+          "users": 815,
+          "known_duration_origins": 37262,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 51866,
+              "observed_users": 815,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 51491,
+              "observed_users": 812,
+              "censored_origins": 375
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 51036,
+              "observed_users": 812,
+              "censored_origins": 830
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 49659,
+              "observed_users": 812,
+              "censored_origins": 2207
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 47476,
+              "observed_users": 808,
+              "censored_origins": 4390
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 36328,
+          "users": 570,
+          "known_duration_origins": 26140,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 36328,
+              "observed_users": 570,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 36067,
+              "observed_users": 568,
+              "censored_origins": 261
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 35751,
+              "observed_users": 568,
+              "censored_origins": 577
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 34773,
+              "observed_users": 568,
+              "censored_origins": 1555
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33207,
+              "observed_users": 567,
+              "censored_origins": 3121
+            }
+          ]
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 44200,
+          "users": 802,
+          "known_duration_origins": 31478,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 44200,
+              "observed_users": 802,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 42361,
+              "observed_users": 791,
+              "censored_origins": 1839
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 40073,
+              "observed_users": 769,
+              "censored_origins": 4127
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 33797,
+              "observed_users": 717,
+              "censored_origins": 10403
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 25166,
+              "observed_users": 627,
+              "censored_origins": 19034
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 4870,
+          "users": 89,
+          "known_duration_origins": 3397,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4870,
+              "observed_users": 89,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4680,
+              "observed_users": 89,
+              "censored_origins": 190
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4444,
+              "observed_users": 84,
+              "censored_origins": 426
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3841,
+              "observed_users": 77,
+              "censored_origins": 1029
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2970,
+              "observed_users": 71,
+              "censored_origins": 1900
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 16.453513448999985,
+      "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+      "final_test_predictions_generated": 0,
+      "final_test_outcome_targets_exported": 0
+    }
+  ],
+  "failures": [],
+  "support": [
+    {
+      "protocol": "known_users",
+      "split": "train",
+      "origins": 1654438,
+      "users": 26079
+    },
+    {
+      "protocol": "known_users",
+      "split": "validation",
+      "origins": 1396339,
+      "users": 25652
+    },
+    {
+      "protocol": "unseen_users",
+      "split": "train",
+      "origins": 1158132,
+      "users": 18256
+    },
+    {
+      "protocol": "unseen_users",
+      "split": "validation",
+      "origins": 139656,
+      "users": 2557
+    }
+  ],
+  "root": "/artifacts/datasets/kuairand-27k/prepared-candidate-v2/multistep-fit-dc9b74c174ca508f",
+  "final_test_predictions_generated": 0,
+  "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features."
+}

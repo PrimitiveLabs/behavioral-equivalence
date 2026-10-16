@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "scope": "Read-only replay of existing aggregate human reports through actual summarizer into temporary output; no human inference, fitting or original output mutation",
+  "summary_source_sha256": "61df120cdfbdc291bf79fb1adde24123ce0d5f8b8587699f8ceeeaaaf444323f",
+  "freeze_sha256": "f8711071351e0709e79518e030f17d3b79495c78050c13683781982b3b5b6cac",
+  "original_decision_sha256": "e98ad9f70b84bc3643288d961a447fadc25f54d8051d87b902320337f000a9dd",
+  "canonical_decision_sha256": "f5fdddf01956d027028320709f8d7468eaa6e8cb5a7427c5754ed78c54049177",
+  "all_saved_decisions_equal": true,
+  "reports_read": 50,
+  "primary_observed_fits": 10,
+  "primary_compression_failures": 10,
+  "primary_outcome": "unsupported",
+  "response_outcomes": {
+    "response_all_groups": "unsupported",
+    "response_heldout_groups": "unsupported"
+  }
+}

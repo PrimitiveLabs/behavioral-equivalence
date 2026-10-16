@@ -1,0 +1,4019 @@
+{
+  "schema_version": "repeated-calibration-summary-v1",
+  "status": "complete",
+  "campaign_id": "uncertainty-repeated-v1-d567478458e8",
+  "protocol_digest": "d567478458e8b39c9c67c4024a890215fb09ffcce298347a1d947d4ff78351ba",
+  "independent_datasets": 4000,
+  "paired_method_support_evaluations": 16000,
+  "simultaneous_coverage_intervals": 320,
+  "family_confidence": 0.95,
+  "cells": [
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9798163909579976,
+        "10": 0.9982836788787178,
+        "25": 0.9999989334198256,
+        "50": 0.9999999999950013
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9366859348477143,
+        "10": 0.9487828342619915,
+        "25": 0.9499067135134257,
+        "50": 0.949907412960581
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9689587442593668,
+        "10": 0.9959570002933217,
+        "25": 0.9996065315369802,
+        "50": 0.9996129615498457
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8687241391726497,
+        "10": 0.8809776682608264,
+        "25": 0.8836991946339768,
+        "50": 0.883716971605467
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9769635012874658,
+        "10": 0.9950106501023331,
+        "25": 0.995315261468087,
+        "50": 0.9953152629735103
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9544042386247292,
+        "10": 0.9931163195780567,
+        "25": 0.9942014166942238,
+        "50": 0.9942014299420825
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 97,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7525465515344983,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.7889627197994686,
+        "10": 0.8367999479559551,
+        "25": 0.8385440987148407,
+        "50": 0.8385433165582402
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 97,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7525465515344983,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.5808102311815005,
+        "10": 0.6833524936434087,
+        "25": 0.6978653434882695,
+        "50": 0.697880855895902
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9711699954641044,
+        "10": 0.9961338999902233,
+        "25": 0.9999905981620465,
+        "50": 0.9999999995745505
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9468246599803102,
+        "10": 0.9665181185686249,
+        "25": 0.9695620590797794,
+        "50": 0.9695694888538435
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9566261923926495,
+        "10": 0.9918865250063288,
+        "25": 0.9998039304602011,
+        "50": 0.999854123422964
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8722297809717919,
+        "10": 0.8885681746039702,
+        "25": 0.8949284641246568,
+        "50": 0.8950796242227813
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9796020095460959,
+        "10": 0.9993232097507351,
+        "25": 0.9999911221929331,
+        "50": 0.9999911471436181
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9429300785498911,
+        "10": 0.9973764033700389,
+        "25": 0.9999909531568043,
+        "50": 0.999991147143602
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.7947888311612391,
+        "10": 0.8805630320277532,
+        "25": 0.8885127405969719,
+        "50": 0.8885160213454639
+      }
+    },
+    {
+      "family": "belief",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.5744873140445039,
+        "10": 0.7315325475392218,
+        "25": 0.7710379918046941,
+        "50": 0.7712558227962755
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.993468339703611,
+        "10": 0.9990737859104099,
+        "25": 0.9999973538600823,
+        "50": 0.9999999998468236
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9786796887978488,
+        "10": 0.980920889340982,
+        "25": 0.9812901410678155,
+        "50": 0.9812911988613547
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9921300192419855,
+        "10": 0.9986940483497497,
+        "25": 0.9999822084121316,
+        "50": 0.9999879990697721
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9726152356500144,
+        "10": 0.9744331312687379,
+        "25": 0.9747895751457759,
+        "50": 0.9747911763625687
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9976154761547371,
+        "10": 0.9999565195436436,
+        "25": 0.999981514667259,
+        "50": 0.999981514704168
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.980505033151264,
+        "10": 0.9996656932222282,
+        "25": 0.9999367681226228,
+        "50": 0.9999367688080768
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8747919359694566,
+        "10": 0.909252842502218,
+        "25": 0.9102357369216627,
+        "50": 0.9102357771473119
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.7184142147514393,
+        "10": 0.8125955167138327,
+        "25": 0.8201984416640271,
+        "50": 0.8202005039686395
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9909291582201561,
+        "10": 0.998050687576662,
+        "25": 0.9999806197700046,
+        "50": 0.9999999910382581
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9804895386991171,
+        "10": 0.9842278751329195,
+        "25": 0.9852411838203998,
+        "50": 0.985251360050471
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9873643634925664,
+        "10": 0.9968193202199551,
+        "25": 0.9998689391362323,
+        "50": 0.9999155021717765
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9704100551427763,
+        "10": 0.9736505804863407,
+        "25": 0.9746947823468746,
+        "50": 0.974710723994493
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9956558216384783,
+        "10": 0.9999063029515178,
+        "25": 0.9999999989183364,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9669820751832323,
+        "10": 0.9991231555606604,
+        "25": 0.9999999839755408,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8616803976890688,
+        "10": 0.9295285752035634,
+        "25": 0.9339761599241796,
+        "50": 0.9339775298614754
+      }
+    },
+    {
+      "family": "belief",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.699742045098149,
+        "10": 0.8456946184150683,
+        "25": 0.8678857664824244,
+        "50": 0.8679238992561992
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9998794762646059,
+        "10": 0.9999999936430984,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9933368605849534,
+        "10": 0.9934767936123409,
+        "25": 0.9934768009832434,
+        "50": 0.9934768009832434
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9544441645927825,
+        "10": 0.9661773241578557,
+        "25": 0.9662957568483148,
+        "50": 0.9662957569613877
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8593437246211976,
+        "10": 0.8742947314968914,
+        "25": 0.8745456348533418,
+        "50": 0.8745456360179117
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.999026268024766,
+        "10": 0.9992357390833684,
+        "25": 0.9992357505630178,
+        "50": 0.9992357505630178
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9663937765308449,
+        "10": 0.9983245898530646,
+        "25": 0.9992354986512691,
+        "50": 0.9992355187385936
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8353189715032694,
+        "10": 0.8682743050432811,
+        "25": 0.8680322674919472,
+        "50": 0.8680282342672809
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.6438144115920401,
+        "10": 0.7439930288106362,
+        "25": 0.7581083955380512,
+        "50": 0.758134886285619
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9994159173666302,
+        "10": 0.9999997959529853,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9991634716758796,
+        "10": 0.9997469589724224,
+        "25": 0.9997471628822125,
+        "50": 0.9997471628822125
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9705472787701431,
+        "10": 0.9885968637397542,
+        "25": 0.9889521514409734,
+        "50": 0.9889521540681306
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8970981548554728,
+        "10": 0.918947456446796,
+        "25": 0.9196383417312474,
+        "50": 0.9196383619054249
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9989567457305839,
+        "10": 0.9999996197530534,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9437389024554017,
+        "10": 0.9972008942699817,
+        "25": 0.9999996495778912,
+        "50": 0.9999999999998878
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 98,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7625465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8328096458558967,
+        "10": 0.9066222181159941,
+        "25": 0.9101837232169844,
+        "50": 0.9101628327382316
+      }
+    },
+    {
+      "family": "memory",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 98,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7625465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.6222345994108486,
+        "10": 0.7787190171660389,
+        "25": 0.8192058414201046,
+        "50": 0.8195660151964422
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.999575820472305,
+        "10": 0.9998055819557584,
+        "25": 0.9998056009451475,
+        "50": 0.9998056009451475
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.992622765944843,
+        "10": 0.9928458490850696,
+        "25": 0.9928458676419537,
+        "50": 0.9928458676419537
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9628224760907874,
+        "10": 0.9701379022833139,
+        "25": 0.9701793482937653,
+        "50": 0.970179348294011
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9186575584499095,
+        "10": 0.9250872816984405,
+        "25": 0.925124909303367,
+        "50": 0.9251249093035987
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9999790132931229,
+        "10": 0.9999964581328615,
+        "25": 0.9999964581745323,
+        "50": 0.9999964581745323
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9794212383949579,
+        "10": 0.9996530535031899,
+        "25": 0.9999960471264078,
+        "50": 0.9999960487601818
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8781943477434879,
+        "10": 0.90443121781098,
+        "25": 0.9045250850964347,
+        "50": 0.9045244377740025
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.7193300042224461,
+        "10": 0.8119405941258357,
+        "25": 0.8220338431155131,
+        "50": 0.8220437614286485
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9994368942791375,
+        "10": 0.9999999093330705,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9969352936926869,
+        "10": 0.9974958956534627,
+        "25": 0.9974959861565469,
+        "50": 0.9974959861565469
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9621581426579527,
+        "10": 0.9767888077047617,
+        "25": 0.9769600774609282,
+        "50": 0.9769600774661684
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9250612328173056,
+        "10": 0.9388979102115493,
+        "25": 0.9390611008713973,
+        "50": 0.9390611008764671
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9998118495345294,
+        "10": 0.9999999916449864,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9637683716693813,
+        "10": 0.9988790202827047,
+        "25": 0.999999966282204,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8750129064446193,
+        "10": 0.9345965516020991,
+        "25": 0.9369817423221132,
+        "50": 0.9369779333382803
+      }
+    },
+    {
+      "family": "memory",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.699751570306116,
+        "10": 0.8470199037524229,
+        "25": 0.8762448808405707,
+        "50": 0.8763828126005418
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9931708927845184,
+        "10": 0.9941588652255274,
+        "25": 0.9941621049647972,
+        "50": 0.994162104964963
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9931570886861664,
+        "10": 0.9941449612907093,
+        "25": 0.9941482008192907,
+        "50": 0.9941482008194567
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.90977940637632,
+        "10": 0.9186595525760375,
+        "25": 0.9188018800606605,
+        "50": 0.9188018813154295
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8512917338129378,
+        "10": 0.8638017656156823,
+        "25": 0.8640582388246832,
+        "50": 0.8640582410838131
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9929037942824301,
+        "10": 0.9998778075207986,
+        "25": 0.9999325801258485,
+        "50": 0.9999325801564845
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9509425865936474,
+        "10": 0.9963933393285036,
+        "25": 0.9982011289128121,
+        "50": 0.9982012262171126
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8520363920278955,
+        "10": 0.9081390985377658,
+        "25": 0.9105367033193871,
+        "50": 0.9105367835443643
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.5856816601777184,
+        "10": 0.704309805516377,
+        "25": 0.7271468012066578,
+        "50": 0.7272415663911472
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9950829818584718,
+        "10": 0.9998676697326855,
+        "25": 0.9999611119333112,
+        "50": 0.9999611126871487
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9949531218749139,
+        "10": 0.9997326743714403,
+        "25": 0.999826024843587,
+        "50": 0.99982602559685
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 98,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7625465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9351579023828271,
+        "10": 0.9538744060626421,
+        "25": 0.9548626241332461,
+        "50": 0.9548628182789524
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 98,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7625465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8702105112998297,
+        "10": 0.8967670510097485,
+        "25": 0.8982512590194804,
+        "50": 0.8982515473320702
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9847573103018458,
+        "10": 0.9997101649049656,
+        "25": 0.9999999976091344,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9219676241140669,
+        "10": 0.9946079597821015,
+        "25": 0.999998284488205,
+        "50": 0.9999999999974123
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 98,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7625465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8386642101494908,
+        "10": 0.9391495495244695,
+        "25": 0.9481958250684447,
+        "50": 0.9482003279715324
+      }
+    },
+    {
+      "family": "patience",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 98,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7625465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.5460141719978304,
+        "10": 0.7155348023146212,
+        "25": 0.7761043653151798,
+        "50": 0.7772606766037242
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.987998211235738,
+        "10": 0.9887818238987424,
+        "25": 0.988781853070469,
+        "50": 0.988781853070469
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.987998211235738,
+        "10": 0.9887818238987424,
+        "25": 0.988781853070469,
+        "50": 0.988781853070469
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9368465470859431,
+        "10": 0.9435341187806086,
+        "25": 0.9436311143680441,
+        "50": 0.9436311145798251
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9310223857578453,
+        "10": 0.9374901432646982,
+        "25": 0.9375842051563498,
+        "50": 0.9375842053616552
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.997997105556687,
+        "10": 0.9999940637126952,
+        "25": 0.9999992773200383,
+        "50": 0.9999992773207786
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9744110733277764,
+        "10": 0.9994375664816174,
+        "25": 0.999893535738506,
+        "50": 0.9998935381896199
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.889742238635437,
+        "10": 0.9228292202225274,
+        "25": 0.9235467496966936,
+        "50": 0.9235467171667466
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.7145237750047246,
+        "10": 0.8169057558518896,
+        "25": 0.8271362202845524,
+        "50": 0.8271428475954792
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9942884197609011,
+        "10": 0.996498476718892,
+        "25": 0.9964992677288038,
+        "50": 0.9964992677288038
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9942884197609011,
+        "10": 0.996498476718892,
+        "25": 0.9964992677288038,
+        "50": 0.9964992677288038
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.942449918810519,
+        "10": 0.9567669211582416,
+        "25": 0.95716532297381,
+        "50": 0.9571653282580731
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9349155860207636,
+        "10": 0.9488110565922615,
+        "25": 0.9491987500875161,
+        "50": 0.9491987552279969
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9952341069843434,
+        "10": 0.9999747006028773,
+        "25": 0.9999999999698533,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9557928121356855,
+        "10": 0.9984516511210927,
+        "25": 0.9999999377758391,
+        "50": 0.9999999999999999
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8806799612255015,
+        "10": 0.9466959572551538,
+        "25": 0.9501244279230897,
+        "50": 0.9501244226860496
+      }
+    },
+    {
+      "family": "patience",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.6865474070459853,
+        "10": 0.8460729849918559,
+        "25": 0.87764351651855,
+        "50": 0.8777722915771069
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9983766273996632,
+        "10": 0.9999947045927065,
+        "25": 0.9999999999997303,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9889857376307638,
+        "10": 0.9906496677275435,
+        "25": 0.9906551260544599,
+        "50": 0.9906551260547376
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9253872608872941,
+        "10": 0.9397309210361174,
+        "25": 0.9399338078007925,
+        "50": 0.9399338077947098
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8491220818206512,
+        "10": 0.8684309045929338,
+        "25": 0.868858208142926,
+        "50": 0.86885821201583
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9984558757427456,
+        "10": 0.9993191738334667,
+        "25": 0.9993194575980214,
+        "50": 0.9993194575980214
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9605300307895974,
+        "10": 0.9980952192298169,
+        "25": 0.9993191544596088,
+        "50": 0.9993191935295639
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8411616109717673,
+        "10": 0.8751579913682166,
+        "25": 0.8749893099684399,
+        "50": 0.8749855218980095
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.6335039665828357,
+        "10": 0.7370685423939751,
+        "25": 0.7526306973044644,
+        "50": 0.7526663901722932
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9982020820781696,
+        "10": 0.9999955313481128,
+        "25": 0.9999999999998768,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9976590110731854,
+        "10": 0.999735014786491,
+        "25": 0.9997403478649248,
+        "50": 0.9997403478650719
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9373866430266838,
+        "10": 0.9587592449004889,
+        "25": 0.9591095224085862,
+        "50": 0.959109522972647
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8744373912940173,
+        "10": 0.9044813411315548,
+        "25": 0.9052044331853955,
+        "50": 0.9052044389736235
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.998801316553424,
+        "10": 0.9999995036097051,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9414932989422785,
+        "10": 0.9970400849419845,
+        "25": 0.9999996097727885,
+        "50": 0.9999999999998623
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 98,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7625465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8319647662652025,
+        "10": 0.9056402233197604,
+        "25": 0.9089761468970893,
+        "50": 0.908952149748173
+      }
+    },
+    {
+      "family": "preference",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 98,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7625465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.6188011891645214,
+        "10": 0.775643071092934,
+        "25": 0.8168717765220456,
+        "50": 0.8172649037554014
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9961206985669707,
+        "10": 0.9977425508534701,
+        "25": 0.9977574387701508,
+        "50": 0.9977574387894009
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9888733611466993,
+        "10": 0.9903121828249585,
+        "25": 0.990325091207951,
+        "50": 0.9903250912245076
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9625493459420088,
+        "10": 0.9715080390492319,
+        "25": 0.9718208105824394,
+        "50": 0.9718208231021763
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9324984961850841,
+        "10": 0.9396670377832502,
+        "25": 0.939916442870808,
+        "50": 0.9399164529061632
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9995920390398557,
+        "10": 0.999999477136429,
+        "25": 0.9999995383220317,
+        "50": 0.9999995383220317
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9742168754547943,
+        "10": 0.9994746820770632,
+        "25": 0.9999995338161927,
+        "50": 0.9999995383220317
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.879018448556905,
+        "10": 0.904687405799795,
+        "25": 0.9045742653359603,
+        "50": 0.9045731286442882
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.6990345145629765,
+        "10": 0.7964452697615425,
+        "25": 0.8087342006046693,
+        "50": 0.8087527740795387
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9977892094188867,
+        "10": 0.9999781107756179,
+        "25": 0.9999971458023696,
+        "50": 0.9999971458183348
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9948162566660725,
+        "10": 0.9969299125872998,
+        "25": 0.9969482186608057,
+        "50": 0.9969482186761615
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9586778314674289,
+        "10": 0.9746822060454897,
+        "25": 0.9753316224217441,
+        "50": 0.9753316485785096
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9316711551017214,
+        "10": 0.9459449232518697,
+        "25": 0.9465243331829778,
+        "50": 0.9465243567049739
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9995476802789938,
+        "10": 0.9999999294975426,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9603507283133338,
+        "10": 0.9986742985782076,
+        "25": 0.9999999498284343,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 98,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7625465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8735534463633282,
+        "10": 0.931518586400903,
+        "25": 0.9333317022168097,
+        "50": 0.9333238165215108
+      }
+    },
+    {
+      "family": "preference",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 98,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7625465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.6867257835770691,
+        "10": 0.8346134835877552,
+        "25": 0.8664630478134839,
+        "50": 0.8666622739634673
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.998443820782402,
+        "10": 0.9999969977900668,
+        "25": 0.9999999999999761,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9873042753769748,
+        "10": 0.9887852611623016,
+        "25": 0.9887881217915588,
+        "50": 0.9887881217915813
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9604400724085206,
+        "10": 0.9754662990948766,
+        "25": 0.9756576193411907,
+        "50": 0.9756576168544145
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8417330323494688,
+        "10": 0.8679513797235942,
+        "25": 0.8684848302496501,
+        "50": 0.8684848307376524
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9977527548327858,
+        "10": 0.9993342374802484,
+        "25": 0.9993410994335149,
+        "50": 0.9993410994344815
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.965819408497761,
+        "10": 0.9983727111315503,
+        "25": 0.999225933604703,
+        "50": 0.9992259485006781
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 98,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7625465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8356362550267995,
+        "10": 0.8663922243683081,
+        "25": 0.8662364518931718,
+        "50": 0.8662336959699408
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 98,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7625465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.6274673529973406,
+        "10": 0.7347865295837136,
+        "25": 0.7478903744349082,
+        "50": 0.7479034899754889
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9948836357181573,
+        "10": 0.9999255946588748,
+        "25": 0.9999999997533331,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9914227236916573,
+        "10": 0.996345952243976,
+        "25": 0.9964186094622073,
+        "50": 0.9964186097032629
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9503308091452765,
+        "10": 0.9826591918038677,
+        "25": 0.9844074638088997,
+        "50": 0.984407728931156
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8448764967406706,
+        "10": 0.8941913115027049,
+        "25": 0.8983456151318898,
+        "50": 0.8983476326812904
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9970954432118917,
+        "10": 0.999990484906306,
+        "25": 0.9999999999987311,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9429321583947261,
+        "10": 0.9972880561016941,
+        "25": 0.9999997037989466,
+        "50": 0.9999999999999227
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8345567413841954,
+        "10": 0.9130247349028562,
+        "25": 0.918107426105275,
+        "50": 0.9181032454489503
+      }
+    },
+    {
+      "family": "trust",
+      "size": 32,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7725465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.599656047073119,
+        "10": 0.7702072436534556,
+        "25": 0.8155746161820139,
+        "50": 0.81591548783675
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9981370819138466,
+        "10": 0.9999858154269816,
+        "25": 0.9999999999944602,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9848260653506361,
+        "10": 0.9863904661567204,
+        "25": 0.9864025164659619,
+        "50": 0.9864025164706689
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9863315034202143,
+        "10": 0.9957501219807736,
+        "25": 0.9960972924475806,
+        "50": 0.9960973065556624
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30000,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9408506595485072,
+        "10": 0.9473099044260376,
+        "25": 0.9475487946328671,
+        "50": 0.9475488043754963
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9998130233009255,
+        "10": 0.9999968430003863,
+        "25": 0.999997299228246,
+        "50": 0.9999972992282606
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9783772176332184,
+        "10": 0.9996351809562372,
+        "25": 0.9999959632646076,
+        "50": 0.9999959650149196
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8947858913781265,
+        "10": 0.9239188868458448,
+        "25": 0.9244463184126472,
+        "50": 0.9244462813304151
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30000,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.7223512578164614,
+        "10": 0.8255070368714068,
+        "25": 0.8355481462182119,
+        "50": 0.8355541484547067
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9958704219574572,
+        "10": 0.9998204951430144,
+        "25": 0.9999999836893727,
+        "50": 0.9999999999999984
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9890746688184503,
+        "10": 0.9924783379700777,
+        "25": 0.9926322439335407,
+        "50": 0.9926322579169234
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9805782867641473,
+        "10": 0.9944123553117065,
+        "25": 0.9959816557694995,
+        "50": 0.995983783295857
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30001,
+      "regime": "imbalanced_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9505046929872105,
+        "10": 0.959960758901624,
+        "25": 0.9610037353603341,
+        "50": 0.9610051437815668
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9996623956847966,
+        "10": 0.9999997398791477,
+        "25": 0.9999999999999997,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "certified_hoeffding",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.9611873012962484,
+        "10": 0.9987316732065128,
+        "25": 0.9999999548689955,
+        "50": 1.0
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "unknown_terminal_rows",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.8876089574554032,
+        "10": 0.9491736660076658,
+        "25": 0.9519711794720979,
+        "50": 0.9519707869286889
+      }
+    },
+    {
+      "family": "trust",
+      "size": 128,
+      "seed": 30001,
+      "regime": "uniform_active",
+      "method": "clopper_pearson_float_quantiles",
+      "support": "known_closed_terminal_labels",
+      "independent_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "kernel_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "probability_coverage_simultaneous_ci": [
+        0.7825465515344984,
+        1.0
+      ],
+      "completion_mean_active_width": {
+        "5": 0.6941652286479347,
+        "10": 0.8540196184989931,
+        "25": 0.8857725882357957,
+        "50": 0.8859054271274398
+      }
+    }
+  ],
+  "scope": "Coverage conditional on each fixed world and sampling regime. Methods/support controls share calibration datasets and are never pooled as independent trials. Summary structure checks do not replace certificate verification.",
+  "manifest_sha256": "38ebd31d33c62c5ea172123273804ba134af0c7e1735314ba31bde90d1cd6905",
+  "replay_source_digest": "0c72c9bd01f19b9a920d5af19e16180fdc70e1dfb8ced0588c50ef7d42ddcde2",
+  "replayed_chunks": 400,
+  "replayed_datasets": 4000,
+  "replayed_method_support_evaluations": 16000,
+  "evidence_replay_scope": "All retained draws, confidence sets, integer certificates and report metrics replayed using the original arithmetic implementation."
+}

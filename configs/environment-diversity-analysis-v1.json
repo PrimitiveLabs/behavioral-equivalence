@@ -1,0 +1,11 @@
+{
+  "schema_version": "environment-diversity-analysis-v1",
+  "campaign_root": "environment-diversity-a750f43e1a3a284a",
+  "campaign_source_digest": "a750f43e1a3a284a1e83aed6539a4d299f6798a20139b483d13f99c0c2966b77",
+  "expected_worlds": 400,
+  "expected_certificates": 19200,
+  "bootstrap_replications": 5000,
+  "bootstrap_seed": 20261015,
+  "analysis_reservation_usd": 1.864132,
+  "scope": "Complete persisted-kernel arithmetic replay and exploratory paired10seed-cluster summaries; no new confirmatory or human claim. Uses existing8USDdiversity allowance."
+}

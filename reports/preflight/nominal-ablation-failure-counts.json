@@ -1,0 +1,40 @@
+{
+  "status": "complete",
+  "manifest_sha256": "41683bc731fb206428ebd6e38aa7f34e19fa2509217ee511f88f90c883c68a7e",
+  "source_digest": "31e3f1e38de75168fce71d7ce9dc140d745eee23ddacfadeeabccc91c6933622",
+  "cells": [
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "imbalanced_active",
+      "datasets": 2000,
+      "contained": 102,
+      "proven_noncoverage": 1898,
+      "unresolved_without_proven_noncoverage": 0
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "uniform_active",
+      "datasets": 2000,
+      "contained": 1877,
+      "proven_noncoverage": 123,
+      "unresolved_without_proven_noncoverage": 0
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "imbalanced_active",
+      "datasets": 2000,
+      "contained": 0,
+      "proven_noncoverage": 2000,
+      "unresolved_without_proven_noncoverage": 0
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "uniform_active",
+      "datasets": 2000,
+      "contained": 0,
+      "proven_noncoverage": 2000,
+      "unresolved_without_proven_noncoverage": 0
+    }
+  ],
+  "scope": "Classification of retained directed-enclosure results, not an arithmetic replay or human confidence claim."
+}

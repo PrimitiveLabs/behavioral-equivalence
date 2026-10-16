@@ -1,0 +1,44 @@
+{
+  "status": "complete",
+  "scope": "Read-only aggregate and recovery-identity reconciliation, not a fresh synthetic run or certificate arithmetic replay",
+  "original_timeout_attempt_preserved": true,
+  "original_manifest_sha256": "740085a8505a8440f8a8f6a867a13aa37f7145a9f3a2568518ea0f03079d0391",
+  "unchanged_source_and_protocol": true,
+  "worlds": 1200,
+  "verified_certificate_total": 26400,
+  "requested_epsilon_exceedances": 10,
+  "serialized_nominal_exact_nonzero_radii": 900,
+  "recovery_interpretation": {
+    "original_coordinator_status": "incomplete after one input timeout",
+    "canonical_source_report_available_at_recovery": true,
+    "reconciliation_worker_response": {
+      "key": "c9c92bde175d0591e04135bfdc5047e03db404dedaeaae1a60ee4b6ad398f2d8",
+      "status": "complete",
+      "bound_violations": 0,
+      "cached": true
+    },
+    "scope": "The recovery reuses an already completed source-bound world report. The retained original-attempt folder is a snapshot at reconciliation time, including that completed report, not a forensic reconstruction of the directory at the timeout instant. No new scientific computation is inferred from the cached response. The original coordinator manifest remains preserved."
+  },
+  "inputs": [
+    {
+      "path": "reports/preflight/synthetic-main-original-manifest.json",
+      "sha256": "740085a8505a8440f8a8f6a867a13aa37f7145a9f3a2568518ea0f03079d0391"
+    },
+    {
+      "path": "reports/preflight/synthetic-main-reconciled-manifest.json",
+      "sha256": "3a8a8d57f75acde31e91bc55eff331f5b24342672e8571a093c4694d06c34ca1"
+    },
+    {
+      "path": "reports/preflight/synthetic-timeout-recovery-preservation.json",
+      "sha256": "b1b62fa5c2539ea484b26cd3bab93de31737f55cd6021d6322ff83046df40279"
+    },
+    {
+      "path": "reports/preflight/synthetic-recovery-interpretation.json",
+      "sha256": "a1ed294e0c9a1f898b2fc65b72700f68726a58c001098c28fed875e34f132fed"
+    },
+    {
+      "path": "reports/preflight/integer-campaign-audit-manifest.json",
+      "sha256": "325ce8ca5c360a800b74ffdaa0dc11219c2c7c420589d025834dd1fac0b1322b"
+    }
+  ]
+}

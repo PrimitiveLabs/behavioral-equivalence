@@ -1,0 +1,22 @@
+{
+  "status": "verified",
+  "reference_package_sha256": "8f0d15a6551c9259b2f6c389bbad0cfdbf2a236c8f90054939edc4f6217119c9",
+  "current_package_sha256": "b2b00f354c3c074ebc397719115a0b6caa2930084dea3698749a629433b7b597",
+  "unchanged_library_test_tool_and_dependency_files": 190,
+  "changed_protected_files": [],
+  "new_files": [
+    "cloud/check_finite_coupling.py",
+    "cloud/check_weighted_events.py",
+    "configs/finite-coupling-v1.json",
+    "configs/weighted-events-v1.json",
+    "formal/FiniteCoupling.lean",
+    "formal/WeightedEvents.lean",
+    "spec/coupling-integration.md"
+  ],
+  "changed_other_files": [
+    "formal/README.md"
+  ],
+  "reference_cloud_tests_passed": 361,
+  "reference_cloud_tests_skipped": 0,
+  "scope": "File-identity continuity, not a fresh execution of the expanded archive. Protected library/tests/tools/dependency files are unchanged. New proof components/checkers have separate successful Lean reports and invalid-proof controls; integration documentation is analytical."
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": "human-heldout-frontier-v1",
+  "inputs": [
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "history_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/history-states-ced0bbdf76c3-25046fd0a2d3",
+      "history_report_sha256": "e11373b221ceab31c94298d8188beef52c9c21752a74bc7bc98c6eab6c043a0f",
+      "calibration_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/history-states-ced0bbdf76c3-25046fd0a2d3/random-calibration-d6495cfe02aa-e11373b221ce",
+      "calibration_report_sha256": "26de3da1da96877ec92974429d57cd99224daccb325877b203825973fa168887",
+      "support_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/history-states-ced0bbdf76c3-25046fd0a2d3/resolution-support-4dbe874c3e50-e11373b221ce",
+      "support_report_sha256": "095dc4ab4741759f9e6c29ee98c5b499714cd3fba44284ea75868ad390f2be5a",
+      "prior_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/history-states-ced0bbdf76c3-25046fd0a2d3/heldout-teacher-prior-8f8d6a687041c70d",
+      "prior_report_sha256": "28009537200a83be1056cda6f2be1d548d53eab9aa886e6b2f4becc43622481d"
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "history_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261016/history-states-ced0bbdf76c3-1031ff8239ca",
+      "history_report_sha256": "8c180629d9f3b616e0b10669f634e1a07048b651bcc6720e9e5cafa670f1f11d",
+      "calibration_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261016/history-states-ced0bbdf76c3-1031ff8239ca/random-calibration-d6495cfe02aa-8c180629d9f3",
+      "calibration_report_sha256": "a8b0683382a90493b01c0f6a9ca27e965204542e3aa136e2ca2d6366e2f605d8",
+      "support_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261016/history-states-ced0bbdf76c3-1031ff8239ca/resolution-support-4dbe874c3e50-8c180629d9f3",
+      "support_report_sha256": "06035623c6827da45790f0c6b72cef78fba4afcd83dbe1179541fb465ed7656d",
+      "prior_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261016/history-states-ced0bbdf76c3-1031ff8239ca/heldout-teacher-prior-8f8d6a687041c70d",
+      "prior_report_sha256": "47f8fb23f42074635726f0dd34365a9c7c0cae703488256760932c4a34f92b8e"
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "history_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261017/history-states-ced0bbdf76c3-3fc604fcb0d7",
+      "history_report_sha256": "55bf1301452bde28c667a8d904031621f14eb4673e09b27990d5aeaa762ff9d3",
+      "calibration_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261017/history-states-ced0bbdf76c3-3fc604fcb0d7/random-calibration-d6495cfe02aa-55bf1301452b",
+      "calibration_report_sha256": "d39b03e58499e1663073dbe690254593a907feb63cc9d90f33ed2537190977a2",
+      "support_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261017/history-states-ced0bbdf76c3-3fc604fcb0d7/resolution-support-4dbe874c3e50-55bf1301452b",
+      "support_report_sha256": "3971e381a950fcc6416b0d7351fe7dd114f22ab78f1a7d48fde664bfdd80ec99",
+      "prior_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261017/history-states-ced0bbdf76c3-3fc604fcb0d7/heldout-teacher-prior-8f8d6a687041c70d",
+      "prior_report_sha256": "809ca8ad3e0dec497cd31ff52c371ab473773d057a3ad5dcdbba39ab6cf594f7"
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "history_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261018/history-states-ced0bbdf76c3-6472527fcb5f",
+      "history_report_sha256": "2337739a7ddf01315825064a802481791e8d8fe51ec45bf003dc26e52565d9a3",
+      "calibration_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261018/history-states-ced0bbdf76c3-6472527fcb5f/random-calibration-d6495cfe02aa-2337739a7ddf",
+      "calibration_report_sha256": "830308447fe128bca9a861eb56409144310d7116adcc4f1f150d0ab4e00a201b",
+      "support_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261018/history-states-ced0bbdf76c3-6472527fcb5f/resolution-support-4dbe874c3e50-2337739a7ddf",
+      "support_report_sha256": "a02f91be671ddc955300877fa139c6ca366e7d497b931a7a00332e3f8ec209c4",
+      "prior_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261018/history-states-ced0bbdf76c3-6472527fcb5f/heldout-teacher-prior-8f8d6a687041c70d",
+      "prior_report_sha256": "da2dd8ac69c5b528bfc077280b44f7e65f839421bf1177fd511b9011bec43c38"
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "history_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261019/history-states-ced0bbdf76c3-609765ef318f",
+      "history_report_sha256": "9cb4de3c1e3ab5e224faf7d655af1769e20b5ae111794153c54236cf9025b3da",
+      "calibration_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261019/history-states-ced0bbdf76c3-609765ef318f/random-calibration-d6495cfe02aa-9cb4de3c1e3a",
+      "calibration_report_sha256": "6b4c0eca1313ecbed4ffa246d87ffc713871c6843bf212e415cdd362bde1f775",
+      "support_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261019/history-states-ced0bbdf76c3-609765ef318f/resolution-support-4dbe874c3e50-9cb4de3c1e3a",
+      "support_report_sha256": "af188b2a18d6f0caf58709be14e96c57973d3c5c55fb856dd4859e2d69947f5e",
+      "prior_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261019/history-states-ced0bbdf76c3-609765ef318f/heldout-teacher-prior-8f8d6a687041c70d",
+      "prior_report_sha256": "84c407095d208cbc2b41e72699d61c41e8be566eaf8a54718c226ef4e1a1e262"
+    }
+  ],
+  "folds": [
+    {
+      "query": [
+        0,
+        1
+      ],
+      "heldout": [
+        2,
+        3
+      ]
+    },
+    {
+      "query": [
+        0,
+        2
+      ],
+      "heldout": [
+        1,
+        3
+      ]
+    },
+    {
+      "query": [
+        0,
+        3
+      ],
+      "heldout": [
+        1,
+        2
+      ]
+    },
+    {
+      "query": [
+        1,
+        2
+      ],
+      "heldout": [
+        0,
+        3
+      ]
+    },
+    {
+      "query": [
+        1,
+        3
+      ],
+      "heldout": [
+        0,
+        2
+      ]
+    },
+    {
+      "query": [
+        2,
+        3
+      ],
+      "heldout": [
+        0,
+        1
+      ]
+    }
+  ],
+  "parent_states": 32,
+  "neutral_epsilon": 0.01,
+  "minimum_witness_gap": 0.02,
+  "split_budgets": [
+    2,
+    4,
+    8
+  ],
+  "primary_split_budget": 8,
+  "prior_mass": 1.0,
+  "minimum_cases": 2000,
+  "minimum_users": 50,
+  "control_seed": 20261015,
+  "seed_fold_offset": 1009,
+  "neutral_initial": "Training-only scalar grouping with exact-normalized one-step certificate acceptance; no minimum-cardinality claim",
+  "neutral_preservation": "Every refined/control partition is repaired and exactly reverified at epsilon0.01; random valid ordered cuts match a common capacity within each fold/budget",
+  "primary_candidate": "targeted-b8",
+  "primary_reference": "random_neutral_capacity-b8",
+  "scope": "Six calibration-group holdouts across five known-user fits. Certified neutral and exact empirical-count witnesses are fitted one-step model claims, not human confidence or zero-shot context guarantees. No final test scoring."
+}

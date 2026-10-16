@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "observed_at": "2026-10-16T09:03:59.463216+00:00",
+  "inputs": [
+    {
+      "path": "reports/preflight/human-training-completion-checkpoint.json",
+      "sha256": "d9669adb9bfbe8e52ebf26dcec60c30c0a2d2def2d4129fb7687d6755644063a"
+    },
+    {
+      "path": "reports/preflight/horizon-head-full-manifest.json",
+      "sha256": "491f0d85fbf18f12d01d41e06cadddc2dd32fbfc6024d19c10b4cf8388a0943f"
+    },
+    {
+      "path": "reports/preflight/human-training-pilot.json",
+      "sha256": "559faca9cea2bd0843529afed2e995b6ebec1b1b7919161c260769bad5a9e32d"
+    }
+  ],
+  "neural_fits": 30,
+  "direct_horizon_fits": 30,
+  "validation_checkpoint_selections_checked": 30,
+  "parent_report_links_checked": 30,
+  "shared_sample_hash_per_protocol": {
+    "known_users": "c6a5d42250275f1193f1c1917ad0a9bf4d0b89a1d6f8a6adc45e952d82edceda",
+    "unseen_users": "afbf6980282623ca197227ae076f6e7158b584c09f004ec77ec0e71838ce8de2"
+  },
+  "exploratory_pilot_cells": 6,
+  "scope": "Retained fit matrix, validation checkpoint rule, finite training losses, parent report linkage and outcome-blind sample identity. Does not retrain models, rehash private weights live or establish bitwise cross-hardware reproducibility."
+}

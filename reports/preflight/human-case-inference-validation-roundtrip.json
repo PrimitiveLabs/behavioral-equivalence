@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "source_digest": "be90e3f87aace382392b983932021a32ecb88a26f3953e90f99fe69f548dbbc0",
+  "fit_report_sha256": "25046fd0a2d3958837c93c2227e8693b7686ce70f95a190c432798e7329ee65d",
+  "protocol": "known_users",
+  "architecture": "gru",
+  "seed": 20261015,
+  "tests": "...                                                                      [100%]\n3 passed in 0.23s\n",
+  "cases": 1594880,
+  "users": 25652,
+  "maximum_validation_forecast_reproduction_error": 1.1920928955078125e-07,
+  "history_cohort_cases": {
+    "empty": 4569,
+    "one_to_eight": 2595,
+    "nine_to_sixteen": 1147,
+    "seventeen_to_thirtytwo": 1586569
+  },
+  "output_sha256": {
+    "validation-forecasts.npz": "87a87ef0d17ce2ad199bdccf00333f99fb384306c29f87ce7c4b5b74d3d78808"
+  },
+  "target_fields_accessed": false,
+  "final_test_predictions_generated": 0,
+  "scope": "Raw audited cases/context through frozen preprocessing and model must reproduce stored validation forecasts. No target fields accessed or final test predictions generated.",
+  "root": "/artifacts/human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/case-inference-verification-be90e3f87aace382"
+}

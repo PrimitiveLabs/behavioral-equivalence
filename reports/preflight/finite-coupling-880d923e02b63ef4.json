@@ -1,0 +1,15 @@
+{
+  "status": "failed",
+  "source_digest": "880d923e02b63ef43b60d29b3b7d0948c5392a8e73179d7615bdc8464dcf648f",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "lean_version": "Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)",
+  "returncode": 1,
+  "compiler_output": "/research/FiniteCoupling.lean:29:56: error: unsolved goals\n\u03b9 : Type u_1\ninst\u271d\u00b9 : Fintype \u03b9\ninst\u271d : DecidableEq \u03b9\np q : \u03b9 \u2192 \u211d\npsum : \u2211 i, p i = 1\nqsum : \u2211 i, q i = 1\n\u22a2 1 + 1 = 2\n/research/FiniteCoupling.lean:38:0: warning: automatically included section variable(s) unused in theorem 'BehavioralCoupling.overlap_le_one':\n  [DecidableEq \u03b9]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [DecidableEq \u03b9] in theorem ...\nnote: this linter can be disabled with `set_option linter.unusedSectionVars false`\n/research/FiniteCoupling.lean:75:40: warning: 'ring' tactic does nothing\nnote: this linter can be disabled with `set_option linter.unusedTactic false`\n/research/FiniteCoupling.lean:75:40: warning: this tactic is never executed\nnote: this linter can be disabled with `set_option linter.unreachableTactic false`\n/research/FiniteCoupling.lean:87:40: warning: 'ring' tactic does nothing\nnote: this linter can be disabled with `set_option linter.unusedTactic false`\n/research/FiniteCoupling.lean:87:40: warning: this tactic is never executed\nnote: this linter can be disabled with `set_option linter.unreachableTactic false`\n'BehavioralCoupling.finite_maximal_coupling' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+  "proof_sha256": "7dce71424ef159fca559513bbb07b4605fec183ea8a5de1fb8b696e62108c062",
+  "theorems": [
+    "BehavioralCoupling.finite_maximal_coupling"
+  ],
+  "scope": "Finite maximal coupling existence and exact row/column marginals with match mass1-TV. This does not yet mechanize partition-to-concrete lifting, path-event construction, statistical assumptions or numerical implementation.",
+  "wall_seconds": 5.428071469,
+  "root": "/artifacts/finite-coupling-880d923e02b63ef4"
+}

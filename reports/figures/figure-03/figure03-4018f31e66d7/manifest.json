@@ -1,0 +1,15 @@
+{
+  "status": "rendered_pending_visual_qa",
+  "render_digest": "4018f31e66d761d85846afc19544571ea6972fa2cb8964d50795b8040627c70b",
+  "summary_sha256": "8029a1f671fda530b2e38ec8466b668f19180fedf25215d9357156d4d92d83e8",
+  "comparison_rows": 105600,
+  "output_sha256": {
+    "caption.md": "8c1f7f3034747736835ab0bd29b89ce52d004f7d1d73c3dc6459a94db6513f58",
+    "figure-03-preservation.pdf": "3f15ef902a5c87473bc1f74c9593e6f76bb4f818f5609b8c2f899792329e93b8",
+    "figure-03-preservation.png": "cd8716baa56d631a0a77144b6b46a098183e07688bf69d59a252f3a6f00ca98e",
+    "figure-03-preservation.svg": "59b40a578389c134e404c48d2e8beccfcfe84157bb81eb5e9d3f55c6324a5dfc",
+    "plotted-comparisons.csv.gz": "440482d7d691abd2245f57eeb95c7b29be94b18bbd01e5ab471db5cc992d565c",
+    "render-source.py": "be2171f5f9d616d0acda6667e5098ba4eccacbb554976a6f50fa0228a1c62ae2"
+  },
+  "root": "/artifacts/synthetic-main-v3-d9f1fdcc7c35/summary-a8a177633a7d8758/figure03-4018f31e66d7"
+}

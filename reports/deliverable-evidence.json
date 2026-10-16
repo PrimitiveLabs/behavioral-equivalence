@@ -1,0 +1,1401 @@
+{
+  "updated_at": "2026-10-16T09:37:34.876416+00:00",
+  "goal_status": "active",
+  "completion": "not_complete",
+  "purpose": "Requirement-by-requirement evidence index; no deliverable is marked complete while the listed obligations remain.",
+  "deliverables": [
+    {
+      "deliverable": "D1",
+      "owner_role": "Formal Methods",
+      "status": "complete",
+      "evidence": [
+        {
+          "path": "spec/model.md",
+          "sha256": "5f4483e99d9473a5f02e5db3e57297bf4d82ebb75ba5f00073fc5d3fcfa068f0"
+        },
+        {
+          "path": "spec/proofs.md",
+          "sha256": "1aad689aeded69e2568239efa884ea96a0feb5f0a1a97e1c7687547a3fdf11a9"
+        },
+        {
+          "path": "spec/learned-state-model.md",
+          "sha256": "8a29180282bd25e6019ba66d43134f4cb0ad2551d4ed8c003abd588a58fc18da"
+        },
+        {
+          "path": "spec/theory-comparison.md",
+          "sha256": "4890a6568286699a2cc89010a5bb03130a51ff3d6e464f79f0362f45df819aa9"
+        },
+        {
+          "path": "spec/user-cluster-transition-uncertainty.md",
+          "sha256": "fecd9f7387b0eb8bc68e9c79a783320f2e99ef68a17bd52059803a183814b7be"
+        },
+        {
+          "path": "formal/BehavioralBounds.lean",
+          "sha256": "6871d18117cf67cf7c698a1076884ac251b6f47df50c4eee31caf68c9b4a57fc"
+        },
+        {
+          "path": "formal/README.md",
+          "sha256": "cd92826c44bc4f18e4d3f90ba52e8da77394f257b00e74c3c9f8f0a8aac37590"
+        },
+        {
+          "path": "reports/formal-bound-check-results.md",
+          "sha256": "b414814183cb580282889c643d44c2f7956829cef96fee4a0e87fb4388e28461"
+        },
+        {
+          "path": "reports/preflight/formal-bounds-1ced0e17dddc9982.json",
+          "sha256": "f40e4e85b06149efc94be6554015a07c6853b81852d1ccd1a9b94913c245fa66"
+        },
+        {
+          "path": "formal/FiniteCoupling.lean",
+          "sha256": "81376450cc2cddf7828283562cb4854ad26a705e0909db348ed1253c4677b17d"
+        },
+        {
+          "path": "formal/WeightedEvents.lean",
+          "sha256": "1eb801090186b87ca0c5eb105655953aa92601c800f150c1c919e7139d05fea8"
+        },
+        {
+          "path": "spec/coupling-integration.md",
+          "sha256": "f173500b6a97b6df6abbf5b8f7ed7fb9e604cdbbeb73dd6ab04cf65390b935eb"
+        },
+        {
+          "path": "reports/preflight/finite-coupling-4ceca2656733c1b0.json",
+          "sha256": "ad94806c7ca270629e79f834155df4af53c74a6786f58845e8ea0f95ef8383e1"
+        },
+        {
+          "path": "reports/preflight/weighted-events-15700c304db4d15e.json",
+          "sha256": "cf854dda339d066f76fc7f4267f49e5d20d63f835b31e179bbd8810490b01869"
+        },
+        {
+          "path": "spec/supplementary-uncertainty-envelope.md",
+          "sha256": "a6ed3ccb2b00cbebe918e6da294aee02fca61fabe7691341a17c23f25fdae9dc"
+        },
+        {
+          "path": "tools/supplementary_intervals.py",
+          "sha256": "a51b9193b9ef606937561806e4241c3a4ef475b4c566543e378a4d850ded4e73"
+        },
+        {
+          "path": "tests/test_supplementary_intervals.py",
+          "sha256": "d30931541bdcb65171bd1897e5b39563e77b7b8592a3287c454e92eff724bc7c"
+        },
+        {
+          "path": "tools/supplementary_metrics.py",
+          "sha256": "a18b4c5b847d5337cd8d4203ccc802029275eaeccb0a7828c1df026efb13f6d3"
+        },
+        {
+          "path": "tests/test_supplementary_metrics.py",
+          "sha256": "3778f9a71901d98b5786f9580ef9cf21ecb5253aa997b5a7b1dc654dd475b4bf"
+        },
+        {
+          "path": "reports/d1-completion-review.md",
+          "sha256": "efa7050da4ce2acb4a6501d063e37897d8c54cfffbcb7154a7373ef20af94e61"
+        },
+        {
+          "path": "reports/mathematical-soundness-review.md",
+          "sha256": "2e1efa6528225de2be47145468eaab158be761b1b5b69e35fb181102fefc557c"
+        },
+        {
+          "path": "spec/certificate-interfaces.md",
+          "sha256": "989424399426b53bce3b482a42909e493c96f045b4132b267a6ba78f4aab1162"
+        },
+        {
+          "path": "spec/literature.md",
+          "sha256": "104d0dc92d95417f354a789967261b359584760f2fd17f5d50b2c724983979c7"
+        },
+        {
+          "path": "tests/test_exported_schemas.py",
+          "sha256": "775b3c77a17cff96a21aa5103f448937de7cc03dd7090587eb67e18f98c1bd0f"
+        },
+        {
+          "path": "spec/schemas/EvidenceRegistry.schema.json",
+          "sha256": "b4dae6fba0728da98913eb6fc9041cf226778ab08bc02815b22daf6656d89f3c"
+        }
+      ],
+      "remaining": [],
+      "limitations": [
+        "Implementation-author analytical review, not external peer review",
+        "Checked Lean components with analytical full integration, not one end-to-end mechanization",
+        "Specified-model claims only, no human-generating-process guarantee"
+      ]
+    },
+    {
+      "deliverable": "D2",
+      "owner_role": "Simulation",
+      "status": "complete",
+      "evidence": [
+        {
+          "path": "src/behavioral_equivalence/synthetic.py",
+          "sha256": "8daf7417114a448f6bfc58c40022bdcda80b244f4a52eb60bbb3d9491c9a2e4e"
+        },
+        {
+          "path": "configs/synthetic-main-v3.json",
+          "sha256": "a28ad593d4291357a3193336c9fe721b501cd01ff9b5d6944cb594321350231f"
+        },
+        {
+          "path": "reports/preflight/synthetic-large-smoke.json",
+          "sha256": "8ff429107d7fea0a3f4716e9c532bd253059d3bf8e02124574023c654aed3b4d"
+        },
+        {
+          "path": "reports/synthetic-main-results.md",
+          "sha256": "f733b55eab72a7592dde0c40e64e37f08b65c0a6f225de351f25fbfa8d7048a7"
+        },
+        {
+          "path": "reports/preflight/synthetic-main-summary.json",
+          "sha256": "8029a1f671fda530b2e38ec8466b668f19180fedf25215d9357156d4d92d83e8"
+        },
+        {
+          "path": "reports/preflight/synthetic-main-reconciled-manifest.json",
+          "sha256": "3a8a8d57f75acde31e91bc55eff331f5b24342672e8571a093c4694d06c34ca1"
+        },
+        {
+          "path": "reports/preflight/source-package-reproduction-a17e2c0f4cb5207b-b4e4233de2e1.json",
+          "sha256": "0de18b20645950e0829643027b76a5610e6a4d68b5dff3d0278ef14e7b963aba"
+        },
+        {
+          "path": "reports/current-source-package.json",
+          "sha256": "ff9a8bb84ff77b9845cdb60cddbe5a79140585b13d4269a921dd4e705d3d07b3"
+        },
+        {
+          "path": "reports/d2-completion-review.md",
+          "sha256": "e46a77e9bcf0cd03864e2a6139c1796b3754df5f2db03314db3ef09dce4be63e"
+        },
+        {
+          "path": "reports/preflight/source-package-reproduction-ad74b89a721bbbba-e52eea4696b4-explicit-mount.json",
+          "sha256": "437396eaa34423280ab74b880a1f46f4e101ef0aa623c1ab6c95ce08eb3b7b4b"
+        },
+        {
+          "path": "reports/preflight/source-package-reproduction-ecc5a586bd135738-e52eea4696b4.json",
+          "sha256": "1de6add539e0ee4ad326446d647bd59cf0c25df33e225b437f7ce47f3131d347"
+        }
+      ],
+      "remaining": [],
+      "limitations": [
+        "Fresh scientific reproduction is a documented subset, not a full campaign rerun",
+        "Human mathematical validity and arbitrary-interface transfer are not established",
+        "General cold-start DAG submitter not supplied; explicit source-bound controllers are provided"
+      ]
+    },
+    {
+      "deliverable": "D3",
+      "owner_role": "Behavioral ML",
+      "status": "complete",
+      "evidence": [
+        {
+          "path": "src/behavioral_equivalence/learned_abstraction.py",
+          "sha256": "8a420760d02e5f89f1e95ed07bd0afb96fc288339e8da099c7b2f1e2e9841d6d"
+        },
+        {
+          "path": "src/behavioral_equivalence/property_refinement.py",
+          "sha256": "8201243fafa197729941d6d09990fae6d50e12d29107fdeeee31f9b63e17b10a"
+        },
+        {
+          "path": "reports/preflight/human-learned-certified-pilot.json",
+          "sha256": "27e8f57eefe29395733fd7b28b8c9e125beddea4517b5be2dc8b5d45b3469a42"
+        },
+        {
+          "path": "reports/preflight/human-property-compression-pilot.json",
+          "sha256": "4f51c13de5ca80b6492f28513c1aad74abca83040a783802054ce438c1ff9224"
+        },
+        {
+          "path": "configs/human-quantization-v1.json",
+          "sha256": "ac48d631d629921463ae16a2c622cf02169b15a2214482a05ede795a42d9b0cd"
+        },
+        {
+          "path": "reports/preflight/human-quantization-calendar-context-engineering.json",
+          "sha256": "f052a52fd06f0dcfef09a61c6ea2777ea722bf1ade7b9753aa69340f65994862"
+        },
+        {
+          "path": "src/behavioral_equivalence/quantization.py",
+          "sha256": "5fd79f3e62aff0c6c86c1aab1c9d65f6367fb8a86642f2259b01e01a9778bbee"
+        },
+        {
+          "path": "configs/human-nested-abstraction-v1.json",
+          "sha256": "3b00aa02c1f1772812918b0b4c7c00194439b4960e36e8e15453e75ace31ad8d"
+        },
+        {
+          "path": "reports/preflight/human-nested-known_users-20261015.json",
+          "sha256": "de326a452144e5d5c01bf89bc68d649a9c07862cedbe0c7869c2cec4abdb2bb4"
+        },
+        {
+          "path": "reports/preflight/human-nested-known_users-20261017.json",
+          "sha256": "3984736c12719c3e28a95e5acb4855c2a76eb506f89b77b1ecd985ea5a561fa1"
+        },
+        {
+          "path": "reports/preflight/human-nested-unseen_users-20261017.json",
+          "sha256": "bf550b974418cca730372a948a47fe6aaad67924184f7e4501e26a09df630865"
+        },
+        {
+          "path": "reports/state-sufficiency-results.md",
+          "sha256": "c3f78ce73b80202af30cdfbfbc9c82059098ba13f3e84ce66f0810060c7379d2"
+        },
+        {
+          "path": "reports/preflight/state-sufficiency-d1d51a45cdd9c084.json",
+          "sha256": "311c7dbce79ef8e97474f2ad3a2f3b1ac527d4fb25ffb00ee8f6886251e2abbd"
+        },
+        {
+          "path": "reports/human-model-comparison.md",
+          "sha256": "4788c9c76c1fc5acd420ccae905ec57dbc4e61d3021a0524fc85ae52629b67d7"
+        },
+        {
+          "path": "reports/figures/human-final-tables.json",
+          "sha256": "e2076512e2eb3ea92c6de144f59f8810bf4b1a67fb442321e23fb1d688b5746c"
+        },
+        {
+          "path": "reports/preflight/final-human-output-audit-c35f26f7073a-df48b059eac8.json",
+          "sha256": "f904d360537306eea0eeb95205ee1980c8ea6b178725f789e38efacb898fa001"
+        },
+        {
+          "path": "reports/preflight/quantization-dtype-correction.json",
+          "sha256": "67f9344852ccf2b4afd3abe179d36ff196d47ae27b439191f719867c966fa190"
+        },
+        {
+          "path": "reports/preflight/quantization-dtype-fixed-wheel-validation.json",
+          "sha256": "0c6a828fbd549a32d3eb859b322e186df564051c02dbb1876e9ca3d9f5cf943e"
+        },
+        {
+          "path": "data/synthetic/fixtures/release/quantization-dtype-v1.json",
+          "sha256": "b64c5612b9f68816d0678a418572f1b9d71b552f90f07bb136d61925e4e8b68e"
+        },
+        {
+          "path": "tests/test_learned_state_boundaries.py",
+          "sha256": "6feed24d0efd7990ab45f2830f3a7fe32c9f735ebae47569c76064a0e7436c6f"
+        }
+      ],
+      "remaining": [],
+      "limitations": [
+        "Strict primary fails twofold compression",
+        "Within-state history contrasts lack fixed minimum support",
+        "Descriptive heterogeneity is not a Markov theorem or causal claim",
+        "Integer-fallback dtype bug corrected after measured runs; original float-caller experiment source preserved"
+      ]
+    },
+    {
+      "deliverable": "D4",
+      "owner_role": "Formal Methods",
+      "status": "complete",
+      "evidence": [
+        {
+          "path": "src/behavioral_equivalence/integer_bounds.py",
+          "sha256": "3bf508d8070c4add11dd9ecd2e6d724cd00555e2fa29d00561907cf766fa9372"
+        },
+        {
+          "path": "src/behavioral_equivalence/prism.py",
+          "sha256": "337196d3739bbcf2aeb8c888fc36c8f2af22a96e0a2f899b84523f56b6d63ca0"
+        },
+        {
+          "path": "reports/preflight/integer-campaign-audit-progress.json",
+          "sha256": "a43598745b309393af77805525d1cde2b53df4ddbcbdbe84656b535ac99e25d0"
+        },
+        {
+          "path": "reports/preflight/uncertainty-main-summary.json",
+          "sha256": "1d0c5c201f75d5e631f02b5b794773ce34a2e1b034e22e1c6a730df773c24bac"
+        },
+        {
+          "path": "reports/preflight/uncertainty-repeated-summary.json",
+          "sha256": "24eda8e82e685db7bd8d1440acde88c5519bd3d2e58712b9a8a6aecf799128ee"
+        },
+        {
+          "path": "reports/preflight/integer-campaign-audit-manifest.json",
+          "sha256": "325ce8ca5c360a800b74ffdaa0dc11219c2c7c420589d025834dd1fac0b1322b"
+        },
+        {
+          "path": "configs/human-supplementary-calibration-v1.json",
+          "sha256": "e5334738ce39297f2cf2cadfd95b2507696bf540c253b3059082fef94a1065e7"
+        },
+        {
+          "path": "cloud/calibrate_supplementary.py",
+          "sha256": "85a29dcfcb523c7b1e150b656b3300d88200aec831fe4c19b39642e6ff111cfe"
+        },
+        {
+          "path": "tools/supplementary_counts.py",
+          "sha256": "e6d7cc7b43f370fe19aa5ca9acea982b94e4b5f7a00513dce081c137d142e5af"
+        },
+        {
+          "path": "tests/test_supplementary_counts.py",
+          "sha256": "50ede0fd351408a2b4e8a2b9457562f1a6b3a5b5d5df822974e8567688d5e19a"
+        },
+        {
+          "path": "spec/supplementary-uncertainty-envelope.md",
+          "sha256": "a6ed3ccb2b00cbebe918e6da294aee02fca61fabe7691341a17c23f25fdae9dc"
+        },
+        {
+          "path": "tools/supplementary_intervals.py",
+          "sha256": "a51b9193b9ef606937561806e4241c3a4ef475b4c566543e378a4d850ded4e73"
+        },
+        {
+          "path": "tests/test_supplementary_intervals.py",
+          "sha256": "d30931541bdcb65171bd1897e5b39563e77b7b8592a3287c454e92eff724bc7c"
+        },
+        {
+          "path": "tools/supplementary_metrics.py",
+          "sha256": "a18b4c5b847d5337cd8d4203ccc802029275eaeccb0a7828c1df026efb13f6d3"
+        },
+        {
+          "path": "tests/test_supplementary_metrics.py",
+          "sha256": "3778f9a71901d98b5786f9580ef9cf21ecb5253aa997b5a7b1dc654dd475b4bf"
+        },
+        {
+          "path": "spec/interval-vertex-crosscheck.md",
+          "sha256": "b93ee5c7b9026ea3ad67d404c239d5d43f3c79351f914917357129546892a4dd"
+        },
+        {
+          "path": "reports/preflight/interval-vertex-crosscheck-b46ea5f89886b53e.json",
+          "sha256": "69879511fc3ec3786e91518024ed9008918e4c30e94c774e1033a23f54ae238d"
+        },
+        {
+          "path": "reports/preflight/retained-pilot-20261015-b-robust-min.log",
+          "sha256": "5ddeb087626fb7928965e9ae4328ad7690b598b2047d0d70cc883e1d4d1ae29d"
+        },
+        {
+          "path": "spec/certificate-interfaces.md",
+          "sha256": "989424399426b53bce3b482a42909e493c96f045b4132b267a6ba78f4aab1162"
+        },
+        {
+          "path": "reports/mathematical-soundness-review.md",
+          "sha256": "2e1efa6528225de2be47145468eaab158be761b1b5b69e35fb181102fefc557c"
+        },
+        {
+          "path": "reports/preflight/source-package-reproduction-ad74b89a721bbbba-e52eea4696b4-explicit-mount.json",
+          "sha256": "437396eaa34423280ab74b880a1f46f4e101ef0aa623c1ab6c95ce08eb3b7b4b"
+        },
+        {
+          "path": "reports/preflight/source-package-reproduction-ecc5a586bd135738-e52eea4696b4.json",
+          "sha256": "1de6add539e0ee4ad326446d647bd59cf0c25df33e225b437f7ce47f3131d347"
+        }
+      ],
+      "remaining": [],
+      "limitations": [
+        "External interval check covers four small dyadic fixtures, not every large model",
+        "Retained native PRISM pilot rejects a zero-lower-bound edge",
+        "Rectangular uncertainty is conservative for fixed unknown kernels",
+        "Specified-model certificates are not human-validity guarantees"
+      ]
+    },
+    {
+      "deliverable": "D5",
+      "owner_role": "Data / Evaluation",
+      "status": "complete",
+      "evidence": [
+        {
+          "path": "data/license-register.json",
+          "sha256": "05aa7c765eba2f4b923bc2fb554359dc2b1cc91fe88c05c6403b61eb792a2323"
+        },
+        {
+          "path": "reports/preflight/kuairand-27k-independent-audit.json",
+          "sha256": "0176129f335c54fb3589e8149cea335f14edc903dee777bcd760a7fc4336d26d"
+        },
+        {
+          "path": "reports/preflight/kuairand-27k-confirmatory-case-audit.json",
+          "sha256": "0901cdc50e2282dbe81564fa709a9ee5f7f1c3f9729887b611eeab760b8967cb"
+        },
+        {
+          "path": "spec/confirmatory-calendar.md",
+          "sha256": "5e17d57f8d31f803a17fb23909c6c640537fa014db967ceca83000d69dff013f"
+        },
+        {
+          "path": "reports/preflight/kuairand-27k-case-context-audit.json",
+          "sha256": "8db0da944401d3e5347aeab4defadab01be4a22d9599e3d99ea7f2217d05cafd"
+        },
+        {
+          "path": "configs/human-adjacent-calibration-v1.json",
+          "sha256": "6beadd742d4c68b047c9dbff01898ac1c92fd1ff623f7e2a9e285b3e49fe515d"
+        },
+        {
+          "path": "reports/preflight/human-adjacent-calibration.json",
+          "sha256": "ded969e03e56d879bb7a2dbff3aa637c69eee821e45024125103a7a21ea09b19"
+        },
+        {
+          "path": "reports/preflight/human-adjacent-calibration-independent-audit.json",
+          "sha256": "625edd22d6843fde7e89708de4b57de959657b08810cfb7799baef6f9668a398"
+        },
+        {
+          "path": "reports/preflight/human-multistep-test-preparation.json",
+          "sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f"
+        },
+        {
+          "path": "reports/human-multistep-inputs.md",
+          "sha256": "411cab9e9e43393c2e6cc20be1ce440f2811b2f15b109a020a49dfaab6de70b1"
+        },
+        {
+          "path": "cloud/audit_multistep_test.py",
+          "sha256": "50a3b806fb2ae31c996c61e959ad02b34217236ff874fffa45e09bccb3b3b883"
+        },
+        {
+          "path": "src/behavioral_equivalence/multistep_audit.py",
+          "sha256": "54260b505de132c74c0965481d1b284e7cc9787e7bef75dd1eedf5f50988c3d2"
+        },
+        {
+          "path": "reports/preflight/human-multistep-independent-audit.json",
+          "sha256": "9f0a885467acd10e56c143bff1c0ce4c81a165e0ec46ca5c5cf94efd4b7dfa25"
+        },
+        {
+          "path": "reports/human-randomized-inputs.md",
+          "sha256": "8ce66b761e0b23d6d671eeb62e1752f17d61479b3fe831b70d7580c8de428391"
+        },
+        {
+          "path": "reports/preflight/human-randomized-independent-audit.json",
+          "sha256": "7576df68fbf90fbc491d5733390485eebbcd3c42a380c8013ec5b6c19d3913d2"
+        },
+        {
+          "path": "reports/preflight/supplementary-targets-53b74b1e479f0a1f.json",
+          "sha256": "15f9f93b205d1a00a3c2e7f03af2b0a79ee8efb977b2a96c2162095932cc47c2"
+        },
+        {
+          "path": "reports/preflight/supplementary-validation-d36ae2269d0933a4.json",
+          "sha256": "3189e14bee3f6745a818781a4ce5de6f868cfe0f8f4c59e159f1a81f7e47fea0"
+        },
+        {
+          "path": "reports/supplementary-outcome-attachment-results.md",
+          "sha256": "1c31b390463ea5b8784fc7e61a7152db8fec95242a265e3042f45fca31e7ef9c"
+        },
+        {
+          "path": "reports/d5-d7-completion-review.md",
+          "sha256": "9f928682e4d52e11a6ed1003110d432ad59bdd3ad399700b61bf54f28a038bde"
+        },
+        {
+          "path": "docs/data-card.md",
+          "sha256": "a5e23e71e0b05ad5ca8db6294a357af62643a1ff00f8a7e96754b66e2c3c5b44"
+        },
+        {
+          "path": "reports/final-analysis-freeze.json",
+          "sha256": "f8711071351e0709e79518e030f17d3b79495c78050c13683781982b3b5b6cac"
+        },
+        {
+          "path": "reports/preflight/final-human-output-audit-c35f26f7073a-df48b059eac8.json",
+          "sha256": "f904d360537306eea0eeb95205ee1980c8ea6b178725f789e38efacb898fa001"
+        }
+      ],
+      "remaining": [],
+      "limitations": [
+        "Independent aggregate-output audit, not neural-forward recreation",
+        "Internal analysis lock, not external preregistration",
+        "Actual feedback timestamps and arbitrary-interface causal effects unavailable",
+        "Human response all-five improvement unsupported"
+      ]
+    },
+    {
+      "deliverable": "D6",
+      "owner_role": "Behavioral ML",
+      "status": "complete",
+      "evidence": [
+        {
+          "path": "reports/preflight/human-training-pilot.json",
+          "sha256": "559faca9cea2bd0843529afed2e995b6ebec1b1b7919161c260769bad5a9e32d"
+        },
+        {
+          "path": "reports/preflight/human-calendar-known-inputs.json",
+          "sha256": "cfc5f76de47c558c704aaf7f6f8ebc39f159c2b1b1cba1a253b0b00eb7f9d05f"
+        },
+        {
+          "path": "reports/preflight/human-calendar-unseen-inputs.json",
+          "sha256": "7527d0233c41acbf230259234bd311f065c4aab6e63c1434cff4ae8c2c60a3c7"
+        },
+        {
+          "path": "reports/preflight/human-training-feature-review.json",
+          "sha256": "f38dc528f89e15735283823c9517d806d08a7f81b3788c4da1c828c835ba08c6"
+        },
+        {
+          "path": "cloud/train_calendar.py",
+          "sha256": "622a23c4eaac6b3acf66a67032e83dbecc4e3a80892a56750ee12ecdeec7dfea"
+        },
+        {
+          "path": "configs/human-training-calendar-v3.json",
+          "sha256": "6085d9449ba91dcd802393ea261eb96f70c01b486a1add7ddbd3e423bce78b68"
+        },
+        {
+          "path": "configs/human-training-calendar-v4-replicates.json",
+          "sha256": "26ceb24e9d738227c850c1a850dceea75a77a53f2ce445bc7432e495f0bba7fc"
+        },
+        {
+          "path": "spec/human-confirmatory-analysis.md",
+          "sha256": "3594c974fe169564d34793517cd4804528eb747f373a4a09c366b9ac473854b0"
+        },
+        {
+          "path": "spec/calibrated-human-model.md",
+          "sha256": "d35c53ce0f60076f196515a90018b25ad5d569b3deff19f92d8624737fffa850"
+        },
+        {
+          "path": "configs/human-calibrated-parent-v1.json",
+          "sha256": "ae010f3fcce6035727417412b1a120ba7ebfd5c8221c6cbd9d189f5f2ba0d70f"
+        },
+        {
+          "path": "reports/preflight/human-context-calibrated-parent.json",
+          "sha256": "5e75e20cffb39c60cf92dc15bd4f39c2fcad1a012729e94b65a4c24585c66427"
+        },
+        {
+          "path": "reports/preflight/human-training-completion-checkpoint.json",
+          "sha256": "d9669adb9bfbe8e52ebf26dcec60c30c0a2d2def2d4129fb7687d6755644063a"
+        },
+        {
+          "path": "reports/preflight/human-gru-quantization-known-20261015.json",
+          "sha256": "290e4480c5d94b0d699e4a00f369ccc61d2d5d415551340f9ca1538a5f0748c3"
+        },
+        {
+          "path": "reports/preflight/human-gru-quantization-known-20261016.json",
+          "sha256": "2b3efa5a6d04156876fb35f5ab1ce132a8d34f6e1276d3084d40f13072338298"
+        },
+        {
+          "path": "reports/preflight/human-gru-quantization-known-20261017.json",
+          "sha256": "a4136dee7cddc9bd50943008c7e64295e0fa3a06c3bbb45e28df4d6c1434b85d"
+        },
+        {
+          "path": "src/behavioral_equivalence/multistep_cohort.py",
+          "sha256": "dca6ce4c2994e8fbdaa50cf44c1cb13ab34ad9dd063d89786afa2e26eb487593"
+        },
+        {
+          "path": "configs/human-multistep-cohort-v1.json",
+          "sha256": "0e0d2c3e10b9fe87aa3aac62cbbc693d12e38a2408af6697402e1471798c619e"
+        },
+        {
+          "path": "tests/test_multistep_cohort.py",
+          "sha256": "802d09b4d4a5867b620d33df3e4332d7d87e2c0e079a8ee7bebd6e4c5c1eda53"
+        },
+        {
+          "path": "src/behavioral_equivalence/human_comparison.py",
+          "sha256": "1ea434dde5009ef46503d0f306457158259938a95efd7eb37f6054b046adec50"
+        },
+        {
+          "path": "spec/schemas/HumanPrimaryResult.schema.json",
+          "sha256": "736bb740e0c04b83bd22213c88a883525afc5b1080b2c81f5ddbdb821b9cfce6"
+        },
+        {
+          "path": "tests/test_human_comparison.py",
+          "sha256": "b006b212d8e6966db58fa785085e699f385d0ec7d0924c6b297e6eb8fe0c2c38"
+        },
+        {
+          "path": "cloud/prepare_multistep_test.py",
+          "sha256": "0da709b000fc5a697a0ceff4309443ac7248e942f7dae9c1998a85577e7ec399"
+        },
+        {
+          "path": "reports/preflight/human-nested-unseen_users-20261016.json",
+          "sha256": "ae5167bef66c0e40564520a4aa314fe658105a8ffa2ac1f42d62ff5701d4650c"
+        },
+        {
+          "path": "reports/preflight/horizon-head-full-manifest.json",
+          "sha256": "491f0d85fbf18f12d01d41e06cadddc2dd32fbfc6024d19c10b4cf8388a0943f"
+        },
+        {
+          "path": "configs/human-final-one-step-v1.json",
+          "sha256": "ec465230103450db7280f1c800a129025cc73aab801a65bfbb426b828fb6a46f"
+        },
+        {
+          "path": "cloud/evaluate_human_one_step.py",
+          "sha256": "57fb5168dacbe4494ad5392585ba516843aa5b6cfae9ee41f916d2516e61a1bc"
+        },
+        {
+          "path": "cloud/evaluate_human_horizons.py",
+          "sha256": "770990342a1f90b28c623bcba5d67ff15e9b5b3516b01ebfbf07aec311abc184"
+        },
+        {
+          "path": "configs/human-final-horizon-v1.json",
+          "sha256": "432d2c6cce634cf2ebb8a568bfde0c2494a3b90d8b3e6db36f87ca4ef66523d0"
+        },
+        {
+          "path": "reports/human-direct-horizon-training-results.md",
+          "sha256": "c328c179d47bb2dc418e809b418987352636dcecce9ff86f2b2633835b4c2e18"
+        },
+        {
+          "path": "spec/supplementary-outcomes.md",
+          "sha256": "22cfed0a049c544e448795116bf75557e5d5f83a6aa45906921e160733bcf6da"
+        },
+        {
+          "path": "tools/supplementary_outcomes.py",
+          "sha256": "3565170e5fd5cd602e7ffa6f0fb0e5e82e04d8641528b8777a6408dc179d3553"
+        },
+        {
+          "path": "tests/test_supplementary_outcomes.py",
+          "sha256": "7fff97f73e24ad21742ac675251a466d150b5aaf23a9265e8e5c6e15d820fe80"
+        },
+        {
+          "path": "reports/preflight/supplementary-targets-53b74b1e479f0a1f.json",
+          "sha256": "15f9f93b205d1a00a3c2e7f03af2b0a79ee8efb977b2a96c2162095932cc47c2"
+        },
+        {
+          "path": "reports/preflight/supplementary-validation-d36ae2269d0933a4.json",
+          "sha256": "3189e14bee3f6745a818781a4ce5de6f868cfe0f8f4c59e159f1a81f7e47fea0"
+        },
+        {
+          "path": "reports/supplementary-outcome-attachment-results.md",
+          "sha256": "1c31b390463ea5b8784fc7e61a7152db8fec95242a265e3042f45fca31e7ef9c"
+        },
+        {
+          "path": "tools/supplementary_heads.py",
+          "sha256": "99f671c6ed3cf87031da15e8f6dc4d792e5b85f6049425bd77795878ff3676f3"
+        },
+        {
+          "path": "tests/test_supplementary_heads.py",
+          "sha256": "87a2680c69ac134611183941227d561f894ac9436494350c143339eacda1a22c"
+        },
+        {
+          "path": "configs/human-supplementary-heads-v1.json",
+          "sha256": "8907b393d17c3fd33608a7fbb5ca1b5dccf69c4c7465499eb009fd9c47f235fc"
+        },
+        {
+          "path": "cloud/train_supplementary_heads.py",
+          "sha256": "2192bb2f80f169efb4a4a502786c320b9db6f795ec98a96399617c1a2f392791"
+        },
+        {
+          "path": "tools/run_supplementary_fits.py",
+          "sha256": "3cc7cec9c48836740b66a75b9e9b1d0ef76197a827d7cf2581498706a2703474"
+        },
+        {
+          "path": "tests/test_supplementary_fit_runner.py",
+          "sha256": "7cff82867dced14384b4907b3050d9cbcea02cbe9b5d54f72ac55b6a476a76b4"
+        },
+        {
+          "path": "tools/supplementary_abstraction.py",
+          "sha256": "1f7d3cc869c167a144ce00b6c809cc1dacb1be59df89062c4cb920e7d47c3e29"
+        },
+        {
+          "path": "tests/test_supplementary_abstraction.py",
+          "sha256": "5f176ae8dddcabea4bb8d90d1964d01bb8ad86a7912f34b2f50705c44e6c72f3"
+        },
+        {
+          "path": "reports/preflight/supplementary-fit-cohort-287d52d00557d282.json",
+          "sha256": "42d603d7fc5d35c1e56cce81c9ffbf9b35bed197ada542746df80974e0bff635"
+        },
+        {
+          "path": "configs/human-supplementary-calibration-v1.json",
+          "sha256": "e5334738ce39297f2cf2cadfd95b2507696bf540c253b3059082fef94a1065e7"
+        },
+        {
+          "path": "cloud/calibrate_supplementary.py",
+          "sha256": "85a29dcfcb523c7b1e150b656b3300d88200aec831fe4c19b39642e6ff111cfe"
+        },
+        {
+          "path": "tools/supplementary_counts.py",
+          "sha256": "e6d7cc7b43f370fe19aa5ca9acea982b94e4b5f7a00513dce081c137d142e5af"
+        },
+        {
+          "path": "tests/test_supplementary_counts.py",
+          "sha256": "50ede0fd351408a2b4e8a2b9457562f1a6b3a5b5d5df822974e8567688d5e19a"
+        },
+        {
+          "path": "cloud/evaluate_supplementary.py",
+          "sha256": "93c62707a1f103dc01b14289cd7ed063c5d379f6edb5ecb02b337461dbd05da8"
+        },
+        {
+          "path": "tools/freeze_supplementary.py",
+          "sha256": "374a5122bd2ba4e78054ccfc83e64a37f848142993c1711adb533e71cc3848ef"
+        },
+        {
+          "path": "tests/test_supplementary_freeze.py",
+          "sha256": "20f1e39205ded7a37c715053cf5a04131c0d8d881d1b6fc5d15f5f6c1db4897a"
+        },
+        {
+          "path": "configs/human-supplementary-final-v1.json",
+          "sha256": "a4b6c454cfd265e2bfd93f834f1db2b8af59e6aee95e6c8ed0904c4a0b407df0"
+        },
+        {
+          "path": "reports/preflight/supplementary-head-training-summary.json",
+          "sha256": "288a7c716e98d88ccb276691ff87eeec22a4c30cff9cf1826d10175a5f01cf5f"
+        },
+        {
+          "path": "reports/preflight/supplementary-calibration-summary.json",
+          "sha256": "ce63e039ddbc460ebc3648d57af89c1a1af2581f22aa86550430089cbec1318e"
+        },
+        {
+          "path": "cloud/audit_supplementary.py",
+          "sha256": "536cc05936423d9effc90418f70b6718eae1e68e61e92541200c927f8b40a1ee"
+        },
+        {
+          "path": "tools/supplementary_result_audit.py",
+          "sha256": "e6be06ee8613d8bd8fd5de2c0489e60e485e8067e0d8e54b705aaea0ff0976dd"
+        },
+        {
+          "path": "tests/test_supplementary_result_audit.py",
+          "sha256": "1a33c7bfcd29fd2d3f4dd5f6bc89b34306da2db24847f85bccfa5294a7a56b28"
+        },
+        {
+          "path": "reports/human-model-comparison.md",
+          "sha256": "4788c9c76c1fc5acd420ccae905ec57dbc4e61d3021a0524fc85ae52629b67d7"
+        },
+        {
+          "path": "reports/human-baseline-results.json",
+          "sha256": "af8d49b2c21ca5aa5f63101c8ed0088f68828b3c089dc21927d8bc1fbb4ccdb3"
+        },
+        {
+          "path": "reports/human-availability-history-results.json",
+          "sha256": "df6e431acf654577cc01a94f507cbf0ecc9fd25d5e088ec8a1a3a133223b3c94"
+        },
+        {
+          "path": "reports/human-horizon-results.md",
+          "sha256": "9ffdc52d76a81b22292344fd29438783b9ef5a0f523bcf579681b443aca1c374"
+        },
+        {
+          "path": "reports/human-trajectory-results.md",
+          "sha256": "e1858b54d0b63cff38977f20c81210ac8cf181e7d3da8a5ba3213e64dcab3ffb"
+        },
+        {
+          "path": "reports/supplementary-endpoint-results.md",
+          "sha256": "d46289071e0ac9631a5cd805350cb6994c2bc605fb312436162bab44c97f158e"
+        },
+        {
+          "path": "reports/preflight/supplementary-output-audit-summary.json",
+          "sha256": "d589a17c0b073f1731389b031d47ecddf4321efa5a4b5bc96a3de63a0f088db6"
+        },
+        {
+          "path": "reports/preflight/final-human-output-audit-c35f26f7073a-df48b059eac8.json",
+          "sha256": "f904d360537306eea0eeb95205ee1980c8ea6b178725f789e38efacb898fa001"
+        },
+        {
+          "path": "reports/preflight/trajectory-output-audit-6963249238dc5d0e.json",
+          "sha256": "07326f50d19ee9caa4e14918a4b6e01f416ca890825a578724ca7cfd27d85cbd"
+        }
+      ],
+      "remaining": [],
+      "limitations": [
+        "Primary strict compression fails all ten fits",
+        "Internal pre-test analysis lock, not external preregistration",
+        "Supplementary endpoint/trajectory studies are exploratory",
+        "Human causal transport and actual feedback timestamps unavailable",
+        "Audits do not independently retrain neural encoders"
+      ]
+    },
+    {
+      "deliverable": "D7",
+      "owner_role": "Simulation",
+      "status": "complete",
+      "evidence": [
+        {
+          "path": "reports/preflight/refinement-pilot.json",
+          "sha256": "74462ab10da159195b051026de5893f2b763c30375efe51ee88d6e4e01052339"
+        },
+        {
+          "path": "spec/intervention-estimand.md",
+          "sha256": "64d646d1fdcfc1d4137ba52dfe4f3fca65fe86686bfa21bac490f739b916b718"
+        },
+        {
+          "path": "cloud/item_metadata_audit.py",
+          "sha256": "19f37b2b20b191c872e503182e2f6ad8dce176bd1d6efe986295aa2e44b6eb5c"
+        },
+        {
+          "path": "configs/intervention-main-v1.json",
+          "sha256": "33b3c0735b069118de4733bd08fdccc029dacc18ae7b27603cc00493a545d737"
+        },
+        {
+          "path": "spec/synthetic-intervention-analysis.md",
+          "sha256": "2551824165a008e7e8ce545d880dba1cf40cc2edd3b6b8b0e95f316c6f06706b"
+        },
+        {
+          "path": "reports/preflight/intervention-multidimensional-smoke.json",
+          "sha256": "ae84496ec49944ea7d91949143706247f15e97c56ccaafa18bc1502db3bfd5d9"
+        },
+        {
+          "path": "src/behavioral_equivalence/intervention_analysis.py",
+          "sha256": "183391c7499e06b7bcc4d7d575be24d32879af5ded7ec20561574231c4436098"
+        },
+        {
+          "path": "reports/intervention-results.md",
+          "sha256": "6ff4c69cf5a0e82909e7090cb25ff07645bfb58a526ad24895f94e21f37abadc"
+        },
+        {
+          "path": "reports/preflight/intervention-main-analysis.json",
+          "sha256": "c972d136449381a167389044c320a313241ce9df56235b52c88749239e6288e9"
+        },
+        {
+          "path": "src/behavioral_equivalence/randomized_cohort.py",
+          "sha256": "2d3acf6d95dc4203fc27ed03bda6f5fa0f01fe7b1716814ef69056aced405929"
+        },
+        {
+          "path": "tests/test_randomized_cohort.py",
+          "sha256": "7dc1cf279e777cfa74b1c33b72b8afa8a41e9616c9ed7c3abef7a9dac2444199"
+        },
+        {
+          "path": "reports/human-randomized-inputs.md",
+          "sha256": "8ce66b761e0b23d6d671eeb62e1752f17d61479b3fe831b70d7580c8de428391"
+        },
+        {
+          "path": "reports/preflight/human-randomized-independent-audit.json",
+          "sha256": "7576df68fbf90fbc491d5733390485eebbcd3c42a380c8013ec5b6c19d3913d2"
+        },
+        {
+          "path": "cloud/evaluate_human_responses.py",
+          "sha256": "e087af1532262c67d311feed6f7fb600cfbaea88676e710c181eab264760d7f7"
+        },
+        {
+          "path": "configs/human-final-response-all-groups-v1.json",
+          "sha256": "08db0d1a0559a03a15980870a93b4b2d3b1dfa37bb4da53a0fa7dc03e19cc87a"
+        },
+        {
+          "path": "configs/human-final-response-heldout-groups-v1.json",
+          "sha256": "1bb04ab90c06c6af339ce132ed83724895514c5653aee3169228599107d1d447"
+        },
+        {
+          "path": "src/behavioral_equivalence/response_replicas.py",
+          "sha256": "ac2af6cf52327a7193fd0779a9aa0d00e209519b2c1b8134a177bb97691571e0"
+        },
+        {
+          "path": "reports/human-response-final-decisions.md",
+          "sha256": "435c5f5c41eb3e602f04d4caceecf5b74210b55fb573a62b7df37519b62ab87a"
+        },
+        {
+          "path": "reports/d5-d7-completion-review.md",
+          "sha256": "9f928682e4d52e11a6ed1003110d432ad59bdd3ad399700b61bf54f28a038bde"
+        },
+        {
+          "path": "docs/data-card.md",
+          "sha256": "a5e23e71e0b05ad5ca8db6294a357af62643a1ff00f8a7e96754b66e2c3c5b44"
+        },
+        {
+          "path": "reports/final-analysis-freeze.json",
+          "sha256": "f8711071351e0709e79518e030f17d3b79495c78050c13683781982b3b5b6cac"
+        },
+        {
+          "path": "reports/preflight/final-human-output-audit-c35f26f7073a-df48b059eac8.json",
+          "sha256": "f904d360537306eea0eeb95205ee1980c8ea6b178725f789e38efacb898fa001"
+        }
+      ],
+      "remaining": [],
+      "limitations": [
+        "Independent aggregate-output audit, not neural-forward recreation",
+        "Internal analysis lock, not external preregistration",
+        "Actual feedback timestamps and arbitrary-interface causal effects unavailable",
+        "Human response all-five improvement unsupported"
+      ]
+    },
+    {
+      "deliverable": "D8",
+      "owner_role": "Formal Methods + Data / Evaluation",
+      "status": "complete",
+      "evidence": [
+        {
+          "path": "configs/program.json",
+          "sha256": "ae7ebe8706ac2c75619be6859ffc553ea6a717e8d089e7434a652d5f3291b41f"
+        },
+        {
+          "path": "reports/execution-state.json",
+          "sha256": "cd0cc8524fae153431d8ecbd8eea238aadd61c9dc1e916eeeb89b31e61d874db"
+        },
+        {
+          "path": "reports/preflight/uncertainty-main-summary.json",
+          "sha256": "1d0c5c201f75d5e631f02b5b794773ce34a2e1b034e22e1c6a730df773c24bac"
+        },
+        {
+          "path": "reports/preflight/uncertainty-monte-carlo-coverage.json",
+          "sha256": "d690df9a900a963275546f4b273e5804a6c46a162c88936e4a3a6b02cbb2f45e"
+        },
+        {
+          "path": "configs/uncertainty-repeated-v1.json",
+          "sha256": "b303c5003b4c731d31688af8d0796b4879aaabf4f14d8f72ef220d0668f19ba0"
+        },
+        {
+          "path": "reports/preflight/uncertainty-repeated-replay-smoke.json",
+          "sha256": "d865ea038d829b780d3b8866a01c7355a1f3b7509b26cd26716a49142215e813"
+        },
+        {
+          "path": "src/behavioral_equivalence/repeated_analysis.py",
+          "sha256": "44551af29e5408a4d0fcb8ab4ce8e49b8d0296950a97fa300f78d2f636abd85e"
+        },
+        {
+          "path": "src/behavioral_equivalence/repeated_evidence.py",
+          "sha256": "a9f95f3304e48897de6fefcddfe5494bcbe108b99192166b5de3151243a91061"
+        },
+        {
+          "path": "reports/uncertainty-repeated-results.md",
+          "sha256": "4fb2680ed8f86a4042c71243d115b3a75862b22ccfbc5889115d4f32d097196c"
+        },
+        {
+          "path": "reports/preflight/uncertainty-repeated-summary.json",
+          "sha256": "24eda8e82e685db7bd8d1440acde88c5519bd3d2e58712b9a8a6aecf799128ee"
+        },
+        {
+          "path": "reports/preflight/cloud-concurrency-override.json",
+          "sha256": "d74dcc4a56569b5240494fcabe64cbc49c8baf64e0026b4c4a62153e26f82dd6"
+        },
+        {
+          "path": "src/behavioral_equivalence/parent_identity.py",
+          "sha256": "b6c59212d4143653a9f835be3bec944af2d380d5bbb2acc52fde44e70c177784"
+        },
+        {
+          "path": "tests/test_parent_identity.py",
+          "sha256": "92f2568b44b78dca98754a58de54b580b6824535e10ca89a79781e87098825a7"
+        },
+        {
+          "path": "src/behavioral_equivalence/evidence_registry.py",
+          "sha256": "5d34ad0d199e637987c2da5328ad8b83aa35455c593e9368b4db8194c5976175"
+        },
+        {
+          "path": "spec/schemas/EvidenceRegistry.schema.json",
+          "sha256": "b4dae6fba0728da98913eb6fc9041cf226778ab08bc02815b22daf6656d89f3c"
+        },
+        {
+          "path": "reports/evidence-registry.json",
+          "sha256": "82b3fff5c809fca2ad3f5b35a3b12fbce284c5736381ebfdbc391fd8b5f11c9d"
+        },
+        {
+          "path": "docs/evidence-registry.md",
+          "sha256": "79eb73e1458d2b5d8c0c84d8215f67d612add53467d0b8e3630bd6989481f39f"
+        },
+        {
+          "path": "src/behavioral_equivalence/nominal_ablation.py",
+          "sha256": "c3981472b4368576a447ac1ee19798fe4a0750077613d3759e24812fb52c803f"
+        },
+        {
+          "path": "src/behavioral_equivalence/nominal_chunk.py",
+          "sha256": "ee8623adc088fbb56b8feb17ab4b0b56605f6e64437d4ea92deb322869fd9a3f"
+        },
+        {
+          "path": "spec/nominal-uncertainty-ablation.md",
+          "sha256": "dc13a798e2395215560ea8b9c2afd4b08a276198348f149dcdac82c770c1104b"
+        },
+        {
+          "path": "cloud/nominal_ablation_campaign.py",
+          "sha256": "89d4085b4ea68cb99a7e4b0a375b8cad315d6e8517bb76d9d6c7cd65ff1a481e"
+        },
+        {
+          "path": "configs/nominal-ablation-v1.json",
+          "sha256": "17dccfa42ef906991f442d1c61f7b4db42aa2757a55773909d9036ab241fd4fa"
+        },
+        {
+          "path": "reports/preflight/nominal-ablation-128-smoke.json",
+          "sha256": "2ef30869d306227358749f0482b398415c75c8e2ab5b51d6fdbed776acc00969"
+        },
+        {
+          "path": "src/behavioral_equivalence/nominal_analysis.py",
+          "sha256": "15804209d4eb71b1a32b34ac030a633bc3e138f0504bd6cce7cf9154eecb7a5b"
+        },
+        {
+          "path": "cloud/summarize_nominal.py",
+          "sha256": "e2dc4de20d008bdd51a68ef1031d802315fe3e7063938a058089c3da84bffb05"
+        },
+        {
+          "path": "tests/test_nominal_analysis.py",
+          "sha256": "51d790ecad92c5ff4cc10ee7bd5615f13a7dfcffda233b74e0956ffc042d0486"
+        },
+        {
+          "path": "reports/preflight/nominal-ablation-completion.json",
+          "sha256": "55cd6b464525e9e6287be41d92e527448ef544194e841278f3b2445aad4191d1"
+        },
+        {
+          "path": "reports/nominal-ablation-results.md",
+          "sha256": "cf107bb5f255a98c6092679ea3518a06adbab9e040fb7b5d50b455afdefda582"
+        },
+        {
+          "path": "reports/preflight/nominal-ablation-summary.json",
+          "sha256": "acb6832263d4a4cbd5b091c49d11a1fbbe30c2d8ea1f9ff498ea0cf5d3da1ea4"
+        },
+        {
+          "path": "reports/preflight/nominal-ablation-failure-counts.json",
+          "sha256": "e84a21a88f47135650f4e747c9e0bbf21bfe092178c7c1af703b7147a338827f"
+        },
+        {
+          "path": "cloud/nominal_failure_counts.py",
+          "sha256": "31e3f1e38de75168fce71d7ce9dc140d745eee23ddacfadeeabccc91c6933622"
+        },
+        {
+          "path": "reports/human-randomized-inputs.md",
+          "sha256": "8ce66b761e0b23d6d671eeb62e1752f17d61479b3fe831b70d7580c8de428391"
+        },
+        {
+          "path": "reports/preflight/human-randomized-independent-audit.json",
+          "sha256": "7576df68fbf90fbc491d5733390485eebbcd3c42a380c8013ec5b6c19d3913d2"
+        },
+        {
+          "path": "src/behavioral_equivalence/analysis_freeze.py",
+          "sha256": "ab151c42e68f97341dc62a774358ea885af37a24961722948820db35e6562c0d"
+        },
+        {
+          "path": "tests/test_analysis_freeze.py",
+          "sha256": "990efbc4ab86b1ddd332e748b790b5d71b1816e7ea606096f0676e239cdc3e8a"
+        },
+        {
+          "path": "src/behavioral_equivalence/cluster_ratio.py",
+          "sha256": "ab85ed1f51a0c0ebca087ecd225a56f1ea8a1057511bf6ba5269e8b3f0936c04"
+        },
+        {
+          "path": "spec/human-final-analysis-freeze.md",
+          "sha256": "efe5856b8fed37e78ab4b97299fba427890cf4dcad855ddbb3a4286970541973"
+        },
+        {
+          "path": "src/behavioral_equivalence/horizon_archive.py",
+          "sha256": "dac97c338928c8c9cb84e12852182057c3808cc22b05c7d84becfc7d7348850f"
+        },
+        {
+          "path": "reports/human-cluster-uncertainty-results.md",
+          "sha256": "fc068fa1d45fcda7a72cc6d4724e5b45a5dfcec97473716e0d47f184e5df7e49"
+        },
+        {
+          "path": "tests/test_response_replicas.py",
+          "sha256": "febca0408ede44aa1720d4ed056dac706c32f5096d2c9f3502ff12014d490fee"
+        },
+        {
+          "path": "reports/preflight/final-human-compute-quote.json",
+          "sha256": "8aace397bda525dd71e1306b847eb24a7d5a5fb166a99497b2deee974402f9a2"
+        },
+        {
+          "path": "cloud/audit_final_human.py",
+          "sha256": "3e7316fbc96a5732111355c963cdbfad321ff4d373bd6c7dc224d6e0c8b5679d"
+        },
+        {
+          "path": "tools/final_result_audit.py",
+          "sha256": "172fcdf98c292d476683d8fbb81ac977bdf9f878c146a8cd6af97eaac5f2d564"
+        },
+        {
+          "path": "tests/test_final_result_audit.py",
+          "sha256": "ae903634d3b7c2c05ae2993705ab14c7d57046b354e084f7a87bfb8f7f85eb51"
+        },
+        {
+          "path": "spec/supplementary-outcomes.md",
+          "sha256": "22cfed0a049c544e448795116bf75557e5d5f83a6aa45906921e160733bcf6da"
+        },
+        {
+          "path": "tools/supplementary_outcomes.py",
+          "sha256": "3565170e5fd5cd602e7ffa6f0fb0e5e82e04d8641528b8777a6408dc179d3553"
+        },
+        {
+          "path": "tests/test_supplementary_outcomes.py",
+          "sha256": "7fff97f73e24ad21742ac675251a466d150b5aaf23a9265e8e5c6e15d820fe80"
+        },
+        {
+          "path": "reports/preflight/supplementary-targets-53b74b1e479f0a1f.json",
+          "sha256": "15f9f93b205d1a00a3c2e7f03af2b0a79ee8efb977b2a96c2162095932cc47c2"
+        },
+        {
+          "path": "reports/preflight/supplementary-validation-d36ae2269d0933a4.json",
+          "sha256": "3189e14bee3f6745a818781a4ce5de6f868cfe0f8f4c59e159f1a81f7e47fea0"
+        },
+        {
+          "path": "reports/supplementary-outcome-attachment-results.md",
+          "sha256": "1c31b390463ea5b8784fc7e61a7152db8fec95242a265e3042f45fca31e7ef9c"
+        },
+        {
+          "path": "tools/supplementary_heads.py",
+          "sha256": "99f671c6ed3cf87031da15e8f6dc4d792e5b85f6049425bd77795878ff3676f3"
+        },
+        {
+          "path": "tests/test_supplementary_heads.py",
+          "sha256": "87a2680c69ac134611183941227d561f894ac9436494350c143339eacda1a22c"
+        },
+        {
+          "path": "configs/human-supplementary-heads-v1.json",
+          "sha256": "8907b393d17c3fd33608a7fbb5ca1b5dccf69c4c7465499eb009fd9c47f235fc"
+        },
+        {
+          "path": "cloud/train_supplementary_heads.py",
+          "sha256": "2192bb2f80f169efb4a4a502786c320b9db6f795ec98a96399617c1a2f392791"
+        },
+        {
+          "path": "tools/run_supplementary_fits.py",
+          "sha256": "3cc7cec9c48836740b66a75b9e9b1d0ef76197a827d7cf2581498706a2703474"
+        },
+        {
+          "path": "tests/test_supplementary_fit_runner.py",
+          "sha256": "7cff82867dced14384b4907b3050d9cbcea02cbe9b5d54f72ac55b6a476a76b4"
+        },
+        {
+          "path": "tools/supplementary_abstraction.py",
+          "sha256": "1f7d3cc869c167a144ce00b6c809cc1dacb1be59df89062c4cb920e7d47c3e29"
+        },
+        {
+          "path": "tests/test_supplementary_abstraction.py",
+          "sha256": "5f176ae8dddcabea4bb8d90d1964d01bb8ad86a7912f34b2f50705c44e6c72f3"
+        },
+        {
+          "path": "reports/preflight/supplementary-fit-cohort-287d52d00557d282.json",
+          "sha256": "42d603d7fc5d35c1e56cce81c9ffbf9b35bed197ada542746df80974e0bff635"
+        },
+        {
+          "path": "configs/human-supplementary-calibration-v1.json",
+          "sha256": "e5334738ce39297f2cf2cadfd95b2507696bf540c253b3059082fef94a1065e7"
+        },
+        {
+          "path": "cloud/calibrate_supplementary.py",
+          "sha256": "85a29dcfcb523c7b1e150b656b3300d88200aec831fe4c19b39642e6ff111cfe"
+        },
+        {
+          "path": "tools/supplementary_counts.py",
+          "sha256": "e6d7cc7b43f370fe19aa5ca9acea982b94e4b5f7a00513dce081c137d142e5af"
+        },
+        {
+          "path": "tests/test_supplementary_counts.py",
+          "sha256": "50ede0fd351408a2b4e8a2b9457562f1a6b3a5b5d5df822974e8567688d5e19a"
+        },
+        {
+          "path": "spec/supplementary-uncertainty-envelope.md",
+          "sha256": "a6ed3ccb2b00cbebe918e6da294aee02fca61fabe7691341a17c23f25fdae9dc"
+        },
+        {
+          "path": "tools/supplementary_intervals.py",
+          "sha256": "a51b9193b9ef606937561806e4241c3a4ef475b4c566543e378a4d850ded4e73"
+        },
+        {
+          "path": "tests/test_supplementary_intervals.py",
+          "sha256": "d30931541bdcb65171bd1897e5b39563e77b7b8592a3287c454e92eff724bc7c"
+        },
+        {
+          "path": "tools/supplementary_metrics.py",
+          "sha256": "a18b4c5b847d5337cd8d4203ccc802029275eaeccb0a7828c1df026efb13f6d3"
+        },
+        {
+          "path": "tests/test_supplementary_metrics.py",
+          "sha256": "3778f9a71901d98b5786f9580ef9cf21ecb5253aa997b5a7b1dc654dd475b4bf"
+        },
+        {
+          "path": "cloud/evaluate_supplementary.py",
+          "sha256": "93c62707a1f103dc01b14289cd7ed063c5d379f6edb5ecb02b337461dbd05da8"
+        },
+        {
+          "path": "tools/freeze_supplementary.py",
+          "sha256": "374a5122bd2ba4e78054ccfc83e64a37f848142993c1711adb533e71cc3848ef"
+        },
+        {
+          "path": "tests/test_supplementary_freeze.py",
+          "sha256": "20f1e39205ded7a37c715053cf5a04131c0d8d881d1b6fc5d15f5f6c1db4897a"
+        },
+        {
+          "path": "configs/human-supplementary-final-v1.json",
+          "sha256": "a4b6c454cfd265e2bfd93f834f1db2b8af59e6aee95e6c8ed0904c4a0b407df0"
+        },
+        {
+          "path": "reports/preflight/supplementary-head-training-summary.json",
+          "sha256": "288a7c716e98d88ccb276691ff87eeec22a4c30cff9cf1826d10175a5f01cf5f"
+        },
+        {
+          "path": "reports/preflight/supplementary-calibration-summary.json",
+          "sha256": "ce63e039ddbc460ebc3648d57af89c1a1af2581f22aa86550430089cbec1318e"
+        },
+        {
+          "path": "cloud/audit_supplementary.py",
+          "sha256": "536cc05936423d9effc90418f70b6718eae1e68e61e92541200c927f8b40a1ee"
+        },
+        {
+          "path": "tools/supplementary_result_audit.py",
+          "sha256": "e6be06ee8613d8bd8fd5de2c0489e60e485e8067e0d8e54b705aaea0ff0976dd"
+        },
+        {
+          "path": "tests/test_supplementary_result_audit.py",
+          "sha256": "1a33c7bfcd29fd2d3f4dd5f6bc89b34306da2db24847f85bccfa5294a7a56b28"
+        },
+        {
+          "path": "reports/human-response-final-decisions.md",
+          "sha256": "435c5f5c41eb3e602f04d4caceecf5b74210b55fb573a62b7df37519b62ab87a"
+        },
+        {
+          "path": "reports/preflight/source-package-reproduction-a17e2c0f4cb5207b-b4e4233de2e1.json",
+          "sha256": "0de18b20645950e0829643027b76a5610e6a4d68b5dff3d0278ef14e7b963aba"
+        },
+        {
+          "path": "reports/current-source-package.json",
+          "sha256": "ff9a8bb84ff77b9845cdb60cddbe5a79140585b13d4269a921dd4e705d3d07b3"
+        },
+        {
+          "path": "reports/unified-benchmark.md",
+          "sha256": "39ba5ad873de3e94f9ee73952c898164d26d327f6dce0ed2b102a93ed1305da0"
+        },
+        {
+          "path": "reports/unified-ablation-evidence.md",
+          "sha256": "703e403d44e03a7ba621eb11c4245017d362a1047a9c4bf1ebe2b1876661a2c5"
+        },
+        {
+          "path": "reports/human-model-comparison.md",
+          "sha256": "4788c9c76c1fc5acd420ccae905ec57dbc4e61d3021a0524fc85ae52629b67d7"
+        },
+        {
+          "path": "reports/preflight/supplementary-output-audit-summary.json",
+          "sha256": "d589a17c0b073f1731389b031d47ecddf4321efa5a4b5bc96a3de63a0f088db6"
+        },
+        {
+          "path": "reports/preflight/trajectory-output-audit-6963249238dc5d0e.json",
+          "sha256": "07326f50d19ee9caa4e14918a4b6e01f416ca890825a578724ca7cfd27d85cbd"
+        },
+        {
+          "path": "reports/state-sufficiency-results.md",
+          "sha256": "c3f78ce73b80202af30cdfbfbc9c82059098ba13f3e84ce66f0810060c7379d2"
+        },
+        {
+          "path": "spec/certificate-interfaces.md",
+          "sha256": "989424399426b53bce3b482a42909e493c96f045b4132b267a6ba78f4aab1162"
+        },
+        {
+          "path": "tests/test_source_reproduction_runner.py",
+          "sha256": "73bdff8ba87ff4728ee4b25de91aff479aa304e639699b6fbd6a171b8d857f18"
+        },
+        {
+          "path": "reports/preflight/source-package-reproduction-ad74b89a721bbbba-e52eea4696b4-explicit-mount.json",
+          "sha256": "437396eaa34423280ab74b880a1f46f4e101ef0aa623c1ab6c95ce08eb3b7b4b"
+        },
+        {
+          "path": "reports/preflight/source-package-reproduction-ecc5a586bd135738-e52eea4696b4.json",
+          "sha256": "1de6add539e0ee4ad326446d647bd59cf0c25df33e225b437f7ce47f3131d347"
+        }
+      ],
+      "remaining": [],
+      "limitations": [
+        "Fresh scientific reproduction is a documented subset, not a full campaign rerun",
+        "Human mathematical validity and arbitrary-interface transfer are not established",
+        "General cold-start DAG submitter not supplied; explicit source-bound controllers are provided"
+      ]
+    },
+    {
+      "deliverable": "D9",
+      "owner_role": "Research Lead",
+      "status": "in_progress",
+      "evidence": [
+        {
+          "path": "reports/figures/index.json",
+          "sha256": "d738a181b60e7fb4215b09861a24ef4cd46a9a9f568b71c03b8dadc128b4a0ae"
+        },
+        {
+          "path": "reports/figures/figure-04/figure04-da567fa770d4/figure-04-uncertainty.pdf",
+          "sha256": "537bf6269325550a2ade5c8e43551ca444da27dc8fa092a45fb8044619555c5e"
+        },
+        {
+          "path": "reports/source-snapshots/archive-registry-snapshot-2b4ace7fce631dd9.json",
+          "kind": "Immutable pre-release archive registry snapshot; subsequent release uploads are documented in private-release-archive-receipt-6f1897215c724c4c.json",
+          "sha256": "2b4ace7fce631dd9b992201e12698b140ef859405ef33698d888d7760d1338e5"
+        },
+        {
+          "path": "reports/source-snapshots/source-9a4495581c5afbe3e3371cbc516f816a11073d28d59141ebbcfc091ae8dd428f.tar.gz",
+          "sha256": "9a4495581c5afbe3e3371cbc516f816a11073d28d59141ebbcfc091ae8dd428f"
+        },
+        {
+          "path": "reports/source-manifest.json",
+          "sha256": "5d424620579ce3b1323549f21e650d6ad5e7abb4b52d7537f28ad2ec333d2f40"
+        },
+        {
+          "path": "reports/source-snapshots/source-56dc914220a3b8ba1392d40c9820777d876e0f60874a752748fa1ee9dc63143c.tar.gz",
+          "sha256": "56dc914220a3b8ba1392d40c9820777d876e0f60874a752748fa1ee9dc63143c"
+        },
+        {
+          "path": "reports/source-snapshots/source-120f8a7a85018729d2639066b7169502f7402a49289c56877638d26fafea2fa3.tar.gz",
+          "sha256": "120f8a7a85018729d2639066b7169502f7402a49289c56877638d26fafea2fa3"
+        },
+        {
+          "path": "reports/figures/figure-05/figure05-a1131dd6a645/manifest.json",
+          "sha256": "40b01da3b6a41c62a35e2e6b11658e2ed8d874ebd8b96602e26406b24d3a0661"
+        },
+        {
+          "path": "reports/figures/figure-05/figure05-a1131dd6a645/visual-qa.json",
+          "sha256": "831f5932abdf9185977eb1df2880b05c705d0fc98ab67eaafcdbe3a8a1bcc56d"
+        },
+        {
+          "path": "reports/source-snapshots/source-fa10699c8e72ee0d037e7bbe80faeb0e816d134a51393d419585e830df207c7d.tar.gz",
+          "sha256": "fa10699c8e72ee0d037e7bbe80faeb0e816d134a51393d419585e830df207c7d"
+        },
+        {
+          "path": "reports/research-spend.md",
+          "sha256": "18f9114a630a9949d3bce517e73825e03cc10205354293839f917ac7f7106f41"
+        },
+        {
+          "path": "reports/preflight/research-provider-billing.json",
+          "sha256": "10242233b1952b61db800ecfe801aaefadb1e739454466b04b72a2789b7aa924"
+        },
+        {
+          "path": "reports/paper-draft.md",
+          "sha256": "3a1eac85bc8f7e71c34a6f69d437a69d16ce80de62a0d45aad29ab943909e057"
+        },
+        {
+          "path": "reports/human-abstraction-results.md",
+          "sha256": "2d8c4e36a8f44adb5cf9ec9e554ec8e54737909478206f16b7b3d6394bc3cffb"
+        },
+        {
+          "path": "reports/preflight/clean-source-test-reproduction.json",
+          "sha256": "4f79532442dbe0404ecbaf1f0aca503ccbc62b8b665391b317aad847568d1b2f"
+        },
+        {
+          "path": "reports/blog-draft.md",
+          "sha256": "845cc973774383e8fdf8aa03b843dbadb1fb472e59076a074c36797572d81453"
+        },
+        {
+          "path": "reports/preflight/clean-source-multistep-reproduction.json",
+          "sha256": "445022fa2b0e693f9963af6b12cd4b540383f5b26406240ad9df6092058345e5"
+        },
+        {
+          "path": "tools/build_human_figure_tables.py",
+          "sha256": "9918192c9e6bbe59b54cc3f3d5d97bc8e97ef8ba65e701c458f94112047ae845"
+        },
+        {
+          "path": "tests/test_human_figure_tables.py",
+          "sha256": "63d234eb9f501406acdb14f4f84ae4e428f29ffebba0c7eb8e3b62c28990f7dd"
+        },
+        {
+          "path": "cloud/figure_human.py",
+          "sha256": "ae06a0bb6a0b45b360c6b9972faa5740c080713713881cacb0808dfe6c9ee439"
+        },
+        {
+          "path": "tools/package_source.py",
+          "sha256": "ab94be25a072658be894fdc28ec67cddf9675973c6db6a45ddd4267559009229"
+        },
+        {
+          "path": "tests/test_source_package.py",
+          "sha256": "42a239c7240a62b540b39f97dc1a255b03fa9100e36e3560801679fcd6742bb7"
+        },
+        {
+          "path": "cloud/reproduce_source_package.py",
+          "sha256": "e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e"
+        },
+        {
+          "path": "reports/current-source-package.json",
+          "sha256": "ff9a8bb84ff77b9845cdb60cddbe5a79140585b13d4269a921dd4e705d3d07b3"
+        },
+        {
+          "path": "reports/source-snapshots/source-8f0d15a6551c9259b2f6c389bbad0cfdbf2a236c8f90054939edc4f6217119c9.tar.gz",
+          "sha256": "8f0d15a6551c9259b2f6c389bbad0cfdbf2a236c8f90054939edc4f6217119c9"
+        },
+        {
+          "path": "reports/preflight/source-package-reproduction-8f0d15a6551c9259-af5ba2f912fd.json",
+          "sha256": "fc0a17d3e7cee1bccb4d19ea3e14a2ed8f34277759e37ed505e689ac540f9954"
+        },
+        {
+          "path": "reports/source-snapshots/source-b2b00f354c3c074ebc397719115a0b6caa2930084dea3698749a629433b7b597.tar.gz",
+          "sha256": "b2b00f354c3c074ebc397719115a0b6caa2930084dea3698749a629433b7b597"
+        },
+        {
+          "path": "reports/preflight/source-continuity-b2b00f354c3c074e.json",
+          "sha256": "89bfc856e858bb7bf8ee871ceb914a54bb4f1211ffdea948223ee9c7136b5287"
+        },
+        {
+          "path": "reports/human-response-final-decisions.md",
+          "sha256": "435c5f5c41eb3e602f04d4caceecf5b74210b55fb573a62b7df37519b62ab87a"
+        },
+        {
+          "path": "reports/preflight/current-source-local-validation.json",
+          "sha256": "2a05b1fb2433587eee6c55c92a9341ad5c8ed90eefc64fc89371967650a29383"
+        },
+        {
+          "path": "reports/preflight/final-human-decision-replay.json",
+          "sha256": "d816c901a4eb5f3502769521e69994ba47e946b273d8aff310e75d3d483bce81"
+        },
+        {
+          "path": "reports/qa/source-audit-inventory.json",
+          "sha256": "5ccf64505fd28ec9c1881759ca5a0f56886120bfc038a57b8e519ac477bf8782"
+        },
+        {
+          "path": "reports/preflight/research-budget-checkpoint.json",
+          "sha256": "3c392fa3279a47e0b7126e5cff844434697a73c2616bfc8bb24ae2aa140c1427"
+        },
+        {
+          "path": "reports/preflight/source-package-reproduction-ad74b89a721bbbba-e52eea4696b4-explicit-mount.json",
+          "sha256": "437396eaa34423280ab74b880a1f46f4e101ef0aa623c1ab6c95ce08eb3b7b4b"
+        },
+        {
+          "path": "reports/preflight/release-checker-test-extension.json",
+          "sha256": "a6c585fe3976184e110dad5f06495b0493f764178b2a0ca44d1923c053e391b6"
+        },
+        {
+          "path": "reports/qa/release-checker-failure-gates-review.md",
+          "sha256": "7da15cf061a63f262d7b022e73b5fa48e2d70534bbe6be758a0a5dcd941fba27"
+        },
+        {
+          "path": "reports/preflight/archive-registry-evidence-reconciliation.json",
+          "sha256": "9058c2a0434572b46bf0500ad01a478d478c30346392713a8bea65f7d756795d"
+        },
+        {
+          "path": "reports/preflight/source-package-reproduction-ecc5a586bd135738-e52eea4696b4.json",
+          "sha256": "1de6add539e0ee4ad326446d647bd59cf0c25df33e225b437f7ce47f3131d347"
+        },
+        {
+          "path": "reports/qa/whole-source-release-audit.md",
+          "sha256": "91acd03e07809a804d0060b995b35da3401276d089e4b3c79c5724a812a82a62"
+        },
+        {
+          "path": "reports/preflight/whole-source-release-qa-acceptance.json",
+          "sha256": "fc2f7d6e3d0a2d88d15202404fe99ace9073a414dee7e270d842f375cfa859b3"
+        }
+      ],
+      "remaining": [
+        "Accept and deliver final content-addressed research release and publish permitted open-source repository"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "schema_version": "human-final-one-step-v1",
+  "split": "test",
+  "probes": [
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "3cac5acd2e905a591b0a826f2e4b364d313d6c4447356f7e28247c75b256e6c7",
+        "gru": "25046fd0a2d3958837c93c2227e8693b7686ce70f95a190c432798e7329ee65d",
+        "transformer": "a4048f21e61a52727839abc5845cecf87da2c3d799f2bc575775ea1fe095b53d"
+      },
+      "nested_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/quantization-eaa699cb5987-25046fd0a2d3/calibrated-parent-c0c628bb9aaf/nested-e19a5d3b75a18b9d",
+      "nested_report_sha256": "de326a452144e5d5c01bf89bc68d649a9c07862cedbe0c7869c2cec4abdb2bb4",
+      "uncertainty_root": "human-cluster-uncertainty-65cd0d180d0f9089/known_users-20261015",
+      "uncertainty_source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "uncertainty_output_sha256": {
+        "k16-intervals.npz": "bd55eae3b2075e432ca14233276dcac40eb48a66b05006751e1a4abf6dbf82cd",
+        "k16-certificate.json": "52fbbb05911104db023318d5a3f1ddb549578524f22ee4fbb22207727de3d4b5",
+        "k32-intervals.npz": "9463a25e107c957a89a8ee0cdbf9cacedc73a6811e6d79dbba9918b134fccb84",
+        "k32-certificate.json": "507b9781f691cf4237e697395ac424d0f05f7c8911cdc4096c74f6c220362b91",
+        "k64-intervals.npz": "a6327ec89794388456f26ed605900725fe46ac695444ac9cd65f9aa64fbdf100",
+        "k64-certificate.json": "123887370da84f94bf8de2cffbb022909b1e4ca706bee30b093fb33d085bf084",
+        "k128-intervals.npz": "f98da3c32838c672b683eb2433fbd2d88e1bb0d8d984f4c9ca44cd7d99b25ec9",
+        "k128-certificate.json": "4885c7a11031eee5941624fdb971475203d589df7796312cfb685e5183610651",
+        "k256-intervals.npz": "68e451bb277d271e88a9c91890ed0203bc4c8302565e34aa4167229871f12e63",
+        "k256-certificate.json": "b9ad6b7cc4bd9c3e1fabe69f7685dd155147682017ad9d00da6d072172a7ddda"
+      }
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "923cdfc26001d359f530a54d8599dbe3dab69b3c8654d4dca9384d11011d6652",
+        "gru": "1031ff8239ca9d57704298bd6cf80ae134a33b341288d73e87dd70d4048eec62",
+        "transformer": "91ad9cc8c1ab1262a2b0e663c9888f9756b646d5bd27def37d3d4fcb12ff95da"
+      },
+      "nested_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261016/quantization-eaa699cb5987-1031ff8239ca/calibrated-parent-c0c628bb9aaf/nested-3f81ec8999c28ecd",
+      "nested_report_sha256": "a37f433f816bc1f6b3ef1f038a83c31bfad6b3b9c46145f6d1decea1d47245ae",
+      "uncertainty_root": "human-cluster-uncertainty-65cd0d180d0f9089/known_users-20261016",
+      "uncertainty_source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "uncertainty_output_sha256": {
+        "k16-intervals.npz": "8a2634e15228f87531c231b845c0522d67a7ce4c4e7073c782dda3e12d7f6788",
+        "k16-certificate.json": "ac433fa4c4b6ed62ee9e2e2265b6e3d26ff62b08f0cc2dab2235c34048e5feec",
+        "k32-intervals.npz": "db50064b11f9aaf0c735e6358e2b19df3086aec6c76751ae55a1b95e0930d795",
+        "k32-certificate.json": "0bc210cd7cd00544cf0fb362222293aa347facd563dafe69bd88ab0d22ee10fa",
+        "k64-intervals.npz": "97ee24bc4519905ae2ac299737bce3ed7186fe8e369f8d92b14c952cdb775948",
+        "k64-certificate.json": "770f1639ad6209e3a4ffb41c7436739c47cad58f9ec4c500fb7e7ec14fc73e15",
+        "k128-intervals.npz": "7ed07e7734e8aeaa54cec3ebf17d9b003cfdd015c239356a79231961982cbbd6",
+        "k128-certificate.json": "9f8f38c3d52a3a6fa38eda35140d8cee6d3a50f21cabab7b4f518a426b952c3d",
+        "k256-intervals.npz": "ef5236fd1947195e36fdcbae9089123f7ffad785a352b42eb9352a0f8bb0a16e",
+        "k256-certificate.json": "b9ad6b7cc4bd9c3e1fabe69f7685dd155147682017ad9d00da6d072172a7ddda"
+      }
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "87f0cea154f1536bf4c102c6d8fb9886afeaa2ce0dbf7010fa3aefc02aaba62b",
+        "gru": "3fc604fcb0d7d5f6facd31fa21c52f8e5b1228d388716d84a24ff0c89454fe08",
+        "transformer": "e5680be5f85b9809b69e3d6deb4679ea83a308b71bb30d97bc5af46d88e2dea0"
+      },
+      "nested_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261017/quantization-eaa699cb5987-3fc604fcb0d7/calibrated-parent-c0c628bb9aaf/nested-9a244467bad0799b",
+      "nested_report_sha256": "3984736c12719c3e28a95e5acb4855c2a76eb506f89b77b1ecd985ea5a561fa1",
+      "uncertainty_root": "human-cluster-uncertainty-65cd0d180d0f9089/known_users-20261017",
+      "uncertainty_source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "uncertainty_output_sha256": {
+        "k16-intervals.npz": "de511e82f2ce8ae7d1a273efdb7ae13a6dc463ddbf3f57784f9c2e081185391b",
+        "k16-certificate.json": "2bf439b4096a934478b66a17bacb6a6fb78cc03c9ba8d540b883a6b3e40d307e",
+        "k32-intervals.npz": "a3bb21a9c14a46ea6663d6d76940d85cef67de3b60aad965b82697cd8c333eed",
+        "k32-certificate.json": "16118cade6ca73dd823768ea6a625200bcb53249f6cdcf21f922454370171890",
+        "k64-intervals.npz": "d85fda5e86087f0570b333329fb6355d8445f6e2484c0d24a141d9ef5bf6967b",
+        "k64-certificate.json": "1148910c12acbfd1065e8cc3928128de3b5e10b195158994fcc3f211297bb219",
+        "k128-intervals.npz": "01879eca824145b1eb4b2289a3aa030650420242b20d0d394e1cf52d40860b67",
+        "k128-certificate.json": "03262c0ff98e0e397b59fddebc30804b169d1f1d6c1ea1a49f89e1461babfe8b",
+        "k256-intervals.npz": "0c9c98e31fbfb552ebb3e07ddc4b77418faf0086c1683e35d4f0bcb8ae38daa4",
+        "k256-certificate.json": "b9ad6b7cc4bd9c3e1fabe69f7685dd155147682017ad9d00da6d072172a7ddda"
+      }
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "training_root": "human-calendar-training-v4-replicates-609ecd456db7",
+      "fit_report_sha256": {
+        "context": "93f2bfa457041c3c4d4ec34de17dcb402d9ea24c0659239efe21ced637a24d58",
+        "gru": "6472527fcb5fa2bc18e8845ff6ef6e003204662ea47de084318659994187f4b2",
+        "transformer": "a0690a9973903a503495b10bfb1f76e808a4866e6c7a2aec58d4bd2193c631d4"
+      },
+      "nested_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261018/quantization-eaa699cb5987-6472527fcb5f/calibrated-parent-40c80c043abe/nested-bc8768b7fd38b069",
+      "nested_report_sha256": "3e3ac1c0c6c6f7ec9db5306adcf5a59e0e9aa7af552ec76aa60c1f993cd727de",
+      "uncertainty_root": "human-cluster-uncertainty-65cd0d180d0f9089/known_users-20261018",
+      "uncertainty_source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "uncertainty_output_sha256": {
+        "k16-intervals.npz": "fe9c691c386b351612df6e9ad5d2b6d9986dab76ad4c42671f4be102e9dcb72a",
+        "k16-certificate.json": "f6ef3a8e098b83a1aec42aecf8279614ee06e52e0c1fc4913a52839e8b6ca0ba",
+        "k32-intervals.npz": "e59eaa57b5b0db5e320f0476ac40c3343d22bd1c178f03e31f9463cf9bead0f2",
+        "k32-certificate.json": "c63df5fb37bf01b38805a7c52171ffe90fecdfa896c239a2e826ed31ca753d88",
+        "k64-intervals.npz": "05d0bb4090fe0ed30712dd1126723f87dafcf4e5ac59a04c8ab0cbb7456b1354",
+        "k64-certificate.json": "4d51369c07124e385db2ff1e63e3840f41bf10f594abfe91658cc6624403ae0e",
+        "k128-intervals.npz": "ca2f7e87059fc7aa764ef87604e518020731664cf92f4dff5ef9b7086a4bf403",
+        "k128-certificate.json": "66eeb9afb2691210da6eec23d783de2959ee23ad8330a9094b12508ec07e2a7d",
+        "k256-intervals.npz": "919c7537d72f518acf4418d0a59f8f34d057aaf9abb8d7ee1ee8f9e192bd0d9a",
+        "k256-certificate.json": "b9ad6b7cc4bd9c3e1fabe69f7685dd155147682017ad9d00da6d072172a7ddda"
+      }
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "training_root": "human-calendar-training-v4-replicates-609ecd456db7",
+      "fit_report_sha256": {
+        "context": "85f4ae44c6fe6c2d66e46e9c7b79d71ef708c2984b423def356a5a50b620f4ef",
+        "gru": "609765ef318f6bfeb383bb004f3b15fac888f5626eecff1434da3f3c5fd8a5bd",
+        "transformer": "a8b474569054887e758ecb4d601e2f8e87f84fef9d9b40eb38c9a31f22a22072"
+      },
+      "nested_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261019/quantization-eaa699cb5987-609765ef318f/calibrated-parent-40c80c043abe/nested-0c27c19f47e4b865",
+      "nested_report_sha256": "8274887603281d53fb01274f1359db777b4c097b216730e2dd0dff2f3995c0c7",
+      "uncertainty_root": "human-cluster-uncertainty-65cd0d180d0f9089/known_users-20261019",
+      "uncertainty_source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "uncertainty_output_sha256": {
+        "k16-intervals.npz": "2cb79135376dd98a2f944662d6536695e057e555fe6d2b6946f2d757977f4162",
+        "k16-certificate.json": "fdc20322d2ae6c12a831c43359c450618c6acf6bb2f1b6082cc4216dd9aa7dd2",
+        "k32-intervals.npz": "3b7873125dc908abc8905ace592f5fe48c6beef336ca2edaf6a8c554fc64c4b8",
+        "k32-certificate.json": "889b3e44ec5881e5ace97e286ffeffb0bf0ab4d6713ebf7ee55419825b1c1296",
+        "k64-intervals.npz": "fb790dbe20a377af0595f56687ff6d608c1825be7ff4223f6fdb96acf5bc704d",
+        "k64-certificate.json": "48db3720558cf498883073ef4e9854331078d7c04ebcbb8c8dbd630e485ef292",
+        "k128-intervals.npz": "30f3884fd9f0a478853090430a4f07c4d11d8d8f227d231d3c22140a0d65cd18",
+        "k128-certificate.json": "2b90bb15a2ec7a9f244cac16b99766556dedd6c59b9e3493dade3d7ab926d995",
+        "k256-intervals.npz": "d81ee34d57a1de48e70ea113a9c26f1d46fe26c94cb3421e54c6bd882fe94522",
+        "k256-certificate.json": "b9ad6b7cc4bd9c3e1fabe69f7685dd155147682017ad9d00da6d072172a7ddda"
+      }
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "7b08dfcb2d6ba67f62a2cc88334098add86a29c611cb58f92182c8c15b4d97a5",
+        "gru": "8686ccebfe7c115508eba5c3022db8f70553d7a2493676f2107d2b9148b7902f",
+        "transformer": "399afe37f37ebc680ffa61cd3b742a31e2c25bee453799360481b4cd3f9f72cb"
+      },
+      "nested_root": "human-calendar-training-v3-8c2afe99bb75/fits/unseen_users-gru-20261015/quantization-eaa699cb5987-8686ccebfe7c/calibrated-parent-40c80c043abe/nested-17b930e9362f35c5",
+      "nested_report_sha256": "a3d32dd0bc9082d306f418a247fb69dea6e97140f125814f3c6d072891d501ac",
+      "uncertainty_root": "human-cluster-uncertainty-65cd0d180d0f9089/unseen_users-20261015",
+      "uncertainty_source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "uncertainty_output_sha256": {
+        "k16-intervals.npz": "c325f39ed9b96b1111e0f79de82bb5c814c67ca4d45de64ae5420a3e7f60bdab",
+        "k16-certificate.json": "56e6031586726f06c9aadb09ab3c3bf5a3414dbb0cf4485dddd3cd26f2cac966",
+        "k32-intervals.npz": "b3fb2657203defb1549ae302c34264010ccdf97c2a66a1c1c6d2f210b47f62cd",
+        "k32-certificate.json": "fcee3dc27e01a169df4dc55b15fbe0b78b5d62c2ccb76cb6cdad591fcd02bd99",
+        "k64-intervals.npz": "0b08a346e9a4769ede38124fec9c938780a7932c43c9c5f8937d6c7746d89061",
+        "k64-certificate.json": "a5daac05a6ed6aff5ca9bf78c05e6e98d08c256bbcf34e6c10c7a61cd8d8f76f",
+        "k128-intervals.npz": "390db32467a5347d8d87d2f0d4338ff2d2b7f4bdf5d6ac480f4c901d1f1ca58f",
+        "k128-certificate.json": "785dacd0b93c3df3a15cd455bdeb9e7f3dd8dee413744550d069b287e47f8cf2",
+        "k256-intervals.npz": "138aae298d4c59a40f5dde36ccba357ca82257c14f0d1d3c2777a077d25e43f7",
+        "k256-certificate.json": "c18cacc6ea96f86a69e689e6030b6ef3077be6efff9d57191d8a6b1e6b12be47"
+      }
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "a1290f08d66ce0d95b53c25a1d94dcb66788118dec80978ca80c7a60ad09cd22",
+        "gru": "a60a6bb52860249a8bcf1bd520c8b71e443618bd32020c2b591cb6a94b2f9c33",
+        "transformer": "f89c8c1b39de752cfa534497f64301461ea58d17502b1e9207686b6dfef03b57"
+      },
+      "nested_root": "human-calendar-training-v3-8c2afe99bb75/fits/unseen_users-gru-20261016/quantization-eaa699cb5987-a60a6bb52860/calibrated-parent-40c80c043abe/nested-fc4d30c853053e51",
+      "nested_report_sha256": "ae5167bef66c0e40564520a4aa314fe658105a8ffa2ac1f42d62ff5701d4650c",
+      "uncertainty_root": "human-cluster-uncertainty-65cd0d180d0f9089/unseen_users-20261016",
+      "uncertainty_source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "uncertainty_output_sha256": {
+        "k16-intervals.npz": "f9e44db7baa72139e9374390fd139e694958566600e348389f890d12140dc9e4",
+        "k16-certificate.json": "e60362fe24b46eaff2177a4dfbbff1ef7ab9b658ff1fb169224427f0d88a4486",
+        "k32-intervals.npz": "40841e34bf6bd1120016915575e9069f4544be16a7209d30ddae0c0cac7b6157",
+        "k32-certificate.json": "76fad5471883a807cab0249c425657e2002b36c8fbb6d4c66e039c668f96e52d",
+        "k64-intervals.npz": "e876099c8786401480ef4aa33d2298e918a1be7ee2e82d7c3cbafa46faa549a3",
+        "k64-certificate.json": "a5daac05a6ed6aff5ca9bf78c05e6e98d08c256bbcf34e6c10c7a61cd8d8f76f",
+        "k128-intervals.npz": "fb2cfe20832d06161de306bc90a71e16465913535f7ca584c2be2e58c87fc011",
+        "k128-certificate.json": "785dacd0b93c3df3a15cd455bdeb9e7f3dd8dee413744550d069b287e47f8cf2",
+        "k256-intervals.npz": "d0b09b73a290bbd527955181a67f146cceaeb0c1543ace7acbf626c449313cca",
+        "k256-certificate.json": "c18cacc6ea96f86a69e689e6030b6ef3077be6efff9d57191d8a6b1e6b12be47"
+      }
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "f57536f2b2f88f4494d2da7fdb2634e9ff734f87f819bd002074fbdf26f8250d",
+        "gru": "ce6fcc8529eaee0338ea5eded9c1a3b86d6b2ea8a592e22859b6f32efef95ad1",
+        "transformer": "63829bf875846493cb0c4fcce5f548ab6ea9bde75574749d5fddd7f743f37a5c"
+      },
+      "nested_root": "human-calendar-training-v3-8c2afe99bb75/fits/unseen_users-gru-20261017/quantization-eaa699cb5987-ce6fcc8529ea/calibrated-parent-40c80c043abe/nested-065bec7a6aa976e4",
+      "nested_report_sha256": "bf550b974418cca730372a948a47fe6aaad67924184f7e4501e26a09df630865",
+      "uncertainty_root": "human-cluster-uncertainty-65cd0d180d0f9089/unseen_users-20261017",
+      "uncertainty_source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "uncertainty_output_sha256": {
+        "k16-intervals.npz": "8d8d5fa0f9258c77b9c17374633165e5022c3a569d7ebd59a78ea516bacff507",
+        "k16-certificate.json": "466acccf65fbe24a32df66ff6229f13ca8ab00c3ccfc42a890cd8d47f1835854",
+        "k32-intervals.npz": "c52d1c224d7d0395aba2fb9c02c973adad33c1b6827a9e252668d739efa7c255",
+        "k32-certificate.json": "1f7c75bfe9adf6e3076b878f0e044cc1d8b007593ce88e558c2dacd9e81a305a",
+        "k64-intervals.npz": "7c792d29b836c6de308cdc0f4c2590f77920163cf08bc0c12a9b3bba99a5b6d2",
+        "k64-certificate.json": "a5daac05a6ed6aff5ca9bf78c05e6e98d08c256bbcf34e6c10c7a61cd8d8f76f",
+        "k128-intervals.npz": "6769dd0edfdeeb412631fc75e32495a6756455581e6fd5d72e062eb36fe91d8a",
+        "k128-certificate.json": "785dacd0b93c3df3a15cd455bdeb9e7f3dd8dee413744550d069b287e47f8cf2",
+        "k256-intervals.npz": "312e282c1007eaa68ed7cc86bab776f63e90cb46128019f4175f7729cb42d7d3",
+        "k256-certificate.json": "c18cacc6ea96f86a69e689e6030b6ef3077be6efff9d57191d8a6b1e6b12be47"
+      }
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "training_root": "human-calendar-training-v4-replicates-609ecd456db7",
+      "fit_report_sha256": {
+        "context": "d18cd449081dde6c36297f7baebfe42af1d30de319d871550a567b719b9d3f53",
+        "gru": "1bc4681e655d6246b71e2d09841fa2e88f4c036dd4ba1a579a88b1ebaa9e6864",
+        "transformer": "2e0ed8e59ccc44b676e1f1445772c8e88dcdf9ad7211e9c31312186614391878"
+      },
+      "nested_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/unseen_users-gru-20261018/quantization-eaa699cb5987-1bc4681e655d/calibrated-parent-40c80c043abe/nested-cc2e9b951f857fd9",
+      "nested_report_sha256": "6310d5689bbdda8ccf8b493f488de9a475808e3ee1da91fc2ae55db54d0fa366",
+      "uncertainty_root": "human-cluster-uncertainty-65cd0d180d0f9089/unseen_users-20261018",
+      "uncertainty_source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "uncertainty_output_sha256": {
+        "k16-intervals.npz": "9232c8052ae78110308a8853ce8cc3c4d8862738dba37eb79bfecbd1e3ddc9f1",
+        "k16-certificate.json": "307e9b7402c0c9d9000d98bfc3650ac28768627c012fe16010d51c3db30497f3",
+        "k32-intervals.npz": "322b482437693214ce3e7b2bdec5b3a2592307870573001a242c1ac3bb67d956",
+        "k32-certificate.json": "2623f2e72e852808c7155929e3b1491024e524780131f5b80ced69c3f421abfe",
+        "k64-intervals.npz": "7caab9159f8900342b994ac7954b8b59b36f9581746529aa8c1c74e7187c28a3",
+        "k64-certificate.json": "a5daac05a6ed6aff5ca9bf78c05e6e98d08c256bbcf34e6c10c7a61cd8d8f76f",
+        "k128-intervals.npz": "cd338852e0b93161d82812d5be781b0973567c4e3a78c456526441c21efdee74",
+        "k128-certificate.json": "785dacd0b93c3df3a15cd455bdeb9e7f3dd8dee413744550d069b287e47f8cf2",
+        "k256-intervals.npz": "57e90019039aaa4fac6f8397ebac8babd9e744f4549ed2517a3d9609cd15ff5f",
+        "k256-certificate.json": "c18cacc6ea96f86a69e689e6030b6ef3077be6efff9d57191d8a6b1e6b12be47"
+      }
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "training_root": "human-calendar-training-v4-replicates-609ecd456db7",
+      "fit_report_sha256": {
+        "context": "254c522b197225843762519a8e85e445b65ebfade3a7ef87220adc1a7f15afd1",
+        "gru": "d48741d614abc04cb226f377e2b65d7b3b8530679b1539ad62ac3fd16554758f",
+        "transformer": "48bf6e41f3d2451488831c224fa0470af5fecf54ba32625c1d371c0dfea2237a"
+      },
+      "nested_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/unseen_users-gru-20261019/quantization-eaa699cb5987-d48741d614ab/calibrated-parent-40c80c043abe/nested-2cc8fa4a8b1fb155",
+      "nested_report_sha256": "c97e34418046846ac77a96d7506c5cc6d84174ba16d0d9ba19c7d8f9e63cdc20",
+      "uncertainty_root": "human-cluster-uncertainty-65cd0d180d0f9089/unseen_users-20261019",
+      "uncertainty_source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "uncertainty_output_sha256": {
+        "k16-intervals.npz": "a731504296dad1004afef33379071832977e6ac5d65c4131aef755ec105cdaf9",
+        "k16-certificate.json": "ed562a735e6a453830ca3f26735402dedeca2e93c6af4f606e09a52a94a4f9c3",
+        "k32-intervals.npz": "ca137ad462017283ba9896bd8ebae27c41caa920088f1a6d1de99e9780aceb95",
+        "k32-certificate.json": "e82f085dd54a4bfc2444ea8a960ee25e3c4288e3e7be78d954e12809960e5ca1",
+        "k64-intervals.npz": "7211b60db4cfffbdb1d53e0547469cc6ba1aaa6bf357b6d677febd4ea827a202",
+        "k64-certificate.json": "f55bb52637753a6a7b946f37b113f416f37fb560cd3ffcba8082145598bcdb29",
+        "k128-intervals.npz": "c77c03ed987255549a37afe04024e242102b21bcc678ba660d08eb899808e8b0",
+        "k128-certificate.json": "785dacd0b93c3df3a15cd455bdeb9e7f3dd8dee413744550d069b287e47f8cf2",
+        "k256-intervals.npz": "59fd5ba07876b3509a2ccb1d4f4c0e8d85203825b63f18b418be51369e99e3e5",
+        "k256-certificate.json": "c18cacc6ea96f86a69e689e6030b6ef3077be6efff9d57191d8a6b1e6b12be47"
+      }
+    }
+  ],
+  "inference_batch_size": 2048,
+  "probability_absolute_tolerance": 1e-06,
+  "sparse_training_state_cases": 100,
+  "minimum_cohort_users": 50,
+  "minimum_cohort_cases": 2000,
+  "bootstrap_replications": 2000,
+  "bootstrap_seed": 20261015,
+  "noninferiority_margin_nats": 0.01,
+  "scope": "Final chronological or unseen-user one-step predictions on independently audited raw test cases. All ten protocol/seed combinations retained. Primary noninferiority requires joint compression and predictive criteria; secondary cohorts and compression grid descriptive. No psychological-state or arbitrary-interface causal claim.",
+  "freeze_path": "human-final-analysis-freeze-v1/freeze.json",
+  "feedback_embargo_hours": [
+    0,
+    24,
+    48
+  ],
+  "feedback_sensitivity_scope": "Same frozen24h-trained models and quantizers applied to audited0h/24h/48hcase/history cohorts. Different supports are reported separately; sensitivities are not independent replications or refitted alternative models.",
+  "execution_resources": {
+    "cpu_cores": 8,
+    "memory_gib": 12,
+    "timeout_seconds": 1800,
+    "maximum_containers_per_app": 2,
+    "reservation_per_call_usd": 0.336592,
+    "ledger": "nested-human-budget.sqlite",
+    "internal_ceiling_usd": 40,
+    "scope": "Full cohorts and model matrices unchanged. Runtime limits include conservative startup margin, based on complete validation timings. Reservations are not provider-enforced lifetime billing caps; automatic preemptions may add cost."
+  }
+}

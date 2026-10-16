@@ -1,0 +1,97 @@
+{
+  "status": "complete",
+  "source_digest": "4dbe874c3e508f40bf8251d14c0821d542aebc34e561cca947c6546f2182c16b",
+  "history_report_sha256": "2337739a7ddf01315825064a802481791e8d8fe51ec45bf003dc26e52565d9a3",
+  "protocol": "known_users",
+  "seed": 20261018,
+  "calibration_split": {
+    "discovery": {
+      "cases": 100168,
+      "users": 10495
+    },
+    "estimation": {
+      "cases": 97705,
+      "users": 10516
+    }
+  },
+  "resolutions": [
+    {
+      "parent_states": 16,
+      "initial_blocks": 4,
+      "support": {
+        "discovery": {
+          "supported_state_environment_cells": 15,
+          "supported_within_initial_block_pairs": 21
+        },
+        "estimation": {
+          "supported_state_environment_cells": 16,
+          "supported_within_initial_block_pairs": 24
+        }
+      }
+    },
+    {
+      "parent_states": 32,
+      "initial_blocks": 8,
+      "support": {
+        "discovery": {
+          "supported_state_environment_cells": 12,
+          "supported_within_initial_block_pairs": 9
+        },
+        "estimation": {
+          "supported_state_environment_cells": 10,
+          "supported_within_initial_block_pairs": 7
+        }
+      }
+    },
+    {
+      "parent_states": 64,
+      "initial_blocks": 16,
+      "support": {
+        "discovery": {
+          "supported_state_environment_cells": 0,
+          "supported_within_initial_block_pairs": 0
+        },
+        "estimation": {
+          "supported_state_environment_cells": 0,
+          "supported_within_initial_block_pairs": 0
+        }
+      }
+    },
+    {
+      "parent_states": 128,
+      "initial_blocks": 32,
+      "support": {
+        "discovery": {
+          "supported_state_environment_cells": 0,
+          "supported_within_initial_block_pairs": 0
+        },
+        "estimation": {
+          "supported_state_environment_cells": 0,
+          "supported_within_initial_block_pairs": 0
+        }
+      }
+    },
+    {
+      "parent_states": 256,
+      "initial_blocks": 64,
+      "support": {
+        "discovery": {
+          "supported_state_environment_cells": 0,
+          "supported_within_initial_block_pairs": 0
+        },
+        "estimation": {
+          "supported_state_environment_cells": 0,
+          "supported_within_initial_block_pairs": 0
+        }
+      }
+    }
+  ],
+  "output_sha256": {
+    "support.npz": "66dbc2fc1968e201f827d42815be88986933bab76accb72a52d4da508b3f153f"
+  },
+  "root": "/artifacts/human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261018/history-states-ced0bbdf76c3-6472527fcb5f/resolution-support-4dbe874c3e50-2337739a7ddf",
+  "wall_seconds": 11.280301133000002,
+  "response_values_read": false,
+  "final_test_scoring": "none",
+  "scope": "Outcome-free calibration support sensitivity after K256 sparsity result, before final scores; nested training-rank coarsenings, not independently refitted quantizers; fixed thresholds unchanged."
+}

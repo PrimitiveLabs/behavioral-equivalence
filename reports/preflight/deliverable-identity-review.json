@@ -1,0 +1,56 @@
+{
+  "status": "index_refresh_required",
+  "scope": "Identity check only; no inference of scientific completion",
+  "deliverable_evidence_references_checked": 297,
+  "missing": [],
+  "index_hash_differences": [
+    {
+      "deliverable": null,
+      "path": "reports/current-source-package.json",
+      "recorded_sha256": "bf3a37d60f6d3a3c0bfd9a8766b89ea5e39288c1645065d222ec71e173793499",
+      "current_sha256": "c75b7a61951d4106a83037c5318ac08ea465465519e2a83e1cf36ae4711f0ef6"
+    },
+    {
+      "deliverable": null,
+      "path": "src/behavioral_equivalence/quantization.py",
+      "recorded_sha256": "79be6782bfe31d0ae16b6998a7b9b5bf1c757b33612504da0143f98af71c95ec",
+      "current_sha256": "5fd79f3e62aff0c6c86c1aab1c9d65f6367fb8a86642f2259b01e01a9778bbee"
+    },
+    {
+      "deliverable": null,
+      "path": "reports/execution-state.json",
+      "recorded_sha256": "133d8f08a6363298a54046591e4b51488ddca976cec707f32c5544d23b9ad81d",
+      "current_sha256": "bc348daf17b4f7bb4368985c4d7a766d6b2e8cc4e4c7f074f72ee3d5782dfce6"
+    },
+    {
+      "deliverable": null,
+      "path": "reports/current-source-package.json",
+      "recorded_sha256": "bf3a37d60f6d3a3c0bfd9a8766b89ea5e39288c1645065d222ec71e173793499",
+      "current_sha256": "c75b7a61951d4106a83037c5318ac08ea465465519e2a83e1cf36ae4711f0ef6"
+    },
+    {
+      "deliverable": null,
+      "path": "reports/paper-draft.md",
+      "recorded_sha256": "330df840ee37e185528fd4ad02c5bd93a95f55bc67ec48f1a71b349d1bbb5784",
+      "current_sha256": "d9dd0a6b5c085274896885a913020d3b24276cf0aaf53d6676e62499e65b9c63"
+    },
+    {
+      "deliverable": null,
+      "path": "reports/blog-draft.md",
+      "recorded_sha256": "dae249ce481767edf15d7e041c5af985c1bb8e7d52471497f1c8986e1286271b",
+      "current_sha256": "8e1e6871794d3d451c35e8a68d1ffd47ea27bcbaa420b09cac88559c7531ad25"
+    },
+    {
+      "deliverable": null,
+      "path": "reports/current-source-package.json",
+      "recorded_sha256": "bf3a37d60f6d3a3c0bfd9a8766b89ea5e39288c1645065d222ec71e173793499",
+      "current_sha256": "c75b7a61951d4106a83037c5318ac08ea465465519e2a83e1cf36ae4711f0ef6"
+    }
+  ],
+  "registry": {
+    "status": "verified",
+    "artifacts": 141,
+    "scope": "artifact_identity_only",
+    "scientific_completion": "not_assessed"
+  }
+}

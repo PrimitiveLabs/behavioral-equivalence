@@ -1,0 +1,26 @@
+{
+  "status": "rendered_pending_visual_qa",
+  "render_digest": "5fcd76d2f800f76ca5d2d5d612c7e8e2cb45275404c4c4017e6da262ee7a2a20",
+  "spec": {
+    "family": "trust",
+    "size": 32,
+    "perturbation": 0,
+    "seed": 10000
+  },
+  "source_world_sha256": "2f46242217f4a890366c0dfbe14f495f39deeeca56883bdf561de28903f36b2c",
+  "audit_manifest_sha256": "325ce8ca5c360a800b74ffdaa0dc11219c2c7c420589d025834dd1fac0b1322b",
+  "certificate_sha256": "480a392c1efcbf9e00ca7be79bfcc2dcda6ebe7e53e125a7add436b18128fb7f",
+  "original_states": 32,
+  "reduced_states": 8,
+  "output_sha256": {
+    "caption.md": "2c41a7f310df033e56acadcf7fa877e85df5e3dadfdc13801e84f3b7000a6277",
+    "edges.csv": "80c6ff2fa1f997fdfa108d7647131f80ae0cf274c78308f64acd5bffd2c4d0d7",
+    "figure-01-abstraction.pdf": "e8336c345a010eb547d1d5580bbb740e2f2d25f1aa7a1d39fc2dea4dadc8ee53",
+    "figure-01-abstraction.png": "00afb630d6ac14878c70e7b55bb37c505b5283678a9cbf549236a33c53dbf351",
+    "figure-01-abstraction.svg": "fee7dc615230b58f0a540309095ecabc03e134d799e019b15b3ed4de77a54509",
+    "properties.csv": "455b417ff316049806c27101aafe2f124bb056a4156e2ef7069738c9a21a2c30",
+    "render-source.py": "7bd8e52750e25d4a182f4cd8dfc42897ee1056d623f6b50212f075b8a51ed464",
+    "states.csv": "38b378e21a5bc45e3c0056aabf415cafa13b150d0f55079a96c1e4cff3f1d6ed"
+  },
+  "root": "/artifacts/synthetic-main-v3-d9f1fdcc7c35/figure01-5fcd76d2f800"
+}

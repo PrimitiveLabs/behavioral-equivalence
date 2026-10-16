@@ -1,0 +1,24 @@
+[project]
+name = "behavioral-equivalence"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["numpy==2.2.6", "scipy==1.15.3", "pydantic==2.11.7"]
+
+[dependency-groups]
+dev = ["pytest==8.4.1", "ruff==0.12.0"]
+cloud = ["modal>=1.6.1,<2"]
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+extend-exclude = ["reports/figures/**/render-source.py", "reports/source-snapshots/*.py"]

@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "figure": "04",
+  "scope": "measured synthetic uncertainty, not final human fidelity",
+  "source_campaign": "uncertainty-main-v1-9550b167f4b9",
+  "source_protocol_digest": "9550b167f4b9f826e04d38cf73b238fd40a749c85d6f65c6dace2a27701a4597",
+  "source_summary_sha256": "1d0c5c201f75d5e631f02b5b794773ce34a2e1b034e22e1c6a730df773c24bac",
+  "example_spec": {
+    "family": "trust",
+    "size": 128,
+    "seed": 20000
+  },
+  "example_selection": "fixed first main-campaign seed in the trust family at size 128; no selection by outcome",
+  "render_source_digest": "da567fa770d4351989525cf1e7857303d0daefbb0d16371a1fecc677a3722449",
+  "files": {
+    "figure-04-uncertainty.pdf": "537bf6269325550a2ade5c8e43551ca444da27dc8fa092a45fb8044619555c5e",
+    "figure-04a-width.pdf": "f861d68dd63395406511208b927466ed4fcdca64aecffc5a4920d7fdb7a4f8b9",
+    "figure-04a-width.png": "9c00825d44d5369eb5325d69d93c88c9bee42f01e5e3f3b0e3d1c5a78c2b5262",
+    "figure-04a-width.svg": "5bfbb73bc452648bd9283ec67fe9d2459434a8d5b59d1eebf922e77d4e82f350",
+    "figure-04b-ranges.pdf": "a3ef659b4cc0eeb4de0c5917f1c860308db58fcb9e4a39f6840a3e7c48e7d54f",
+    "figure-04b-ranges.png": "b8e1285301759f0b3911f44ce58aeab4bdd5c0afb2177c333c174683c5a8033e",
+    "figure-04b-ranges.svg": "c6c9dbe1f6a826092543460b63c2d5b802fbde874e7c8d2bea5eb9fcec2fe660",
+    "mean-widths.csv": "6a2b50d233ba0442b3ff2f344f88a34bd509dcc5c27ee5b235d104f13f41cde3",
+    "range-example.csv": "853f67414b2f32c3d0aaf60a988ea0040e7335d6929ec60c2544a94a72fbfb0d",
+    "render-source.py": "61ee3d78bab89c347b481979f67dfdf0f934f8fb31bf35ecfdff753ec10676e7"
+  }
+}

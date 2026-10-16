@@ -1,0 +1,1861 @@
+{
+  "status": "complete",
+  "source_digest": "68edad5c7113cb6d09663a86f3c465e0293d9625475e7c8f82999e39646dc531",
+  "protocol": "known_users",
+  "seed": 20261015,
+  "parent": {
+    "root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/quantization-eaa699cb5987-25046fd0a2d3/calibrated-parent-c0c628bb9aaf",
+    "report_sha256": "1b7b53c94d372c20bd8da8f32de0a7ad0542e6a74798efd572598a50c5cfb8cb",
+    "protocol": "known_users",
+    "seed": 20261015
+  },
+  "users": 25522,
+  "origins": 1393257,
+  "maximum_observed_origins_per_user": 64,
+  "origin_id_sha256": "8138907904e304c34b9191d5946dbb9bc74b2a9116d98bd68f6f84dc534d6e09",
+  "models": [
+    {
+      "states": 16,
+      "endpoint": "is_like",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 48,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          69234496,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.6833451713343283,
+      "vacuous_coordinates": 11
+    },
+    {
+      "states": 16,
+      "endpoint": "is_follow",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 48,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          69234496,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.6728635870272299,
+      "vacuous_coordinates": 11
+    },
+    {
+      "states": 16,
+      "endpoint": "is_comment",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 48,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          69234496,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.6737123056931409,
+      "vacuous_coordinates": 11
+    },
+    {
+      "states": 16,
+      "endpoint": "is_forward",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 48,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          69234496,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.6726000370268357,
+      "vacuous_coordinates": 11
+    },
+    {
+      "states": 16,
+      "endpoint": "is_hate",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 48,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          69234496,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.6722542903093947,
+      "vacuous_coordinates": 11
+    },
+    {
+      "states": 16,
+      "endpoint": "watch_category",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 80,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          70555100,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.7843071823848504,
+      "vacuous_coordinates": 35
+    },
+    {
+      "states": 32,
+      "endpoint": "is_like",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 96,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          71020499,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.872453523915597,
+      "vacuous_coordinates": 47
+    },
+    {
+      "states": 32,
+      "endpoint": "is_follow",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 96,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          71020499,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.8669689149061055,
+      "vacuous_coordinates": 47
+    },
+    {
+      "states": 32,
+      "endpoint": "is_comment",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 96,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          71020499,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.8673671353503837,
+      "vacuous_coordinates": 47
+    },
+    {
+      "states": 32,
+      "endpoint": "is_forward",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 96,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          71020499,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.866779140071491,
+      "vacuous_coordinates": 47
+    },
+    {
+      "states": 32,
+      "endpoint": "is_hate",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 96,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          71020499,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.8666006376947479,
+      "vacuous_coordinates": 47
+    },
+    {
+      "states": 32,
+      "endpoint": "watch_category",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 160,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          72308492,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9176048017187879,
+      "vacuous_coordinates": 108
+    },
+    {
+      "states": 64,
+      "endpoint": "is_like",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 192,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          72762676,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9342318688614919,
+      "vacuous_coordinates": 104
+    },
+    {
+      "states": 64,
+      "endpoint": "is_follow",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 192,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          72762676,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9299408212929241,
+      "vacuous_coordinates": 104
+    },
+    {
+      "states": 64,
+      "endpoint": "is_comment",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 192,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          72762676,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9302559106272847,
+      "vacuous_coordinates": 104
+    },
+    {
+      "states": 64,
+      "endpoint": "is_forward",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 192,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          72762676,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9298379511184673,
+      "vacuous_coordinates": 104
+    },
+    {
+      "states": 64,
+      "endpoint": "is_hate",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 192,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          72762676,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9296889094152543,
+      "vacuous_coordinates": 104
+    },
+    {
+      "states": 64,
+      "endpoint": "watch_category",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 320,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          74020361,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9742123682702759,
+      "vacuous_coordinates": 229
+    },
+    {
+      "states": 128,
+      "endpoint": "is_like",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 384,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          74464105,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.989948531571434,
+      "vacuous_coordinates": 242
+    },
+    {
+      "states": 128,
+      "endpoint": "is_follow",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 384,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          74464105,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9889666732500645,
+      "vacuous_coordinates": 241
+    },
+    {
+      "states": 128,
+      "endpoint": "is_comment",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 384,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          74464105,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9890670871903944,
+      "vacuous_coordinates": 241
+    },
+    {
+      "states": 128,
+      "endpoint": "is_forward",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 384,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          74464105,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9889551787307927,
+      "vacuous_coordinates": 241
+    },
+    {
+      "states": 128,
+      "endpoint": "is_hate",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 384,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          74464105,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9889182810458285,
+      "vacuous_coordinates": 241
+    },
+    {
+      "states": 128,
+      "endpoint": "watch_category",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 640,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          75693525,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 1.0,
+      "vacuous_coordinates": 512
+    },
+    {
+      "states": 256,
+      "endpoint": "is_like",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 768,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          76127516,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9996625981438675,
+      "vacuous_coordinates": 509
+    },
+    {
+      "states": 256,
+      "endpoint": "is_follow",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 768,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          76127516,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9995779092297856,
+      "vacuous_coordinates": 509
+    },
+    {
+      "states": 256,
+      "endpoint": "is_comment",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 768,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          76127516,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9995859157528012,
+      "vacuous_coordinates": 509
+    },
+    {
+      "states": 256,
+      "endpoint": "is_forward",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 768,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          76127516,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9995782173810974,
+      "vacuous_coordinates": 509
+    },
+    {
+      "states": 256,
+      "endpoint": "is_hate",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 768,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          76127516,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 0.9995755356686586,
+      "vacuous_coordinates": 509
+    },
+    {
+      "states": 256,
+      "endpoint": "watch_category",
+      "certificate": {
+        "schema_version": "bounded-user-count-ratio-v1",
+        "users": 25522,
+        "coordinates": 1280,
+        "maximum_per_user": 64,
+        "alpha": [
+          1,
+          6000
+        ],
+        "radius": [
+          77330495,
+          4294967296
+        ],
+        "tail_inequality_verified": true,
+        "estimand": "Ratio of expected per-user successor count to expected per-user row count, where the latter is positive",
+        "assumptions": "Independent user tables, common target population, fixed representation and outcome-blind cap; arbitrary within-user dependence allowed",
+        "human_multistep_coverage_established": false
+      },
+      "observed_labels": 1393257,
+      "mean_width": 1.0,
+      "vacuous_coordinates": 1024
+    }
+  ],
+  "abstraction_records": [
+    {
+      "name": "is_like-start16-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_like",
+      "method": "feature_unconstrained",
+      "start_count": 16,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 16,
+      "actual_radius": 0.08972222222222223
+    },
+    {
+      "name": "is_like-start16-refined-epsilon0.0",
+      "endpoint": "is_like",
+      "method": "refined",
+      "start_count": 16,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_like-start16-random_matched-epsilon0.0",
+      "endpoint": "is_like",
+      "method": "random_matched",
+      "start_count": 16,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_like-start16-refined-epsilon0.01",
+      "endpoint": "is_like",
+      "method": "refined",
+      "start_count": 16,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 91,
+      "actual_radius": 0.00990219558764478
+    },
+    {
+      "name": "is_like-start16-random_matched-epsilon0.01",
+      "endpoint": "is_like",
+      "method": "random_matched",
+      "start_count": 16,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 91,
+      "actual_radius": 0.08733655365746901
+    },
+    {
+      "name": "is_like-start32-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_like",
+      "method": "feature_unconstrained",
+      "start_count": 32,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 32,
+      "actual_radius": 0.09085434909880782
+    },
+    {
+      "name": "is_like-start32-refined-epsilon0.0",
+      "endpoint": "is_like",
+      "method": "refined",
+      "start_count": 32,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_like-start32-random_matched-epsilon0.0",
+      "endpoint": "is_like",
+      "method": "random_matched",
+      "start_count": 32,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_like-start32-refined-epsilon0.01",
+      "endpoint": "is_like",
+      "method": "refined",
+      "start_count": 32,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 88,
+      "actual_radius": 0.009873526659050082
+    },
+    {
+      "name": "is_like-start32-random_matched-epsilon0.01",
+      "endpoint": "is_like",
+      "method": "random_matched",
+      "start_count": 32,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 88,
+      "actual_radius": 0.08733655365746901
+    },
+    {
+      "name": "is_like-start64-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_like",
+      "method": "feature_unconstrained",
+      "start_count": 64,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 64,
+      "actual_radius": 0.06791666666666668
+    },
+    {
+      "name": "is_like-start64-refined-epsilon0.0",
+      "endpoint": "is_like",
+      "method": "refined",
+      "start_count": 64,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_like-start64-random_matched-epsilon0.0",
+      "endpoint": "is_like",
+      "method": "random_matched",
+      "start_count": 64,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_like-start64-refined-epsilon0.01",
+      "endpoint": "is_like",
+      "method": "refined",
+      "start_count": 64,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 108,
+      "actual_radius": 0.009505010562335239
+    },
+    {
+      "name": "is_like-start64-random_matched-epsilon0.01",
+      "endpoint": "is_like",
+      "method": "random_matched",
+      "start_count": 64,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 108,
+      "actual_radius": 0.08733655365746901
+    },
+    {
+      "name": "is_like-start128-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_like",
+      "method": "feature_unconstrained",
+      "start_count": 128,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.046726190476190484
+    },
+    {
+      "name": "is_like-start128-refined-epsilon0.0",
+      "endpoint": "is_like",
+      "method": "refined",
+      "start_count": 128,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_like-start128-random_matched-epsilon0.0",
+      "endpoint": "is_like",
+      "method": "random_matched",
+      "start_count": 128,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_like-start128-refined-epsilon0.01",
+      "endpoint": "is_like",
+      "method": "refined",
+      "start_count": 128,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 142,
+      "actual_radius": 0.009505010562335239
+    },
+    {
+      "name": "is_like-start128-random_matched-epsilon0.01",
+      "endpoint": "is_like",
+      "method": "random_matched",
+      "start_count": 128,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 142,
+      "actual_radius": 0.06086072021051429
+    },
+    {
+      "name": "is_follow-start16-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_follow",
+      "method": "feature_unconstrained",
+      "start_count": 16,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 16,
+      "actual_radius": 0.08965918077572785
+    },
+    {
+      "name": "is_follow-start16-refined-epsilon0.0",
+      "endpoint": "is_follow",
+      "method": "refined",
+      "start_count": 16,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_follow-start16-random_matched-epsilon0.0",
+      "endpoint": "is_follow",
+      "method": "random_matched",
+      "start_count": 16,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_follow-start16-refined-epsilon0.01",
+      "endpoint": "is_follow",
+      "method": "refined",
+      "start_count": 16,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 21,
+      "actual_radius": 0.009500009238832523
+    },
+    {
+      "name": "is_follow-start16-random_matched-epsilon0.01",
+      "endpoint": "is_follow",
+      "method": "random_matched",
+      "start_count": 16,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 21,
+      "actual_radius": 0.08191258216524192
+    },
+    {
+      "name": "is_follow-start32-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_follow",
+      "method": "feature_unconstrained",
+      "start_count": 32,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 32,
+      "actual_radius": 0.020309339786246123
+    },
+    {
+      "name": "is_follow-start32-refined-epsilon0.0",
+      "endpoint": "is_follow",
+      "method": "refined",
+      "start_count": 32,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_follow-start32-random_matched-epsilon0.0",
+      "endpoint": "is_follow",
+      "method": "random_matched",
+      "start_count": 32,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_follow-start32-refined-epsilon0.01",
+      "endpoint": "is_follow",
+      "method": "refined",
+      "start_count": 32,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 36,
+      "actual_radius": 0.009460561886139843
+    },
+    {
+      "name": "is_follow-start32-random_matched-epsilon0.01",
+      "endpoint": "is_follow",
+      "method": "random_matched",
+      "start_count": 32,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 36,
+      "actual_radius": 0.07519133479144002
+    },
+    {
+      "name": "is_follow-start64-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_follow",
+      "method": "feature_unconstrained",
+      "start_count": 64,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 64,
+      "actual_radius": 0.0629293484527294
+    },
+    {
+      "name": "is_follow-start64-refined-epsilon0.0",
+      "endpoint": "is_follow",
+      "method": "refined",
+      "start_count": 64,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_follow-start64-random_matched-epsilon0.0",
+      "endpoint": "is_follow",
+      "method": "random_matched",
+      "start_count": 64,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_follow-start64-refined-epsilon0.01",
+      "endpoint": "is_follow",
+      "method": "refined",
+      "start_count": 64,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 66,
+      "actual_radius": 0.008728292780016918
+    },
+    {
+      "name": "is_follow-start64-random_matched-epsilon0.01",
+      "endpoint": "is_follow",
+      "method": "random_matched",
+      "start_count": 64,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 66,
+      "actual_radius": 0.06686253851266445
+    },
+    {
+      "name": "is_follow-start128-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_follow",
+      "method": "feature_unconstrained",
+      "start_count": 128,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.008387445887445888
+    },
+    {
+      "name": "is_follow-start128-refined-epsilon0.0",
+      "endpoint": "is_follow",
+      "method": "refined",
+      "start_count": 128,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_follow-start128-random_matched-epsilon0.0",
+      "endpoint": "is_follow",
+      "method": "random_matched",
+      "start_count": 128,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_follow-start128-refined-epsilon0.01",
+      "endpoint": "is_follow",
+      "method": "refined",
+      "start_count": 128,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.008387445887445888
+    },
+    {
+      "name": "is_follow-start128-random_matched-epsilon0.01",
+      "endpoint": "is_follow",
+      "method": "random_matched",
+      "start_count": 128,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.04511816246029252
+    },
+    {
+      "name": "is_comment-start16-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_comment",
+      "method": "feature_unconstrained",
+      "start_count": 16,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 16,
+      "actual_radius": 0.05132067047604676
+    },
+    {
+      "name": "is_comment-start16-refined-epsilon0.0",
+      "endpoint": "is_comment",
+      "method": "refined",
+      "start_count": 16,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_comment-start16-random_matched-epsilon0.0",
+      "endpoint": "is_comment",
+      "method": "random_matched",
+      "start_count": 16,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_comment-start16-refined-epsilon0.01",
+      "endpoint": "is_comment",
+      "method": "refined",
+      "start_count": 16,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 19,
+      "actual_radius": 0.009443336260664641
+    },
+    {
+      "name": "is_comment-start16-random_matched-epsilon0.01",
+      "endpoint": "is_comment",
+      "method": "random_matched",
+      "start_count": 16,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 19,
+      "actual_radius": 0.04832651710484105
+    },
+    {
+      "name": "is_comment-start32-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_comment",
+      "method": "feature_unconstrained",
+      "start_count": 32,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 32,
+      "actual_radius": 0.014219884587696989
+    },
+    {
+      "name": "is_comment-start32-refined-epsilon0.0",
+      "endpoint": "is_comment",
+      "method": "refined",
+      "start_count": 32,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_comment-start32-random_matched-epsilon0.0",
+      "endpoint": "is_comment",
+      "method": "random_matched",
+      "start_count": 32,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_comment-start32-refined-epsilon0.01",
+      "endpoint": "is_comment",
+      "method": "refined",
+      "start_count": 32,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 33,
+      "actual_radius": 0.009571247259420754
+    },
+    {
+      "name": "is_comment-start32-random_matched-epsilon0.01",
+      "endpoint": "is_comment",
+      "method": "random_matched",
+      "start_count": 32,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 33,
+      "actual_radius": 0.04412620436938289
+    },
+    {
+      "name": "is_comment-start64-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_comment",
+      "method": "feature_unconstrained",
+      "start_count": 64,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 64,
+      "actual_radius": 0.036729660409918596
+    },
+    {
+      "name": "is_comment-start64-refined-epsilon0.0",
+      "endpoint": "is_comment",
+      "method": "refined",
+      "start_count": 64,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_comment-start64-random_matched-epsilon0.0",
+      "endpoint": "is_comment",
+      "method": "random_matched",
+      "start_count": 64,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_comment-start64-refined-epsilon0.01",
+      "endpoint": "is_comment",
+      "method": "refined",
+      "start_count": 64,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 65,
+      "actual_radius": 0.008951630779891298
+    },
+    {
+      "name": "is_comment-start64-random_matched-epsilon0.01",
+      "endpoint": "is_comment",
+      "method": "random_matched",
+      "start_count": 64,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 65,
+      "actual_radius": 0.03908476073488668
+    },
+    {
+      "name": "is_comment-start128-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_comment",
+      "method": "feature_unconstrained",
+      "start_count": 128,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.008035714285714287
+    },
+    {
+      "name": "is_comment-start128-refined-epsilon0.0",
+      "endpoint": "is_comment",
+      "method": "refined",
+      "start_count": 128,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_comment-start128-random_matched-epsilon0.0",
+      "endpoint": "is_comment",
+      "method": "random_matched",
+      "start_count": 128,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_comment-start128-refined-epsilon0.01",
+      "endpoint": "is_comment",
+      "method": "refined",
+      "start_count": 128,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.008035714285714287
+    },
+    {
+      "name": "is_comment-start128-random_matched-epsilon0.01",
+      "endpoint": "is_comment",
+      "method": "random_matched",
+      "start_count": 128,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.02659964394177401
+    },
+    {
+      "name": "is_forward-start16-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_forward",
+      "method": "feature_unconstrained",
+      "start_count": 16,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 16,
+      "actual_radius": 0.05342660567386153
+    },
+    {
+      "name": "is_forward-start16-refined-epsilon0.0",
+      "endpoint": "is_forward",
+      "method": "refined",
+      "start_count": 16,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_forward-start16-random_matched-epsilon0.0",
+      "endpoint": "is_forward",
+      "method": "random_matched",
+      "start_count": 16,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_forward-start16-refined-epsilon0.01",
+      "endpoint": "is_forward",
+      "method": "refined",
+      "start_count": 16,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 18,
+      "actual_radius": 0.009797071804825091
+    },
+    {
+      "name": "is_forward-start16-random_matched-epsilon0.01",
+      "endpoint": "is_forward",
+      "method": "random_matched",
+      "start_count": 16,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 18,
+      "actual_radius": 0.04995562366207483
+    },
+    {
+      "name": "is_forward-start32-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_forward",
+      "method": "feature_unconstrained",
+      "start_count": 32,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 32,
+      "actual_radius": 0.011584439224978897
+    },
+    {
+      "name": "is_forward-start32-refined-epsilon0.0",
+      "endpoint": "is_forward",
+      "method": "refined",
+      "start_count": 32,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_forward-start32-random_matched-epsilon0.0",
+      "endpoint": "is_forward",
+      "method": "random_matched",
+      "start_count": 32,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_forward-start32-refined-epsilon0.01",
+      "endpoint": "is_forward",
+      "method": "refined",
+      "start_count": 32,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 34,
+      "actual_radius": 0.009645437070019617
+    },
+    {
+      "name": "is_forward-start32-random_matched-epsilon0.01",
+      "endpoint": "is_forward",
+      "method": "random_matched",
+      "start_count": 32,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 34,
+      "actual_radius": 0.0456991792428691
+    },
+    {
+      "name": "is_forward-start64-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_forward",
+      "method": "feature_unconstrained",
+      "start_count": 64,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 64,
+      "actual_radius": 0.03617289587160953
+    },
+    {
+      "name": "is_forward-start64-refined-epsilon0.0",
+      "endpoint": "is_forward",
+      "method": "refined",
+      "start_count": 64,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_forward-start64-random_matched-epsilon0.0",
+      "endpoint": "is_forward",
+      "method": "random_matched",
+      "start_count": 64,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_forward-start64-refined-epsilon0.01",
+      "endpoint": "is_forward",
+      "method": "refined",
+      "start_count": 64,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 65,
+      "actual_radius": 0.009548066875653082
+    },
+    {
+      "name": "is_forward-start64-random_matched-epsilon0.01",
+      "endpoint": "is_forward",
+      "method": "random_matched",
+      "start_count": 64,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 65,
+      "actual_radius": 0.0403537962678816
+    },
+    {
+      "name": "is_forward-start128-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_forward",
+      "method": "feature_unconstrained",
+      "start_count": 128,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.008762501865950142
+    },
+    {
+      "name": "is_forward-start128-refined-epsilon0.0",
+      "endpoint": "is_forward",
+      "method": "refined",
+      "start_count": 128,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_forward-start128-random_matched-epsilon0.0",
+      "endpoint": "is_forward",
+      "method": "random_matched",
+      "start_count": 128,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_forward-start128-refined-epsilon0.01",
+      "endpoint": "is_forward",
+      "method": "refined",
+      "start_count": 128,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.008762501865950142
+    },
+    {
+      "name": "is_forward-start128-random_matched-epsilon0.01",
+      "endpoint": "is_forward",
+      "method": "random_matched",
+      "start_count": 128,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.02659964394177401
+    },
+    {
+      "name": "is_hate-start16-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_hate",
+      "method": "feature_unconstrained",
+      "start_count": 16,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 16,
+      "actual_radius": 0.0175246956302221
+    },
+    {
+      "name": "is_hate-start16-refined-epsilon0.0",
+      "endpoint": "is_hate",
+      "method": "refined",
+      "start_count": 16,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_hate-start16-random_matched-epsilon0.0",
+      "endpoint": "is_hate",
+      "method": "random_matched",
+      "start_count": 16,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_hate-start16-refined-epsilon0.01",
+      "endpoint": "is_hate",
+      "method": "refined",
+      "start_count": 16,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 19,
+      "actual_radius": 0.006388888888888888
+    },
+    {
+      "name": "is_hate-start16-random_matched-epsilon0.01",
+      "endpoint": "is_hate",
+      "method": "random_matched",
+      "start_count": 16,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 19,
+      "actual_radius": 0.018534201757698345
+    },
+    {
+      "name": "is_hate-start32-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_hate",
+      "method": "feature_unconstrained",
+      "start_count": 32,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 32,
+      "actual_radius": 0.014219884587696989
+    },
+    {
+      "name": "is_hate-start32-refined-epsilon0.0",
+      "endpoint": "is_hate",
+      "method": "refined",
+      "start_count": 32,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_hate-start32-random_matched-epsilon0.0",
+      "endpoint": "is_hate",
+      "method": "random_matched",
+      "start_count": 32,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_hate-start32-refined-epsilon0.01",
+      "endpoint": "is_hate",
+      "method": "refined",
+      "start_count": 32,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 34,
+      "actual_radius": 0.007938471052131808
+    },
+    {
+      "name": "is_hate-start32-random_matched-epsilon0.01",
+      "endpoint": "is_hate",
+      "method": "random_matched",
+      "start_count": 32,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 34,
+      "actual_radius": 0.017328438347065152
+    },
+    {
+      "name": "is_hate-start64-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_hate",
+      "method": "feature_unconstrained",
+      "start_count": 64,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 64,
+      "actual_radius": 0.010470951391315306
+    },
+    {
+      "name": "is_hate-start64-refined-epsilon0.0",
+      "endpoint": "is_hate",
+      "method": "refined",
+      "start_count": 64,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_hate-start64-random_matched-epsilon0.0",
+      "endpoint": "is_hate",
+      "method": "random_matched",
+      "start_count": 64,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_hate-start64-refined-epsilon0.01",
+      "endpoint": "is_hate",
+      "method": "refined",
+      "start_count": 64,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 65,
+      "actual_radius": 0.00899329177474837
+    },
+    {
+      "name": "is_hate-start64-random_matched-epsilon0.01",
+      "endpoint": "is_hate",
+      "method": "random_matched",
+      "start_count": 64,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 65,
+      "actual_radius": 0.01434142438129463
+    },
+    {
+      "name": "is_hate-start128-feature_unconstrained-epsilon1.0",
+      "endpoint": "is_hate",
+      "method": "feature_unconstrained",
+      "start_count": 128,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.008035714285714287
+    },
+    {
+      "name": "is_hate-start128-refined-epsilon0.0",
+      "endpoint": "is_hate",
+      "method": "refined",
+      "start_count": 128,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_hate-start128-random_matched-epsilon0.0",
+      "endpoint": "is_hate",
+      "method": "random_matched",
+      "start_count": 128,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "is_hate-start128-refined-epsilon0.01",
+      "endpoint": "is_hate",
+      "method": "refined",
+      "start_count": 128,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.008035714285714287
+    },
+    {
+      "name": "is_hate-start128-random_matched-epsilon0.01",
+      "endpoint": "is_hate",
+      "method": "random_matched",
+      "start_count": 128,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.010202148046450433
+    },
+    {
+      "name": "watch_category-start16-feature_unconstrained-epsilon1.0",
+      "endpoint": "watch_category",
+      "method": "feature_unconstrained",
+      "start_count": 16,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 16,
+      "actual_radius": 0.5711515651601525
+    },
+    {
+      "name": "watch_category-start16-refined-epsilon0.0",
+      "endpoint": "watch_category",
+      "method": "refined",
+      "start_count": 16,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "watch_category-start16-random_matched-epsilon0.0",
+      "endpoint": "watch_category",
+      "method": "random_matched",
+      "start_count": 16,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "watch_category-start16-refined-epsilon0.01",
+      "endpoint": "watch_category",
+      "method": "refined",
+      "start_count": 16,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 249,
+      "actual_radius": 0.009543190603627712
+    },
+    {
+      "name": "watch_category-start16-random_matched-epsilon0.01",
+      "endpoint": "watch_category",
+      "method": "random_matched",
+      "start_count": 16,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 249,
+      "actual_radius": 0.360313780264866
+    },
+    {
+      "name": "watch_category-start32-feature_unconstrained-epsilon1.0",
+      "endpoint": "watch_category",
+      "method": "feature_unconstrained",
+      "start_count": 32,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 32,
+      "actual_radius": 0.6641320029902636
+    },
+    {
+      "name": "watch_category-start32-refined-epsilon0.0",
+      "endpoint": "watch_category",
+      "method": "refined",
+      "start_count": 32,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "watch_category-start32-random_matched-epsilon0.0",
+      "endpoint": "watch_category",
+      "method": "random_matched",
+      "start_count": 32,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "watch_category-start32-refined-epsilon0.01",
+      "endpoint": "watch_category",
+      "method": "refined",
+      "start_count": 32,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 244,
+      "actual_radius": 0.009805034383537413
+    },
+    {
+      "name": "watch_category-start32-random_matched-epsilon0.01",
+      "endpoint": "watch_category",
+      "method": "random_matched",
+      "start_count": 32,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 244,
+      "actual_radius": 0.41099885129490393
+    },
+    {
+      "name": "watch_category-start64-feature_unconstrained-epsilon1.0",
+      "endpoint": "watch_category",
+      "method": "feature_unconstrained",
+      "start_count": 64,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 64,
+      "actual_radius": 0.38460794191609465
+    },
+    {
+      "name": "watch_category-start64-refined-epsilon0.0",
+      "endpoint": "watch_category",
+      "method": "refined",
+      "start_count": 64,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "watch_category-start64-random_matched-epsilon0.0",
+      "endpoint": "watch_category",
+      "method": "random_matched",
+      "start_count": 64,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "watch_category-start64-refined-epsilon0.01",
+      "endpoint": "watch_category",
+      "method": "refined",
+      "start_count": 64,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 246,
+      "actual_radius": 0.00915085863963715
+    },
+    {
+      "name": "watch_category-start64-random_matched-epsilon0.01",
+      "endpoint": "watch_category",
+      "method": "random_matched",
+      "start_count": 64,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 246,
+      "actual_radius": 0.41099885129490393
+    },
+    {
+      "name": "watch_category-start128-feature_unconstrained-epsilon1.0",
+      "endpoint": "watch_category",
+      "method": "feature_unconstrained",
+      "start_count": 128,
+      "requested_epsilon": 1.0,
+      "reduced_latent_states": 128,
+      "actual_radius": 0.6425693987390437
+    },
+    {
+      "name": "watch_category-start128-refined-epsilon0.0",
+      "endpoint": "watch_category",
+      "method": "refined",
+      "start_count": 128,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "watch_category-start128-random_matched-epsilon0.0",
+      "endpoint": "watch_category",
+      "method": "random_matched",
+      "start_count": 128,
+      "requested_epsilon": 0.0,
+      "reduced_latent_states": 256,
+      "actual_radius": 0.0
+    },
+    {
+      "name": "watch_category-start128-refined-epsilon0.01",
+      "endpoint": "watch_category",
+      "method": "refined",
+      "start_count": 128,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 248,
+      "actual_radius": 0.009981544716840478
+    },
+    {
+      "name": "watch_category-start128-random_matched-epsilon0.01",
+      "endpoint": "watch_category",
+      "method": "random_matched",
+      "start_count": 128,
+      "requested_epsilon": 0.01,
+      "reduced_latent_states": 248,
+      "actual_radius": 0.41099885129490393
+    }
+  ],
+  "certificates_replayed": 120,
+  "output_sha256": {
+    "models.npz": "42cfc81841e789f7fbc299772b5107038173f742521c677a7cd96ddf7ac61926",
+    "abstractions.json": "96ace1e556aeb7ec76b08c54ccb2745941c7b0f2d93586131f411c233197e6ce",
+    "intervals.json": "ba8bdbf554222335c745561714313dd87396d359bf0d1d0c59ff2c055cbb1b80"
+  },
+  "wall_seconds": 63.299372223999995,
+  "root": "/artifacts/supplementary-calibration-68edad5c7113cb6d/known_users-20261015",
+  "human_coverage_established": false,
+  "scope": "Endpoint-specific absorbing one-outcome graphs at H1 only, exact-normalized float weights. Separate marginal certificates do not identify the joint endpoint law.",
+  "uncertainty_scope": "Union allocation of .05 across 10 fixed parent fits,5 state counts,6 endpoint models. Within each model the count-ratio construction allocates across rows and successor coordinates. Representation validity and independent-user assumptions remain conditional."
+}

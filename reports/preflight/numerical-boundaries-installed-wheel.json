@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "scope": "Local supplementary tests against the exact cloud-tested installed wheel, not a new full cloud reproduction",
+  "wheel_sha256": "d035f9594ff2921ae72ffd2ccae3bb5fb3edb6a795c51d16542b69c28c021ede",
+  "cloud_parent": "reports/preflight/source-package-reproduction-6b90415e31c16537-e52eea4696b4.json",
+  "test_path": "tests/test_numerical_boundaries.py",
+  "test_sha256": "0d8977ad06d51583300b61beb425c677b1178289b900182a65cbcb6c7e8240c4",
+  "tests_passed": 62,
+  "tests_skipped": 0,
+  "installed_wheel_import_verified": true,
+  "dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pydantic": "2.11.7",
+    "pytest": "8.4.1"
+  },
+  "command": [
+    "/Users/rohittalluri/projects/behavioral-equivalence/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-W",
+    "error",
+    "-o",
+    "pythonpath=",
+    "tests/test_numerical_boundaries.py"
+  ],
+  "stdout": "..............................................................           [100%]\n62 passed in 0.30s\n",
+  "stderr": "",
+  "prior_local_attempt": {
+    "status": "environment_failure_before_test_collection",
+    "reason": "Resolving the venv executable symlink selected the base Python, which has no pytest. Corrected by invoking the venv path directly. No provider call or source mutation."
+  }
+}

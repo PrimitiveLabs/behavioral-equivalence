@@ -1,0 +1,270 @@
+{
+  "status": "complete",
+  "source_digest": "1d02241d8a785a9587f2c411cdcf957118c35bf451f545e5d0b0b259d0e38077",
+  "phase": "smoke",
+  "fits": [
+    {
+      "status": "complete",
+      "source_digest": "1d02241d8a785a9587f2c411cdcf957118c35bf451f545e5d0b0b259d0e38077",
+      "protocol": "known_users",
+      "architecture": "context",
+      "seed": 20261015,
+      "parent_fit_report_sha256": "3cac5acd2e905a591b0a826f2e4b364d313d6c4447356f7e28247c75b256e6c7",
+      "cohort_report_sha256": "451ebbc40c50f5b5852f66fe50d851bbd0a430e559c5c6cb94a90d5b90546415",
+      "audit_report_sha256": "93565442cd23ad7cfb2fa9eb44578cf9335ce37081ff3b58c9516d56d890a80f",
+      "sampled_train_origins": 100000,
+      "sampled_train_case_id_sha256": "c6a5d42250275f1193f1c1917ad0a9bf4d0b89a1d6f8a6adc45e952d82edceda",
+      "fit_events": [
+        {
+          "event_index": 0,
+          "observed_cases": 100000,
+          "observed_users": 25463,
+          "positives": 48361,
+          "kind": "logistic",
+          "iterations": 8
+        },
+        {
+          "event_index": 1,
+          "observed_cases": 99225,
+          "observed_users": 25416,
+          "positives": 47899,
+          "kind": "logistic",
+          "iterations": 4
+        },
+        {
+          "event_index": 2,
+          "observed_cases": 98239,
+          "observed_users": 25373,
+          "positives": 47513,
+          "kind": "logistic",
+          "iterations": 3
+        },
+        {
+          "event_index": 3,
+          "observed_cases": 95432,
+          "observed_users": 25236,
+          "positives": 46014,
+          "kind": "logistic",
+          "iterations": 3
+        },
+        {
+          "event_index": 4,
+          "observed_cases": 90718,
+          "observed_users": 24905,
+          "positives": 43253,
+          "kind": "logistic",
+          "iterations": 3
+        },
+        {
+          "event_index": 5,
+          "observed_cases": 100000,
+          "observed_users": 25463,
+          "positives": 48361,
+          "kind": "reuse",
+          "source_head": 0,
+          "iterations": 0
+        },
+        {
+          "event_index": 6,
+          "observed_cases": 99225,
+          "observed_users": 25416,
+          "positives": 86850,
+          "kind": "logistic",
+          "iterations": 9
+        },
+        {
+          "event_index": 7,
+          "observed_cases": 98239,
+          "observed_users": 25373,
+          "positives": 93610,
+          "kind": "logistic",
+          "iterations": 10
+        },
+        {
+          "event_index": 8,
+          "observed_cases": 95432,
+          "observed_users": 25236,
+          "positives": 94546,
+          "kind": "logistic",
+          "iterations": 11
+        },
+        {
+          "event_index": 9,
+          "observed_cases": 90718,
+          "observed_users": 24905,
+          "positives": 90521,
+          "kind": "logistic",
+          "iterations": 11
+        },
+        {
+          "event_index": 10,
+          "observed_cases": 100000,
+          "observed_users": 25463,
+          "positives": 51639,
+          "kind": "complement",
+          "source_head": 0,
+          "iterations": 0
+        },
+        {
+          "event_index": 11,
+          "observed_cases": 99225,
+          "observed_users": 25416,
+          "positives": 90228,
+          "kind": "logistic",
+          "iterations": 8
+        },
+        {
+          "event_index": 12,
+          "observed_cases": 98239,
+          "observed_users": 25373,
+          "positives": 95944,
+          "kind": "logistic",
+          "iterations": 9
+        },
+        {
+          "event_index": 13,
+          "observed_cases": 95432,
+          "observed_users": 25236,
+          "positives": 95266,
+          "kind": "logistic",
+          "iterations": 12
+        },
+        {
+          "event_index": 14,
+          "observed_cases": 90718,
+          "observed_users": 24905,
+          "positives": 90686,
+          "kind": "logistic",
+          "iterations": 13
+        },
+        {
+          "event_index": 15,
+          "observed_cases": 100000,
+          "observed_users": 25463,
+          "positives": 0,
+          "kind": "structural_zero",
+          "iterations": 0
+        },
+        {
+          "event_index": 16,
+          "observed_cases": 99225,
+          "observed_users": 25416,
+          "positives": 69244,
+          "kind": "logistic",
+          "iterations": 6
+        },
+        {
+          "event_index": 17,
+          "observed_cases": 98239,
+          "observed_users": 25373,
+          "positives": 86437,
+          "kind": "logistic",
+          "iterations": 9
+        },
+        {
+          "event_index": 18,
+          "observed_cases": 95432,
+          "observed_users": 25236,
+          "positives": 93054,
+          "kind": "logistic",
+          "iterations": 11
+        },
+        {
+          "event_index": 19,
+          "observed_cases": 90718,
+          "observed_users": 24905,
+          "positives": 90203,
+          "kind": "logistic",
+          "iterations": 11
+        },
+        {
+          "event_index": 20,
+          "observed_cases": 100000,
+          "observed_users": 25463,
+          "positives": 0,
+          "kind": "structural_zero",
+          "iterations": 0
+        },
+        {
+          "event_index": 21,
+          "observed_cases": 99225,
+          "observed_users": 25416,
+          "positives": 26516,
+          "kind": "logistic",
+          "iterations": 5
+        },
+        {
+          "event_index": 22,
+          "observed_cases": 98239,
+          "observed_users": 25373,
+          "positives": 66132,
+          "kind": "logistic",
+          "iterations": 6
+        },
+        {
+          "event_index": 23,
+          "observed_cases": 95432,
+          "observed_users": 25236,
+          "positives": 88416,
+          "kind": "logistic",
+          "iterations": 10
+        },
+        {
+          "event_index": 24,
+          "observed_cases": 90718,
+          "observed_users": 24905,
+          "positives": 89067,
+          "kind": "logistic",
+          "iterations": 11
+        }
+      ],
+      "validation_origins": 1396339,
+      "encoder_parameters": 1053425,
+      "fitted_head_parameters": 2709,
+      "output_sha256": {
+        "model.npz": "17045a83740e3aa3f13ff60bf34603a1e9909cf008c7a33ecd2c3eda55a08ae5",
+        "validation-bucket-00.npz": "79ad58d902403c354d68fef8dfcc509a57f008a3cd9a32810f9f2b90e0dd4d16",
+        "validation-bucket-01.npz": "e3ad41c7a2d1d7eb18ebf59896433a5d10324cab5087adab6236c385a886e0b2",
+        "validation-bucket-02.npz": "17083df6aaa913979e2441096de173a3c9385cbc60961ea8d36eb4bc8994fab4",
+        "validation-bucket-03.npz": "56c032c1de8b232b934985be5dd492c67bd55f9c0d4d8dfc0411bbfa3810eedb",
+        "validation-bucket-04.npz": "a142c0725c0d9fc397f4087b40c649c16265d7f96f4796a221051563c40bfce1",
+        "validation-bucket-05.npz": "d4e01aabcf741dc09c0844b76c742253066f8cdc3cbc9a667b8c7ca5503b9bef",
+        "validation-bucket-06.npz": "ea6059f9a2a75c033666c18eb19a656f9c47e197357ca78d530d2edbe5ab8a9f",
+        "validation-bucket-07.npz": "e0ad7e1758ec7249362d6a6573fd32eac93e484327a8c0465a72edd4109b5aa8",
+        "validation-bucket-08.npz": "57d2f8439717f264003d6191476f5dc5a12b4eb1167671e6393c02640c7888a0",
+        "validation-bucket-09.npz": "6bc551e4219952d953290382c96d6d5a4d37b11d3cbf69f6bee07afddebce17a",
+        "validation-bucket-10.npz": "7e8b58d47c0d431e1c465f40bc949cda6f82d7e8073cca7a066d7820be45c675",
+        "validation-bucket-11.npz": "9a5dcf5ab4784fdfe9936b2faef93de1eb1936fc272b33ac08fe8ae3b8aa19a6",
+        "validation-bucket-12.npz": "9863c195ebb9da84ee7addb44b981c07626b8b6b3469d701eabf280d1e786b20",
+        "validation-bucket-13.npz": "11c791e5f43a6fba6e78d09c0ffc7ca33fd6b7f9737466f76ab262054569d905",
+        "validation-bucket-14.npz": "fe56835abe6b3e3962dd6d3bed326e6d060a50249881bb2a391dc4575b4e6a13",
+        "validation-bucket-15.npz": "606f2ac77a7ade7cb3107b7cc0fe978005b2df46e34e47561d28e273f28a9fa4",
+        "validation-bucket-16.npz": "ad6f8db0c169a2cfceeaba6011774f735ed9f6eb8b621607c489cb184f2f6356",
+        "validation-bucket-17.npz": "e5f5acbbb47aae32aed73e3f6718a18dcd29efbd6f758e18e7b9b926881e2f60",
+        "validation-bucket-18.npz": "e63862b3da20f9e3dd0f6a106af106a566141f37a1aa84703254be1489a67275",
+        "validation-bucket-19.npz": "6cbb9bbd7f3d3cf6b883b4e8f5ce949fb8da8c09ac33b6dac07f4f35680b04e6",
+        "validation-bucket-20.npz": "d22539052978cbc1fdc5c768f82ffb7e56f1a0004c1e3ccb55350f24a07403b5",
+        "validation-bucket-21.npz": "02d5bf1805bc00784e0a31c486ef2b51d37267c04d0cfde6571629f46aed3b88",
+        "validation-bucket-22.npz": "6c73ccc0b6914044d40e7b2d3878502a8f047714bcdfef5125cbd8848a381f0e",
+        "validation-bucket-23.npz": "655edaf69829ba4ae103d89cc5bdb404f33bdf83c142375c16281d8c87cfb88c",
+        "validation-bucket-24.npz": "21115d09056d787c0b1d3b117c4b96f4457a3341557c9f49b788b8177df53205",
+        "validation-bucket-25.npz": "c678521b3a63b766ae91b39a29b82244fd712a6d85ae38f011b1d9c297f740c7",
+        "validation-bucket-26.npz": "4a2b7bd1762198458cfdedba04835b32baa21b765fb6b9a80733517fa50ed507",
+        "validation-bucket-27.npz": "c99f11e6e6fe525905deec5ffd00afef21b2cdb05c9ac13fab8b59843f5cd6a7",
+        "validation-bucket-28.npz": "84157f33ccea2c6234c65998164f75683ab50b51c3b202892985fed93904e345",
+        "validation-bucket-29.npz": "49e9edf726fc16e356d56cfa869e1c99b26aa2d9560483878fe3aedd2becf785",
+        "validation-bucket-30.npz": "bda970604b8d7c144b0bb35e6f0c52e52954a790f0baa41c743797ff94420513",
+        "validation-bucket-31.npz": "18d72a234ec2171a1c1a667fd3a8876025ddaf570fbff3824a9e086b45ea2854"
+      },
+      "wall_seconds": 37.806101111000004,
+      "final_test_predictions_generated": 0,
+      "final_test_metrics_generated": 0,
+      "scope": "Secondary origin-only direct horizon heads, trained only on audited fitting-role data. Validation is retrospective diagnostics, not final human predictive evidence. No final test predictions or metrics, no provider inference calls.",
+      "root": "/artifacts/human-horizon-heads-1d02241d8a785a95/known_users-context-20261015"
+    }
+  ],
+  "failures": [],
+  "root": "/artifacts/human-horizon-heads-1d02241d8a785a95",
+  "final_test_predictions_generated": 0,
+  "scope": "Secondary origin-only direct horizon heads, trained only on audited fitting-role data. Validation is retrospective diagnostics, not final human predictive evidence. No final test predictions or metrics, no provider inference calls."
+}

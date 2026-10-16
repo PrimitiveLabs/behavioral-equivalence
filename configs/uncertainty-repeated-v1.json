@@ -1,0 +1,65 @@
+{
+  "schema_version": "uncertainty-repeated-v1",
+  "phase": "frozen synthetic repeated-calibration and row-imbalance extension",
+  "frozen_at": "2026-10-15T19:55:38.041952+00:00",
+  "families": [
+    "preference",
+    "belief",
+    "trust",
+    "patience",
+    "memory"
+  ],
+  "sizes": [
+    32,
+    128
+  ],
+  "seeds": [
+    30000,
+    30001
+  ],
+  "regimes": [
+    "uniform_active",
+    "imbalanced_active"
+  ],
+  "repetitions": 100,
+  "chunk_size": 10,
+  "samples_per_active": 1000,
+  "perturbation": 0.01,
+  "horizons": [
+    5,
+    10,
+    25,
+    50
+  ],
+  "bits": 48,
+  "alpha": [
+    1,
+    20
+  ],
+  "expected_chunks": 400,
+  "expected_calibration_datasets": 4000,
+  "expected_method_evaluations": 16000,
+  "methods": [
+    "certified_hoeffding",
+    "clopper_pearson_float_quantiles"
+  ],
+  "support_controls": [
+    "unknown_terminal_rows",
+    "known_closed_terminal_labels"
+  ],
+  "source_digest": "1f5e9286269c1215a4664c199e347025f6406e42ac53ee2834197c6168ee276c",
+  "sampling": "Counts fixed before sampling; same active-row total budget across regimes; terminal rows unobserved. Imbalanced allocation uses generating-world expected active visits, with bottom quarter unsupported. Not adaptive stopping or a human guarantee.",
+  "interpretation": "Known terminal labels are extra environment specification, not inferred from observed zero counts. Methods/support controls share counts and are not independent datasets. This extension does not replace the complete earlier 200-world uncertainty campaign.",
+  "monte_carlo": "Report fixed-world repeated coverage with the calibration dataset as unit; simultaneous Monte Carlo intervals and width summaries require a separate audited aggregation.",
+  "resource_budget": {
+    "worker_timeout_seconds": 600,
+    "worker_cpu": 2,
+    "worker_memory_gib": 4,
+    "max_workers": 4,
+    "coordinator_timeout_seconds": 86400,
+    "ceiling_usd": 15,
+    "actual_billing_usd": null
+  },
+  "protocol_digest": "d567478458e8b39c9c67c4024a890215fb09ffcce298347a1d947d4ff78351ba",
+  "campaign_id": "uncertainty-repeated-v1-d567478458e8"
+}

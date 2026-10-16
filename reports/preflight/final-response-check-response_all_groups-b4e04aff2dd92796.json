@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "source_digest": "b4e04aff2dd92796195e8097b8c2e9a6253cd7fe887495b3f4b6605615d3373c",
+  "tests": "................................                                         [100%]\n32 passed in 5.55s\n",
+  "scope": "Data-free original-user fold scoring, response lookup and neural inference tests; no human test data opened"
+}

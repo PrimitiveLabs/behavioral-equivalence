@@ -1,0 +1,125 @@
+{
+  "status": "complete",
+  "stage": "installed_wheel_tests",
+  "checks": [
+    {
+      "command": [
+        "/usr/local/bin/python",
+        "-m",
+        "pip",
+        "wheel",
+        "--no-deps",
+        "--no-build-isolation",
+        "/tmp/source-reproduction-s0vj8krn/source",
+        "-w",
+        "/tmp/source-reproduction-s0vj8krn/wheels"
+      ],
+      "returncode": 0,
+      "stdout": "Processing /tmp/source-reproduction-s0vj8krn/source\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nBuilding wheels for collected packages: behavioral-equivalence\n  Building wheel for behavioral-equivalence (pyproject.toml): started\n  Building wheel for behavioral-equivalence (pyproject.toml): finished with status 'done'\n  Created wheel for behavioral-equivalence: filename=behavioral_equivalence-0.1.0-py3-none-any.whl size=147965 sha256=d035f9594ff2921ae72ffd2ccae3bb5fb3edb6a795c51d16542b69c28c021ede\n  Stored in directory: /tmp/pip-ephem-wheel-cache-9nd390eh/wheels/81/7e/3e/3b1c0576ee2b2acea53ca0fc41cf4a04810911ac1f6f090198\nSuccessfully built behavioral-equivalence\n",
+      "stderr": "\n[notice] A new release of pip is available: 25.2 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\n"
+    },
+    {
+      "command": [
+        "/usr/local/bin/python",
+        "-m",
+        "venv",
+        "--system-site-packages",
+        "/tmp/source-reproduction-s0vj8krn/test-env"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/tmp/source-reproduction-s0vj8krn/test-env/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-deps",
+        "/tmp/source-reproduction-s0vj8krn/wheels/behavioral_equivalence-0.1.0-py3-none-any.whl"
+      ],
+      "returncode": 0,
+      "stdout": "Processing /tmp/source-reproduction-s0vj8krn/wheels/behavioral_equivalence-0.1.0-py3-none-any.whl\nInstalling collected packages: behavioral-equivalence\nSuccessfully installed behavioral-equivalence-0.1.0\n",
+      "stderr": "\n[notice] A new release of pip is available: 24.0 -> 26.2.1\n[notice] To update, run: python -m pip install --upgrade pip\n"
+    },
+    {
+      "command": [
+        "/tmp/source-reproduction-s0vj8krn/test-env/bin/python",
+        "-c",
+        "import behavioral_equivalence; print(behavioral_equivalence.__file__)"
+      ],
+      "returncode": 0,
+      "stdout": "/tmp/source-reproduction-s0vj8krn/test-env/lib/python3.11/site-packages/behavioral_equivalence/__init__.py\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/tmp/source-reproduction-s0vj8krn/test-env/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error",
+        "-o",
+        "pythonpath=",
+        "tests"
+      ],
+      "returncode": 0,
+      "stdout": "........................................................................ [ 14%]\n........................................................................ [ 28%]\n........................................................................ [ 42%]\n........................................................................ [ 56%]\n........................................................................ [ 70%]\n........................................................................ [ 84%]\n........................................................................ [ 98%]\n.........                                                                [100%]\n513 passed in 13.42s\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/tmp/source-reproduction-s0vj8krn/test-env/bin/python",
+        "tools/scientific_reproduction.py",
+        "--output",
+        "/tmp/source-reproduction-s0vj8krn/scientific-rerun"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"complete\", \"worlds\": 10, \"mechanism_families\": [\"preference\", \"belief\", \"trust\", \"patience\", \"memory\"], \"method_families\": 6, \"certificate_replays\": 10, \"external_queries\": 20, \"maximum_external_difference\": 3.3306690738754696e-16, \"scope\": \"Fresh 32-state scientific subset, all five mechanisms, exact/perturbed worlds, all six abstraction method families and all four horizons; 20 independent PRISM point queries. Not a repeat of the full 1200-world matrix or human training.\"}\n",
+      "stderr": ""
+    }
+  ],
+  "imported_from_wheel": true,
+  "tests_passed": 513,
+  "tests_skipped": 0,
+  "wheel_sha256": "d035f9594ff2921ae72ffd2ccae3bb5fb3edb6a795c51d16542b69c28c021ede",
+  "scientific_reproduction": {
+    "status": "complete",
+    "worlds": 10,
+    "mechanism_families": [
+      "preference",
+      "belief",
+      "trust",
+      "patience",
+      "memory"
+    ],
+    "method_families": 6,
+    "certificate_replays": 10,
+    "external_queries": 20,
+    "maximum_external_difference": 3.3306690738754696e-16,
+    "scope": "Fresh 32-state scientific subset, all five mechanisms, exact/perturbed worlds, all six abstraction method families and all four horizons; 20 independent PRISM point queries. Not a repeat of the full 1200-world matrix or human training."
+  },
+  "source_bundle_sha256": "a17e2c0f4cb5207b74a57bc2847612bb3e2b13b0b616e8ff31b4b60764b54b1b",
+  "source_files": 436,
+  "source_hashes_verified": true,
+  "checker_source_sha256": "b4e4233de2e15c3626daead5b591a370ef2428f681c3fcfcd4cd99eee365451c",
+  "dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pydantic": "2.11.7",
+    "pytest": "8.4.1",
+    "ruff": "0.12.0",
+    "setuptools": "80.9.0",
+    "wheel": "0.45.1",
+    "torch": "2.7.1",
+    "scikit-learn": "1.7.1",
+    "polars": "1.31.0",
+    "duckdb": "1.3.2",
+    "pyarrow": "20.0.0"
+  },
+  "wall_seconds": 51.942752737,
+  "scope": "Fresh pinned cloud dependencies, independently extracted source, built wheel and original tests against installed wheel with source-path injection disabled, plus a small all-five-mechanism/six-method scientific rerun with pinned PRISM. No human rows, weights, full 1200-world rerun or independently authored proof review.",
+  "root": "/artifacts/source-package-reproduction-a17e2c0f4cb5207b"
+}

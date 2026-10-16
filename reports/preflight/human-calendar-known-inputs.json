@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "protocol": "known_users",
+  "source_digest": "4fc554c78ba6392eb086ef5520b751d4a2a002910d1d6f3de9ee4e7a811cd17b",
+  "case_report_sha256": "94ef98862c3fadaeedf35c0a823b376cadbbc35b4002d35c9b05b30b97c3ce81",
+  "case_audit_sha256": "0901cdc50e2282dbe81564fa709a9ee5f7f1c3f9729887b611eeab760b8967cb",
+  "support": {
+    "train": {
+      "cases": 6623154,
+      "users": 26079,
+      "unknown_item_fraction": 0.7009329693979636
+    },
+    "validation": {
+      "cases": 1594880,
+      "users": 25652,
+      "unknown_item_fraction": 0.8878893709871589
+    }
+  },
+  "vocabulary_size": 65535,
+  "output_sha256": {
+    "item-vocabulary.npy": "9a7d427c678c28a75c32d0aebbb29e0cc4d9dc335f5e4d0920a1b1dfcdebdce2",
+    "train.npz": "6d31cec266e97ef48f7e1b2a26e305a846abda21a85e7fc3cd4eeb33830f7e45",
+    "validation.npz": "2a5d250623a0e3bfe716a0641996d64d6215572e6c54aa6f48c8170714acaf94",
+    "markov.json": "f80aa2211c8869877aff8ebe5e54e3013b7b23b251b51287090d134786e55f1b"
+  },
+  "scope": "Role-separated training and validation inputs only; calibration/test artifacts are not staged for model fitting."
+}

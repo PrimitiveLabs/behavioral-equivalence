@@ -1,0 +1,11 @@
+{
+  "original_coordinator_status": "incomplete after one input timeout",
+  "canonical_source_report_available_at_recovery": true,
+  "reconciliation_worker_response": {
+    "key": "c9c92bde175d0591e04135bfdc5047e03db404dedaeaae1a60ee4b6ad398f2d8",
+    "status": "complete",
+    "bound_violations": 0,
+    "cached": true
+  },
+  "scope": "The recovery reuses an already completed source-bound world report. The retained original-attempt folder is a snapshot at reconciliation time, including that completed report, not a forensic reconstruction of the directory at the timeout instant. No new scientific computation is inferred from the cached response. The original coordinator manifest remains preserved."
+}

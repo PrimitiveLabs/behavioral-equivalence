@@ -1,0 +1,760 @@
+{
+  "schema_version": "0.1",
+  "program": "behavioral-equivalence-under-uncertainty",
+  "goal_scope": "D1-D9 and E1-E4, end-to-end",
+  "execution_status": "full_synthetic_matrix_uncertainty_and_interventions_complete_human_evaluation_in_progress",
+  "scientific_outcome": "not_evaluated",
+  "budget_usd": null,
+  "budget_status": "bounded per-campaign execution reservations; no global budget provided",
+  "services": {
+    "compute": "Modal",
+    "archive": "Cloudflare R2 research-only",
+    "optional_llm": "No provider inference planned; GPT-6.1 and all Claude models prohibited by user"
+  },
+  "synthetic": {
+    "families": 5,
+    "states": [
+      32,
+      128,
+      512
+    ],
+    "perturbations": [
+      0,
+      0.005,
+      0.01,
+      0.03
+    ],
+    "seeds": [
+      10000,
+      10001,
+      10002,
+      10003,
+      10004,
+      10005,
+      10006,
+      10007,
+      10008,
+      10009,
+      10010,
+      10011,
+      10012,
+      10013,
+      10014,
+      10015,
+      10016,
+      10017,
+      10018,
+      10019
+    ],
+    "horizons": [
+      5,
+      10,
+      25,
+      50
+    ],
+    "worlds": 1200,
+    "intervention_suite": "separately enumerated before freeze",
+    "frozen_protocol": "configs/synthetic-main-v3.json"
+  },
+  "human": {
+    "candidate_pilot": "KuaiRand-1K",
+    "candidate_confirmatory": "KuaiRand-27K",
+    "license_scope_status": "Exact 27K deposit/checksum CC-BY-4.0 verified for private research; redistribution scope recorded separately",
+    "k": [
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "compression_target": 2,
+    "nll_noninferiority_margin_nats": 0.01,
+    "confidence_level": 0.95,
+    "final_training_seed_count": 5,
+    "training_configs": [
+      "configs/human-training-calendar-v3.json",
+      "configs/human-training-calendar-v4-replicates.json"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "P00",
+      "owner": "lead",
+      "depends_on": [],
+      "title": "Establish goal architecture",
+      "artifact": "docs/goal-architecture.md",
+      "acceptance": "All nine deliverables, E1-E4, dependencies and evidence contracts recorded",
+      "status": "complete",
+      "evidence": [
+        "docs/goal-architecture.md"
+      ]
+    },
+    {
+      "id": "P01",
+      "owner": "lead",
+      "depends_on": [
+        "P00"
+      ],
+      "title": "Verify cloud access and resources",
+      "artifact": "reports/cloud-preflight.json",
+      "acceptance": "Modal CPU/GPU access, private R2 roundtrip, Fireworks access if used, budget and quotas recorded",
+      "status": "complete",
+      "evidence": [
+        "reports/cloud-preflight.json",
+        "reports/cloud-jobs.json",
+        "reports/preflight/storage-probe-downloaded.json"
+      ]
+    },
+    {
+      "id": "P02",
+      "owner": "lead",
+      "depends_on": [
+        "P00"
+      ],
+      "title": "Freeze shared artifact schemas",
+      "artifact": "spec/schemas/",
+      "acceptance": "Versioned schemas and executable cross-lane fixtures validate",
+      "status": "complete",
+      "evidence": [
+        "spec/schemas/",
+        "reports/d1-completion-review.md",
+        "spec/certificate-interfaces.md"
+      ]
+    },
+    {
+      "id": "A01",
+      "owner": "A",
+      "depends_on": [
+        "P00"
+      ],
+      "title": "Audit novelty and theorem literature",
+      "artifact": "spec/literature.md",
+      "acceptance": "Primary sources mapped to existing results and proposed contributions",
+      "status": "complete",
+      "evidence": [
+        "spec/literature.md",
+        "reports/d1-completion-review.md",
+        "spec/certificate-interfaces.md"
+      ]
+    },
+    {
+      "id": "A02",
+      "owner": "A",
+      "depends_on": [
+        "P02",
+        "A01"
+      ],
+      "title": "Specify and prove certificate assumptions",
+      "artifact": "spec/proofs.md",
+      "acceptance": "Exact quotient, uniform approximate coupling, initial mismatch, uncertainty composition reviewed",
+      "status": "complete",
+      "evidence": [
+        "spec/proofs.md",
+        "reports/d1-completion-review.md",
+        "spec/certificate-interfaces.md"
+      ]
+    },
+    {
+      "id": "C01",
+      "owner": "C",
+      "depends_on": [
+        "P00"
+      ],
+      "title": "Build rational oracle fixtures",
+      "artifact": "data/synthetic/fixtures/",
+      "acceptance": "Exact probabilities, labels and partitions independently computed",
+      "status": "complete",
+      "evidence": [
+        "data/synthetic/fixtures/",
+        "tests/test_rational.py"
+      ]
+    },
+    {
+      "id": "C02",
+      "owner": "C",
+      "depends_on": [
+        "C01"
+      ],
+      "title": "Build five-family generator",
+      "artifact": "environments/generators/",
+      "acceptance": "Known partitions, perturbation limits, interventions and deterministic seeds pass invariants",
+      "status": "complete",
+      "evidence": [
+        "src/behavioral_equivalence/synthetic.py",
+        "configs/synthetic-main-v3.json",
+        "reports/preflight/synthetic-main-summary.json"
+      ]
+    },
+    {
+      "id": "B01",
+      "owner": "B",
+      "depends_on": [
+        "C01"
+      ],
+      "title": "Implement exact and approximate reduction",
+      "artifact": "abstraction/",
+      "acceptance": "Actual quotient-row discrepancy checked for every concrete state; nontransitivity fixture passes",
+      "status": "complete",
+      "evidence": [
+        "src/behavioral_equivalence/core.py",
+        "tests/test_core.py",
+        "reports/preflight/integer-campaign-audit-manifest.json"
+      ]
+    },
+    {
+      "id": "B02",
+      "owner": "B",
+      "depends_on": [
+        "B01"
+      ],
+      "title": "Implement clustering comparators",
+      "artifact": "abstraction/baselines/",
+      "acceptance": "Embedding, predictive and random methods run at matched state counts",
+      "status": "complete",
+      "evidence": [
+        "src/behavioral_equivalence/clustering.py",
+        "tests/test_clustering.py",
+        "reports/preflight/synthetic-main-summary.json"
+      ]
+    },
+    {
+      "id": "A03",
+      "owner": "A",
+      "depends_on": [
+        "C01"
+      ],
+      "title": "Integrate independent verification",
+      "artifact": "verification/",
+      "acceptance": "PRISM plus independent dynamic programming and rational oracle agree",
+      "status": "complete",
+      "evidence": [
+        "src/behavioral_equivalence/prism.py",
+        "reports/preflight/synthetic-pilot.json",
+        "reports/preflight/synthetic-main-summary.json"
+      ]
+    },
+    {
+      "id": "A04",
+      "owner": "A",
+      "depends_on": [
+        "A03",
+        "B01"
+      ],
+      "title": "Implement uncertainty and certificates",
+      "artifact": "verification/certificates/",
+      "acceptance": "Feasible simultaneous confidence sets, explicit semantics, numerical allowances and certificate validation",
+      "status": "complete",
+      "evidence": [
+        "src/behavioral_equivalence/confidence.py",
+        "src/behavioral_equivalence/uncertainty_abstraction.py",
+        "src/behavioral_equivalence/integer_bounds.py",
+        "reports/preflight/uncertainty-repeated-summary.json"
+      ]
+    },
+    {
+      "id": "D01",
+      "owner": "D",
+      "depends_on": [
+        "P00"
+      ],
+      "title": "Audit human dataset rights and access",
+      "artifact": "data/license-register.json",
+      "acceptance": "Dataset-specific terms, commercial use, attribution, redistribution and weights scope recorded",
+      "status": "complete",
+      "evidence": [
+        "data/license-register.json",
+        "data/rights/zenodo-record-full-20261015.json",
+        "reports/preflight/kuairand-27k-inspection.json"
+      ]
+    },
+    {
+      "id": "D02",
+      "owner": "D",
+      "depends_on": [
+        "D01",
+        "P01"
+      ],
+      "title": "Build cloud data pipeline",
+      "artifact": "data/manifests/",
+      "acceptance": "Chronological histories, censoring, source hashes and availability timestamps audited",
+      "status": "complete",
+      "evidence": [
+        "reports/preflight/kuairand-27k-preparation.json",
+        "reports/preflight/kuairand-27k-independent-audit.json",
+        "reports/preflight/kuairand-27k-confirmatory-cases.json",
+        "reports/preflight/human-adjacent-calibration-independent-audit.json"
+      ],
+      "scope": "Audited canonical pipeline and declared feedback-availability proxies; actual feedback-arrival provenance is unavailable, not verified."
+    },
+    {
+      "id": "D03",
+      "owner": "D",
+      "depends_on": [
+        "D02"
+      ],
+      "title": "Lock independent evaluation partitions",
+      "artifact": "data/splits/",
+      "acceptance": "Both protocols, pilot isolation, calibration isolation and embargo rules pass adversarial leakage tests",
+      "status": "complete",
+      "evidence": [
+        "configs/human-case-construction-v1.json",
+        "reports/preflight/kuairand-27k-confirmatory-case-audit.json",
+        "reports/preflight/human-adjacent-calibration-independent-audit.json",
+        "spec/confirmatory-calendar.md"
+      ],
+      "scope": "Fixed prospective-calendar partitions and complete case/history audits conditional on the declared timing proxies. Final predictive scoring remains E2."
+    },
+    {
+      "id": "D04",
+      "owner": "D",
+      "depends_on": [
+        "D01"
+      ],
+      "title": "Audit human intervention identification",
+      "artifact": "spec/intervention-estimand.md",
+      "acceptance": "Assignment, estimand, overlap, sequence support and independent intervention tests specified",
+      "status": "in_progress",
+      "evidence": [
+        "spec/intervention-estimand.md"
+      ]
+    },
+    {
+      "id": "B03",
+      "owner": "B",
+      "depends_on": [
+        "D03",
+        "P01"
+      ],
+      "title": "Train baseline pilots",
+      "artifact": "models/pilot/",
+      "acceptance": "Markov, GRU, Transformer and latent states profiled; finite predictions on aligned cases",
+      "status": "complete",
+      "evidence": [
+        "reports/preflight/human-training-pilot.json",
+        "reports/preflight/human-paired-analysis.json",
+        "reports/preflight/human-quantization-pilot.json"
+      ],
+      "scope": "Completed excluded 1K engineering pilots only. The five-seed full 27K matrix and test evaluation remain separate E2 work."
+    },
+    {
+      "id": "B04",
+      "owner": "B",
+      "depends_on": [
+        "B03",
+        "B02",
+        "A04"
+      ],
+      "title": "Integrate learned-state abstraction",
+      "artifact": "models/latent_state/",
+      "acceptance": "Training-only state construction, held-out mapping, fresh calibration and label encoding verified",
+      "status": "in_progress",
+      "evidence": [
+        "src/behavioral_equivalence/decision_model.py",
+        "spec/learned-state-model.md",
+        "cloud/quantize_pilot.py",
+        "reports/preflight/human-learned-certified-pilot.json"
+      ]
+    },
+    {
+      "id": "C03",
+      "owner": "C",
+      "depends_on": [
+        "C02",
+        "B01",
+        "A03"
+      ],
+      "title": "Build counterexample search",
+      "artifact": "environments/interventions/",
+      "acceptance": "Feasible witnesses confirmed by oracle; equal-budget random/grid/active baselines",
+      "status": "complete",
+      "evidence": [
+        "src/behavioral_equivalence/catalogue_search.py",
+        "src/behavioral_equivalence/intervention_benchmark.py",
+        "reports/preflight/intervention-main-analysis.json"
+      ]
+    },
+    {
+      "id": "C04",
+      "owner": "C",
+      "depends_on": [
+        "C03"
+      ],
+      "title": "Integrate split and reverify loop",
+      "artifact": "abstraction/refinement/",
+      "acceptance": "Capacity/data matched controls and disjoint search/validation/test environments",
+      "status": "complete",
+      "evidence": [
+        "src/behavioral_equivalence/refinement.py",
+        "reports/preflight/intervention-main-analysis.json",
+        "reports/intervention-results.md"
+      ],
+      "scope": "Generic finite-model split/reverify loop with equal-budget synthetic controls; real human refinement remains E4H."
+    },
+    {
+      "id": "D05",
+      "owner": "D",
+      "depends_on": [
+        "D03",
+        "B03"
+      ],
+      "title": "Design statistics and power",
+      "artifact": "spec/statistical-analysis.md",
+      "acceptance": "Pilot power, clustered units, NLL estimand, primary endpoints, multiplicity and seed variation fixed",
+      "status": "in_progress",
+      "evidence": [
+        "spec/human-confirmatory-analysis.md",
+        "spec/synthetic-intervention-analysis.md",
+        "src/behavioral_equivalence/statistics.py"
+      ]
+    },
+    {
+      "id": "P03S",
+      "owner": "lead",
+      "depends_on": [
+        "C02",
+        "B01",
+        "B02",
+        "A03",
+        "A04",
+        "P01"
+      ],
+      "title": "Freeze synthetic correctness execution",
+      "artifact": "configs/synthetic-main-v3.json",
+      "acceptance": "Source and protocol hashes, all 1200 inputs, solver scope, numerical tolerance, controller handles and bounded reservations fixed before the matrix",
+      "status": "complete",
+      "evidence": [
+        "configs/synthetic-main-v3.json",
+        "reports/preflight/synthetic-main-original-manifest.json",
+        "reports/preflight/synthetic-main-reconciled-manifest.json"
+      ]
+    },
+    {
+      "id": "P03U",
+      "owner": "lead",
+      "depends_on": [
+        "C02",
+        "A04",
+        "P01"
+      ],
+      "title": "Freeze synthetic uncertainty execution",
+      "artifact": "configs/uncertainty-repeated-v1.json",
+      "acceptance": "Fixed worlds, counts, support controls, repeated datasets, statistical unit and replay source fixed",
+      "status": "complete",
+      "evidence": [
+        "configs/uncertainty-main-v1.json",
+        "configs/uncertainty-repeated-v1.json",
+        "reports/preflight/uncertainty-repeated-summary.json"
+      ]
+    },
+    {
+      "id": "P03I",
+      "owner": "lead",
+      "depends_on": [
+        "C04",
+        "A04",
+        "P01"
+      ],
+      "title": "Freeze synthetic intervention execution",
+      "artifact": "configs/intervention-main-v1.json",
+      "acceptance": "Feasible search/held-out catalogue, equal budgets, capacity/data controls, seed clustering and negative controls fixed",
+      "status": "complete",
+      "evidence": [
+        "configs/intervention-main-v1.json",
+        "spec/synthetic-intervention-analysis.md",
+        "reports/preflight/intervention-main-analysis.json"
+      ]
+    },
+    {
+      "id": "P03",
+      "owner": "lead",
+      "depends_on": [
+        "P01",
+        "A04",
+        "C02",
+        "B04",
+        "C04",
+        "D05",
+        "D04"
+      ],
+      "title": "Freeze final human confirmatory evaluation",
+      "artifact": "configs/confirmatory.json",
+      "acceptance": "Pilot costs, budget reservations, seeds, thresholds, all matrices and intervention feasibility locked",
+      "status": "in_progress",
+      "evidence": [
+        "spec/human-confirmatory-analysis.md",
+        "configs/human-nested-abstraction-v1.json"
+      ]
+    },
+    {
+      "id": "P04",
+      "owner": "lead",
+      "depends_on": [
+        "P02",
+        "P01"
+      ],
+      "title": "Implement resumable cloud campaign runner",
+      "artifact": "tools/campaign/",
+      "acceptance": "Dry run, detached jobs, budget reservation, idempotent resume, failures and artifact reconciliation tested",
+      "status": "in_progress",
+      "evidence": [
+        "src/behavioral_equivalence/__main__.py",
+        "tests/test_planner.py"
+      ]
+    },
+    {
+      "id": "E1",
+      "owner": "A",
+      "depends_on": [
+        "P03S"
+      ],
+      "title": "Run synthetic correctness benchmark",
+      "artifact": "reports/e1/",
+      "acceptance": "1200 worlds x 4 horizons plus rational suite; all methods, bounds, runtime and failures reported",
+      "status": "complete",
+      "evidence": [
+        "configs/synthetic-main-v3.json",
+        "reports/synthetic-main-results.md",
+        "reports/preflight/synthetic-main-summary.json",
+        "reports/preflight/integer-campaign-audit-manifest.json",
+        "reports/preflight/synthetic-main-original-manifest.json",
+        "reports/preflight/synthetic-main-reconciled-manifest.json"
+      ],
+      "scientific_findings": "All 1200 worlds and 26400 integer certificates verified; 55200 PRISM point checks agree. Ten exact-normalized requested-budget exceedances at most 1.7356e-17 and 900 nonzero serialized exact radii are reported. No human or universal proof claim."
+    },
+    {
+      "id": "E2",
+      "owner": "B",
+      "depends_on": [
+        "P03",
+        "P04"
+      ],
+      "title": "Run human comparative evaluation",
+      "artifact": "reports/e2/",
+      "acceptance": "Both protocols, selected seed replicates, frontier, paired noninferiority and calibration reported",
+      "status": "planned",
+      "evidence": []
+    },
+    {
+      "id": "E3S",
+      "owner": "A",
+      "depends_on": [
+        "P03U"
+      ],
+      "title": "Run synthetic uncertainty coverage",
+      "artifact": "reports/e3/synthetic/",
+      "acceptance": "Repeated datasets per frozen world; simultaneous inclusion, outcome coverage, width and Monte Carlo CIs",
+      "status": "complete",
+      "evidence": [
+        "reports/preflight/uncertainty-repeated-summary.json",
+        "reports/preflight/uncertainty-repeated-replay-completion.json",
+        "reports/uncertainty-repeated-results.md"
+      ],
+      "scientific_findings": "Observed tested outcome containment is complete in the repeated design, but intervals are often nearly vacuous. Nominal/uncertainty ablations remain in D8; human uncertainty evaluation remains E3H."
+    },
+    {
+      "id": "E3H",
+      "owner": "D",
+      "depends_on": [
+        "E2",
+        "A04"
+      ],
+      "title": "Run human uncertainty diagnostics",
+      "artifact": "reports/e3/human/",
+      "acceptance": "Independent reference event-rate uncertainty, calibration, drift and rare states reported",
+      "status": "planned",
+      "evidence": []
+    },
+    {
+      "id": "E4S",
+      "owner": "C",
+      "depends_on": [
+        "P03I"
+      ],
+      "title": "Run synthetic held-out intervention transfer",
+      "artifact": "reports/e4/synthetic/",
+      "acceptance": "Witness recovery and unseen-world improvement compared at matched data, capacity and search budgets",
+      "status": "complete",
+      "evidence": [
+        "reports/preflight/intervention-main-completion.json",
+        "reports/preflight/intervention-main-analysis.json",
+        "reports/intervention-results.md",
+        "reports/figures/index.json"
+      ],
+      "scientific_findings": "Targeted refinement beats matched random splits. RBF acquisition does not beat random/grid acquisition with targeted refinement; random observed witnesses perform similarly. Synthetic held-out coordinates only, no human claim."
+    },
+    {
+      "id": "E4H",
+      "owner": "D",
+      "depends_on": [
+        "P03",
+        "P04",
+        "B04",
+        "C04",
+        "D04"
+      ],
+      "title": "Run supported human intervention transfer",
+      "artifact": "reports/e4/human/",
+      "acceptance": "Independent observed human treatment response and identification-limited conclusions; unavailable data remains explicit",
+      "status": "planned",
+      "evidence": []
+    },
+    {
+      "id": "D08A",
+      "owner": "D",
+      "depends_on": [
+        "E1",
+        "E2",
+        "E3S",
+        "E3H",
+        "E4S",
+        "E4H"
+      ],
+      "title": "Run prespecified ablation analysis",
+      "artifact": "reports/ablations/",
+      "acceptance": "All eight ablation axes, negative controls, clustering and multiplicity policy reported",
+      "status": "in_progress",
+      "evidence": []
+    },
+    {
+      "id": "D08B",
+      "owner": "A+D",
+      "depends_on": [
+        "D08A",
+        "A02",
+        "P02"
+      ],
+      "title": "Assemble benchmark and claim audit",
+      "artifact": "reports/claims.json",
+      "acceptance": "Mathematical, empirical and causal evidence separated; failures and unsupported claims retained",
+      "status": "planned",
+      "evidence": []
+    },
+    {
+      "id": "R01",
+      "owner": "lead",
+      "depends_on": [
+        "D08B"
+      ],
+      "title": "Generate six measured figures",
+      "artifact": "reports/figures/",
+      "acceptance": "Every plotted number traced to hashed measured evidence; no illustrative data presented as results",
+      "status": "in_progress",
+      "evidence": [
+        "reports/figures/index.json"
+      ]
+    },
+    {
+      "id": "R02",
+      "owner": "lead",
+      "depends_on": [
+        "R01"
+      ],
+      "title": "Draft paper and technical blog",
+      "artifact": "reports/publication/",
+      "acceptance": "Methods, actual findings, assumptions, negative results and license limitations reconciled",
+      "status": "planned",
+      "evidence": []
+    },
+    {
+      "id": "R03",
+      "owner": "lead",
+      "depends_on": [
+        "R02"
+      ],
+      "title": "Independently reproduce and review",
+      "artifact": "reports/reproduction/",
+      "acceptance": "Fresh environment reproduces small campaign and aggregate results; independent scientific and code review",
+      "status": "planned",
+      "evidence": []
+    },
+    {
+      "id": "R04",
+      "owner": "lead",
+      "depends_on": [
+        "R03"
+      ],
+      "title": "Prepare permitted open-source release",
+      "artifact": "reports/release-manifest.json",
+      "acceptance": "Reproducible code, synthetic artifacts, notices, model/data cards and reviewable publication package",
+      "status": "planned",
+      "evidence": []
+    }
+  ],
+  "deliverables": {
+    "D1": [
+      "A01",
+      "A02"
+    ],
+    "D2": [
+      "C01",
+      "C02"
+    ],
+    "D3": [
+      "B01",
+      "B02",
+      "B04"
+    ],
+    "D4": [
+      "A03",
+      "A04"
+    ],
+    "D5": [
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D05"
+    ],
+    "D6": [
+      "B03",
+      "B04",
+      "E2"
+    ],
+    "D7": [
+      "C03",
+      "C04",
+      "E4S",
+      "E4H"
+    ],
+    "D8": [
+      "E1",
+      "E2",
+      "E3S",
+      "E3H",
+      "E4S",
+      "E4H",
+      "D08A",
+      "D08B",
+      "P03S",
+      "P03U",
+      "P03I"
+    ],
+    "D9": [
+      "R01",
+      "R02",
+      "R03",
+      "R04"
+    ]
+  },
+  "synthetic_uncertainty_protocol": "configs/uncertainty-main-v1.json",
+  "provider_api_constraints": {
+    "provider_api_model_denylist": [
+      "gpt-6.1*",
+      "claude*"
+    ],
+    "reason": "User cost constraint: no GPT-6.1, Claude or other frontier provider API calls. Current experiments use numerical ML/verification code and require no research model-inference API calls.",
+    "scope": "All research work, reviews, baselines and intervention generation",
+    "recorded_at": "2026-10-15T18:30:23.113000+00:00",
+    "provider_inference_calls_to_date": 0,
+    "frontier_provider_api_calls": "forbidden across all providers; the named denylist is not exhaustive",
+    "current_execution_requires_model_inference": false,
+    "fireworks_inference_calls_to_date": 0
+  },
+  "claim_gates": [
+    "A02",
+    "P02",
+    "D08B",
+    "R03"
+  ],
+  "gate_scope": "Per-experiment immutable synthetic freezes authorize their numerical execution. Human final-test gates and final theorem/schema/reproduction review remain required separately."
+}

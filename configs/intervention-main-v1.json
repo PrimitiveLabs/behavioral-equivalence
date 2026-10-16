@@ -1,0 +1,58 @@
+{
+  "schema_version": "intervention-main-v1",
+  "frozen_at": "2026-10-15T20:13:25.028187+00:00",
+  "source_digest": "d60298ee46e02e25cef42faf05863b8b6d778e8433bfec1a4b8bfa29b3969b2b",
+  "families": [
+    "preference",
+    "belief",
+    "trust",
+    "patience",
+    "memory"
+  ],
+  "sizes": [
+    32,
+    128
+  ],
+  "seeds": [
+    40000,
+    40001,
+    40002,
+    40003,
+    40004,
+    40005,
+    40006,
+    40007,
+    40008,
+    40009
+  ],
+  "surfaces": [
+    "linear",
+    "localized",
+    "oscillatory",
+    "negative_control"
+  ],
+  "expected_worlds": 400,
+  "environment_budget": 8,
+  "horizons": [
+    5,
+    10,
+    25,
+    50
+  ],
+  "search_horizon": 10,
+  "search_methods": [
+    "random",
+    "maximin_grid",
+    "rbf_ucb",
+    "local_search"
+  ],
+  "search_catalogue": "8x8 lattice in [-1,1]^2, excluding neutral origin by even grid",
+  "heldout_catalogue": "16 uniform points from fixed seed 20261016, scoring only",
+  "refinement_epsilon": 0.01,
+  "response_interpolation_bandwidth": 0.5,
+  "primary_horizon": 10,
+  "primary_comparison": "rbf_ucb targeted_witness versus random random_capacity, paired worlds; same-method targeted versus random_capacity and unchanged reported separately",
+  "scope": "synthetic known-kernel query experiment; no human result; estimated-kernel certificates do not certify environment-response learning",
+  "protocol_digest": "f38425758e3893c65a34dec8a6f80f2f6f7079ee0f7b896d2c5980b17733d769",
+  "campaign_id": "intervention-main-v1-f38425758e38"
+}

@@ -1,0 +1,374 @@
+{
+  "schema_version": "monte-carlo-coverage-v1",
+  "source_campaign": "uncertainty-main-v1-9550b167f4b9",
+  "source_protocol_digest": "9550b167f4b9f826e04d38cf73b238fd40a749c85d6f65c6dace2a27701a4597",
+  "family_confidence": 0.95,
+  "reported_intervals": 28,
+  "intervals": [
+    {
+      "scope": "size and sample-count cell",
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "metric": "kernel_inclusion_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "metric": "kernel_inclusion_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "metric": "kernel_inclusion_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "metric": "kernel_inclusion_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "metric": "kernel_inclusion_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "metric": "kernel_inclusion_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "metric": "kernel_inclusion_count",
+      "successes": 99,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8026355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "metric": "kernel_inclusion_count",
+      "successes": 97,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.7826355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "metric": "kernel_inclusion_count",
+      "successes": 98,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.7926355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "metric": "kernel_inclusion_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "metric": "kernel_inclusion_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "metric": "kernel_inclusion_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "size and sample-count cell",
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 100,
+      "independent_datasets": 100,
+      "simultaneous_ci": [
+        0.8126355961730037,
+        1.0
+      ]
+    },
+    {
+      "scope": "all fixed worlds and sample-count designs",
+      "method": "certified_hoeffding",
+      "metric": "kernel_inclusion_count",
+      "successes": 600,
+      "independent_datasets": 600,
+      "simultaneous_ci": [
+        0.9235088024438478,
+        1.0
+      ]
+    },
+    {
+      "scope": "all fixed worlds and sample-count designs",
+      "method": "certified_hoeffding",
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 600,
+      "independent_datasets": 600,
+      "simultaneous_ci": [
+        0.9235088024438478,
+        1.0
+      ]
+    },
+    {
+      "scope": "all fixed worlds and sample-count designs",
+      "method": "clopper_pearson_float_quantiles",
+      "metric": "kernel_inclusion_count",
+      "successes": 594,
+      "independent_datasets": 600,
+      "simultaneous_ci": [
+        0.9135088024438478,
+        1.0
+      ]
+    },
+    {
+      "scope": "all fixed worlds and sample-count designs",
+      "method": "clopper_pearson_float_quantiles",
+      "metric": "all_probability_enclosures_contained_count",
+      "successes": 600,
+      "independent_datasets": 600,
+      "simultaneous_ci": [
+        0.9235088024438478,
+        1.0
+      ]
+    }
+  ],
+  "estimand": "mean coverage probability over the fixed simulated world/sample-count designs, conditional on those worlds",
+  "independence_scope": "independently drawn calibration datasets within each method; methods share datasets and are not pooled as independent trials",
+  "method": "Hoeffding plus Bonferroni, numerically evaluated; no identical-success-probability assumption",
+  "limitations": [
+    "Wide finite-Monte-Carlo intervals do not establish worst-case model coverage.",
+    "No human confidence guarantee follows.",
+    "World generation, fitted models and numerical model verification have separate sources of uncertainty."
+  ],
+  "source_summary_sha256": "1d0c5c201f75d5e631f02b5b794773ce34a2e1b034e22e1c6a730df773c24bac"
+}

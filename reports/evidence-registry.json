@@ -1,0 +1,1951 @@
+{
+  "schema_version": "0.1",
+  "verification_scope": "artifact_identity_only",
+  "entries": [
+    {
+      "evidence_id": "synthetic-summary",
+      "stage": "synthetic_summary",
+      "domain": "specified_model",
+      "artifact": {
+        "sha256": "8029a1f671fda530b2e38ec8466b668f19180fedf25215d9357156d4d92d83e8",
+        "uri": "reports/preflight/synthetic-main-summary.json",
+        "media_type": "application/json",
+        "bytes": 735823
+      },
+      "scope": "All 1200 synthetic worlds; numerical property comparisons, not human fidelity.",
+      "parents": []
+    },
+    {
+      "evidence_id": "synthetic-integer-audit",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "sha256": "325ce8ca5c360a800b74ffdaa0dc11219c2c7c420589d025834dd1fac0b1322b",
+        "uri": "reports/preflight/integer-campaign-audit-manifest.json",
+        "media_type": "application/json",
+        "bytes": 560866
+      },
+      "scope": "Exact-normalized serialized-kernel certificate audit; not a human validity proof.",
+      "parents": []
+    },
+    {
+      "evidence_id": "uncertainty-repeated",
+      "stage": "uncertainty_summary",
+      "domain": "specified_model",
+      "artifact": {
+        "sha256": "24eda8e82e685db7bd8d1440acde88c5519bd3d2e58712b9a8a6aecf799128ee",
+        "uri": "reports/preflight/uncertainty-repeated-summary.json",
+        "media_type": "application/json",
+        "bytes": 113417
+      },
+      "scope": "Fixed-design synthetic row-sampling experiment, not human interval coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-data-adjacent-audit",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "625edd22d6843fde7e89708de4b57de959657b08810cfb7799baef6f9668a398",
+        "uri": "reports/preflight/human-adjacent-calibration-independent-audit.json",
+        "media_type": "application/json",
+        "bytes": 38212
+      },
+      "scope": "Independent query/history reconstruction under recorded availability assumptions.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-training-progress",
+      "stage": "human_training_checkpoint",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "bdc0f387c927347e3ecfd9a0df4e2a07b3bda68e76c318209b5634f9c435d503",
+        "uri": "reports/preflight/human-training-checkpoint-bdc0f387c927347e3ecfd9a0df4e2a07b3bda68e76c318209b5634f9c435d503.json",
+        "media_type": "application/json",
+        "bytes": 437928
+      },
+      "scope": "Completion metadata only; no held-out test score evaluation.",
+      "parents": []
+    },
+    {
+      "evidence_id": "clean-source-tests",
+      "stage": "release_test_reproduction",
+      "domain": "release",
+      "artifact": {
+        "sha256": "4f79532442dbe0404ecbaf1f0aca503ccbc62b8b665391b317aad847568d1b2f",
+        "uri": "reports/preflight/clean-source-test-reproduction.json",
+        "media_type": "application/json",
+        "bytes": 978
+      },
+      "scope": "Clean extraction tests; not independent full scientific reproduction.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-gru-quantization-known-20261015",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "290e4480c5d94b0d699e4a00f369ccc61d2d5d415551340f9ca1538a5f0748c3",
+        "uri": "reports/preflight/human-gru-quantization-known-20261015.json",
+        "media_type": "application/json",
+        "bytes": 36494
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-gru-quantization-known-20261016",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "2b3efa5a6d04156876fb35f5ab1ce132a8d34f6e1276d3084d40f13072338298",
+        "uri": "reports/preflight/human-gru-quantization-known-20261016.json",
+        "media_type": "application/json",
+        "bytes": 36664
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-gru-quantization-known-20261017",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "a4136dee7cddc9bd50943008c7e64295e0fa3a06c3bbb45e28df4d6c1434b85d",
+        "uri": "reports/preflight/human-gru-quantization-known-20261017.json",
+        "media_type": "application/json",
+        "bytes": 36651
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-gru-quantization-known_users-20261019",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "5bae9bd379213be77a1086494cc2381158203e02a178b5af273f715e0486ba30",
+        "uri": "reports/preflight/human-gru-quantization-known_users-20261019.json",
+        "media_type": "application/json",
+        "bytes": 36526
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-gru-quantization-unseen-20261016",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "29755898e6a8560971e389aeb48b6ab4c5db4df802878a5f20d7f52ac5316f37",
+        "uri": "reports/preflight/human-gru-quantization-unseen-20261016.json",
+        "media_type": "application/json",
+        "bytes": 36294
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-gru-quantization-unseen-20261017",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "1ec9d6776a7071077c25a311c4accf2343b42253d6a54060bbc20249bef99b51",
+        "uri": "reports/preflight/human-gru-quantization-unseen-20261017.json",
+        "media_type": "application/json",
+        "bytes": 36145
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-gru-quantization-unseen-20261018",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "290bf5019c68e22564ad24b794db4c9c42cd8467df939bde6fb80ea20b1fa45c",
+        "uri": "reports/preflight/human-gru-quantization-unseen-20261018.json",
+        "media_type": "application/json",
+        "bytes": 36312
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-gru-quantization-unseen_users-20261016",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "29755898e6a8560971e389aeb48b6ab4c5db4df802878a5f20d7f52ac5316f37",
+        "uri": "reports/preflight/human-gru-quantization-unseen_users-20261016.json",
+        "media_type": "application/json",
+        "bytes": 36294
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-gru-quantization-unseen_users-20261017",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "1ec9d6776a7071077c25a311c4accf2343b42253d6a54060bbc20249bef99b51",
+        "uri": "reports/preflight/human-gru-quantization-unseen_users-20261017.json",
+        "media_type": "application/json",
+        "bytes": 36145
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-gru-quantization-unseen_users-20261018",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "290bf5019c68e22564ad24b794db4c9c42cd8467df939bde6fb80ea20b1fa45c",
+        "uri": "reports/preflight/human-gru-quantization-unseen_users-20261018.json",
+        "media_type": "application/json",
+        "bytes": 36312
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-gru-quantization-unseen_users-20261019",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "bd883fb27390ec337ccc00a0bb18be20e3f733378f3f3bfd90ce725854fd4cdc",
+        "uri": "reports/preflight/human-gru-quantization-unseen_users-20261019.json",
+        "media_type": "application/json",
+        "bytes": 36101
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-gru-calibrated-parent-known-20261015",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "1b7b53c94d372c20bd8da8f32de0a7ad0542e6a74798efd572598a50c5cfb8cb",
+        "uri": "reports/preflight/human-gru-calibrated-parent-known-20261015.json",
+        "media_type": "application/json",
+        "bytes": 9386
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-quantization-known-20261015"
+      ]
+    },
+    {
+      "evidence_id": "human-gru-calibrated-parent-known-20261016",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "52b7977af908fda880992e565f02eb6b63354e8c85aca834df98ba8439e56e1c",
+        "uri": "reports/preflight/human-gru-calibrated-parent-known-20261016.json",
+        "media_type": "application/json",
+        "bytes": 9381
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-quantization-known-20261016"
+      ]
+    },
+    {
+      "evidence_id": "human-gru-calibrated-parent-known-20261017",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "c7c7081570483b6ed851bc9d744239470619e838790d462553cfa3b96f7f3bb8",
+        "uri": "reports/preflight/human-gru-calibrated-parent-known-20261017.json",
+        "media_type": "application/json",
+        "bytes": 9381
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-quantization-known-20261017"
+      ]
+    },
+    {
+      "evidence_id": "human-gru-calibrated-parent-known_users-20261015",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "1b7b53c94d372c20bd8da8f32de0a7ad0542e6a74798efd572598a50c5cfb8cb",
+        "uri": "reports/preflight/human-gru-calibrated-parent-known_users-20261015.json",
+        "media_type": "application/json",
+        "bytes": 9386
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-quantization-known-20261015"
+      ]
+    },
+    {
+      "evidence_id": "human-gru-calibrated-parent-known_users-20261016",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "52b7977af908fda880992e565f02eb6b63354e8c85aca834df98ba8439e56e1c",
+        "uri": "reports/preflight/human-gru-calibrated-parent-known_users-20261016.json",
+        "media_type": "application/json",
+        "bytes": 9381
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-quantization-known-20261016"
+      ]
+    },
+    {
+      "evidence_id": "human-gru-calibrated-parent-known_users-20261017",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "c7c7081570483b6ed851bc9d744239470619e838790d462553cfa3b96f7f3bb8",
+        "uri": "reports/preflight/human-gru-calibrated-parent-known_users-20261017.json",
+        "media_type": "application/json",
+        "bytes": 9381
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-quantization-known-20261017"
+      ]
+    },
+    {
+      "evidence_id": "human-gru-calibrated-parent-known_users-20261019",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "d07c462750f7b9e83081732ceea92b8d18223c91748a5b5f91d0dcf5d7644a8b",
+        "uri": "reports/preflight/human-gru-calibrated-parent-known_users-20261019.json",
+        "media_type": "application/json",
+        "bytes": 9397
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-quantization-known_users-20261019"
+      ]
+    },
+    {
+      "evidence_id": "human-gru-calibrated-parent-unseen-20261016",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "a424deb31151d1afb8f4132cb091994917bd43516b0c777d50daffacdc4298f6",
+        "uri": "reports/preflight/human-gru-calibrated-parent-unseen-20261016.json",
+        "media_type": "application/json",
+        "bytes": 9281
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-quantization-unseen_users-20261016"
+      ]
+    },
+    {
+      "evidence_id": "human-gru-calibrated-parent-unseen-20261017",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "6bf87a4a92b2ccdb4fda5fd98b19e1d645f1ad39220b55ed27bc613ec4be5117",
+        "uri": "reports/preflight/human-gru-calibrated-parent-unseen-20261017.json",
+        "media_type": "application/json",
+        "bytes": 9281
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-quantization-unseen_users-20261017"
+      ]
+    },
+    {
+      "evidence_id": "human-gru-calibrated-parent-unseen_users-20261016",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "a424deb31151d1afb8f4132cb091994917bd43516b0c777d50daffacdc4298f6",
+        "uri": "reports/preflight/human-gru-calibrated-parent-unseen_users-20261016.json",
+        "media_type": "application/json",
+        "bytes": 9281
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-quantization-unseen_users-20261016"
+      ]
+    },
+    {
+      "evidence_id": "human-gru-calibrated-parent-unseen_users-20261017",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "6bf87a4a92b2ccdb4fda5fd98b19e1d645f1ad39220b55ed27bc613ec4be5117",
+        "uri": "reports/preflight/human-gru-calibrated-parent-unseen_users-20261017.json",
+        "media_type": "application/json",
+        "bytes": 9281
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-quantization-unseen_users-20261017"
+      ]
+    },
+    {
+      "evidence_id": "human-gru-calibrated-parent-unseen_users-20261018",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "1f7cd4d57b7c81ef8905a4d8d01e7d1aacbfbd6f30f49d9e7f5470f06e5f97d4",
+        "uri": "reports/preflight/human-gru-calibrated-parent-unseen_users-20261018.json",
+        "media_type": "application/json",
+        "bytes": 9292
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-quantization-unseen_users-20261018"
+      ]
+    },
+    {
+      "evidence_id": "human-gru-calibrated-parent-unseen_users-20261019",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "4cd4a676cf51a3392669abe1a0fd3bbf46b4de98afa2127f153752f9c3d6c721",
+        "uri": "reports/preflight/human-gru-calibrated-parent-unseen_users-20261019.json",
+        "media_type": "application/json",
+        "bytes": 9292
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-quantization-unseen_users-20261019"
+      ]
+    },
+    {
+      "evidence_id": "human-nested-known_users-20261015",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "de326a452144e5d5c01bf89bc68d649a9c07862cedbe0c7869c2cec4abdb2bb4",
+        "uri": "reports/preflight/human-nested-known_users-20261015.json",
+        "media_type": "application/json",
+        "bytes": 695905
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-calibrated-parent-known_users-20261015"
+      ]
+    },
+    {
+      "evidence_id": "human-nested-known_users-20261016",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "a37f433f816bc1f6b3ef1f038a83c31bfad6b3b9c46145f6d1decea1d47245ae",
+        "uri": "reports/preflight/human-nested-known_users-20261016.json",
+        "media_type": "application/json",
+        "bytes": 721270
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-calibrated-parent-known_users-20261016"
+      ]
+    },
+    {
+      "evidence_id": "human-nested-known_users-20261017",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "3984736c12719c3e28a95e5acb4855c2a76eb506f89b77b1ecd985ea5a561fa1",
+        "uri": "reports/preflight/human-nested-known_users-20261017.json",
+        "media_type": "application/json",
+        "bytes": 721936
+      },
+      "scope": "Frozen learned point-model artifact; does not establish human predictive noninferiority or confidence coverage.",
+      "parents": [
+        "human-gru-calibrated-parent-known_users-20261017"
+      ]
+    },
+    {
+      "evidence_id": "human-multistep-inputs",
+      "stage": "human_multistep_inputs",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+        "uri": "reports/preflight/human-multistep-test-preparation.json",
+        "media_type": "application/json",
+        "bytes": 99051
+      },
+      "scope": "All 32 private multistep input buckets constructed; separate audit entry records reconstruction. No test prediction scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-multistep-audit",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "9f0a885467acd10e56c143bff1c0ce4c81a165e0ec46ca5c5cf94efd4b7dfa25",
+        "uri": "reports/preflight/human-multistep-independent-audit.json",
+        "media_type": "application/json",
+        "bytes": 58412
+      },
+      "scope": "Independent physical-row, sampling, history, intrinsic-context and horizon-target reconstruction. No empirical predictive or causal finding.",
+      "parents": [
+        "human-multistep-inputs"
+      ]
+    },
+    {
+      "evidence_id": "nominal-ablation-summary",
+      "stage": "uncertainty_summary",
+      "domain": "specified_model",
+      "artifact": {
+        "sha256": "acb6832263d4a4cbd5b091c49d11a1fbbe30c2d8ea1f9ff498ea0cf5d3da1ea4",
+        "uri": "reports/preflight/nominal-ablation-summary.json",
+        "media_type": "application/json",
+        "bytes": 17766
+      },
+      "scope": "Full paired summary, conditional Monte Carlo intervals and no human confidence claim. Raw Cloud manifest dependencies are bound by hashes inside this artifact.",
+      "parents": []
+    },
+    {
+      "evidence_id": "nominal-ablation-failure-counts",
+      "stage": "uncertainty_summary",
+      "domain": "specified_model",
+      "artifact": {
+        "sha256": "e84a21a88f47135650f4e747c9e0bbf21bfe092178c7c1af703b7147a338827f",
+        "uri": "reports/preflight/nominal-ablation-failure-counts.json",
+        "media_type": "application/json",
+        "bytes": 1236
+      },
+      "scope": "Classification of retained directed enclosure results against a hash-pinned Cloud manifest. Not an independent arithmetic replay.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-nested-checkpoint-known_users-20261019",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "8274887603281d53fb01274f1359db777b4c097b216730e2dd0dff2f3995c0c7",
+        "uri": "reports/preflight/human-nested-known_users-20261019.json",
+        "media_type": "application/json",
+        "bytes": 721926
+      },
+      "scope": "Complete nested abstraction frontier and matched controls; fixed primary fails compression; no held-out predictive accuracy claim.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-nested-checkpoint-unseen_users-20261018",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "6310d5689bbdda8ccf8b493f488de9a475808e3ee1da91fc2ae55db54d0fa366",
+        "uri": "reports/preflight/human-nested-unseen_users-20261018.json",
+        "media_type": "application/json",
+        "bytes": 725120
+      },
+      "scope": "Complete nested abstraction frontier and matched controls; fixed primary fails compression; no held-out predictive accuracy claim.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-nested-checkpoint-unseen_users-20261019",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "c97e34418046846ac77a96d7506c5cc6d84174ba16d0d9ba19c7d8f9e63cdc20",
+        "uri": "reports/preflight/human-nested-unseen_users-20261019.json",
+        "media_type": "application/json",
+        "bytes": 696722
+      },
+      "scope": "Complete nested abstraction frontier and matched controls; fixed primary fails compression; no held-out predictive accuracy claim.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-randomized-independent-audit",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-randomized-independent-audit.json",
+        "sha256": "7576df68fbf90fbc491d5733390485eebbcd3c42a380c8013ec5b6c19d3913d2",
+        "media_type": "application/json",
+        "bytes": 73664
+      },
+      "scope": "32-partition independent reconstruction of randomized exposure identity, prior history, intrinsic context and role support. No human predictive scores or causal guarantee.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-history-only-states-known_users-20261015",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-history-states-known_users-20261015.json",
+        "sha256": "e11373b221ceab31c94298d8188beef52c9c21752a74bc7bc98c6eab6c043a0f",
+        "media_type": "application/json",
+        "bytes": 4539
+      },
+      "scope": "Pre-exposure history quantizer on 100000 standard-policy training cases; 254 occupied sample states of 256; separate from D6 primary; no human transfer scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-random-response-calibration-known_users-20261015",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-random-calibration-known_users-20261015.json",
+        "sha256": "26de3da1da96877ec92974429d57cd99224daccb325877b203825973fa168887",
+        "media_type": "application/json",
+        "bytes": 1351
+      },
+      "scope": "User-disjoint observed random-response calibration at K256. Zero supported state/environment cells and zero supported witnesses under fixed 50-user/2000-case thresholds. No final human scores.",
+      "parents": [
+        "human-history-only-states-known_users-20261015"
+      ]
+    },
+    {
+      "evidence_id": "human-resolution-support-known_users-20261015",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-resolution-support-known_users-20261015.json",
+        "sha256": "095dc4ab4741759f9e6c29ee98c5b499714cd3fba44284ea75868ad390f2be5a",
+        "media_type": "application/json",
+        "bytes": 2888
+      },
+      "scope": "Outcome-free support at five training-rank coarsenings; one known-user fit only; no human prediction results.",
+      "parents": [
+        "human-history-only-states-known_users-20261015"
+      ]
+    },
+    {
+      "evidence_id": "human-resolution-joint-support-known_users-20261015",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-resolution-joint-support-known_users-20261015.json",
+        "sha256": "82906da299354018a7be20d33261691dbb92da3d89e090ee52780677e9a9e699",
+        "media_type": "application/json",
+        "bytes": 971
+      },
+      "scope": "Joint discovery/estimation support: K16 has24 candidate pairs, K32 has6, K64-K256 zero. No outcome comparison or causal evidence.",
+      "parents": [
+        "human-history-only-states-known_users-20261015"
+      ]
+    },
+    {
+      "evidence_id": "human-history-only-states-known_users-20261016",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-history-states-known_users-20261016.json",
+        "sha256": "8c180629d9f3b616e0b10669f634e1a07048b651bcc6720e9e5cafa670f1f11d",
+        "media_type": "application/json",
+        "bytes": 4539
+      },
+      "scope": "Training-only pre-exposure history quantization on 100000 standard exposures. Separate from D6 primary. No final human predictive scoring.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-history-only-states-known_users-20261017",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-history-states-known_users-20261017.json",
+        "sha256": "55bf1301452bde28c667a8d904031621f14eb4673e09b27990d5aeaa762ff9d3",
+        "media_type": "application/json",
+        "bytes": 4539
+      },
+      "scope": "Training-only pre-exposure history quantization on 100000 standard exposures. Separate from D6 primary. No final human predictive scoring.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-history-only-states-unseen_users-20261015",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-history-states-unseen_users-20261015.json",
+        "sha256": "ad700973bf8def2c5838811bbb65b88bbd6d4f432509e56197c1c0953a465757",
+        "media_type": "application/json",
+        "bytes": 4547
+      },
+      "scope": "Training-only pre-exposure history quantization on 100000 standard exposures. Separate from D6 primary. No final human predictive scoring.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-history-only-states-unseen_users-20261016",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-history-states-unseen_users-20261016.json",
+        "sha256": "557cfa927be363ac710f33a44a894355a96018bf80467eb7f80e3edec26e6726",
+        "media_type": "application/json",
+        "bytes": 4547
+      },
+      "scope": "Training-only pre-exposure history quantization on 100000 standard exposures. Separate from D6 primary. No final human predictive scoring.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-history-only-states-unseen_users-20261017",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-history-states-unseen_users-20261017.json",
+        "sha256": "203048510fdfdaa33b9b88e66f4f922327c18f73e3c5c70ac0e155714c0409a7",
+        "media_type": "application/json",
+        "bytes": 4541
+      },
+      "scope": "Training-only pre-exposure history quantization on 100000 standard exposures. Separate from D6 primary. No final human predictive scoring.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-history-only-states-known_users-20261018",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-history-states-known_users-20261018.json",
+        "sha256": "2337739a7ddf01315825064a802481791e8d8fe51ec45bf003dc26e52565d9a3",
+        "media_type": "application/json",
+        "bytes": 4550
+      },
+      "scope": "Training-only pre-exposure history quantization on 100000 standard exposures. Separate from D6 primary. No final human predictive scoring.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-history-only-states-known_users-20261019",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-history-states-known_users-20261019.json",
+        "sha256": "9cb4de3c1e3ab5e224faf7d655af1769e20b5ae111794153c54236cf9025b3da",
+        "media_type": "application/json",
+        "bytes": 4556
+      },
+      "scope": "Training-only pre-exposure history quantization on 100000 standard exposures. Separate from D6 primary. No final human predictive scoring.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-history-only-states-unseen_users-20261018",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-history-states-unseen_users-20261018.json",
+        "sha256": "24a098b15fad89fdac51b4d643e87939c421f68287f4577b87929c575c615f32",
+        "media_type": "application/json",
+        "bytes": 4552
+      },
+      "scope": "Training-only pre-exposure history quantization on 100000 standard exposures. Separate from D6 primary. No final human predictive scoring.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-history-only-states-unseen_users-20261019",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-history-states-unseen_users-20261019.json",
+        "sha256": "a72f8c717316876eb87bf7c6bc74e645868134a56a062bbb348806c9e11fac98",
+        "media_type": "application/json",
+        "bytes": 4552
+      },
+      "scope": "Training-only pre-exposure history quantization on 100000 standard exposures. Separate from D6 primary. No final human predictive scoring.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-resolution-support-known_users-20261016",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-resolution-support-known_users-20261016.json",
+        "sha256": "06035623c6827da45790f0c6b72cef78fba4afcd83dbe1179541fb465ed7656d",
+        "media_type": "application/json",
+        "bytes": 2894
+      },
+      "scope": "Outcome-free support at five training-defined resolutions; no response values read or final scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-resolution-support-known_users-20261017",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-resolution-support-known_users-20261017.json",
+        "sha256": "3971e381a950fcc6416b0d7351fe7dd114f22ab78f1a7d48fde664bfdd80ec99",
+        "media_type": "application/json",
+        "bytes": 2892
+      },
+      "scope": "Outcome-free support at five training-defined resolutions; no response values read or final scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-resolution-support-unseen_users-20261015",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-resolution-support-unseen_users-20261015.json",
+        "sha256": "34a94cf3e854c689f04876c631ad96750a9d728c2049c5b09f5fe32ad642ad0e",
+        "media_type": "application/json",
+        "bytes": 2887
+      },
+      "scope": "Outcome-free support at five training-defined resolutions; no response values read or final scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-resolution-support-unseen_users-20261016",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-resolution-support-unseen_users-20261016.json",
+        "sha256": "d003d6dbe86fb866ac98a7d857f7fe553790637e4446ae68126250f5676a2329",
+        "media_type": "application/json",
+        "bytes": 2887
+      },
+      "scope": "Outcome-free support at five training-defined resolutions; no response values read or final scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-resolution-support-unseen_users-20261017",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-resolution-support-unseen_users-20261017.json",
+        "sha256": "2eb00334d02831d8afc8f9fa52aaded28e1028a964dbca1dc1629af41401f6a0",
+        "media_type": "application/json",
+        "bytes": 2887
+      },
+      "scope": "Outcome-free support at five training-defined resolutions; no response values read or final scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-resolution-support-known_users-20261018",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-resolution-support-known_users-20261018.json",
+        "sha256": "a02f91be671ddc955300877fa139c6ca366e7d497b931a7a00332e3f8ec209c4",
+        "media_type": "application/json",
+        "bytes": 2905
+      },
+      "scope": "Outcome-free support at five training-defined resolutions; no response values read or final scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-resolution-support-known_users-20261019",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-resolution-support-known_users-20261019.json",
+        "sha256": "af188b2a18d6f0caf58709be14e96c57973d3c5c55fb856dd4859e2d69947f5e",
+        "media_type": "application/json",
+        "bytes": 2901
+      },
+      "scope": "Outcome-free support at five training-defined resolutions; no response values read or final scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-resolution-support-unseen_users-20261018",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-resolution-support-unseen_users-20261018.json",
+        "sha256": "2338d92a061c6db1d04d224dd5945e65601a6d644bc7438102f71ac0316a1efb",
+        "media_type": "application/json",
+        "bytes": 2891
+      },
+      "scope": "Outcome-free support at five training-defined resolutions; no response values read or final scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-resolution-support-unseen_users-20261019",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-resolution-support-unseen_users-20261019.json",
+        "sha256": "a6f0bbe2a590888c9e52e2b691818d98362aa930436e31932530242de2a6eaf8",
+        "media_type": "application/json",
+        "bytes": 2898
+      },
+      "scope": "Outcome-free support at five training-defined resolutions; no response values read or final scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-resolution-joint-support-full",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-resolution-joint-support-full.json",
+        "sha256": "2efda767c0902e093d5827df9c0724de9b56ad6ed1382f45c337726975d9610c",
+        "media_type": "application/json",
+        "bytes": 9888
+      },
+      "scope": "Full ten-fit joint support matrix; known-user K32 supported, unseen-user pair inference unsupported under fixed thresholds.",
+      "parents": []
+    },
+    {
+      "evidence_id": "clean-source-resolution-reproduction",
+      "stage": "release_test_reproduction",
+      "domain": "release",
+      "artifact": {
+        "uri": "reports/preflight/clean-source-resolution-reproduction.json",
+        "sha256": "59b3051b61b2b49b56a94d177a79620b7f08e06ab38cb36e5399d31b1992da63",
+        "media_type": "application/json",
+        "bytes": 697
+      },
+      "scope": "259-file source snapshot clean extraction passes219tests, six skipped; not independent scientific reproduction.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-response-frontier-known_users-20261015",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-response-frontier-known_users-20261015.json",
+        "sha256": "b2e805f0d2c6794e8ba019b3e1e50946112475eaae697f90ca53eb7b4793d5da",
+        "media_type": "application/json",
+        "bytes": 4938
+      },
+      "scope": "Twenty constructed known-user K32 response-refinement candidates with matched capacity controls and disjoint estimation; no held-out human predictive scores.",
+      "parents": [
+        "human-history-only-states-known_users-20261015",
+        "human-random-response-calibration-known_users-20261015",
+        "human-resolution-support-known_users-20261015"
+      ]
+    },
+    {
+      "evidence_id": "human-response-frontier-known_users-20261016",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-response-frontier-known_users-20261016.json",
+        "sha256": "fe10c761142d2c8317a0b5a609a2432d6aa6c5c2cab890ee1b800bf500462993",
+        "media_type": "application/json",
+        "bytes": 4938
+      },
+      "scope": "Twenty constructed known-user K32 response-refinement candidates with matched capacity controls and disjoint estimation; no held-out human predictive scores.",
+      "parents": [
+        "human-history-only-states-known_users-20261016",
+        "human-random-response-calibration-known_users-20261016",
+        "human-resolution-support-known_users-20261016"
+      ]
+    },
+    {
+      "evidence_id": "human-response-frontier-known_users-20261017",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-response-frontier-known_users-20261017.json",
+        "sha256": "196ec54420d8616b97f064a536bd6f66176bebbc90f7c019b946e814b12bf00c",
+        "media_type": "application/json",
+        "bytes": 4924
+      },
+      "scope": "Twenty constructed known-user K32 response-refinement candidates with matched capacity controls and disjoint estimation; no held-out human predictive scores.",
+      "parents": [
+        "human-history-only-states-known_users-20261017",
+        "human-random-response-calibration-known_users-20261017",
+        "human-resolution-support-known_users-20261017"
+      ]
+    },
+    {
+      "evidence_id": "human-response-frontier-known_users-20261018",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-response-frontier-known_users-20261018.json",
+        "sha256": "983b8aaf5f83f22d2de5d150981637283b33107392c569dbd9eeb0e816d5b5b8",
+        "media_type": "application/json",
+        "bytes": 4933
+      },
+      "scope": "Twenty constructed known-user K32 response-refinement candidates with matched capacity controls and disjoint estimation; no held-out human predictive scores.",
+      "parents": [
+        "human-history-only-states-known_users-20261018",
+        "human-random-response-calibration-known_users-20261018",
+        "human-resolution-support-known_users-20261018"
+      ]
+    },
+    {
+      "evidence_id": "human-response-frontier-known_users-20261019",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-response-frontier-known_users-20261019.json",
+        "sha256": "1672a67fba0ae8208aad08b8bb4ca726d6461a6811d6af092447b99c689eb3f6",
+        "media_type": "application/json",
+        "bytes": 4950
+      },
+      "scope": "Twenty constructed known-user K32 response-refinement candidates with matched capacity controls and disjoint estimation; no held-out human predictive scores.",
+      "parents": [
+        "human-history-only-states-known_users-20261019",
+        "human-random-response-calibration-known_users-20261019",
+        "human-resolution-support-known_users-20261019"
+      ]
+    },
+    {
+      "evidence_id": "human-response-point-certificates-20261015",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/human-response-certificates-known_users-20261015.json",
+        "sha256": "505bbc04bbb541df948f4b9cb0ca0c84db02ab27c3c18a0394c1990c4794b2c4",
+        "media_type": "application/json",
+        "bytes": 1057
+      },
+      "scope": "1500exact-normalized fitted one-step model certificates generated and replayed using existing verifier. Uniform primary context discrepancy about0.393-0.407; not a human guarantee or independent proof review.",
+      "parents": [
+        "human-response-frontier-known_users-20261015"
+      ]
+    },
+    {
+      "evidence_id": "human-response-point-certificates-20261016",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/human-response-certificates-known_users-20261016.json",
+        "sha256": "e4637ffb5a417deb3e40e10d19c7b67c0430c6d156e6d6b8e09851fe0c8d1a89",
+        "media_type": "application/json",
+        "bytes": 1057
+      },
+      "scope": "1500exact-normalized fitted one-step model certificates generated and replayed using existing verifier. Uniform primary context discrepancy about0.393-0.407; not a human guarantee or independent proof review.",
+      "parents": [
+        "human-response-frontier-known_users-20261016"
+      ]
+    },
+    {
+      "evidence_id": "human-response-point-certificates-20261017",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/human-response-certificates-known_users-20261017.json",
+        "sha256": "4fb862904d7dfeb0e2944db3fac11b1d413486c38ee3af749f6813ef8d161181",
+        "media_type": "application/json",
+        "bytes": 1057
+      },
+      "scope": "1500exact-normalized fitted one-step model certificates generated and replayed using existing verifier. Uniform primary context discrepancy about0.393-0.407; not a human guarantee or independent proof review.",
+      "parents": [
+        "human-response-frontier-known_users-20261017"
+      ]
+    },
+    {
+      "evidence_id": "human-response-point-certificates-20261018",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/human-response-certificates-known_users-20261018.json",
+        "sha256": "ce16c196d1135e5163d58145f12853f8e6351977b02c8d813e7040c8b04c49b5",
+        "media_type": "application/json",
+        "bytes": 1066
+      },
+      "scope": "1500exact-normalized fitted one-step model certificates generated and replayed using existing verifier. Uniform primary context discrepancy about0.393-0.407; not a human guarantee or independent proof review.",
+      "parents": [
+        "human-response-frontier-known_users-20261018"
+      ]
+    },
+    {
+      "evidence_id": "human-response-point-certificates-20261019",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/human-response-certificates-known_users-20261019.json",
+        "sha256": "5994bbcd9d6b667bd80eff0e487b0dbe1a724f992ef6f1be5abd18d620b14bb3",
+        "media_type": "application/json",
+        "bytes": 1068
+      },
+      "scope": "1500exact-normalized fitted one-step model certificates generated and replayed using existing verifier. Uniform primary context discrepancy about0.393-0.407; not a human guarantee or independent proof review.",
+      "parents": [
+        "human-response-frontier-known_users-20261019"
+      ]
+    },
+    {
+      "evidence_id": "human-random-response-calibration-known_users-20261016",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-random-calibration-known_users-20261016.json",
+        "sha256": "a8b0683382a90493b01c0f6a9ca27e965204542e3aa136e2ca2d6366e2f605d8",
+        "media_type": "application/json",
+        "bytes": 1344
+      },
+      "scope": "Disjoint discovery/estimation random-response point calibration,197873known-user cases. No final human predictive score or statistical kernel guarantee.",
+      "parents": [
+        "human-history-only-states-known_users-20261016"
+      ]
+    },
+    {
+      "evidence_id": "human-random-response-calibration-known_users-20261017",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-random-calibration-known_users-20261017.json",
+        "sha256": "d39b03e58499e1663073dbe690254593a907feb63cc9d90f33ed2537190977a2",
+        "media_type": "application/json",
+        "bytes": 1344
+      },
+      "scope": "Disjoint discovery/estimation random-response point calibration,197873known-user cases. No final human predictive score or statistical kernel guarantee.",
+      "parents": [
+        "human-history-only-states-known_users-20261017"
+      ]
+    },
+    {
+      "evidence_id": "human-random-response-calibration-known_users-20261018",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-random-calibration-known_users-20261018.json",
+        "sha256": "830308447fe128bca9a861eb56409144310d7116adcc4f1f150d0ab4e00a201b",
+        "media_type": "application/json",
+        "bytes": 1362
+      },
+      "scope": "Disjoint discovery/estimation random-response point calibration,197873known-user cases. No final human predictive score or statistical kernel guarantee.",
+      "parents": [
+        "human-history-only-states-known_users-20261018"
+      ]
+    },
+    {
+      "evidence_id": "human-random-response-calibration-known_users-20261019",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-random-calibration-known_users-20261019.json",
+        "sha256": "6b4c0eca1313ecbed4ffa246d87ffc713871c6843bf212e415cdd362bde1f775",
+        "media_type": "application/json",
+        "bytes": 1362
+      },
+      "scope": "Disjoint discovery/estimation random-response point calibration,197873known-user cases. No final human predictive score or statistical kernel guarantee.",
+      "parents": [
+        "human-history-only-states-known_users-20261019"
+      ]
+    },
+    {
+      "evidence_id": "human-validation-precision-planning",
+      "stage": "human_training_checkpoint",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-validation-precision.json",
+        "sha256": "34dd28e8d3b5acb79b35e82ac85667e7392787818b485f4d220280ce69d4d64a",
+        "media_type": "application/json",
+        "bytes": 11224
+      },
+      "scope": "Ten validation-only variance proxies and conditional normal planning; no final scores or power guarantee for nested or intervention models.",
+      "parents": []
+    },
+    {
+      "evidence_id": "environment-diversity-profile",
+      "stage": "synthetic_summary",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/environment-diversity-profile.json",
+        "sha256": "f509a6802790d746c463e9894af8c96b6705963d48e89db142e40cb6f5f9bb05",
+        "media_type": "application/json",
+        "bytes": 866
+      },
+      "scope": "Excluded seed44999implementation/runtime profile; two128-state worlds,96targeted certificates. Main400-world extension still running.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-validation-inference-roundtrip",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-case-inference-validation-roundtrip.json",
+        "sha256": "3c5f9904015d368652266d62cec2416a33d8d75921d4f7b85ba71006274fe729",
+        "media_type": "application/json",
+        "bytes": 1178
+      },
+      "scope": "Raw audited cases/context and frozen model/preprocessing reproduce1594880validation forecasts within1.2e-7. Correct empty-history marker handling. No current target fields or final test predictions.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-nested-checkpoint-known_users-20261018",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-nested-known_users-20261018.json",
+        "sha256": "3e3ac1c0c6c6f7ec9db5306adcf5a59e0e9aa7af552ec76aa60c1f993cd727de",
+        "media_type": "application/json",
+        "bytes": 699237
+      },
+      "scope": "Ninth complete nested learned-model frontier; primary retains256states and fails compression. No human predictive test scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "environment-diversity-generation",
+      "stage": "synthetic_summary",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/environment-diversity-manifest.json",
+        "sha256": "1bfde5274eb6c2b6f006343576872b0f447f768e6546c9198fb0aae222d9d6cd",
+        "media_type": "application/json",
+        "bytes": 267543
+      },
+      "scope": "400complete exploratory synthetic worlds,96000metric rows; equal8query budgets and paired spans.",
+      "parents": []
+    },
+    {
+      "evidence_id": "environment-diversity-persisted-replay",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/environment-diversity-audit-manifest.json",
+        "sha256": "3d2356297634137c96b0a33b4d9c7f5054bd39c438cab13c7d65bd887c8cb7cd",
+        "media_type": "application/json",
+        "bytes": 3671085
+      },
+      "scope": "Reconstructed persisted model kernels and replayed19200targeted estimated-kernel certificates. Existing verifier, not independent theorem review.",
+      "parents": [
+        "environment-diversity-generation"
+      ]
+    },
+    {
+      "evidence_id": "environment-diversity-analysis",
+      "stage": "intervention_summary",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/environment-diversity-summary.json",
+        "sha256": "15fe472035a8f7002b1d32cfd3d557af9b9c5c266229f6f5a4d9d94f9d322d58",
+        "media_type": "application/json",
+        "bytes": 85777
+      },
+      "scope": "Complete exploratory10seed-cluster paired span/control summaries; no human transfer inference.",
+      "parents": [
+        "environment-diversity-persisted-replay"
+      ]
+    },
+    {
+      "evidence_id": "human-response-precision-planning",
+      "stage": "human_training_checkpoint",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-response-precision.json",
+        "sha256": "767d01218f1aa783fc261cff6aee144e8cd131509e5a9c6a900dac4fe490f53f",
+        "media_type": "application/json",
+        "bytes": 7404
+      },
+      "scope": "Retrodictive validation variance proxy only, no mean loss exported. Outcome-free test eligibility375340cases/23284users identical across5fits. Not held-out-condition study.",
+      "parents": [
+        "human-response-frontier-known_users-20261015",
+        "human-response-frontier-known_users-20261016",
+        "human-response-frontier-known_users-20261017",
+        "human-response-frontier-known_users-20261018",
+        "human-response-frontier-known_users-20261019"
+      ]
+    },
+    {
+      "evidence_id": "human-response-precision-source-check",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/response-precision-upstream-source-check.json",
+        "sha256": "e9cadf222a1804f888b919317389e19a603639e6a03b9c8008017c2e611660f1",
+        "media_type": "application/json",
+        "bytes": 1425
+      },
+      "scope": "Five upstream source JSON identities checked against parent report digests; not human accuracy evidence.",
+      "parents": [
+        "human-response-precision-planning"
+      ]
+    },
+    {
+      "evidence_id": "human-heldout-teacher-prior-20261015",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "28009537200a83be1056cda6f2be1d548d53eab9aa886e6b2f4becc43622481d",
+        "uri": "reports/preflight/human-heldout-teacher-prior-20261015.json",
+        "media_type": "application/json",
+        "bytes": 1096
+      },
+      "scope": "Standard-policy teacher prior; no random calibration responses.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-heldout-frontier-20261015",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "41503672bee01b680f7810699a075178c3bb62e13d3ebf55cf5b810541c4f0ef",
+        "uri": "reports/preflight/human-heldout-frontier-20261015.json",
+        "media_type": "application/json",
+        "bytes": 135464
+      },
+      "scope": "Six calibration-condition holdouts, stored output hashes verified; 9000 one-step point certificates and 120 neutral certificates replayed. No final human outcome evaluation or human confidence guarantee.",
+      "parents": [
+        "human-heldout-teacher-prior-20261015"
+      ]
+    },
+    {
+      "evidence_id": "human-heldout-teacher-prior-20261016",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "47f8fb23f42074635726f0dd34365a9c7c0cae703488256760932c4a34f92b8e",
+        "uri": "reports/preflight/human-heldout-teacher-prior-20261016.json",
+        "media_type": "application/json",
+        "bytes": 1077
+      },
+      "scope": "Standard-policy teacher prior; no random calibration responses.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-heldout-frontier-20261016",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "07215c273c18c1704be84ab1417265356759f5b9945869c310eda51c5418c20f",
+        "uri": "reports/preflight/human-heldout-frontier-20261016.json",
+        "media_type": "application/json",
+        "bytes": 139772
+      },
+      "scope": "Six calibration-condition holdouts, stored output hashes verified; 9000 one-step point certificates and 120 neutral certificates replayed. No final human outcome evaluation or human confidence guarantee.",
+      "parents": [
+        "human-heldout-teacher-prior-20261016"
+      ]
+    },
+    {
+      "evidence_id": "human-heldout-teacher-prior-20261017",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "809ca8ad3e0dec497cd31ff52c371ab473773d057a3ad5dcdbba39ab6cf594f7",
+        "uri": "reports/preflight/human-heldout-teacher-prior-20261017.json",
+        "media_type": "application/json",
+        "bytes": 1077
+      },
+      "scope": "Standard-policy teacher prior; no random calibration responses.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-heldout-frontier-20261017",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "4a2af39386963a22adb74d11e259da57a09befb66ae642f3ac433f70830c7e93",
+        "uri": "reports/preflight/human-heldout-frontier-20261017.json",
+        "media_type": "application/json",
+        "bytes": 133559
+      },
+      "scope": "Six calibration-condition holdouts, stored output hashes verified; 9000 one-step point certificates and 120 neutral certificates replayed. No final human outcome evaluation or human confidence guarantee.",
+      "parents": [
+        "human-heldout-teacher-prior-20261017"
+      ]
+    },
+    {
+      "evidence_id": "human-heldout-teacher-prior-20261018",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "da2dd8ac69c5b528bfc077280b44f7e65f839421bf1177fd511b9011bec43c38",
+        "uri": "reports/preflight/human-heldout-teacher-prior-20261018.json",
+        "media_type": "application/json",
+        "bytes": 1107
+      },
+      "scope": "Standard-policy teacher prior; no random calibration responses.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-heldout-frontier-20261018",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "16d0286fc2add2ed0c89f09caa45c2e118911d10bbbbecc93f6feb46df35de7f",
+        "uri": "reports/preflight/human-heldout-frontier-20261018.json",
+        "media_type": "application/json",
+        "bytes": 139085
+      },
+      "scope": "Six calibration-condition holdouts, stored output hashes verified; 9000 one-step point certificates and 120 neutral certificates replayed. No final human outcome evaluation or human confidence guarantee.",
+      "parents": [
+        "human-heldout-teacher-prior-20261018"
+      ]
+    },
+    {
+      "evidence_id": "human-heldout-teacher-prior-20261019",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "84c407095d208cbc2b41e72699d61c41e8be566eaf8a54718c226ef4e1a1e262",
+        "uri": "reports/preflight/human-heldout-teacher-prior-20261019.json",
+        "media_type": "application/json",
+        "bytes": 1088
+      },
+      "scope": "Standard-policy teacher prior; no random calibration responses.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-heldout-frontier-20261019",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "8609847b2103105d9215bab9b2617af655cd0ee366068e762a0b2f6127ad8ef0",
+        "uri": "reports/preflight/human-heldout-frontier-20261019.json",
+        "media_type": "application/json",
+        "bytes": 132928
+      },
+      "scope": "Six calibration-condition holdouts, stored output hashes verified; 9000 one-step point certificates and 120 neutral certificates replayed. No final human outcome evaluation or human confidence guarantee.",
+      "parents": [
+        "human-heldout-teacher-prior-20261019"
+      ]
+    },
+    {
+      "evidence_id": "human-heldout-response-precision",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "9dd2931822059e532fc17ac6b303f2f259a250241dec2f0bf15bbadf27b0dedb",
+        "uri": "reports/preflight/human-heldout-response-precision.json",
+        "media_type": "application/json",
+        "bytes": 46437
+      },
+      "scope": "Thirty per-fold structural identity, validation variance and outcome-free test eligibility checks; no final predictive scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-heldout-response-precision-aggregate",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "f53d27c57b55fd7d9aa94d2c361992133e73e21f72cc6809c0cf4ba2942a886a",
+        "uri": "reports/preflight/human-heldout-response-precision-aggregate.json",
+        "media_type": "application/json",
+        "bytes": 52936
+      },
+      "scope": "Five per-seed user-cluster variance proxies over overlapping holdouts. No independent-fold claim or human power guarantee.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-nested-output-hash-audit",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "ae78c68237c2c4594b1ef8a77c77ae00288f8c90f3e1d21e00630daa8fd5dccf",
+        "uri": "reports/preflight/human-nested-output-hash-audit.json",
+        "media_type": "application/json",
+        "bytes": 2194
+      },
+      "scope": "All670stored model/certificate file hashes from10nested fits; artifact integrity only, not numerical replay.",
+      "parents": []
+    },
+    {
+      "evidence_id": "clean-source-heldout-tests",
+      "stage": "release_test_reproduction",
+      "domain": "release",
+      "artifact": {
+        "sha256": "9e82cba9bcab2bc324e7d2b6fe2e1739e8cefb42a43900cbee269e6524aada46",
+        "uri": "reports/preflight/clean-source-tests-9e82cba9bcab2bc3.json",
+        "media_type": "application/json",
+        "bytes": 871
+      },
+      "scope": "276tests pass from fresh304-file source extraction using existing dependency environment; not independent scientific experiment reproduction.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-comparative-validation-known_users-20261015",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "2c2ff6d37804a7528f4d96c36967d52b28a680fa7f0026f3856bcb6770cfa6ec",
+        "uri": "reports/preflight/human-comparative-validation-known_users-20261015.json",
+        "media_type": "application/json",
+        "bytes": 1004230
+      },
+      "scope": "All42comparators on the complete validation cohort. Neural forecasts and exact quantizer assignments reproduce frozen references, and33output file hashes verified. Retrospective engineering check, not final human predictive noninferiority.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-comparative-validation-unseen_users-20261015",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "42835778208b467a3b9abfc4ef91c4bc36dad92b5dfb3a3f850f21a52570c321",
+        "uri": "reports/preflight/human-comparative-validation-unseen_users-20261015.json",
+        "media_type": "application/json",
+        "bytes": 960912
+      },
+      "scope": "All42comparators on the complete validation cohort. Neural forecasts and exact quantizer assignments reproduce frozen references, and33output file hashes verified. Retrospective engineering check, not final human predictive noninferiority.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-multistep-fit-preparation",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "451ebbc40c50f5b5852f66fe50d851bbd0a430e559c5c6cb94a90d5b90546415",
+        "uri": "reports/preflight/multistep-fit-completion.json",
+        "media_type": "application/json",
+        "bytes": 181099
+      },
+      "scope": "Complete32bucket within-training/validation role cohorts for direct horizon prediction heads. No final test forecasts; independent physical-row audit running and head fitting remains open.",
+      "parents": []
+    },
+    {
+      "evidence_id": "nominal-replay-completion",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "sha256": "fd6e245847cebd3d20a5a2959d7302c11b6ae44de0c216e4ee78e7439643db43",
+        "uri": "reports/preflight/nominal-replay-completion.json",
+        "media_type": "application/json",
+        "bytes": 311990
+      },
+      "scope": "Separately executed canonical arithmetic replay of8000persisted point certificates over4000original retained synthetic count datasets. Same arithmetic implementation, no independent theorem-proof or human confidence claim.",
+      "parents": []
+    },
+    {
+      "evidence_id": "multistep-fit-independent-audit",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "93565442cd23ad7cfb2fa9eb44578cf9335ce37081ff3b58c9516d56d890a80f",
+        "uri": "reports/preflight/multistep-fit-independent-audit.json",
+        "media_type": "application/json",
+        "bytes": 133434
+      },
+      "scope": "All32buckets of train/validation fitting origins independently reconstructed from physical rows, bounded-heap available histories and direct future slices. No prediction/fidelity result.",
+      "parents": []
+    },
+    {
+      "evidence_id": "clean-source-direct-horizon-tests",
+      "stage": "release_test_reproduction",
+      "domain": "release",
+      "artifact": {
+        "sha256": "f47396c08dc028e34c66d2eec22e039d4b15a158668ec5b19536ccc6cc2f7778",
+        "uri": "reports/preflight/clean-source-tests-d3af4d603d0ba170.json",
+        "media_type": "application/json",
+        "bytes": 952
+      },
+      "scope": "299tests from a fresh324file source extraction using existing dependencies; not independent scientific reproduction or external proof review.",
+      "parents": []
+    },
+    {
+      "evidence_id": "horizon-head-smoke-0938337637ef",
+      "stage": "human_training_checkpoint",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "fad439d462001ef0c22c5a97f930b62d2eef5a7c1d19f0e266ba7b69121eb34d",
+        "uri": "reports/preflight/horizon-head-smoke-0938337637ef.json",
+        "media_type": "application/json",
+        "bytes": 1009
+      },
+      "scope": "Original L-BFGS real-data smoke failed convergence at500iterations. No unconverged head accepted.",
+      "parents": []
+    },
+    {
+      "evidence_id": "horizon-head-smoke-1d02241d8a78",
+      "stage": "human_training_checkpoint",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "c568c1ea36ac7e9f840d3950d89d0403030af653d5c419201507629a3eb41bce",
+        "uri": "reports/preflight/horizon-head-smoke-1d02241d8a78.json",
+        "media_type": "application/json",
+        "bytes": 10457
+      },
+      "scope": "Revised Newton-Cholesky full-fit smoke complete; same logistic objective, data and tolerance. No final human test scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "horizon-head-first-fit",
+      "stage": "human_training_checkpoint",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "a021fbca5702c1516b18e3d931904bef6c2bb3214db7237e834e8de4799cfd41",
+        "uri": "reports/preflight/horizon-head-first-fit.json",
+        "media_type": "application/json",
+        "bytes": 146174
+      },
+      "scope": "One context-known-user fitted encoder head set:100000training origins,25event/horizon predictors,33output hashes verified. Validation only, not confirmatory human fidelity.",
+      "parents": []
+    },
+    {
+      "evidence_id": "horizon-head-full-manifest-1d02241d8a78",
+      "stage": "human_training_checkpoint",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "491f0d85fbf18f12d01d41e06cadddc2dd32fbfc6024d19c10b4cf8388a0943f",
+        "uri": "reports/preflight/horizon-head-full-manifest.json",
+        "media_type": "application/json",
+        "bytes": 298730
+      },
+      "scope": "All30fixed origin-only encoder head sets complete,25marginal event/horizon heads per fit. Full output hash audit running separately. No final test predictions or metrics.",
+      "parents": [
+        "horizon-head-smoke-1d02241d8a78"
+      ]
+    },
+    {
+      "evidence_id": "human-cluster-uncertainty-completion",
+      "stage": "human_uncertainty",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-cluster-uncertainty-completion.json",
+        "sha256": "e87edbfa1ab0654636906b09542f3cc117171c339c51c16058f11b5bf78386be",
+        "bytes": 25566,
+        "media_type": "application/json"
+      },
+      "scope": "All10representations and50conditional pooled-count interval models complete. User caps and counts reconstructed. No human predictive or stationary Markov coverage established.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-cluster-uncertainty-output-audit",
+      "stage": "human_uncertainty",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/human-cluster-uncertainty-output-audit.json",
+        "sha256": "e1ecb1ca25336cbcc9f98fa813097a97d642557a0a7acc8b7d381253f0e2c860",
+        "bytes": 9471,
+        "media_type": "application/json"
+      },
+      "scope": "All100stored interval-model and integer reachability-certificate output hashes verified. Artifact audit, not independent statistical soundness proof.",
+      "parents": [
+        "human-cluster-uncertainty-completion"
+      ]
+    },
+    {
+      "evidence_id": "horizon-head-full-output-audit-1d02241d8a78",
+      "stage": "human_training_checkpoint",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/horizon-head-full-output-audit.json",
+        "sha256": "5f4e4e74852a560b4fadfd08fa5abcf22cd7bff421819fd8511f616221407135",
+        "bytes": 12682,
+        "media_type": "application/json"
+      },
+      "scope": "All30head fits and990stored output hashes verified; common origin IDs across encoders/seeds checked within protocol. No final test scores.",
+      "parents": [
+        "horizon-head-full-manifest-1d02241d8a78"
+      ]
+    },
+    {
+      "evidence_id": "final-horizon-implementation-check-cef14a90ffca",
+      "stage": "release_test_reproduction",
+      "domain": "release",
+      "artifact": {
+        "uri": "reports/preflight/horizon-final-implementation-cef14a90ffca1e89.json",
+        "sha256": "25e241d72c4b36e7c94be90c8560cfcd594e3f76b2d03d74797eda4c7966e2ae",
+        "bytes": 344,
+        "media_type": "application/json"
+      },
+      "scope": "24source-bound data-free implementation tests on pinned Modal image. Three encoder forward/feature numerical bridges, factorized archives and joint freeze checks. No human test data or end-to-end scientific reproduction.",
+      "parents": []
+    },
+    {
+      "evidence_id": "final-response-data-free-response_all_groups",
+      "stage": "release_test_reproduction",
+      "domain": "release",
+      "artifact": {
+        "uri": "reports/preflight/final-response-check-response_all_groups-b4e04aff2dd92796.json",
+        "sha256": "8b29770ae7e2591b26c7bae5882f525011a017949e05585667a9353dac68f918",
+        "bytes": 351,
+        "media_type": "application/json"
+      },
+      "scope": "32data-free response-fold/original-user scoring, forecast lookup and neural bridge tests. Subsequent resource-only config lock has a different source identity. No final human predictions or full scientific reproduction.",
+      "parents": []
+    },
+    {
+      "evidence_id": "final-response-data-free-response_heldout_groups",
+      "stage": "release_test_reproduction",
+      "domain": "release",
+      "artifact": {
+        "uri": "reports/preflight/final-response-check-response_heldout_groups-99cdb171fd0997bc.json",
+        "sha256": "d23c6afb68c8508c5edc27c227f2b69037377a43835dbb14819581c51025763d",
+        "bytes": 351,
+        "media_type": "application/json"
+      },
+      "scope": "32data-free response-fold/original-user scoring, forecast lookup and neural bridge tests. Subsequent resource-only config lock has a different source identity. No final human predictions or full scientific reproduction.",
+      "parents": []
+    },
+    {
+      "evidence_id": "final-human-joint-analysis-lock",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/final-analysis-freeze.json",
+        "sha256": "f8711071351e0709e79518e030f17d3b79495c78050c13683781982b3b5b6cac",
+        "bytes": 31854,
+        "media_type": "application/json"
+      },
+      "scope": "Joint internal pre-test lock:113source/configuration/model/case artifact identities checked; four controllers and full50job matrix retained. Not external preregistration, independent review, human fidelity or completed evaluation.",
+      "parents": []
+    },
+    {
+      "evidence_id": "final-human-five-job-output-replay",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/final-human-output-audit-c35f26f7073a-91afd3b4a08e.json",
+        "sha256": "d8b8aa43142cb18079ecd887a3587c9eccdda47b897d4b21727805b681c085f3",
+        "bytes": 15808,
+        "media_type": "application/json"
+      },
+      "scope": "First5of50finaljobs:167stored output hashes, aggregate/all-case proper losses and53primary bootstrap intervals replayed. No full-program, secondary subgroup/calibration or neural-forward replay claim.",
+      "parents": [
+        "final-human-joint-analysis-lock"
+      ]
+    },
+    {
+      "evidence_id": "lean-four-bound-lemmas-1ced0e17dddc",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/formal-bounds-1ced0e17dddc9982.json",
+        "sha256": "f40e4e85b06149efc94be6554015a07c6853b81852d1ccd1a9b94913c245fa66",
+        "bytes": 1532,
+        "media_type": "application/json"
+      },
+      "scope": "Lean4.19/mathlib pinned compiler checks four real-number recurrence/interval/equality lemmas with no admitted proofs. Not a full coupling, statistical or numerical implementation formalization.",
+      "parents": []
+    },
+    {
+      "evidence_id": "source-package-reproduction-missing-pyarrow",
+      "stage": "release_test_reproduction",
+      "domain": "release",
+      "artifact": {
+        "uri": "reports/preflight/source-package-reproduction-5769f1703fd4bd9f-8c3e82e31dc3.json",
+        "sha256": "999b24545f60219b5e26b4d2b4f43f54a12f2383b0432539df533a26aaf4a2e7",
+        "bytes": 7631,
+        "media_type": "application/json"
+      },
+      "scope": "Retained initial installed-wheel check:360passed,1failed because reproduction image omitted PyArrow. No scientific inference code changed.",
+      "parents": []
+    },
+    {
+      "evidence_id": "source-package-reproduction-8f0d15a6551c",
+      "stage": "release_test_reproduction",
+      "domain": "release",
+      "artifact": {
+        "uri": "reports/preflight/source-package-reproduction-8f0d15a6551c9259-af5ba2f912fd.json",
+        "sha256": "fc0a17d3e7cee1bccb4d19ea3e14a2ed8f34277759e37ed505e689ac540f9954",
+        "bytes": 4468,
+        "media_type": "application/json"
+      },
+      "scope": "Fresh pinned cloud environment,365source hashes, wheel build/install and361original tests with zero skips. Source-path injection disabled; installed wheel imported. Not independent whole scientific reproduction.",
+      "parents": []
+    },
+    {
+      "evidence_id": "finite-coupling-4ceca2656733c1b0",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/finite-coupling-4ceca2656733c1b0.json",
+        "sha256": "ad94806c7ca270629e79f834155df4af53c74a6786f58845e8ea0f95ef8383e1",
+        "bytes": 1737,
+        "media_type": "application/json"
+      },
+      "scope": "Successful component proof with rejected invalid-proof control. Finite maximal coupling existence and exact row/column marginals with match mass1-TV. This does not yet mechanize partition-to-concrete lifting, path-event construction, statistical assumptions or numerical implementation.",
+      "parents": []
+    },
+    {
+      "evidence_id": "finite-coupling-880d923e02b63ef4",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/finite-coupling-880d923e02b63ef4.json",
+        "sha256": "b98cf805b60bb6e519377e55a0f9034730bf2a661412b9a4028ba93bcc777e0a",
+        "bytes": 2199,
+        "media_type": "application/json"
+      },
+      "scope": "Retained failed proof compilation, not an accepted theorem. Finite maximal coupling existence and exact row/column marginals with match mass1-TV. This does not yet mechanize partition-to-concrete lifting, path-event construction, statistical assumptions or numerical implementation.",
+      "parents": []
+    },
+    {
+      "evidence_id": "finite-coupling-61d47b7f88a95a15",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/finite-coupling-61d47b7f88a95a15.json",
+        "sha256": "7b87d1b1580b2e6bc6b9c748f17a5b93982ff72da731aadb7d6e71405a4f65e0",
+        "bytes": 7013,
+        "media_type": "application/json"
+      },
+      "scope": "Retained failed proof compilation, not an accepted theorem. Finite maximal coupling existence and exact row/column marginals with match mass1-TV. This does not yet mechanize partition-to-concrete lifting, path-event construction, statistical assumptions or numerical implementation.",
+      "parents": []
+    },
+    {
+      "evidence_id": "weighted-events-15700c304db4d15e",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "uri": "reports/preflight/weighted-events-15700c304db4d15e.json",
+        "sha256": "cf854dda339d066f76fc7f4267f49e5d20d63f835b31e179bbd8810490b01869",
+        "bytes": 1588,
+        "media_type": "application/json"
+      },
+      "scope": "Successful component proof with rejected invalid-proof control. Finite joint-path weighted event-disagreement inequality and complement-mass identity. Joint-path construction from stochastic kernels and statistical/numerical validity remain separate obligations.",
+      "parents": []
+    },
+    {
+      "evidence_id": "source-continuity-b2b00f354c3c074e",
+      "stage": "release_test_reproduction",
+      "domain": "release",
+      "artifact": {
+        "uri": "reports/preflight/source-continuity-b2b00f354c3c074e.json",
+        "sha256": "89bfc856e858bb7bf8ee871ceb914a54bb4f1211ffdea948223ee9c7136b5287",
+        "bytes": 1010,
+        "media_type": "application/json"
+      },
+      "scope": "File-identity continuity, not a fresh execution of the expanded archive. Protected library/tests/tools/dependency files are unchanged. New proof components/checkers have separate successful Lean reports and invalid-proof controls; integration documentation is analytical.",
+      "parents": [
+        "source-package-reproduction-8f0d15a6551c",
+        "finite-coupling-4ceca2656733c1b0",
+        "weighted-events-15700c304db4d15e"
+      ]
+    },
+    {
+      "evidence_id": "supplementary-targets-53b74b1e479f0a1f",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/supplementary-targets-53b74b1e479f0a1f.json",
+        "sha256": "15f9f93b205d1a00a3c2e7f03af2b0a79ee8efb977b2a96c2162095932cc47c2",
+        "bytes": 16748,
+        "media_type": "application/json"
+      },
+      "scope": "All32 authenticated physical-source/case target attachments and independently formulated target predicates; not prediction, causal or formal-abstraction evidence.",
+      "parents": []
+    },
+    {
+      "evidence_id": "supplementary-adjacent-targets-128efa849c042a5b",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/supplementary-adjacent-targets-128efa849c042a5b.json",
+        "sha256": "b54a9e46500334e4ebfc99bab0c098d49a5959eeae96bd69b12b500b5c911102",
+        "bytes": 16371,
+        "media_type": "application/json"
+      },
+      "scope": "All32 private adjacent-calibration target attachments with independent target arithmetic. No fitted or human predictive guarantee.",
+      "parents": []
+    },
+    {
+      "evidence_id": "supplementary-fit-cohort-287d52d00557d282",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "uri": "reports/preflight/supplementary-fit-cohort-287d52d00557d282.json",
+        "sha256": "42d603d7fc5d35c1e56cce81c9ffbf9b35bed197ada542746df80974e0bff635",
+        "bytes": 1911,
+        "media_type": "application/json"
+      },
+      "scope": "Four outcome-blind train/validation samples and global ordinal sample replay. No supplementary test scores.",
+      "parents": []
+    },
+    {
+      "evidence_id": "interval-vertices-prism",
+      "stage": "certificate_audit",
+      "domain": "specified_model",
+      "artifact": {
+        "sha256": "69879511fc3ec3786e91518024ed9008918e4c30e94c774e1033a23f54ae238d",
+        "uri": "reports/preflight/interval-vertex-crosscheck-b46ea5f89886b53e.json",
+        "media_type": "application/json",
+        "bytes": 64666
+      },
+      "scope": "144 external PRISM queries on four small dyadic interval fixtures, not full large-world coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "human-final-figures",
+      "stage": "human_nested_abstraction",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "2362e70076aa44980b0bfea1ad1b642ba248d36b7f0e3ae3b56e71780ee96d71",
+        "uri": "reports/preflight/human-figures-d424315e2f17fb77.json",
+        "media_type": "application/json",
+        "bytes": 4864
+      },
+      "scope": "Measured figures from complete primary matrices, artifact bindings only; independent output audit remains running.",
+      "parents": []
+    },
+    {
+      "evidence_id": "supplementary-training-complete",
+      "stage": "human_training_checkpoint",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "288a7c716e98d88ccb276691ff87eeec22a4c30cff9cf1826d10175a5f01cf5f",
+        "uri": "reports/preflight/supplementary-head-training-summary.json",
+        "media_type": "application/json",
+        "bytes": 14518
+      },
+      "scope": "All 30 frozen-encoder supplementary head fits; not final test evidence.",
+      "parents": []
+    },
+    {
+      "evidence_id": "supplementary-calibration-complete",
+      "stage": "human_calibrated_parent",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "ce63e039ddbc460ebc3648d57af89c1a1af2581f22aa86550430089cbec1318e",
+        "uri": "reports/preflight/supplementary-calibration-summary.json",
+        "media_type": "application/json",
+        "bytes": 4751
+      },
+      "scope": "All ten supplementary calibration fits, 300 endpoint/state models; not unconditional human coverage.",
+      "parents": []
+    },
+    {
+      "evidence_id": "primary-complete-output-replay",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "f904d360537306eea0eeb95205ee1980c8ea6b178725f789e38efacb898fa001",
+        "uri": "reports/preflight/final-human-output-audit-c35f26f7073a-df48b059eac8.json",
+        "media_type": "application/json",
+        "bytes": 91767
+      },
+      "scope": "All50primary outputs, aggregate proper losses and fixed primary user-bootstrap contrasts; excludes neural forward and secondary subgroup calibration.",
+      "parents": []
+    },
+    {
+      "evidence_id": "supplementary-complete-output-replay",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "d589a17c0b073f1731389b031d47ecddf4321efa5a4b5bc96a3de63a0f088db6",
+        "uri": "reports/preflight/supplementary-output-audit-summary.json",
+        "media_type": "application/json",
+        "bytes": 2391
+      },
+      "scope": "Ten supplementary endpoint fits, all saved categorical/calibration cells and paired NLL contrasts; no neural forward or interval-envelope replay.",
+      "parents": []
+    },
+    {
+      "evidence_id": "trajectory-complete-output-replay",
+      "stage": "human_data_audit",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "07326f50d19ee9caa4e14918a4b6e01f416ca890825a578724ca7cfd27d85cbd",
+        "uri": "reports/preflight/trajectory-output-audit-6963249238dc5d0e.json",
+        "media_type": "application/json",
+        "bytes": 4250
+      },
+      "scope": "Ten fits, all supported sampled sequences/models/horizons, backward likelihood and explicit-index user bootstrap; sampled origin selection not repeated.",
+      "parents": []
+    },
+    {
+      "evidence_id": "within-state-response-diagnostics",
+      "stage": "human_quantization",
+      "domain": "human_data",
+      "artifact": {
+        "sha256": "311c7dbce79ef8e97474f2ad3a2f3b1ac527d4fb25ffb00ee8f6886251e2abbd",
+        "uri": "reports/preflight/state-sufficiency-d1d51a45cdd9c084.json",
+        "media_type": "application/json",
+        "bytes": 5666602
+      },
+      "scope": "Descriptive state-conditioned history/context/tab diagnostics with support thresholds, not statistical proof of predictive sufficiency.",
+      "parents": []
+    },
+    {
+      "evidence_id": "fresh-release-source-reproduction",
+      "stage": "release_test_reproduction",
+      "domain": "release",
+      "artifact": {
+        "sha256": "0de18b20645950e0829643027b76a5610e6a4d68b5dff3d0278ef14e7b963aba",
+        "uri": "reports/preflight/source-package-reproduction-a17e2c0f4cb5207b-b4e4233de2e1.json",
+        "media_type": "application/json",
+        "bytes": 6121
+      },
+      "scope": "Fresh installed-wheel513tests without skips, ten-world scientific subset and20pinned PRISM queries; no full1200world or human retraining rerun.",
+      "parents": []
+    },
+    {
+      "evidence_id": "tested-source-a17e2c0f",
+      "stage": "release_test_reproduction",
+      "domain": "release",
+      "artifact": {
+        "sha256": "a17e2c0f4cb5207b74a57bc2847612bb3e2b13b0b616e8ff31b4b60764b54b1b",
+        "uri": "reports/source-snapshots/source-a17e2c0f4cb5207b74a57bc2847612bb3e2b13b0b616e8ff31b4b60764b54b1b.tar.gz",
+        "media_type": "application/gzip",
+        "bytes": 683504
+      },
+      "scope": "The exact436file source package tested by the fresh release reproduction; result/publication files supplied separately.",
+      "parents": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "response_precision_report_sha256": "767d01218f1aa783fc261cff6aee144e8cd131509e5a9c6a900dac4fe490f53f",
+  "rows": [
+    {
+      "seed": 20261015,
+      "history_source_digest": "ced0bbdf76c38cb7d59faaf8ff77df534649533fc2be38f34021538e89bde94a",
+      "training_source_digest": "8c2afe99bb7532b901952f872abe18ce2ac08b4f9b5b340eaa0280cdb3a1383e"
+    },
+    {
+      "seed": 20261016,
+      "history_source_digest": "ced0bbdf76c38cb7d59faaf8ff77df534649533fc2be38f34021538e89bde94a",
+      "training_source_digest": "8c2afe99bb7532b901952f872abe18ce2ac08b4f9b5b340eaa0280cdb3a1383e"
+    },
+    {
+      "seed": 20261017,
+      "history_source_digest": "ced0bbdf76c38cb7d59faaf8ff77df534649533fc2be38f34021538e89bde94a",
+      "training_source_digest": "8c2afe99bb7532b901952f872abe18ce2ac08b4f9b5b340eaa0280cdb3a1383e"
+    },
+    {
+      "seed": 20261018,
+      "history_source_digest": "ced0bbdf76c38cb7d59faaf8ff77df534649533fc2be38f34021538e89bde94a",
+      "training_source_digest": "609ecd456db71cad956927bdde31c32c05952571cb381f9893da86789a050b55"
+    },
+    {
+      "seed": 20261019,
+      "history_source_digest": "ced0bbdf76c38cb7d59faaf8ff77df534649533fc2be38f34021538e89bde94a",
+      "training_source_digest": "609ecd456db71cad956927bdde31c32c05952571cb381f9893da86789a050b55"
+    }
+  ],
+  "scope": "Independent upstream source-JSON identity checks only; no outcome or performance claim"
+}

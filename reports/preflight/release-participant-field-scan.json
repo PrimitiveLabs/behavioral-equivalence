@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "files_checked": 482,
+  "findings": [],
+  "scope": "Selected aggregate JSON files searched recursively for numeric participant or individual-case identifier fields. Not a formal privacy proof; source fixtures and public author metadata are separately scoped."
+}

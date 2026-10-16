@@ -1,0 +1,60 @@
+{
+  "status": "complete",
+  "scope": "Read-only source-map and aggregate identity checks. Historical helper/config differences explicitly retained, not relabeled as current execution. No new target attachment or fitting.",
+  "controllers": [
+    {
+      "controller": "cloud/attach_supplementary_outcomes.py",
+      "current_source_digest": "3cd08be2dbe2661ebefaccfb4aef4c279aa213283e50f9d69c7f51b097d191a0",
+      "historical_source_digest": "53b74b1e479f0a1fb83d3e33db428c906050870d1011e02155e756bc6f7f3758",
+      "current_matches_historical": false,
+      "historical_version_fields": [
+        "supplementary_outcomes.py"
+      ],
+      "historical_recovery_capsule": "reports/source-snapshots/supplementary-targets-53b74b1e479f0a1f.json",
+      "report": "reports/preflight/supplementary-targets-53b74b1e479f0a1f.json",
+      "report_sha256": "15f9f93b205d1a00a3c2e7f03af2b0a79ee8efb977b2a96c2162095932cc47c2",
+      "historical_source_map_hash_matches_report": true
+    },
+    {
+      "controller": "cloud/attach_supplementary_calibration.py",
+      "current_source_digest": "128efa849c042a5be4607d4769e54444b0a198e30dbe5a9141ddd0e1a5138efc",
+      "historical_source_digest": "128efa849c042a5be4607d4769e54444b0a198e30dbe5a9141ddd0e1a5138efc",
+      "current_matches_historical": true,
+      "historical_version_fields": [],
+      "historical_recovery_capsule": null,
+      "report": "reports/preflight/supplementary-adjacent-targets-128efa849c042a5b.json",
+      "report_sha256": "b54a9e46500334e4ebfc99bab0c098d49a5959eeae96bd69b12b500b5c911102",
+      "historical_source_map_hash_matches_report": true
+    },
+    {
+      "controller": "cloud/prepare_supplementary_fit.py",
+      "current_source_digest": "2ed8a3db984c542b98090fd0d64ae8698158b297b2656945c85ea8df30f2fe60",
+      "historical_source_digest": "287d52d00557d282db992afca78bd4b29413c26dfb7bbde9913f5a69ee8770ca",
+      "current_matches_historical": false,
+      "historical_version_fields": [
+        "config.json"
+      ],
+      "historical_recovery_capsule": "reports/source-snapshots/supplementary-fit-cohort-287d52d00557d282.json",
+      "report": "reports/preflight/supplementary-fit-cohort-287d52d00557d282.json",
+      "report_sha256": "42d603d7fc5d35c1e56cce81c9ffbf9b35bed197ada542746df80974e0bff635",
+      "historical_source_map_hash_matches_report": true
+    },
+    {
+      "controller": "cloud/validate_supplementary.py",
+      "current_source_digest": "6e03e4ddefbca54103bed1b9996bb9141900c985367c9d060dfe0b6b810ddaff",
+      "historical_source_digest": "d36ae2269d0933a474bc6760547da594899e00ee2753f569b7d2c33fa27bf24d",
+      "current_matches_historical": false,
+      "historical_version_fields": [
+        "cloud.py",
+        "tests/test_supplementary_heads.py",
+        "tests/test_supplementary_outcomes.py",
+        "tools/supplementary_heads.py",
+        "tools/supplementary_outcomes.py"
+      ],
+      "historical_recovery_capsule": "reports/source-snapshots/supplementary-validation-d36ae2269d0933a4.json",
+      "report": "reports/preflight/supplementary-validation-d36ae2269d0933a4.json",
+      "report_sha256": "3189e14bee3f6745a818781a4ce5de6f868cfe0f8f4c59e159f1a81f7e47fea0",
+      "historical_source_map_hash_matches_report": true
+    }
+  ]
+}

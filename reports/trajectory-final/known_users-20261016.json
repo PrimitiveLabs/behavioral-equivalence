@@ -1,0 +1,1124 @@
+{
+  "status": "complete",
+  "source_digest": "008e1d7a132aabdb0479b8f6a6ab5cf7e9bb09f028d219b6f496b11d1658a5f0",
+  "protocol": "known_users",
+  "seed": 20261016,
+  "artifact_root": "/artifacts/joint-trajectories-008e1d7a132aabdb/known_users-20261016",
+  "sampled_origins": 4096,
+  "sampled_users": 3777,
+  "capacity_matched_states": 246,
+  "metrics": {
+    "1/parent_k256": {
+      "cases": 4096,
+      "users": 3777,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 0.6191989205421288,
+      "nll_per_decision_equal_user_mean": 0.6191989205421288,
+      "joint_nll_case_mean": 0.6184440144185293,
+      "status": "evaluated"
+    },
+    "1/finite-k64-b0p01": {
+      "cases": 4096,
+      "users": 3777,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 0.6191877586553273,
+      "nll_per_decision_equal_user_mean": 0.6191877586553273,
+      "joint_nll_case_mean": 0.6184202451551833,
+      "status": "evaluated"
+    },
+    "1/strict-k64-b0p01": {
+      "cases": 4096,
+      "users": 3777,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 0.6191989205421288,
+      "nll_per_decision_equal_user_mean": 0.6191989205421288,
+      "joint_nll_case_mean": 0.6184440144185293,
+      "status": "evaluated"
+    },
+    "1/control-random-k246": {
+      "cases": 4096,
+      "users": 3777,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 0.6247076434765659,
+      "nll_per_decision_equal_user_mean": 0.6247076434765659,
+      "joint_nll_case_mean": 0.6240592430646557,
+      "status": "evaluated"
+    },
+    "1/control-embedding-k246": {
+      "cases": 4096,
+      "users": 3777,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 0.619202173509769,
+      "nll_per_decision_equal_user_mean": 0.619202173509769,
+      "joint_nll_case_mean": 0.6184102516278704,
+      "status": "evaluated"
+    },
+    "1/control-predictive-k246": {
+      "cases": 4096,
+      "users": 3777,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 0.6192015825443534,
+      "nll_per_decision_equal_user_mean": 0.6192015825443534,
+      "joint_nll_case_mean": 0.6184547236238063,
+      "status": "evaluated"
+    },
+    "1/context.frozen_origin_iid": {
+      "cases": 4096,
+      "users": 3777,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 0.6551611777121039,
+      "nll_per_decision_equal_user_mean": 0.6551611777121039,
+      "joint_nll_case_mean": 0.6558377190907054,
+      "status": "evaluated"
+    },
+    "1/gru.frozen_origin_iid": {
+      "cases": 4096,
+      "users": 3777,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 0.6151598338674544,
+      "nll_per_decision_equal_user_mean": 0.6151598338674544,
+      "joint_nll_case_mean": 0.6144213263493744,
+      "status": "evaluated"
+    },
+    "1/transformer.frozen_origin_iid": {
+      "cases": 4096,
+      "users": 3777,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 0.6170132708689716,
+      "nll_per_decision_equal_user_mean": 0.6170132708689716,
+      "joint_nll_case_mean": 0.6163227184907987,
+      "status": "evaluated"
+    },
+    "5/parent_k256": {
+      "cases": 3968,
+      "users": 3669,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 3.1691631059701573,
+      "nll_per_decision_equal_user_mean": 0.6338326211940315,
+      "joint_nll_case_mean": 3.170046629294591,
+      "status": "evaluated"
+    },
+    "5/finite-k64-b0p01": {
+      "cases": 3968,
+      "users": 3669,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 3.168987779461518,
+      "nll_per_decision_equal_user_mean": 0.6337975558923036,
+      "joint_nll_case_mean": 3.1698468631588996,
+      "status": "evaluated"
+    },
+    "5/strict-k64-b0p01": {
+      "cases": 3968,
+      "users": 3669,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 3.1691631059701573,
+      "nll_per_decision_equal_user_mean": 0.6338326211940315,
+      "joint_nll_case_mean": 3.170046629294591,
+      "status": "evaluated"
+    },
+    "5/control-random-k246": {
+      "cases": 3968,
+      "users": 3669,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 3.194031916687674,
+      "nll_per_decision_equal_user_mean": 0.6388063833375348,
+      "joint_nll_case_mean": 3.1952396131338263,
+      "status": "evaluated"
+    },
+    "5/control-embedding-k246": {
+      "cases": 3968,
+      "users": 3669,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 3.170333816349109,
+      "nll_per_decision_equal_user_mean": 0.6340667632698218,
+      "joint_nll_case_mean": 3.170976461415652,
+      "status": "evaluated"
+    },
+    "5/control-predictive-k246": {
+      "cases": 3968,
+      "users": 3669,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 3.1688467807297394,
+      "nll_per_decision_equal_user_mean": 0.6337693561459479,
+      "joint_nll_case_mean": 3.1697693950164965,
+      "status": "evaluated"
+    },
+    "5/context.frozen_origin_iid": {
+      "cases": 3968,
+      "users": 3669,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 3.4668955661882976,
+      "nll_per_decision_equal_user_mean": 0.6933791132376596,
+      "joint_nll_case_mean": 3.47031633634134,
+      "status": "evaluated"
+    },
+    "5/gru.frozen_origin_iid": {
+      "cases": 3968,
+      "users": 3669,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 3.2537285919108165,
+      "nll_per_decision_equal_user_mean": 0.6507457183821633,
+      "joint_nll_case_mean": 3.2568321730955807,
+      "status": "evaluated"
+    },
+    "5/transformer.frozen_origin_iid": {
+      "cases": 3968,
+      "users": 3669,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 3.252402821266291,
+      "nll_per_decision_equal_user_mean": 0.6504805642532582,
+      "joint_nll_case_mean": 3.2560384022094317,
+      "status": "evaluated"
+    },
+    "10/parent_k256": {
+      "cases": 3820,
+      "users": 3541,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 6.348218102903021,
+      "nll_per_decision_equal_user_mean": 0.6348218102903022,
+      "joint_nll_case_mean": 6.348627790192831,
+      "status": "evaluated"
+    },
+    "10/finite-k64-b0p01": {
+      "cases": 3820,
+      "users": 3541,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 6.347593979815718,
+      "nll_per_decision_equal_user_mean": 0.6347593979815718,
+      "joint_nll_case_mean": 6.3479891945869555,
+      "status": "evaluated"
+    },
+    "10/strict-k64-b0p01": {
+      "cases": 3820,
+      "users": 3541,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 6.348218102903021,
+      "nll_per_decision_equal_user_mean": 0.6348218102903022,
+      "joint_nll_case_mean": 6.348627790192831,
+      "status": "evaluated"
+    },
+    "10/control-random-k246": {
+      "cases": 3820,
+      "users": 3541,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 6.398923746078435,
+      "nll_per_decision_equal_user_mean": 0.6398923746078435,
+      "joint_nll_case_mean": 6.399537632331791,
+      "status": "evaluated"
+    },
+    "10/control-embedding-k246": {
+      "cases": 3820,
+      "users": 3541,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 6.351578457719576,
+      "nll_per_decision_equal_user_mean": 0.6351578457719576,
+      "joint_nll_case_mean": 6.351694541691411,
+      "status": "evaluated"
+    },
+    "10/control-predictive-k246": {
+      "cases": 3820,
+      "users": 3541,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 6.347378803974641,
+      "nll_per_decision_equal_user_mean": 0.634737880397464,
+      "joint_nll_case_mean": 6.347881815561222,
+      "status": "evaluated"
+    },
+    "10/context.frozen_origin_iid": {
+      "cases": 3820,
+      "users": 3541,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 7.058839403788123,
+      "nll_per_decision_equal_user_mean": 0.7058839403788123,
+      "joint_nll_case_mean": 7.064706054262726,
+      "status": "evaluated"
+    },
+    "10/gru.frozen_origin_iid": {
+      "cases": 3820,
+      "users": 3541,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 6.640288348832186,
+      "nll_per_decision_equal_user_mean": 0.6640288348832186,
+      "joint_nll_case_mean": 6.6445037760655,
+      "status": "evaluated"
+    },
+    "10/transformer.frozen_origin_iid": {
+      "cases": 3820,
+      "users": 3541,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 6.626175664229621,
+      "nll_per_decision_equal_user_mean": 0.6626175664229621,
+      "joint_nll_case_mean": 6.630483931486697,
+      "status": "evaluated"
+    },
+    "25/parent_k256": {
+      "cases": 3383,
+      "users": 3141,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 15.826077923526128,
+      "nll_per_decision_equal_user_mean": 0.6330431169410451,
+      "joint_nll_case_mean": 15.811279727500011,
+      "status": "evaluated"
+    },
+    "25/finite-k64-b0p01": {
+      "cases": 3383,
+      "users": 3141,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 15.824174802176241,
+      "nll_per_decision_equal_user_mean": 0.6329669920870497,
+      "joint_nll_case_mean": 15.8093203061411,
+      "status": "evaluated"
+    },
+    "25/strict-k64-b0p01": {
+      "cases": 3383,
+      "users": 3141,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 15.826077923526128,
+      "nll_per_decision_equal_user_mean": 0.6330431169410451,
+      "joint_nll_case_mean": 15.811279727500011,
+      "status": "evaluated"
+    },
+    "25/control-random-k246": {
+      "cases": 3383,
+      "users": 3141,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 15.96463354179157,
+      "nll_per_decision_equal_user_mean": 0.6385853416716628,
+      "joint_nll_case_mean": 15.951121904057148,
+      "status": "evaluated"
+    },
+    "25/control-embedding-k246": {
+      "cases": 3383,
+      "users": 3141,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 15.84021516473421,
+      "nll_per_decision_equal_user_mean": 0.6336086065893685,
+      "joint_nll_case_mean": 15.825253713165033,
+      "status": "evaluated"
+    },
+    "25/control-predictive-k246": {
+      "cases": 3383,
+      "users": 3141,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 15.822123537179838,
+      "nll_per_decision_equal_user_mean": 0.6328849414871935,
+      "joint_nll_case_mean": 15.807396349171963,
+      "status": "evaluated"
+    },
+    "25/context.frozen_origin_iid": {
+      "cases": 3383,
+      "users": 3141,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 17.760311349678037,
+      "nll_per_decision_equal_user_mean": 0.7104124539871215,
+      "joint_nll_case_mean": 17.76217993447465,
+      "status": "evaluated"
+    },
+    "25/gru.frozen_origin_iid": {
+      "cases": 3383,
+      "users": 3141,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 16.71267350283301,
+      "nll_per_decision_equal_user_mean": 0.6685069401133203,
+      "joint_nll_case_mean": 16.692568025000394,
+      "status": "evaluated"
+    },
+    "25/transformer.frozen_origin_iid": {
+      "cases": 3383,
+      "users": 3141,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 16.661900779816115,
+      "nll_per_decision_equal_user_mean": 0.6664760311926445,
+      "joint_nll_case_mean": 16.642453955742504,
+      "status": "evaluated"
+    },
+    "50/parent_k256": {
+      "cases": 2729,
+      "users": 2555,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 31.533568651058097,
+      "nll_per_decision_equal_user_mean": 0.6306713730211619,
+      "joint_nll_case_mean": 31.4995626065409,
+      "status": "evaluated"
+    },
+    "50/finite-k64-b0p01": {
+      "cases": 2729,
+      "users": 2555,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 31.5290930452431,
+      "nll_per_decision_equal_user_mean": 0.630581860904862,
+      "joint_nll_case_mean": 31.494992357826,
+      "status": "evaluated"
+    },
+    "50/strict-k64-b0p01": {
+      "cases": 2729,
+      "users": 2555,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 31.533568651058097,
+      "nll_per_decision_equal_user_mean": 0.6306713730211619,
+      "joint_nll_case_mean": 31.4995626065409,
+      "status": "evaluated"
+    },
+    "50/control-random-k246": {
+      "cases": 2729,
+      "users": 2555,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 31.794994663164815,
+      "nll_per_decision_equal_user_mean": 0.6358998932632963,
+      "joint_nll_case_mean": 31.763906972377647,
+      "status": "evaluated"
+    },
+    "50/control-embedding-k246": {
+      "cases": 2729,
+      "users": 2555,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 31.566360233540898,
+      "nll_per_decision_equal_user_mean": 0.6313272046708179,
+      "joint_nll_case_mean": 31.532327788814072,
+      "status": "evaluated"
+    },
+    "50/control-predictive-k246": {
+      "cases": 2729,
+      "users": 2555,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 31.525706988260694,
+      "nll_per_decision_equal_user_mean": 0.6305141397652139,
+      "joint_nll_case_mean": 31.49165566521453,
+      "status": "evaluated"
+    },
+    "50/context.frozen_origin_iid": {
+      "cases": 2729,
+      "users": 2555,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 35.80599844275883,
+      "nll_per_decision_equal_user_mean": 0.7161199688551766,
+      "joint_nll_case_mean": 35.79764462025668,
+      "status": "evaluated"
+    },
+    "50/gru.frozen_origin_iid": {
+      "cases": 2729,
+      "users": 2555,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 33.690718879663194,
+      "nll_per_decision_equal_user_mean": 0.6738143775932639,
+      "joint_nll_case_mean": 33.64228485938972,
+      "status": "evaluated"
+    },
+    "50/transformer.frozen_origin_iid": {
+      "cases": 2729,
+      "users": 2555,
+      "zero_probability_sequences": 0,
+      "joint_nll_equal_user_mean": 33.5532581288539,
+      "nll_per_decision_equal_user_mean": 0.6710651625770779,
+      "joint_nll_case_mean": 33.509258250552584,
+      "status": "evaluated"
+    }
+  },
+  "comparisons": {
+    "1": {
+      "finite-k64-b0p01-vs-parent": {
+        "candidate": "finite-k64-b0p01",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -1.1161886801388221e-05,
+        "ci95": [
+          -0.00010730711437610895,
+          8.849818994598683e-05
+        ],
+        "users": 3777,
+        "cases": 4096,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "strict-k64-b0p01-vs-parent": {
+        "candidate": "strict-k64-b0p01",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "users": 3777,
+        "cases": 4096,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-random-k246-vs-parent": {
+        "candidate": "control-random-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.005508722934437189,
+        "ci95": [
+          0.002254654606858475,
+          0.008758197538066273
+        ],
+        "users": 3777,
+        "cases": 4096,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-embedding-k246-vs-parent": {
+        "candidate": "control-embedding-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 3.2529676404576358e-06,
+        "ci95": [
+          -0.0005146570381494175,
+          0.0005322591089726913
+        ],
+        "users": 3777,
+        "cases": 4096,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-predictive-k246-vs-parent": {
+        "candidate": "control-predictive-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 2.6620022247405737e-06,
+        "ci95": [
+          -0.00014749085248997947,
+          0.0001415126653268108
+        ],
+        "users": 3777,
+        "cases": 4096,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "context.frozen_origin_iid-vs-parent": {
+        "candidate": "context.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.035962257169975344,
+        "ci95": [
+          0.026927570927501716,
+          0.045574332762664184
+        ],
+        "users": 3777,
+        "cases": 4096,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "gru.frozen_origin_iid-vs-parent": {
+        "candidate": "gru.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -0.0040390866746742695,
+        "ci95": [
+          -0.007053209690106789,
+          -0.0010615295125674992
+        ],
+        "users": 3777,
+        "cases": 4096,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "transformer.frozen_origin_iid-vs-parent": {
+        "candidate": "transformer.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -0.0021856496731570614,
+        "ci95": [
+          -0.005619729763351566,
+          0.0011745642596880637
+        ],
+        "users": 3777,
+        "cases": 4096,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      }
+    },
+    "5": {
+      "finite-k64-b0p01-vs-parent": {
+        "candidate": "finite-k64-b0p01",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -3.506530172800985e-05,
+        "ci95": [
+          -7.685570549087008e-05,
+          5.829727884806433e-06
+        ],
+        "users": 3669,
+        "cases": 3968,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "strict-k64-b0p01-vs-parent": {
+        "candidate": "strict-k64-b0p01",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -1.1952523704740714e-18,
+        "ci95": [
+          -3.911520119039554e-18,
+          1.6756227851899167e-18
+        ],
+        "users": 3669,
+        "cases": 3968,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-random-k246-vs-parent": {
+        "candidate": "control-random-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.004973762143503159,
+        "ci95": [
+          0.0038270731723009234,
+          0.006065588600311161
+        ],
+        "users": 3669,
+        "cases": 3968,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-embedding-k246-vs-parent": {
+        "candidate": "control-embedding-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.0002341420757901865,
+        "ci95": [
+          -2.129590225802907e-05,
+          0.0005019139481434651
+        ],
+        "users": 3669,
+        "cases": 3968,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-predictive-k246-vs-parent": {
+        "candidate": "control-predictive-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -6.326504808372683e-05,
+        "ci95": [
+          -0.00012724368139780922,
+          -1.6974080938123847e-06
+        ],
+        "users": 3669,
+        "cases": 3968,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "context.frozen_origin_iid-vs-parent": {
+        "candidate": "context.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.05954649204362806,
+        "ci95": [
+          0.053602173043281895,
+          0.06604474398305243
+        ],
+        "users": 3669,
+        "cases": 3968,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "gru.frozen_origin_iid-vs-parent": {
+        "candidate": "gru.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.016913097188131842,
+        "ci95": [
+          0.012326317065232543,
+          0.021584038782851606
+        ],
+        "users": 3669,
+        "cases": 3968,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "transformer.frozen_origin_iid-vs-parent": {
+        "candidate": "transformer.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.01664794305922673,
+        "ci95": [
+          0.012192648362697326,
+          0.021336805681431283
+        ],
+        "users": 3669,
+        "cases": 3968,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      }
+    },
+    "10": {
+      "finite-k64-b0p01-vs-parent": {
+        "candidate": "finite-k64-b0p01",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -6.24123087303325e-05,
+        "ci95": [
+          -8.990330564981345e-05,
+          -3.500474867562915e-05
+        ],
+        "users": 3541,
+        "cases": 3820,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "strict-k64-b0p01-vs-parent": {
+        "candidate": "strict-k64-b0p01",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -2.0301310602789857e-18,
+        "ci95": [
+          -5.071408478766424e-18,
+          9.40797222046274e-19
+        ],
+        "users": 3541,
+        "cases": 3820,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-random-k246-vs-parent": {
+        "candidate": "control-random-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.005070564317541451,
+        "ci95": [
+          0.004353672574862402,
+          0.00580342765086254
+        ],
+        "users": 3541,
+        "cases": 3820,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-embedding-k246-vs-parent": {
+        "candidate": "control-embedding-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.0003360354816553964,
+        "ci95": [
+          0.0001705401223309617,
+          0.0004976761674290232
+        ],
+        "users": 3541,
+        "cases": 3820,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-predictive-k246-vs-parent": {
+        "candidate": "control-predictive-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -8.392989283805203e-05,
+        "ci95": [
+          -0.00013401217039252792,
+          -3.700440975145378e-05
+        ],
+        "users": 3541,
+        "cases": 3820,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "context.frozen_origin_iid-vs-parent": {
+        "candidate": "context.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.07106213008851009,
+        "ci95": [
+          0.06443066433461572,
+          0.07779033288968532
+        ],
+        "users": 3541,
+        "cases": 3820,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "gru.frozen_origin_iid-vs-parent": {
+        "candidate": "gru.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.02920702459291649,
+        "ci95": [
+          0.0236402057375506,
+          0.03500462765514171
+        ],
+        "users": 3541,
+        "cases": 3820,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "transformer.frozen_origin_iid-vs-parent": {
+        "candidate": "transformer.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.027795756132660013,
+        "ci95": [
+          0.022261797807287313,
+          0.033457711386800454
+        ],
+        "users": 3541,
+        "cases": 3820,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      }
+    },
+    "25": {
+      "finite-k64-b0p01-vs-parent": {
+        "candidate": "finite-k64-b0p01",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -7.61248539953553e-05,
+        "ci95": [
+          -9.193281610817784e-05,
+          -6.0424474057642245e-05
+        ],
+        "users": 3141,
+        "cases": 3383,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "strict-k64-b0p01-vs-parent": {
+        "candidate": "strict-k64-b0p01",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -1.767308221307158e-19,
+        "ci95": [
+          -3.729020346958103e-18,
+          3.145808633926741e-18
+        ],
+        "users": 3141,
+        "cases": 3383,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-random-k246-vs-parent": {
+        "candidate": "control-random-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.0055422247306178,
+        "ci95": [
+          0.005075139632771512,
+          0.006014324456566489
+        ],
+        "users": 3141,
+        "cases": 3383,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-embedding-k246-vs-parent": {
+        "candidate": "control-embedding-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.0005654896483234557,
+        "ci95": [
+          0.0004758809990749383,
+          0.0006511812684517332
+        ],
+        "users": 3141,
+        "cases": 3383,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-predictive-k246-vs-parent": {
+        "candidate": "control-predictive-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -0.00015817545385141344,
+        "ci95": [
+          -0.00019039736941590127,
+          -0.0001271376101998145
+        ],
+        "users": 3141,
+        "cases": 3383,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "context.frozen_origin_iid-vs-parent": {
+        "candidate": "context.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.07736933704607642,
+        "ci95": [
+          0.0715246380911029,
+          0.08323588608974056
+        ],
+        "users": 3141,
+        "cases": 3383,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "gru.frozen_origin_iid-vs-parent": {
+        "candidate": "gru.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.03546382317227521,
+        "ci95": [
+          0.02969442288266759,
+          0.04138753143514737
+        ],
+        "users": 3141,
+        "cases": 3383,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "transformer.frozen_origin_iid-vs-parent": {
+        "candidate": "transformer.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.03343291425159964,
+        "ci95": [
+          0.028027881084177867,
+          0.039153142149485835
+        ],
+        "users": 3141,
+        "cases": 3383,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      }
+    },
+    "50": {
+      "finite-k64-b0p01-vs-parent": {
+        "candidate": "finite-k64-b0p01",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -8.951211629991659e-05,
+        "ci95": [
+          -0.00010008018196149305,
+          -7.727385958453013e-05
+        ],
+        "users": 2555,
+        "cases": 2729,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "strict-k64-b0p01-vs-parent": {
+        "candidate": "strict-k64-b0p01",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -1.3687681125515628e-18,
+        "ci95": [
+          -5.105722324597099e-18,
+          2.4550920114020097e-18
+        ],
+        "users": 2555,
+        "cases": 2729,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-random-k246-vs-parent": {
+        "candidate": "control-random-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.005228520242134362,
+        "ci95": [
+          0.004829555587998421,
+          0.0056367064722627125
+        ],
+        "users": 2555,
+        "cases": 2729,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-embedding-k246-vs-parent": {
+        "candidate": "control-embedding-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.0006558316496560652,
+        "ci95": [
+          0.0005942518971842579,
+          0.000719088636307751
+        ],
+        "users": 2555,
+        "cases": 2729,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "control-predictive-k246-vs-parent": {
+        "candidate": "control-predictive-k246",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": -0.00015723325594806936,
+        "ci95": [
+          -0.00018000624938694333,
+          -0.0001336203411741335
+        ],
+        "users": 2555,
+        "cases": 2729,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "context.frozen_origin_iid-vs-parent": {
+        "candidate": "context.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.08544859583401467,
+        "ci95": [
+          0.07854219732215698,
+          0.09311302433505557
+        ],
+        "users": 2555,
+        "cases": 2729,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "gru.frozen_origin_iid-vs-parent": {
+        "candidate": "gru.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.04314300457210198,
+        "ci95": [
+          0.03680957267577545,
+          0.04997145320914481
+        ],
+        "users": 2555,
+        "cases": 2729,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "transformer.frozen_origin_iid-vs-parent": {
+        "candidate": "transformer.frozen_origin_iid",
+        "reference": "parent_k256",
+        "candidate_minus_reference_nats": 0.04039378955591604,
+        "ci95": [
+          0.03441139643429208,
+          0.04709477712851725
+        ],
+        "users": 2555,
+        "cases": 2729,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261023,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      }
+    }
+  },
+  "censoring": {
+    "1": 0,
+    "5": 128,
+    "10": 276,
+    "25": 713,
+    "50": 1367
+  },
+  "output_sha256": {
+    "joint-loss-prefixes.npz": "bb0567d8fc176dc93227fc11cd689b0f8da99ed85a05c43098a57b0800961149",
+    "sampled-trajectories.npz": "a56d67a62160be62413f6e753928e76c274c1b8f8bed3703b20c4c785fff465e",
+    "source.json": "008e1d7a132aabdb0479b8f6a6ab5cf7e9bb09f028d219b6f496b11d1658a5f0"
+  },
+  "wall_seconds": 29.998378886,
+  "scope": "Exploratory recorded click trajectories under the logging policy, conditional on observed horizons. No intentional abandonment, arbitrary-interface, causal transfer or psychological state claim.",
+  "numeric_policy": "Unclipped sequence probabilities; infinite loss has null mean plus explicit failure count; comparisons only on fully finite models and shared supported original users."
+}

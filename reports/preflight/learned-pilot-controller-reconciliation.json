@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "scope": "Read-only structural/numeric aggregate checks of retained engineering pilots. No fresh model inference, certificate replay or confirmatory claim.",
+  "strict_grid_cases": 12,
+  "finite_property_grid_cases": 12,
+  "quantization_metric_cells": 20,
+  "quantization_paired_comparisons": 8,
+  "synthetic_pilot_property_cells": 80,
+  "strict_latent_state_range": [
+    255,
+    256
+  ],
+  "finite_property_latent_state_range": [
+    159,
+    253
+  ],
+  "inputs": [
+    {
+      "path": "reports/preflight/human-learned-certified-pilot.json",
+      "sha256": "27e8f57eefe29395733fd7b28b8c9e125beddea4517b5be2dc8b5d45b3469a42"
+    },
+    {
+      "path": "reports/preflight/human-property-compression-pilot.json",
+      "sha256": "4f51c13de5ca80b6492f28513c1aad74abca83040a783802054ce438c1ff9224"
+    },
+    {
+      "path": "reports/preflight/human-quantization-pilot.json",
+      "sha256": "b8a85de6f4ba48095acef4dda985c1a2e0b3bfeeaaa5ec9e39966ae867b379cf"
+    },
+    {
+      "path": "reports/preflight/synthetic-pilot.json",
+      "sha256": "f743d37abee411e75062d13f807339539231c6a8776bb83e3911949c81521543"
+    }
+  ]
+}

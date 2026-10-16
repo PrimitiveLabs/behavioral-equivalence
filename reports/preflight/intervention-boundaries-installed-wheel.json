@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "scope": "Local new intervention/search tests against exact cloud-tested installed wheel, including two complete 16-state budget-2 horizon-1 synthetic benchmarks; not a new full campaign or human evidence",
+  "wheel_sha256": "d035f9594ff2921ae72ffd2ccae3bb5fb3edb6a795c51d16542b69c28c021ede",
+  "cloud_parent": "reports/preflight/source-package-reproduction-6b90415e31c16537-e52eea4696b4.json",
+  "test_path": "tests/test_intervention_boundaries.py",
+  "test_sha256": "4254b03d560ae671b0e8bbdf05bbae4c22fe1d029492bf6be8b3008f9ebb067a",
+  "tests_passed": 46,
+  "tests_skipped": 0,
+  "installed_wheel_import_verified": true,
+  "dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pydantic": "2.11.7",
+    "pytest": "8.4.1"
+  },
+  "command": [
+    "/Users/rohittalluri/projects/behavioral-equivalence/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-W",
+    "error",
+    "-o",
+    "pythonpath=",
+    "tests/test_intervention_boundaries.py"
+  ],
+  "stdout": "..............................................                           [100%]\n46 passed in 0.21s\n",
+  "stderr": ""
+}

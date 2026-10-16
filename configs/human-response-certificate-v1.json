@@ -1,0 +1,14 @@
+{
+  "schema_version": "human-response-point-certificate-v1",
+  "horizons": [
+    1
+  ],
+  "bits": 48,
+  "properties": [
+    "positive",
+    "negative"
+  ],
+  "expected_models": 20,
+  "expected_contexts": 75,
+  "scope": "Serialized fitted point models only; no empirical human guarantee."
+}

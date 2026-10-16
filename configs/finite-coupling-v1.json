@@ -1,0 +1,12 @@
+{
+  "schema_version": "finite-coupling-v1",
+  "lean_release": "v4.19.0",
+  "mathlib_tag": "v4.19.0",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "theorems": [
+    "BehavioralCoupling.finite_maximal_coupling"
+  ],
+  "scope": "Finite maximal coupling existence and exact row/column marginals with match mass1-TV. This does not yet mechanize partition-to-concrete lifting, path-event construction, statistical assumptions or numerical implementation.",
+  "resource_allowance_usd": 0.02,
+  "resource_scope": "One300secondCPU check plus small startup allowance; public toolchain base is cached from the prior check. Not a provider-enforced lifetime cap."
+}

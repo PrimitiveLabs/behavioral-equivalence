@@ -1,0 +1,12 @@
+{
+  "schema_version": "case-inference-verification-v1",
+  "training_root": "human-calendar-training-v3-8c2afe99bb75",
+  "protocol": "known_users",
+  "architecture": "gru",
+  "seed": 20261015,
+  "fit_report_sha256": "25046fd0a2d3958837c93c2227e8693b7686ce70f95a190c432798e7329ee65d",
+  "split": "validation",
+  "probability_absolute_tolerance": 0.000001,
+  "inference_batch_size": 2048,
+  "scope": "Raw audited cases/context through frozen preprocessing and model must reproduce stored validation forecasts. No target fields accessed or final test predictions generated."
+}

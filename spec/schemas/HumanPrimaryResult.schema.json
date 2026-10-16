@@ -1,0 +1,80 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "protocol": {
+      "enum": [
+        "known_users",
+        "unseen_users"
+      ],
+      "title": "Protocol",
+      "type": "string"
+    },
+    "seed": {
+      "title": "Seed",
+      "type": "integer"
+    },
+    "phase": {
+      "const": "confirmatory",
+      "title": "Phase",
+      "type": "string"
+    },
+    "parent_latent_states": {
+      "const": 256,
+      "title": "Parent Latent States",
+      "type": "integer"
+    },
+    "reduced_latent_states": {
+      "maximum": 256,
+      "minimum": 1,
+      "title": "Reduced Latent States",
+      "type": "integer"
+    },
+    "candidate_minus_reference_nats": {
+      "title": "Candidate Minus Reference Nats",
+      "type": "number"
+    },
+    "ci95": {
+      "maxItems": 2,
+      "minItems": 2,
+      "prefixItems": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        }
+      ],
+      "title": "Ci95",
+      "type": "array"
+    },
+    "users": {
+      "minimum": 2,
+      "title": "Users",
+      "type": "integer"
+    },
+    "cases": {
+      "minimum": 2,
+      "title": "Cases",
+      "type": "integer"
+    },
+    "report_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Report Sha256",
+      "type": "string"
+    }
+  },
+  "required": [
+    "protocol",
+    "seed",
+    "phase",
+    "parent_latent_states",
+    "reduced_latent_states",
+    "candidate_minus_reference_nats",
+    "ci95",
+    "users",
+    "cases",
+    "report_sha256"
+  ],
+  "title": "HumanPrimaryResult",
+  "type": "object"
+}

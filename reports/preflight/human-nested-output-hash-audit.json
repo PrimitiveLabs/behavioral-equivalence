@@ -1,0 +1,68 @@
+{
+  "observed_at": "2026-10-16T01:32:26.769147+00:00",
+  "status": "complete",
+  "fits": 10,
+  "rows": [
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "report_sha256": "bf550b974418cca730372a948a47fe6aaad67924184f7e4501e26a09df630865",
+      "verified_output_files": 70
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "report_sha256": "8274887603281d53fb01274f1359db777b4c097b216730e2dd0dff2f3995c0c7",
+      "verified_output_files": 70
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "report_sha256": "a3d32dd0bc9082d306f418a247fb69dea6e97140f125814f3c6d072891d501ac",
+      "verified_output_files": 64
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "report_sha256": "c97e34418046846ac77a96d7506c5cc6d84174ba16d0d9ba19c7d8f9e63cdc20",
+      "verified_output_files": 64
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "report_sha256": "a37f433f816bc1f6b3ef1f038a83c31bfad6b3b9c46145f6d1decea1d47245ae",
+      "verified_output_files": 70
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "report_sha256": "3984736c12719c3e28a95e5acb4855c2a76eb506f89b77b1ecd985ea5a561fa1",
+      "verified_output_files": 70
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "report_sha256": "3e3ac1c0c6c6f7ec9db5306adcf5a59e0e9aa7af552ec76aa60c1f993cd727de",
+      "verified_output_files": 64
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "report_sha256": "6310d5689bbdda8ccf8b493f488de9a475808e3ee1da91fc2ae55db54d0fa366",
+      "verified_output_files": 70
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "report_sha256": "de326a452144e5d5c01bf89bc68d649a9c07862cedbe0c7869c2cec4abdb2bb4",
+      "verified_output_files": 64
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "report_sha256": "ae5167bef66c0e40564520a4aa314fe658105a8ffa2ac1f42d62ff5701d4650c",
+      "verified_output_files": 64
+    }
+  ],
+  "scope": "Stored certificate and model artifact hashes only, not independent numerical replay or human predictive evaluation"
+}

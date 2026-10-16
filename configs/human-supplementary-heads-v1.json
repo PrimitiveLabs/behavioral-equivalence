@@ -1,0 +1,194 @@
+{
+  "schema_version": "supplementary-head-design-v1",
+  "status": "execution_frozen",
+  "study": "Supplementary evaluation defined after primary click scoring began; cannot replace primary hypotheses",
+  "protocols": [
+    "known_users",
+    "unseen_users"
+  ],
+  "seeds": [
+    20261015,
+    20261016,
+    20261017,
+    20261018,
+    20261019
+  ],
+  "architectures": [
+    "context",
+    "gru",
+    "transformer"
+  ],
+  "parent_probes": [
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "3cac5acd2e905a591b0a826f2e4b364d313d6c4447356f7e28247c75b256e6c7",
+        "gru": "25046fd0a2d3958837c93c2227e8693b7686ce70f95a190c432798e7329ee65d",
+        "transformer": "a4048f21e61a52727839abc5845cecf87da2c3d799f2bc575775ea1fe095b53d"
+      }
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "923cdfc26001d359f530a54d8599dbe3dab69b3c8654d4dca9384d11011d6652",
+        "gru": "1031ff8239ca9d57704298bd6cf80ae134a33b341288d73e87dd70d4048eec62",
+        "transformer": "91ad9cc8c1ab1262a2b0e663c9888f9756b646d5bd27def37d3d4fcb12ff95da"
+      }
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "87f0cea154f1536bf4c102c6d8fb9886afeaa2ce0dbf7010fa3aefc02aaba62b",
+        "gru": "3fc604fcb0d7d5f6facd31fa21c52f8e5b1228d388716d84a24ff0c89454fe08",
+        "transformer": "e5680be5f85b9809b69e3d6deb4679ea83a308b71bb30d97bc5af46d88e2dea0"
+      }
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "training_root": "human-calendar-training-v4-replicates-609ecd456db7",
+      "fit_report_sha256": {
+        "context": "93f2bfa457041c3c4d4ec34de17dcb402d9ea24c0659239efe21ced637a24d58",
+        "gru": "6472527fcb5fa2bc18e8845ff6ef6e003204662ea47de084318659994187f4b2",
+        "transformer": "a0690a9973903a503495b10bfb1f76e808a4866e6c7a2aec58d4bd2193c631d4"
+      }
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "training_root": "human-calendar-training-v4-replicates-609ecd456db7",
+      "fit_report_sha256": {
+        "context": "85f4ae44c6fe6c2d66e46e9c7b79d71ef708c2984b423def356a5a50b620f4ef",
+        "gru": "609765ef318f6bfeb383bb004f3b15fac888f5626eecff1434da3f3c5fd8a5bd",
+        "transformer": "a8b474569054887e758ecb4d601e2f8e87f84fef9d9b40eb38c9a31f22a22072"
+      }
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "7b08dfcb2d6ba67f62a2cc88334098add86a29c611cb58f92182c8c15b4d97a5",
+        "gru": "8686ccebfe7c115508eba5c3022db8f70553d7a2493676f2107d2b9148b7902f",
+        "transformer": "399afe37f37ebc680ffa61cd3b742a31e2c25bee453799360481b4cd3f9f72cb"
+      }
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "a1290f08d66ce0d95b53c25a1d94dcb66788118dec80978ca80c7a60ad09cd22",
+        "gru": "a60a6bb52860249a8bcf1bd520c8b71e443618bd32020c2b591cb6a94b2f9c33",
+        "transformer": "f89c8c1b39de752cfa534497f64301461ea58d17502b1e9207686b6dfef03b57"
+      }
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "f57536f2b2f88f4494d2da7fdb2634e9ff734f87f819bd002074fbdf26f8250d",
+        "gru": "ce6fcc8529eaee0338ea5eded9c1a3b86d6b2ea8a592e22859b6f32efef95ad1",
+        "transformer": "63829bf875846493cb0c4fcce5f548ab6ea9bde75574749d5fddd7f743f37a5c"
+      }
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "training_root": "human-calendar-training-v4-replicates-609ecd456db7",
+      "fit_report_sha256": {
+        "context": "d18cd449081dde6c36297f7baebfe42af1d30de319d871550a567b719b9d3f53",
+        "gru": "1bc4681e655d6246b71e2d09841fa2e88f4c036dd4ba1a579a88b1ebaa9e6864",
+        "transformer": "2e0ed8e59ccc44b676e1f1445772c8e88dcdf9ad7211e9c31312186614391878"
+      }
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "training_root": "human-calendar-training-v4-replicates-609ecd456db7",
+      "fit_report_sha256": {
+        "context": "254c522b197225843762519a8e85e445b65ebfade3a7ef87220adc1a7f15afd1",
+        "gru": "d48741d614abc04cb226f377e2b65d7b3b8530679b1539ad62ac3fd16554758f",
+        "transformer": "48bf6e41f3d2451488831c224fa0470af5fecf54ba32625c1d371c0dfea2237a"
+      }
+    }
+  ],
+  "target_attachment_root": "supplementary-targets-53b74b1e479f0a1f",
+  "target_attachment_report_sha256": "15f9f93b205d1a00a3c2e7f03af2b0a79ee8efb977b2a96c2162095932cc47c2",
+  "endpoints": [
+    {
+      "name": "is_like",
+      "classes": 2
+    },
+    {
+      "name": "is_follow",
+      "classes": 2
+    },
+    {
+      "name": "is_comment",
+      "classes": 2
+    },
+    {
+      "name": "is_forward",
+      "classes": 2
+    },
+    {
+      "name": "is_hate",
+      "classes": 2
+    },
+    {
+      "name": "watch_category",
+      "classes": 4
+    }
+  ],
+  "watch_cuts_ms": [
+    1000,
+    5000,
+    30000
+  ],
+  "sampling": {
+    "maximum_train_cases": 100000,
+    "maximum_validation_cases": 100000,
+    "seed": 20261023,
+    "rule": "Uniform global case ordinals per protocol/role before endpoint missingness; common across all architectures/seeds. No test cases."
+  },
+  "head": {
+    "C_grid": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "selection": "lowest equal-user validation categorical NLL per endpoint; tie picks lower C; no test input",
+    "solver": "newton-cholesky",
+    "max_iter": 500,
+    "tol": 1e-06,
+    "pseudo_observations_per_class": 0.5,
+    "probability_floor": 1e-06,
+    "no_validation_labels": "Keep endpoint, select lowest C and flag validation unavailable",
+    "no_training_labels": "Keep endpoint record unavailable; do not claim trained predictions"
+  },
+  "weighting": "Equal original users among endpoint-observed cases in each declared role",
+  "scope": "Frozen-encoder probes; no new neural optimization, no joint endpoint certificate yet",
+  "execution_gates": [
+    "packed sampled fitting-cohort audit",
+    "controller/source/test identity freeze",
+    "full budget reservation before submissions",
+    "independent result replay",
+    "new endpoint emissions and certificates before preservation claims"
+  ],
+  "case_root": "datasets/kuairand-27k/prepared-candidate-v2/confirmatory-cases-d05a64f50a264877",
+  "case_report_sha256": "94ef98862c3fadaeedf35c0a823b376cadbbc35b4002d35c9b05b30b97c3ce81",
+  "context_root": "datasets/kuairand-27k/prepared-candidate-v2/confirmatory-cases-d05a64f50a264877/intrinsic-context-a0417b0a188a0c95",
+  "context_report_sha256": "8db0da944401d3e5347aeab4defadab01be4a22d9599e3d99ea7f2217d05cafd",
+  "target_attachment_report_canonical_digest": "db82c796c087fa1f6093971edd4c8d82fae31df979036694b482834d2b0dc1c7",
+  "target_attachment_report_sha256_scope": "Local returned aggregate report identity; remote report verified by canonical JSON digest, while individual arrays use byte SHA.",
+  "fitting_cohort_root": "supplementary-fit-cohort-287d52d00557d282",
+  "fitting_cohort_canonical_digest": "deb2075723c028b2cd24079fe4adb2d262a427b0c3633a21e8671013a6375850"
+}

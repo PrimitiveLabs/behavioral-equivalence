@@ -1,0 +1,54 @@
+{
+  "schema_version": "human-trajectory-supplement-v1",
+  "status": "design_before_trajectory_scoring_not_primary_preregistration",
+  "protocols": [
+    "known_users",
+    "unseen_users"
+  ],
+  "seeds": [
+    20261015,
+    20261016,
+    20261017,
+    20261018,
+    20261019
+  ],
+  "decision_horizons": [
+    1,
+    5,
+    10,
+    25,
+    50
+  ],
+  "sample_limit_per_protocol": 4096,
+  "sample_seed": 20261023,
+  "sample_rule": "Lowest SHA256 of trajectory-v1:seed:physical_case_id over all eligible protocol origins before examining future support or outcomes. Same selected IDs across all fits and models. Retain censoring denominators.",
+  "models": [
+    "parent_k256",
+    "nested.strict-k64-b0p01",
+    "nested.finite-k64-b0p01",
+    "exact_capacity_matched_random_embedding_predictive_controls",
+    "context.frozen_origin_iid",
+    "gru.frozen_origin_iid",
+    "transformer.frozen_origin_iid"
+  ],
+  "origin_inputs": "Reuse source-bound final-horizon saved state_k256 and iid_origin arrays, with exact case ID and output hash checks. No new neural inference.",
+  "scoring": "Joint sequence NLL and NLL per observed decision; forward marginalization over latent paths, no future state assignments. Zero support reported as infinite NLL with support-failure counts, never clipped.",
+  "inference": "Equal original users within each fully observed sampled horizon; paired user-cluster percentile intervals with 2000 shared resamples when both model losses finite. Descriptive exploratory comparisons, no new confirmatory success criterion.",
+  "not_joint_models": "Direct marginal horizon heads do not define a coherent sequence distribution and are not multiplied into a trajectory forecast. Frozen-origin iid comparators explicitly remain weak joint baselines.",
+  "prerequisites": [
+    "Complete source-bound sequence reconstruction and aggregate target replay",
+    "Bind all ten final-horizon output identities and all model identities",
+    "Lock source and config identities before first trajectory score"
+  ],
+  "execution": {
+    "ledger": "calibrated-parent-budget.sqlite",
+    "ceiling_usd": 25,
+    "proposed_reservation_per_fit_usd": 0.3,
+    "max_attached_jobs": 2,
+    "cpu": 4,
+    "memory_gib": 8,
+    "timeout_seconds": 1800,
+    "retries": 0
+  },
+  "scope": "Exploratory recorded click trajectories under the logging policy, conditional on observed horizons. No intentional abandonment, arbitrary-interface, causal transfer or psychological state claim."
+}

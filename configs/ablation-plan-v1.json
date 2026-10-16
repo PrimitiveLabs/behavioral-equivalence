@@ -1,0 +1,105 @@
+{
+  "schema_version": "research-ablation-plan-v1",
+  "recorded_at": "2026-10-16T00:11:01.386997+00:00",
+  "status": "Recorded before final human predictive scores; not evidence of execution",
+  "axes": [
+    {
+      "axis": "formal_equivalence",
+      "contrast": "Matched unverified embedding/predictive/random controls versus certified reductions",
+      "domain": "Synthetic E1 and human D6",
+      "status": "Human final comparisons pending",
+      "construction_config": {
+        "path": "configs/human-nested-abstraction-v1.json",
+        "sha256": "3b00aa02c1f1772812918b0b4c7c00194439b4960e36e8e15453e75ace31ad8d"
+      }
+    },
+    {
+      "axis": "transition_uncertainty",
+      "contrast": "Same4000calibration datasets: Hoeffding/Clopper-Pearson sets versus point estimates",
+      "domain": "Synthetic E3",
+      "status": "Synthetic nominal arithmetic replay complete; human pooled intervals constructed, final diagnostics pending",
+      "construction_config": {
+        "path": "configs/nominal-ablation-v1.json",
+        "sha256": "17dccfa42ef906991f442d1c61f7b4db42aa2757a55773909d9036ab241fd4fa"
+      }
+    },
+    {
+      "axis": "counterexample_refinement",
+      "contrast": "Unchanged/random-capacity/refined models with identical observed kernels or response tables",
+      "domain": "Synthetic E4 and supported known-user response E4H",
+      "status": "Synthetic complete; human candidates complete, final human loss pending",
+      "construction_config": {
+        "path": "configs/human-response-frontier-v1.json",
+        "sha256": "a398ba353976ea338552d2293349e4781c27ac87e98d8dd9b764f8c4337bfd99"
+      }
+    },
+    {
+      "axis": "behavioral_history",
+      "contrast": "Trained context-only baseline versus GRU and Transformer on identical cases",
+      "domain": "Human E2",
+      "status": "All30fits complete; final context-only/sequence comparisons pending",
+      "construction_config": {
+        "path": "configs/human-training-calendar-v3.json",
+        "sha256": "6085d9449ba91dcd802393ea261eb96f70c01b486a1add7ddbd3e423bce78b68"
+      }
+    },
+    {
+      "axis": "equivalence_tolerance",
+      "contrast": "Exact and approximate budgets, with fixed primary and full secondary frontier",
+      "domain": "Synthetic E1 and human D6",
+      "status": "All10human nested grids complete with primary compression failures; final scores pending",
+      "construction_config": {
+        "path": "configs/synthetic-main-v3.json",
+        "sha256": "a28ad593d4291357a3193336c9fe721b501cd01ff9b5d6944cb594321350231f"
+      }
+    },
+    {
+      "axis": "prediction_horizon",
+      "contrast": "Prespecified finite-horizon event errors and conditional observed-horizon human cohorts",
+      "domain": "Synthetic E1/E3 and human D6",
+      "status": "Synthetic complete; human inputs audited, forecasts pending",
+      "construction_config": {
+        "path": "configs/human-multistep-cohort-v1.json",
+        "sha256": "0e0d2c3e10b9fe87aa3aac62cbbc693d12e38a2408af6697402e1471798c619e"
+      }
+    },
+    {
+      "axis": "transition_sample_size",
+      "contrast": "100/1000/10000samples per row in known synthetic worlds",
+      "domain": "Synthetic E3",
+      "status": "Completed synthetic study; no human iid-row guarantee",
+      "construction_config": {
+        "path": "configs/uncertainty-main-v1.json",
+        "sha256": "087b20e567ff2113f0548152dd3bc8225ca5db4d824f648939ad58adf91a68fd"
+      }
+    },
+    {
+      "axis": "environment_diversity",
+      "contrast": "Fixed8nonneutral queries from narrow/medium/broad training catalogues, paired generating worlds and identical held-out points",
+      "domain": "Synthetic E4 extension",
+      "status": "Complete exploratory400world/96000metric/19200replayed-certificate extension;10seed-cluster summaries, no human claim",
+      "construction_config": {
+        "path": "configs/environment-diversity-v1.json",
+        "sha256": "e83bd7e2c1e5e372f8caf3dd6d92f7c4fe9ac6279179c8e239d410975fc4281d"
+      },
+      "result": {
+        "path": "reports/preflight/environment-diversity-summary.json",
+        "sha256": "15fe472035a8f7002b1d32cfd3d557af9b9c5c266229f6f5a4d9d94f9d322d58"
+      }
+    }
+  ],
+  "negative_controls": "Existing100synthetic response-invariant worlds. Do not claim arbitrary human interface negative controls.",
+  "human_history_length_description": {
+    "bins": [
+      "0",
+      "1-8",
+      "9-16",
+      "17-32"
+    ],
+    "definition": "Count of feedback-rate tokens1through16, excluding padding0 and empty-history marker17. Fixed before final human scoring.",
+    "scope": "Supported natural-history cohorts, not retrained history-width or causal memory effects"
+  },
+  "model_complexity": "Report actual parameter counts and discrete state/edge counts, matched state-capacity controls and shared current-item/context features. Do not claim isolated hidden-width effects without retraining.",
+  "multiplicity": "D6primary intersection-union over five seeds and both protocols; E4Hprimary intersection-union over five known-user seeds. Secondary ablation intervals are descriptive, not selective confirmatory discoveries. New diversity extension is exploratory.",
+  "completion": "All eight axes must have actual output or an explicit supported-data limitation; this plan alone does not complete D8."
+}

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "observed_at": "2026-10-16T09:28:59.991002+00:00",
+  "tests": 80,
+  "skips": 0,
+  "warnings_as_errors": true,
+  "elapsed_seconds": 1.81,
+  "command": "PYTHONPATH=/tmp/research-response-installed .venv/bin/python -m pytest -q -W error -o pythonpath= tests/test_guarded_modal.py tests/test_final_human_runner.py tests/test_source_reproduction_runner.py tests/test_release_checker_boundaries.py",
+  "test_files": [
+    {
+      "path": "tests/test_guarded_modal.py",
+      "sha256": "a8f66ef78cf3925cdfd7d8d069308abdc6fc7218c6937c5922afe59b7dff22bf"
+    },
+    {
+      "path": "tests/test_final_human_runner.py",
+      "sha256": "c2ad643f4fd0ed27eeaf0fc0e4fee23b99f48ef0218c38c7f3e4b5f7d1f202a0"
+    },
+    {
+      "path": "tests/test_source_reproduction_runner.py",
+      "sha256": "73bdff8ba87ff4728ee4b25de91aff479aa304e639699b6fbd6a171b8d857f18"
+    },
+    {
+      "path": "tests/test_release_checker_boundaries.py",
+      "sha256": "c2ac0dd498ff34d9603e9a849653c671b378af1c6c2d9276cdc6ba7930d632cd"
+    }
+  ],
+  "provider_calls": 0,
+  "scope": "Local real filesystem/subprocess launch/recovery/lock assertions with simulated provider observation. Repeats 64 existing cases and includes sixteen added checker cases; not eighty additional scientific tests or new cloud execution."
+}

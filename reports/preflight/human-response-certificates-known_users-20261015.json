@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "source_digest": "b289adda6dbad9968dc400d7b9038560983bda35056c63906ea62da1f7b4bd9e",
+  "frontier_report_sha256": "b2e805f0d2c6794e8ba019b3e1e50946112475eaae697f90ca53eb7b4793d5da",
+  "protocol": "known_users",
+  "seed": 20261015,
+  "certificates": 1500,
+  "replayed": 1500,
+  "primary_max_context_radius": {
+    "numerator_hex": "0xe5e0a72f05397",
+    "denominator_hex": "0x24924924924924",
+    "display": 0.39285714285714285
+  },
+  "certificate_sha256": "39104bbb4d834b1e5a961fb49a44f924fb11406020677a511a24700d28e017ed",
+  "root": "/artifacts/human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/history-states-ced0bbdf76c3-25046fd0a2d3/response-frontier-a8517d89c673b9d4/integer-certificates-b289adda6dbad996",
+  "scope": "Exact-normalized serialized fitted point chains; one-step positive/negative outcomes over all75 fixed contexts. Arithmetic replay uses existing verifier, not independent theorem review. No human calibration, trajectory, confidence or causal guarantee.",
+  "final_test_scoring": "none"
+}

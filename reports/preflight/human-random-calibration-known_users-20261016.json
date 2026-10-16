@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "source_digest": "d6495cfe02aadfccfc3c947772b242f1d672583e2f5571c308f749bf6ff0b9b3",
+  "history_report_sha256": "8c180629d9f3b616e0b10669f634e1a07048b651bcc6720e9e5cafa670f1f11d",
+  "protocol": "known_users",
+  "seed": 20261016,
+  "calibration_split_seed": 20261015,
+  "support": {
+    "discovery": {
+      "cases": 100168,
+      "users": 10495,
+      "supported_known_duration_state_cells": 0,
+      "populated_state_environment_cells": 1388
+    },
+    "estimation": {
+      "cases": 97705,
+      "users": 10516,
+      "supported_known_duration_state_cells": 0,
+      "populated_state_environment_cells": 1369
+    }
+  },
+  "supported_merged_state_pair_witnesses": 0,
+  "output_sha256": {
+    "tables.npz": "5468d6648d9d858af875eb48e10de111ace6f06fdf7ab6dd2e8bae5bb5a998de",
+    "witnesses.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "root": "/artifacts/human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261016/history-states-ced0bbdf76c3-1031ff8239ca/random-calibration-d6495cfe02aa-8c180629d9f3",
+  "wall_seconds": 12.43831261,
+  "final_test_scoring": "none",
+  "scope": "Calibration construction and support only. No final test scoring, no causal or human confidence guarantee. Sparse cells remain reported; support thresholds are not relaxed after inspection."
+}

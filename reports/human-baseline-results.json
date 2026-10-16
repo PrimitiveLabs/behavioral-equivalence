@@ -1,0 +1,548 @@
+{
+  "status": "complete",
+  "inputs": [
+    {
+      "path": "reports/final-human/one_step-known_users-20261015-24.json",
+      "sha256": "9e678279800c94ee729e5ee85a3ec4b29721de669679053e4e37f053fd3a2c1f"
+    },
+    {
+      "path": "reports/final-human/one_step-known_users-20261016-24.json",
+      "sha256": "5b2d6499d25c0f909bec9279825e0caf5de05abccae1d409989bd9572bbe1937"
+    },
+    {
+      "path": "reports/final-human/one_step-known_users-20261017-24.json",
+      "sha256": "f727e2e77223415b8bbc6443fe55818b8a20c5648f07220c465e39a9221a29b5"
+    },
+    {
+      "path": "reports/final-human/one_step-known_users-20261018-24.json",
+      "sha256": "521166165ecced6905ccd2599d006d31605fbe3b964c23bf59772c3bb43fada8"
+    },
+    {
+      "path": "reports/final-human/one_step-known_users-20261019-24.json",
+      "sha256": "2351e039cc72caf6d0148c9f24c9a66b4d863625aff0e539c39a24ce258af24e"
+    },
+    {
+      "path": "reports/final-human/one_step-unseen_users-20261015-24.json",
+      "sha256": "22d9fdea6bfa2fecc911f35f845a28713260a800fb65e8b44408c08f8b783728"
+    },
+    {
+      "path": "reports/final-human/one_step-unseen_users-20261016-24.json",
+      "sha256": "a0edfe490eb81a9bc4e17a7826b2ee3ee5a31e13a81ab31f634056dd1aa99435"
+    },
+    {
+      "path": "reports/final-human/one_step-unseen_users-20261017-24.json",
+      "sha256": "10d1b2dc4a3e1f733323fef5b005ec295fb1dd62f6d44f8c90b5c9dfc4dc6c11"
+    },
+    {
+      "path": "reports/final-human/one_step-unseen_users-20261018-24.json",
+      "sha256": "1cb7917dc96da3dc75dd3205844d51536c3680152134a83955e677b652f5e3b3"
+    },
+    {
+      "path": "reports/final-human/one_step-unseen_users-20261019-24.json",
+      "sha256": "fd811b7e6ae950535a3f836989a9831de9fbd57aa90548ce2a97353f0d87fdc6"
+    }
+  ],
+  "rows": [
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261015,
+      "model": "markov",
+      "nll": 0.6338161774209439,
+      "brier": 0.22293020152317772,
+      "descriptive_ece20": 0.00837791306308127,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261015,
+      "model": "context",
+      "nll": 0.6422695941135254,
+      "brier": 0.22709149760273534,
+      "descriptive_ece20": 0.020693933086286035,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261015,
+      "model": "gru",
+      "nll": 0.6003612069067472,
+      "brier": 0.20751758627637337,
+      "descriptive_ece20": 0.024339129973819994,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261015,
+      "model": "transformer",
+      "nll": 0.600908893161918,
+      "brier": 0.20771684853680078,
+      "descriptive_ece20": 0.027748024046869425,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261015,
+      "model": "parent_k256",
+      "nll": 0.6047601509051755,
+      "brier": 0.20935468634810211,
+      "descriptive_ece20": 0.023084246377922932,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261016,
+      "model": "markov",
+      "nll": 0.6338161774209439,
+      "brier": 0.22293020152317772,
+      "descriptive_ece20": 0.00837791306308186,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261016,
+      "model": "context",
+      "nll": 0.6420262740655424,
+      "brier": 0.22695795435141328,
+      "descriptive_ece20": 0.020239423019197483,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261016,
+      "model": "gru",
+      "nll": 0.5994953003311014,
+      "brier": 0.2071044689988278,
+      "descriptive_ece20": 0.020891284717950327,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261016,
+      "model": "transformer",
+      "nll": 0.6000037197729043,
+      "brier": 0.2073299764757707,
+      "descriptive_ece20": 0.020570477619999427,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261016,
+      "model": "parent_k256",
+      "nll": 0.6039430206090642,
+      "brier": 0.20890392167140856,
+      "descriptive_ece20": 0.019807534624931414,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261017,
+      "model": "markov",
+      "nll": 0.6338161774209439,
+      "brier": 0.22293020152317772,
+      "descriptive_ece20": 0.00837791306308127,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261017,
+      "model": "context",
+      "nll": 0.6423134631341625,
+      "brier": 0.22709937676299333,
+      "descriptive_ece20": 0.021836007854591444,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261017,
+      "model": "gru",
+      "nll": 0.5997343931164489,
+      "brier": 0.2071823003598392,
+      "descriptive_ece20": 0.0180413974539691,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261017,
+      "model": "transformer",
+      "nll": 0.6002592608739614,
+      "brier": 0.20745502099741187,
+      "descriptive_ece20": 0.02130007397409438,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261017,
+      "model": "parent_k256",
+      "nll": 0.6037141349790478,
+      "brier": 0.208776403311185,
+      "descriptive_ece20": 0.015807023477442846,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261018,
+      "model": "markov",
+      "nll": 0.6338161774209439,
+      "brier": 0.22293020152317772,
+      "descriptive_ece20": 0.00837791306308186,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261018,
+      "model": "context",
+      "nll": 0.6426965929827126,
+      "brier": 0.22730441437294094,
+      "descriptive_ece20": 0.02264103855690044,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261018,
+      "model": "gru",
+      "nll": 0.6005614723695741,
+      "brier": 0.20761143685302175,
+      "descriptive_ece20": 0.024795913659558366,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261018,
+      "model": "transformer",
+      "nll": 0.6008351496428113,
+      "brier": 0.2076720063899297,
+      "descriptive_ece20": 0.022402714566222243,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261018,
+      "model": "parent_k256",
+      "nll": 0.6054389572735598,
+      "brier": 0.2097027121134023,
+      "descriptive_ece20": 0.024795219684066505,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261019,
+      "model": "markov",
+      "nll": 0.6338161774209439,
+      "brier": 0.22293020152317772,
+      "descriptive_ece20": 0.00837791306308186,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261019,
+      "model": "context",
+      "nll": 0.6421778137411114,
+      "brier": 0.2270463215263373,
+      "descriptive_ece20": 0.02253361486346707,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261019,
+      "model": "gru",
+      "nll": 0.5999100670667885,
+      "brier": 0.20730531345801897,
+      "descriptive_ece20": 0.02269965124441421,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261019,
+      "model": "transformer",
+      "nll": 0.6008667997388464,
+      "brier": 0.20770905987804406,
+      "descriptive_ece20": 0.0268473976889218,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "known_users",
+      "fit_seed": 20261019,
+      "model": "parent_k256",
+      "nll": 0.6046834567990221,
+      "brier": 0.20924253963621442,
+      "descriptive_ece20": 0.021792558622696453,
+      "cases": 3220197,
+      "users": 25796
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261015,
+      "model": "markov",
+      "nll": 0.6346683771314303,
+      "brier": 0.22319263757620544,
+      "descriptive_ece20": 0.00900857882171876,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261015,
+      "model": "context",
+      "nll": 0.6435346413410664,
+      "brier": 0.2274542027275837,
+      "descriptive_ece20": 0.021397950884024467,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261015,
+      "model": "gru",
+      "nll": 0.6014940750034214,
+      "brier": 0.20791653053812206,
+      "descriptive_ece20": 0.016289471302565528,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261015,
+      "model": "transformer",
+      "nll": 0.6023370568055352,
+      "brier": 0.20824102354125604,
+      "descriptive_ece20": 0.020511181738162885,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261015,
+      "model": "parent_k256",
+      "nll": 0.6057144776919263,
+      "brier": 0.20960315834636842,
+      "descriptive_ece20": 0.014857077826048094,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261016,
+      "model": "markov",
+      "nll": 0.6346683771314303,
+      "brier": 0.22319263757620544,
+      "descriptive_ece20": 0.009008578821718616,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261016,
+      "model": "context",
+      "nll": 0.6432461612262468,
+      "brier": 0.2273716781881557,
+      "descriptive_ece20": 0.01767914788481204,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261016,
+      "model": "gru",
+      "nll": 0.6009618012115102,
+      "brier": 0.20770778007013968,
+      "descriptive_ece20": 0.015723453161387173,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261016,
+      "model": "transformer",
+      "nll": 0.6014731885416648,
+      "brier": 0.20785807667620623,
+      "descriptive_ece20": 0.01618428431916768,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261016,
+      "model": "parent_k256",
+      "nll": 0.6058015154683256,
+      "brier": 0.2096851895033701,
+      "descriptive_ece20": 0.015253298858951984,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261017,
+      "model": "markov",
+      "nll": 0.6346683771314303,
+      "brier": 0.22319263757620544,
+      "descriptive_ece20": 0.00900857882171876,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261017,
+      "model": "context",
+      "nll": 0.642833850180808,
+      "brier": 0.22717319408542153,
+      "descriptive_ece20": 0.015391759434505763,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261017,
+      "model": "gru",
+      "nll": 0.6005283276952473,
+      "brier": 0.2075253597748205,
+      "descriptive_ece20": 0.008679062247010419,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261017,
+      "model": "transformer",
+      "nll": 0.6008377485619583,
+      "brier": 0.20764168244204123,
+      "descriptive_ece20": 0.00709711431218725,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261017,
+      "model": "parent_k256",
+      "nll": 0.6050154365544246,
+      "brier": 0.209342951286195,
+      "descriptive_ece20": 0.0072110542250220675,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261018,
+      "model": "markov",
+      "nll": 0.6346683771314303,
+      "brier": 0.22319263757620544,
+      "descriptive_ece20": 0.00900857882171876,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261018,
+      "model": "context",
+      "nll": 0.6433712395703728,
+      "brier": 0.2273497049954533,
+      "descriptive_ece20": 0.01874708143565071,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261018,
+      "model": "gru",
+      "nll": 0.6016595117944884,
+      "brier": 0.20793229370862695,
+      "descriptive_ece20": 0.017798072383365258,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261018,
+      "model": "transformer",
+      "nll": 0.6028201649952203,
+      "brier": 0.20843763670067336,
+      "descriptive_ece20": 0.025375126195989417,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261018,
+      "model": "parent_k256",
+      "nll": 0.6058809147060521,
+      "brier": 0.20967176977632168,
+      "descriptive_ece20": 0.017288415989522483,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261019,
+      "model": "markov",
+      "nll": 0.6346683771314303,
+      "brier": 0.22319263757620544,
+      "descriptive_ece20": 0.009008578821718616,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261019,
+      "model": "context",
+      "nll": 0.6429819573383314,
+      "brier": 0.22724672751162667,
+      "descriptive_ece20": 0.013504618140417656,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261019,
+      "model": "gru",
+      "nll": 0.6015657681792573,
+      "brier": 0.2079582846255685,
+      "descriptive_ece20": 0.017642748641460274,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261019,
+      "model": "transformer",
+      "nll": 0.6022710109185275,
+      "brier": 0.20827313597533134,
+      "descriptive_ece20": 0.02107417390528955,
+      "cases": 321623,
+      "users": 2582
+    },
+    {
+      "protocol": "unseen_users",
+      "fit_seed": 20261019,
+      "model": "parent_k256",
+      "nll": 0.6057705175037451,
+      "brier": 0.20974054227912264,
+      "descriptive_ece20": 0.01733031685222917,
+      "cases": 321623,
+      "users": 2582
+    }
+  ],
+  "scope": "All ten fixed 24h fits, equal-user point metrics and descriptive20bin calibration error; no across-seed population inference."
+}

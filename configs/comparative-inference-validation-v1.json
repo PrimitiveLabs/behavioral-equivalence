@@ -1,0 +1,39 @@
+{
+  "schema_version": "comparative-inference-validation-v1",
+  "split": "validation",
+  "probes": [
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "3cac5acd2e905a591b0a826f2e4b364d313d6c4447356f7e28247c75b256e6c7",
+        "gru": "25046fd0a2d3958837c93c2227e8693b7686ce70f95a190c432798e7329ee65d",
+        "transformer": "a4048f21e61a52727839abc5845cecf87da2c3d799f2bc575775ea1fe095b53d"
+      },
+      "nested_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/quantization-eaa699cb5987-25046fd0a2d3/calibrated-parent-c0c628bb9aaf/nested-e19a5d3b75a18b9d",
+      "nested_report_sha256": "de326a452144e5d5c01bf89bc68d649a9c07862cedbe0c7869c2cec4abdb2bb4"
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "7b08dfcb2d6ba67f62a2cc88334098add86a29c611cb58f92182c8c15b4d97a5",
+        "gru": "8686ccebfe7c115508eba5c3022db8f70553d7a2493676f2107d2b9148b7902f",
+        "transformer": "399afe37f37ebc680ffa61cd3b742a31e2c25bee453799360481b4cd3f9f72cb"
+      },
+      "nested_root": "human-calendar-training-v3-8c2afe99bb75/fits/unseen_users-gru-20261015/quantization-eaa699cb5987-8686ccebfe7c/calibrated-parent-40c80c043abe/nested-17b930e9362f35c5",
+      "nested_report_sha256": "a3d32dd0bc9082d306f418a247fb69dea6e97140f125814f3c6d072891d501ac"
+    }
+  ],
+  "inference_batch_size": 2048,
+  "probability_absolute_tolerance": 1e-06,
+  "sparse_training_state_cases": 100,
+  "minimum_cohort_users": 50,
+  "minimum_cohort_cases": 2000,
+  "bootstrap_replications": 2000,
+  "bootstrap_seed": 20261015,
+  "noninferiority_margin_nats": 0.01,
+  "scope": "Pre-final-freeze comparator bridge validation over complete known/unseen validation cohorts for fixed seed20261015. Models and calibration-defined partitions postdate validation outcomes, so retrospective metrics are engineering checks, not prospective predictive fidelity or confirmatory outcomes. No final test predictions or metrics. Source buckets are user-disjoint; all proper losses use the same cases and original user clusters. Secondary cohort intervals are descriptive, not multiplicity-adjusted discoveries."
+}

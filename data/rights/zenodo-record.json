@@ -1,0 +1,30 @@
+{
+  "source_url": "https://zenodo.org/api/records/10439422",
+  "retrieved_at": "2026-10-15",
+  "record_id": 10439422,
+  "metadata": {
+    "title": "KuaiRand: An Unbiased Sequential Recommendation Dataset with Randomly Exposed Videos",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "access_right": "open",
+    "doi": "10.1145/3511808.3557624"
+  },
+  "files": [
+    {
+      "file_name": "KuaiRand-1K.tar.gz",
+      "size": 1135436720,
+      "checksum": "md5:6b0b9c8222d67fcd4c676218edca3f1f"
+    },
+    {
+      "file_name": "KuaiRand-27K.tar.gz",
+      "size": 9892191178,
+      "checksum": "md5:3e3c799a24e2d23a4d2c757fbf9adf59"
+    },
+    {
+      "file_name": "KuaiRand-Pure.tar.gz",
+      "size": 47432272,
+      "checksum": "md5:0820331067a3784d9691136f772b35a7"
+    }
+  ]
+}

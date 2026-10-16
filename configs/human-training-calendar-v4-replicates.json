@@ -1,0 +1,109 @@
+{
+  "schema_version": "human-calendar-training-v3",
+  "status": "locked training protocol; final abstraction and statistical preregistration pending before test scoring",
+  "case_root": "datasets/kuairand-27k/prepared-candidate-v2/confirmatory-cases-d05a64f50a264877",
+  "case_report_sha256": "94ef98862c3fadaeedf35c0a823b376cadbbc35b4002d35c9b05b30b97c3ce81",
+  "case_audit_relative": "independent-audit-69ea08c4b9ccfe9c/report.json",
+  "case_audit_sha256": "0901cdc50e2282dbe81564fa709a9ee5f7f1c3f9729887b611eeab760b8967cb",
+  "embargo_hours": 24,
+  "protocols": [
+    "known_users",
+    "unseen_users"
+  ],
+  "architectures": [
+    "context",
+    "gru",
+    "transformer"
+  ],
+  "seeds": [
+    20261018,
+    20261019
+  ],
+  "history_length": 32,
+  "hidden": 128,
+  "item_embedding_dimensions": 16,
+  "tab_embedding_dimensions": 16,
+  "transformer_layers": 2,
+  "transformer_heads": 4,
+  "transformer_feedforward_multiplier": 2,
+  "maximum_item_vocabulary": 65535,
+  "item_vocabulary": "training exposures only, descending frequency then item ID tie break; unknown item index 0",
+  "current_inputs": [
+    "available bundle-rate history",
+    "tab",
+    "training-vocabulary current video identity",
+    "intrinsic-duration context under the recorded availability policy"
+  ],
+  "excluded_inputs": [
+    "current or future feedback",
+    "is_rand",
+    "full-period popularity or response statistics",
+    "user identity as predictor"
+  ],
+  "epochs": 3,
+  "batch_size": 512,
+  "evaluation_batch_size": 2048,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.01
+  },
+  "checkpoint_selection": "lowest equal-user validation NLL across three fixed epochs; earliest epoch wins ties",
+  "training_objective": "mean binary cross entropy across fixed per-user-capped training cases",
+  "validation_metrics": [
+    "equal-user and case NLL",
+    "equal-user and case Brier",
+    "20 fixed equal-width calibration bins"
+  ],
+  "markov_baseline": "last available rate token crossed with current tab, Beta(1,1) smoothing; no item context",
+  "test_scoring": "prohibited in this training controller; role-separated training/validation artifacts only",
+  "provider_inference": "none; GPT-6.1 and Claude API calls prohibited",
+  "resource_budget": {
+    "ceiling_usd": 40,
+    "training_jobs": 12,
+    "worker_timeout_seconds": 21600,
+    "coordinator_timeout_seconds": 86400,
+    "rates_per_second": {
+      "gpu": 0,
+      "cpu_core": 1.31e-05,
+      "memory_gib": 2.22e-06
+    },
+    "rate_source": "https://modal.com/pricing",
+    "rates_checked": "2026-10-15",
+    "scope": "timeout reservation plus staging and startup allowance; not actual billing",
+    "hardware_policy": "CPU float32, eight threads, same full models and case matrix; GPU availability is not a prerequisite",
+    "cpu_cores": 8,
+    "memory_gib": 12,
+    "max_cpu_containers": 4
+  },
+  "context_root": "datasets/kuairand-27k/prepared-candidate-v2/confirmatory-cases-d05a64f50a264877/intrinsic-context-a0417b0a188a0c95",
+  "context_report_sha256": "8db0da944401d3e5347aeab4defadab01be4a22d9599e3d99ea7f2217d05cafd",
+  "intrinsic_context": {
+    "features": [
+      "log1p intrinsic duration in seconds",
+      "missing flag"
+    ],
+    "availability": "known strictly prior upload day; duration is an intrinsic-property availability assumption",
+    "normalization": "center/scale log duration using known training cases only; missing rows remain zero plus flag one",
+    "ablation": "context-only predictor uses the same item/tab/duration inputs with no behavioral history"
+  },
+  "prediction_head": "two-layer MLP with GELU, hidden width 128, allowing history/context interactions",
+  "training_backend": "Modal CPU, float32",
+  "cpu_threads": 8,
+  "input_artifacts": {
+    "known_users": {
+      "path": "human-calendar-training-v2-509d23511ffa/inputs/known_users",
+      "report_sha256": "cff4d701388963951997c3542ea57701b63027ccf754bb33ac820e27f4075497"
+    },
+    "unseen_users": {
+      "path": "human-calendar-training-v2-509d23511ffa/inputs/unseen_users",
+      "report_sha256": "506c002b29ec7d34e47f11d59e2ba4773a876064e56862fa57aedc7bd093f011"
+    }
+  },
+  "frozen_at": "2026-10-15T20:21:31.117743+00:00",
+  "replication_scope": {
+    "primary_training_source": "8c2afe99bb7532b901952f872abe18ce2ac08b4f9b5b340eaa0280cdb3a1383e",
+    "additional_seeds_only": true,
+    "purpose": "Fulfill the original provisional five-seed robustness target without modifying the running three-seed source; all five seeds enter final decisions. Final predictive test scores remain unopened."
+  }
+}

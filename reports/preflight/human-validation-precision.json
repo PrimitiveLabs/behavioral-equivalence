@@ -1,0 +1,311 @@
+{
+  "status": "complete",
+  "source_digest": "89f919ea7a78321a4afd2364435384b814fed49bb4569cfef0b7b80c4a773e3b",
+  "tests": "......                                                                   [100%]\n6 passed in 0.22s\n",
+  "rows": [
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "validation_cases": 1594880,
+      "quantizer_report_sha256": "290e4480c5d94b0d699e4a00f369ccc61d2d5d415551340f9ca1538a5f0748c3",
+      "validation_users": 25652,
+      "validation_user_variance": 0.00035672184906744694,
+      "validation_user_sd": 0.01888708153917505,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 28
+        },
+        {
+          "gap_nats": 0.0075,
+          "normal_approximate_users": 50
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 112
+        },
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 448
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim."
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "validation_cases": 1594880,
+      "quantizer_report_sha256": "2b3efa5a6d04156876fb35f5ab1ce132a8d34f6e1276d3084d40f13072338298",
+      "validation_users": 25652,
+      "validation_user_variance": 0.0003392686318209127,
+      "validation_user_sd": 0.01841924623378798,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 27
+        },
+        {
+          "gap_nats": 0.0075,
+          "normal_approximate_users": 48
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 107
+        },
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 427
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim."
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "validation_cases": 1594880,
+      "quantizer_report_sha256": "a4136dee7cddc9bd50943008c7e64295e0fa3a06c3bbb45e28df4d6c1434b85d",
+      "validation_users": 25652,
+      "validation_user_variance": 0.00038822277106259677,
+      "validation_user_sd": 0.019703369535756993,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 31
+        },
+        {
+          "gap_nats": 0.0075,
+          "normal_approximate_users": 55
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 122
+        },
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 488
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim."
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "validation_cases": 1594880,
+      "quantizer_report_sha256": "636a48479b7aac09d141638d9462955583d31e759a8d7649c1c25a6d2aa1b16a",
+      "validation_users": 25652,
+      "validation_user_variance": 0.0003658271688345348,
+      "validation_user_sd": 0.019126608921461608,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 29
+        },
+        {
+          "gap_nats": 0.0075,
+          "normal_approximate_users": 52
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 115
+        },
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 460
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim."
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "validation_cases": 1594880,
+      "quantizer_report_sha256": "5bae9bd379213be77a1086494cc2381158203e02a178b5af273f715e0486ba30",
+      "validation_users": 25652,
+      "validation_user_variance": 0.00037812943207039096,
+      "validation_user_sd": 0.019445550444006234,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 30
+        },
+        {
+          "gap_nats": 0.0075,
+          "normal_approximate_users": 53
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 119
+        },
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 475
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim."
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "validation_cases": 159059,
+      "quantizer_report_sha256": "882558f78622ce0502fa09e8a4474e46b329a405b2024dd41c8e941e0aa53c64",
+      "validation_users": 2557,
+      "validation_user_variance": 0.0003270744382395207,
+      "validation_user_sd": 0.018085199424930892,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 26
+        },
+        {
+          "gap_nats": 0.0075,
+          "normal_approximate_users": 46
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 103
+        },
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 411
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim."
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "validation_cases": 159059,
+      "quantizer_report_sha256": "29755898e6a8560971e389aeb48b6ab4c5db4df802878a5f20d7f52ac5316f37",
+      "validation_users": 2557,
+      "validation_user_variance": 0.0003361466591710519,
+      "validation_user_sd": 0.01833430280024446,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 27
+        },
+        {
+          "gap_nats": 0.0075,
+          "normal_approximate_users": 47
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 106
+        },
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 423
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim."
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "validation_cases": 159059,
+      "quantizer_report_sha256": "1ec9d6776a7071077c25a311c4accf2343b42253d6a54060bbc20249bef99b51",
+      "validation_users": 2557,
+      "validation_user_variance": 0.0002612736131250617,
+      "validation_user_sd": 0.01616396031686114,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 21
+        },
+        {
+          "gap_nats": 0.0075,
+          "normal_approximate_users": 37
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 83
+        },
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 329
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim."
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "validation_cases": 159059,
+      "quantizer_report_sha256": "290bf5019c68e22564ad24b794db4c9c42cd8467df939bde6fb80ea20b1fa45c",
+      "validation_users": 2557,
+      "validation_user_variance": 0.0003773693404971855,
+      "validation_user_sd": 0.019425996512333298,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 30
+        },
+        {
+          "gap_nats": 0.0075,
+          "normal_approximate_users": 53
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 119
+        },
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 474
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim."
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "validation_cases": 159059,
+      "quantizer_report_sha256": "bd883fb27390ec337ccc00a0bb18be20e3f733378f3f3bfd90ce725854fd4cdc",
+      "validation_users": 2557,
+      "validation_user_variance": 0.00030516889379504224,
+      "validation_user_sd": 0.01746908394264113,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 24
+        },
+        {
+          "gap_nats": 0.0075,
+          "normal_approximate_users": 43
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 96
+        },
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 384
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim."
+    }
+  ],
+  "comparison": "K128 versus K256 separately fitted training-only quantizers; validation variance proxy, not nested-primary performance",
+  "final_test_scoring": "none",
+  "scope": "Approximate precision planning conditional on validation variance transporting to independent future user clusters. No finite-sample power promise, no final model decision and no across-seed independence assumption.",
+  "root": "/artifacts/human-validation-precision-89f919ea7a78321a"
+}

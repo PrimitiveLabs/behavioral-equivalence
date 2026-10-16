@@ -1,0 +1,18 @@
+{
+  "status": "accepted",
+  "checked_at": "2026-10-16T08:54:27.664805+00:00",
+  "method": "Direct visual inspection of both retained PNGs with view_image",
+  "files": {
+    "figure-02-human-frontier.png": "d9867186bc1f0e8364b03b273a68b015bdf46c9d4c7304339d6c67377ba3ccfb",
+    "figure-06-human-fidelity.png": "feab1e40e6f22f97a550ad7b1e615faf47beaa4504260c23bd817be0dbd9c224"
+  },
+  "checks": [
+    "Text, axes and legends legible without observed clipping or overlap",
+    "Figure 2 shows strict primary at 256 states for both protocols, twofold-compression region and 0.01-nat margin",
+    "Figure 6 separates fitted-seed loss, calibration, test-origin interval width and paired response contrasts",
+    "Interval width panel uses probability scale zero to one and is not labeled coverage",
+    "Response panel retains zero reference and separate all-group versus held-out-calibration conditions",
+    "Footer discloses shared users, pointwise bootstrap intervals and limited transfer scope"
+  ],
+  "scope": "Visual readability and explicit labels only; source/file identities, statistical audits and human-validity assumptions remain separate"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "seed": 20261015,
+    "status": "complete",
+    "root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/history-states-ced0bbdf76c3-25046fd0a2d3/response-frontier-a8517d89c673b9d4",
+    "report_sha256": "b2e805f0d2c6794e8ba019b3e1e50946112475eaae697f90ca53eb7b4793d5da",
+    "primary_latent_states": 13
+  },
+  {
+    "seed": 20261016,
+    "status": "complete",
+    "root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261016/history-states-ced0bbdf76c3-1031ff8239ca/response-frontier-a8517d89c673b9d4",
+    "report_sha256": "fe10c761142d2c8317a0b5a609a2432d6aa6c5c2cab890ee1b800bf500462993",
+    "primary_latent_states": 13
+  },
+  {
+    "seed": 20261017,
+    "status": "complete",
+    "root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261017/history-states-ced0bbdf76c3-3fc604fcb0d7/response-frontier-a8517d89c673b9d4",
+    "report_sha256": "196ec54420d8616b97f064a536bd6f66176bebbc90f7c019b946e814b12bf00c",
+    "primary_latent_states": 11
+  },
+  {
+    "seed": 20261018,
+    "status": "complete",
+    "root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261018/history-states-ced0bbdf76c3-6472527fcb5f/response-frontier-a8517d89c673b9d4",
+    "report_sha256": "983b8aaf5f83f22d2de5d150981637283b33107392c569dbd9eeb0e816d5b5b8",
+    "primary_latent_states": 13
+  },
+  {
+    "seed": 20261019,
+    "status": "complete",
+    "root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261019/history-states-ced0bbdf76c3-609765ef318f/response-frontier-a8517d89c673b9d4",
+    "report_sha256": "1672a67fba0ae8208aad08b8bb4ca726d6461a6811d6af092447b99c689eb3f6",
+    "primary_latent_states": 14
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "status": "complete",
+  "figures": [
+    2,
+    6
+  ],
+  "render_digest": "d424315e2f17fb7754cd6f3f7f1f4ddd5a9b7fc455cb58e3f438150ca6c3cfd9",
+  "analysis_freeze_digest": "f9a6e08093f0ee4b94afe40397dcbbf84e2cbd6866256954f6aeb3ffde873afa",
+  "artifact_root": "/artifacts/human-final-figures-d424315e2f17fb77",
+  "input_reports": [
+    {
+      "path": "reports/final-human/one_step-known_users-20261015-24.json",
+      "sha256": "9e678279800c94ee729e5ee85a3ec4b29721de669679053e4e37f053fd3a2c1f"
+    },
+    {
+      "path": "reports/final-human/one_step-known_users-20261016-24.json",
+      "sha256": "5b2d6499d25c0f909bec9279825e0caf5de05abccae1d409989bd9572bbe1937"
+    },
+    {
+      "path": "reports/final-human/one_step-known_users-20261017-24.json",
+      "sha256": "f727e2e77223415b8bbc6443fe55818b8a20c5648f07220c465e39a9221a29b5"
+    },
+    {
+      "path": "reports/final-human/one_step-known_users-20261018-24.json",
+      "sha256": "521166165ecced6905ccd2599d006d31605fbe3b964c23bf59772c3bb43fada8"
+    },
+    {
+      "path": "reports/final-human/one_step-known_users-20261019-24.json",
+      "sha256": "2351e039cc72caf6d0148c9f24c9a66b4d863625aff0e539c39a24ce258af24e"
+    },
+    {
+      "path": "reports/final-human/one_step-unseen_users-20261015-24.json",
+      "sha256": "22d9fdea6bfa2fecc911f35f845a28713260a800fb65e8b44408c08f8b783728"
+    },
+    {
+      "path": "reports/final-human/one_step-unseen_users-20261016-24.json",
+      "sha256": "a0edfe490eb81a9bc4e17a7826b2ee3ee5a31e13a81ab31f634056dd1aa99435"
+    },
+    {
+      "path": "reports/final-human/one_step-unseen_users-20261017-24.json",
+      "sha256": "10d1b2dc4a3e1f733323fef5b005ec295fb1dd62f6d44f8c90b5c9dfc4dc6c11"
+    },
+    {
+      "path": "reports/final-human/one_step-unseen_users-20261018-24.json",
+      "sha256": "1cb7917dc96da3dc75dd3205844d51536c3680152134a83955e677b652f5e3b3"
+    },
+    {
+      "path": "reports/final-human/one_step-unseen_users-20261019-24.json",
+      "sha256": "fd811b7e6ae950535a3f836989a9831de9fbd57aa90548ce2a97353f0d87fdc6"
+    },
+    {
+      "path": "reports/final-human/response_all_groups-known_users-20261015-24.json",
+      "sha256": "2b07f7f5092ee076e00412dfaef78ea9ccabe46ee306bdf67f627992f998243c"
+    },
+    {
+      "path": "reports/final-human/response_all_groups-known_users-20261016-24.json",
+      "sha256": "8150e2383bfbf4d174c44b24784ca4be6ec2dfd52ac5d62e3cc71fc1702f7199"
+    },
+    {
+      "path": "reports/final-human/response_all_groups-known_users-20261017-24.json",
+      "sha256": "12adc06c8cb31aa031b3bff2f58ead57dc15518db67ec8f9c11e73ff92b485eb"
+    },
+    {
+      "path": "reports/final-human/response_all_groups-known_users-20261018-24.json",
+      "sha256": "bb079e5d6081ffd4002f6798c2e6e7392ef2af060f778918d5e72008118a94fe"
+    },
+    {
+      "path": "reports/final-human/response_all_groups-known_users-20261019-24.json",
+      "sha256": "e0058ea3027f798bcb78c8f4689e5de33932c5dc275d38924fce1455379d26e0"
+    },
+    {
+      "path": "reports/final-human/response_heldout_groups-known_users-20261015-24.json",
+      "sha256": "73e21eb47a652db85871ef60773d84153a661c7f3e1af97c6d2e5407fc6a6547"
+    },
+    {
+      "path": "reports/final-human/response_heldout_groups-known_users-20261016-24.json",
+      "sha256": "796fae2c2adc1e319ce728fbe5d1cb67e7b451fa78dd651fca02474c74a4afbf"
+    },
+    {
+      "path": "reports/final-human/response_heldout_groups-known_users-20261017-24.json",
+      "sha256": "69a568d16e244aa18657295ffafce574bc6bf20f10c7d6478ead647dde59cec0"
+    },
+    {
+      "path": "reports/final-human/response_heldout_groups-known_users-20261018-24.json",
+      "sha256": "147e4c10becc932c377672b37b8fe90b7570a80a040f58616ad7f1b34f54489a"
+    },
+    {
+      "path": "reports/final-human/response_heldout_groups-known_users-20261019-24.json",
+      "sha256": "f87029ff386fd0b3022ad54754fb276a1f86eab66bff36322a6a47641a821982"
+    }
+  ],
+  "scope": "Complete ten-fit primary24hprediction matrix and both five-seed response matrices. Across-seed displays are descriptive; paired confidence intervals remain conditional on original user clusters. No raw human records or private user statistics.",
+  "files": {
+    "caption.md": "ac04cbad6c76eea60f717e029121eaf82955e4986f0916d28b9ee706b6a8007d",
+    "figure-02-human-frontier.pdf": "75c60793defb1bd0a1a931ef391b09b19256380782735ad38bf10777edf8c718",
+    "figure-02-human-frontier.png": "d9867186bc1f0e8364b03b273a68b015bdf46c9d4c7304339d6c67377ba3ccfb",
+    "figure-06-human-fidelity.pdf": "24564fe83e21ff0f232e2d9497a0046670bdb0d5c9a331764dce1db70782b85a",
+    "figure-06-human-fidelity.png": "feab1e40e6f22f97a550ad7b1e615faf47beaa4504260c23bd817be0dbd9c224",
+    "plotted-aggregate-data.json": "986e7e7e2db07c8ba6adf198b4d7e3b0257697f9603e28cf51c7e1deda8ab4cb",
+    "render-source.py": "ae06a0bb6a0b45b360c6b9972faa5740c080713713881cacb0808dfe6c9ee439"
+  }
+}

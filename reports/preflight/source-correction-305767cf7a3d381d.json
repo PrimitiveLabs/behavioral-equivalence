@@ -1,0 +1,36 @@
+{
+  "status": "local_corrected_wheel_validated_with_optional_skips",
+  "source_archive_sha256": "305767cf7a3d381de2e5b777b8ba6bd545b5862e3bdc2d73fd39eabac8629990",
+  "source_files": 453,
+  "historical_cloud_source_sha256": "6b90415e31c165375a0470e0b1b01b488e9afefa6d89d09e508687c66db2f979",
+  "historical_cloud_report": "reports/preflight/source-package-reproduction-6b90415e31c16537-e52eea4696b4.json",
+  "unchanged_parent_files": 439,
+  "changed": [
+    "docs/reproduction.md",
+    "src/behavioral_equivalence/quantization.py"
+  ],
+  "added": [
+    "data/synthetic/fixtures/release/quantization-dtype-v1.json",
+    "tests/test_abstraction_boundaries.py",
+    "tests/test_confidence_coverage_boundaries.py",
+    "tests/test_decision_boundaries.py",
+    "tests/test_evaluation_boundaries.py",
+    "tests/test_history_support_boundaries.py",
+    "tests/test_intervention_boundaries.py",
+    "tests/test_learned_state_boundaries.py",
+    "tests/test_numerical_boundaries.py",
+    "tests/test_preparation_boundaries.py",
+    "tests/test_synthetic_diversity_boundaries.py",
+    "tests/test_verification_boundaries.py"
+  ],
+  "removed": [],
+  "correction_evidence": "reports/preflight/quantization-dtype-correction.json",
+  "corrected_wheel_report": "reports/preflight/quantization-dtype-fixed-wheel-validation.json",
+  "corrected_wheel_sha256": "cf98aaac676e1ba15055daee1f1a3eb38215cf2b5509a88622a0fe57116f55e9",
+  "local_installed_wheel_tests_passed": 1057,
+  "local_installed_wheel_tests_skipped": 8,
+  "scope": "All corrected-library source files unchanged from the dtype-fix package. One new test file, full local installed-wheel validation, eight optional skips. Historical pre-fix cloud evidence remains separate.",
+  "current_validation_report": "reports/preflight/synthetic-diversity-corrected-wheel-validation.json",
+  "corrected_source_base_sha256": "a16d32fa9849f3234cb7197b1af36e67ab14660a77af4863fe9c9f54b95d5432",
+  "all_corrected_base_source_files_unchanged": true
+}

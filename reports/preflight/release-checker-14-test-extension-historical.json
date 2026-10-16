@@ -1,0 +1,22 @@
+{
+  "status": "verified_test_only_extension",
+  "observed_at": "2026-10-16T09:24:52.119530+00:00",
+  "current_source": {
+    "sha256": "efe10ec1ec18facc725d6f4f4c9b7570e5649c125e9973bf04127e3c15e8a5fa",
+    "path": "reports/source-snapshots/source-efe10ec1ec18facc725d6f4f4c9b7570e5649c125e9973bf04127e3c15e8a5fa.tar.gz",
+    "source_files": 491,
+    "bytes": 756410
+  },
+  "parent_source_sha256": "ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12",
+  "parent_strict_validation": "reports/preflight/source-package-reproduction-ad74b89a721bbbba-e52eea4696b4-explicit-mount.json",
+  "unchanged_parent_source_entries": 490,
+  "added": [
+    "tests/test_release_checker_boundaries.py"
+  ],
+  "generated_manifest_changed": true,
+  "release_checker_tests": 14,
+  "release_checker_test_sha256": "85e4868e700d370b634cad2dcf55b2010e8a6b2d4a4fb9e5d124734f96027e11",
+  "test_command": "PYTHONPATH=/tmp/research-response-installed .venv/bin/python -m pytest -q -W error -o pythonpath= tests/test_release_checker_boundaries.py",
+  "test_output": "14 passed in 0.10s",
+  "scope": "Every existing source/config/test byte unchanged; only fourteen provider-free checker boundary tests added. Parent 1635-test strict cloud evidence and fourteen local installed-wheel tests are separate executions, not a new 1649-test cloud run."
+}

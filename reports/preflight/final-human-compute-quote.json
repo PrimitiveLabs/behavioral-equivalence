@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-16T03:18:44.179770+00:00",
+  "status": "planned_not_reserved",
+  "final_one_step_calls": 30,
+  "final_horizon_calls": 10,
+  "final_response_calls": 10,
+  "one_step_per_call_usd": "0.33659200",
+  "horizon_or_response_per_call_usd": "0.57318400",
+  "planned_total_reservations_usd": "21.56144000",
+  "existing_campaign_ceiling_usd": 40.0,
+  "existing_campaign_reserved_usd": 17.420928,
+  "scope": "Internal conservative timeout/startup reservation quote for complete50call matrix, not actual billing, user-approved global budget or provider-enforced cap. Complete model grids/cases/seeds retained.0h/48h are distinct case/history sensitivity cohorts using24h-trained models."
+}

@@ -1,0 +1,38 @@
+{
+  "status": "local_corrected_wheel_validated_with_optional_skips",
+  "source_archive_sha256": "03c34aa6279625a47d2c7af88a615b7018900cb4b5883ec25444b9dc9950f856",
+  "source_files": 454,
+  "historical_cloud_source_sha256": "6b90415e31c165375a0470e0b1b01b488e9afefa6d89d09e508687c66db2f979",
+  "historical_cloud_report": "reports/preflight/source-package-reproduction-6b90415e31c16537-e52eea4696b4.json",
+  "unchanged_parent_files": 439,
+  "changed": [
+    "docs/reproduction.md",
+    "src/behavioral_equivalence/quantization.py"
+  ],
+  "added": [
+    "data/synthetic/fixtures/release/quantization-dtype-v1.json",
+    "tests/test_abstraction_boundaries.py",
+    "tests/test_confidence_coverage_boundaries.py",
+    "tests/test_decision_boundaries.py",
+    "tests/test_evaluation_boundaries.py",
+    "tests/test_history_support_boundaries.py",
+    "tests/test_human_decision_boundaries.py",
+    "tests/test_intervention_boundaries.py",
+    "tests/test_learned_state_boundaries.py",
+    "tests/test_numerical_boundaries.py",
+    "tests/test_preparation_boundaries.py",
+    "tests/test_synthetic_diversity_boundaries.py",
+    "tests/test_verification_boundaries.py"
+  ],
+  "removed": [],
+  "correction_evidence": "reports/preflight/quantization-dtype-correction.json",
+  "corrected_wheel_report": "reports/preflight/quantization-dtype-fixed-wheel-validation.json",
+  "corrected_wheel_sha256": "cf98aaac676e1ba15055daee1f1a3eb38215cf2b5509a88622a0fe57116f55e9",
+  "local_installed_wheel_tests_passed": 1076,
+  "local_installed_wheel_tests_skipped": 8,
+  "scope": "Corrected library unchanged; one new decision/cohort test file and full local installed-wheel validation with eight optional skips. Actual final aggregate decisions replay identically. Historical pre-fix cloud evidence remains separate.",
+  "current_validation_report": "reports/preflight/human-decisions-corrected-wheel-validation.json",
+  "corrected_source_base_sha256": "305767cf7a3d381de2e5b777b8ba6bd545b5862e3bdc2d73fd39eabac8629990",
+  "all_corrected_base_source_files_unchanged": true,
+  "actual_human_decision_replay": "reports/preflight/final-human-decision-replay.json"
+}

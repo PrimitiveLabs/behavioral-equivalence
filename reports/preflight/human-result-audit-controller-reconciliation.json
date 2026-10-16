@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "observed_at": "2026-10-16T09:01:55.993132+00:00",
+  "inputs": [
+    {
+      "path": "reports/preflight/final-human-output-audit-c35f26f7073a-df48b059eac8.json",
+      "sha256": "f904d360537306eea0eeb95205ee1980c8ea6b178725f789e38efacb898fa001"
+    },
+    {
+      "path": "reports/preflight/final-human-job-progress.json",
+      "sha256": "d2df8e41b1ae601e0490c99eea700bf023b65128ead751ff36f6e8e09d40555b"
+    },
+    {
+      "path": "reports/preflight/supplementary-output-audit-summary.json",
+      "sha256": "d589a17c0b073f1731389b031d47ecddf4321efa5a4b5bc96a3de63a0f088db6"
+    },
+    {
+      "path": "reports/supplementary-output-audit/known_users-20261015.json",
+      "sha256": "bfdf26f12e6e0ef8978f8c9a0fd3b2a8e246887765ddc3bb951e5c25bb8aeb17"
+    },
+    {
+      "path": "reports/supplementary-output-audit/known_users-20261016.json",
+      "sha256": "399d6f3a234f19e7b94151ab9f4c949f76ebcaa6dfea10e55a9a07bde7789400"
+    },
+    {
+      "path": "reports/supplementary-output-audit/known_users-20261017.json",
+      "sha256": "90053aa728557fe288ddc8361c35ff26d8d4ead7e969219cd21461fea24d94d5"
+    },
+    {
+      "path": "reports/supplementary-output-audit/known_users-20261018.json",
+      "sha256": "d739203d8184ae71bb025f201ab5f7af7df6f2a25fce8ace1be03e8b0dd67cff"
+    },
+    {
+      "path": "reports/supplementary-output-audit/known_users-20261019.json",
+      "sha256": "d69db8a7693fffcb1c11b0e81278a7a087f89fffe8cfe50a7ee896f694e3f308"
+    },
+    {
+      "path": "reports/supplementary-output-audit/unseen_users-20261015.json",
+      "sha256": "ccc0eb5d49000555963eb9a1bf480df1f47cba3ea734cee03df3a5c3e59dfece"
+    },
+    {
+      "path": "reports/supplementary-output-audit/unseen_users-20261016.json",
+      "sha256": "cfce3cd44be87031a43fd4e9daa8f3ef78008b845840d943f8715721d06d984c"
+    },
+    {
+      "path": "reports/supplementary-output-audit/unseen_users-20261017.json",
+      "sha256": "105e1eb2ad897c061c5ba8f17a23805d762fb42e2672a75c9f1bf6089810d25b"
+    },
+    {
+      "path": "reports/supplementary-output-audit/unseen_users-20261018.json",
+      "sha256": "28b49a2f3c8bbd31475280ba96e41ca2ddd3766819ff963c0f3b134d26f3cab9"
+    },
+    {
+      "path": "reports/supplementary-output-audit/unseen_users-20261019.json",
+      "sha256": "79f0884340f53287e6c2ff60fc22f28bf6258eee10d4f1cf7e79e19e34a5a5bf"
+    },
+    {
+      "path": "reports/preflight/trajectory-output-audit-6963249238dc5d0e.json",
+      "sha256": "07326f50d19ee9caa4e14918a4b6e01f416ca890825a578724ca7cfd27d85cbd"
+    },
+    {
+      "path": "reports/preflight/human-randomized-independent-audit.json",
+      "sha256": "7576df68fbf90fbc491d5733390485eebbcd3c42a380c8013ec5b6c19d3913d2"
+    },
+    {
+      "path": "reports/preflight/human-randomized-preparation.json",
+      "sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071"
+    }
+  ],
+  "primary_scoring_jobs_hash_bound": 50,
+  "supplementary_fits_hash_bound": 10,
+  "trajectory_fits_hash_bound": 10,
+  "trajectory_metric_cells": 450,
+  "trajectory_bootstrap_contrasts": 400,
+  "randomized_audit_buckets": 32,
+  "scope": "Retained report identity, complete audit matrices and finite aggregate discrepancy checks. Does not download private forecast arrays, repeat neural inference, rerun cloud audits, or validate current corrected source on the provider."
+}

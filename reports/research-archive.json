@@ -1,0 +1,3217 @@
+[
+  {
+    "file": "reports/preflight/synthetic-pilot.json",
+    "sha256": "f743d37abee411e75062d13f807339539231c6a8776bb83e3911949c81521543",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f743d37abee411e75062d13f807339539231c6a8776bb83e3911949c81521543",
+    "upload_status": "complete"
+  },
+  {
+    "file": "reports/preflight/human-preparation-v3.json",
+    "sha256": "c8997ac0545dc6623cc33c831f3212bb576242334abdab21d8d2b9788b8e188d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/c8997ac0545dc6623cc33c831f3212bb576242334abdab21d8d2b9788b8e188d",
+    "upload_status": "complete"
+  },
+  {
+    "file": "reports/preflight/human-independent-audit-v4.json",
+    "sha256": "2e1fd29ca14788ed951e5f149f77e83406a89a6791efef69519e429d07fefd22",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2e1fd29ca14788ed951e5f149f77e83406a89a6791efef69519e429d07fefd22",
+    "upload_status": "complete"
+  },
+  {
+    "file": "reports/preflight/human-preparation-v4.json",
+    "sha256": "c9a141192fcdb90fa020b6ed438aefb98e02259576ac43fdd2036bcc3091a2f8",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/c9a141192fcdb90fa020b6ed438aefb98e02259576ac43fdd2036bcc3091a2f8",
+    "upload_status": "complete"
+  },
+  {
+    "file": "reports/preflight/human-training-pilot.json",
+    "sha256": "559faca9cea2bd0843529afed2e995b6ebec1b1b7919161c260769bad5a9e32d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/559faca9cea2bd0843529afed2e995b6ebec1b1b7919161c260769bad5a9e32d",
+    "upload_status": "complete"
+  },
+  {
+    "file": "reports/preflight/human-paired-analysis.json",
+    "sha256": "01adb961fe5cf8e4acbff513a85c18b59acdd955c49827910c5ec7f7985b4c54",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/01adb961fe5cf8e4acbff513a85c18b59acdd955c49827910c5ec7f7985b4c54",
+    "upload_status": "complete"
+  },
+  {
+    "file": "reports/preflight/uncertainty-comparison-pilot.json",
+    "sha256": "eba5d116d352611b1fa36add7ea96db1905e71140a16d65ab51f7f52f91be956",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/eba5d116d352611b1fa36add7ea96db1905e71140a16d65ab51f7f52f91be956",
+    "upload_status": "complete"
+  },
+  {
+    "file": "reports/preflight/refinement-pilot.json",
+    "sha256": "74462ab10da159195b051026de5893f2b763c30375efe51ee88d6e4e01052339",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/74462ab10da159195b051026de5893f2b763c30375efe51ee88d6e4e01052339",
+    "upload_status": "complete"
+  },
+  {
+    "file": "reports/preflight/human-quantization-pilot.json",
+    "sha256": "b8a85de6f4ba48095acef4dda985c1a2e0b3bfeeaaa5ec9e39966ae867b379cf",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/b8a85de6f4ba48095acef4dda985c1a2e0b3bfeeaaa5ec9e39966ae867b379cf",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/cpu-reproduction-diagnosis.json",
+    "sha256": "9bde6a3bd82eebfc0df2807b2d147ce50eed11d43b89e02279870f3145b4caab",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/9bde6a3bd82eebfc0df2807b2d147ce50eed11d43b89e02279870f3145b4caab",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/pilot-identity-report.json",
+    "sha256": "47cfe75dc65efd086b0b4cdb110e89ec1247ab7a96e55bbcb821f6df1f786902",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/47cfe75dc65efd086b0b4cdb110e89ec1247ab7a96e55bbcb821f6df1f786902",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/integer-certificate-audit-wave1.json",
+    "sha256": "797da93bb1e11c9ff613f1033874862834a896d87cf3cef5ad1c37048d2e150a",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/797da93bb1e11c9ff613f1033874862834a896d87cf3cef5ad1c37048d2e150a",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/integer-certificate-audit-512.json",
+    "sha256": "08f3acc3a1462c19dbb5305237138fa1b7011c31bf9c7fa199b4576c23039684",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/08f3acc3a1462c19dbb5305237138fa1b7011c31bf9c7fa199b4576c23039684",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-preparation-integration-smoke.json",
+    "sha256": "1950c30ccd9d905aed2939d377fb66cef534c0ef412585d7ce5ba9f7ac3bc085",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/1950c30ccd9d905aed2939d377fb66cef534c0ef412585d7ce5ba9f7ac3bc085",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/uncertainty-main-manifest.json",
+    "sha256": "17a82698a8356bbc138782ac394a3bcf4402e0e8105476fd89b47cadb753bcc4",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/17a82698a8356bbc138782ac394a3bcf4402e0e8105476fd89b47cadb753bcc4",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/synthetic-main-v3.json",
+    "sha256": "a28ad593d4291357a3193336c9fe721b501cd01ff9b5d6944cb594321350231f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a28ad593d4291357a3193336c9fe721b501cd01ff9b5d6944cb594321350231f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/uncertainty-main-v1.json",
+    "sha256": "087b20e567ff2113f0548152dd3bc8225ca5db4d824f648939ad58adf91a68fd",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/087b20e567ff2113f0548152dd3bc8225ca5db4d824f648939ad58adf91a68fd",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "spec/proofs.md",
+    "sha256": "4c724b9a4371fdde7a4f721e21bdd05682357152b9c258b73b5ebe42995bbf6b",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/4c724b9a4371fdde7a4f721e21bdd05682357152b9c258b73b5ebe42995bbf6b",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/uncertainty-main-summary.json",
+    "sha256": "1d0c5c201f75d5e631f02b5b794773ce34a2e1b034e22e1c6a730df773c24bac",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/1d0c5c201f75d5e631f02b5b794773ce34a2e1b034e22e1c6a730df773c24bac",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-learned-certified-pilot.json",
+    "sha256": "27e8f57eefe29395733fd7b28b8c9e125beddea4517b5be2dc8b5d45b3469a42",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/27e8f57eefe29395733fd7b28b8c9e125beddea4517b5be2dc8b5d45b3469a42",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/kuairand-27k-inspection.json",
+    "sha256": "354b7006e686d0984787bc88e9c03c694953822b3819fabdbdedb4e294c2d9ef",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/354b7006e686d0984787bc88e9c03c694953822b3819fabdbdedb4e294c2d9ef",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-preparation-v2-integration-smoke.json",
+    "sha256": "ad33c5f5cd7050eb9d766b1006b085c2b4783c9fc30fe1c68ecec85abc69faf8",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/ad33c5f5cd7050eb9d766b1006b085c2b4783c9fc30fe1c68ecec85abc69faf8",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "data/rights/zenodo-record-full-20261015.json",
+    "sha256": "2c48fffeae76242de27e7708d35077bc15d749dc510c0255f6126ab4e00a08da",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2c48fffeae76242de27e7708d35077bc15d749dc510c0255f6126ab4e00a08da",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/kuairand-27k-conversion.json",
+    "sha256": "b9e6d791819cd8a753f5732f6fce3c33326ae00dc54de1a8d92c476db3ece6ee",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/b9e6d791819cd8a753f5732f6fce3c33326ae00dc54de1a8d92c476db3ece6ee",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/kuairand-27k-cohort.json",
+    "sha256": "8b4609eed75d283ac34943787245dee87abf90951a5ef3d08a91184d6fb0c0a5",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/8b4609eed75d283ac34943787245dee87abf90951a5ef3d08a91184d6fb0c0a5",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/kuairand-27k-preparation.json",
+    "sha256": "f94f6807749dcfa8b98df4329f3102081d057f90ec96aee6129cc03f030492fd",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f94f6807749dcfa8b98df4329f3102081d057f90ec96aee6129cc03f030492fd",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/kuairand-27k-independent-audit.json",
+    "sha256": "0176129f335c54fb3589e8149cea335f14edc903dee777bcd760a7fc4336d26d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/0176129f335c54fb3589e8149cea335f14edc903dee777bcd760a7fc4336d26d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/kuairand-27k-calendar-support.json",
+    "sha256": "9a6918ffea315341be9ffc2aceb6f46f4528256a5561c600007c4d08d2f47d75",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/9a6918ffea315341be9ffc2aceb6f46f4528256a5561c600007c4d08d2f47d75",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/kuairand-27k-confirmatory-cases.json",
+    "sha256": "94ef98862c3fadaeedf35c0a823b376cadbbc35b4002d35c9b05b30b97c3ce81",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/94ef98862c3fadaeedf35c0a823b376cadbbc35b4002d35c9b05b30b97c3ce81",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/kuairand-27k-confirmatory-case-audit.json",
+    "sha256": "0901cdc50e2282dbe81564fa709a9ee5f7f1c3f9729887b611eeab760b8967cb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/0901cdc50e2282dbe81564fa709a9ee5f7f1c3f9729887b611eeab760b8967cb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/kuairand-27k-case-preparation-smoke.json",
+    "sha256": "8cf86da59fd4cc5bc5b0051667def5bfb3bd88fd385e22310e2e997750ebb906",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/8cf86da59fd4cc5bc5b0051667def5bfb3bd88fd385e22310e2e997750ebb906",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/kuairand-27k-case-audit-smoke.json",
+    "sha256": "5a063fe2047bb4b85d9bce390ec972ced5ed2ee5412f7ec180e228211293c951",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5a063fe2047bb4b85d9bce390ec972ced5ed2ee5412f7ec180e228211293c951",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/kuairand-27k-item-metadata-audit.json",
+    "sha256": "3bc4cd805d7d510c0eeb981368d68d33bec0c20441dab597f088a6d16e644548",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/3bc4cd805d7d510c0eeb981368d68d33bec0c20441dab597f088a6d16e644548",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-property-compression-pilot.json",
+    "sha256": "4f51c13de5ca80b6492f28513c1aad74abca83040a783802054ce438c1ff9224",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/4f51c13de5ca80b6492f28513c1aad74abca83040a783802054ce438c1ff9224",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/uncertainty-monte-carlo-coverage.json",
+    "sha256": "d690df9a900a963275546f4b273e5804a6c46a162c88936e4a3a6b02cbb2f45e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/d690df9a900a963275546f4b273e5804a6c46a162c88936e4a3a6b02cbb2f45e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/neural-exposure-component-tests.json",
+    "sha256": "0ec6a6acda870e068d29aa452bef45f9c58255a2faf0f7857eabcbd87fff5a77",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/0ec6a6acda870e068d29aa452bef45f9c58255a2faf0f7857eabcbd87fff5a77",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-calendar-known-inputs.json",
+    "sha256": "cfc5f76de47c558c704aaf7f6f8ebc39f159c2b1b1cba1a253b0b00eb7f9d05f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/cfc5f76de47c558c704aaf7f6f8ebc39f159c2b1b1cba1a253b0b00eb7f9d05f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-calendar-unseen-inputs.json",
+    "sha256": "7527d0233c41acbf230259234bd311f065c4aab6e63c1434cff4ae8c2c60a3c7",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/7527d0233c41acbf230259234bd311f065c4aab6e63c1434cff4ae8c2c60a3c7",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-training-feature-review.json",
+    "sha256": "abb235119db97497824cd04bf000d51a11095ef4086eae0545db676b1bdac6e0",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/abb235119db97497824cd04bf000d51a11095ef4086eae0545db676b1bdac6e0",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/integer-campaign-audit-progress.json",
+    "sha256": "a30dbc205a4c52f422e01e95af22b2108cb512d86898d9cd09b320a3ec2406bb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a30dbc205a4c52f422e01e95af22b2108cb512d86898d9cd09b320a3ec2406bb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/human-case-construction-v1.json",
+    "sha256": "7036f8fc6c69c98097b6e1f26a9a062b4924e7ef8f59648d3338864d2d57f958",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/7036f8fc6c69c98097b6e1f26a9a062b4924e7ef8f59648d3338864d2d57f958",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/human-training-calendar-v1.json",
+    "sha256": "d758cc07ba6c50a92e58abc9c9355f4a8ab61fc7af3351168668430bda02836a",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/d758cc07ba6c50a92e58abc9c9355f4a8ab61fc7af3351168668430bda02836a",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "spec/model.md",
+    "sha256": "1160e565d1e52d264af61c417cb45b735ad6fa74e1fce4e47875d7614aa8dcd3",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/1160e565d1e52d264af61c417cb45b735ad6fa74e1fce4e47875d7614aa8dcd3",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "spec/confirmatory-calendar.md",
+    "sha256": "5e17d57f8d31f803a17fb23909c6c640537fa014db967ceca83000d69dff013f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5e17d57f8d31f803a17fb23909c6c640537fa014db967ceca83000d69dff013f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "spec/intervention-estimand.md",
+    "sha256": "7bcdef1b1e6c7afbed2abf7587684a2e199d325b20e6f2562d6498fa3830e7ec",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/7bcdef1b1e6c7afbed2abf7587684a2e199d325b20e6f2562d6498fa3830e7ec",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-manifest.json",
+    "sha256": "8ae32f48dedc33bfbd6cc40df146af32ef47e258bf64b78208fd0ce7b31de1d7",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/8ae32f48dedc33bfbd6cc40df146af32ef47e258bf64b78208fd0ce7b31de1d7",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/deliverable-evidence.json",
+    "sha256": "109d87efd0ac263628fe3a9618e66304780aefccee5b73dd9d2127fa960c2b1b",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/109d87efd0ac263628fe3a9618e66304780aefccee5b73dd9d2127fa960c2b1b",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/index.json",
+    "sha256": "e63d5fc54a4655a3f64323025bd19dfba589666f0f901c53d75cd57d050585e5",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/e63d5fc54a4655a3f64323025bd19dfba589666f0f901c53d75cd57d050585e5",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-04/figure04-da567fa770d4/caption.md",
+    "sha256": "2122e05d8665499d51da5cd4cca4f2c13c366e67c3eaa058735fe16c59eb925e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2122e05d8665499d51da5cd4cca4f2c13c366e67c3eaa058735fe16c59eb925e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-04/figure04-da567fa770d4/figure-04-uncertainty.pdf",
+    "sha256": "537bf6269325550a2ade5c8e43551ca444da27dc8fa092a45fb8044619555c5e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/537bf6269325550a2ade5c8e43551ca444da27dc8fa092a45fb8044619555c5e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-04/figure04-da567fa770d4/figure-04a-width.pdf",
+    "sha256": "f861d68dd63395406511208b927466ed4fcdca64aecffc5a4920d7fdb7a4f8b9",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f861d68dd63395406511208b927466ed4fcdca64aecffc5a4920d7fdb7a4f8b9",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-04/figure04-da567fa770d4/figure-04a-width.png",
+    "sha256": "9c00825d44d5369eb5325d69d93c88c9bee42f01e5e3f3b0e3d1c5a78c2b5262",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/9c00825d44d5369eb5325d69d93c88c9bee42f01e5e3f3b0e3d1c5a78c2b5262",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-04/figure04-da567fa770d4/figure-04a-width.svg",
+    "sha256": "5bfbb73bc452648bd9283ec67fe9d2459434a8d5b59d1eebf922e77d4e82f350",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5bfbb73bc452648bd9283ec67fe9d2459434a8d5b59d1eebf922e77d4e82f350",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-04/figure04-da567fa770d4/figure-04b-ranges.pdf",
+    "sha256": "a3ef659b4cc0eeb4de0c5917f1c860308db58fcb9e4a39f6840a3e7c48e7d54f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a3ef659b4cc0eeb4de0c5917f1c860308db58fcb9e4a39f6840a3e7c48e7d54f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-04/figure04-da567fa770d4/figure-04b-ranges.png",
+    "sha256": "b8e1285301759f0b3911f44ce58aeab4bdd5c0afb2177c333c174683c5a8033e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/b8e1285301759f0b3911f44ce58aeab4bdd5c0afb2177c333c174683c5a8033e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-04/figure04-da567fa770d4/figure-04b-ranges.svg",
+    "sha256": "c6c9dbe1f6a826092543460b63c2d5b802fbde874e7c8d2bea5eb9fcec2fe660",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/c6c9dbe1f6a826092543460b63c2d5b802fbde874e7c8d2bea5eb9fcec2fe660",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-04/figure04-da567fa770d4/manifest.json",
+    "sha256": "771618f0e8ead1ce0e2ba4e3014ea7aef5b62c47584fb3d4fcc82a31ab2288e9",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/771618f0e8ead1ce0e2ba4e3014ea7aef5b62c47584fb3d4fcc82a31ab2288e9",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-04/figure04-da567fa770d4/mean-widths.csv",
+    "sha256": "6a2b50d233ba0442b3ff2f344f88a34bd509dcc5c27ee5b235d104f13f41cde3",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/6a2b50d233ba0442b3ff2f344f88a34bd509dcc5c27ee5b235d104f13f41cde3",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-04/figure04-da567fa770d4/range-example.csv",
+    "sha256": "853f67414b2f32c3d0aaf60a988ea0040e7335d6929ec60c2544a94a72fbfb0d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/853f67414b2f32c3d0aaf60a988ea0040e7335d6929ec60c2544a94a72fbfb0d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-04/figure04-da567fa770d4/render-source.py",
+    "sha256": "61ee3d78bab89c347b481979f67dfdf0f934f8fb31bf35ecfdff753ec10676e7",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/61ee3d78bab89c347b481979f67dfdf0f934f8fb31bf35ecfdff753ec10676e7",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-04/figure04-da567fa770d4/visual-qa.json",
+    "sha256": "92310ad9838fe66e5bd39a54e0329c0a55897d0e74702b0c7d0a0f4c2984ae9c",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/92310ad9838fe66e5bd39a54e0329c0a55897d0e74702b0c7d0a0f4c2984ae9c",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/execution-state.json",
+    "sha256": "7f26f6c58dd64d6ffdb2383e9cef5f733e43924340f68e7b939374d4ab8c87e2",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/7f26f6c58dd64d6ffdb2383e9cef5f733e43924340f68e7b939374d4ab8c87e2",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/cloud-jobs.json",
+    "sha256": "ff217e97fb35891c02218c4826e47e26839a9555888a9473daa2eff09560c695",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/ff217e97fb35891c02218c4826e47e26839a9555888a9473daa2eff09560c695",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/pilot-results.md",
+    "sha256": "3ba1b98a936b75d25e88558681de35407ef07c422b70a090638c87ed0808b2ff",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/3ba1b98a936b75d25e88558681de35407ef07c422b70a090638c87ed0808b2ff",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/deliverable-evidence.json",
+    "sha256": "1867a85d0aac9e0fecf5b8fa78c4874c7e3fe72aadc2b30a1be978ec05c461a6",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/1867a85d0aac9e0fecf5b8fa78c4874c7e3fe72aadc2b30a1be978ec05c461a6",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-training-feature-review.json",
+    "sha256": "f38dc528f89e15735283823c9517d806d08a7f81b3788c4da1c828c835ba08c6",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f38dc528f89e15735283823c9517d806d08a7f81b3788c4da1c828c835ba08c6",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/source-9a4495581c5afbe3e3371cbc516f816a11073d28d59141ebbcfc091ae8dd428f.tar.gz",
+    "sha256": "9a4495581c5afbe3e3371cbc516f816a11073d28d59141ebbcfc091ae8dd428f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/9a4495581c5afbe3e3371cbc516f816a11073d28d59141ebbcfc091ae8dd428f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/human-training-calendar-v3.json",
+    "sha256": "6085d9449ba91dcd802393ea261eb96f70c01b486a1add7ddbd3e423bce78b68",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/6085d9449ba91dcd802393ea261eb96f70c01b486a1add7ddbd3e423bce78b68",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/human-training-calendar-v4-replicates.json",
+    "sha256": "26ceb24e9d738227c850c1a850dceea75a77a53f2ce445bc7432e495f0bba7fc",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/26ceb24e9d738227c850c1a850dceea75a77a53f2ce445bc7432e495f0bba7fc",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/uncertainty-repeated-v1.json",
+    "sha256": "b303c5003b4c731d31688af8d0796b4879aaabf4f14d8f72ef220d0668f19ba0",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/b303c5003b4c731d31688af8d0796b4879aaabf4f14d8f72ef220d0668f19ba0",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/intervention-main-v1.json",
+    "sha256": "33b3c0735b069118de4733bd08fdccc029dacc18ae7b27603cc00493a545d737",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/33b3c0735b069118de4733bd08fdccc029dacc18ae7b27603cc00493a545d737",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "spec/human-confirmatory-analysis.md",
+    "sha256": "a3b1f4b765395a8ac7fedf124c60efbf1844e343691ce1de238720718161e372",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a3b1f4b765395a8ac7fedf124c60efbf1844e343691ce1de238720718161e372",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "spec/synthetic-intervention-analysis.md",
+    "sha256": "2551824165a008e7e8ce545d880dba1cf40cc2edd3b6b8b0e95f316c6f06706b",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2551824165a008e7e8ce545d880dba1cf40cc2edd3b6b8b0e95f316c6f06706b",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-manifest.json",
+    "sha256": "b15831f826bfed99e443e5590ef2cf3169290c0a3c64be44a3d253b74ebde725",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/b15831f826bfed99e443e5590ef2cf3169290c0a3c64be44a3d253b74ebde725",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/source-56dc914220a3b8ba1392d40c9820777d876e0f60874a752748fa1ee9dc63143c.tar.gz",
+    "sha256": "56dc914220a3b8ba1392d40c9820777d876e0f60874a752748fa1ee9dc63143c",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/56dc914220a3b8ba1392d40c9820777d876e0f60874a752748fa1ee9dc63143c",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/kuairand-27k-case-context-audit.json",
+    "sha256": "8db0da944401d3e5347aeab4defadab01be4a22d9599e3d99ea7f2217d05cafd",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/8db0da944401d3e5347aeab4defadab01be4a22d9599e3d99ea7f2217d05cafd",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-content-known-inputs.json",
+    "sha256": "cff4d701388963951997c3542ea57701b63027ccf754bb33ac820e27f4075497",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/cff4d701388963951997c3542ea57701b63027ccf754bb33ac820e27f4075497",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-content-unseen-inputs.json",
+    "sha256": "506c002b29ec7d34e47f11d59e2ba4773a876064e56862fa57aedc7bd093f011",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/506c002b29ec7d34e47f11d59e2ba4773a876064e56862fa57aedc7bd093f011",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/content-neural-cpu-tests-throughput.json",
+    "sha256": "6eb0ab54af1e965b3005eec7eed580b58ca9acbe66e34a1c5d71e6280eda5a6b",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/6eb0ab54af1e965b3005eec7eed580b58ca9acbe66e34a1c5d71e6280eda5a6b",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/cpu-training-throughput-float32.json",
+    "sha256": "5ed2d1ff90823d85e9fc30f61d4853aef65bf51d890948dcddc55cbb0096208d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5ed2d1ff90823d85e9fc30f61d4853aef65bf51d890948dcddc55cbb0096208d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/cpu-training-throughput-autocast.json",
+    "sha256": "1aedf22d756dfea874a181eac3ef95d64e480a63708607c28700b07a776d0845",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/1aedf22d756dfea874a181eac3ef95d64e480a63708607c28700b07a776d0845",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-content-training-cpu-preflight.json",
+    "sha256": "476f8540837b3f08c78e6dda196b76c3c4d2d0419d56e288dab66a9d4498edf9",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/476f8540837b3f08c78e6dda196b76c3c4d2d0419d56e288dab66a9d4498edf9",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/uncertainty-repeated-smoke.json",
+    "sha256": "38b6f743c3c23baa59cc4ae7ba8835a783e78e45c948da475287d59434465b29",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/38b6f743c3c23baa59cc4ae7ba8835a783e78e45c948da475287d59434465b29",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/uncertainty-repeated-replay-smoke.json",
+    "sha256": "d865ea038d829b780d3b8866a01c7355a1f3b7509b26cd26716a49142215e813",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/d865ea038d829b780d3b8866a01c7355a1f3b7509b26cd26716a49142215e813",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/intervention-multidimensional-smoke.json",
+    "sha256": "ae84496ec49944ea7d91949143706247f15e97c56ccaafa18bc1502db3bfd5d9",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/ae84496ec49944ea7d91949143706247f15e97c56ccaafa18bc1502db3bfd5d9",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-five-seed-supplement-smoke.json",
+    "sha256": "4a891dc32c6e5a07b1fa5a2d9ddd905fad75ae45a01e3748a7e6ee5f63c8f918",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/4a891dc32c6e5a07b1fa5a2d9ddd905fad75ae45a01e3748a7e6ee5f63c8f918",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/execution-state.json",
+    "sha256": "40d31f6a014f42b799a4640744fd68d2dfc3d4e52cdcec543d8ba0c348cc56d2",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/40d31f6a014f42b799a4640744fd68d2dfc3d4e52cdcec543d8ba0c348cc56d2",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/cloud-jobs.json",
+    "sha256": "405dc03537b27974bf8292e5c132a2c87cb28be9c1066f32c7ab81d87fa6c51e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/405dc03537b27974bf8292e5c132a2c87cb28be9c1066f32c7ab81d87fa6c51e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/deliverable-evidence.json",
+    "sha256": "17d4b2d7bcf07a27e77e429eb196eea8ed2f4323f112a63da48f91990409590a",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/17d4b2d7bcf07a27e77e429eb196eea8ed2f4323f112a63da48f91990409590a",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/pilot-results.md",
+    "sha256": "a9d22b1635cc4cff582d72c91f582de338d8119d2d6dd0aaa4f2a5cd25d6ad76",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a9d22b1635cc4cff582d72c91f582de338d8119d2d6dd0aaa4f2a5cd25d6ad76",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-manifest.json",
+    "sha256": "960ad1b521f9ac6cd8db3e032ac3516845b46ef69cd7a4450bd41c573b4ef6b8",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/960ad1b521f9ac6cd8db3e032ac3516845b46ef69cd7a4450bd41c573b4ef6b8",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/source-120f8a7a85018729d2639066b7169502f7402a49289c56877638d26fafea2fa3.tar.gz",
+    "sha256": "120f8a7a85018729d2639066b7169502f7402a49289c56877638d26fafea2fa3",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/120f8a7a85018729d2639066b7169502f7402a49289c56877638d26fafea2fa3",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/deliverable-evidence.json",
+    "sha256": "fe80da54fe6c25fe6bcf7acb1f1c2329c99b26df304552f2d91ba09c31e3b0b0",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/fe80da54fe6c25fe6bcf7acb1f1c2329c99b26df304552f2d91ba09c31e3b0b0",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/execution-state.json",
+    "sha256": "abe94ecc65197c77ed85f09b85a40ce81c0cc976d835fdf9ed941915f56067a1",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/abe94ecc65197c77ed85f09b85a40ce81c0cc976d835fdf9ed941915f56067a1",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/cloud-jobs.json",
+    "sha256": "7918784421e43a8733c8e8c175612baedcbbe8289401cb1993810d51e3b31eff",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/7918784421e43a8733c8e8c175612baedcbbe8289401cb1993810d51e3b31eff",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/deliverable-evidence.json",
+    "sha256": "b5871232d052c8c6c1a890e0e8ad7e9ed177ef91145cc532b585f1d04eec4faa",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/b5871232d052c8c6c1a890e0e8ad7e9ed177ef91145cc532b585f1d04eec4faa",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/quality-gate.json",
+    "sha256": "2669a2961f55adcfff79058b5cb517024ce1db49c1eaac8c14082b5712e9c622",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2669a2961f55adcfff79058b5cb517024ce1db49c1eaac8c14082b5712e9c622",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/synthetic-main-progress.json",
+    "sha256": "b466b603bfce7fd3cf9bedf756f69425586e6c4980c9599ff1400da51a15cd45",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/b466b603bfce7fd3cf9bedf756f69425586e6c4980c9599ff1400da51a15cd45",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/uncertainty-repeated-progress.json",
+    "sha256": "3db67ed57a2100feff167ae7d2fc882723024d972bf9dc00428196d04cd2be29",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/3db67ed57a2100feff167ae7d2fc882723024d972bf9dc00428196d04cd2be29",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/intervention-main-progress.json",
+    "sha256": "241eef7ed3bfad40a2058adf2519d608beb77063f67f0ec4daf998ad4986776e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/241eef7ed3bfad40a2058adf2519d608beb77063f67f0ec4daf998ad4986776e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-manifest.json",
+    "sha256": "c229d3b8970f4bb577b62c963203cdf76a072663ef3dcbb2542666338e13163f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/c229d3b8970f4bb577b62c963203cdf76a072663ef3dcbb2542666338e13163f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/source-fa10699c8e72ee0d037e7bbe80faeb0e816d134a51393d419585e830df207c7d.tar.gz",
+    "sha256": "fa10699c8e72ee0d037e7bbe80faeb0e816d134a51393d419585e830df207c7d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/fa10699c8e72ee0d037e7bbe80faeb0e816d134a51393d419585e830df207c7d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/program.json",
+    "sha256": "84fd38ecc75553e42d615a2c3539cdfab9814ba35ed4cd449fff36c54411fb54",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/84fd38ecc75553e42d615a2c3539cdfab9814ba35ed4cd449fff36c54411fb54",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/human-quantization-v1.json",
+    "sha256": "ac48d631d629921463ae16a2c622cf02169b15a2214482a05ede795a42d9b0cd",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/ac48d631d629921463ae16a2c622cf02169b15a2214482a05ede795a42d9b0cd",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/human-adjacent-calibration-v1.json",
+    "sha256": "6beadd742d4c68b047c9dbff01898ac1c92fd1ff623f7e2a9e285b3e49fe515d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/6beadd742d4c68b047c9dbff01898ac1c92fd1ff623f7e2a9e285b3e49fe515d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/human-calibrated-parent-v1.json",
+    "sha256": "ae010f3fcce6035727417412b1a120ba7ebfd5c8221c6cbd9d189f5f2ba0d70f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/ae010f3fcce6035727417412b1a120ba7ebfd5c8221c6cbd9d189f5f2ba0d70f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "spec/calibrated-human-model.md",
+    "sha256": "0fcc82714bf7b0657e810c64d9dc05a6af578c700eac1d8220e43522ff64950e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/0fcc82714bf7b0657e810c64d9dc05a6af578c700eac1d8220e43522ff64950e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/intervention-results.md",
+    "sha256": "6ff4c69cf5a0e82909e7090cb25ff07645bfb58a526ad24895f94e21f37abadc",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/6ff4c69cf5a0e82909e7090cb25ff07645bfb58a526ad24895f94e21f37abadc",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/uncertainty-repeated-results.md",
+    "sha256": "85379ee25397a222e20344f36488f84996650c1b8a1a682ec83881480a4b0d68",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/85379ee25397a222e20344f36488f84996650c1b8a1a682ec83881480a4b0d68",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/index.json",
+    "sha256": "50db7147a0b0f507562c2b76621fcd45b63fe7f08a50faebb9c2052b016e30eb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/50db7147a0b0f507562c2b76621fcd45b63fe7f08a50faebb9c2052b016e30eb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-quantization-calendar-context-engineering.json",
+    "sha256": "f052a52fd06f0dcfef09a61c6ea2777ea722bf1ade7b9753aa69340f65994862",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f052a52fd06f0dcfef09a61c6ea2777ea722bf1ade7b9753aa69340f65994862",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-adjacent-calibration.json",
+    "sha256": "ded969e03e56d879bb7a2dbff3aa637c69eee821e45024125103a7a21ea09b19",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/ded969e03e56d879bb7a2dbff3aa637c69eee821e45024125103a7a21ea09b19",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-adjacent-calibration-smoke.json",
+    "sha256": "9f55d8e9be25de20856a0fc5acffd0a41cc1b86098d1da9c629bfc3a894f14b3",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/9f55d8e9be25de20856a0fc5acffd0a41cc1b86098d1da9c629bfc3a894f14b3",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-context-calibrated-parent.json",
+    "sha256": "5e75e20cffb39c60cf92dc15bd4f39c2fcad1a012729e94b65a4c24585c66427",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5e75e20cffb39c60cf92dc15bd4f39c2fcad1a012729e94b65a4c24585c66427",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-training-completion-checkpoint.json",
+    "sha256": "52a0f0e9b2fb0ae922d7ed56dcde301974e5c36d6d009acf9268417223c381cf",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/52a0f0e9b2fb0ae922d7ed56dcde301974e5c36d6d009acf9268417223c381cf",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/intervention-main-analysis.json",
+    "sha256": "c972d136449381a167389044c320a313241ce9df56235b52c88749239e6288e9",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/c972d136449381a167389044c320a313241ce9df56235b52c88749239e6288e9",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/intervention-main-completion.json",
+    "sha256": "4386d5dc6b9eef48c13e93510485f3a783f485aa573b2d17637ef5d9c80bff8d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/4386d5dc6b9eef48c13e93510485f3a783f485aa573b2d17637ef5d9c80bff8d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/intervention-structural-audit-smoke.json",
+    "sha256": "a0760dc9e237247728c19fa7f1dfee9be34848555c528fe6dce3504850a9a1cd",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a0760dc9e237247728c19fa7f1dfee9be34848555c528fe6dce3504850a9a1cd",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/uncertainty-repeated-completion.json",
+    "sha256": "453dd392e47d837fc86d5714daacd3b06fbd52bda4e683757850d53bfa20c36b",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/453dd392e47d837fc86d5714daacd3b06fbd52bda4e683757850d53bfa20c36b",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/uncertainty-repeated-replay-completion.json",
+    "sha256": "761bb579183795a708dbbf232722c5a4c0ce46787b70138cec90ae302ba1ea49",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/761bb579183795a708dbbf232722c5a4c0ce46787b70138cec90ae302ba1ea49",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/uncertainty-repeated-summary.json",
+    "sha256": "24eda8e82e685db7bd8d1440acde88c5519bd3d2e58712b9a8a6aecf799128ee",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/24eda8e82e685db7bd8d1440acde88c5519bd3d2e58712b9a8a6aecf799128ee",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/cloud-concurrency-override.json",
+    "sha256": "d74dcc4a56569b5240494fcabe64cbc49c8baf64e0026b4c4a62153e26f82dd6",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/d74dcc4a56569b5240494fcabe64cbc49c8baf64e0026b4c4a62153e26f82dd6",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/execution-state.json",
+    "sha256": "4d0a63db5688196e05a8ce4deeb656a8aadeaf8d6ae2af99126c7c9b6449ef12",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/4d0a63db5688196e05a8ce4deeb656a8aadeaf8d6ae2af99126c7c9b6449ef12",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/cloud-jobs.json",
+    "sha256": "e52fad1e04ac01af3d2899dc96862bf61b8c0368e2c30f250d8146433ea98635",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/e52fad1e04ac01af3d2899dc96862bf61b8c0368e2c30f250d8146433ea98635",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/deliverable-evidence.json",
+    "sha256": "efcba161c728a9dfad5fb055f98d43436720a752efef9ae106bf05a127cddd8b",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/efcba161c728a9dfad5fb055f98d43436720a752efef9ae106bf05a127cddd8b",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/pilot-results.md",
+    "sha256": "10ab8e38f89848f4024ad2dec3fac0bb5ab36445778e45696d5558ab3a5d6983",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/10ab8e38f89848f4024ad2dec3fac0bb5ab36445778e45696d5558ab3a5d6983",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-gru-quantization-known-20261015.json",
+    "sha256": "290e4480c5d94b0d699e4a00f369ccc61d2d5d415551340f9ca1538a5f0748c3",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/290e4480c5d94b0d699e4a00f369ccc61d2d5d415551340f9ca1538a5f0748c3",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-gru-quantization-known-20261016.json",
+    "sha256": "2b3efa5a6d04156876fb35f5ab1ce132a8d34f6e1276d3084d40f13072338298",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2b3efa5a6d04156876fb35f5ab1ce132a8d34f6e1276d3084d40f13072338298",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-gru-quantization-known-20261017.json",
+    "sha256": "a4136dee7cddc9bd50943008c7e64295e0fa3a06c3bbb45e28df4d6c1434b85d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a4136dee7cddc9bd50943008c7e64295e0fa3a06c3bbb45e28df4d6c1434b85d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/witness.svg",
+    "sha256": "5d0b5fc49dec36b4525f262d8ed7dce9e8948381360e3fc06cb748c5436437e2",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5d0b5fc49dec36b4525f262d8ed7dce9e8948381360e3fc06cb748c5436437e2",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/comparisons.svg",
+    "sha256": "0797c1c3bf065ff6663ff90f956ab5a7aea8a1fbc523aa9700e16eca4ecb41a4",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/0797c1c3bf065ff6663ff90f956ab5a7aea8a1fbc523aa9700e16eca4ecb41a4",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/caption.md",
+    "sha256": "65e697a88cab4d07fa29fc837ac6a9564b42f0f7218ae5c6d1528bd86b263225",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/65e697a88cab4d07fa29fc837ac6a9564b42f0f7218ae5c6d1528bd86b263225",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/figure-05-interventions.pdf",
+    "sha256": "c1f569b11d43c70063cf9ea71d7b67780ec559b4306e2af639bd22bcde74fedd",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/c1f569b11d43c70063cf9ea71d7b67780ec559b4306e2af639bd22bcde74fedd",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/paired-seed-effects.csv",
+    "sha256": "14a12b7bd5c15f63f08dae8882c3ddb3441ecee9361b4900d7395a45657cdb1a",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/14a12b7bd5c15f63f08dae8882c3ddb3441ecee9361b4900d7395a45657cdb1a",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/comparisons.png",
+    "sha256": "8aaa9121e1e45d53fce05c0145017ec258ad2cee1406ccc65653bdcee04d8dca",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/8aaa9121e1e45d53fce05c0145017ec258ad2cee1406ccc65653bdcee04d8dca",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/witness.png",
+    "sha256": "c29e2529d01bfbe01f34cb952079f0e2409bf33f4cb6a1dc64d35deddcef88d7",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/c29e2529d01bfbe01f34cb952079f0e2409bf33f4cb6a1dc64d35deddcef88d7",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/comparisons.pdf",
+    "sha256": "453d5a84cdfb47a17a52c99280495aa082c8305eedf68a99d685bbab66ae7ae2",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/453d5a84cdfb47a17a52c99280495aa082c8305eedf68a99d685bbab66ae7ae2",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/witness.pdf",
+    "sha256": "869d2db16ac93f6fd48dffa228c1399592a31a0c0dba5034cc7503dc8e7e03e3",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/869d2db16ac93f6fd48dffa228c1399592a31a0c0dba5034cc7503dc8e7e03e3",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/full-frontier.svg",
+    "sha256": "cca06ae7c63ff22e1910ce7963020eef160b769c261dbc517b08798cf2dd2bbb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/cca06ae7c63ff22e1910ce7963020eef160b769c261dbc517b08798cf2dd2bbb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/manifest.json",
+    "sha256": "40b01da3b6a41c62a35e2e6b11658e2ed8d874ebd8b96602e26406b24d3a0661",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/40b01da3b6a41c62a35e2e6b11658e2ed8d874ebd8b96602e26406b24d3a0661",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/witness-probabilities.csv",
+    "sha256": "5ddc73161f507b1b02e821083637cc36d5ccf53fda6473c92df54c7b5178de86",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5ddc73161f507b1b02e821083637cc36d5ccf53fda6473c92df54c7b5178de86",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/full-control-frontier.csv",
+    "sha256": "20a3a4b1a3e099ae0521c1734f2efd3da3264b14139c7beb3f56a72d6738176e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/20a3a4b1a3e099ae0521c1734f2efd3da3264b14139c7beb3f56a72d6738176e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/render-source.py",
+    "sha256": "801da0fc3a4597a3641ba61f40695c1a8fff38550e890d648ff179b06189d246",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/801da0fc3a4597a3641ba61f40695c1a8fff38550e890d648ff179b06189d246",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/full-frontier.png",
+    "sha256": "e3b1cce4eb0f8c5711019d00da3851cf299e82006ff1a02879bea4345f11ba62",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/e3b1cce4eb0f8c5711019d00da3851cf299e82006ff1a02879bea4345f11ba62",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/full-frontier.pdf",
+    "sha256": "05d98c85032f4657df832b1f976527674a44b040a83c132963f70b49ac057b84",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/05d98c85032f4657df832b1f976527674a44b040a83c132963f70b49ac057b84",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-05/figure05-a1131dd6a645/visual-qa.json",
+    "sha256": "831f5932abdf9185977eb1df2880b05c705d0fc98ab67eaafcdbe3a8a1bcc56d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/831f5932abdf9185977eb1df2880b05c705d0fc98ab67eaafcdbe3a8a1bcc56d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/synthetic-main-summary.json",
+    "sha256": "8029a1f671fda530b2e38ec8466b668f19180fedf25215d9357156d4d92d83e8",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/8029a1f671fda530b2e38ec8466b668f19180fedf25215d9357156d4d92d83e8",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/integer-campaign-audit-manifest.json",
+    "sha256": "325ce8ca5c360a800b74ffdaa0dc11219c2c7c420589d025834dd1fac0b1322b",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/325ce8ca5c360a800b74ffdaa0dc11219c2c7c420589d025834dd1fac0b1322b",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-adjacent-calibration-independent-audit.json",
+    "sha256": "625edd22d6843fde7e89708de4b57de959657b08810cfb7799baef6f9668a398",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/625edd22d6843fde7e89708de4b57de959657b08810cfb7799baef6f9668a398",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/evidence-registry.json",
+    "sha256": "3ed1cb21d86087f075827187cbb85702c3f5919c74b7a4ebe3c144183e2f6b8d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/3ed1cb21d86087f075827187cbb85702c3f5919c74b7a4ebe3c144183e2f6b8d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-01/figure01-5fcd76d2f800/caption.md",
+    "sha256": "2c41a7f310df033e56acadcf7fa877e85df5e3dadfdc13801e84f3b7000a6277",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2c41a7f310df033e56acadcf7fa877e85df5e3dadfdc13801e84f3b7000a6277",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-01/figure01-5fcd76d2f800/edges.csv",
+    "sha256": "80c6ff2fa1f997fdfa108d7647131f80ae0cf274c78308f64acd5bffd2c4d0d7",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/80c6ff2fa1f997fdfa108d7647131f80ae0cf274c78308f64acd5bffd2c4d0d7",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-01/figure01-5fcd76d2f800/figure-01-abstraction.pdf",
+    "sha256": "e8336c345a010eb547d1d5580bbb740e2f2d25f1aa7a1d39fc2dea4dadc8ee53",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/e8336c345a010eb547d1d5580bbb740e2f2d25f1aa7a1d39fc2dea4dadc8ee53",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-01/figure01-5fcd76d2f800/figure-01-abstraction.png",
+    "sha256": "00afb630d6ac14878c70e7b55bb37c505b5283678a9cbf549236a33c53dbf351",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/00afb630d6ac14878c70e7b55bb37c505b5283678a9cbf549236a33c53dbf351",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-01/figure01-5fcd76d2f800/figure-01-abstraction.svg",
+    "sha256": "fee7dc615230b58f0a540309095ecabc03e134d799e019b15b3ed4de77a54509",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/fee7dc615230b58f0a540309095ecabc03e134d799e019b15b3ed4de77a54509",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-01/figure01-5fcd76d2f800/manifest.json",
+    "sha256": "461cc313c8626bca9631deeb7adae0025b0e2b0ba9925b8d0fe9188342668664",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/461cc313c8626bca9631deeb7adae0025b0e2b0ba9925b8d0fe9188342668664",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-01/figure01-5fcd76d2f800/properties.csv",
+    "sha256": "455b417ff316049806c27101aafe2f124bb056a4156e2ef7069738c9a21a2c30",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/455b417ff316049806c27101aafe2f124bb056a4156e2ef7069738c9a21a2c30",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-01/figure01-5fcd76d2f800/render-source.py",
+    "sha256": "7bd8e52750e25d4a182f4cd8dfc42897ee1056d623f6b50212f075b8a51ed464",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/7bd8e52750e25d4a182f4cd8dfc42897ee1056d623f6b50212f075b8a51ed464",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-01/figure01-5fcd76d2f800/states.csv",
+    "sha256": "38b378e21a5bc45e3c0056aabf415cafa13b150d0f55079a96c1e4cff3f1d6ed",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/38b378e21a5bc45e3c0056aabf415cafa13b150d0f55079a96c1e4cff3f1d6ed",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-01/figure01-5fcd76d2f800/visual-qa.json",
+    "sha256": "3e0015507996e6aa1d8fb1677929b2caaabd51b6b6c6d068d1ed415c7a100841",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/3e0015507996e6aa1d8fb1677929b2caaabd51b6b6c6d068d1ed415c7a100841",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-03/figure03-4018f31e66d7/caption.md",
+    "sha256": "8c1f7f3034747736835ab0bd29b89ce52d004f7d1d73c3dc6459a94db6513f58",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/8c1f7f3034747736835ab0bd29b89ce52d004f7d1d73c3dc6459a94db6513f58",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-03/figure03-4018f31e66d7/figure-03-preservation.pdf",
+    "sha256": "3f15ef902a5c87473bc1f74c9593e6f76bb4f818f5609b8c2f899792329e93b8",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/3f15ef902a5c87473bc1f74c9593e6f76bb4f818f5609b8c2f899792329e93b8",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-03/figure03-4018f31e66d7/figure-03-preservation.png",
+    "sha256": "cd8716baa56d631a0a77144b6b46a098183e07688bf69d59a252f3a6f00ca98e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/cd8716baa56d631a0a77144b6b46a098183e07688bf69d59a252f3a6f00ca98e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-03/figure03-4018f31e66d7/figure-03-preservation.svg",
+    "sha256": "59b40a578389c134e404c48d2e8beccfcfe84157bb81eb5e9d3f55c6324a5dfc",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/59b40a578389c134e404c48d2e8beccfcfe84157bb81eb5e9d3f55c6324a5dfc",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-03/figure03-4018f31e66d7/manifest.json",
+    "sha256": "3ba8eccfaac171c745d7355d7326bd82dd67e680a1c2ce9f4f86f29000e29550",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/3ba8eccfaac171c745d7355d7326bd82dd67e680a1c2ce9f4f86f29000e29550",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-03/figure03-4018f31e66d7/plotted-comparisons.csv.gz",
+    "sha256": "440482d7d691abd2245f57eeb95c7b29be94b18bbd01e5ab471db5cc992d565c",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/440482d7d691abd2245f57eeb95c7b29be94b18bbd01e5ab471db5cc992d565c",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-03/figure03-4018f31e66d7/render-source.py",
+    "sha256": "be2171f5f9d616d0acda6667e5098ba4eccacbb554976a6f50fa0228a1c62ae2",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/be2171f5f9d616d0acda6667e5098ba4eccacbb554976a6f50fa0228a1c62ae2",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/figure-03/figure03-4018f31e66d7/visual-qa.json",
+    "sha256": "44679bd43d53b0351082db62aaf3d59913d10e52807eabd9c1e0fcc03537d446",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/44679bd43d53b0351082db62aaf3d59913d10e52807eabd9c1e0fcc03537d446",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-manifest.json",
+    "sha256": "2d7a024856c0c9c04b4e33144d41068d11c31f4b2cc97bd1ed8f59015ef8b034",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2d7a024856c0c9c04b4e33144d41068d11c31f4b2cc97bd1ed8f59015ef8b034",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/source-b41522eff5b9d49af710f33332043422409ec080a591a11e8a2b1dfa8db8d275.tar.gz",
+    "sha256": "b41522eff5b9d49af710f33332043422409ec080a591a11e8a2b1dfa8db8d275",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/b41522eff5b9d49af710f33332043422409ec080a591a11e8a2b1dfa8db8d275",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-multistep-test-preparation.json",
+    "sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-multistep-independent-audit.json",
+    "sha256": "9f0a885467acd10e56c143bff1c0ce4c81a165e0ec46ca5c5cf94efd4b7dfa25",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/9f0a885467acd10e56c143bff1c0ce4c81a165e0ec46ca5c5cf94efd4b7dfa25",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/human-multistep-inputs.md",
+    "sha256": "411cab9e9e43393c2e6cc20be1ce440f2811b2f15b109a020a49dfaab6de70b1",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/411cab9e9e43393c2e6cc20be1ce440f2811b2f15b109a020a49dfaab6de70b1",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/evidence-registry.json",
+    "sha256": "55778886e684739f7dd1f5c42345a172bd7f1fd3d5d95fbfda89db6fc8938594",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/55778886e684739f7dd1f5c42345a172bd7f1fd3d5d95fbfda89db6fc8938594",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/nominal-ablation-summary.json",
+    "sha256": "acb6832263d4a4cbd5b091c49d11a1fbbe30c2d8ea1f9ff498ea0cf5d3da1ea4",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/acb6832263d4a4cbd5b091c49d11a1fbbe30c2d8ea1f9ff498ea0cf5d3da1ea4",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/nominal-ablation-failure-counts.json",
+    "sha256": "e84a21a88f47135650f4e747c9e0bbf21bfe092178c7c1af703b7147a338827f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/e84a21a88f47135650f4e747c9e0bbf21bfe092178c7c1af703b7147a338827f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/nominal-ablation-completion.json",
+    "sha256": "55cd6b464525e9e6287be41d92e527448ef544194e841278f3b2445aad4191d1",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/55cd6b464525e9e6287be41d92e527448ef544194e841278f3b2445aad4191d1",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/nominal-ablation-results.md",
+    "sha256": "9f48cc229613e5a770fea9a2e8cffae0c00072a3c6d2da03ba56f0c13989a9f2",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/9f48cc229613e5a770fea9a2e8cffae0c00072a3c6d2da03ba56f0c13989a9f2",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/evidence-registry.json",
+    "sha256": "0528c020468e1c65b20db179d28017402ee13dd6200f9f89c0cb7fa0bb011ab9",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/0528c020468e1c65b20db179d28017402ee13dd6200f9f89c0cb7fa0bb011ab9",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-randomized-preparation.json",
+    "sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-randomized-independent-audit.json",
+    "sha256": "7576df68fbf90fbc491d5733390485eebbcd3c42a380c8013ec5b6c19d3913d2",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/7576df68fbf90fbc491d5733390485eebbcd3c42a380c8013ec5b6c19d3913d2",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/human-randomized-inputs.md",
+    "sha256": "8ce66b761e0b23d6d671eeb62e1752f17d61479b3fe831b70d7580c8de428391",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/8ce66b761e0b23d6d671eeb62e1752f17d61479b3fe831b70d7580c8de428391",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/evidence-registry.json",
+    "sha256": "3ba952281087315116150e1cdc7266b7d2e72a8e538cf871a0478656b8751d8f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/3ba952281087315116150e1cdc7266b7d2e72a8e538cf871a0478656b8751d8f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/source-1349c3a64ccc7ae2ef1d4d39e9784f1bf792e4e44884eff83d6b87c64760d803.tar.gz",
+    "sha256": "1349c3a64ccc7ae2ef1d4d39e9784f1bf792e4e44884eff83d6b87c64760d803",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/1349c3a64ccc7ae2ef1d4d39e9784f1bf792e4e44884eff83d6b87c64760d803",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-manifest.json",
+    "sha256": "a1c5f9d80622c804326671ce03ca804f4917a24aec143b49a545dafc2c89d9c2",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a1c5f9d80622c804326671ce03ca804f4917a24aec143b49a545dafc2c89d9c2",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/clean-source-resolution-reproduction.json",
+    "sha256": "59b3051b61b2b49b56a94d177a79620b7f08e06ab38cb36e5399d31b1992da63",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/59b3051b61b2b49b56a94d177a79620b7f08e06ab38cb36e5399d31b1992da63",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-resolution-joint-support-full.json",
+    "sha256": "2efda767c0902e093d5827df9c0724de9b56ad6ed1382f45c337726975d9610c",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2efda767c0902e093d5827df9c0724de9b56ad6ed1382f45c337726975d9610c",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/human-random-calibration-results.md",
+    "sha256": "a2b5c5209d141de25c5849238550896ae136f53b8d1049646a8261bfedee5fc1",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a2b5c5209d141de25c5849238550896ae136f53b8d1049646a8261bfedee5fc1",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/evidence-registry.json",
+    "sha256": "f7cdb776514b01c0ec0b0f40317712c905325c767a43d8b27ef6debd7106f837",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f7cdb776514b01c0ec0b0f40317712c905325c767a43d8b27ef6debd7106f837",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-resolution-support-known_users-20261015.json",
+    "sha256": "095dc4ab4741759f9e6c29ee98c5b499714cd3fba44284ea75868ad390f2be5a",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/095dc4ab4741759f9e6c29ee98c5b499714cd3fba44284ea75868ad390f2be5a",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-resolution-support-unseen_users-20261015.json",
+    "sha256": "34a94cf3e854c689f04876c631ad96750a9d728c2049c5b09f5fe32ad642ad0e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/34a94cf3e854c689f04876c631ad96750a9d728c2049c5b09f5fe32ad642ad0e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-resolution-support-known_users-20261019.json",
+    "sha256": "af188b2a18d6f0caf58709be14e96c57973d3c5c55fb856dd4859e2d69947f5e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/af188b2a18d6f0caf58709be14e96c57973d3c5c55fb856dd4859e2d69947f5e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-resolution-support-unseen_users-20261019.json",
+    "sha256": "a6f0bbe2a590888c9e52e2b691818d98362aa930436e31932530242de2a6eaf8",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a6f0bbe2a590888c9e52e2b691818d98362aa930436e31932530242de2a6eaf8",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-resolution-support-unseen_users-20261018.json",
+    "sha256": "2338d92a061c6db1d04d224dd5945e65601a6d644bc7438102f71ac0316a1efb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2338d92a061c6db1d04d224dd5945e65601a6d644bc7438102f71ac0316a1efb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-resolution-support-known_users-20261018.json",
+    "sha256": "a02f91be671ddc955300877fa139c6ca366e7d497b931a7a00332e3f8ec209c4",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a02f91be671ddc955300877fa139c6ca366e7d497b931a7a00332e3f8ec209c4",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-resolution-support-unseen_users-20261017.json",
+    "sha256": "2eb00334d02831d8afc8f9fa52aaded28e1028a964dbca1dc1629af41401f6a0",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2eb00334d02831d8afc8f9fa52aaded28e1028a964dbca1dc1629af41401f6a0",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-resolution-support-known_users-20261017.json",
+    "sha256": "3971e381a950fcc6416b0d7351fe7dd114f22ab78f1a7d48fde664bfdd80ec99",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/3971e381a950fcc6416b0d7351fe7dd114f22ab78f1a7d48fde664bfdd80ec99",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-resolution-support-known_users-20261016.json",
+    "sha256": "06035623c6827da45790f0c6b72cef78fba4afcd83dbe1179541fb465ed7656d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/06035623c6827da45790f0c6b72cef78fba4afcd83dbe1179541fb465ed7656d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-resolution-support-unseen_users-20261016.json",
+    "sha256": "d003d6dbe86fb866ac98a7d857f7fe553790637e4446ae68126250f5676a2329",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/d003d6dbe86fb866ac98a7d857f7fe553790637e4446ae68126250f5676a2329",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/human-response-frontier-results.md",
+    "sha256": "e1dadace9e12097ded4dc29e0b51f9d1dd82fe146ad2108b17867da7853f5f55",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/e1dadace9e12097ded4dc29e0b51f9d1dd82fe146ad2108b17867da7853f5f55",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/evidence-registry.json",
+    "sha256": "1cf76dedd4a3d8ff5f7ffcaf20807e3bfb413cfc1002e4e71c01818736b73aec",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/1cf76dedd4a3d8ff5f7ffcaf20807e3bfb413cfc1002e4e71c01818736b73aec",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-response-frontier-completion-checkpoint.json",
+    "sha256": "71ac3616231ffd92d32fe63202acf2a5609d1cd748d90ac0327f6ad268fb6dd6",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/71ac3616231ffd92d32fe63202acf2a5609d1cd748d90ac0327f6ad268fb6dd6",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-response-certificate-completion-checkpoint.json",
+    "sha256": "f35671fe3a9b7ac530d2ca07131ed3e93a108e3f80ca06714f8489ab0e4b3f7d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f35671fe3a9b7ac530d2ca07131ed3e93a108e3f80ca06714f8489ab0e4b3f7d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-response-frontier-known_users-20261018.json",
+    "sha256": "983b8aaf5f83f22d2de5d150981637283b33107392c569dbd9eeb0e816d5b5b8",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/983b8aaf5f83f22d2de5d150981637283b33107392c569dbd9eeb0e816d5b5b8",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-response-frontier-known_users-20261015.json",
+    "sha256": "b2e805f0d2c6794e8ba019b3e1e50946112475eaae697f90ca53eb7b4793d5da",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/b2e805f0d2c6794e8ba019b3e1e50946112475eaae697f90ca53eb7b4793d5da",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-response-frontier-known_users-20261019.json",
+    "sha256": "1672a67fba0ae8208aad08b8bb4ca726d6461a6811d6af092447b99c689eb3f6",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/1672a67fba0ae8208aad08b8bb4ca726d6461a6811d6af092447b99c689eb3f6",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-response-frontier-known_users-20261016.json",
+    "sha256": "fe10c761142d2c8317a0b5a609a2432d6aa6c5c2cab890ee1b800bf500462993",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/fe10c761142d2c8317a0b5a609a2432d6aa6c5c2cab890ee1b800bf500462993",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-response-frontier-known_users-20261017.json",
+    "sha256": "196ec54420d8616b97f064a536bd6f66176bebbc90f7c019b946e814b12bf00c",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/196ec54420d8616b97f064a536bd6f66176bebbc90f7c019b946e814b12bf00c",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-response-certificates-known_users-20261018.json",
+    "sha256": "ce16c196d1135e5163d58145f12853f8e6351977b02c8d813e7040c8b04c49b5",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/ce16c196d1135e5163d58145f12853f8e6351977b02c8d813e7040c8b04c49b5",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-response-certificates-known_users-20261015.json",
+    "sha256": "505bbc04bbb541df948f4b9cb0ca0c84db02ab27c3c18a0394c1990c4794b2c4",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/505bbc04bbb541df948f4b9cb0ca0c84db02ab27c3c18a0394c1990c4794b2c4",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-response-certificates-known_users-20261019.json",
+    "sha256": "5994bbcd9d6b667bd80eff0e487b0dbe1a724f992ef6f1be5abd18d620b14bb3",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5994bbcd9d6b667bd80eff0e487b0dbe1a724f992ef6f1be5abd18d620b14bb3",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-response-certificates-known_users-20261016.json",
+    "sha256": "e4637ffb5a417deb3e40e10d19c7b67c0430c6d156e6d6b8e09851fe0c8d1a89",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/e4637ffb5a417deb3e40e10d19c7b67c0430c6d156e6d6b8e09851fe0c8d1a89",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-response-certificates-known_users-20261017.json",
+    "sha256": "4fb862904d7dfeb0e2944db3fac11b1d413486c38ee3af749f6813ef8d161181",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/4fb862904d7dfeb0e2944db3fac11b1d413486c38ee3af749f6813ef8d161181",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-random-calibration-known_users-20261016.json",
+    "sha256": "a8b0683382a90493b01c0f6a9ca27e965204542e3aa136e2ca2d6366e2f605d8",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a8b0683382a90493b01c0f6a9ca27e965204542e3aa136e2ca2d6366e2f605d8",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-random-calibration-known_users-20261017.json",
+    "sha256": "d39b03e58499e1663073dbe690254593a907feb63cc9d90f33ed2537190977a2",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/d39b03e58499e1663073dbe690254593a907feb63cc9d90f33ed2537190977a2",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-random-calibration-known_users-20261018.json",
+    "sha256": "830308447fe128bca9a861eb56409144310d7116adcc4f1f150d0ab4e00a201b",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/830308447fe128bca9a861eb56409144310d7116adcc4f1f150d0ab4e00a201b",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-random-calibration-known_users-20261019.json",
+    "sha256": "6b4c0eca1313ecbed4ffa246d87ffc713871c6843bf212e415cdd362bde1f775",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/6b4c0eca1313ecbed4ffa246d87ffc713871c6843bf212e415cdd362bde1f775",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-random-calibration-known_users-20261015.json",
+    "sha256": "26de3da1da96877ec92974429d57cd99224daccb325877b203825973fa168887",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/26de3da1da96877ec92974429d57cd99224daccb325877b203825973fa168887",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/environment-diversity-manifest.json",
+    "sha256": "1bfde5274eb6c2b6f006343576872b0f447f768e6546c9198fb0aae222d9d6cd",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/1bfde5274eb6c2b6f006343576872b0f447f768e6546c9198fb0aae222d9d6cd",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/environment-diversity-audit-manifest.json",
+    "sha256": "3d2356297634137c96b0a33b4d9c7f5054bd39c438cab13c7d65bd887c8cb7cd",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/3d2356297634137c96b0a33b4d9c7f5054bd39c438cab13c7d65bd887c8cb7cd",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/environment-diversity-summary.json",
+    "sha256": "15fe472035a8f7002b1d32cfd3d557af9b9c5c266229f6f5a4d9d94f9d322d58",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/15fe472035a8f7002b1d32cfd3d557af9b9c5c266229f6f5a4d9d94f9d322d58",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/environment-diversity-results.md",
+    "sha256": "167bd30d92a557958c1e7f2537281a3817fdde4a075b82b0952dea74bc31d7d0",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/167bd30d92a557958c1e7f2537281a3817fdde4a075b82b0952dea74bc31d7d0",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-case-inference-validation-roundtrip.json",
+    "sha256": "3c5f9904015d368652266d62cec2416a33d8d75921d4f7b85ba71006274fe729",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/3c5f9904015d368652266d62cec2416a33d8d75921d4f7b85ba71006274fe729",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-response-precision.json",
+    "sha256": "767d01218f1aa783fc261cff6aee144e8cd131509e5a9c6a900dac4fe490f53f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/767d01218f1aa783fc261cff6aee144e8cd131509e5a9c6a900dac4fe490f53f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/response-precision-upstream-source-check.json",
+    "sha256": "e9cadf222a1804f888b919317389e19a603639e6a03b9c8008017c2e611660f1",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/e9cadf222a1804f888b919317389e19a603639e6a03b9c8008017c2e611660f1",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/human-response-precision-planning.md",
+    "sha256": "50fbd286122790d625132a28b71145b08eafcb29a0c4e3d770fd41b3d3b5423f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/50fbd286122790d625132a28b71145b08eafcb29a0c4e3d770fd41b3d3b5423f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/evidence-registry.json",
+    "sha256": "0f68b83fc323f11d9bd871f3692f37089526dae6801ad6d840b6c4741773db5e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/0f68b83fc323f11d9bd871f3692f37089526dae6801ad6d840b6c4741773db5e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/diversity-analysis-4baf4ad60c79.json",
+    "sha256": "23e69e5fed14acfe180a5ce17b6e1cead3da79129234022bf4df2f6f4967497b",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/23e69e5fed14acfe180a5ce17b6e1cead3da79129234022bf4df2f6f4967497b",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-heldout-teacher-prior-20261015.json",
+    "sha256": "28009537200a83be1056cda6f2be1d548d53eab9aa886e6b2f4becc43622481d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/28009537200a83be1056cda6f2be1d548d53eab9aa886e6b2f4becc43622481d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-heldout-frontier-20261015.json",
+    "sha256": "41503672bee01b680f7810699a075178c3bb62e13d3ebf55cf5b810541c4f0ef",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/41503672bee01b680f7810699a075178c3bb62e13d3ebf55cf5b810541c4f0ef",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-heldout-teacher-prior-20261016.json",
+    "sha256": "47f8fb23f42074635726f0dd34365a9c7c0cae703488256760932c4a34f92b8e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/47f8fb23f42074635726f0dd34365a9c7c0cae703488256760932c4a34f92b8e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-heldout-frontier-20261016.json",
+    "sha256": "07215c273c18c1704be84ab1417265356759f5b9945869c310eda51c5418c20f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/07215c273c18c1704be84ab1417265356759f5b9945869c310eda51c5418c20f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-heldout-teacher-prior-20261017.json",
+    "sha256": "809ca8ad3e0dec497cd31ff52c371ab473773d057a3ad5dcdbba39ab6cf594f7",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/809ca8ad3e0dec497cd31ff52c371ab473773d057a3ad5dcdbba39ab6cf594f7",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-heldout-frontier-20261017.json",
+    "sha256": "4a2af39386963a22adb74d11e259da57a09befb66ae642f3ac433f70830c7e93",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/4a2af39386963a22adb74d11e259da57a09befb66ae642f3ac433f70830c7e93",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-heldout-teacher-prior-20261018.json",
+    "sha256": "da2dd8ac69c5b528bfc077280b44f7e65f839421bf1177fd511b9011bec43c38",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/da2dd8ac69c5b528bfc077280b44f7e65f839421bf1177fd511b9011bec43c38",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-heldout-frontier-20261018.json",
+    "sha256": "16d0286fc2add2ed0c89f09caa45c2e118911d10bbbbecc93f6feb46df35de7f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/16d0286fc2add2ed0c89f09caa45c2e118911d10bbbbecc93f6feb46df35de7f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-heldout-teacher-prior-20261019.json",
+    "sha256": "84c407095d208cbc2b41e72699d61c41e8be566eaf8a54718c226ef4e1a1e262",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/84c407095d208cbc2b41e72699d61c41e8be566eaf8a54718c226ef4e1a1e262",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-heldout-frontier-20261019.json",
+    "sha256": "8609847b2103105d9215bab9b2617af655cd0ee366068e762a0b2f6127ad8ef0",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/8609847b2103105d9215bab9b2617af655cd0ee366068e762a0b2f6127ad8ef0",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-heldout-frontier-completion-checkpoint.json",
+    "sha256": "f71cd0f4feee059d102717654c9603f595d4cc910c194d857b4153ee1fb9d2fd",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f71cd0f4feee059d102717654c9603f595d4cc910c194d857b4153ee1fb9d2fd",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-heldout-response-precision.json",
+    "sha256": "9dd2931822059e532fc17ac6b303f2f259a250241dec2f0bf15bbadf27b0dedb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/9dd2931822059e532fc17ac6b303f2f259a250241dec2f0bf15bbadf27b0dedb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-heldout-response-precision-aggregate.json",
+    "sha256": "f53d27c57b55fd7d9aa94d2c361992133e73e21f72cc6809c0cf4ba2942a886a",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f53d27c57b55fd7d9aa94d2c361992133e73e21f72cc6809c0cf4ba2942a886a",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-nested-output-hash-audit.json",
+    "sha256": "ae78c68237c2c4594b1ef8a77c77ae00288f8c90f3e1d21e00630daa8fd5dccf",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/ae78c68237c2c4594b1ef8a77c77ae00288f8c90f3e1d21e00630daa8fd5dccf",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/human-heldout-response-results.md",
+    "sha256": "de04d4e2b12b8b5e83276f117d0a9a6ec7926679d60cbc6c8a0768fea2208366",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/de04d4e2b12b8b5e83276f117d0a9a6ec7926679d60cbc6c8a0768fea2208366",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/human-heldout-precision-planning.md",
+    "sha256": "4d8e2b7d75a37b226ff1538ca8c04a52190a3e9f381edc3cd377fc1f24b444d9",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/4d8e2b7d75a37b226ff1538ca8c04a52190a3e9f381edc3cd377fc1f24b444d9",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/human-abstraction-results.md",
+    "sha256": "2d8c4e36a8f44adb5cf9ec9e554ec8e54737909478206f16b7b3d6394bc3cffb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2d8c4e36a8f44adb5cf9ec9e554ec8e54737909478206f16b7b3d6394bc3cffb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/evidence-registry.json",
+    "sha256": "181075ac98b786a6d78766595f5abd3708a968ef3308ed156f59e6474f270032",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/181075ac98b786a6d78766595f5abd3708a968ef3308ed156f59e6474f270032",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/execution-state.json",
+    "sha256": "5397ea7c19c347e1cab013999fe88dbfd1b614531f1f1dc673d75afe29388024",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5397ea7c19c347e1cab013999fe88dbfd1b614531f1f1dc673d75afe29388024",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/deliverable-evidence.json",
+    "sha256": "124add85c0a72f0663ba92af523465855ed40de0fdbf1a0f02e46d6615bea95a",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/124add85c0a72f0663ba92af523465855ed40de0fdbf1a0f02e46d6615bea95a",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/research-budget-refresh.json",
+    "sha256": "73a72b81db4f4778c5a70d643cbd2afce0863f12830d56e96bb1c4ab29cfaf96",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/73a72b81db4f4778c5a70d643cbd2afce0863f12830d56e96bb1c4ab29cfaf96",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/research-spend.md",
+    "sha256": "e89ba1619e7efc26fad8a35e7d335135080f473520965597f8463c48fd60cbf6",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/e89ba1619e7efc26fad8a35e7d335135080f473520965597f8463c48fd60cbf6",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/cloud-jobs.json",
+    "sha256": "4829905b8ec2b94e10178e1d386854cac90470e61014dde1d703a4ca073d51d7",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/4829905b8ec2b94e10178e1d386854cac90470e61014dde1d703a4ca073d51d7",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "spec/human-intervention-analysis.md",
+    "sha256": "cc4d0e3de8cfbba3e11d87355d0e9f399aa364f51c68a428a04994d5f09a5734",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/cc4d0e3de8cfbba3e11d87355d0e9f399aa364f51c68a428a04994d5f09a5734",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "spec/proofs.md",
+    "sha256": "eb0bf756c52ec5690643647099c4aba9401ad3e505e7d927c0a642cd4ca2e197",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/eb0bf756c52ec5690643647099c4aba9401ad3e505e7d927c0a642cd4ca2e197",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/heldout-precision-fc0ce74f3f1e.json",
+    "sha256": "e04ae5df0756934d2f9ae6e21a45224c4210ae1e2983606d22c678ba61d00393",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/e04ae5df0756934d2f9ae6e21a45224c4210ae1e2983606d22c678ba61d00393",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/heldout-priors-8f8d6a687041.json",
+    "sha256": "a6a2f79f8cc313772b0094c6160967ac1d7a5a6a67041b485ee3620d871fe657",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a6a2f79f8cc313772b0094c6160967ac1d7a5a6a67041b485ee3620d871fe657",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/heldout-precision-be4b2a1a9800.json",
+    "sha256": "fa708563bc9a390aac417ebaae3343f8ce1ec274ba9ae565915878836243e3b4",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/fa708563bc9a390aac417ebaae3343f8ce1ec274ba9ae565915878836243e3b4",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/heldout-frontiers-881b55e16a97.json",
+    "sha256": "5a02607f11c5f9644d088956c9bdfeaed56c849d3867a632760750280f3e2244",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5a02607f11c5f9644d088956c9bdfeaed56c849d3867a632760750280f3e2244",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/evidence-registry.json",
+    "sha256": "bb25148752c1084bec98f10658d4079da422581cf250320230348ef6bf37d577",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/bb25148752c1084bec98f10658d4079da422581cf250320230348ef6bf37d577",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/execution-state.json",
+    "sha256": "34eebd92c1495fd45b073703e15c5a5f6106f31eb6767d0b74234c5396c443da",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/34eebd92c1495fd45b073703e15c5a5f6106f31eb6767d0b74234c5396c443da",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/clean-source-heldout-reproduction.json",
+    "sha256": "9e82cba9bcab2bc324e7d2b6fe2e1739e8cefb42a43900cbee269e6524aada46",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/9e82cba9bcab2bc324e7d2b6fe2e1739e8cefb42a43900cbee269e6524aada46",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-manifest.json",
+    "sha256": "9ff1360c3f301811594a07de89efcb91a86bfab130df62f52395cd029ec9acf0",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/9ff1360c3f301811594a07de89efcb91a86bfab130df62f52395cd029ec9acf0",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/source-c9a9cb04f7847acfe6fc68220dbca8a85a2ae67d431feb747967c95c60c3e6c2.tar.gz",
+    "sha256": "c9a9cb04f7847acfe6fc68220dbca8a85a2ae67d431feb747967c95c60c3e6c2",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/c9a9cb04f7847acfe6fc68220dbca8a85a2ae67d431feb747967c95c60c3e6c2",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/execution-state.json",
+    "sha256": "13aec2e68217acc9d231d9af9bc3948cca50a94553ae7d48b9fb6e62997ba9ad",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/13aec2e68217acc9d231d9af9bc3948cca50a94553ae7d48b9fb6e62997ba9ad",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-comparative-validation-known_users-20261015.json",
+    "sha256": "2c2ff6d37804a7528f4d96c36967d52b28a680fa7f0026f3856bcb6770cfa6ec",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2c2ff6d37804a7528f4d96c36967d52b28a680fa7f0026f3856bcb6770cfa6ec",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-comparative-validation-unseen_users-20261015.json",
+    "sha256": "42835778208b467a3b9abfc4ef91c4bc36dad92b5dfb3a3f850f21a52570c321",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/42835778208b467a3b9abfc4ef91c4bc36dad92b5dfb3a3f850f21a52570c321",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-comparative-validation-completion-checkpoint.json",
+    "sha256": "6e1b55f12fe9d472d448ff57d0b090731767b2fa8277b9eb03c903e2e67a7c0c",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/6e1b55f12fe9d472d448ff57d0b090731767b2fa8277b9eb03c903e2e67a7c0c",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/nominal-replay-completion.json",
+    "sha256": "fd6e245847cebd3d20a5a2959d7302c11b6ae44de0c216e4ee78e7439643db43",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/fd6e245847cebd3d20a5a2959d7302c11b6ae44de0c216e4ee78e7439643db43",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/multistep-fit-completion.json",
+    "sha256": "451ebbc40c50f5b5852f66fe50d851bbd0a430e559c5c6cb94a90d5b90546415",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/451ebbc40c50f5b5852f66fe50d851bbd0a430e559c5c6cb94a90d5b90546415",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/multistep-fit-independent-audit.json",
+    "sha256": "93565442cd23ad7cfb2fa9eb44578cf9335ce37081ff3b58c9516d56d890a80f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/93565442cd23ad7cfb2fa9eb44578cf9335ce37081ff3b58c9516d56d890a80f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/human-comparative-validation-results.md",
+    "sha256": "35bd6ae51d6840b5b6cb7d322235a56b1df4626e784d9d9198402d35149e75e4",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/35bd6ae51d6840b5b6cb7d322235a56b1df4626e784d9d9198402d35149e75e4",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/human-multistep-fitting-inputs.md",
+    "sha256": "773dd71dee1f1419f995d7bfa89a7b6cb61287732c7a38d5d252d2e101f6b1ab",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/773dd71dee1f1419f995d7bfa89a7b6cb61287732c7a38d5d252d2e101f6b1ab",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/nominal-ablation-results.md",
+    "sha256": "cf107bb5f255a98c6092679ea3518a06adbab9e040fb7b5d50b455afdefda582",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/cf107bb5f255a98c6092679ea3518a06adbab9e040fb7b5d50b455afdefda582",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/evidence-registry.json",
+    "sha256": "7389004277c59c707aafd07196508170a2b5492d887c11080643924b10a7a2d1",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/7389004277c59c707aafd07196508170a2b5492d887c11080643924b10a7a2d1",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/execution-state.json",
+    "sha256": "c0e11db1fd421fa56b52eb185eefab1aa5bf5c86c6145e00097b03d95ea364cb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/c0e11db1fd421fa56b52eb185eefab1aa5bf5c86c6145e00097b03d95ea364cb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/deliverable-evidence.json",
+    "sha256": "6cd7475542ec4476df914634ede8740bef778d667d264d453ed7791f571f1be5",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/6cd7475542ec4476df914634ede8740bef778d667d264d453ed7791f571f1be5",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/cloud-jobs.json",
+    "sha256": "843b8efb861ddaf38f3dbc30c5066d8b03d56359c3ac8b756f7148e157017479",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/843b8efb861ddaf38f3dbc30c5066d8b03d56359c3ac8b756f7148e157017479",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/research-budget-refresh.json",
+    "sha256": "68f3421ce7a099105902815d3a72fe327233d018db2c538159a2eea447476a9f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/68f3421ce7a099105902815d3a72fe327233d018db2c538159a2eea447476a9f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/research-spend.md",
+    "sha256": "80931145887679f5f7a9d1dcb6c059e0843db088b2afef7b1403293ab9133282",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/80931145887679f5f7a9d1dcb6c059e0843db088b2afef7b1403293ab9133282",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/human-horizon-heads-v1.json",
+    "sha256": "5d0e70aa7b41abe6bcecc220ada6dc30dc3f8a7da8a00bbd1d008b6c5c098907",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5d0e70aa7b41abe6bcecc220ada6dc30dc3f8a7da8a00bbd1d008b6c5c098907",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "spec/human-direct-horizon-comparators.md",
+    "sha256": "f82dd0d87a63ee4ded25c4807b1089dcbded5d6426800329c8d82579f0ec0456",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f82dd0d87a63ee4ded25c4807b1089dcbded5d6426800329c8d82579f0ec0456",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "docs/evaluation-architecture.md",
+    "sha256": "99528b972c602192de94379dda30ab240e5112d5ca4c8445d162f939f3260811",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/99528b972c602192de94379dda30ab240e5112d5ca4c8445d162f939f3260811",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-manifest.json",
+    "sha256": "0aed2c1d9d912e80e3e07b426365f7361366aa12919abb02b140262b85691af3",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/0aed2c1d9d912e80e3e07b426365f7361366aa12919abb02b140262b85691af3",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/comparative-validation-22d587bbc968.json",
+    "sha256": "8a4d8d32c60f1c0edac08856e4046a2c391ba529f7d4d68f6952be7cdf1823f6",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/8a4d8d32c60f1c0edac08856e4046a2c391ba529f7d4d68f6952be7cdf1823f6",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/nominal-replay-15ecee307ea6.json",
+    "sha256": "082c672c6ae31855c1d56ad02c4e2dfdde09a4f2e7380c520ff1e1adac16dd91",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/082c672c6ae31855c1d56ad02c4e2dfdde09a4f2e7380c520ff1e1adac16dd91",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/multistep-fit-dc9b74c174ca.json",
+    "sha256": "0cb638cb1de76525fe69f6d9002aa76b55522262dc6f9b108cf262636816b0a5",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/0cb638cb1de76525fe69f6d9002aa76b55522262dc6f9b108cf262636816b0a5",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/multistep-fit-audit-a783bbabf73c.json",
+    "sha256": "71773d2d78b8ca1de470302220112b689594674c9203ea065ded2e011ab163f0",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/71773d2d78b8ca1de470302220112b689594674c9203ea065ded2e011ab163f0",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/clean-source-tests-d3af4d603d0ba170.json",
+    "sha256": "f47396c08dc028e34c66d2eec22e039d4b15a158668ec5b19536ccc6cc2f7778",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f47396c08dc028e34c66d2eec22e039d4b15a158668ec5b19536ccc6cc2f7778",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/source-d3af4d603d0ba170fe76c2f5b475089b7b43b0ac1a3b52b05a7af21c3d34bfcd.tar.gz",
+    "sha256": "d3af4d603d0ba170fe76c2f5b475089b7b43b0ac1a3b52b05a7af21c3d34bfcd",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/d3af4d603d0ba170fe76c2f5b475089b7b43b0ac1a3b52b05a7af21c3d34bfcd",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/horizon-head-smoke-0938337637ef.json",
+    "sha256": "fad439d462001ef0c22c5a97f930b62d2eef5a7c1d19f0e266ba7b69121eb34d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/fad439d462001ef0c22c5a97f930b62d2eef5a7c1d19f0e266ba7b69121eb34d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/horizon-head-smoke-1d02241d8a78.json",
+    "sha256": "c568c1ea36ac7e9f840d3950d89d0403030af653d5c419201507629a3eb41bce",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/c568c1ea36ac7e9f840d3950d89d0403030af653d5c419201507629a3eb41bce",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/horizon-head-first-fit.json",
+    "sha256": "a021fbca5702c1516b18e3d931904bef6c2bb3214db7237e834e8de4799cfd41",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a021fbca5702c1516b18e3d931904bef6c2bb3214db7237e834e8de4799cfd41",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/horizon-heads-0938337637ef.json",
+    "sha256": "9b7cbcd0a495134c3e113a79e352de973f815859cb232a606bf40e6d21ddf960",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/9b7cbcd0a495134c3e113a79e352de973f815859cb232a606bf40e6d21ddf960",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/horizon-heads-1d02241d8a78.json",
+    "sha256": "3fec7252eb7b4b4295d8ec40fa100c31742df98808ed00a55b7f1cc9fff56d25",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/3fec7252eb7b4b4295d8ec40fa100c31742df98808ed00a55b7f1cc9fff56d25",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/human-horizon-heads-v1.json",
+    "sha256": "64b6bb7c3506b74d627f773beb7f5733b360708a6d4d0efd2385b428b5fa1f78",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/64b6bb7c3506b74d627f773beb7f5733b360708a6d4d0efd2385b428b5fa1f78",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/human-horizon-training-v1.json",
+    "sha256": "679c9dc27d899aa16534c1dc6c2b9444c2d09c34df9091ea4405b4261812fd5e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/679c9dc27d899aa16534c1dc6c2b9444c2d09c34df9091ea4405b4261812fd5e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "spec/human-direct-horizon-comparators.md",
+    "sha256": "97a113b8b5cfaa34cdff4bb553f653b171920f6158b410014fd02e3047395b0f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/97a113b8b5cfaa34cdff4bb553f653b171920f6158b410014fd02e3047395b0f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/evidence-registry.json",
+    "sha256": "153ff7ede11e15d823101e12416c835e3fe1b8776c8307ca70671e7fd925b1c1",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/153ff7ede11e15d823101e12416c835e3fe1b8776c8307ca70671e7fd925b1c1",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/execution-state.json",
+    "sha256": "a90dba8e3fe5ead9bc0fe408031d5295511851e5f466063d6f17f0fe25c710e5",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a90dba8e3fe5ead9bc0fe408031d5295511851e5f466063d6f17f0fe25c710e5",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/cloud-jobs.json",
+    "sha256": "2c43173782dc05fee571a88efbe5c2131ba273915804e385f001302c34733c3d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2c43173782dc05fee571a88efbe5c2131ba273915804e385f001302c34733c3d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/final-analysis-freeze.json",
+    "sha256": "f8711071351e0709e79518e030f17d3b79495c78050c13683781982b3b5b6cac",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f8711071351e0709e79518e030f17d3b79495c78050c13683781982b3b5b6cac",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/final-human-job-plan.json",
+    "sha256": "f8636965f38e08c1fbe8d1e28c9a878a2f1b23fb53a845dd14897ab3d2b9ee87",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f8636965f38e08c1fbe8d1e28c9a878a2f1b23fb53a845dd14897ab3d2b9ee87",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/horizon-head-full-output-audit.json",
+    "sha256": "5f4e4e74852a560b4fadfd08fa5abcf22cd7bff421819fd8511f616221407135",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5f4e4e74852a560b4fadfd08fa5abcf22cd7bff421819fd8511f616221407135",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-cluster-uncertainty-completion.json",
+    "sha256": "e87edbfa1ab0654636906b09542f3cc117171c339c51c16058f11b5bf78386be",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/e87edbfa1ab0654636906b09542f3cc117171c339c51c16058f11b5bf78386be",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-cluster-uncertainty-output-audit.json",
+    "sha256": "e1ecb1ca25336cbcc9f98fa813097a97d642557a0a7acc8b7d381253f0e2c860",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/e1ecb1ca25336cbcc9f98fa813097a97d642557a0a7acc8b7d381253f0e2c860",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/human-cluster-uncertainty-results.md",
+    "sha256": "fc068fa1d45fcda7a72cc6d4724e5b45a5dfcec97473716e0d47f184e5df7e49",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/fc068fa1d45fcda7a72cc6d4724e5b45a5dfcec97473716e0d47f184e5df7e49",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/human-direct-horizon-training-results.md",
+    "sha256": "c328c179d47bb2dc418e809b418987352636dcecce9ff86f2b2633835b4c2e18",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/c328c179d47bb2dc418e809b418987352636dcecce9ff86f2b2633835b4c2e18",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/final-direct_horizon-d4984c93acbe0b14.json",
+    "sha256": "66a5d50db6bfd58670a4253bc317fc24f7120cf01c32095377ed8d9bc2092133",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/66a5d50db6bfd58670a4253bc317fc24f7120cf01c32095377ed8d9bc2092133",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/final-response_all_groups-083dfc60f47ea65a.json",
+    "sha256": "1090b48fe83f2649505eb7482aced7c963113763c56fb8918600885154a23713",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/1090b48fe83f2649505eb7482aced7c963113763c56fb8918600885154a23713",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/final-response-check-response_heldout_groups-99cdb171fd0997bc.json",
+    "sha256": "4c85a2f4616ba7b99936dcde01387a321d0e784c68fde0fd1b8035ea7acf09bc",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/4c85a2f4616ba7b99936dcde01387a321d0e784c68fde0fd1b8035ea7acf09bc",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/final-one_step-8321be2e57203ca0.json",
+    "sha256": "3e257606527e0ae9ad1664b4a4a5ecc89849955d2977bcbb63d57a7fc08ff167",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/3e257606527e0ae9ad1664b4a4a5ecc89849955d2977bcbb63d57a7fc08ff167",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/final-response_heldout_groups-f7115561ad28a03b.json",
+    "sha256": "6d457f574d4ffb7224e1df324bad2c1c22d606e6eba57b81780956255ee91cbb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/6d457f574d4ffb7224e1df324bad2c1c22d606e6eba57b81780956255ee91cbb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/final-response-check-response_all_groups-b4e04aff2dd92796.json",
+    "sha256": "af2937a5241d4aaab1956ec9b6f3794247122650e9e47b6ae336b23b0f65316f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/af2937a5241d4aaab1956ec9b6f3794247122650e9e47b6ae336b23b0f65316f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/source-8f0d15a6551c9259b2f6c389bbad0cfdbf2a236c8f90054939edc4f6217119c9.tar.gz",
+    "sha256": "8f0d15a6551c9259b2f6c389bbad0cfdbf2a236c8f90054939edc4f6217119c9",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/8f0d15a6551c9259b2f6c389bbad0cfdbf2a236c8f90054939edc4f6217119c9",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/current-source-package.json",
+    "sha256": "88b68d571b8c77ac6356d4852ba000348136a76ddf4b040d8a169649be88b965",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/88b68d571b8c77ac6356d4852ba000348136a76ddf4b040d8a169649be88b965",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/formal-bounds-1ced0e17dddc9982.json",
+    "sha256": "f40e4e85b06149efc94be6554015a07c6853b81852d1ccd1a9b94913c245fa66",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f40e4e85b06149efc94be6554015a07c6853b81852d1ccd1a9b94913c245fa66",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/formal-bounds-1ced0e17dddc9982.json",
+    "sha256": "bd8bf9cfd351f9344440092809d1c58f62cf8662d068859d208c4617dc1e959a",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/bd8bf9cfd351f9344440092809d1c58f62cf8662d068859d208c4617dc1e959a",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/formal-bound-check-results.md",
+    "sha256": "068ec5066fe68099890a49b6ba54ff2a5ba81bb0b4db0cecce286defdd8c0d18",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/068ec5066fe68099890a49b6ba54ff2a5ba81bb0b4db0cecce286defdd8c0d18",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/source-package-reproduction-5769f1703fd4bd9f-8c3e82e31dc3.json",
+    "sha256": "999b24545f60219b5e26b4d2b4f43f54a12f2383b0432539df533a26aaf4a2e7",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/999b24545f60219b5e26b4d2b4f43f54a12f2383b0432539df533a26aaf4a2e7",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/source-package-reproduction-8f0d15a6551c9259-af5ba2f912fd.json",
+    "sha256": "fc0a17d3e7cee1bccb4d19ea3e14a2ed8f34277759e37ed505e689ac540f9954",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/fc0a17d3e7cee1bccb4d19ea3e14a2ed8f34277759e37ed505e689ac540f9954",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/research-provider-billing-all-app-query.json",
+    "sha256": "5beddb972223a469ab3eafeae994b16d539b6bc4b39185b0a1a727e8fa54f57c",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5beddb972223a469ab3eafeae994b16d539b6bc4b39185b0a1a727e8fa54f57c",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/research-budget-refresh.json",
+    "sha256": "8f01e06de33ce8e0379d50c21ee25bf0eed1a59fbce5b3d21f129201aee373ea",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/8f01e06de33ce8e0379d50c21ee25bf0eed1a59fbce5b3d21f129201aee373ea",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/research-spend.md",
+    "sha256": "dd032209df7d082205c1a8ecb7a64f2a34e20c087c6eb55be70b4be229d3cbc7",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/dd032209df7d082205c1a8ecb7a64f2a34e20c087c6eb55be70b4be229d3cbc7",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/evidence-registry.json",
+    "sha256": "72554b2ef93358eed11f00cdc8f394e23b3ebd75df106ddb70ff2c9b2641ca1f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/72554b2ef93358eed11f00cdc8f394e23b3ebd75df106ddb70ff2c9b2641ca1f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "reports/execution-state.json",
+    "sha256": "5bc1523728ae176f4efe7c37831bc039502966ba7a594a1ddb5c3db9708a33eb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5bc1523728ae176f4efe7c37831bc039502966ba7a594a1ddb5c3db9708a33eb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed key; not server-enforced WORM"
+  },
+  {
+    "file": "configs/human-supplementary-final-v1.json",
+    "sha256": "a4b6c454cfd265e2bfd93f834f1db2b8af59e6aee95e6c8ed0904c4a0b407df0",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/a4b6c454cfd265e2bfd93f834f1db2b8af59e6aee95e6c8ed0904c4a0b407df0",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/supplementary-final-9a4cb36c39c2419e.json",
+    "sha256": "bdc7bdd7e836dacde67037f8b4500ef8d775f66b459c761674d34dc0814a386d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/bdc7bdd7e836dacde67037f8b4500ef8d775f66b459c761674d34dc0814a386d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/supplementary-head-training-summary.json",
+    "sha256": "288a7c716e98d88ccb276691ff87eeec22a4c30cff9cf1826d10175a5f01cf5f",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/288a7c716e98d88ccb276691ff87eeec22a4c30cff9cf1826d10175a5f01cf5f",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/supplementary-calibration-summary.json",
+    "sha256": "ce63e039ddbc460ebc3648d57af89c1a1af2581f22aa86550430089cbec1318e",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/ce63e039ddbc460ebc3648d57af89c1a1af2581f22aa86550430089cbec1318e",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/supplementary-targets-53b74b1e479f0a1f.json",
+    "sha256": "15f9f93b205d1a00a3c2e7f03af2b0a79ee8efb977b2a96c2162095932cc47c2",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/15f9f93b205d1a00a3c2e7f03af2b0a79ee8efb977b2a96c2162095932cc47c2",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/supplementary-adjacent-targets-128efa849c042a5b.json",
+    "sha256": "b54a9e46500334e4ebfc99bab0c098d49a5959eeae96bd69b12b500b5c911102",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/b54a9e46500334e4ebfc99bab0c098d49a5959eeae96bd69b12b500b5c911102",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/supplementary-fit-cohort-287d52d00557d282.json",
+    "sha256": "42d603d7fc5d35c1e56cce81c9ffbf9b35bed197ada542746df80974e0bff635",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/42d603d7fc5d35c1e56cce81c9ffbf9b35bed197ada542746df80974e0bff635",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/finite-coupling-4ceca2656733c1b0.json",
+    "sha256": "ad94806c7ca270629e79f834155df4af53c74a6786f58845e8ea0f95ef8383e1",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/ad94806c7ca270629e79f834155df4af53c74a6786f58845e8ea0f95ef8383e1",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/weighted-events-15700c304db4d15e.json",
+    "sha256": "cf854dda339d066f76fc7f4267f49e5d20d63f835b31e179bbd8810490b01869",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/cf854dda339d066f76fc7f4267f49e5d20d63f835b31e179bbd8810490b01869",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "formal/FiniteCoupling.lean",
+    "sha256": "81376450cc2cddf7828283562cb4854ad26a705e0909db348ed1253c4677b17d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/81376450cc2cddf7828283562cb4854ad26a705e0909db348ed1253c4677b17d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "formal/WeightedEvents.lean",
+    "sha256": "1eb801090186b87ca0c5eb105655953aa92601c800f150c1c919e7139d05fea8",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/1eb801090186b87ca0c5eb105655953aa92601c800f150c1c919e7139d05fea8",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "spec/coupling-integration.md",
+    "sha256": "f173500b6a97b6df6abbf5b8f7ed7fb9e604cdbbeb73dd6ab04cf65390b935eb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f173500b6a97b6df6abbf5b8f7ed7fb9e604cdbbeb73dd6ab04cf65390b935eb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/source-snapshots/source-b2b00f354c3c074ebc397719115a0b6caa2930084dea3698749a629433b7b597.tar.gz",
+    "sha256": "b2b00f354c3c074ebc397719115a0b6caa2930084dea3698749a629433b7b597",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/b2b00f354c3c074ebc397719115a0b6caa2930084dea3698749a629433b7b597",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "spec/interval-vertex-crosscheck.md",
+    "sha256": "b93ee5c7b9026ea3ad67d404c239d5d43f3c79351f914917357129546892a4dd",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/b93ee5c7b9026ea3ad67d404c239d5d43f3c79351f914917357129546892a4dd",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/interval-vertex-crosscheck-b46ea5f89886b53e.json",
+    "sha256": "69879511fc3ec3786e91518024ed9008918e4c30e94c774e1033a23f54ae238d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/69879511fc3ec3786e91518024ed9008918e4c30e94c774e1033a23f54ae238d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/retained-pilot-20261015-b-robust-min.log",
+    "sha256": "5ddeb087626fb7928965e9ae4328ad7690b598b2047d0d70cc883e1d4d1ae29d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/5ddeb087626fb7928965e9ae4328ad7690b598b2047d0d70cc883e1d4d1ae29d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/retained-pilot-20261015-b-uncertainty.prism",
+    "sha256": "2bcc62549697d737811aa0c5c04e86832ab72cd4960922134e624c33472ea26c",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2bcc62549697d737811aa0c5c04e86832ab72cd4960922134e624c33472ea26c",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/human-final-visual-review.json",
+    "sha256": "489feb784924898d0213660d75b0eb5945f464db5a809a308b803cefacde9349",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/489feb784924898d0213660d75b0eb5945f464db5a809a308b803cefacde9349",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/human-figures-d424315e2f17fb77.json",
+    "sha256": "2362e70076aa44980b0bfea1ad1b642ba248d36b7f0e3ae3b56e71780ee96d71",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/2362e70076aa44980b0bfea1ad1b642ba248d36b7f0e3ae3b56e71780ee96d71",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/human-final-d424315e2f17fb77/figure-06-human-fidelity.png",
+    "sha256": "feab1e40e6f22f97a550ad7b1e615faf47beaa4504260c23bd817be0dbd9c224",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/feab1e40e6f22f97a550ad7b1e615faf47beaa4504260c23bd817be0dbd9c224",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/human-final-d424315e2f17fb77/figure-06-human-fidelity.pdf",
+    "sha256": "24564fe83e21ff0f232e2d9497a0046670bdb0d5c9a331764dce1db70782b85a",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/24564fe83e21ff0f232e2d9497a0046670bdb0d5c9a331764dce1db70782b85a",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/human-final-d424315e2f17fb77/caption.md",
+    "sha256": "ac04cbad6c76eea60f717e029121eaf82955e4986f0916d28b9ee706b6a8007d",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/ac04cbad6c76eea60f717e029121eaf82955e4986f0916d28b9ee706b6a8007d",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/human-final-d424315e2f17fb77/figure-02-human-frontier.pdf",
+    "sha256": "75c60793defb1bd0a1a931ef391b09b19256380782735ad38bf10777edf8c718",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/75c60793defb1bd0a1a931ef391b09b19256380782735ad38bf10777edf8c718",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/human-final-d424315e2f17fb77/figure-02-human-frontier.png",
+    "sha256": "d9867186bc1f0e8364b03b273a68b015bdf46c9d4c7304339d6c67377ba3ccfb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/d9867186bc1f0e8364b03b273a68b015bdf46c9d4c7304339d6c67377ba3ccfb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/human-final-d424315e2f17fb77/plotted-aggregate-data.json",
+    "sha256": "986e7e7e2db07c8ba6adf198b4d7e3b0257697f9603e28cf51c7e1deda8ab4cb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/986e7e7e2db07c8ba6adf198b4d7e3b0257697f9603e28cf51c7e1deda8ab4cb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/figures/human-final-d424315e2f17fb77/render-source.py",
+    "sha256": "ae06a0bb6a0b45b360c6b9972faa5740c080713713881cacb0808dfe6c9ee439",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/ae06a0bb6a0b45b360c6b9972faa5740c080713713881cacb0808dfe6c9ee439",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/releases/behavioral-equivalence-research-fbe7d105b85dad46.tar.gz",
+    "sha256": "fbe7d105b85dad46ff5f5c9732461d768c9018a5dae321d35ba6f4f726e59e56",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/fbe7d105b85dad46ff5f5c9732461d768c9018a5dae321d35ba6f4f726e59e56",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/releases/contents-b06c0cf8b5de7a8a.json",
+    "sha256": "b06c0cf8b5de7a8a05bd21b7c5dd4aa6b9143c949babc569360fcc8e0436138b",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/b06c0cf8b5de7a8a05bd21b7c5dd4aa6b9143c949babc569360fcc8e0436138b",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/release-candidate.json",
+    "sha256": "f95eddf62194d268e78d96398bc85fc4eda434918576a4fe1c0f19b203189d51",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/f95eddf62194d268e78d96398bc85fc4eda434918576a4fe1c0f19b203189d51",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/source-package-reproduction-a17e2c0f4cb5207b-b4e4233de2e1.json",
+    "sha256": "0de18b20645950e0829643027b76a5610e6a4d68b5dff3d0278ef14e7b963aba",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/0de18b20645950e0829643027b76a5610e6a4d68b5dff3d0278ef14e7b963aba",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/releases/behavioral-equivalence-research-6f1897215c724c4c.tar.gz",
+    "sha256": "6f1897215c724c4c6727778dcfc7592b350e7644bee6ff0744e51dabb9a10552",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/6f1897215c724c4c6727778dcfc7592b350e7644bee6ff0744e51dabb9a10552",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/releases/contents-e8cd46977683128d.json",
+    "sha256": "e8cd46977683128d61885cd78080021621446a86ea06e376305b3a2ae75ad400",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/e8cd46977683128d61885cd78080021621446a86ea06e376305b3a2ae75ad400",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/release-candidate.json",
+    "sha256": "29480c3bc77fe5d18cdafd9dfef5bee583c128064fc6e1c8a91cd8f7fb0525fb",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/29480c3bc77fe5d18cdafd9dfef5bee583c128064fc6e1c8a91cd8f7fb0525fb",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/validated-release-candidate-6f1897215c724c4c.json",
+    "sha256": "fff004617ada5756c4ced1bf2cab8aa7f9dab3db8d87307dd71cc88bd9cb318c",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/fff004617ada5756c4ced1bf2cab8aa7f9dab3db8d87307dd71cc88bd9cb318c",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  },
+  {
+    "file": "reports/preflight/source-package-reproduction-ad74b89a721bbbba-e52eea4696b4-explicit-mount.json",
+    "sha256": "437396eaa34423280ab74b880a1f46f4e101ef0aa623c1ab6c95ce08eb3b7b4b",
+    "bucket": "primitive-research",
+    "key": "behavioral-equivalence/objects/sha256/437396eaa34423280ab74b880a1f46f4e101ef0aa623c1ab6c95ce08eb3b7b4b",
+    "upload_status": "complete",
+    "download_checksum_verified": true,
+    "storage_semantics": "content-addressed private key, not server-enforced WORM"
+  }
+]

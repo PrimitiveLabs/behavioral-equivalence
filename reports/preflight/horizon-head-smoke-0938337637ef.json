@@ -1,0 +1,12 @@
+{
+  "status": "incomplete",
+  "source_digest": "0938337637efc21af62122c2ad0af7ad603fdc1a937ba45bfc5b80cfc78beda6",
+  "phase": "smoke",
+  "fits": [],
+  "failures": [
+    "ConvergenceWarning('lbfgs failed to converge after 500 iteration(s) (status=1):\\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\\n\\nIncrease the number of iterations to improve the convergence (max_iter=500).\\nYou might also want to scale the data as shown in:\\n    https://scikit-learn.org/stable/modules/preprocessing.html\\nPlease also refer to the documentation for alternative solver options:\\n    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression')"
+  ],
+  "root": "/artifacts/human-horizon-heads-0938337637efc21a",
+  "final_test_predictions_generated": 0,
+  "scope": "Secondary origin-only direct horizon heads, trained only on audited fitting-role data. Validation is retrospective diagnostics, not final human predictive evidence. No final test predictions or metrics, no provider inference calls."
+}

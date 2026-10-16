@@ -1,0 +1,11 @@
+{
+  "status": "accepted",
+  "method": "Rendered PNG inspected with view_image",
+  "checks": [
+    "All 32 original and 8 quotient states visible; class labels and outcome colors legible",
+    "No title, label or caption clipping or overlap",
+    "All nonzero transition records exported; separate edge-width formulas disclosed",
+    "Measured seed, perturbation, compression and serialized exact-radius scope visible"
+  ],
+  "render_digest": "5fcd76d2f800f76ca5d2d5d612c7e8e2cb45275404c4c4017e6da262ee7a2a20"
+}

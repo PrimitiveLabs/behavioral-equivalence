@@ -1,0 +1,44 @@
+{
+  "status": "additional pre-exposure context audit required before full neural matrix",
+  "phase": "outcome-free feature-support diagnostic, not final model selection or test scoring",
+  "training_source_digest": "4fc554c78ba6392eb086ef5520b751d4a2a002910d1d6f3de9ee4e7a811cd17b",
+  "records": [
+    {
+      "protocol": "known_users",
+      "support": {
+        "train": {
+          "cases": 6623154,
+          "users": 26079,
+          "unknown_item_fraction": 0.7009329693979636
+        },
+        "validation": {
+          "cases": 1594880,
+          "users": 25652,
+          "unknown_item_fraction": 0.8878893709871589
+        }
+      },
+      "vocabulary_size": 65535
+    },
+    {
+      "protocol": "unseen_users",
+      "support": {
+        "train": {
+          "cases": 4636194,
+          "users": 18256,
+          "unknown_item_fraction": 0.6975273252154677
+        },
+        "validation": {
+          "cases": 159059,
+          "users": 2557,
+          "unknown_item_fraction": 0.8879158048271396
+        }
+      },
+      "vocabulary_size": 65535
+    }
+  ],
+  "finding": "A top-65535 training-item vocabulary leaves most later exposed items unknown. Current history/tab/item-ID inputs need an intrinsic item-feature audit to provide a stronger content-aware baseline.",
+  "required_next_action": "Audit intrinsic-duration agreement on all sampled standard cases, then revise the content-aware training inputs before the full neural matrix.",
+  "retained_evidence": "Existing role-separated v1 inputs and Markov validation fit are retained as development artifacts. GPU preflight remains a hardware/architecture check. No full neural fits or final test scores have been produced.",
+  "scope": "Do not interpret missing item context as evidence against behavioral-state redundancy or train a deliberately weaker final comparator to obtain compression.",
+  "metadata_audit": "reports/preflight/kuairand-27k-item-metadata-audit.json"
+}

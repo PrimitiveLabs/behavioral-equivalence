@@ -1,0 +1,39 @@
+{
+  "schema_version": "human-case-construction-v1",
+  "status": "frozen case-construction rules; final model and analysis preregistration pending",
+  "prepared_report_sha256": "f94f6807749dcfa8b98df4329f3102081d057f90ec96aee6129cc03f030492fd",
+  "independent_audit_sha256": "0176129f335c54fb3589e8149cea335f14edc903dee777bcd760a7fc4336d26d",
+  "calendar": {
+    "train_end": 1651190400000,
+    "validation_end": 1651449600000,
+    "calibration_end": 1651708800000
+  },
+  "availability_proxy": "available_sum_ms",
+  "embargo_hours": [
+    0,
+    24,
+    48
+  ],
+  "primary_embargo_hours": 24,
+  "per_user_role_caps": {
+    "train": 256,
+    "validation": 64,
+    "calibration": 128,
+    "test": 128
+  },
+  "sampling_seed": 20261015,
+  "sampling_method": "Polars 1.31.0 seeded hash priority of frozen source row IDs, within user and calendar role, case ID breaks hash ties",
+  "case_id": "bucket number shifted left 32 bits plus zero-based row index in hash-bound prepared interactions file",
+  "known_users": "all eligible cases within shared calendar",
+  "unseen_users": "same case IDs restricted to user_role_code == calendar_role_code",
+  "history_length": 32,
+  "history": "strictly earlier available timestamp bundles; current bundle and unavailable feedback excluded",
+  "target": "recorded is_click, interface-dependent click or valid-play feedback; no psychological interpretation",
+  "current_exposure_fields_retained": [
+    "tab",
+    "video_id",
+    "is_rand"
+  ],
+  "release_policy": "raw case features, identifiers and targets remain private on Modal; only permitted aggregate evidence exported",
+  "scoring": "none during case construction; final predictive models and analyses must be frozen before test scoring"
+}

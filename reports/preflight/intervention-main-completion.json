@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "phase": "frozen multidimensional synthetic intervention",
+  "failures": [],
+  "source_digest": "d60298ee46e02e25cef42faf05863b8b6d778e8433bfec1a4b8bfa29b3969b2b",
+  "protocol_digest": "f38425758e3893c65a34dec8a6f80f2f6f7079ee0f7b896d2c5980b17733d769",
+  "worlds": 400,
+  "expected_worlds": 400,
+  "verified_estimated_model_certificates": 25600
+}

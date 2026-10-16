@@ -1,0 +1,51 @@
+{
+  "status": "complete_with_optional_skips",
+  "scope": "Local human uncertainty/support checks and full suite against two-correction installed wheel; not a fresh cloud run or human inference",
+  "wheel_sha256": "eadc16f4c3b8b58a45f1c2148500a823647cff16650997176d3668a44d08c511",
+  "historical_cloud_wheel_sha256": "d035f9594ff2921ae72ffd2ccae3bb5fb3edb6a795c51d16542b69c28c021ede",
+  "wheel_python_modules_changed_from_cloud": [
+    "behavioral_equivalence/quantization.py",
+    "behavioral_equivalence/resolution_support.py"
+  ],
+  "all_wheel_python_modules_match_current_source": true,
+  "installed_wheel_import_verified": true,
+  "added_test": "tests/test_human_uncertainty_support_boundaries.py",
+  "added_test_sha256": "e17ade484aa75e52dfbe74f5f474a6fda251e2c69d33acbd687019431688f0a9",
+  "added_tests_passed": 41,
+  "full_tests_passed": 1227,
+  "full_tests_skipped": 8,
+  "checks": [
+    {
+      "command": [
+        "/Users/rohittalluri/projects/behavioral-equivalence/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error",
+        "-o",
+        "pythonpath=",
+        "tests/test_human_uncertainty_support_boundaries.py"
+      ],
+      "stdout": ".........................................                                [100%]\n41 passed in 0.07s\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/Users/rohittalluri/projects/behavioral-equivalence/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error",
+        "-o",
+        "pythonpath=",
+        "tests"
+      ],
+      "stdout": "........................................................................ [  5%]\n........................................................................ [ 11%]\n........................................................................ [ 17%]\n........................................................................ [ 23%]\n........................................................................ [ 29%]\n....................................................................ss.. [ 35%]\n........................................................................ [ 40%]\n........................................................................ [ 46%]\n........................................................................ [ 52%]\n........................................................................ [ 58%]\n........................................................................ [ 64%]\n........................................................................ [ 70%]\n........................................................................ [ 76%]\n........................................................................ [ 81%]\n...................................ss................................... [ 87%]\n........................................................................ [ 93%]\n........................................................................ [ 99%]\n.......                                                                  [100%]\n1227 passed, 8 skipped in 4.95s\n",
+      "stderr": "",
+      "returncode": 0
+    }
+  ]
+}

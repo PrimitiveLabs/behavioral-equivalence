@@ -1,0 +1,46 @@
+PRISM
+=====
+
+Version: 4.11
+Date: Fri Oct 16 06:21:12 UTC 2026
+Hostname: modal
+Memory limits: cudd=1g, java(heap)=2g
+Command line: prism /tmp/source-reproduction-s0vj8krn/scientific-rerun/patience-perturbed.prism -pf 'P=? [ F<=10 "complete" ]' -explicit
+
+Parsing PRISM model file "/tmp/source-reproduction-s0vj8krn/scientific-rerun/patience-perturbed.prism"...
+
+Type:        DTMC
+Modules:     behavioral
+Actions:     []
+Variables:   s
+Labels:      "active" "complete" "disengage"
+
+1 property:
+(1) P=? [ F<=10 "complete" ]
+
+---------------------------------------------------------------------
+
+Model checking: P=? [ F<=10 "complete" ]
+
+Building model (engine:explicit)...
+
+Computing reachable states... 32 states
+Reachable states exploration and model construction done in 0.012 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.038 seconds.
+
+Type:        DTMC
+States:      32 (1 initial)
+Transitions: 473
+
+Starting bounded probabilistic reachability...
+Bounded probabilistic reachability took 10 iterations and 0.01 seconds.
+
+Value in the initial state: 0.46759505587117434
+
+Time for model checking: 0.014 seconds.
+
+Result: 0.46759505587117434 (exact floating point)
+
+

@@ -1,0 +1,373 @@
+{
+  "scope": "original synthetic campaign executable source, not a new experiment run",
+  "campaign_id": "synthetic-main-v3-d9f1fdcc7c35",
+  "source_digest": "efb1f2efdad610e42c84d6e1ff786df54e4674510ffdba1a8b628cc739ff1089",
+  "origin_archive": "reports/source-snapshots/source-d3af4d603d0ba170fe76c2f5b475089b7b43b0ac1a3b52b05a7af21c3d34bfcd.tar.gz",
+  "origin_archive_sha256": "d3af4d603d0ba170fe76c2f5b475089b7b43b0ac1a3b52b05a7af21c3d34bfcd",
+  "files": [
+    {
+      "path": "cloud/synthetic_campaign.py",
+      "sha256": "4ec98d61ee29290c2f7007b55e2cdfae5cf2da98829325f8ff640b796b324216"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "fa1d554c8fec336a9d5aab8d48cd15545f24a24768af5f2114c9f72927899c2c"
+    },
+    {
+      "path": "src/behavioral_equivalence.egg-info/PKG-INFO",
+      "sha256": "7a6f5938dfd2d2a71dddd707f0ae61a02fd57552cdda48d2d104c31737236410"
+    },
+    {
+      "path": "src/behavioral_equivalence.egg-info/SOURCES.txt",
+      "sha256": "fe1231ece27721ff8c2bba1ebb273ca2e119ac4e9cfa37b2c34e8d5dd6ed33d9"
+    },
+    {
+      "path": "src/behavioral_equivalence.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "src/behavioral_equivalence.egg-info/requires.txt",
+      "sha256": "b9e592058ed28574c0420d182588fab68388c1a26539d2651fa51157e6d763cb"
+    },
+    {
+      "path": "src/behavioral_equivalence.egg-info/top_level.txt",
+      "sha256": "8a521074f8f831b7d0a586ac556ee9f5fb2ed7938e558d391ad3994b6ebe43a6"
+    },
+    {
+      "path": "src/behavioral_equivalence/__init__.py",
+      "sha256": "b4f6d462ab4b1ec82291ed614e6e622e06fee14111592547441fe6b4d740cf5e"
+    },
+    {
+      "path": "src/behavioral_equivalence/__main__.py",
+      "sha256": "c19458154f29d5967e7e44946f8434bd10bc04b52eec4277607ef824b5f775ff"
+    },
+    {
+      "path": "src/behavioral_equivalence/adjacent_audit.py",
+      "sha256": "a1a107ad4ad85c18579661a1db12b7887bc7521646a69f9760dee6a349eb10a8"
+    },
+    {
+      "path": "src/behavioral_equivalence/adjacent_calibration.py",
+      "sha256": "c3ba560aedf87712b9b55693aa556c247a291757ae8f4263e2157107e421b7b0"
+    },
+    {
+      "path": "src/behavioral_equivalence/benchmark.py",
+      "sha256": "fbef6545f6bec5ecee1164271123ebb8491c0af2b3414dc794a98c0a5da3d589"
+    },
+    {
+      "path": "src/behavioral_equivalence/budget.py",
+      "sha256": "714b507272d3616c558141919a0e2a168d171dc382f09ee0ddecc2e8fc16e0cf"
+    },
+    {
+      "path": "src/behavioral_equivalence/calendar_splits.py",
+      "sha256": "ad78eba1897469ace9e3464ad09655abcd55610b5b2a82ade70474750fee3734"
+    },
+    {
+      "path": "src/behavioral_equivalence/calendar_support.py",
+      "sha256": "2c985e4b14518e654ad486f21365c9f5216a8fb74bffe2acbb3643f1f1d96fc7"
+    },
+    {
+      "path": "src/behavioral_equivalence/case_audit.py",
+      "sha256": "f0b6d5ce4d7b850f70d3b60c6b4e868a6527c77eaf339a9519e674e6c65f7817"
+    },
+    {
+      "path": "src/behavioral_equivalence/case_inference.py",
+      "sha256": "3957e8283141b21ec333e8ab432ce9fb97ea123adfdf21f2150cfe340f7160d1"
+    },
+    {
+      "path": "src/behavioral_equivalence/catalogue_search.py",
+      "sha256": "f41de44877399c38841665ca3b8272471f08e387d78f61086f1800f2628481af"
+    },
+    {
+      "path": "src/behavioral_equivalence/certificate_audit.py",
+      "sha256": "636d768c77c305140a2fecf48a369b061dba59916b9b6613544f506aa7a003a7"
+    },
+    {
+      "path": "src/behavioral_equivalence/clustering.py",
+      "sha256": "ee15782cdd750a25596f1c3faa414f92345d15357b0208d9e09f71c3fc4c8a5f"
+    },
+    {
+      "path": "src/behavioral_equivalence/cohort_uncertainty.py",
+      "sha256": "a3f97e8d9896880ce646a3fa4ca74c63de85811137344b6ce634253860ddc6c5"
+    },
+    {
+      "path": "src/behavioral_equivalence/confidence.py",
+      "sha256": "8e60795fd209cd86526229319cecaa4db637895b48674790063f2ab418f80796"
+    },
+    {
+      "path": "src/behavioral_equivalence/confirmatory_preparation.py",
+      "sha256": "13b31ac2d05dcf26c32c6d9874f8503b04fb0b59759dfe0cff99420f1724b107"
+    },
+    {
+      "path": "src/behavioral_equivalence/content_neural.py",
+      "sha256": "140869dfa56558e9f5d9f16a726b9222a49c3fd31f50932e105e58c9e7e9fe94"
+    },
+    {
+      "path": "src/behavioral_equivalence/content_scaling.py",
+      "sha256": "ad7714012a14bf9993647c6d7c522fa55af24884c89cc29f0261d944562cb060"
+    },
+    {
+      "path": "src/behavioral_equivalence/contracts.py",
+      "sha256": "b3337085992cd44aa8598bffca9d9a099fbb6f2840776a81b9136cb5d03d9456"
+    },
+    {
+      "path": "src/behavioral_equivalence/core.py",
+      "sha256": "9c67590d2716d06e6579ee5dabd8536190920c601da318f017137df625599ca1"
+    },
+    {
+      "path": "src/behavioral_equivalence/coverage_analysis.py",
+      "sha256": "b8c3915ee6b836b018f6478216e96f9b18cb8abecc5bf1948e5125ca474185ca"
+    },
+    {
+      "path": "src/behavioral_equivalence/data.py",
+      "sha256": "90351f320d16a9b32cc21664c891d7b6e17e09cf1a38ec1e57701be8c7e9eb46"
+    },
+    {
+      "path": "src/behavioral_equivalence/data_audit.py",
+      "sha256": "94d7b7845887592d17d36e77ee6a50441e9506bc77a668a73cda1fc2c038ad62"
+    },
+    {
+      "path": "src/behavioral_equivalence/decision_model.py",
+      "sha256": "7a41431d7be10e477ed188c5ae0d8dcccbe871fee66bd021decd68e383cd5625"
+    },
+    {
+      "path": "src/behavioral_equivalence/diversity_analysis.py",
+      "sha256": "40f7d9e2eb1ecb3d70dba78333e791a77e28f4ce000bda8214868bc581425486"
+    },
+    {
+      "path": "src/behavioral_equivalence/environment_diversity.py",
+      "sha256": "5e079b206c86fbbe38d05a526afbd4911c7c8afc3ff728ca90b7779b99dfd496"
+    },
+    {
+      "path": "src/behavioral_equivalence/evidence_registry.py",
+      "sha256": "aa74c150e494023bf9ace9810c11ceb38c75e815ac900f12abe8083f60ebdbaf"
+    },
+    {
+      "path": "src/behavioral_equivalence/exposure_neural.py",
+      "sha256": "8550a6d43a41308e7c720c3fc3637fbf44a51258b75f3d0d0cb0b764f14d2b40"
+    },
+    {
+      "path": "src/behavioral_equivalence/features.py",
+      "sha256": "50621fd5862ca1cf9cbbd14452ded9c6700cb103401222af87a9b1b2c3b39a19"
+    },
+    {
+      "path": "src/behavioral_equivalence/heldout_frontier.py",
+      "sha256": "3edb7e1aa98afbcabfa22b7fad8d1c646f81b20d21bc659a431899f06ccefeb6"
+    },
+    {
+      "path": "src/behavioral_equivalence/heldout_response.py",
+      "sha256": "68a56391e31d57e3c106f01556e21a6f7103c50901f7dab9faee668561d516bc"
+    },
+    {
+      "path": "src/behavioral_equivalence/history_state.py",
+      "sha256": "47b41301b03d3b2b7bcef4f9b26387b8f50f00bcda6cc6b96f8cd05c70c04690"
+    },
+    {
+      "path": "src/behavioral_equivalence/horizon_targets.py",
+      "sha256": "d343766ac660d6b25c3ec84b341bb494c886b877a1938efe26b6b6414b349144"
+    },
+    {
+      "path": "src/behavioral_equivalence/human_comparison.py",
+      "sha256": "1ea434dde5009ef46503d0f306457158259938a95efd7eb37f6054b046adec50"
+    },
+    {
+      "path": "src/behavioral_equivalence/human_preparation.py",
+      "sha256": "92e9eab6d2eca14e3b28f604634da744bd4dda2ba45d1cf8443b7125c38b51be"
+    },
+    {
+      "path": "src/behavioral_equivalence/human_protocol.py",
+      "sha256": "386d5e2b248f4e71bec57358d7ba3d2fde50142c94324d48dbbfe1c86d207e21"
+    },
+    {
+      "path": "src/behavioral_equivalence/integer_bounds.py",
+      "sha256": "3bf508d8070c4add11dd9ecd2e6d724cd00555e2fa29d00561907cf766fa9372"
+    },
+    {
+      "path": "src/behavioral_equivalence/intervention_analysis.py",
+      "sha256": "183391c7499e06b7bcc4d7d575be24d32879af5ded7ec20561574231c4436098"
+    },
+    {
+      "path": "src/behavioral_equivalence/intervention_benchmark.py",
+      "sha256": "2b16041d39c75f426866baeb944feda9e4f13d0b95186adca2672588bc8baa35"
+    },
+    {
+      "path": "src/behavioral_equivalence/intervention_space.py",
+      "sha256": "50108094cabde00fb7a95e49746ca5e1b9ac5e7ca4acbc638472341d568c26c9"
+    },
+    {
+      "path": "src/behavioral_equivalence/intrinsic_context.py",
+      "sha256": "175b4c9d0fb73bc4fbb7290644e31f2381210261f83d9ce4df54364f5685a721"
+    },
+    {
+      "path": "src/behavioral_equivalence/item_context.py",
+      "sha256": "af1f4ba081b21c9fb5d697e7b7870b27da14cb3c421916833f7c2a1ee57ea651"
+    },
+    {
+      "path": "src/behavioral_equivalence/item_metadata.py",
+      "sha256": "fc43c4fdf7d4e0879235cc78f8e50ee2c8defa2c057e9c8d62fdef69f3b3bfef"
+    },
+    {
+      "path": "src/behavioral_equivalence/latent_estimation.py",
+      "sha256": "720f825379df881b3a0d70d7bb93f4aaced48ccd80f9745ebb53f166dc4e130e"
+    },
+    {
+      "path": "src/behavioral_equivalence/learned_abstraction.py",
+      "sha256": "8a420760d02e5f89f1e95ed07bd0afb96fc288339e8da099c7b2f1e2e9841d6d"
+    },
+    {
+      "path": "src/behavioral_equivalence/multistep_audit.py",
+      "sha256": "54260b505de132c74c0965481d1b284e7cc9787e7bef75dd1eedf5f50988c3d2"
+    },
+    {
+      "path": "src/behavioral_equivalence/multistep_cohort.py",
+      "sha256": "dca6ce4c2994e8fbdaa50cf44c1cb13ab34ad9dd063d89786afa2e26eb487593"
+    },
+    {
+      "path": "src/behavioral_equivalence/nested_design.py",
+      "sha256": "08aad6890b1d48cfb1dee8818719bc6420a17e713b928d71e4e895dc282dc67f"
+    },
+    {
+      "path": "src/behavioral_equivalence/neural.py",
+      "sha256": "27b336ceda43098372c2dc0aa9f847dd682044b56f0c016381ae864f1ffcfa71"
+    },
+    {
+      "path": "src/behavioral_equivalence/neutral_response.py",
+      "sha256": "2d8ca6b014de61f960f51240024acaf75780162f14859e8d8ac0c5386a8cdb4d"
+    },
+    {
+      "path": "src/behavioral_equivalence/nominal_ablation.py",
+      "sha256": "c3981472b4368576a447ac1ee19798fe4a0750077613d3759e24812fb52c803f"
+    },
+    {
+      "path": "src/behavioral_equivalence/nominal_analysis.py",
+      "sha256": "15804209d4eb71b1a32b34ac030a633bc3e138f0504bd6cce7cf9154eecb7a5b"
+    },
+    {
+      "path": "src/behavioral_equivalence/nominal_chunk.py",
+      "sha256": "ee8623adc088fbb56b8feb17ab4b0b56605f6e64437d4ea92deb322869fd9a3f"
+    },
+    {
+      "path": "src/behavioral_equivalence/nominal_replay.py",
+      "sha256": "4b90a086fcc9e277050bbf5b5fcdfb1f61a0bf0e3c8752fc8c50ffb53fea2ca7"
+    },
+    {
+      "path": "src/behavioral_equivalence/parent_identity.py",
+      "sha256": "b6c59212d4143653a9f835be3bec944af2d380d5bbb2acc52fde44e70c177784"
+    },
+    {
+      "path": "src/behavioral_equivalence/precision_planning.py",
+      "sha256": "25e42c171eea6e227c6640035d13eff8afbf9f8a95986ec52ebdcf6e62ec27da"
+    },
+    {
+      "path": "src/behavioral_equivalence/prism.py",
+      "sha256": "337196d3739bbcf2aeb8c888fc36c8f2af22a96e0a2f899b84523f56b6d63ca0"
+    },
+    {
+      "path": "src/behavioral_equivalence/property_bounds.py",
+      "sha256": "701e21605a0a457150615d0cfc90ac5146d34d606042735f99bd6069c855c385"
+    },
+    {
+      "path": "src/behavioral_equivalence/property_refinement.py",
+      "sha256": "8201243fafa197729941d6d09990fae6d50e12d29107fdeeee31f9b63e17b10a"
+    },
+    {
+      "path": "src/behavioral_equivalence/quantization.py",
+      "sha256": "79be6782bfe31d0ae16b6998a7b9b5bf1c757b33612504da0143f98af71c95ec"
+    },
+    {
+      "path": "src/behavioral_equivalence/random_response.py",
+      "sha256": "93a5437c50ba03bd7d6328a484d51de83c67c5dc9fc07dafb537efe9482441a4"
+    },
+    {
+      "path": "src/behavioral_equivalence/randomized_audit.py",
+      "sha256": "fe3332e05e6cccfa5bac4bd78b57bef1ca32a2e442da859ff6be638c67ac6e04"
+    },
+    {
+      "path": "src/behavioral_equivalence/randomized_cohort.py",
+      "sha256": "2d3acf6d95dc4203fc27ed03bda6f5fa0f01fe7b1716814ef69056aced405929"
+    },
+    {
+      "path": "src/behavioral_equivalence/rational.py",
+      "sha256": "e30c7f268afcc66b330b2756a8c9ecd9d548e291232feab000acb368faee1f3a"
+    },
+    {
+      "path": "src/behavioral_equivalence/refinement.py",
+      "sha256": "1ae52ab6611f88db64a18bb4eedfd7882a7a80d5ac1aded9c04434374768bae9"
+    },
+    {
+      "path": "src/behavioral_equivalence/repeated_analysis.py",
+      "sha256": "44551af29e5408a4d0fcb8ab4ce8e49b8d0296950a97fa300f78d2f636abd85e"
+    },
+    {
+      "path": "src/behavioral_equivalence/repeated_evidence.py",
+      "sha256": "a9f95f3304e48897de6fefcddfe5494bcbe108b99192166b5de3151243a91061"
+    },
+    {
+      "path": "src/behavioral_equivalence/resolution_support.py",
+      "sha256": "f8f971046d834d76d55bad21bce6108cad90c76d3dc3961b2b19f9b11446ddf7"
+    },
+    {
+      "path": "src/behavioral_equivalence/response_chain.py",
+      "sha256": "568618996c17a3e1b2acff2359751b3c2e676b851e76757810ddb3ba113b6882"
+    },
+    {
+      "path": "src/behavioral_equivalence/response_coarsening.py",
+      "sha256": "3300f6cb0a34bd3513a37f56a1409a42e5784413b6f3eef0adef4164567cbf7c"
+    },
+    {
+      "path": "src/behavioral_equivalence/response_frontier.py",
+      "sha256": "e36784fc9b0ba25d7eb11c7ccd9db9946b1572540dfa7082631608660eef7052"
+    },
+    {
+      "path": "src/behavioral_equivalence/response_refinement.py",
+      "sha256": "b30b904144be68604535bd2bdf9c7166a0503894cc697d1b40778508838f35e3"
+    },
+    {
+      "path": "src/behavioral_equivalence/robust_benchmark.py",
+      "sha256": "fd6e03c3d90766ba47dab6d105bd27011fe22904bba7a6b220c08c4681cc13b1"
+    },
+    {
+      "path": "src/behavioral_equivalence/statistics.py",
+      "sha256": "328ed69dbbcc69f9376187f3bd5f95964b15703a41b01b8271ae3baae8e3967d"
+    },
+    {
+      "path": "src/behavioral_equivalence/streaming_scores.py",
+      "sha256": "8659b7c9b72781caca341b249e553e3248a5a437612b204bb63f1b3c21f1c3bb"
+    },
+    {
+      "path": "src/behavioral_equivalence/synthetic.py",
+      "sha256": "8daf7417114a448f6bfc58c40022bdcda80b244f4a52eb60bbb3d9491c9a2e4e"
+    },
+    {
+      "path": "src/behavioral_equivalence/synthetic_analysis.py",
+      "sha256": "8c93eeef5ef31e515e9969f455e58f384426c778d7663de6e5d7a841503c3f46"
+    },
+    {
+      "path": "src/behavioral_equivalence/training_horizons.py",
+      "sha256": "685e5426212585e81b3ef043290d4c9f499ccd4ba305baa5de90b1da9ea39073"
+    },
+    {
+      "path": "src/behavioral_equivalence/uncertainty.py",
+      "sha256": "28e1e5152300d31e29feccf899e935362a3c9d5a9c4ccf72fce8359b397460ed"
+    },
+    {
+      "path": "src/behavioral_equivalence/uncertainty_abstraction.py",
+      "sha256": "ca7cf96bcd11525ae9af38f3860dd707b694e2d42281fd2922708c938f784904"
+    },
+    {
+      "path": "src/behavioral_equivalence/uncertainty_analysis.py",
+      "sha256": "507deec9566884c187838c75a126a5ecd6489499130213bebbd2e5245d91f30c"
+    },
+    {
+      "path": "src/behavioral_equivalence/uncertainty_repetition.py",
+      "sha256": "6e792fe442fba86ed22c45f5685e1b9618bd249cc46271f1b611268d2ccbab5a"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "264abc31263f9b95c9fb82c0525acbb6fe120d7631f00b745222503eb8909fd4"
+    },
+    {
+      "path": "configs/synthetic-main-v3.json",
+      "sha256": "a28ad593d4291357a3193336c9fe721b501cd01ff9b5d6944cb594321350231f"
+    }
+  ]
+}
