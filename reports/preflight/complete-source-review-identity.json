@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "observed_at": "2026-10-16T09:10:55.929842+00:00",
+  "executable_sources": 210,
+  "current_source_hashes_verified": 210,
+  "scoped_review_files_exist": 210,
+  "whole_source_acceptance": "not_established",
+  "scope": "Complete executable roster and current bytes match scoped review inventory. This is source identity/review coverage, not a substitute for final strict tests or release acceptance."
+}

@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "scope": "Read-only local regeneration from retained frozen aggregate reports; original figure tables untouched, no individual data or new inference",
+  "exact_bytes_match": true,
+  "sha256": "e2076512e2eb3ea92c6de144f59f8810bf4b1a67fb442321e23fb1d688b5746c",
+  "inputs": 20
+}

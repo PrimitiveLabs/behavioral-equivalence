@@ -1,0 +1,27 @@
+{
+  "status": "rendered; visual inspection pending",
+  "figure": 5,
+  "campaign_id": "intervention-main-v1-f38425758e38",
+  "analysis_source_digest": "773c68323e0f7a90fd39debaaf6d1eaaa09b70ef77fd92eee2a61fe05ac079ad",
+  "analysis_sha256": "c972d136449381a167389044c320a313241ce9df56235b52c88749239e6288e9",
+  "example_report_sha256": "48d0735fa5320b283d7f6d919b3ee6fb719cb40cc5e62d0af89677b392064929",
+  "render_digest": "a1131dd6a6454a903825a36bbda2a2d2a4e1f7a3002b7d7bb29e3bf1856ff040",
+  "artifact_sha256": {
+    "caption.md": "65e697a88cab4d07fa29fc837ac6a9564b42f0f7218ae5c6d1528bd86b263225",
+    "comparisons.pdf": "453d5a84cdfb47a17a52c99280495aa082c8305eedf68a99d685bbab66ae7ae2",
+    "comparisons.png": "8aaa9121e1e45d53fce05c0145017ec258ad2cee1406ccc65653bdcee04d8dca",
+    "comparisons.svg": "0797c1c3bf065ff6663ff90f956ab5a7aea8a1fbc523aa9700e16eca4ecb41a4",
+    "figure-05-interventions.pdf": "c1f569b11d43c70063cf9ea71d7b67780ec559b4306e2af639bd22bcde74fedd",
+    "full-control-frontier.csv": "20a3a4b1a3e099ae0521c1734f2efd3da3264b14139c7beb3f56a72d6738176e",
+    "full-frontier.pdf": "05d98c85032f4657df832b1f976527674a44b040a83c132963f70b49ac057b84",
+    "full-frontier.png": "e3b1cce4eb0f8c5711019d00da3851cf299e82006ff1a02879bea4345f11ba62",
+    "full-frontier.svg": "cca06ae7c63ff22e1910ce7963020eef160b769c261dbc517b08798cf2dd2bbb",
+    "paired-seed-effects.csv": "14a12b7bd5c15f63f08dae8882c3ddb3441ecee9361b4900d7395a45657cdb1a",
+    "render-source.py": "801da0fc3a4597a3641ba61f40695c1a8fff38550e890d648ff179b06189d246",
+    "witness-probabilities.csv": "5ddc73161f507b1b02e821083637cc36d5ccf53fda6473c92df54c7b5178de86",
+    "witness.pdf": "869d2db16ac93f6fd48dffa228c1399592a31a0c0dba5034cc7503dc8e7e03e3",
+    "witness.png": "c29e2529d01bfbe01f34cb952079f0e2409bf33f4cb6a1dc64d35deddcef88d7",
+    "witness.svg": "5d0b5fc49dec36b4525f262d8ed7dce9e8948381360e3fc06cb748c5436437e2"
+  },
+  "root": "/artifacts/intervention-main-v1-f38425758e38/figure05-a1131dd6a645"
+}

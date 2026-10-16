@@ -1,0 +1,40 @@
+{
+  "status": "complete_with_optional_skips",
+  "scope": "Full local installed-wheel suite for dtype-corrected library, not a fresh cloud run; no human retraining or inference",
+  "wheel_sha256": "cf98aaac676e1ba15055daee1f1a3eb38215cf2b5509a88622a0fe57116f55e9",
+  "tests_passed": 1018,
+  "tests_skipped": 8,
+  "installed_wheel_import_verified": true,
+  "quantization_wheel_source_verified": true,
+  "quantization_sha256": "5fd79f3e62aff0c6c86c1aab1c9d65f6367fb8a86642f2259b01e01a9778bbee",
+  "test_path": "tests/test_learned_state_boundaries.py",
+  "test_sha256": "6feed24d0efd7990ab45f2830f3a7fe32c9f735ebae47569c76064a0e7436c6f",
+  "dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pydantic": "2.11.7",
+    "pytest": "8.4.1"
+  },
+  "additional_dependency_versions": {
+    "polars": "1.31.0"
+  },
+  "command": [
+    "/Users/rohittalluri/projects/behavioral-equivalence/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-W",
+    "error",
+    "-o",
+    "pythonpath=",
+    "tests"
+  ],
+  "stdout": "........................................................................ [  7%]\n........................................................................ [ 14%]\n........................................................................ [ 21%]\n........................................................................ [ 28%]\n........................................................................ [ 35%]\n....................................................................ss.. [ 42%]\n........................................................................ [ 49%]\n........................................................................ [ 56%]\n........................................................................ [ 63%]\n........................................................................ [ 70%]\n........................................................................ [ 77%]\n........................................................................ [ 84%]\n.................................................................ss..... [ 91%]\n........................................................................ [ 98%]\n..............                                                           [100%]\n1018 passed, 8 skipped in 4.57s\n",
+  "stderr": "",
+  "limitations": "Eight optional-neural/data skips retained. Historical cloud suite tested the frozen pre-fix library; do not attribute its wheel identity to this correction.",
+  "old_cloud_wheel_sha256": "d035f9594ff2921ae72ffd2ccae3bb5fb3edb6a795c51d16542b69c28c021ede",
+  "wheel_python_modules_changed": [
+    "behavioral_equivalence/quantization.py"
+  ],
+  "other_wheel_python_modules_identical": 87
+}

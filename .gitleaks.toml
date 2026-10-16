@@ -1,0 +1,30 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "SHA256 world identifiers in retained synthetic experiment manifests"
+condition = "AND"
+paths = ['''^reports/preflight/(synthetic-campaign-smoke-v2|synthetic-campaign-smoke|synthetic-large-smoke|uncertainty-main-manifest|integer-campaign-audit-progress)\.json$''']
+regexTarget = "line"
+regexes = ['''^\s*"key": "[0-9a-f]{64}",?\s*$''']
+
+[[allowlists]]
+description = "Public archive filenames in the unmodified Zenodo deposit metadata"
+condition = "AND"
+paths = ['''^data/rights/zenodo-record-full-20261015\.json$''']
+regexTarget = "match"
+regexes = ['''key": "KuaiRand-(1K|27K|Pure)\.tar\.gz"''']
+
+[[allowlists]]
+description = "SHA256 intervention world identifiers, recomputed from the public synthetic spec"
+condition = "AND"
+paths = ['''^reports/preflight/intervention-multidimensional-smoke\.json$''']
+regexTarget = "line"
+regexes = ['''^\s*"world_key": "[0-9a-f]{64}",?\s*$''']
+
+[[allowlists]]
+description = "Public synthetic world hashes, all independently recomputed in public-world-digest-scan-validation.json"
+condition = "AND"
+paths = ['''^reports/preflight/(synthetic-main-original-manifest|synthetic-main-reconciled-manifest|integer-campaign-audit-manifest|synthetic-recovery-interpretation)\.json$''']
+regexTarget = "line"
+regexes = ['''^\s*"key": "[0-9a-f]{64}",?\s*$''']

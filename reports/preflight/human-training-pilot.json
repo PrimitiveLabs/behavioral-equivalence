@@ -1,0 +1,191 @@
+{
+  "status": "complete",
+  "phase": "engineering_pilot",
+  "run_id": "human-training-pilot-20261015-b",
+  "reports": [
+    {
+      "protocol": "chronological",
+      "model": "markov",
+      "metrics": {
+        "validation": {
+          "cases": 20000,
+          "nll_nats": 0.5671712588168683,
+          "brier": 0.19335100492432553,
+          "observed_rate": 0.37285,
+          "predicted_rate": 0.3812614161179977
+        },
+        "calibration": {
+          "cases": 20000,
+          "nll_nats": 0.5727014464513257,
+          "brier": 0.19541202306594224,
+          "observed_rate": 0.3719,
+          "predicted_rate": 0.3819892153256313
+        },
+        "test": {
+          "cases": 20000,
+          "nll_nats": 0.5756619895439024,
+          "brier": 0.19678977375309523,
+          "observed_rate": 0.382,
+          "predicted_rate": 0.3863711517155104
+        }
+      },
+      "wall_seconds": 0.007308631000000787
+    },
+    {
+      "protocol": "chronological",
+      "model": "gru",
+      "metrics": {
+        "validation": {
+          "cases": 20000,
+          "nll_nats": 0.5410527963998274,
+          "brier": 0.18233078238289865,
+          "observed_rate": 0.37285,
+          "predicted_rate": 0.37382596170715987
+        },
+        "calibration": {
+          "cases": 20000,
+          "nll_nats": 0.5446701326903429,
+          "brier": 0.1837226617361056,
+          "observed_rate": 0.3719,
+          "predicted_rate": 0.3731846687858924
+        },
+        "test": {
+          "cases": 20000,
+          "nll_nats": 0.5468910491667017,
+          "brier": 0.18477733280885647,
+          "observed_rate": 0.382,
+          "predicted_rate": 0.37969453009935095
+        }
+      },
+      "wall_seconds": 4.216059077000001
+    },
+    {
+      "protocol": "chronological",
+      "model": "transformer",
+      "metrics": {
+        "validation": {
+          "cases": 20000,
+          "nll_nats": 0.5445083121679579,
+          "brier": 0.18375890081083532,
+          "observed_rate": 0.37285,
+          "predicted_rate": 0.34196978718279863
+        },
+        "calibration": {
+          "cases": 20000,
+          "nll_nats": 0.5478659749029784,
+          "brier": 0.18506196535197128,
+          "observed_rate": 0.3719,
+          "predicted_rate": 0.34103431025650355
+        },
+        "test": {
+          "cases": 20000,
+          "nll_nats": 0.5509904314964088,
+          "brier": 0.18644796569177843,
+          "observed_rate": 0.382,
+          "predicted_rate": 0.34774722489211707
+        }
+      },
+      "wall_seconds": 5.756586456000001
+    },
+    {
+      "protocol": "users",
+      "model": "markov",
+      "metrics": {
+        "validation": {
+          "cases": 20000,
+          "nll_nats": 0.5765782600993358,
+          "brier": 0.19735902132825764,
+          "observed_rate": 0.3885,
+          "predicted_rate": 0.3847079646982015
+        },
+        "calibration": {
+          "cases": 20000,
+          "nll_nats": 0.5612036775327931,
+          "brier": 0.19031213313160905,
+          "observed_rate": 0.3613,
+          "predicted_rate": 0.3735423401062923
+        },
+        "test": {
+          "cases": 20000,
+          "nll_nats": 0.582291123669372,
+          "brier": 0.19938237784748394,
+          "observed_rate": 0.3994,
+          "predicted_rate": 0.3873312917495137
+        }
+      },
+      "wall_seconds": 0.007558570000000486
+    },
+    {
+      "protocol": "users",
+      "model": "gru",
+      "metrics": {
+        "validation": {
+          "cases": 20000,
+          "nll_nats": 0.5510105049299651,
+          "brier": 0.18698646869328794,
+          "observed_rate": 0.3885,
+          "predicted_rate": 0.3801509021033533
+        },
+        "calibration": {
+          "cases": 20000,
+          "nll_nats": 0.5302261318266557,
+          "brier": 0.17773351731822296,
+          "observed_rate": 0.3613,
+          "predicted_rate": 0.35947153898021206
+        },
+        "test": {
+          "cases": 20000,
+          "nll_nats": 0.5547017571725524,
+          "brier": 0.18772523325409776,
+          "observed_rate": 0.3994,
+          "predicted_rate": 0.38507905470179393
+        }
+      },
+      "wall_seconds": 1.2108837520000009
+    },
+    {
+      "protocol": "users",
+      "model": "transformer",
+      "metrics": {
+        "validation": {
+          "cases": 20000,
+          "nll_nats": 0.5516146278962534,
+          "brier": 0.18719198469658155,
+          "observed_rate": 0.3885,
+          "predicted_rate": 0.37594181051277553
+        },
+        "calibration": {
+          "cases": 20000,
+          "nll_nats": 0.5311074949182628,
+          "brier": 0.177918858442581,
+          "observed_rate": 0.3613,
+          "predicted_rate": 0.3555929235076532
+        },
+        "test": {
+          "cases": 20000,
+          "nll_nats": 0.5570885164858166,
+          "brier": 0.18847619672755153,
+          "observed_rate": 0.3994,
+          "predicted_rate": 0.38048489499758
+        }
+      },
+      "wall_seconds": 5.538030607000003
+    }
+  ],
+  "history": "32 available unordered timestamp bundles; rates discretized into 16 bins",
+  "models": "Markov, GRU64, 2-layer Transformer64; current tab pre-exposure context",
+  "epochs": 2,
+  "train_cap_per_protocol": 100000,
+  "seed": 20261015,
+  "limitations": [
+    "availability assumption unverified",
+    "single training seed",
+    "pilot-only 1K users",
+    "selected-field deduplication",
+    "not a state-abstraction noninferiority test"
+  ],
+  "gpu": "Tesla T4",
+  "wall_seconds": 49.3565088,
+  "prepared_source_sha256": "2606488f4114a1c6030b6e9d9fbfb26d4d2216f98450dc5eab8ded063014b822",
+  "source_digest": "90160b4a525d7a316b8f471b209bed8d0d39c57925b4c01a6b4cab73f7c720a4"
+}

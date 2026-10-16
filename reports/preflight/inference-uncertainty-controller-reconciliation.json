@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "observed_at": "2026-10-16T09:08:31.066669+00:00",
+  "inputs": [
+    {
+      "path": "reports/preflight/human-case-inference-validation-roundtrip.json",
+      "sha256": "3c5f9904015d368652266d62cec2416a33d8d75921d4f7b85ba71006274fe729"
+    },
+    {
+      "path": "reports/preflight/human-comparative-validation-known_users-20261015.json",
+      "sha256": "2c2ff6d37804a7528f4d96c36967d52b28a680fa7f0026f3856bcb6770cfa6ec"
+    },
+    {
+      "path": "reports/preflight/human-comparative-validation-unseen_users-20261015.json",
+      "sha256": "42835778208b467a3b9abfc4ef91c4bc36dad92b5dfb3a3f850f21a52570c321"
+    },
+    {
+      "path": "reports/preflight/human-cluster-uncertainty-completion.json",
+      "sha256": "e87edbfa1ab0654636906b09542f3cc117171c339c51c16058f11b5bf78386be"
+    },
+    {
+      "path": "reports/preflight/nominal-replay-completion.json",
+      "sha256": "fd6e245847cebd3d20a5a2959d7302c11b6ae44de0c216e4ee78e7439643db43"
+    }
+  ],
+  "validation_bridge_protocols": 2,
+  "uncertainty_parent_records": 10,
+  "k256_intervals_vacuous_in_all_parents": true,
+  "nominal_replay_chunks": 400,
+  "nominal_replay_datasets": 4000,
+  "nominal_point_certificates": 8000,
+  "scope": "Retained validation support/error checks, explicit uncertainty limitations and complete replay aggregate arithmetic. No fresh remote byte checks, inference or certificate arithmetic."
+}

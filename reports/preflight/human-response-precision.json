@@ -1,0 +1,177 @@
+{
+  "status": "complete",
+  "source_digest": "867ce0b98e80f32148ef66ef049969ba36bf6d55db07d05aa193795d19ea219c",
+  "tests": "..........                                                               [100%]\n10 passed in 0.18s\n",
+  "rows": [
+    {
+      "seed": 20261015,
+      "protocol": "known_users",
+      "validation_cases": 107799,
+      "validation_users": 17128,
+      "validation_user_variance": 0.000648878476569576,
+      "validation_user_sd": 0.025473093188099007,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 815
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 204
+        },
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 51
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim.",
+      "test_eligibility": {
+        "cases": 375340,
+        "users": 23284,
+        "case_id_sha256": "4831e001139d26eaffeb406dab8dbae560866981a65d40a8c10bde084ba860f6",
+        "selection": "Recorded test role and known intrinsic duration; no predictions or outcomes used"
+      },
+      "history_report_sha256": "e11373b221ceab31c94298d8188beef52c9c21752a74bc7bc98c6eab6c043a0f",
+      "frontier_report_sha256": "b2e805f0d2c6794e8ba019b3e1e50946112475eaae697f90ca53eb7b4793d5da"
+    },
+    {
+      "seed": 20261016,
+      "protocol": "known_users",
+      "validation_cases": 107799,
+      "validation_users": 17128,
+      "validation_user_variance": 0.0004988851164108725,
+      "validation_user_sd": 0.02233573630778427,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 627
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 157
+        },
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 40
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim.",
+      "test_eligibility": {
+        "cases": 375340,
+        "users": 23284,
+        "case_id_sha256": "4831e001139d26eaffeb406dab8dbae560866981a65d40a8c10bde084ba860f6",
+        "selection": "Recorded test role and known intrinsic duration; no predictions or outcomes used"
+      },
+      "history_report_sha256": "8c180629d9f3b616e0b10669f634e1a07048b651bcc6720e9e5cafa670f1f11d",
+      "frontier_report_sha256": "fe10c761142d2c8317a0b5a609a2432d6aa6c5c2cab890ee1b800bf500462993"
+    },
+    {
+      "seed": 20261017,
+      "protocol": "known_users",
+      "validation_cases": 107799,
+      "validation_users": 17128,
+      "validation_user_variance": 0.00047749974434096364,
+      "validation_user_sd": 0.02185176753356496,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 600
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 150
+        },
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 38
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim.",
+      "test_eligibility": {
+        "cases": 375340,
+        "users": 23284,
+        "case_id_sha256": "4831e001139d26eaffeb406dab8dbae560866981a65d40a8c10bde084ba860f6",
+        "selection": "Recorded test role and known intrinsic duration; no predictions or outcomes used"
+      },
+      "history_report_sha256": "55bf1301452bde28c667a8d904031621f14eb4673e09b27990d5aeaa762ff9d3",
+      "frontier_report_sha256": "196ec54420d8616b97f064a536bd6f66176bebbc90f7c019b946e814b12bf00c"
+    },
+    {
+      "seed": 20261018,
+      "protocol": "known_users",
+      "validation_cases": 107799,
+      "validation_users": 17128,
+      "validation_user_variance": 0.0009001219546064022,
+      "validation_user_sd": 0.030002032507921897,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 1131
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 283
+        },
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 71
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim.",
+      "test_eligibility": {
+        "cases": 375340,
+        "users": 23284,
+        "case_id_sha256": "4831e001139d26eaffeb406dab8dbae560866981a65d40a8c10bde084ba860f6",
+        "selection": "Recorded test role and known intrinsic duration; no predictions or outcomes used"
+      },
+      "history_report_sha256": "2337739a7ddf01315825064a802481791e8d8fe51ec45bf003dc26e52565d9a3",
+      "frontier_report_sha256": "983b8aaf5f83f22d2de5d150981637283b33107392c569dbd9eeb0e816d5b5b8"
+    },
+    {
+      "seed": 20261019,
+      "protocol": "known_users",
+      "validation_cases": 107799,
+      "validation_users": 17128,
+      "validation_user_variance": 0.00044107389320044297,
+      "validation_user_sd": 0.02100175928822257,
+      "one_sided_alpha": 0.025,
+      "target_power": 0.8,
+      "required_users": [
+        {
+          "gap_nats": 0.0025,
+          "normal_approximate_users": 554
+        },
+        {
+          "gap_nats": 0.005,
+          "normal_approximate_users": 139
+        },
+        {
+          "gap_nats": 0.01,
+          "normal_approximate_users": 35
+        }
+      ],
+      "scope": "Conditional normal approximation using validation user-loss variation; independent representative user clusters and stable future variance assumed. No test scores, finite-sample power guarantee or across-seed independence claim.",
+      "test_eligibility": {
+        "cases": 375340,
+        "users": 23284,
+        "case_id_sha256": "4831e001139d26eaffeb406dab8dbae560866981a65d40a8c10bde084ba860f6",
+        "selection": "Recorded test role and known intrinsic duration; no predictions or outcomes used"
+      },
+      "history_report_sha256": "9cb4de3c1e3ab5e224faf7d655af1769e20b5ae111794153c54236cf9025b3da",
+      "frontier_report_sha256": "1672a67fba0ae8208aad08b8bb4ca726d6461a6811d6af092447b99c689eb3f6"
+    }
+  ],
+  "scope": "Retrodictive validation user-variance proxy for fixed post-calibration models, not prospective validation accuracy. Validation only contributes to paired losses; future test eligibility uses identifiers/context only. No final test predictions or metrics.",
+  "validation_mean_loss_exported": false,
+  "final_test_predictions_generated": 0,
+  "final_test_metrics_generated": 0,
+  "root": "/artifacts/human-response-precision-867ce0b98e80f321"
+}

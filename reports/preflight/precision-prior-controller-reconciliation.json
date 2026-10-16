@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "observed_at": "2026-10-16T09:07:33.284787+00:00",
+  "inputs": [
+    {
+      "path": "reports/preflight/human-validation-precision.json",
+      "sha256": "34dd28e8d3b5acb79b35e82ac85667e7392787818b485f4d220280ce69d4d64a"
+    },
+    {
+      "path": "reports/preflight/human-response-precision.json",
+      "sha256": "767d01218f1aa783fc261cff6aee144e8cd131509e5a9c6a900dac4fe490f53f"
+    },
+    {
+      "path": "reports/preflight/human-heldout-response-precision.json",
+      "sha256": "9dd2931822059e532fc17ac6b303f2f259a250241dec2f0bf15bbadf27b0dedb"
+    },
+    {
+      "path": "reports/preflight/human-heldout-response-precision-aggregate.json",
+      "sha256": "f53d27c57b55fd7d9aa94d2c361992133e73e21f72cc6809c0cf4ba2942a886a"
+    },
+    {
+      "path": "reports/preflight/human-heldout-teacher-prior-20261015.json",
+      "sha256": "28009537200a83be1056cda6f2be1d548d53eab9aa886e6b2f4becc43622481d"
+    },
+    {
+      "path": "reports/preflight/human-heldout-teacher-prior-20261016.json",
+      "sha256": "47f8fb23f42074635726f0dd34365a9c7c0cae703488256760932c4a34f92b8e"
+    },
+    {
+      "path": "reports/preflight/human-heldout-teacher-prior-20261017.json",
+      "sha256": "809ca8ad3e0dec497cd31ff52c371ab473773d057a3ad5dcdbba39ab6cf594f7"
+    },
+    {
+      "path": "reports/preflight/human-heldout-teacher-prior-20261018.json",
+      "sha256": "da2dd8ac69c5b528bfc077280b44f7e65f839421bf1177fd511b9011bec43c38"
+    },
+    {
+      "path": "reports/preflight/human-heldout-teacher-prior-20261019.json",
+      "sha256": "84c407095d208cbc2b41e72699d61c41e8be566eaf8a54718c226ef4e1a1e262"
+    }
+  ],
+  "validation_rows": 10,
+  "response_rows": 5,
+  "heldout_fold_rows": 30,
+  "aggregate_rows": 5,
+  "teacher_priors": 5,
+  "maximum_fold_variance_or_sd_version_difference": 1.3877787807814457e-17,
+  "version_numeric_comparison_absolute_tolerance": 1e-15,
+  "scope": "Retained finite variance arithmetic, outcome-free eligibility, three-copy overlap accounting and training-only prior metadata. Initial exact version equality was false due solely to variance/SD rounding; all other row fields are exact. No fresh inference or finite-sample power guarantee."
+}

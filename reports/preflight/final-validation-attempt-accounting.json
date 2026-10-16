@@ -1,0 +1,42 @@
+{
+  "observed_at": "2026-10-16T09:17:27.203943+00:00",
+  "attempts": [
+    {
+      "state_path": ".campaign/source-package-ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12-e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e-explicit-checker-mount.json",
+      "function_call_id": "fc-01M52005M9CY5V7YA022PPCBRN",
+      "reservation": {
+        "run_id": "source-package-ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12-e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e-explicit-checker-mount",
+        "reserved_usd": 0.14,
+        "total_reserved_usd": 18.278034,
+        "ceiling_usd": 25.0,
+        "actual_billing_usd": null,
+        "status": "reserved; idempotent run identity"
+      },
+      "budget_ledger": ".campaign/synthetic-budget.sqlite",
+      "source_bundle_sha256": "ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12",
+      "checker_source_sha256": "e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e"
+    },
+    {
+      "state_path": ".campaign/source-package-ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12-e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e.json",
+      "function_call_id": "fc-01M51ZWGW0M1GPEMT2V56VRMS0",
+      "reservation": {
+        "run_id": "source-package-ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12-e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e",
+        "reserved_usd": 0.14,
+        "total_reserved_usd": 18.138034,
+        "ceiling_usd": 25.0,
+        "actual_billing_usd": null,
+        "status": "reserved; idempotent run identity"
+      },
+      "budget_ledger": ".campaign/synthetic-budget.sqlite",
+      "source_bundle_sha256": "ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12",
+      "checker_source_sha256": "e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e"
+    }
+  ],
+  "total_new_reservations_usd": 0.28,
+  "ledger": ".campaign/synthetic-budget.sqlite",
+  "ledger_ceiling_usd": 25,
+  "ledger_total_reserved_usd": 18.278034,
+  "ceilings_changed": false,
+  "frontier_provider_calls": 0,
+  "scope": "Two separately reserved attempts. First returned terminal checker-file mount exception; second mounts the identical checker explicitly. Reservations are not actual spend. Default nested-human ledger remains unchanged."
+}

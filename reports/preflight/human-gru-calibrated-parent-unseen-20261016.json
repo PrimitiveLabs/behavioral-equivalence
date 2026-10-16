@@ -1,0 +1,291 @@
+{
+  "status": "complete",
+  "source_digest": "40c80c043abeff27e3b1fe44aaad6a84861926b28fbb6e8d2f8454d521468d8e",
+  "parent_source_digest": "8c2afe99bb7532b901952f872abe18ce2ac08b4f9b5b340eaa0280cdb3a1383e",
+  "quantization_report_sha256": "29755898e6a8560971e389aeb48b6ab4c5db4df802878a5f20d7f52ac5316f37",
+  "calibration_report_sha256": "ded969e03e56d879bb7a2dbff3aa637c69eee821e45024125103a7a21ea09b19",
+  "phase": "frozen-encoder adjacent calibrated point models",
+  "protocol": "unseen_users",
+  "architecture": "gru",
+  "seed": 20261016,
+  "users": 2542,
+  "support": [
+    {
+      "bucket": 0,
+      "queries": 6786,
+      "transitions": 4760,
+      "users": 85
+    },
+    {
+      "bucket": 1,
+      "queries": 7160,
+      "transitions": 4874,
+      "users": 90
+    },
+    {
+      "bucket": 2,
+      "queries": 6588,
+      "transitions": 4382,
+      "users": 76
+    },
+    {
+      "bucket": 3,
+      "queries": 6557,
+      "transitions": 4335,
+      "users": 77
+    },
+    {
+      "bucket": 4,
+      "queries": 5916,
+      "transitions": 4026,
+      "users": 74
+    },
+    {
+      "bucket": 5,
+      "queries": 7207,
+      "transitions": 4869,
+      "users": 89
+    },
+    {
+      "bucket": 6,
+      "queries": 6114,
+      "transitions": 4218,
+      "users": 72
+    },
+    {
+      "bucket": 7,
+      "queries": 6201,
+      "transitions": 4150,
+      "users": 78
+    },
+    {
+      "bucket": 8,
+      "queries": 5286,
+      "transitions": 3560,
+      "users": 64
+    },
+    {
+      "bucket": 9,
+      "queries": 6111,
+      "transitions": 4345,
+      "users": 86
+    },
+    {
+      "bucket": 10,
+      "queries": 5365,
+      "transitions": 3670,
+      "users": 72
+    },
+    {
+      "bucket": 11,
+      "queries": 6737,
+      "transitions": 4555,
+      "users": 80
+    },
+    {
+      "bucket": 12,
+      "queries": 7203,
+      "transitions": 4942,
+      "users": 92
+    },
+    {
+      "bucket": 13,
+      "queries": 6639,
+      "transitions": 4672,
+      "users": 84
+    },
+    {
+      "bucket": 14,
+      "queries": 6396,
+      "transitions": 4322,
+      "users": 77
+    },
+    {
+      "bucket": 15,
+      "queries": 6379,
+      "transitions": 4248,
+      "users": 83
+    },
+    {
+      "bucket": 16,
+      "queries": 5559,
+      "transitions": 3976,
+      "users": 73
+    },
+    {
+      "bucket": 17,
+      "queries": 5689,
+      "transitions": 3964,
+      "users": 71
+    },
+    {
+      "bucket": 18,
+      "queries": 5672,
+      "transitions": 3831,
+      "users": 67
+    },
+    {
+      "bucket": 19,
+      "queries": 6546,
+      "transitions": 4479,
+      "users": 83
+    },
+    {
+      "bucket": 20,
+      "queries": 6574,
+      "transitions": 4240,
+      "users": 75
+    },
+    {
+      "bucket": 21,
+      "queries": 6645,
+      "transitions": 4428,
+      "users": 84
+    },
+    {
+      "bucket": 22,
+      "queries": 5437,
+      "transitions": 3698,
+      "users": 67
+    },
+    {
+      "bucket": 23,
+      "queries": 7658,
+      "transitions": 5059,
+      "users": 96
+    },
+    {
+      "bucket": 24,
+      "queries": 5560,
+      "transitions": 3692,
+      "users": 68
+    },
+    {
+      "bucket": 25,
+      "queries": 6125,
+      "transitions": 4261,
+      "users": 76
+    },
+    {
+      "bucket": 26,
+      "queries": 7189,
+      "transitions": 4687,
+      "users": 81
+    },
+    {
+      "bucket": 27,
+      "queries": 7191,
+      "transitions": 4702,
+      "users": 89
+    },
+    {
+      "bucket": 28,
+      "queries": 6993,
+      "transitions": 4733,
+      "users": 86
+    },
+    {
+      "bucket": 29,
+      "queries": 6848,
+      "transitions": 4673,
+      "users": 86
+    },
+    {
+      "bucket": 30,
+      "queries": 6740,
+      "transitions": 4582,
+      "users": 81
+    },
+    {
+      "bucket": 31,
+      "queries": 6476,
+      "transitions": 4445,
+      "users": 80
+    }
+  ],
+  "models": [
+    {
+      "latent_states": 16,
+      "labeled_states": 48,
+      "chain_digest": "8e59824256656dbb20deb30d60f5e240ba095f239b50c0c464fac9e59155f5c9",
+      "transition_pairs": 139378,
+      "unsupported_state_outcome_rows": 0,
+      "nonzero_graph_edges": 544
+    },
+    {
+      "latent_states": 32,
+      "labeled_states": 96,
+      "chain_digest": "b6d29dda3ebb5fb0646605ff238da332fe2c92699e31f57453130d0c44b2ba04",
+      "transition_pairs": 139378,
+      "unsupported_state_outcome_rows": 0,
+      "nonzero_graph_edges": 2112
+    },
+    {
+      "latent_states": 64,
+      "labeled_states": 192,
+      "chain_digest": "2360d77ed016b1fe6b2224a098a3892bce994417157998a031794bd3c6627873",
+      "transition_pairs": 139378,
+      "unsupported_state_outcome_rows": 1,
+      "nonzero_graph_edges": 8320
+    },
+    {
+      "latent_states": 128,
+      "labeled_states": 384,
+      "chain_digest": "da9ba5a88be0776b9e4761407954e87ff6f0f1820ebf04f9528a3b7cb105fa52",
+      "transition_pairs": 139378,
+      "unsupported_state_outcome_rows": 4,
+      "nonzero_graph_edges": 33024
+    },
+    {
+      "latent_states": 256,
+      "labeled_states": 768,
+      "chain_digest": "d924293e29d7b92bd357bf2cac5fac10768fa10184064835903a422cf7d1f882",
+      "transition_pairs": 139378,
+      "unsupported_state_outcome_rows": 16,
+      "nonzero_graph_edges": 131584
+    }
+  ],
+  "output_sha256": {
+    "bucket-00-states.npz": "f0d5be5cb40096f4c78cbb4bf1e9cf40829252bb45bb7a26d769bd6b8036320b",
+    "bucket-01-states.npz": "02c37961c4352ae1bb9e6fdfa89580bc82e667a81a05937466472de93ed0658b",
+    "bucket-02-states.npz": "f1d1c197ae2257c04448f1b03855eb57986f6f34fd29659f98cfb9bcafc18cf8",
+    "bucket-03-states.npz": "1066e999731a3071ee6fc4029a5be13a63ea2f7138cefdb16ba4ead6c826d707",
+    "bucket-04-states.npz": "55a1fbb4615f76bb72217faad2dc7910cef5a2629a603a61dfae1fc731db12e4",
+    "bucket-05-states.npz": "0310ee3b01952cde4288ea2cf5cf5d24eb08c7ad469d20c321935a91d0ee5dbb",
+    "bucket-06-states.npz": "51ecb1967d05ab1c987d3606661fc9aa033e4d9e912b914df5239f57438e37ea",
+    "bucket-07-states.npz": "a322b3c88eae41cf78481c8d6e78702ac568770eb5987c0d4bde5bc5ec70c0a1",
+    "bucket-08-states.npz": "b28934d238bdb6a9ca712e30661ab83dafed5e2ec9fa0b2066f7d55ec700771a",
+    "bucket-09-states.npz": "f776fc19fe9e56dff7cd10b27117ac044af7e2e12c55a2a881d30163543d655d",
+    "bucket-10-states.npz": "0815c1734dd40d73978eecb3f787f7f8fcb3d1ec134f1ea5211e3b141ff73f0a",
+    "bucket-11-states.npz": "a59b81b79261e176a36504d2c5485b9f5fa6e1d75af700b47e1391496b2ca152",
+    "bucket-12-states.npz": "4871da9b59fe9e8dc5d3c94aacf964a084373d73e4a3b969e19d697fdafa6138",
+    "bucket-13-states.npz": "fa1c68bc5b4df94688603d254d08cf5756ef1c2929c93d78c7ea58b99e5c1457",
+    "bucket-14-states.npz": "fb7e596ce6cb44f1366da56005cc1349a63b6585d66d569dd31dc72fd19cfd62",
+    "bucket-15-states.npz": "a78ba90fb3ba15294b7f7686023fde53b2313abb8609d7a9de61c315dfbb3f97",
+    "bucket-16-states.npz": "2750d8660d6b01c5350b1fa7297d3a8895a48ee7067e2ffe769c4fcb667470ba",
+    "bucket-17-states.npz": "737337ab16d563716f3f56b3071d8ee41b61aea691b511e219e6bccfd0929685",
+    "bucket-18-states.npz": "fe0b96833aed52286bfe6377cf7c8d0e0de1474bd2ac0a34602778c33dcdbe2b",
+    "bucket-19-states.npz": "f5fb1cedf87cb89f1592e8a4862c314c9d3c76a1e91823f5cc74fabb1da4e6e5",
+    "bucket-20-states.npz": "a8faca22528bdde8a259ad352c1cff4a9f1251dbcbf77f5a28fe0a7dd447e25f",
+    "bucket-21-states.npz": "20124f0ee0307cf1657f6af57ba3928398470e86834b9f702f072ece121746f3",
+    "bucket-22-states.npz": "79258cd06f92d85e78b9d761bbcf86d2c42d23e8928d98f288c41ebd8132b605",
+    "bucket-23-states.npz": "5ab791023426ed06b2b223e01ab490a3c9178d6a942996ce82bfc20aa00fdd7d",
+    "bucket-24-states.npz": "e41bac69521a1ce5b0712253ea5b1c314c246a492798ea3c3e2e617e8758f7f0",
+    "bucket-25-states.npz": "98afcaebe27dafee0e6fea1a045d941910c120f7f1aac0e7f4de503682127521",
+    "bucket-26-states.npz": "5df89b719d8ab7de57e147ce0ed972e77c5a631acd88f5e62e37df427a6e9e2b",
+    "bucket-27-states.npz": "4d9cbd3ab114bc1d8e128a643fc49d1965f1988ee8a6f7ad148481dc0aefc9ef",
+    "bucket-28-states.npz": "14599bd8670aed76dcdf475ead5fb826b773ef38e0e17a5c11af1fec47e81533",
+    "bucket-29-states.npz": "93a86f4cb0a9718a38fd1b5d8d29e4d6f750df37a6bafd711f2599d4b9001160",
+    "bucket-30-states.npz": "ee627838df1326e61cca9e1e59d731518fe6f4d40aa1eedbcc42668634c99fe1",
+    "bucket-31-states.npz": "071e4d94e5115cfb9375065ab86a215517f30f7755ae508dd47781c3e25cc961",
+    "k16-parent.npz": "37e16c049763dbcf449a9b46f75c3142c7dedae9b9696ed506911731d01df93b",
+    "k32-parent.npz": "7dbc434b49dac0024771a79d7986b123e64a03409b8ada93719f76a504c8aee5",
+    "k64-parent.npz": "42d8bf058bd4152e9efaaab460e7b2569e3d0f4d0b4dc755681adf0bee25e8d8",
+    "k128-parent.npz": "8acfcac3eda7366a20549e2d8b9abb0640b5ac3457eba396b9775718ea1a2aa7",
+    "k256-parent.npz": "0629ae086b2291b2b8adc1be9f7b17624efa01e1089499eaa468e8a841877d51"
+  },
+  "wall_seconds": 68.050744095,
+  "root": "/artifacts/human-calendar-training-v3-8c2afe99bb75/fits/unseen_users-gru-20261016/quantization-eaa699cb5987-a60a6bb52860/calibrated-parent-40c80c043abe",
+  "test_predictive_performance": "not evaluated",
+  "scope": "Emissions distill training teacher probabilities; outcome-conditioned transitions use real adjacent calibration bundles. The additive prior and Markov representation specify a point model, not a human confidence set. Positive/negative labels are nonterminal outcomes, not completion or abandonment."
+}

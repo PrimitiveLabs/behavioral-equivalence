@@ -1,0 +1,25 @@
+# Direct observed-horizon comparators
+
+Status: pre-test secondary design extension. Train/validation cohorts and their independent input audit are complete. The direct heads are implemented and the revised real-data smoke passed; the fixed30-fit batch is submitted and waits for the final encoder. The joint final analysis freeze remains incomplete.
+
+A next-response neural predictor cannot forecast a full future journey merely by repeatedly consuming the actual held-out future contexts. Those contexts are unavailable at the origin. The finite-state point models can marginalize their learned logged-policy dynamics. The continuous comparators therefore need direct event heads, trained from origin information and within-training-window future labels, for a useful multistep comparison.
+
+`configs/human-horizon-heads-v1.json` specifies the heads. Each frozen context-only, GRU and Transformer encoder contributes its origin penultimate128-dimensional feature. A fixed training-only normalization and L2 logistic regression predicts each prespecified marginal future event. There are25event/horizon pairs, ordered exactly like the certified event suite. All30fixed encoder/protocol/seed combinations remain in scope. The extension does not alter their original next-response training, the strict primary operating point or its failed compression outcome.
+
+The origin sample is selected before inspecting future support or targets. Each event uses only observed same-training-role future windows, with equal-user sample weighting. Unseen-user fitting additionally requires the training user role. Missing targets remain-1 and never become negative examples. No actual future item, tab, duration, response token or latent-state assignment enters an origin forecast. Validation metrics are retrospective diagnostics and do not change the fixed head-estimator settings after test inspection.
+
+The heads predict marginal events and are not a learned joint trajectory generator. Structural H1 identities and impossible count thresholds are handled explicitly. Other cross-horizon consistency violations must be reported rather than hidden by calling the outputs a coherent stochastic process. The separately labeled frozen-origin iid Bernoulli reference uses no future contexts, but is a weak reference and cannot stand in for the direct trained comparators.
+
+The fitting preparation reuses the independently audited source logs and metadata and processes train and validation together in one pass per bucket. The source contains inherited explanatory text from the earlier test-cohort configuration. Its actual emitted roles0/1, explicit splits, fitting scope and role-window implementation define the fitting cohort; the legacy phrase referring to test-role windows is not the operative rule. Preserve the original source snapshot and record this description correction without changing frozen numeric inputs.
+
+The extension is declared after calibration-model and validation engineering diagnostics. Report that timing, source/model identities, event support, optimization convergence, parameter counts and all negative findings. A positive or negative result still requires independent final observations; these specifications and prepared labels alone establish no human multistep fidelity.
+
+## Numerical solver correction before test scoring
+
+The first real-data context-head smoke failed the declared convergence gate: L-BFGS reached500iterations. No unconverged predictor was accepted and no final test prediction was generated. The failed source/run is preserved as `0938337637efc21af62122c2ad0af7ad603fdc1a937ba45bfc5b80cfc78beda6`.
+
+The revised head estimator uses Newton-Cholesky, an exact-Hessian solver for the same penalized logistic objective. Regularization C1, gradient tolerance1e-6, maximum500iterations, selected training origins, equal-user weights, features and event targets remain fixed. This is a numerical convergence correction, not test-driven model selection. Both source versions and all failed/canceled attempts remain in the evidence record.
+
+The original4.50USD program reservation covers one failed smoke, one revised smoke and the30-fit batch. The submission guard permits at most two source versions and three coordinator calls, while allowing idempotent attachment to existing handles. Its timeout/resource estimate is4.464336USD including the failed attempt. Provider preemptions remain outside that local guard; this is not a provider-enforced lifetime billing cap.
+
+The [scikit-learn1.7 API documentation](https://scikit-learn.org/1.7/modules/generated/sklearn.linear_model.LogisticRegression.html) lists both solvers for L2 logistic regression and recommends Newton-Cholesky when observations substantially outnumber feature/class dimensions. The cloud image pins scikit-learn1.7.1; the linked1.7-series documentation currently renders patch1.7.2. The real-data smoke required at most13iterations per optimized head. This convergence evidence does not establish final predictive accuracy.

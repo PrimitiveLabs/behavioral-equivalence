@@ -1,0 +1,18 @@
+# Unified ablation evidence, integration checkpoint
+
+This report maps the original eight axes to measured artifacts. All primary and supplementary output replays and joint-trajectory evaluations are complete. D8 release acceptance still requires the final artifact/recovery integration check. The original analysis configuration remains unchanged. This document is a post-scoring evidence index, not a preregistration amendment.
+
+| Original axis | Actual evidence | Interpretation and remaining scope |
+| --- | --- | --- |
+| Remove formal equivalence constraints | Synthetic main summary; all ten 24-hour human one-step reports; measured Figure 2 | Matched embedding, predictive and random controls remain distinct from certificates. Strict primary retains 256 states and fails twofold compression. Secondary clusters cannot rescue that criterion. |
+| Remove transition uncertainty | nominal-ablation-summary.json and uncertainty-repeated-summary.json in preflight; human pooled interval diagnostics | Synthetic point estimates and confidence sets use the same sampled datasets. Human interval width and bucket compatibility do not establish unconditional confidence coverage. |
+| Remove counterexample refinement | intervention summaries and all ten response reports in final-human | Synthetic targeted splitting and active acquisition are separate comparisons. Neither human response study meets all-five strict improvement. Independent aggregate-output replay passed. |
+| Remove behavioral history | Context-only, GRU and Transformer predictions on the same one-step and horizon cases | Frozen architecture comparisons test use of history in these fitted models. They do not isolate a causal human memory effect or every parameter-count difference. |
+| Exact versus approximate equivalence | Synthetic exact-normalized certificates; strict and finite-property human frontier | Requested tolerances and actual serialized radii remain separate. Finite-property certificates are not full bisimulation guarantees. |
+| Vary prediction horizon | Synthetic horizons 5, 10, 25, 50; all ten direct-horizon human reports | 11,875 reported human contrasts are preserved in human-horizon-comparison-table.json. Marginal events at 1, 5, 10, 25, 50 decisions are evaluated on supported observed cohorts. A separate exploratory joint-trajectory study scores 450 metric cells and400paired contrasts, all independently replayed. |
+| Vary training sample size | Synthetic uncertainty experiment with 100, 1000, 10000 samples per row | This is transition-estimation sample size, not a human neural-training learning curve. The original ablation asks how certification depends on data availability; this study directly addresses that question. It does not establish a human encoder learning curve, which the protocol does not separately require. |
+| Vary environment diversity | Exploratory environment-diversity summary and certificate replay manifest | Same 400 generating worlds, 96,000 metrics, 19,200 replayed certificates. This is a paired synthetic extension, not independent human intervention evidence. |
+
+Negative controls include 100 synthetic response-invariant worlds. Human tab and history cohorts are descriptive supported strata, not randomized negative-control interventions. Every fixed seed and fold must remain in final summaries, including identical forecasts and unfavorable intervals.
+
+The eight-axis design is configs/ablation-plan-v1.json. Sources for final interpretation include human-horizon-results.md, human-response-final-decisions.md, human-cluster-uncertainty-results.md, nominal-ablation-results.md and final-human-primary-decisions.json. Final release needs exact content bindings for these mutable integration summaries after reconciliation.

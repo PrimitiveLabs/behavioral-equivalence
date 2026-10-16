@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "scope": "Outcome-free joint support only; same state/environment must meet the fixed support threshold in both disjoint subsets; not predictive transfer.",
+  "source_report_sha256": "095dc4ab4741759f9e6c29ee98c5b499714cd3fba44284ea75868ad390f2be5a",
+  "rows": [
+    {
+      "parent_states": 16,
+      "supported_state_environment_cells": 17,
+      "supported_within_initial_block_pairs": 24
+    },
+    {
+      "parent_states": 32,
+      "supported_state_environment_cells": 11,
+      "supported_within_initial_block_pairs": 6
+    },
+    {
+      "parent_states": 64,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "parent_states": 128,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "parent_states": 256,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    }
+  ]
+}

@@ -1,0 +1,970 @@
+{
+  "status": "complete",
+  "phase": "full adjacent calibration preparation",
+  "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+  "config": {
+    "schema_version": "human-adjacent-calibration-v1",
+    "prepared_root": "datasets/kuairand-27k/prepared-candidate-v2",
+    "prepared_report_sha256": "f94f6807749dcfa8b98df4329f3102081d057f90ec96aee6129cc03f030492fd",
+    "independent_audit_sha256": "0176129f335c54fb3589e8149cea335f14edc903dee777bcd760a7fc4336d26d",
+    "calendar": {
+      "train_end": 1651190400000,
+      "validation_end": 1651449600000,
+      "calibration_end": 1651708800000
+    },
+    "embargo_hours": 24,
+    "origin_cap_per_user": 64,
+    "origin_seed": 20261020,
+    "representative_seed_base": 20261021,
+    "metadata_root": "datasets/kuairand-27k/item-metadata-v1-14656b2136c2c3d0",
+    "metadata_report_sha256": "3bc4cd805d7d510c0eeb981368d68d33bec0c20441dab597f088a6d16e644548",
+    "query_history": "Complete available bundle histories, not sampled-case adjacency; 32 tokens",
+    "selection": "Uniform one exposure per complete timestamp bundle; uniform at-most-64 adjacent eligible calibration origins per user. No outcomes enter either draw.",
+    "scope": "Private calibration input construction; no test predictions or confidence guarantees about humans"
+  },
+  "buckets": [
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 0,
+      "input_sha256": {
+        "interactions.parquet": "146291769e9a048ba0afd50c802034e453663e98f4ae6abfa3fb41ed191279d9",
+        "timestamp-bundles.parquet": "53e0111f47df074cfc35a993f593e274b9d522205eaa246060cec78fdba1f808"
+      },
+      "output_sha256": {
+        "calibration.npz": "8fa0568e9a32071694ab6a1963e30661a6ec3d941b0b505889c9fa030febd2b9"
+      },
+      "complete_source_bundles": 1716645,
+      "query_exposures": 64004,
+      "known_duration_queries": 44048,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43690,
+          "users": 798
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4760,
+          "users": 85
+        }
+      ],
+      "wall_seconds": 29.389171569,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 1,
+      "input_sha256": {
+        "interactions.parquet": "115fcd680b6dc4769cd041da5b8d51be1200014de2ebbebb57705d7917383cfc",
+        "timestamp-bundles.parquet": "e99c52e1385acc241ce80e20d43eadcfaa2d2af73928991e9c180eafc0cd120b"
+      },
+      "output_sha256": {
+        "calibration.npz": "150220e98edd13fd41b222d3bcad9ed95d2c133681c867f0ac9c8be890b3c5e3"
+      },
+      "complete_source_bundles": 1707158,
+      "query_exposures": 62308,
+      "known_duration_queries": 42673,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 42680,
+          "users": 791
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4874,
+          "users": 90
+        }
+      ],
+      "wall_seconds": 8.866858490999999,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 2,
+      "input_sha256": {
+        "interactions.parquet": "0b3a25385ff362df0da6b33743fc30021ed936d204ebf0a216fb9c52274d4dc1",
+        "timestamp-bundles.parquet": "29474d3c6ec16b773f1870817403a5ec2bd99df042eb699291cc368d449a9765"
+      },
+      "output_sha256": {
+        "calibration.npz": "8a6da0a173123b511465e77d1579a482624f3af488ba41322b693f8f726359e7"
+      },
+      "complete_source_bundles": 1737378,
+      "query_exposures": 64821,
+      "known_duration_queries": 44148,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 44177,
+          "users": 796
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4382,
+          "users": 76
+        }
+      ],
+      "wall_seconds": 7.8046828669999995,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 3,
+      "input_sha256": {
+        "interactions.parquet": "80e5be980709c8e32863d4e85254d3362e1bfd0e4cef27df8a44efefed6559ec",
+        "timestamp-bundles.parquet": "0659d1a7e7e4e44d1417367d1402d7348709b47543625ab154a9f6cfd5dabaca"
+      },
+      "output_sha256": {
+        "calibration.npz": "2c45f03aa165717842faac441248f1483c06fbec7e43a709d58dd39d52ca7a1b"
+      },
+      "complete_source_bundles": 1735678,
+      "query_exposures": 64196,
+      "known_duration_queries": 43761,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43507,
+          "users": 797
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4335,
+          "users": 77
+        }
+      ],
+      "wall_seconds": 10.83787853,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 4,
+      "input_sha256": {
+        "interactions.parquet": "267828396ab5ad7d3ebf66ebd358d177d33f1ad4cd41c7c4b2530865a4bbc523",
+        "timestamp-bundles.parquet": "6725a4f46cdf4eb823f1e7e02e4c42f7690ad1d22191f4b313b52bfa61b157eb"
+      },
+      "output_sha256": {
+        "calibration.npz": "3060909d3d64075694a6de442580e08328b740532dcb941e7924e2b7f3e0e660"
+      },
+      "complete_source_bundles": 1747641,
+      "query_exposures": 64411,
+      "known_duration_queries": 44309,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 44048,
+          "users": 792
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4026,
+          "users": 74
+        }
+      ],
+      "wall_seconds": 17.925607567,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 5,
+      "input_sha256": {
+        "interactions.parquet": "fe3640b55eda10fefafd9d3f735e23a9b88aa9da3250ded4a1effebfc81a5de2",
+        "timestamp-bundles.parquet": "1552276dd0c98ac26443291513c173f5e2c04f1a7e77436d952a49b51730d944"
+      },
+      "output_sha256": {
+        "calibration.npz": "1b3bc7088540e3da1a6f7e3528dbc941585f50cacbf07c7c94ab17431a149279"
+      },
+      "complete_source_bundles": 1605469,
+      "query_exposures": 63953,
+      "known_duration_queries": 44452,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43775,
+          "users": 801
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4869,
+          "users": 89
+        }
+      ],
+      "wall_seconds": 7.835680309000001,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 6,
+      "input_sha256": {
+        "interactions.parquet": "8ee516bd73e66f8e0f508039f0893e13de6a27217211881a066e84438868e298",
+        "timestamp-bundles.parquet": "f9412afd7f3e758dba06cf7011fbdd6d2180d8aa2f116ec43044b9965e0e8aab"
+      },
+      "output_sha256": {
+        "calibration.npz": "7c62ef0bdcda5d95fc591b5ec75cb31ae6ccb865a8a2457a16c218538bd913b2"
+      },
+      "complete_source_bundles": 1696820,
+      "query_exposures": 66501,
+      "known_duration_queries": 46011,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 44755,
+          "users": 802
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4218,
+          "users": 72
+        }
+      ],
+      "wall_seconds": 8.737323867,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 7,
+      "input_sha256": {
+        "interactions.parquet": "f414d4b736117f72c2206768f0f7f9f44995a265fbc987833a0e7b1860ec36bd",
+        "timestamp-bundles.parquet": "22230d551b22584e0d9a2fef24f726610df9e9302ecf5deac29573a2f3fb8437"
+      },
+      "output_sha256": {
+        "calibration.npz": "f8fc6b2a045cac8088e713eb9ed758bdf89bbb6b20c1d8fe33611db7615b48f9"
+      },
+      "complete_source_bundles": 1727458,
+      "query_exposures": 65079,
+      "known_duration_queries": 45232,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 44224,
+          "users": 802
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4150,
+          "users": 78
+        }
+      ],
+      "wall_seconds": 7.797195592000001,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 8,
+      "input_sha256": {
+        "interactions.parquet": "d326f9637c27fe4708204db5c53be2770c77a8fbd406942869622b2fb4fa78e7",
+        "timestamp-bundles.parquet": "f00794602987723358fb7dd6a512e9e4e2afcfc80ec5d18198ebad1792f58983"
+      },
+      "output_sha256": {
+        "calibration.npz": "3985162b1416176cf06e02c9e1afa413a2a85f0d72fa9b6e89edb94305a73feb"
+      },
+      "complete_source_bundles": 1640733,
+      "query_exposures": 62388,
+      "known_duration_queries": 42969,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 42822,
+          "users": 784
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 3560,
+          "users": 64
+        }
+      ],
+      "wall_seconds": 8.592410072,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 9,
+      "input_sha256": {
+        "interactions.parquet": "9cc693f076f818f439d436e2de3ce3ff98e8173d7f8ecd91cac07f992d841831",
+        "timestamp-bundles.parquet": "a83f525bcaacef77fd467f4ea7c1c812e6be93404c3b51376b220b222a272658"
+      },
+      "output_sha256": {
+        "calibration.npz": "4fc080a410e1c70cde5677e694d91ddf06ad487a9dce32dce35977aabd282d82"
+      },
+      "complete_source_bundles": 1675147,
+      "query_exposures": 63502,
+      "known_duration_queries": 44133,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 44069,
+          "users": 797
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4345,
+          "users": 86
+        }
+      ],
+      "wall_seconds": 11.464729225000003,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 10,
+      "input_sha256": {
+        "interactions.parquet": "4dd8aa2d9f50972fdb8677481cb2d30d4fe34a4516f3c207364935f60890d36c",
+        "timestamp-bundles.parquet": "7011e4bfa2bb1893d68d77884c511fd73a1d5925692e46f76c9e8a6298b61790"
+      },
+      "output_sha256": {
+        "calibration.npz": "036996090de2022121fc7be76c0da73adc49e76f1551d15cb203d0dffe0b2f29"
+      },
+      "complete_source_bundles": 1641480,
+      "query_exposures": 61050,
+      "known_duration_queries": 42089,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 42156,
+          "users": 792
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 3670,
+          "users": 72
+        }
+      ],
+      "wall_seconds": 7.850869619999997,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 11,
+      "input_sha256": {
+        "interactions.parquet": "dbaf82f0bd57903449916573e00af8f327431abe1542aebf9ecc18db59f5ec8c",
+        "timestamp-bundles.parquet": "2226e8785b29dd3275f4e3e204fb3ed1721f08116f2bc72f47df14949c7ad438"
+      },
+      "output_sha256": {
+        "calibration.npz": "8d6c9c09e19f9f12afc5971619a7c24c5c896dbb8bd0ac818d6879b9c23ddf5d"
+      },
+      "complete_source_bundles": 1664257,
+      "query_exposures": 65610,
+      "known_duration_queries": 45484,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 44359,
+          "users": 799
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4555,
+          "users": 80
+        }
+      ],
+      "wall_seconds": 9.974339608000001,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 12,
+      "input_sha256": {
+        "interactions.parquet": "a2f3d304654da3ad7f6336bbe1643b447feca1b1196040c75eaec7377cb5bb15",
+        "timestamp-bundles.parquet": "49a636cc452776767871aef481ab4081f0f4e53285934467835208458cae5341"
+      },
+      "output_sha256": {
+        "calibration.npz": "8c5328e84bce5a410ec8fe867a89fdc98e70604f52c87dd4e35e20a1cae8f88b"
+      },
+      "complete_source_bundles": 1626328,
+      "query_exposures": 62606,
+      "known_duration_queries": 42853,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43109,
+          "users": 798
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4942,
+          "users": 92
+        }
+      ],
+      "wall_seconds": 7.445628999,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 13,
+      "input_sha256": {
+        "interactions.parquet": "3cd321d4cc1dfd402893f28f958d928b5235c07395f9861856a575b04e9565f2",
+        "timestamp-bundles.parquet": "952e0c9cb6445870cf81f22f31cc8a815a19876bf56e7857516989e11e5e550e"
+      },
+      "output_sha256": {
+        "calibration.npz": "58d33a925237b2648585fd60309a3197f8b8d88f3d325541c6d68f4139b2f6c4"
+      },
+      "complete_source_bundles": 1679612,
+      "query_exposures": 61943,
+      "known_duration_queries": 42301,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 42711,
+          "users": 798
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4672,
+          "users": 84
+        }
+      ],
+      "wall_seconds": 11.370492083999999,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 14,
+      "input_sha256": {
+        "interactions.parquet": "01748a85e4bf34e484696c37cd36e5b64679340725e906ec123af4c5b633281a",
+        "timestamp-bundles.parquet": "fcfcd28db9be925b71b42ac62ef7d8a2d144d006283976672aeb131707e38602"
+      },
+      "output_sha256": {
+        "calibration.npz": "0eb11d9e5156a323d1985b90e4fdc6533bbe976b39c4f86a4dd034435c507da1"
+      },
+      "complete_source_bundles": 1728717,
+      "query_exposures": 64872,
+      "known_duration_queries": 44426,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 44328,
+          "users": 806
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4322,
+          "users": 77
+        }
+      ],
+      "wall_seconds": 8.934636433000009,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 15,
+      "input_sha256": {
+        "interactions.parquet": "dd902f977c26513c23861f13792076d451cf8d4f5b854d0fca7cf614e7d9223c",
+        "timestamp-bundles.parquet": "a1ea3441ddefd0166fdc3dfd1594a3cf46e5e50ce7c9ebfa2225849054180089"
+      },
+      "output_sha256": {
+        "calibration.npz": "3ddaca2bbb20040fedaed4468b7128be15cfa70620e93d23b96795e8bccbd1d1"
+      },
+      "complete_source_bundles": 1634200,
+      "query_exposures": 62737,
+      "known_duration_queries": 43608,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43131,
+          "users": 803
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4248,
+          "users": 83
+        }
+      ],
+      "wall_seconds": 17.212511319999997,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 16,
+      "input_sha256": {
+        "interactions.parquet": "2974a69d4819a34c10c7d6d97229ad877bdb7192bbf15877f81afe581bd4e17b",
+        "timestamp-bundles.parquet": "2dbfd4e9530d3999cce7221631eb1920285e7671622f949a74f0e85cd97e0fcf"
+      },
+      "output_sha256": {
+        "calibration.npz": "59fabfcbb57266113bc8c56f79ec4b4413b28096f1973687f82718bb799a4ed1"
+      },
+      "complete_source_bundles": 1605278,
+      "query_exposures": 62068,
+      "known_duration_queries": 43336,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 42923,
+          "users": 789
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 3976,
+          "users": 73
+        }
+      ],
+      "wall_seconds": 7.433545643999999,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 17,
+      "input_sha256": {
+        "interactions.parquet": "06f5fc6d52c5d96c9f8f2851f643d31f016acd6fb90f5bd45b2d0d14adcdc643",
+        "timestamp-bundles.parquet": "b352eee09b3ea473a18257d825a3e8b8042e29ea2e667036f004ede60061e6c3"
+      },
+      "output_sha256": {
+        "calibration.npz": "8889efb3959cc1f107922cb63140859b28e7f569f3c6cfb63e1031bd70703946"
+      },
+      "complete_source_bundles": 1707056,
+      "query_exposures": 64450,
+      "known_duration_queries": 44449,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43830,
+          "users": 804
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 3964,
+          "users": 71
+        }
+      ],
+      "wall_seconds": 12.258089678000005,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 18,
+      "input_sha256": {
+        "interactions.parquet": "7f073102bc0302d35ecf516b9d33f0a2af1eb1602fd7d431af7a3dd82527a54c",
+        "timestamp-bundles.parquet": "43f47ca1164d411a3bbdac510868463277b3f91bc017881f6d89aeb015cfdf9b"
+      },
+      "output_sha256": {
+        "calibration.npz": "eaec98a8a7f3f4393d4e47f2d27fd76735cca6217d439d25c6bbd67fc7053681"
+      },
+      "complete_source_bundles": 1613451,
+      "query_exposures": 63044,
+      "known_duration_queries": 43096,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43292,
+          "users": 803
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 3831,
+          "users": 67
+        }
+      ],
+      "wall_seconds": 8.243888253999998,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 19,
+      "input_sha256": {
+        "interactions.parquet": "7b7f5d52090dbfe0c89dd20c6d2f46dab683b65e62d62b58892009a92f2aabc8",
+        "timestamp-bundles.parquet": "c3720ac2409dbc58f83126d1b9e24071d879c11cce063f127907daa6ec17e862"
+      },
+      "output_sha256": {
+        "calibration.npz": "ce4021e900d6b2838cdb1fdff766d1e35cc5e5296eac89cde1b12cfd4d9a8186"
+      },
+      "complete_source_bundles": 1623070,
+      "query_exposures": 62368,
+      "known_duration_queries": 42999,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43038,
+          "users": 798
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4479,
+          "users": 83
+        }
+      ],
+      "wall_seconds": 7.265953695000007,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 20,
+      "input_sha256": {
+        "interactions.parquet": "691289951dffd7fe1c3f880023e8b51bcca7f760648e81f051cad587f924cf07",
+        "timestamp-bundles.parquet": "b82de4582689b50ef061ea8fed8cdf8b0dee96d767edc422a745bb7b1429c601"
+      },
+      "output_sha256": {
+        "calibration.npz": "89f073b5f472ac53baa89243ecfb5b384886ee1a51abaca3300e33f199a3aedc"
+      },
+      "complete_source_bundles": 1666837,
+      "query_exposures": 63578,
+      "known_duration_queries": 43524,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43393,
+          "users": 799
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4240,
+          "users": 75
+        }
+      ],
+      "wall_seconds": 12.640875227999999,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 21,
+      "input_sha256": {
+        "interactions.parquet": "ec9b16b95b8bef24c4e554186134f056525b7ad276bce5cca6b8cba1e16fd061",
+        "timestamp-bundles.parquet": "bb44538e0863bebccd1e85dc6f92b745a87edef575c9254ae90c8a0820eefd7f"
+      },
+      "output_sha256": {
+        "calibration.npz": "8b80a03754c5f0ab2a6e8e6cd816a8b361687be2e09d72c5b17205150091fd51"
+      },
+      "complete_source_bundles": 1725798,
+      "query_exposures": 64557,
+      "known_duration_queries": 44497,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43550,
+          "users": 801
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4428,
+          "users": 84
+        }
+      ],
+      "wall_seconds": 8.263873044999997,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 22,
+      "input_sha256": {
+        "interactions.parquet": "75b03aa30a3ac23a1a1015c996a6b1d6a05d0f481485f99cac5fe1628ee300c4",
+        "timestamp-bundles.parquet": "e9fc0cc907fef88baf0d72d267d4713c578a873614e348108e0296e357177d83"
+      },
+      "output_sha256": {
+        "calibration.npz": "4848f22961aca5a5448c76973050d1946bb1f17b7aea9402546ad6be35788227"
+      },
+      "complete_source_bundles": 1645469,
+      "query_exposures": 63393,
+      "known_duration_queries": 44292,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43264,
+          "users": 789
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 3698,
+          "users": 67
+        }
+      ],
+      "wall_seconds": 9.046778588999999,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 23,
+      "input_sha256": {
+        "interactions.parquet": "d9c8b98f2b2f8bd54232162a3644c001ed4158f140760f56ae09cb46a1492c96",
+        "timestamp-bundles.parquet": "03e58d155764af7efe85551239883fd6c44b6f41b9e8b56ce6ece451b2243f77"
+      },
+      "output_sha256": {
+        "calibration.npz": "df29ff1085c5155982a5422789110f4c2ecdf9b00ff83c8c4879da8e52c0f612"
+      },
+      "complete_source_bundles": 1564230,
+      "query_exposures": 62843,
+      "known_duration_queries": 43440,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43206,
+          "users": 802
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 5059,
+          "users": 96
+        }
+      ],
+      "wall_seconds": 15.141285202999995,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 24,
+      "input_sha256": {
+        "interactions.parquet": "de0e117c5d20459590a7c617cde727716612150ed7a68e4f3907edd87f139fe9",
+        "timestamp-bundles.parquet": "2e558737710488f035b1b72541043ea49d979dbfc79422e974430908b015e036"
+      },
+      "output_sha256": {
+        "calibration.npz": "27b7576cdcd6a6677a376a4026a69931334a8d8c0e2adb34bc9cfcd70b698069"
+      },
+      "complete_source_bundles": 1671514,
+      "query_exposures": 63164,
+      "known_duration_queries": 43252,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43215,
+          "users": 796
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 3692,
+          "users": 68
+        }
+      ],
+      "wall_seconds": 7.7342513370000034,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 25,
+      "input_sha256": {
+        "interactions.parquet": "b1a1b5f4b3ce3131eaae6f7f9b405e096e6e235d403af30550b1e25d76c52db7",
+        "timestamp-bundles.parquet": "a822f4eb6332a0263ba487d88142fd5993604dc44882e42b94a7e6dd06e0f276"
+      },
+      "output_sha256": {
+        "calibration.npz": "041e72e0eac874744654d34bdaf07392dc9d8a245736a62d9cefb5cfb7dc5e49"
+      },
+      "complete_source_bundles": 1644416,
+      "query_exposures": 64363,
+      "known_duration_queries": 44557,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43864,
+          "users": 803
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4261,
+          "users": 76
+        }
+      ],
+      "wall_seconds": 10.115008704000005,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 26,
+      "input_sha256": {
+        "interactions.parquet": "abb343de6fd726860f79b6bbe536dfea2e1c9344e2186964c878732dd19ba2c8",
+        "timestamp-bundles.parquet": "22a0477e8d7279d2e461f1257334d59111739f81d16c611a7ef2cb2a5fa72b12"
+      },
+      "output_sha256": {
+        "calibration.npz": "86e21570df63048296b40520efaed4e03c5c94639aae2e0cdee9613c93c1e65c"
+      },
+      "complete_source_bundles": 1742935,
+      "query_exposures": 65094,
+      "known_duration_queries": 44464,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43971,
+          "users": 794
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4687,
+          "users": 81
+        }
+      ],
+      "wall_seconds": 17.191639914999996,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 27,
+      "input_sha256": {
+        "interactions.parquet": "ca5e86316a1cc43db88b8b352753ac31cbe8acf7ae217b31cc8fa6ba15f38a34",
+        "timestamp-bundles.parquet": "82cbde3f86bdd2efdb0a66d4d1a3c185b3c0ffdaae88a900707e339659a45bb5"
+      },
+      "output_sha256": {
+        "calibration.npz": "ec57e38f0234b9e8eec21aab4c87aee53baf203082ef7857bd0ab722afd8225b"
+      },
+      "complete_source_bundles": 1660592,
+      "query_exposures": 63261,
+      "known_duration_queries": 43826,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43214,
+          "users": 800
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4702,
+          "users": 89
+        }
+      ],
+      "wall_seconds": 7.902530275000004,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 28,
+      "input_sha256": {
+        "interactions.parquet": "9c501973b5ed6a6430420800f60083a65fe5ff9dedcee8ab52a6d791afd0bcf0",
+        "timestamp-bundles.parquet": "ea8e872fe770cce45c6908cdbcc8b4a1c984f9522659fbebacbdcd3c2c9c2eea"
+      },
+      "output_sha256": {
+        "calibration.npz": "8b666dc1a08fdf2e1682daa0914e82c5759b7472986b6618e86d62f1968a3f55"
+      },
+      "complete_source_bundles": 1709509,
+      "query_exposures": 64759,
+      "known_duration_queries": 44464,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43944,
+          "users": 802
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4733,
+          "users": 86
+        }
+      ],
+      "wall_seconds": 10.014161605000012,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 29,
+      "input_sha256": {
+        "interactions.parquet": "1cdc843952ce987ccc33fc6d9bc606e42045f9ff167c0c078e6f165fe7cef67e",
+        "timestamp-bundles.parquet": "1922eee61cabdc0a4d9f9cb0b49467b5c3f960c108c198d4124ef8d96b632471"
+      },
+      "output_sha256": {
+        "calibration.npz": "04a773e6ca46c35ff40f76fc568a945f7f9a58c26f88a8764d9d85efe6075bf9"
+      },
+      "complete_source_bundles": 1648099,
+      "query_exposures": 62879,
+      "known_duration_queries": 43090,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43404,
+          "users": 794
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4673,
+          "users": 86
+        }
+      ],
+      "wall_seconds": 7.656502129000003,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 30,
+      "input_sha256": {
+        "interactions.parquet": "c8832ee0c8cf09f575133f0e1e2c9c4b246429f11cdc9c185cc3070c82c35583",
+        "timestamp-bundles.parquet": "a5dd9e783edbc19c2b019e1642722d9c34feb0243028ebf7471969755466c57f"
+      },
+      "output_sha256": {
+        "calibration.npz": "8e451df162d169d811586ec0bd55635aad051d3594d32ff20ccf6d7b4542aee1"
+      },
+      "complete_source_bundles": 1755125,
+      "query_exposures": 65666,
+      "known_duration_queries": 45132,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 44327,
+          "users": 798
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4582,
+          "users": 81
+        }
+      ],
+      "wall_seconds": 31.021668180000006,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    },
+    {
+      "status": "complete",
+      "source_digest": "314b2e408cb5689796f4d88b9d4d83b71c255ea6f7e4dc705ef357a87593468c",
+      "bucket": 31,
+      "input_sha256": {
+        "interactions.parquet": "31cc386313e6dfee1349e917f0573cb482b4801db086f21c6a22a71a3ca3db94",
+        "timestamp-bundles.parquet": "fa18e1d14713cf59cf8ed8d671bdf9127fad42d8b2a145b0cff0aa0f02b9cf64"
+      },
+      "output_sha256": {
+        "calibration.npz": "1edd80c78d63413b775bdb1103ec157457648d2f50c2a62d29a0e087732712cc"
+      },
+      "complete_source_bundles": 1772329,
+      "query_exposures": 63575,
+      "known_duration_queries": 43899,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 43281,
+          "users": 794
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 4445,
+          "users": 80
+        }
+      ],
+      "wall_seconds": 9.12738496,
+      "scope": "Actual adjacent timestamp bundles with outcome-independent representative exposures and origin sampling. Complete histories enforce feedback availability. Point-model calibration only; no human confidence guarantee or test prediction."
+    }
+  ],
+  "failures": [],
+  "support": [
+    {
+      "protocol": "known_users",
+      "transitions": 1393257,
+      "users": 25522
+    },
+    {
+      "protocol": "unseen_users",
+      "transitions": 139378,
+      "users": 2542
+    }
+  ],
+  "root": "/artifacts/datasets/kuairand-27k/prepared-candidate-v2/adjacent-calibration-314b2e408cb56897",
+  "test_predictive_performance": "not evaluated"
+}

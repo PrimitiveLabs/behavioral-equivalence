@@ -1,0 +1,10 @@
+{
+  "source_bundle": "/Users/rohittalluri/projects/behavioral-equivalence/reports/source-snapshots/source-c2a6784241cdae8335bec53d391e389d71a4c8b667ef01c65b24f69108dced71.tar.gz",
+  "extracted_directory": "/private/var/folders/36/q7wwvkz93znfkw5jst21_ff80000gn/T/behavioral-release-repro-bzmv9hz_",
+  "exit_code": 0,
+  "stdout": "........................................................................ [ 48%]\n........................................................................ [ 96%]\n.....                                                                    [100%]\n149 passed, 6 skipped in 1.33s\n",
+  "stderr": "",
+  "scope": "Clean source extraction test suite only; not independent full scientific campaign reproduction",
+  "import_path": "/private/var/folders/36/q7wwvkz93znfkw5jst21_ff80000gn/T/behavioral-release-repro-bzmv9hz_/src/behavioral_equivalence/__init__.py",
+  "source_bundle_sha256": "c2a6784241cdae8335bec53d391e389d71a4c8b667ef01c65b24f69108dced71"
+}

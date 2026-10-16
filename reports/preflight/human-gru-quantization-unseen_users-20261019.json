@@ -1,0 +1,1205 @@
+{
+  "status": "complete",
+  "source_digest": "eaa699cb59877b2dc26e7d301c6904f8905223c145f40dcc8cc024143e9368e1",
+  "parent_source_digest": "609ecd456db71cad956927bdde31c32c05952571cb381f9893da86789a050b55",
+  "parent_fit_report_sha256": "d48741d614abc04cb226f377e2b65d7b3b8530679b1539ad62ac3fd16554758f",
+  "input_report_sha256": "506c002b29ec7d34e47f11d59e2ba4773a876064e56862fa57aedc7bd093f011",
+  "protocol": "unseen_users",
+  "architecture": "gru",
+  "seed": 20261019,
+  "phase": "training-only quantization and validation; no final test scoring",
+  "train_cases": 4636194,
+  "normalization_sample_cases": 100000,
+  "teacher_validation": {
+    "cases": 159059,
+    "users": 2557,
+    "nll_case_mean": 0.594016935877746,
+    "brier_case_mean": 0.2046964697327719,
+    "nll_equal_user_mean": 0.5938705084701321,
+    "brier_equal_user_mean": 0.20464987688101877,
+    "probability_clip": 1e-06,
+    "calibration_bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.05,
+        "cases": 1375,
+        "users": 395,
+        "equal_user_weight": 0.008904132787704161,
+        "predicted": 0.02609057753091094,
+        "observed": 0.026462733015737826
+      },
+      {
+        "lower": 0.05,
+        "upper": 0.1,
+        "cases": 5243,
+        "users": 708,
+        "equal_user_weight": 0.03278520417583248,
+        "predicted": 0.07868633907515955,
+        "observed": 0.07576541784952662
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.15,
+        "cases": 8891,
+        "users": 1426,
+        "equal_user_weight": 0.05591623879801592,
+        "predicted": 0.1260602755710497,
+        "observed": 0.13014288296786744
+      },
+      {
+        "lower": 0.15,
+        "upper": 0.2,
+        "cases": 8272,
+        "users": 1480,
+        "equal_user_weight": 0.05157984325260798,
+        "predicted": 0.17263165969321304,
+        "observed": 0.1714743381766029
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.25,
+        "cases": 5605,
+        "users": 1011,
+        "equal_user_weight": 0.034696142755990894,
+        "predicted": 0.22475754314994892,
+        "observed": 0.21556455683785775
+      },
+      {
+        "lower": 0.25,
+        "upper": 0.3,
+        "cases": 6051,
+        "users": 896,
+        "equal_user_weight": 0.037161966394244385,
+        "predicted": 0.2758750321971495,
+        "observed": 0.2558714573861494
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.35,
+        "cases": 8071,
+        "users": 1013,
+        "equal_user_weight": 0.050418938563502824,
+        "predicted": 0.32653319694467314,
+        "observed": 0.324007582769252
+      },
+      {
+        "lower": 0.35,
+        "upper": 0.4,
+        "cases": 11088,
+        "users": 1167,
+        "equal_user_weight": 0.06937211872166835,
+        "predicted": 0.37623599464153007,
+        "observed": 0.37435911840877667
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.45,
+        "cases": 14312,
+        "users": 1369,
+        "equal_user_weight": 0.08840958231831772,
+        "predicted": 0.42576515907199325,
+        "observed": 0.4336574124103169
+      },
+      {
+        "lower": 0.45,
+        "upper": 0.5,
+        "cases": 15711,
+        "users": 1549,
+        "equal_user_weight": 0.09720003093925206,
+        "predicted": 0.47508313857552686,
+        "observed": 0.49869719524925166
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.55,
+        "cases": 15380,
+        "users": 1631,
+        "equal_user_weight": 0.09772820872776518,
+        "predicted": 0.5249334254319863,
+        "observed": 0.5399655032739167
+      },
+      {
+        "lower": 0.55,
+        "upper": 0.6,
+        "cases": 14254,
+        "users": 1613,
+        "equal_user_weight": 0.08989731723089127,
+        "predicted": 0.574536153565342,
+        "observed": 0.6019457386843591
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.65,
+        "cases": 13013,
+        "users": 1509,
+        "equal_user_weight": 0.08228254087082203,
+        "predicted": 0.6247366905132898,
+        "observed": 0.6415554351482383
+      },
+      {
+        "lower": 0.65,
+        "upper": 0.7,
+        "cases": 11611,
+        "users": 1370,
+        "equal_user_weight": 0.07384824817354813,
+        "predicted": 0.6740423728777397,
+        "observed": 0.6981641685378925
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.75,
+        "cases": 9413,
+        "users": 1120,
+        "equal_user_weight": 0.060817510629518505,
+        "predicted": 0.7234768477079603,
+        "observed": 0.7449415899667139
+      },
+      {
+        "lower": 0.75,
+        "upper": 0.8,
+        "cases": 6858,
+        "users": 811,
+        "equal_user_weight": 0.04417742484921836,
+        "predicted": 0.7729353197042323,
+        "observed": 0.7896211349282571
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.85,
+        "cases": 3391,
+        "users": 424,
+        "equal_user_weight": 0.02156945573915247,
+        "predicted": 0.8196394896147675,
+        "observed": 0.85440152621661
+      },
+      {
+        "lower": 0.85,
+        "upper": 0.9,
+        "cases": 432,
+        "users": 132,
+        "equal_user_weight": 0.0026863563155924905,
+        "predicted": 0.8638154882040975,
+        "observed": 0.8986130086819893
+      },
+      {
+        "lower": 0.9,
+        "upper": 0.95,
+        "cases": 8,
+        "users": 6,
+        "equal_user_weight": 4.888541259288228e-05,
+        "predicted": 0.9172576144337655,
+        "observed": 0.8749999999999999
+      },
+      {
+        "lower": 0.95,
+        "upper": 1.0,
+        "cases": 80,
+        "users": 17,
+        "equal_user_weight": 0.0004998533437622215,
+        "predicted": 0.9865317194560917,
+        "observed": 1.0
+      }
+    ],
+    "scope": "point metrics of this fixed case sample; uncertainty and retraining comparisons are separate"
+  },
+  "maximum_teacher_reproduction_error": 0.0,
+  "models": [
+    {
+      "nominal_states": 16,
+      "occupied_training_states": 16,
+      "empty_training_states": 0,
+      "validation": {
+        "cases": 159059,
+        "users": 2557,
+        "nll_case_mean": 0.6055010015787939,
+        "brier_case_mean": 0.20959338061919341,
+        "nll_equal_user_mean": 0.6051777217031609,
+        "brier_equal_user_mean": 0.20948662393933032,
+        "probability_clip": 1e-06,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.05,
+            "cases": 433,
+            "users": 50,
+            "equal_user_weight": 0.002830802931262455,
+            "predicted": 0.01812747211104454,
+            "observed": 0.006475911664453204
+          },
+          {
+            "lower": 0.05,
+            "upper": 0.1,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.15,
+            "cases": 9243,
+            "users": 1182,
+            "equal_user_weight": 0.05874048153333981,
+            "predicted": 0.11069709741573869,
+            "observed": 0.105719728751167
+          },
+          {
+            "lower": 0.15,
+            "upper": 0.2,
+            "cases": 14216,
+            "users": 1221,
+            "equal_user_weight": 0.08876147014176422,
+            "predicted": 0.15484994010096018,
+            "observed": 0.15761942386034278
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.25,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.25,
+            "upper": 0.3,
+            "cases": 9520,
+            "users": 581,
+            "equal_user_weight": 0.05856439789941252,
+            "predicted": 0.2585153430791438,
+            "observed": 0.2372608888757561
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.35,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.35,
+            "upper": 0.4,
+            "cases": 30394,
+            "users": 1383,
+            "equal_user_weight": 0.1892208098697487,
+            "predicted": 0.3844920371217212,
+            "observed": 0.37959758132256854
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.45,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.45,
+            "upper": 0.5,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.55,
+            "cases": 45206,
+            "users": 2169,
+            "equal_user_weight": 0.28343570097846676,
+            "predicted": 0.5187870392024242,
+            "observed": 0.5333601164651205
+          },
+          {
+            "lower": 0.55,
+            "upper": 0.6,
+            "cases": 8012,
+            "users": 888,
+            "equal_user_weight": 0.04979512596547768,
+            "predicted": 0.5702379176462962,
+            "observed": 0.628378807588566
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.65,
+            "cases": 5775,
+            "users": 1627,
+            "equal_user_weight": 0.036056281342288596,
+            "predicted": 0.6086045164668992,
+            "observed": 0.5881642553379117
+          },
+          {
+            "lower": 0.65,
+            "upper": 0.7,
+            "cases": 25096,
+            "users": 1309,
+            "equal_user_weight": 0.1600336190789133,
+            "predicted": 0.6660667245208322,
+            "observed": 0.6840886308806062
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.75,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.75,
+            "upper": 0.8,
+            "cases": 9856,
+            "users": 637,
+            "equal_user_weight": 0.06444010883559614,
+            "predicted": 0.77669598323457,
+            "observed": 0.7973370925444782
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.85,
+            "cases": 1308,
+            "users": 273,
+            "equal_user_weight": 0.008121201423730101,
+            "predicted": 0.8262513621032583,
+            "observed": 0.8968077330923849
+          },
+          {
+            "lower": 0.85,
+            "upper": 0.9,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.9,
+            "upper": 0.95,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.95,
+            "upper": 1.0,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          }
+        ],
+        "scope": "point metrics of this fixed case sample; uncertainty and retraining comparisons are separate"
+      }
+    },
+    {
+      "nominal_states": 32,
+      "occupied_training_states": 32,
+      "empty_training_states": 0,
+      "validation": {
+        "cases": 159059,
+        "users": 2557,
+        "nll_case_mean": 0.6018569696655789,
+        "brier_case_mean": 0.2078728881988514,
+        "nll_equal_user_mean": 0.6015754401716195,
+        "brier_equal_user_mean": 0.20777582497546213,
+        "probability_clip": 1e-06,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.05,
+            "cases": 381,
+            "users": 24,
+            "equal_user_weight": 0.0024952511313481203,
+            "predicted": 0.0023655139283610123,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.05,
+            "upper": 0.1,
+            "cases": 2406,
+            "users": 385,
+            "equal_user_weight": 0.014838015254764605,
+            "predicted": 0.0878067209625972,
+            "observed": 0.07608282212328046
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.15,
+            "cases": 14444,
+            "users": 1441,
+            "equal_user_weight": 0.09191287059919664,
+            "predicted": 0.1245322259044742,
+            "observed": 0.13092399096220653
+          },
+          {
+            "lower": 0.15,
+            "upper": 0.2,
+            "cases": 6390,
+            "users": 827,
+            "equal_user_weight": 0.039434036389860136,
+            "predicted": 0.18804538655573497,
+            "observed": 0.17921162993086767
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.25,
+            "cases": 9230,
+            "users": 1407,
+            "equal_user_weight": 0.05676365509441014,
+            "predicted": 0.23848500885179397,
+            "observed": 0.2195549142882167
+          },
+          {
+            "lower": 0.25,
+            "upper": 0.3,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.35,
+            "cases": 15108,
+            "users": 1136,
+            "equal_user_weight": 0.09387681087741434,
+            "predicted": 0.3330240877314662,
+            "observed": 0.3202673249590088
+          },
+          {
+            "lower": 0.35,
+            "upper": 0.4,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.45,
+            "cases": 25548,
+            "users": 1518,
+            "equal_user_weight": 0.1587861464369076,
+            "predicted": 0.43697656435197535,
+            "observed": 0.4392407796987867
+          },
+          {
+            "lower": 0.45,
+            "upper": 0.5,
+            "cases": 2204,
+            "users": 1183,
+            "equal_user_weight": 0.01383558828202864,
+            "predicted": 0.47731891987261044,
+            "observed": 0.4879264799369109
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.55,
+            "cases": 35946,
+            "users": 2074,
+            "equal_user_weight": 0.22533703908880878,
+            "predicted": 0.536589869217364,
+            "observed": 0.5636308324828208
+          },
+          {
+            "lower": 0.55,
+            "upper": 0.6,
+            "cases": 14037,
+            "users": 1183,
+            "equal_user_weight": 0.08905792090310988,
+            "predicted": 0.5891794465668161,
+            "observed": 0.6193781202549594
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.65,
+            "cases": 9971,
+            "users": 1912,
+            "equal_user_weight": 0.06274304135228363,
+            "predicted": 0.6400852869650004,
+            "observed": 0.6556719189724917
+          },
+          {
+            "lower": 0.65,
+            "upper": 0.7,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.75,
+            "cases": 15319,
+            "users": 1000,
+            "equal_user_weight": 0.0985368121095362,
+            "predicted": 0.7167110455904794,
+            "observed": 0.7375820847029726
+          },
+          {
+            "lower": 0.75,
+            "upper": 0.8,
+            "cases": 6772,
+            "users": 735,
+            "equal_user_weight": 0.044266179460655225,
+            "predicted": 0.7810226165983494,
+            "observed": 0.7983056970776783
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.85,
+            "cases": 1303,
+            "users": 347,
+            "equal_user_weight": 0.008116633019676387,
+            "predicted": 0.8268709748829735,
+            "observed": 0.8840799897407
+          },
+          {
+            "lower": 0.85,
+            "upper": 0.9,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.9,
+            "upper": 0.95,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.95,
+            "upper": 1.0,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          }
+        ],
+        "scope": "point metrics of this fixed case sample; uncertainty and retraining comparisons are separate"
+      }
+    },
+    {
+      "nominal_states": 64,
+      "occupied_training_states": 64,
+      "empty_training_states": 0,
+      "validation": {
+        "cases": 159059,
+        "users": 2557,
+        "nll_case_mean": 0.6001771503403348,
+        "brier_case_mean": 0.20727634096465777,
+        "nll_equal_user_mean": 0.5999816175170226,
+        "brier_equal_user_mean": 0.20722531724856566,
+        "probability_clip": 1e-06,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.05,
+            "cases": 745,
+            "users": 262,
+            "equal_user_weight": 0.004920919742113327,
+            "predicted": 0.016933604386658627,
+            "observed": 0.004967101187865346
+          },
+          {
+            "lower": 0.05,
+            "upper": 0.1,
+            "cases": 4528,
+            "users": 433,
+            "equal_user_weight": 0.028115785134997108,
+            "predicted": 0.08753571960077243,
+            "observed": 0.08026488537627376
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.15,
+            "cases": 12778,
+            "users": 1470,
+            "equal_user_weight": 0.08098789773980897,
+            "predicted": 0.1354543988450581,
+            "observed": 0.1406329213369729
+          },
+          {
+            "lower": 0.15,
+            "upper": 0.2,
+            "cases": 1568,
+            "users": 181,
+            "equal_user_weight": 0.009980732711543752,
+            "predicted": 0.1672200542019676,
+            "observed": 0.1707481666480648
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.25,
+            "cases": 9395,
+            "users": 1654,
+            "equal_user_weight": 0.05766882517014883,
+            "predicted": 0.20566823587079563,
+            "observed": 0.19479560403968982
+          },
+          {
+            "lower": 0.25,
+            "upper": 0.3,
+            "cases": 6750,
+            "users": 563,
+            "equal_user_weight": 0.041447004775569396,
+            "predicted": 0.27703938190139116,
+            "observed": 0.2585954510305014
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.35,
+            "cases": 12691,
+            "users": 1042,
+            "equal_user_weight": 0.07903798908133947,
+            "predicted": 0.34630158456312177,
+            "observed": 0.3367871820883785
+          },
+          {
+            "lower": 0.35,
+            "upper": 0.4,
+            "cases": 277,
+            "users": 238,
+            "equal_user_weight": 0.001757810450617784,
+            "predicted": 0.381718890983991,
+            "observed": 0.33329455328390584
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.45,
+            "cases": 15220,
+            "users": 1115,
+            "equal_user_weight": 0.09418097271872364,
+            "predicted": 0.421771306652206,
+            "observed": 0.42380521644793384
+          },
+          {
+            "lower": 0.45,
+            "upper": 0.5,
+            "cases": 20632,
+            "users": 1908,
+            "equal_user_weight": 0.1283990269935445,
+            "predicted": 0.4801222422154156,
+            "observed": 0.5072936387340228
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.55,
+            "cases": 23388,
+            "users": 1885,
+            "equal_user_weight": 0.14713671030273862,
+            "predicted": 0.5333677869463481,
+            "observed": 0.5506900491524668
+          },
+          {
+            "lower": 0.55,
+            "upper": 0.6,
+            "cases": 7877,
+            "users": 1578,
+            "equal_user_weight": 0.05047737731592458,
+            "predicted": 0.5521052581190855,
+            "observed": 0.5610938017953062
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.65,
+            "cases": 12210,
+            "users": 1231,
+            "equal_user_weight": 0.07641539184476831,
+            "predicted": 0.6396509248065403,
+            "observed": 0.683768785272767
+          },
+          {
+            "lower": 0.65,
+            "upper": 0.7,
+            "cases": 14503,
+            "users": 1341,
+            "equal_user_weight": 0.09257632963490048,
+            "predicted": 0.6701210008395937,
+            "observed": 0.6747623213949816
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.75,
+            "cases": 4145,
+            "users": 753,
+            "equal_user_weight": 0.026773167799011677,
+            "predicted": 0.732023325386241,
+            "observed": 0.7595660075858931
+          },
+          {
+            "lower": 0.75,
+            "upper": 0.8,
+            "cases": 11626,
+            "users": 863,
+            "equal_user_weight": 0.07558705622526243,
+            "predicted": 0.7697047592974634,
+            "observed": 0.7900947854804486
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.85,
+            "cases": 561,
+            "users": 217,
+            "equal_user_weight": 0.003517741506425833,
+            "predicted": 0.826839945945671,
+            "observed": 0.8730260997598397
+          },
+          {
+            "lower": 0.85,
+            "upper": 0.9,
+            "cases": 165,
+            "users": 42,
+            "equal_user_weight": 0.0010192608525615957,
+            "predicted": 0.8847088526595005,
+            "observed": 0.958033573141487
+          },
+          {
+            "lower": 0.9,
+            "upper": 0.95,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.95,
+            "upper": 1.0,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          }
+        ],
+        "scope": "point metrics of this fixed case sample; uncertainty and retraining comparisons are separate"
+      }
+    },
+    {
+      "nominal_states": 128,
+      "occupied_training_states": 128,
+      "empty_training_states": 0,
+      "validation": {
+        "cases": 159059,
+        "users": 2557,
+        "nll_case_mean": 0.5993365880283433,
+        "brier_case_mean": 0.20691209180057374,
+        "nll_equal_user_mean": 0.5991314460701994,
+        "brier_equal_user_mean": 0.20683452404351443,
+        "probability_clip": 1e-06,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.05,
+            "cases": 960,
+            "users": 300,
+            "equal_user_weight": 0.006234715205547038,
+            "predicted": 0.0236685801133177,
+            "observed": 0.014701577472232266
+          },
+          {
+            "lower": 0.05,
+            "upper": 0.1,
+            "cases": 2721,
+            "users": 477,
+            "equal_user_weight": 0.016879180673626388,
+            "predicted": 0.07589971067028857,
+            "observed": 0.07422402400168436
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.15,
+            "cases": 8898,
+            "users": 1289,
+            "equal_user_weight": 0.05611045761278845,
+            "predicted": 0.12242646259794579,
+            "observed": 0.1299301528982879
+          },
+          {
+            "lower": 0.15,
+            "upper": 0.2,
+            "cases": 10427,
+            "users": 1638,
+            "equal_user_weight": 0.06580586167797622,
+            "predicted": 0.1625421339328313,
+            "observed": 0.15869790620476923
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.25,
+            "cases": 7956,
+            "users": 1447,
+            "equal_user_weight": 0.04885891492005071,
+            "predicted": 0.22515037220807052,
+            "observed": 0.21717741040598115
+          },
+          {
+            "lower": 0.25,
+            "upper": 0.3,
+            "cases": 2542,
+            "users": 457,
+            "equal_user_weight": 0.015553115048530271,
+            "predicted": 0.27365513814800585,
+            "observed": 0.2641763903432315
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.35,
+            "cases": 11479,
+            "users": 937,
+            "equal_user_weight": 0.07150929359464679,
+            "predicted": 0.3290403694435054,
+            "observed": 0.3149081434232057
+          },
+          {
+            "lower": 0.35,
+            "upper": 0.4,
+            "cases": 6132,
+            "users": 1023,
+            "equal_user_weight": 0.03800180692135027,
+            "predicted": 0.38769647589353917,
+            "observed": 0.3767625470544169
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.45,
+            "cases": 13300,
+            "users": 1380,
+            "equal_user_weight": 0.08308396031185461,
+            "predicted": 0.4206479817854704,
+            "observed": 0.4226867949594459
+          },
+          {
+            "lower": 0.45,
+            "upper": 0.5,
+            "cases": 15102,
+            "users": 1717,
+            "equal_user_weight": 0.09366931717866658,
+            "predicted": 0.4702955926582753,
+            "observed": 0.48842919511862504
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.55,
+            "cases": 26180,
+            "users": 1973,
+            "equal_user_weight": 0.164312902398074,
+            "predicted": 0.5222079052889833,
+            "observed": 0.5469013002184396
+          },
+          {
+            "lower": 0.55,
+            "upper": 0.6,
+            "cases": 11030,
+            "users": 1663,
+            "equal_user_weight": 0.06973759647370253,
+            "predicted": 0.5831249304483845,
+            "observed": 0.6042494668080362
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.65,
+            "cases": 10854,
+            "users": 1540,
+            "equal_user_weight": 0.06919085862017298,
+            "predicted": 0.6270996606378509,
+            "observed": 0.6444105810329227
+          },
+          {
+            "lower": 0.65,
+            "upper": 0.7,
+            "cases": 13713,
+            "users": 1341,
+            "equal_user_weight": 0.08615408211774114,
+            "predicted": 0.6688266402803645,
+            "observed": 0.6901884036979947
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.75,
+            "cases": 9347,
+            "users": 1047,
+            "equal_user_weight": 0.06165591124925493,
+            "predicted": 0.7390685515356206,
+            "observed": 0.7553654392459199
+          },
+          {
+            "lower": 0.75,
+            "upper": 0.8,
+            "cases": 6506,
+            "users": 739,
+            "equal_user_weight": 0.041152634600166466,
+            "predicted": 0.7772657224349507,
+            "observed": 0.8068656185773738
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.85,
+            "cases": 1830,
+            "users": 319,
+            "equal_user_weight": 0.011577316698940505,
+            "predicted": 0.8190941009555966,
+            "observed": 0.8558118031617079
+          },
+          {
+            "lower": 0.85,
+            "upper": 0.9,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.9,
+            "upper": 0.95,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.95,
+            "upper": 1.0,
+            "cases": 82,
+            "users": 17,
+            "equal_user_weight": 0.000512074696910442,
+            "predicted": 0.9836883139623155,
+            "observed": 1.0
+          }
+        ],
+        "scope": "point metrics of this fixed case sample; uncertainty and retraining comparisons are separate"
+      }
+    },
+    {
+      "nominal_states": 256,
+      "occupied_training_states": 256,
+      "empty_training_states": 0,
+      "validation": {
+        "cases": 159059,
+        "users": 2557,
+        "nll_case_mean": 0.5980745981781869,
+        "brier_case_mean": 0.20640057462378014,
+        "nll_equal_user_mean": 0.5980533326402478,
+        "brier_equal_user_mean": 0.20643027451455573,
+        "probability_clip": 1e-06,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.05,
+            "cases": 1053,
+            "users": 330,
+            "equal_user_weight": 0.0068254139410443655,
+            "predicted": 0.02451642421282707,
+            "observed": 0.012533960984123689
+          },
+          {
+            "lower": 0.05,
+            "upper": 0.1,
+            "cases": 3675,
+            "users": 466,
+            "equal_user_weight": 0.022963579630607127,
+            "predicted": 0.08157183493219142,
+            "observed": 0.07595273681823624
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.15,
+            "cases": 9618,
+            "users": 1461,
+            "equal_user_weight": 0.060581837479102604,
+            "predicted": 0.12239785469475924,
+            "observed": 0.1299728036088675
+          },
+          {
+            "lower": 0.15,
+            "upper": 0.2,
+            "cases": 10953,
+            "users": 1693,
+            "equal_user_weight": 0.0685467515520089,
+            "predicted": 0.17413296933922814,
+            "observed": 0.16592000312240818
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.25,
+            "cases": 2995,
+            "users": 416,
+            "equal_user_weight": 0.018357689273313056,
+            "predicted": 0.22643963261692993,
+            "observed": 0.22087602249857094
+          },
+          {
+            "lower": 0.25,
+            "upper": 0.3,
+            "cases": 5662,
+            "users": 1179,
+            "equal_user_weight": 0.034752180055275486,
+            "predicted": 0.26777308356285406,
+            "observed": 0.26244369522532535
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.35,
+            "cases": 8021,
+            "users": 863,
+            "equal_user_weight": 0.05007862055941654,
+            "predicted": 0.3236563855325888,
+            "observed": 0.31016814755673966
+          },
+          {
+            "lower": 0.35,
+            "upper": 0.4,
+            "cases": 11012,
+            "users": 1211,
+            "equal_user_weight": 0.0684288500030652,
+            "predicted": 0.3730508333454577,
+            "observed": 0.372592455646438
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.45,
+            "cases": 13044,
+            "users": 1397,
+            "equal_user_weight": 0.08086972258882039,
+            "predicted": 0.4248257393402195,
+            "observed": 0.41820621808715064
+          },
+          {
+            "lower": 0.45,
+            "upper": 0.5,
+            "cases": 12406,
+            "users": 1554,
+            "equal_user_weight": 0.07688961612661935,
+            "predicted": 0.4675180765566882,
+            "observed": 0.49464400108374806
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.55,
+            "cases": 20522,
+            "users": 1788,
+            "equal_user_weight": 0.1278573861845882,
+            "predicted": 0.5194239162922324,
+            "observed": 0.5409052358886958
+          },
+          {
+            "lower": 0.55,
+            "upper": 0.6,
+            "cases": 15517,
+            "users": 1785,
+            "equal_user_weight": 0.0984854662097484,
+            "predicted": 0.5617526389894165,
+            "observed": 0.5866513486109507
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.65,
+            "cases": 14100,
+            "users": 1688,
+            "equal_user_weight": 0.08976638903677578,
+            "predicted": 0.625052463678939,
+            "observed": 0.6506909934048732
+          },
+          {
+            "lower": 0.65,
+            "upper": 0.7,
+            "cases": 11590,
+            "users": 1248,
+            "equal_user_weight": 0.07422066009334122,
+            "predicted": 0.6691000287416217,
+            "observed": 0.6821808657516614
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.75,
+            "cases": 8982,
+            "users": 1089,
+            "equal_user_weight": 0.0578200903815893,
+            "predicted": 0.724948105145309,
+            "observed": 0.7433273156749464
+          },
+          {
+            "lower": 0.75,
+            "upper": 0.8,
+            "cases": 6799,
+            "users": 773,
+            "equal_user_weight": 0.04402699678831923,
+            "predicted": 0.7748636469526634,
+            "observed": 0.7952804896505469
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.85,
+            "cases": 2985,
+            "users": 435,
+            "equal_user_weight": 0.018753916306767968,
+            "predicted": 0.8110858777533347,
+            "observed": 0.848032550800916
+          },
+          {
+            "lower": 0.85,
+            "upper": 0.9,
+            "cases": 43,
+            "users": 17,
+            "equal_user_weight": 0.00026275909268674234,
+            "predicted": 0.853709871908487,
+            "observed": 0.8837209302325577
+          },
+          {
+            "lower": 0.9,
+            "upper": 0.95,
+            "cases": 0,
+            "users": 0,
+            "equal_user_weight": 0.0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.95,
+            "upper": 1.0,
+            "cases": 82,
+            "users": 17,
+            "equal_user_weight": 0.000512074696910442,
+            "predicted": 0.9836883139623155,
+            "observed": 1.0
+          }
+        ],
+        "scope": "point metrics of this fixed case sample; uncertainty and retraining comparisons are separate"
+      }
+    }
+  ],
+  "output_sha256": {
+    "k16-model.npz": "fdc0c239cf746d2004ceebeeb08f6c5ee8739f4fef169d4ea296ef3bd54aff21",
+    "k32-model.npz": "0d6d18951039cbfe5bc4817f4caf313b12255ceaf96c1d47972e859ed0e4ad6c",
+    "k64-model.npz": "d622caa805c02d70485c47b6fbf5516e549ad72b46a2a521dcb10e7ee0c47a1e",
+    "k128-model.npz": "67d938e37f4289e777db8a7c214e0c624a377c7012b29f04768114d99abef59c",
+    "k256-model.npz": "62883d4d52f4ea7617eee0a9cbb4c0d70283bc0f12cb6e539866ff084f19ce90",
+    "validation-predictions.npz": "05a61f3cde5565155f94625c3d9fda4a12a6723cfa225ffe97744753532cd207"
+  },
+  "wall_seconds": 375.271689491,
+  "root": "/artifacts/human-calendar-training-v4-replicates-609ecd456db7/fits/unseen_users-gru-20261019/quantization-eaa699cb5987-d48741d614ab",
+  "test_predictive_performance": "not evaluated",
+  "scope": "Separate smaller quantizers are unverified baselines. K256 is the fixed parent for future nested compression; no final human noninferiority claim."
+}

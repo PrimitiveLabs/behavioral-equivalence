@@ -1,0 +1,3056 @@
+{
+  "status": "complete",
+  "phase": "full multistep test input preparation",
+  "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+  "config": {
+    "schema_version": "human-multistep-cohort-v1",
+    "status": "candidate before final confirmatory freeze and any final-test scoring",
+    "prepared_root": "datasets/kuairand-27k/prepared-candidate-v2",
+    "prepared_report_sha256": "f94f6807749dcfa8b98df4329f3102081d057f90ec96aee6129cc03f030492fd",
+    "protocols": [
+      "known_users",
+      "unseen_users"
+    ],
+    "embargo_hours": 24,
+    "decision_horizons": [
+      1,
+      5,
+      10,
+      25,
+      50
+    ],
+    "origin_cap_per_user": 64,
+    "origin_seed": 20261021,
+    "representative_seed_base": 20261021,
+    "representative_rule": "Reuse the adjacent-calibration full-bundle representative rule with seed base plus source bucket. Sort exposures by bundle_index then immutable case_id before sampling one exposure per bundle.",
+    "origin_rule": "Select uniformly within each user's test-role bundles before looking at future support or outcomes. Retain all selected origins in support denominators.",
+    "observed_cohort": "H consecutive original timestamp bundles, including the origin, all within the same user's test role. No skipping excluded bundles or crossing user boundaries.",
+    "events": [
+      "positive occupancy at H",
+      "positive at least once through H",
+      "negative at least once through H",
+      "at least two positives through H",
+      "at least four positives through H"
+    ],
+    "graph_transitions": "2*H-1 from a pending origin in the emission-aware decision lift",
+    "missing_target": -1,
+    "censoring_report": "Selected, observed and unavailable origins and users, separately for every horizon and evaluation protocol. Do not count unavailable outcomes as negative.",
+    "weighting": "Equal users within each supported observed-horizon cohort; report case-weighted descriptive sensitivity separately.",
+    "minimum_inferential_support": {
+      "users": 50,
+      "observed_origins": 2000
+    },
+    "scope": "Conditional recorded-response prediction under the logged exposure policy. No unconditional survival, intentional abandonment, causal intervention or arbitrary interface-transfer claim.",
+    "execution": "Not run; final hashes, complete analysis and hardware/numeric policy must freeze before final-test scores. Secondary cohort design specified after early calibration-model compression diagnostics.",
+    "independent_audit_sha256": "0176129f335c54fb3589e8149cea335f14edc903dee777bcd760a7fc4336d26d",
+    "calendar": {
+      "train_end": 1651190400000,
+      "validation_end": 1651449600000,
+      "calibration_end": 1651708800000
+    },
+    "metadata_root": "datasets/kuairand-27k/item-metadata-v1-14656b2136c2c3d0",
+    "metadata_report_sha256": "3bc4cd805d7d510c0eeb981368d68d33bec0c20441dab597f088a6d16e644548",
+    "resource_budget": {
+      "campaign_allowance_usd": 2,
+      "worker_cpu": 2,
+      "worker_memory_gib": 8,
+      "worker_timeout_seconds": 600,
+      "coordinator_timeout_seconds": 3600,
+      "max_workers": 4,
+      "scope": "Smoke/full timeout and startup reservations; not provider-enforced billing cap"
+    }
+  },
+  "buckets": [
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 0,
+      "input_sha256": {
+        "interactions.parquet": "146291769e9a048ba0afd50c802034e453663e98f4ae6abfa3fb41ed191279d9",
+        "timestamp-bundles.parquet": "53e0111f47df074cfc35a993f593e274b9d522205eaa246060cec78fdba1f808"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "3d5b4ff36cfd8c5289a694194b8daf1ea4808ac809ae36e1a4492c074e2781c6"
+      },
+      "complete_source_bundles": 1716645,
+      "query_exposures": 48666,
+      "known_duration_queries": 34862,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48666,
+          "users": 803,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48666,
+              "observed_users": 803,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 47280,
+              "observed_users": 800,
+              "censored_origins": 1386
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45592,
+              "observed_users": 793,
+              "censored_origins": 3074
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 40642,
+              "observed_users": 773,
+              "censored_origins": 8024
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33059,
+              "observed_users": 737,
+              "censored_origins": 15607
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 5096,
+          "users": 87,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5096,
+              "observed_users": 87,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4925,
+              "observed_users": 87,
+              "censored_origins": 171
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4714,
+              "observed_users": 86,
+              "censored_origins": 382
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4132,
+              "observed_users": 82,
+              "censored_origins": 964
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3305,
+              "observed_users": 75,
+              "censored_origins": 1791
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.423378815,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 1,
+      "input_sha256": {
+        "interactions.parquet": "115fcd680b6dc4769cd041da5b8d51be1200014de2ebbebb57705d7917383cfc",
+        "timestamp-bundles.parquet": "e99c52e1385acc241ce80e20d43eadcfaa2d2af73928991e9c180eafc0cd120b"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "57c90c4f02be812a5e740b8746c50b78c53830554ba8a5bc9091ef062e1e4f8a"
+      },
+      "complete_source_bundles": 1707158,
+      "query_exposures": 48305,
+      "known_duration_queries": 34324,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48305,
+          "users": 810,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48305,
+              "observed_users": 810,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46919,
+              "observed_users": 806,
+              "censored_origins": 1386
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45157,
+              "observed_users": 802,
+              "censored_origins": 3148
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 40206,
+              "observed_users": 775,
+              "censored_origins": 8099
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32969,
+              "observed_users": 717,
+              "censored_origins": 15336
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 5171,
+          "users": 88,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5171,
+              "observed_users": 88,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 5012,
+              "observed_users": 88,
+              "censored_origins": 159
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4819,
+              "observed_users": 87,
+              "censored_origins": 352
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4294,
+              "observed_users": 82,
+              "censored_origins": 877
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3527,
+              "observed_users": 77,
+              "censored_origins": 1644
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.314522947999999,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 2,
+      "input_sha256": {
+        "interactions.parquet": "0b3a25385ff362df0da6b33743fc30021ed936d204ebf0a216fb9c52274d4dc1",
+        "timestamp-bundles.parquet": "29474d3c6ec16b773f1870817403a5ec2bd99df042eb699291cc368d449a9765"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "d9dd3fc25510b55b810c1a8864a46d013caad5aa0fe458c79a318c8a87a1e72d"
+      },
+      "complete_source_bundles": 1737378,
+      "query_exposures": 48271,
+      "known_duration_queries": 34167,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48271,
+          "users": 814,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48271,
+              "observed_users": 814,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46821,
+              "observed_users": 811,
+              "censored_origins": 1450
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45033,
+              "observed_users": 805,
+              "censored_origins": 3238
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 40073,
+              "observed_users": 776,
+              "censored_origins": 8198
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32690,
+              "observed_users": 716,
+              "censored_origins": 15581
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 5285,
+          "users": 88,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5285,
+              "observed_users": 88,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 5139,
+              "observed_users": 87,
+              "censored_origins": 146
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4957,
+              "observed_users": 86,
+              "censored_origins": 328
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4458,
+              "observed_users": 84,
+              "censored_origins": 827
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3675,
+              "observed_users": 80,
+              "censored_origins": 1610
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.304996962,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 3,
+      "input_sha256": {
+        "interactions.parquet": "80e5be980709c8e32863d4e85254d3362e1bfd0e4cef27df8a44efefed6559ec",
+        "timestamp-bundles.parquet": "0659d1a7e7e4e44d1417367d1402d7348709b47543625ab154a9f6cfd5dabaca"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "fdc2c3644c133bc4d652ed679c9e5ba205aa5b6be3a9d82147285eb9a49a87f8"
+      },
+      "complete_source_bundles": 1735678,
+      "query_exposures": 47979,
+      "known_duration_queries": 34143,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 47979,
+          "users": 799,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 47979,
+              "observed_users": 799,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46579,
+              "observed_users": 795,
+              "censored_origins": 1400
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44846,
+              "observed_users": 790,
+              "censored_origins": 3133
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39973,
+              "observed_users": 769,
+              "censored_origins": 8006
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32711,
+              "observed_users": 715,
+              "censored_origins": 15268
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 5432,
+          "users": 90,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5432,
+              "observed_users": 90,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 5280,
+              "observed_users": 89,
+              "censored_origins": 152
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 5081,
+              "observed_users": 89,
+              "censored_origins": 351
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4572,
+              "observed_users": 86,
+              "censored_origins": 860
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3762,
+              "observed_users": 82,
+              "censored_origins": 1670
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.361710504,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 4,
+      "input_sha256": {
+        "interactions.parquet": "267828396ab5ad7d3ebf66ebd358d177d33f1ad4cd41c7c4b2530865a4bbc523",
+        "timestamp-bundles.parquet": "6725a4f46cdf4eb823f1e7e02e4c42f7690ad1d22191f4b313b52bfa61b157eb"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "af69c2bf2e39b72214b4fcd6534b123a68c3005a3b4b893db2ffd5e4220f5fa8"
+      },
+      "complete_source_bundles": 1747641,
+      "query_exposures": 47715,
+      "known_duration_queries": 33747,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 47715,
+          "users": 797,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 47715,
+              "observed_users": 797,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46363,
+              "observed_users": 793,
+              "censored_origins": 1352
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44741,
+              "observed_users": 784,
+              "censored_origins": 2974
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39959,
+              "observed_users": 766,
+              "censored_origins": 7756
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32907,
+              "observed_users": 704,
+              "censored_origins": 14808
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4171,
+          "users": 70,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4171,
+              "observed_users": 70,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4066,
+              "observed_users": 70,
+              "censored_origins": 105
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3927,
+              "observed_users": 68,
+              "censored_origins": 244
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3562,
+              "observed_users": 67,
+              "censored_origins": 609
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3013,
+              "observed_users": 61,
+              "censored_origins": 1158
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.694832811,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 5,
+      "input_sha256": {
+        "interactions.parquet": "fe3640b55eda10fefafd9d3f735e23a9b88aa9da3250ded4a1effebfc81a5de2",
+        "timestamp-bundles.parquet": "1552276dd0c98ac26443291513c173f5e2c04f1a7e77436d952a49b51730d944"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "fc6caf96e556b6ff8430af717df42c0a7b5aee547a44fffa9987026e885b80b6"
+      },
+      "complete_source_bundles": 1605469,
+      "query_exposures": 48041,
+      "known_duration_queries": 34655,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48041,
+          "users": 812,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48041,
+              "observed_users": 812,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46611,
+              "observed_users": 804,
+              "censored_origins": 1430
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44875,
+              "observed_users": 797,
+              "censored_origins": 3166
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39942,
+              "observed_users": 768,
+              "censored_origins": 8099
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32713,
+              "observed_users": 717,
+              "censored_origins": 15328
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 3412,
+          "users": 59,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 3412,
+              "observed_users": 59,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3317,
+              "observed_users": 58,
+              "censored_origins": 95
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3174,
+              "observed_users": 57,
+              "censored_origins": 238
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 2810,
+              "observed_users": 56,
+              "censored_origins": 602
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2290,
+              "observed_users": 50,
+              "censored_origins": 1122
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.606256549000001,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 6,
+      "input_sha256": {
+        "interactions.parquet": "8ee516bd73e66f8e0f508039f0893e13de6a27217211881a066e84438868e298",
+        "timestamp-bundles.parquet": "f9412afd7f3e758dba06cf7011fbdd6d2180d8aa2f116ec43044b9965e0e8aab"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "48ae9f91dd5b34d822aeff69c291cec6c30b30b63489db010df29a37f2f42ed3"
+      },
+      "complete_source_bundles": 1696820,
+      "query_exposures": 48495,
+      "known_duration_queries": 34564,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48495,
+          "users": 806,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48495,
+              "observed_users": 806,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 47031,
+              "observed_users": 804,
+              "censored_origins": 1464
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45262,
+              "observed_users": 797,
+              "censored_origins": 3233
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 40252,
+              "observed_users": 781,
+              "censored_origins": 8243
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32943,
+              "observed_users": 725,
+              "censored_origins": 15552
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4840,
+          "users": 78,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4840,
+              "observed_users": 78,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4717,
+              "observed_users": 78,
+              "censored_origins": 123
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4556,
+              "observed_users": 77,
+              "censored_origins": 284
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4108,
+              "observed_users": 77,
+              "censored_origins": 732
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3385,
+              "observed_users": 74,
+              "censored_origins": 1455
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.940433077999998,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 7,
+      "input_sha256": {
+        "interactions.parquet": "f414d4b736117f72c2206768f0f7f9f44995a265fbc987833a0e7b1860ec36bd",
+        "timestamp-bundles.parquet": "22230d551b22584e0d9a2fef24f726610df9e9302ecf5deac29573a2f3fb8437"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "7255c359ffe36eb9e63573098e526e0cadf653cda622f732ab92dbf35d83207a"
+      },
+      "complete_source_bundles": 1727458,
+      "query_exposures": 47871,
+      "known_duration_queries": 34181,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 47871,
+          "users": 798,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 47871,
+              "observed_users": 798,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46519,
+              "observed_users": 795,
+              "censored_origins": 1352
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44811,
+              "observed_users": 788,
+              "censored_origins": 3060
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39937,
+              "observed_users": 768,
+              "censored_origins": 7934
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32677,
+              "observed_users": 717,
+              "censored_origins": 15194
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 5387,
+          "users": 90,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5387,
+              "observed_users": 90,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 5229,
+              "observed_users": 90,
+              "censored_origins": 158
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 5008,
+              "observed_users": 89,
+              "censored_origins": 379
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4427,
+              "observed_users": 86,
+              "censored_origins": 960
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3550,
+              "observed_users": 79,
+              "censored_origins": 1837
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.361005566,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 8,
+      "input_sha256": {
+        "interactions.parquet": "d326f9637c27fe4708204db5c53be2770c77a8fbd406942869622b2fb4fa78e7",
+        "timestamp-bundles.parquet": "f00794602987723358fb7dd6a512e9e4e2afcfc80ec5d18198ebad1792f58983"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "8cf9ac46594f9ad6d23a4f7345cf74ca7fa9224ae5fffaac87aaec6c1cfa1a98"
+      },
+      "complete_source_bundles": 1640733,
+      "query_exposures": 48356,
+      "known_duration_queries": 34699,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48356,
+          "users": 805,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48356,
+              "observed_users": 805,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46942,
+              "observed_users": 800,
+              "censored_origins": 1414
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45247,
+              "observed_users": 795,
+              "censored_origins": 3109
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 40359,
+              "observed_users": 772,
+              "censored_origins": 7997
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32921,
+              "observed_users": 729,
+              "censored_origins": 15435
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 5449,
+          "users": 89,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5449,
+              "observed_users": 89,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 5283,
+              "observed_users": 89,
+              "censored_origins": 166
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 5076,
+              "observed_users": 88,
+              "censored_origins": 373
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4517,
+              "observed_users": 86,
+              "censored_origins": 932
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3560,
+              "observed_users": 84,
+              "censored_origins": 1889
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.057618912000002,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 9,
+      "input_sha256": {
+        "interactions.parquet": "9cc693f076f818f439d436e2de3ce3ff98e8173d7f8ecd91cac07f992d841831",
+        "timestamp-bundles.parquet": "a83f525bcaacef77fd467f4ea7c1c812e6be93404c3b51376b220b222a272658"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "3c391afae3a7f2d7aacdd08343560c23bcb959ecc329b92def0d58fbd978d650"
+      },
+      "complete_source_bundles": 1675147,
+      "query_exposures": 47842,
+      "known_duration_queries": 34309,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 47842,
+          "users": 800,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 47842,
+              "observed_users": 800,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46414,
+              "observed_users": 793,
+              "censored_origins": 1428
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44716,
+              "observed_users": 786,
+              "censored_origins": 3126
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39798,
+              "observed_users": 766,
+              "censored_origins": 8044
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32274,
+              "observed_users": 717,
+              "censored_origins": 15568
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 5038,
+          "users": 89,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5038,
+              "observed_users": 89,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4852,
+              "observed_users": 86,
+              "censored_origins": 186
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4646,
+              "observed_users": 85,
+              "censored_origins": 392
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4085,
+              "observed_users": 81,
+              "censored_origins": 953
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3224,
+              "observed_users": 73,
+              "censored_origins": 1814
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.966885963,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 10,
+      "input_sha256": {
+        "interactions.parquet": "4dd8aa2d9f50972fdb8677481cb2d30d4fe34a4516f3c207364935f60890d36c",
+        "timestamp-bundles.parquet": "7011e4bfa2bb1893d68d77884c511fd73a1d5925692e46f76c9e8a6298b61790"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "c106e5e5a1bbf0f125b609730abd29f0f82371e5d6fa58ab679c66a33a2c2412"
+      },
+      "complete_source_bundles": 1641480,
+      "query_exposures": 48224,
+      "known_duration_queries": 34417,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48224,
+          "users": 810,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48224,
+              "observed_users": 810,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46783,
+              "observed_users": 800,
+              "censored_origins": 1441
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45000,
+              "observed_users": 796,
+              "censored_origins": 3224
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39920,
+              "observed_users": 776,
+              "censored_origins": 8304
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32372,
+              "observed_users": 716,
+              "censored_origins": 15852
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4050,
+          "users": 70,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4050,
+              "observed_users": 70,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3929,
+              "observed_users": 68,
+              "censored_origins": 121
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3773,
+              "observed_users": 68,
+              "censored_origins": 277
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3336,
+              "observed_users": 66,
+              "censored_origins": 714
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2748,
+              "observed_users": 60,
+              "censored_origins": 1302
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.761081608999998,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 11,
+      "input_sha256": {
+        "interactions.parquet": "dbaf82f0bd57903449916573e00af8f327431abe1542aebf9ecc18db59f5ec8c",
+        "timestamp-bundles.parquet": "2226e8785b29dd3275f4e3e204fb3ed1721f08116f2bc72f47df14949c7ad438"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "7c08f99b17dcc8d5ae569aee7c7de4efd703aa7e89f63f53f5ba1e2a8cb4fb93"
+      },
+      "complete_source_bundles": 1664257,
+      "query_exposures": 48451,
+      "known_duration_queries": 34640,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48451,
+          "users": 805,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48451,
+              "observed_users": 805,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 47008,
+              "observed_users": 800,
+              "censored_origins": 1443
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45281,
+              "observed_users": 796,
+              "censored_origins": 3170
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 40223,
+              "observed_users": 773,
+              "censored_origins": 8228
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32768,
+              "observed_users": 728,
+              "censored_origins": 15683
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4726,
+          "users": 77,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4726,
+              "observed_users": 77,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4579,
+              "observed_users": 77,
+              "censored_origins": 147
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4396,
+              "observed_users": 76,
+              "censored_origins": 330
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3878,
+              "observed_users": 75,
+              "censored_origins": 848
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3032,
+              "observed_users": 73,
+              "censored_origins": 1694
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.922570052000001,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 12,
+      "input_sha256": {
+        "interactions.parquet": "a2f3d304654da3ad7f6336bbe1643b447feca1b1196040c75eaec7377cb5bb15",
+        "timestamp-bundles.parquet": "49a636cc452776767871aef481ab4081f0f4e53285934467835208458cae5341"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "633e3479c70f2e1c3da001eec30149630383d711e8e231592c4a028d63821554"
+      },
+      "complete_source_bundles": 1626328,
+      "query_exposures": 48383,
+      "known_duration_queries": 34436,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48383,
+          "users": 810,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48383,
+              "observed_users": 810,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46894,
+              "observed_users": 801,
+              "censored_origins": 1489
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45072,
+              "observed_users": 796,
+              "censored_origins": 3311
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39951,
+              "observed_users": 772,
+              "censored_origins": 8432
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32311,
+              "observed_users": 725,
+              "censored_origins": 16072
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 5598,
+          "users": 91,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5598,
+              "observed_users": 91,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 5430,
+              "observed_users": 90,
+              "censored_origins": 168
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 5235,
+              "observed_users": 90,
+              "censored_origins": 363
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4712,
+              "observed_users": 88,
+              "censored_origins": 886
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3882,
+              "observed_users": 86,
+              "censored_origins": 1716
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.946952657000004,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 13,
+      "input_sha256": {
+        "interactions.parquet": "3cd321d4cc1dfd402893f28f958d928b5235c07395f9861856a575b04e9565f2",
+        "timestamp-bundles.parquet": "952e0c9cb6445870cf81f22f31cc8a815a19876bf56e7857516989e11e5e550e"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "15f77fec5703718162f58f7b2c273eb0d63496779c40bc80f56ae303359046c0"
+      },
+      "complete_source_bundles": 1679612,
+      "query_exposures": 47752,
+      "known_duration_queries": 33804,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 47752,
+          "users": 806,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 47752,
+              "observed_users": 806,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46275,
+              "observed_users": 797,
+              "censored_origins": 1477
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44496,
+              "observed_users": 788,
+              "censored_origins": 3256
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39383,
+              "observed_users": 770,
+              "censored_origins": 8369
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 31686,
+              "observed_users": 706,
+              "censored_origins": 16066
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4769,
+          "users": 78,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4769,
+              "observed_users": 78,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4631,
+              "observed_users": 78,
+              "censored_origins": 138
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4465,
+              "observed_users": 78,
+              "censored_origins": 304
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3955,
+              "observed_users": 78,
+              "censored_origins": 814
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3173,
+              "observed_users": 71,
+              "censored_origins": 1596
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.767189211000002,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 14,
+      "input_sha256": {
+        "interactions.parquet": "01748a85e4bf34e484696c37cd36e5b64679340725e906ec123af4c5b633281a",
+        "timestamp-bundles.parquet": "fcfcd28db9be925b71b42ac62ef7d8a2d144d006283976672aeb131707e38602"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "d32cfb82e23e0fca8c9ad9ac6622359d4d6977e1e4e2568c9a4bf5adc779c1b5"
+      },
+      "complete_source_bundles": 1728717,
+      "query_exposures": 48017,
+      "known_duration_queries": 34111,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48017,
+          "users": 808,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48017,
+              "observed_users": 808,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46662,
+              "observed_users": 801,
+              "censored_origins": 1355
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44956,
+              "observed_users": 791,
+              "censored_origins": 3061
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 40213,
+              "observed_users": 764,
+              "censored_origins": 7804
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 33048,
+              "observed_users": 721,
+              "censored_origins": 14969
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4619,
+          "users": 79,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4619,
+              "observed_users": 79,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4475,
+              "observed_users": 78,
+              "censored_origins": 144
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4315,
+              "observed_users": 77,
+              "censored_origins": 304
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3891,
+              "observed_users": 74,
+              "censored_origins": 728
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3212,
+              "observed_users": 69,
+              "censored_origins": 1407
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.705923876999996,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 15,
+      "input_sha256": {
+        "interactions.parquet": "dd902f977c26513c23861f13792076d451cf8d4f5b854d0fca7cf614e7d9223c",
+        "timestamp-bundles.parquet": "a1ea3441ddefd0166fdc3dfd1594a3cf46e5e50ce7c9ebfa2225849054180089"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "f17d3f229df2c67351f99eb59d4fad9823d42f7283a71c0af21984555c19ca33"
+      },
+      "complete_source_bundles": 1634200,
+      "query_exposures": 47789,
+      "known_duration_queries": 34299,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 47789,
+          "users": 812,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 47789,
+              "observed_users": 812,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46318,
+              "observed_users": 806,
+              "censored_origins": 1471
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44427,
+              "observed_users": 797,
+              "censored_origins": 3362
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39209,
+              "observed_users": 765,
+              "censored_origins": 8580
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 31543,
+              "observed_users": 709,
+              "censored_origins": 16246
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 5417,
+          "users": 91,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5417,
+              "observed_users": 91,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 5262,
+              "observed_users": 91,
+              "censored_origins": 155
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 5047,
+              "observed_users": 90,
+              "censored_origins": 370
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4470,
+              "observed_users": 87,
+              "censored_origins": 947
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3613,
+              "observed_users": 81,
+              "censored_origins": 1804
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.994198125000004,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 16,
+      "input_sha256": {
+        "interactions.parquet": "2974a69d4819a34c10c7d6d97229ad877bdb7192bbf15877f81afe581bd4e17b",
+        "timestamp-bundles.parquet": "2dbfd4e9530d3999cce7221631eb1920285e7671622f949a74f0e85cd97e0fcf"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "c54bf3a3c66585ae0e6b0610f78f3891c041b73e0bfedb5aa142c824b597c55e"
+      },
+      "complete_source_bundles": 1605278,
+      "query_exposures": 48407,
+      "known_duration_queries": 34866,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48407,
+          "users": 811,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48407,
+              "observed_users": 811,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46975,
+              "observed_users": 807,
+              "censored_origins": 1432
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45188,
+              "observed_users": 800,
+              "censored_origins": 3219
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39994,
+              "observed_users": 779,
+              "censored_origins": 8413
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32297,
+              "observed_users": 719,
+              "censored_origins": 16110
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4826,
+          "users": 80,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4826,
+              "observed_users": 80,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4683,
+              "observed_users": 80,
+              "censored_origins": 143
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4496,
+              "observed_users": 80,
+              "censored_origins": 330
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3976,
+              "observed_users": 77,
+              "censored_origins": 850
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3153,
+              "observed_users": 72,
+              "censored_origins": 1673
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.722647117999998,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 17,
+      "input_sha256": {
+        "interactions.parquet": "06f5fc6d52c5d96c9f8f2851f643d31f016acd6fb90f5bd45b2d0d14adcdc643",
+        "timestamp-bundles.parquet": "b352eee09b3ea473a18257d825a3e8b8042e29ea2e667036f004ede60061e6c3"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "71c725e7ac2b4a8da315251953ed74769eae37a05374c8fefe0a9dbc436e26aa"
+      },
+      "complete_source_bundles": 1707056,
+      "query_exposures": 47777,
+      "known_duration_queries": 34084,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 47777,
+          "users": 804,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 47777,
+              "observed_users": 804,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46363,
+              "observed_users": 794,
+              "censored_origins": 1414
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44616,
+              "observed_users": 786,
+              "censored_origins": 3161
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39739,
+              "observed_users": 762,
+              "censored_origins": 8038
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32417,
+              "observed_users": 711,
+              "censored_origins": 15360
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4378,
+          "users": 76,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4378,
+              "observed_users": 76,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4246,
+              "observed_users": 74,
+              "censored_origins": 132
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4094,
+              "observed_users": 72,
+              "censored_origins": 284
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3656,
+              "observed_users": 72,
+              "censored_origins": 722
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3043,
+              "observed_users": 63,
+              "censored_origins": 1335
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.833280482,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 18,
+      "input_sha256": {
+        "interactions.parquet": "7f073102bc0302d35ecf516b9d33f0a2af1eb1602fd7d431af7a3dd82527a54c",
+        "timestamp-bundles.parquet": "43f47ca1164d411a3bbdac510868463277b3f91bc017881f6d89aeb015cfdf9b"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "24e39075701f1d773622124081e3bac0d71c78698b5f69f729d36fd3b9412e1c"
+      },
+      "complete_source_bundles": 1613451,
+      "query_exposures": 48699,
+      "known_duration_queries": 34657,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48699,
+          "users": 815,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48699,
+              "observed_users": 815,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 47209,
+              "observed_users": 813,
+              "censored_origins": 1490
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45352,
+              "observed_users": 808,
+              "censored_origins": 3347
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 40082,
+              "observed_users": 780,
+              "censored_origins": 8617
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32215,
+              "observed_users": 723,
+              "censored_origins": 16484
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4673,
+          "users": 79,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4673,
+              "observed_users": 79,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4532,
+              "observed_users": 78,
+              "censored_origins": 141
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4351,
+              "observed_users": 77,
+              "censored_origins": 322
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3861,
+              "observed_users": 75,
+              "censored_origins": 812
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3086,
+              "observed_users": 68,
+              "censored_origins": 1587
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.023245947,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 19,
+      "input_sha256": {
+        "interactions.parquet": "7b7f5d52090dbfe0c89dd20c6d2f46dab683b65e62d62b58892009a92f2aabc8",
+        "timestamp-bundles.parquet": "c3720ac2409dbc58f83126d1b9e24071d879c11cce063f127907daa6ec17e862"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "70b49c8e62e6db709298d95ba4911d6e037e07ece1f618a230b91f707c4fcf23"
+      },
+      "complete_source_bundles": 1623070,
+      "query_exposures": 47818,
+      "known_duration_queries": 34060,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 47818,
+          "users": 806,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 47818,
+              "observed_users": 806,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46362,
+              "observed_users": 799,
+              "censored_origins": 1456
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44574,
+              "observed_users": 794,
+              "censored_origins": 3244
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39410,
+              "observed_users": 772,
+              "censored_origins": 8408
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 31784,
+              "observed_users": 707,
+              "censored_origins": 16034
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 5343,
+          "users": 88,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5343,
+              "observed_users": 88,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 5184,
+              "observed_users": 88,
+              "censored_origins": 159
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 5002,
+              "observed_users": 88,
+              "censored_origins": 341
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4408,
+              "observed_users": 87,
+              "censored_origins": 935
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3584,
+              "observed_users": 79,
+              "censored_origins": 1759
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.994554117,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 20,
+      "input_sha256": {
+        "interactions.parquet": "691289951dffd7fe1c3f880023e8b51bcca7f760648e81f051cad587f924cf07",
+        "timestamp-bundles.parquet": "b82de4582689b50ef061ea8fed8cdf8b0dee96d767edc422a745bb7b1429c601"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "d0e442eadb51cb326650c48344a4e893d5d042b2ce01d707000090163f63116f"
+      },
+      "complete_source_bundles": 1666837,
+      "query_exposures": 48037,
+      "known_duration_queries": 33958,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48037,
+          "users": 813,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48037,
+              "observed_users": 813,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46562,
+              "observed_users": 810,
+              "censored_origins": 1475
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44722,
+              "observed_users": 803,
+              "censored_origins": 3315
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39546,
+              "observed_users": 773,
+              "censored_origins": 8491
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32055,
+              "observed_users": 708,
+              "censored_origins": 15982
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4000,
+          "users": 70,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4000,
+              "observed_users": 70,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 3858,
+              "observed_users": 70,
+              "censored_origins": 142
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 3668,
+              "observed_users": 70,
+              "censored_origins": 332
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3142,
+              "observed_users": 66,
+              "censored_origins": 858
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2428,
+              "observed_users": 54,
+              "censored_origins": 1572
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.477986735999998,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 21,
+      "input_sha256": {
+        "interactions.parquet": "ec9b16b95b8bef24c4e554186134f056525b7ad276bce5cca6b8cba1e16fd061",
+        "timestamp-bundles.parquet": "bb44538e0863bebccd1e85dc6f92b745a87edef575c9254ae90c8a0820eefd7f"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "188a028e4a0a4a790922599f51d269050a81d56e6a550224aaa619ca83d05079"
+      },
+      "complete_source_bundles": 1725798,
+      "query_exposures": 47835,
+      "known_duration_queries": 33998,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 47835,
+          "users": 808,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 47835,
+              "observed_users": 808,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46403,
+              "observed_users": 800,
+              "censored_origins": 1432
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44633,
+              "observed_users": 795,
+              "censored_origins": 3202
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39550,
+              "observed_users": 768,
+              "censored_origins": 8285
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32289,
+              "observed_users": 708,
+              "censored_origins": 15546
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 5015,
+          "users": 86,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5015,
+              "observed_users": 86,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4886,
+              "observed_users": 84,
+              "censored_origins": 129
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4723,
+              "observed_users": 82,
+              "censored_origins": 292
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4248,
+              "observed_users": 78,
+              "censored_origins": 767
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3597,
+              "observed_users": 75,
+              "censored_origins": 1418
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.154475886,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 22,
+      "input_sha256": {
+        "interactions.parquet": "75b03aa30a3ac23a1a1015c996a6b1d6a05d0f481485f99cac5fe1628ee300c4",
+        "timestamp-bundles.parquet": "e9fc0cc907fef88baf0d72d267d4713c578a873614e348108e0296e357177d83"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "d07e84b6147d75a55ef31f1b8dd03bd01616d74e2e03f5037be70c73287e50a2"
+      },
+      "complete_source_bundles": 1645469,
+      "query_exposures": 47553,
+      "known_duration_queries": 34237,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 47553,
+          "users": 804,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 47553,
+              "observed_users": 804,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46117,
+              "observed_users": 797,
+              "censored_origins": 1436
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44324,
+              "observed_users": 794,
+              "censored_origins": 3229
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39282,
+              "observed_users": 763,
+              "censored_origins": 8271
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 31980,
+              "observed_users": 706,
+              "censored_origins": 15573
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4532,
+          "users": 78,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4532,
+              "observed_users": 78,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4386,
+              "observed_users": 78,
+              "censored_origins": 146
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4194,
+              "observed_users": 78,
+              "censored_origins": 338
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3669,
+              "observed_users": 74,
+              "censored_origins": 863
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2930,
+              "observed_users": 65,
+              "censored_origins": 1602
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.756438169999996,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 23,
+      "input_sha256": {
+        "interactions.parquet": "d9c8b98f2b2f8bd54232162a3644c001ed4158f140760f56ae09cb46a1492c96",
+        "timestamp-bundles.parquet": "03e58d155764af7efe85551239883fd6c44b6f41b9e8b56ce6ece451b2243f77"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "0482cf1daf8396e40c43f3e5fd5c01705996ec7e84bdace0d37b4be20616a7cb"
+      },
+      "complete_source_bundles": 1564230,
+      "query_exposures": 47694,
+      "known_duration_queries": 33848,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 47694,
+          "users": 806,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 47694,
+              "observed_users": 806,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46203,
+              "observed_users": 801,
+              "censored_origins": 1491
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44391,
+              "observed_users": 792,
+              "censored_origins": 3303
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39135,
+              "observed_users": 764,
+              "censored_origins": 8559
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 31568,
+              "observed_users": 701,
+              "censored_origins": 16126
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 5163,
+          "users": 86,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 5163,
+              "observed_users": 86,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 5015,
+              "observed_users": 85,
+              "censored_origins": 148
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4827,
+              "observed_users": 85,
+              "censored_origins": 336
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4284,
+              "observed_users": 82,
+              "censored_origins": 879
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3468,
+              "observed_users": 77,
+              "censored_origins": 1695
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.691814866000001,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 24,
+      "input_sha256": {
+        "interactions.parquet": "de0e117c5d20459590a7c617cde727716612150ed7a68e4f3907edd87f139fe9",
+        "timestamp-bundles.parquet": "2e558737710488f035b1b72541043ea49d979dbfc79422e974430908b015e036"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "17c2609b4ff9ab692c55b956c140ca2d2bd0d4afd3db5b02723748ead5fc9615"
+      },
+      "complete_source_bundles": 1671514,
+      "query_exposures": 47922,
+      "known_duration_queries": 33807,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 47922,
+          "users": 805,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 47922,
+              "observed_users": 805,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46508,
+              "observed_users": 798,
+              "censored_origins": 1414
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44761,
+              "observed_users": 794,
+              "censored_origins": 3161
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 39672,
+              "observed_users": 768,
+              "censored_origins": 8250
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32263,
+              "observed_users": 709,
+              "censored_origins": 15659
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4926,
+          "users": 83,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4926,
+              "observed_users": 83,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4774,
+              "observed_users": 83,
+              "censored_origins": 152
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4590,
+              "observed_users": 83,
+              "censored_origins": 336
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4078,
+              "observed_users": 79,
+              "censored_origins": 848
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3301,
+              "observed_users": 72,
+              "censored_origins": 1625
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.760605292999998,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 25,
+      "input_sha256": {
+        "interactions.parquet": "b1a1b5f4b3ce3131eaae6f7f9b405e096e6e235d403af30550b1e25d76c52db7",
+        "timestamp-bundles.parquet": "a822f4eb6332a0263ba487d88142fd5993604dc44882e42b94a7e6dd06e0f276"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "11794918e95355949da899a16f5cdda9c2e90fdf4892524ab327ea8f7dcae897"
+      },
+      "complete_source_bundles": 1644416,
+      "query_exposures": 48242,
+      "known_duration_queries": 34556,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48242,
+          "users": 805,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48242,
+              "observed_users": 805,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46849,
+              "observed_users": 800,
+              "censored_origins": 1393
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45137,
+              "observed_users": 793,
+              "censored_origins": 3105
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 40192,
+              "observed_users": 764,
+              "censored_origins": 8050
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32739,
+              "observed_users": 727,
+              "censored_origins": 15503
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4609,
+          "users": 79,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4609,
+              "observed_users": 79,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4457,
+              "observed_users": 78,
+              "censored_origins": 152
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4271,
+              "observed_users": 76,
+              "censored_origins": 338
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3771,
+              "observed_users": 73,
+              "censored_origins": 838
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3023,
+              "observed_users": 67,
+              "censored_origins": 1586
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.732114198999994,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 26,
+      "input_sha256": {
+        "interactions.parquet": "abb343de6fd726860f79b6bbe536dfea2e1c9344e2186964c878732dd19ba2c8",
+        "timestamp-bundles.parquet": "22a0477e8d7279d2e461f1257334d59111739f81d16c611a7ef2cb2a5fa72b12"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "d40a956af89d36d1a9aeb7411fcbbdb9c337fb275d09ba704eed2b6696f4899d"
+      },
+      "complete_source_bundles": 1742935,
+      "query_exposures": 49266,
+      "known_duration_queries": 35054,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 49266,
+          "users": 808,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 49266,
+              "observed_users": 808,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 47946,
+              "observed_users": 805,
+              "censored_origins": 1320
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 46302,
+              "observed_users": 801,
+              "censored_origins": 2964
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 41394,
+              "observed_users": 783,
+              "censored_origins": 7872
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 34150,
+              "observed_users": 747,
+              "censored_origins": 15116
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4998,
+          "users": 81,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4998,
+              "observed_users": 81,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4868,
+              "observed_users": 81,
+              "censored_origins": 130
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4712,
+              "observed_users": 81,
+              "censored_origins": 286
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4215,
+              "observed_users": 81,
+              "censored_origins": 783
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3494,
+              "observed_users": 75,
+              "censored_origins": 1504
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.29996036,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 27,
+      "input_sha256": {
+        "interactions.parquet": "ca5e86316a1cc43db88b8b352753ac31cbe8acf7ae217b31cc8fa6ba15f38a34",
+        "timestamp-bundles.parquet": "82cbde3f86bdd2efdb0a66d4d1a3c185b3c0ffdaae88a900707e339659a45bb5"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "c275cb99e282535914877c0a0377b608c2b5bbc31dbf522ff4fb50761646825d"
+      },
+      "complete_source_bundles": 1660592,
+      "query_exposures": 46969,
+      "known_duration_queries": 33686,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 46969,
+          "users": 799,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 46969,
+              "observed_users": 799,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 45527,
+              "observed_users": 795,
+              "censored_origins": 1442
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 43732,
+              "observed_users": 786,
+              "censored_origins": 3237
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 38665,
+              "observed_users": 752,
+              "censored_origins": 8304
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 31388,
+              "observed_users": 692,
+              "censored_origins": 15581
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4405,
+          "users": 75,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4405,
+              "observed_users": 75,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4272,
+              "observed_users": 75,
+              "censored_origins": 133
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4110,
+              "observed_users": 74,
+              "censored_origins": 295
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3600,
+              "observed_users": 71,
+              "censored_origins": 805
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2948,
+              "observed_users": 65,
+              "censored_origins": 1457
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 8.680292519000005,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 28,
+      "input_sha256": {
+        "interactions.parquet": "9c501973b5ed6a6430420800f60083a65fe5ff9dedcee8ab52a6d791afd0bcf0",
+        "timestamp-bundles.parquet": "ea8e872fe770cce45c6908cdbcc8b4a1c984f9522659fbebacbdcd3c2c9c2eea"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "e545968959addfcf415b0f4d0dadafb5af389098c8043abc82f16cbda52510c4"
+      },
+      "complete_source_bundles": 1709509,
+      "query_exposures": 48049,
+      "known_duration_queries": 34186,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48049,
+          "users": 803,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48049,
+              "observed_users": 803,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46681,
+              "observed_users": 797,
+              "censored_origins": 1368
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 44997,
+              "observed_users": 788,
+              "censored_origins": 3052
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 40150,
+              "observed_users": 764,
+              "censored_origins": 7899
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32815,
+              "observed_users": 725,
+              "censored_origins": 15234
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4657,
+          "users": 79,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4657,
+              "observed_users": 79,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4526,
+              "observed_users": 78,
+              "censored_origins": 131
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4355,
+              "observed_users": 77,
+              "censored_origins": 302
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3863,
+              "observed_users": 75,
+              "censored_origins": 794
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3122,
+              "observed_users": 69,
+              "censored_origins": 1535
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.172116885999998,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 29,
+      "input_sha256": {
+        "interactions.parquet": "1cdc843952ce987ccc33fc6d9bc606e42045f9ff167c0c078e6f165fe7cef67e",
+        "timestamp-bundles.parquet": "1922eee61cabdc0a4d9f9cb0b49467b5c3f960c108c198d4124ef8d96b632471"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "be8ebff8002f1717ce57fe1b8d5c78222658265d1d9c96b180bd78579fc340a9"
+      },
+      "complete_source_bundles": 1648099,
+      "query_exposures": 48499,
+      "known_duration_queries": 34721,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48499,
+          "users": 805,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48499,
+              "observed_users": 805,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 47045,
+              "observed_users": 801,
+              "censored_origins": 1454
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45249,
+              "observed_users": 797,
+              "censored_origins": 3250
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 40032,
+              "observed_users": 777,
+              "censored_origins": 8467
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32271,
+              "observed_users": 723,
+              "censored_origins": 16228
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4730,
+          "users": 78,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4730,
+              "observed_users": 78,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4597,
+              "observed_users": 77,
+              "censored_origins": 133
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4419,
+              "observed_users": 77,
+              "censored_origins": 311
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3921,
+              "observed_users": 76,
+              "censored_origins": 809
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3166,
+              "observed_users": 71,
+              "censored_origins": 1564
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 9.525994452000006,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 30,
+      "input_sha256": {
+        "interactions.parquet": "c8832ee0c8cf09f575133f0e1e2c9c4b246429f11cdc9c185cc3070c82c35583",
+        "timestamp-bundles.parquet": "a5dd9e783edbc19c2b019e1642722d9c34feb0243028ebf7471969755466c57f"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "b7323a9050ed175c15bef51d74bcde7646c87050c0f949925f9bd9173696557e"
+      },
+      "complete_source_bundles": 1755125,
+      "query_exposures": 48287,
+      "known_duration_queries": 34385,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48287,
+          "users": 803,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48287,
+              "observed_users": 803,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46905,
+              "observed_users": 799,
+              "censored_origins": 1382
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45210,
+              "observed_users": 794,
+              "censored_origins": 3077
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 40230,
+              "observed_users": 772,
+              "censored_origins": 8057
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32824,
+              "observed_users": 725,
+              "censored_origins": 15463
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4837,
+          "users": 78,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4837,
+              "observed_users": 78,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4716,
+              "observed_users": 78,
+              "censored_origins": 121
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4559,
+              "observed_users": 78,
+              "censored_origins": 278
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 4077,
+              "observed_users": 78,
+              "censored_origins": 760
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 3309,
+              "observed_users": 73,
+              "censored_origins": 1528
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 10.294468125999998,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    },
+    {
+      "status": "complete",
+      "source_digest": "49fe45c8024a0c88032aa0444e48419970c1d1ac3077afc4b0d9975a5a2eda62",
+      "bucket": 31,
+      "input_sha256": {
+        "interactions.parquet": "31cc386313e6dfee1349e917f0573cb482b4801db086f21c6a22a71a3ca3db94",
+        "timestamp-bundles.parquet": "fa18e1d14713cf59cf8ed8d671bdf9127fad42d8b2a145b0cff0aa0f02b9cf64"
+      },
+      "output_sha256": {
+        "test-cohort.npz": "87f20ce1460b5f4c8b4c4b2f8579a85d8374824769f0930b335bd8234136e0af"
+      },
+      "complete_source_bundles": 1772329,
+      "query_exposures": 48319,
+      "known_duration_queries": 34649,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 48319,
+          "users": 806,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 48319,
+              "observed_users": 806,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 46913,
+              "observed_users": 802,
+              "censored_origins": 1406
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 45156,
+              "observed_users": 796,
+              "censored_origins": 3163
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 40099,
+              "observed_users": 780,
+              "censored_origins": 8220
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 32652,
+              "observed_users": 717,
+              "censored_origins": 15667
+            }
+          ]
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 4311,
+          "users": 72,
+          "horizons": [
+            {
+              "horizon": 1,
+              "observed_origins": 4311,
+              "observed_users": 72,
+              "censored_origins": 0
+            },
+            {
+              "horizon": 5,
+              "observed_origins": 4190,
+              "observed_users": 72,
+              "censored_origins": 121
+            },
+            {
+              "horizon": 10,
+              "observed_origins": 4030,
+              "observed_users": 71,
+              "censored_origins": 281
+            },
+            {
+              "horizon": 25,
+              "observed_origins": 3591,
+              "observed_users": 70,
+              "censored_origins": 720
+            },
+            {
+              "horizon": 50,
+              "observed_origins": 2967,
+              "observed_users": 65,
+              "censored_origins": 1344
+            }
+          ]
+        }
+      ],
+      "wall_seconds": 10.253735526,
+      "scope": "Outcome-blind test origins with complete available histories, private eventual-feedback targets, and explicit conditional observed-horizon support. No prediction scores, human confidence guarantee, unconditional survival or abandonment interpretation."
+    }
+  ],
+  "failures": [],
+  "support": [
+    {
+      "protocol": "known_users",
+      "origins": 1539530,
+      "users": 25796
+    },
+    {
+      "protocol": "unseen_users",
+      "origins": 153863,
+      "users": 2582
+    }
+  ],
+  "root": "/artifacts/datasets/kuairand-27k/prepared-candidate-v2/multistep-test-49fe45c8024a0c88",
+  "test_predictive_performance": "not evaluated"
+}

@@ -1,0 +1,453 @@
+{
+  "status": "complete",
+  "scope": "Read-only syntax and source-availability audit of embedded Python source maps. Historical code differences remain explicit, not reclassified as current execution. No proof/experiment rerun or provider work.",
+  "capsules": 37,
+  "python_source_entries": 2125,
+  "preserved_original_source_fixtures": 11,
+  "records": [
+    {
+      "path": "reports/source-snapshots/71f5f2c663cc8e26834bd23db8746375df89885c811ae5f97fdd40cec176db91.json",
+      "file_sha256": "71f5f2c663cc8e26834bd23db8746375df89885c811ae5f97fdd40cec176db91",
+      "canonical_source_map_sha256": "71f5f2c663cc8e26834bd23db8746375df89885c811ae5f97fdd40cec176db91",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 5,
+      "source_categories": {
+        "current_source": 2,
+        "preserved_correction_fixture": 0,
+        "embedded_historical_version": 3
+      }
+    },
+    {
+      "path": "reports/source-snapshots/comparative-validation-22d587bbc968.json",
+      "file_sha256": "8a4d8d32c60f1c0edac08856e4046a2c391ba529f7d4d68f6952be7cdf1823f6",
+      "canonical_source_map_sha256": "22d587bbc968fded84ac0649bbe755787c5e80d4abc601ce7de38e80e5801b1e",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 81,
+      "source_categories": {
+        "current_source": 67,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 6
+      }
+    },
+    {
+      "path": "reports/source-snapshots/diversity-analysis-4baf4ad60c79.json",
+      "file_sha256": "23e69e5fed14acfe180a5ce17b6e1cead3da79129234022bf4df2f6f4967497b",
+      "canonical_source_map_sha256": "4baf4ad60c79b8baac10474dbeb1d2a4424b5894a97e70446513dfc3ad6f40ab",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 75,
+      "source_categories": {
+        "current_source": 63,
+        "preserved_correction_fixture": 6,
+        "embedded_historical_version": 6
+      }
+    },
+    {
+      "path": "reports/source-snapshots/final-direct_horizon-d4984c93acbe0b14.json",
+      "file_sha256": "66a5d50db6bfd58670a4253bc317fc24f7120cf01c32095377ed8d9bc2092133",
+      "canonical_source_map_sha256": "d4984c93acbe0b14f2a81e9477738e49dec01bd53115a14ae8f0534ac66ad3be",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 94,
+      "source_categories": {
+        "current_source": 81,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 5
+      }
+    },
+    {
+      "path": "reports/source-snapshots/final-one_step-8321be2e57203ca0.json",
+      "file_sha256": "3e257606527e0ae9ad1664b4a4a5ecc89849955d2977bcbb63d57a7fc08ff167",
+      "canonical_source_map_sha256": "8321be2e57203ca0c0812a2baf315008ee689ecfcb963c20d9096181c95a90de",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 93,
+      "source_categories": {
+        "current_source": 81,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 4
+      }
+    },
+    {
+      "path": "reports/source-snapshots/final-response-check-response_all_groups-b4e04aff2dd92796.json",
+      "file_sha256": "af2937a5241d4aaab1956ec9b6f3794247122650e9e47b6ae336b23b0f65316f",
+      "canonical_source_map_sha256": "b4e04aff2dd92796195e8097b8c2e9a6253cd7fe887495b3f4b6605615d3373c",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 94,
+      "source_categories": {
+        "current_source": 81,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 5
+      }
+    },
+    {
+      "path": "reports/source-snapshots/final-response-check-response_heldout_groups-99cdb171fd0997bc.json",
+      "file_sha256": "4c85a2f4616ba7b99936dcde01387a321d0e784c68fde0fd1b8035ea7acf09bc",
+      "canonical_source_map_sha256": "99cdb171fd0997bc9fc18aac64af89a224b5244a3505743db8359cc679f7c30b",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 94,
+      "source_categories": {
+        "current_source": 81,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 5
+      }
+    },
+    {
+      "path": "reports/source-snapshots/final-response_all_groups-083dfc60f47ea65a.json",
+      "file_sha256": "1090b48fe83f2649505eb7482aced7c963113763c56fb8918600885154a23713",
+      "canonical_source_map_sha256": "083dfc60f47ea65a01d7b34d7482b6ebf75b6b7f292d35938f4edfcf1be10203",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 94,
+      "source_categories": {
+        "current_source": 81,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 5
+      }
+    },
+    {
+      "path": "reports/source-snapshots/final-response_heldout_groups-f7115561ad28a03b.json",
+      "file_sha256": "6d457f574d4ffb7224e1df324bad2c1c22d606e6eba57b81780956255ee91cbb",
+      "canonical_source_map_sha256": "f7115561ad28a03bb2085626f6f9a9bc8e9577ef6f0c310c23849832ba431752",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 94,
+      "source_categories": {
+        "current_source": 81,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 5
+      }
+    },
+    {
+      "path": "reports/source-snapshots/finite-coupling-4ceca2656733c1b0.json",
+      "file_sha256": "2c92e6ae2ac97f0d7eda6b00a26fe56622762c1ac8bed138276876c6c442465e",
+      "canonical_source_map_sha256": "4ceca2656733c1b04e4df8e716170cfebde721ff30c6567b1d71738af7d6d6b7",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 1,
+      "source_categories": {
+        "current_source": 1,
+        "preserved_correction_fixture": 0,
+        "embedded_historical_version": 0
+      }
+    },
+    {
+      "path": "reports/source-snapshots/finite-coupling-61d47b7f88a95a15.json",
+      "file_sha256": "0e04f95dd60713311ad91de4f7854a9180e7e35f3d96e0b01d97f1bf413eef39",
+      "canonical_source_map_sha256": "61d47b7f88a95a15ae73789dae85778c17bbad977cb90050ad85c5d9f17129da",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 1,
+      "source_categories": {
+        "current_source": 0,
+        "preserved_correction_fixture": 0,
+        "embedded_historical_version": 1
+      }
+    },
+    {
+      "path": "reports/source-snapshots/finite-coupling-880d923e02b63ef4.json",
+      "file_sha256": "126c18a9ef446b08e75d77c796400208b88e5ef5bbcf0b138afb229e7cf9735b",
+      "canonical_source_map_sha256": "880d923e02b63ef43b60d29b3b7d0948c5392a8e73179d7615bdc8464dcf648f",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 1,
+      "source_categories": {
+        "current_source": 0,
+        "preserved_correction_fixture": 0,
+        "embedded_historical_version": 1
+      }
+    },
+    {
+      "path": "reports/source-snapshots/formal-bounds-1ced0e17dddc9982.json",
+      "file_sha256": "bd8bf9cfd351f9344440092809d1c58f62cf8662d068859d208c4617dc1e959a",
+      "canonical_source_map_sha256": "1ced0e17dddc99825a7986abf68672f5eee75d3aac978d48a6b8b3fb359831b0",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 1,
+      "source_categories": {
+        "current_source": 1,
+        "preserved_correction_fixture": 0,
+        "embedded_historical_version": 0
+      }
+    },
+    {
+      "path": "reports/source-snapshots/heldout-frontiers-881b55e16a97.json",
+      "file_sha256": "5a02607f11c5f9644d088956c9bdfeaed56c849d3867a632760750280f3e2244",
+      "canonical_source_map_sha256": "881b55e16a973e0071eb825d2fc2934db35a70697933d5f788f247bed594584a",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 82,
+      "source_categories": {
+        "current_source": 66,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 8
+      }
+    },
+    {
+      "path": "reports/source-snapshots/heldout-precision-be4b2a1a9800.json",
+      "file_sha256": "fa708563bc9a390aac417ebaae3343f8ce1ec274ba9ae565915878836243e3b4",
+      "canonical_source_map_sha256": "be4b2a1a9800390bd6ff924205101b7c34c40cebdb7798592852005956a19d91",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 80,
+      "source_categories": {
+        "current_source": 67,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 5
+      }
+    },
+    {
+      "path": "reports/source-snapshots/heldout-precision-fc0ce74f3f1e.json",
+      "file_sha256": "e04ae5df0756934d2f9ae6e21a45224c4210ae1e2983606d22c678ba61d00393",
+      "canonical_source_map_sha256": "fc0ce74f3f1ec18a032a3718f1485680fe2640870a28e94ac9cb9755259b83bb",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 80,
+      "source_categories": {
+        "current_source": 66,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 6
+      }
+    },
+    {
+      "path": "reports/source-snapshots/heldout-priors-8f8d6a687041.json",
+      "file_sha256": "a6a2f79f8cc313772b0094c6160967ac1d7a5a6a67041b485ee3620d871fe657",
+      "canonical_source_map_sha256": "8f8d6a687041c70defd81ded2b9e8a701f0efb7170bd10a3f0065112bbf8c96f",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 77,
+      "source_categories": {
+        "current_source": 64,
+        "preserved_correction_fixture": 7,
+        "embedded_historical_version": 6
+      }
+    },
+    {
+      "path": "reports/source-snapshots/history-states-ced0bbdf76c3.json",
+      "file_sha256": "61e6dfd18cf8fd21b54db8c9150abca57aec4346722f89e39b157989400a81c4",
+      "canonical_source_map_sha256": "ced0bbdf76c38cb7d59faaf8ff77df534649533fc2be38f34021538e89bde94a",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 67,
+      "source_categories": {
+        "current_source": 58,
+        "preserved_correction_fixture": 5,
+        "embedded_historical_version": 4
+      }
+    },
+    {
+      "path": "reports/source-snapshots/horizon-final-implementation-68f1c913b9ad1b74.json",
+      "file_sha256": "474fbd8dbb1341ef09d7378c8ffe4f82182617c5c03e8d4ac99ded2cdf221bf2",
+      "canonical_source_map_sha256": "68f1c913b9ad1b7458847887feb0b3165cedcc0202beafdb98df052af66ff5cf",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 91,
+      "source_categories": {
+        "current_source": 78,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 5
+      }
+    },
+    {
+      "path": "reports/source-snapshots/horizon-final-implementation-cef14a90ffca1e89.json",
+      "file_sha256": "04d37afa06735d2f331225d9aa66e3f65143d76b554930fb67fb6cac6cf96f0a",
+      "canonical_source_map_sha256": "cef14a90ffca1e891a554df03668f977c3ff94eb17c752d5aabb2a41975003cd",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 93,
+      "source_categories": {
+        "current_source": 78,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 7
+      }
+    },
+    {
+      "path": "reports/source-snapshots/horizon-heads-0938337637ef.json",
+      "file_sha256": "9b7cbcd0a495134c3e113a79e352de973f815859cb232a606bf40e6d21ddf960",
+      "canonical_source_map_sha256": "0938337637efc21af62122c2ad0af7ad603fdc1a937ba45bfc5b80cfc78beda6",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 86,
+      "source_categories": {
+        "current_source": 71,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 7
+      }
+    },
+    {
+      "path": "reports/source-snapshots/horizon-heads-1d02241d8a78.json",
+      "file_sha256": "3fec7252eb7b4b4295d8ec40fa100c31742df98808ed00a55b7f1cc9fff56d25",
+      "canonical_source_map_sha256": "1d02241d8a785a9587f2c411cdcf957118c35bf451f545e5d0b0b259d0e38077",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 86,
+      "source_categories": {
+        "current_source": 74,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 4
+      }
+    },
+    {
+      "path": "reports/source-snapshots/human-cluster-65cd0d180d0f9089.json",
+      "file_sha256": "fd4e47a815c7af4b8c6856713adb8df19dcb64522b9d2bbc908804136b02d56a",
+      "canonical_source_map_sha256": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 85,
+      "source_categories": {
+        "current_source": 75,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 2
+      }
+    },
+    {
+      "path": "reports/source-snapshots/interval-vertex-crosscheck-b46ea5f89886b53e.json",
+      "file_sha256": "309d134cb460c3b21544ebc814da83a619f27ad8b8617a3762b816065bbcd2c5",
+      "canonical_source_map_sha256": "b46ea5f89886b53e022b0467b255db6605d549ee21540bb7610a67f023b10ed4",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 91,
+      "source_categories": {
+        "current_source": 82,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 1
+      }
+    },
+    {
+      "path": "reports/source-snapshots/multistep-fit-audit-a783bbabf73c.json",
+      "file_sha256": "71773d2d78b8ca1de470302220112b689594674c9203ea065ded2e011ab163f0",
+      "canonical_source_map_sha256": "a783bbabf73c547799b94bd8335ad0e3eee246fa7e72ab5124de2f2305ddb21b",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 10,
+      "source_categories": {
+        "current_source": 8,
+        "preserved_correction_fixture": 0,
+        "embedded_historical_version": 2
+      }
+    },
+    {
+      "path": "reports/source-snapshots/multistep-fit-dc9b74c174ca.json",
+      "file_sha256": "0cb638cb1de76525fe69f6d9002aa76b55522262dc6f9b108cf262636816b0a5",
+      "canonical_source_map_sha256": "dc9b74c174ca508f263fdd6b73b7318db2b46ed119668281cd9e51773a92c4da",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 8,
+      "source_categories": {
+        "current_source": 7,
+        "preserved_correction_fixture": 0,
+        "embedded_historical_version": 1
+      }
+    },
+    {
+      "path": "reports/source-snapshots/nominal-replay-15ecee307ea6.json",
+      "file_sha256": "082c672c6ae31855c1d56ad02c4e2dfdde09a4f2e7380c520ff1e1adac16dd91",
+      "canonical_source_map_sha256": "15ecee307ea68a1611f7e29b5ce16c8dd3646784c12cbc1ba35887905a8f446f",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 12,
+      "source_categories": {
+        "current_source": 11,
+        "preserved_correction_fixture": 0,
+        "embedded_historical_version": 1
+      }
+    },
+    {
+      "path": "reports/source-snapshots/random-calibration-d6495cfe02aa.json",
+      "file_sha256": "6d2adcd75aba83e538de048a6f8cd9223c994f78d9ad3b3020377dd82eeaea6d",
+      "canonical_source_map_sha256": "d6495cfe02aadfccfc3c947772b242f1d672583e2f5571c308f749bf6ff0b9b3",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 69,
+      "source_categories": {
+        "current_source": 59,
+        "preserved_correction_fixture": 5,
+        "embedded_historical_version": 5
+      }
+    },
+    {
+      "path": "reports/source-snapshots/supplementary-calibration-68edad5c7113cb6d.json",
+      "file_sha256": "e698a1181dde09e4797c2ae7410492cd1c627c8eaab7ec468765f0182fadfac1",
+      "canonical_source_map_sha256": "68edad5c7113cb6d09663a86f3c465e0293d9625475e7c8f82999e39646dc531",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 92,
+      "source_categories": {
+        "current_source": 83,
+        "preserved_correction_fixture": 9,
+        "embedded_historical_version": 0
+      }
+    },
+    {
+      "path": "reports/source-snapshots/supplementary-final-9a4cb36c39c2419e.json",
+      "file_sha256": "bdc7bdd7e836dacde67037f8b4500ef8d775f66b459c761674d34dc0814a386d",
+      "canonical_source_map_sha256": "9a4cb36c39c2419e034a088daa1a6622c6bec84f45f443a5ecb69e2a35b8f4d1",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 94,
+      "source_categories": {
+        "current_source": 85,
+        "preserved_correction_fixture": 9,
+        "embedded_historical_version": 0
+      }
+    },
+    {
+      "path": "reports/source-snapshots/supplementary-fit-cohort-287d52d00557d282.json",
+      "file_sha256": "4ce94a431fd8e4cd5705678f103117f4043accaf46cad98624b16e7db4b3f084",
+      "canonical_source_map_sha256": "287d52d00557d282db992afca78bd4b29413c26dfb7bbde9913f5a69ee8770ca",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 2,
+      "source_categories": {
+        "current_source": 2,
+        "preserved_correction_fixture": 0,
+        "embedded_historical_version": 0
+      }
+    },
+    {
+      "path": "reports/source-snapshots/supplementary-heads-5d9fae59fec2dbbf.json",
+      "file_sha256": "f4ada818eab76c37149696d81159ae9134fdddc4c6b060d4f4e5f24c06e2af83",
+      "canonical_source_map_sha256": "5d9fae59fec2dbbfeafa086f78d98e16347ff7c3a020fb22cc43c89b5f5a3e5a",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 90,
+      "source_categories": {
+        "current_source": 82,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 0
+      }
+    },
+    {
+      "path": "reports/source-snapshots/supplementary-output-audit-b13ad5a974bf901f.json",
+      "file_sha256": "779cec0e05e729ce02e90cc0c96b5d098c9c4daf1e8cc2a6155b4e136153c3a5",
+      "canonical_source_map_sha256": "b13ad5a974bf901f14991a8fe04f8ad99cd42074b710b005118c479b1186a647",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 3,
+      "source_categories": {
+        "current_source": 2,
+        "preserved_correction_fixture": 1,
+        "embedded_historical_version": 0
+      }
+    },
+    {
+      "path": "reports/source-snapshots/supplementary-targets-53b74b1e479f0a1f.json",
+      "file_sha256": "7b632d53e114b15147cf04a44c5dbbfae752220abfe640851359c2df6f9cc2c3",
+      "canonical_source_map_sha256": "53b74b1e479f0a1fb83d3e33db428c906050870d1011e02155e756bc6f7f3758",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 2,
+      "source_categories": {
+        "current_source": 1,
+        "preserved_correction_fixture": 0,
+        "embedded_historical_version": 1
+      }
+    },
+    {
+      "path": "reports/source-snapshots/supplementary-validation-d36ae2269d0933a4.json",
+      "file_sha256": "6460cc7e04920e884b1ae1d1d0748470937a6633480e0789698ff8c3300fa352",
+      "canonical_source_map_sha256": "d36ae2269d0933a474bc6760547da594899e00ee2753f569b7d2c33fa27bf24d",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 5,
+      "source_categories": {
+        "current_source": 0,
+        "preserved_correction_fixture": 0,
+        "embedded_historical_version": 5
+      }
+    },
+    {
+      "path": "reports/source-snapshots/trajectory-final-008e1d7a132aabdb.json",
+      "file_sha256": "9a9c635d48a2f6c333d2c62a68a8ad27bb4326a2e4b93df72306d6d6068341aa",
+      "canonical_source_map_sha256": "008e1d7a132aabdb0479b8f6a6ab5cf7e9bb09f028d219b6f496b11d1658a5f0",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 91,
+      "source_categories": {
+        "current_source": 83,
+        "preserved_correction_fixture": 8,
+        "embedded_historical_version": 0
+      }
+    },
+    {
+      "path": "reports/source-snapshots/weighted-events-15700c304db4d15e.json",
+      "file_sha256": "148b4ef79d17da6e65c7270ccf89adab46e924e56f6de63b00e0ea7d4c4a89b7",
+      "canonical_source_map_sha256": "15700c304db4d15e8c44768ff35ef5b68df46405694853041e272bbf81cc745b",
+      "filename_contains_canonical_prefix": true,
+      "python_sources": 1,
+      "source_categories": {
+        "current_source": 1,
+        "preserved_correction_fixture": 0,
+        "embedded_historical_version": 0
+      }
+    }
+  ]
+}

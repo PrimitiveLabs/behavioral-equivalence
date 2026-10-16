@@ -1,0 +1,65 @@
+{
+  "schema_version": "environment-diversity-exploratory-v1",
+  "frozen_at": "2026-10-16T00:14:10.603493+00:00",
+  "phase": "Exploratory controlled ablation after original synthetic intervention results; before final human predictive scores",
+  "families": [
+    "preference",
+    "belief",
+    "trust",
+    "patience",
+    "memory"
+  ],
+  "sizes": [
+    32,
+    128
+  ],
+  "seeds": [
+    40000,
+    40001,
+    40002,
+    40003,
+    40004,
+    40005,
+    40006,
+    40007,
+    40008,
+    40009
+  ],
+  "surfaces": [
+    "linear",
+    "localized",
+    "oscillatory",
+    "negative_control"
+  ],
+  "spans": [
+    "narrow",
+    "medium",
+    "broad"
+  ],
+  "nonneutral_query_budget": 8,
+  "shared_neutral_model": true,
+  "horizon": 10,
+  "heldout": "Original fixed16point catalogue, common across spans; conditional on this fixed evaluation set",
+  "controls": [
+    "unchanged",
+    "targeted",
+    "random_capacity",
+    "all_observed",
+    "identity"
+  ],
+  "expected_worlds": 400,
+  "expected_metric_rows": 96000,
+  "expected_targeted_certificates": 19200,
+  "primary_descriptive_contrast": "Broad minus narrow held-out mean initial completion error, paired worlds; report identity separately to isolate environment-learning effects",
+  "analysis": "Descriptive paired10seed-cluster bootstrap,5000replications,seed20261015; all surfaces/control strata and negative controls retained; no confirmatory p-value claim",
+  "resource_budget": {
+    "ceiling_usd": 8,
+    "worker_cpu": 1,
+    "worker_memory_gib": 4,
+    "worker_timeout_seconds": 600,
+    "max_containers": 4,
+    "coordinator_timeout_seconds": 3600,
+    "reservation_full_usd": 5.806772
+  },
+  "scope": "Synthetic only. Certificates apply to estimated interpolated kernels, not to learning error or human behavior."
+}

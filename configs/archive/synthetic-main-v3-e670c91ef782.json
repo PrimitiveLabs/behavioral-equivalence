@@ -1,0 +1,94 @@
+{
+  "schema_version": "0.1",
+  "phase": "engineering_smoke",
+  "generator_revision": "mechanism-parameterized-v3",
+  "families": [
+    "belief"
+  ],
+  "sizes": [
+    32
+  ],
+  "perturbations": [
+    0.01
+  ],
+  "seeds": [
+    9999
+  ],
+  "horizons": [
+    5,
+    10,
+    25,
+    50
+  ],
+  "predictive_feature_horizons": [
+    1,
+    5,
+    10,
+    25
+  ],
+  "epsilon_grid": [
+    0.005,
+    0.01,
+    0.03
+  ],
+  "state_divisors": [
+    8,
+    4,
+    2
+  ],
+  "expected_worlds": 1,
+  "expected_method_variants_per_world": 22,
+  "numerical_tolerance": 1e-10,
+  "independent_check": {
+    "backend": "PRISM 4.11 explicit",
+    "targets": [
+      "complete",
+      "disengage"
+    ],
+    "horizon": 50,
+    "state": 0,
+    "models": "original and every reduced model"
+  },
+  "source_files": [
+    "__init__.py",
+    "benchmark.py",
+    "budget.py",
+    "clustering.py",
+    "core.py",
+    "prism.py",
+    "rational.py",
+    "synthetic.py",
+    "uncertainty.py"
+  ],
+  "resource_budget": {
+    "compute_allowance_usd": 25,
+    "scope": "this synthetic batch only; overall programme budget remains unspecified",
+    "rates_source": "https://modal.com/pricing",
+    "rates_checked_at": "2026-10-15",
+    "rates_per_second": {
+      "cpu_core": 1.31e-05,
+      "memory_gib": 2.22e-06
+    },
+    "worker": {
+      "timeout_seconds": 180,
+      "cpu_cores": 2,
+      "memory_gib": 2
+    },
+    "coordinator": {
+      "timeout_seconds": 86400,
+      "cpu_cores": 0.5,
+      "memory_gib": 1
+    },
+    "startup_buffer_usd": 2
+  },
+  "freeze_at": "2026-10-15T16:27:07.659728+00:00",
+  "limitations": [
+    "numerical checks do not constitute general floating-point soundness",
+    "feature embedding uses supplied generator features, not a learned encoder",
+    "memory is process high-water RSS, not isolated per-method memory",
+    "human confirmation and intervention claims are separate"
+  ],
+  "source_digest": "91dce15715da5f8d167a4e01f272b8c673a5cc6574b88729445eadddec50023a",
+  "protocol_digest": "e670c91ef782ee1fbd99f85c69fd12e25add09c2ffc1b362883e18a9b5fe1274",
+  "campaign_id": "synthetic-main-v3-e670c91ef782"
+}

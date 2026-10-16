@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "chunk_digest": "d83570cc2df456773626b18b48ca4a815d4b2101e1d0e7d09a5f018b32e5fe58",
+  "report_sha256": "17dca69d90a06346e784bd96237454f817dcd00dfe15ae827bc6a9b4579811c9",
+  "verified_datasets": 2,
+  "verified_method_support_evaluations": 8,
+  "wall_seconds": 8.23260398,
+  "scope": "Source-bound replay with the original certified arithmetic, not an independent mathematical implementation",
+  "replay_source_digest": "0c72c9bd01f19b9a920d5af19e16180fdc70e1dfb8ced0588c50ef7d42ddcde2"
+}

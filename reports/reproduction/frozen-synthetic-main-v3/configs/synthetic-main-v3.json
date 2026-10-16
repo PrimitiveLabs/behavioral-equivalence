@@ -1,0 +1,122 @@
+{
+  "schema_version": "0.1",
+  "phase": "frozen_synthetic_benchmark",
+  "generator_revision": "mechanism-parameterized-v3",
+  "families": [
+    "preference",
+    "belief",
+    "trust",
+    "patience",
+    "memory"
+  ],
+  "sizes": [
+    32,
+    128,
+    512
+  ],
+  "perturbations": [
+    0,
+    0.005,
+    0.01,
+    0.03
+  ],
+  "seeds": [
+    10000,
+    10001,
+    10002,
+    10003,
+    10004,
+    10005,
+    10006,
+    10007,
+    10008,
+    10009,
+    10010,
+    10011,
+    10012,
+    10013,
+    10014,
+    10015,
+    10016,
+    10017,
+    10018,
+    10019
+  ],
+  "horizons": [
+    5,
+    10,
+    25,
+    50
+  ],
+  "predictive_feature_horizons": [
+    1,
+    5,
+    10,
+    25
+  ],
+  "epsilon_grid": [
+    0.005,
+    0.01,
+    0.03
+  ],
+  "state_divisors": [
+    8,
+    4,
+    2
+  ],
+  "expected_worlds": 1200,
+  "expected_method_variants_per_world": 22,
+  "numerical_tolerance": 1e-10,
+  "independent_check": {
+    "backend": "PRISM 4.11 explicit",
+    "targets": [
+      "complete",
+      "disengage"
+    ],
+    "horizon": 50,
+    "state": 0,
+    "models": "original and every reduced model"
+  },
+  "source_files": [
+    "__init__.py",
+    "benchmark.py",
+    "budget.py",
+    "clustering.py",
+    "core.py",
+    "prism.py",
+    "rational.py",
+    "synthetic.py",
+    "uncertainty.py"
+  ],
+  "resource_budget": {
+    "compute_allowance_usd": 25,
+    "scope": "this synthetic batch only; overall programme budget remains unspecified",
+    "rates_source": "https://modal.com/pricing",
+    "rates_checked_at": "2026-10-15",
+    "rates_per_second": {
+      "cpu_core": 1.31e-05,
+      "memory_gib": 2.22e-06
+    },
+    "worker": {
+      "timeout_seconds": 180,
+      "cpu_cores": 2,
+      "memory_gib": 2
+    },
+    "coordinator": {
+      "timeout_seconds": 86400,
+      "cpu_cores": 0.5,
+      "memory_gib": 1
+    },
+    "startup_buffer_usd": 2
+  },
+  "freeze_at": "2026-10-15T16:36:25.801574+00:00",
+  "limitations": [
+    "numerical checks do not constitute general floating-point soundness",
+    "feature embedding uses supplied generator features, not a learned encoder",
+    "memory is process high-water RSS, not isolated per-method memory",
+    "human confirmation and intervention claims are separate"
+  ],
+  "source_digest": "efb1f2efdad610e42c84d6e1ff786df54e4674510ffdba1a8b628cc739ff1089",
+  "protocol_digest": "d9f1fdcc7c355f047b4b5a1128b0ae88d0ca56d873d0996e52d0364516ebbbec",
+  "campaign_id": "synthetic-main-v3-d9f1fdcc7c35"
+}

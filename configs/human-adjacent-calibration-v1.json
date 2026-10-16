@@ -1,0 +1,20 @@
+{
+  "schema_version": "human-adjacent-calibration-v1",
+  "prepared_root": "datasets/kuairand-27k/prepared-candidate-v2",
+  "prepared_report_sha256": "f94f6807749dcfa8b98df4329f3102081d057f90ec96aee6129cc03f030492fd",
+  "independent_audit_sha256": "0176129f335c54fb3589e8149cea335f14edc903dee777bcd760a7fc4336d26d",
+  "calendar": {
+    "train_end": 1651190400000,
+    "validation_end": 1651449600000,
+    "calibration_end": 1651708800000
+  },
+  "embargo_hours": 24,
+  "origin_cap_per_user": 64,
+  "origin_seed": 20261020,
+  "representative_seed_base": 20261021,
+  "metadata_root": "datasets/kuairand-27k/item-metadata-v1-14656b2136c2c3d0",
+  "metadata_report_sha256": "3bc4cd805d7d510c0eeb981368d68d33bec0c20441dab597f088a6d16e644548",
+  "query_history": "Complete available bundle histories, not sampled-case adjacency; 32 tokens",
+  "selection": "Uniform one exposure per complete timestamp bundle; uniform at-most-64 adjacent eligible calibration origins per user. No outcomes enter either draw.",
+  "scope": "Private calibration input construction; no test predictions or confidence guarantees about humans"
+}

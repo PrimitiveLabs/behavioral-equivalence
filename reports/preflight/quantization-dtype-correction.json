@@ -1,0 +1,25 @@
+{
+  "status": "verified_local_correction",
+  "change": "Explicit float64 dtype on emission fallback output buffer",
+  "old_quantization_sha256": "79be6782bfe31d0ae16b6998a7b9b5bf1c757b33612504da0143f98af71c95ec",
+  "new_quantization_sha256": "5fd79f3e62aff0c6c86c1aab1c9d65f6367fb8a86642f2259b01e01a9778bbee",
+  "ast_change_exactly_dtype_keyword": true,
+  "frozen_source_matches_cloud_archive_and_four_final_human_snapshots": true,
+  "frozen_snapshots": [
+    "reports/source-snapshots/final-one_step-8321be2e57203ca0.json",
+    "reports/source-snapshots/final-direct_horizon-d4984c93acbe0b14.json",
+    "reports/source-snapshots/final-response_all_groups-083dfc60f47ea65a.json",
+    "reports/source-snapshots/final-response_heldout_groups-f7115561ad28a03b.json"
+  ],
+  "regression_before_fix": {
+    "failed": 2,
+    "passed": 62,
+    "failures": "Integer 0 and 1 fallbacks raise NumPy UFuncOutputCastingError before producing predictions."
+  },
+  "historical_call_sites": {
+    "cloud/quantize_calendar.py": "teacher_total starts at 0.0, adds float(teacher.sum()), then divides by integer n, producing Python float",
+    "cloud/fit_history_states.py": "Explicit float(teacher.mean())"
+  },
+  "float_caller_compatibility": "60 deterministic randomized fixtures with Python float fallbacks 0.0, 0.4 and 1.0 produce identical float64 arrays before and after. Dtype inference already selects float64 for those caller inputs.",
+  "scope": "No historical output mutation or retraining. Generic integer fallback correction needs its own release validation. Restore the archived quantization module in an isolated tree for frozen source-bound human controllers."
+}

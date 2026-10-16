@@ -1,0 +1,38 @@
+{
+  "prepared_root": "datasets/kuairand-27k/prepared-candidate-v2",
+  "prepared_report_sha256": "f94f6807749dcfa8b98df4329f3102081d057f90ec96aee6129cc03f030492fd",
+  "independent_audit_sha256": "0176129f335c54fb3589e8149cea335f14edc903dee777bcd760a7fc4336d26d",
+  "calendar": {
+    "train_end": 1651190400000,
+    "validation_end": 1651449600000,
+    "calibration_end": 1651708800000
+  },
+  "embargo_hours": 24,
+  "metadata_root": "datasets/kuairand-27k/item-metadata-v1-14656b2136c2c3d0",
+  "metadata_report_sha256": "3bc4cd805d7d510c0eeb981368d68d33bec0c20441dab597f088a6d16e644548",
+  "protocols": [
+    "known_users",
+    "unseen_users"
+  ],
+  "schema_version": "human-randomized-cohort-v1",
+  "phase": "candidate input construction before final intervention predictive scores",
+  "selection": "All randomized physical exposure rows, retaining concurrent exposures and unavailable-role rows for audit; no target values enter selection.",
+  "duration_boundaries_ms": [
+    7000,
+    18000,
+    60000
+  ],
+  "unknown_duration_group": 4,
+  "environment_rule": "5*recorded_scenario+duration_group; unknown duration retained but not admissible for active search; scenario is a conditioning stratum.",
+  "current_random_flag": "Cohort selector only, never a predictor or estimated propensity",
+  "scope": "Observed random-exposure responses in the released cohort; no population causal effect, arbitrary interface effect or multistep counterfactual claim.",
+  "resource_budget": {
+    "campaign_allowance_usd": 2,
+    "worker_cpu": 2,
+    "worker_memory_gib": 8,
+    "worker_timeout_seconds": 600,
+    "coordinator_timeout_seconds": 3600,
+    "max_workers": 4,
+    "scope": "Smoke/full timeout and startup reservations; not provider-enforced billing cap"
+  }
+}

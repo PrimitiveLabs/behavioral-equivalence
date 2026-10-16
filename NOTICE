@@ -1,0 +1,8 @@
+Primitive Labs Behavioral Equivalence Under Uncertainty
+Research protocol and implementation, 2026.
+
+Human dataset attribution: Gao et al. (2022), KuaiRand: An Unbiased Sequential Recommendation Dataset with Randomly Exposed Videos. DOI: 10.1145/3511808.3557624. Dataset-specific terms are recorded in data/license-register.json and data/rights/. No raw human data or trained weights are included in the release package.
+
+Mathematical foundations include probabilistic bisimulation, approximate trace preservation, computational mechanics, predictive state representations and confidence-set methods. See spec/literature.md and spec/theory-comparison.md. The finite-horizon bound is established prior work, not a claimed new theorem.
+
+PRISM is an external verification dependency. Its binary is downloaded from the official release and checksum-pinned during cloud builds; it is not redistributed as project source. Third-party Python, Lean and mathlib dependencies retain their own licenses. The source archive does not grant rights to separately obtained datasets or dependencies.

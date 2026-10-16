@@ -1,0 +1,357 @@
+{
+  "status": "complete",
+  "scope": "Outcome-free joint support in both disjoint calibration subsets; fixed thresholds50users/2000cases. Not predictive transfer.",
+  "source_checkpoint_sha256": "304f82d4970d133c02626eaffdfb29080e3f61bc787feb2f8e665f6a93c0a9d5",
+  "rows": [
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "parent_states": 16,
+      "supported_state_environment_cells": 17,
+      "supported_within_initial_block_pairs": 24
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "parent_states": 32,
+      "supported_state_environment_cells": 11,
+      "supported_within_initial_block_pairs": 6
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "parent_states": 64,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "parent_states": 128,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "parent_states": 256,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "parent_states": 16,
+      "supported_state_environment_cells": 17,
+      "supported_within_initial_block_pairs": 24
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "parent_states": 32,
+      "supported_state_environment_cells": 9,
+      "supported_within_initial_block_pairs": 6
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "parent_states": 64,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "parent_states": 128,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "parent_states": 256,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "parent_states": 16,
+      "supported_state_environment_cells": 17,
+      "supported_within_initial_block_pairs": 24
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "parent_states": 32,
+      "supported_state_environment_cells": 8,
+      "supported_within_initial_block_pairs": 4
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "parent_states": 64,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "parent_states": 128,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "parent_states": 256,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "parent_states": 16,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "parent_states": 32,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "parent_states": 64,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "parent_states": 128,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "parent_states": 256,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "parent_states": 16,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "parent_states": 32,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "parent_states": 64,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "parent_states": 128,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "parent_states": 256,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "parent_states": 16,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "parent_states": 32,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "parent_states": 64,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "parent_states": 128,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "parent_states": 256,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "parent_states": 16,
+      "supported_state_environment_cells": 15,
+      "supported_within_initial_block_pairs": 21
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "parent_states": 32,
+      "supported_state_environment_cells": 10,
+      "supported_within_initial_block_pairs": 7
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "parent_states": 64,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "parent_states": 128,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "parent_states": 256,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "parent_states": 16,
+      "supported_state_environment_cells": 17,
+      "supported_within_initial_block_pairs": 24
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "parent_states": 32,
+      "supported_state_environment_cells": 10,
+      "supported_within_initial_block_pairs": 9
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "parent_states": 64,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "parent_states": 128,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "parent_states": 256,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "parent_states": 16,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "parent_states": 32,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "parent_states": 64,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "parent_states": 128,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "parent_states": 256,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "parent_states": 16,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "parent_states": 32,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "parent_states": 64,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "parent_states": 128,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "parent_states": 256,
+      "supported_state_environment_cells": 0,
+      "supported_within_initial_block_pairs": 0
+    }
+  ]
+}

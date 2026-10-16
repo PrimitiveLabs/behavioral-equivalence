@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "source_digest": "d36ae2269d0933a474bc6760547da594899e00ee2753f569b7d2c33fa27bf24d",
+  "returncode": 0,
+  "stdout": ".........................                                                [100%]\n25 passed in 1.58s\n",
+  "stderr": "",
+  "wall_seconds": 2.1062177689999997,
+  "scope": "Pinned implementation tests, including fitting absent categories and missing labels. No human data, model inference API or human model training."
+}

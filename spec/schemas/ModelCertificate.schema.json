@@ -1,0 +1,117 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "0.1",
+      "default": "0.1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "concrete_digest": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Concrete Digest",
+      "type": "string"
+    },
+    "abstract_digest": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Abstract Digest",
+      "type": "string"
+    },
+    "partition": {
+      "items": {
+        "items": {
+          "type": "integer"
+        },
+        "type": "array"
+      },
+      "title": "Partition",
+      "type": "array"
+    },
+    "target_label": {
+      "minLength": 1,
+      "title": "Target Label",
+      "type": "string"
+    },
+    "horizon": {
+      "minimum": 0,
+      "title": "Horizon",
+      "type": "integer"
+    },
+    "epsilon_upper": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Epsilon Upper",
+      "type": "number"
+    },
+    "initial_mismatch_upper": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Initial Mismatch Upper",
+      "type": "number"
+    },
+    "uncertainty_semantics": {
+      "enum": [
+        "none",
+        "row_rectangular_per_step",
+        "fixed_kernel"
+      ],
+      "title": "Uncertainty Semantics",
+      "type": "string"
+    },
+    "nominal_lower": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Nominal Lower",
+      "type": "number"
+    },
+    "nominal_upper": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Nominal Upper",
+      "type": "number"
+    },
+    "numeric_status": {
+      "enum": [
+        "exact_rational",
+        "outward_rounded",
+        "engineering_tolerance_only"
+      ],
+      "title": "Numeric Status",
+      "type": "string"
+    },
+    "numeric_allowance": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Numeric Allowance",
+      "type": "number"
+    },
+    "proof_revision": {
+      "minLength": 1,
+      "title": "Proof Revision",
+      "type": "string"
+    },
+    "scope": {
+      "const": "specified_model_only",
+      "default": "specified_model_only",
+      "title": "Scope",
+      "type": "string"
+    }
+  },
+  "required": [
+    "concrete_digest",
+    "abstract_digest",
+    "partition",
+    "target_label",
+    "horizon",
+    "epsilon_upper",
+    "initial_mismatch_upper",
+    "uncertainty_semantics",
+    "nominal_lower",
+    "nominal_upper",
+    "numeric_status",
+    "numeric_allowance",
+    "proof_revision"
+  ],
+  "title": "ModelCertificate",
+  "type": "object"
+}

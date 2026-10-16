@@ -1,0 +1,56 @@
+{
+  "status": "complete_with_optional_skips",
+  "scope": "Expanded full local suite against unchanged dtype-corrected installed wheel; not a fresh cloud run or repeat scientific campaign",
+  "wheel_sha256": "cf98aaac676e1ba15055daee1f1a3eb38215cf2b5509a88622a0fe57116f55e9",
+  "all_wheel_python_modules_match_current_source": true,
+  "module_count": 88,
+  "added_test": "tests/test_synthetic_diversity_boundaries.py",
+  "added_test_sha256": "df1321f90174917f67b6a6a4e0c91b9255b521a1a12a10cdf60f5e2d5fa9506d",
+  "added_tests_passed": 39,
+  "full_tests_passed": 1057,
+  "full_tests_skipped": 8,
+  "installed_wheel_import_verified": true,
+  "dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pydantic": "2.11.7",
+    "pytest": "8.4.1"
+  },
+  "additional_dependency_versions": {
+    "polars": "1.31.0"
+  },
+  "checks": [
+    {
+      "command": [
+        "/Users/rohittalluri/projects/behavioral-equivalence/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error",
+        "-o",
+        "pythonpath=",
+        "tests/test_synthetic_diversity_boundaries.py"
+      ],
+      "stdout": ".......................................                                  [100%]\n39 passed in 0.18s\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/Users/rohittalluri/projects/behavioral-equivalence/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error",
+        "-o",
+        "pythonpath=",
+        "tests"
+      ],
+      "stdout": "........................................................................ [  6%]\n........................................................................ [ 13%]\n........................................................................ [ 20%]\n........................................................................ [ 27%]\n........................................................................ [ 33%]\n....................................................................ss.. [ 40%]\n........................................................................ [ 47%]\n........................................................................ [ 54%]\n........................................................................ [ 61%]\n........................................................................ [ 67%]\n........................................................................ [ 74%]\n........................................................................ [ 81%]\n.................................................................ss..... [ 88%]\n........................................................................ [ 95%]\n.....................................................                    [100%]\n1057 passed, 8 skipped in 4.73s\n",
+      "stderr": "",
+      "returncode": 0
+    }
+  ]
+}

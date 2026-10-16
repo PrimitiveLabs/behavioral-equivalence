@@ -1,0 +1,8 @@
+{
+  "observed_at": "2026-10-16T09:27:45.402819+00:00",
+  "intended_repository": "PrimitiveLabs/behavioral-equivalence",
+  "local_remote_configured": false,
+  "read_only_lookup": "Could not resolve to a Repository with the name PrimitiveLabs/behavioral-equivalence",
+  "repository_created": false,
+  "scope": "Lookup result is not proof that no inaccessible repository exists. No publication mutation performed; final QA acceptance remains required."
+}

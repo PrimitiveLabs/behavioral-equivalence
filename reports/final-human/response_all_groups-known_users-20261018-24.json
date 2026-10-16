@@ -1,0 +1,5301 @@
+{
+  "status": "complete",
+  "source_digest": "083dfc60f47ea65a01d7b34d7482b6ebf75b6b7f292d35938f4edfcf1be10203",
+  "analysis_freeze_digest": "f9a6e08093f0ee4b94afe40397dcbbf84e2cbd6866256954f6aeb3ffde873afa",
+  "phase": "response_all_groups",
+  "seed": 20261018,
+  "protocol": "known_users",
+  "cases": 375340,
+  "users": 23284,
+  "ordered_case_id_sha256": "4831e001139d26eaffeb406dab8dbae560866981a65d40a8c10bde084ba860f6",
+  "primary_candidate": "targeted-b8",
+  "primary_reference": "random_capacity-b8",
+  "metrics": {
+    "aggregate/markov": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.7248565877415317,
+      "brier_case_mean": 0.2655901677916222,
+      "nll_equal_user_mean": 0.7230927321086258,
+      "brier_equal_user_mean": 0.26499246844280083,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 1703,
+          "users": 190,
+          "equal_user_weight": 0.007591668008174976,
+          "predicted": 0.003243444459702003,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 11,
+          "users": 3,
+          "equal_user_weight": 3.4971355851459805e-05,
+          "predicted": 0.08333333333333333,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 8,
+          "users": 2,
+          "equal_user_weight": 3.0634200020903335e-05,
+          "predicted": 0.11111111111111109,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 21,
+          "users": 5,
+          "equal_user_weight": 5.801663146950022e-05,
+          "predicted": 0.25,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 8,
+          "users": 2,
+          "equal_user_weight": 5.406035297806472e-06,
+          "predicted": 0.33333333333333326,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 13540,
+          "users": 4657,
+          "equal_user_weight": 0.0339470899166083,
+          "predicted": 0.3984963776640424,
+          "observed": 0.12089486178291746
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 7953,
+          "users": 2877,
+          "equal_user_weight": 0.021276421203772287,
+          "predicted": 0.4319741363398619,
+          "observed": 0.11957972715268031
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 154949,
+          "users": 18171,
+          "equal_user_weight": 0.41461433373752404,
+          "predicted": 0.45570395415515375,
+          "observed": 0.14533878343252735
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 55352,
+          "users": 12047,
+          "equal_user_weight": 0.1425468263962518,
+          "predicted": 0.5273944797125649,
+          "observed": 0.1792719812847794
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 39040,
+          "users": 9689,
+          "equal_user_weight": 0.09904965997420831,
+          "predicted": 0.5843616143875422,
+          "observed": 0.20407931590245645
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 89570,
+          "users": 14542,
+          "equal_user_weight": 0.24813225924812854,
+          "predicted": 0.6331320323653686,
+          "observed": 0.25218473145550707
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 12819,
+          "users": 4861,
+          "equal_user_weight": 0.03178289471289,
+          "predicted": 0.6605344964989444,
+          "observed": 0.26130114205692717
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 366,
+          "users": 254,
+          "equal_user_weight": 0.0009298185798021144,
+          "predicted": 0.7023157150433093,
+          "observed": 0.2573917912619669
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/context": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.7643647873688939,
+      "brier_case_mean": 0.2853447646269466,
+      "nll_equal_user_mean": 0.7629499001938597,
+      "brier_equal_user_mean": 0.28488712086931944,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 1751,
+          "users": 190,
+          "equal_user_weight": 0.007720696230814646,
+          "predicted": 0.0006026376057971579,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 63,
+          "users": 63,
+          "equal_user_weight": 0.00017222469133525227,
+          "predicted": 0.16030921041965485,
+          "observed": 0.12881661257924581
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 197,
+          "users": 194,
+          "equal_user_weight": 0.0004845427882297559,
+          "predicted": 0.21016730731990896,
+          "observed": 0.050038598165679814
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 474,
+          "users": 456,
+          "equal_user_weight": 0.0013379683283621434,
+          "predicted": 0.2713318103650005,
+          "observed": 0.14663006630345024
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 581,
+          "users": 567,
+          "equal_user_weight": 0.0016798296150413385,
+          "predicted": 0.3219516625365473,
+          "observed": 0.24272184195526608
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 898,
+          "users": 864,
+          "equal_user_weight": 0.0025851466336901247,
+          "predicted": 0.377701406874926,
+          "observed": 0.16699320430800657
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 1610,
+          "users": 1484,
+          "equal_user_weight": 0.0043729490595911195,
+          "predicted": 0.4282998636499836,
+          "observed": 0.22413515879351215
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 61551,
+          "users": 16708,
+          "equal_user_weight": 0.16369191853757764,
+          "predicted": 0.47946411865447486,
+          "observed": 0.17860576814203266
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 74977,
+          "users": 17655,
+          "equal_user_weight": 0.1983335729289247,
+          "predicted": 0.5269880529331409,
+          "observed": 0.18333347814184542
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 207471,
+          "users": 21774,
+          "equal_user_weight": 0.549672711266879,
+          "predicted": 0.5710636305295175,
+          "observed": 0.1784543263572512
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 10147,
+          "users": 6734,
+          "equal_user_weight": 0.027662918657576762,
+          "predicted": 0.6258123446833134,
+          "observed": 0.2596220254938372
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 8622,
+          "users": 5975,
+          "equal_user_weight": 0.0232818934622776,
+          "predicted": 0.6718964755399912,
+          "observed": 0.26481566365726183
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 5214,
+          "users": 4101,
+          "equal_user_weight": 0.014039755678454521,
+          "predicted": 0.721492440373835,
+          "observed": 0.2518733930009287
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 1425,
+          "users": 1325,
+          "equal_user_weight": 0.003950926382466101,
+          "predicted": 0.7708628892187128,
+          "observed": 0.23301435475023408
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 359,
+          "users": 350,
+          "equal_user_weight": 0.0010129457387793458,
+          "predicted": 0.8238538058736354,
+          "observed": 0.2374298684364107
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/gru": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.7100610469185996,
+      "brier_case_mean": 0.2566727657809003,
+      "nll_equal_user_mean": 0.7125606675224994,
+      "brier_equal_user_mean": 0.2578270931337989,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 1771,
+          "users": 210,
+          "equal_user_weight": 0.007773591464923494,
+          "predicted": 0.00046235139680120984,
+          "observed": 3.7584031355357375e-05
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 137,
+          "users": 108,
+          "equal_user_weight": 0.0003088260271049869,
+          "predicted": 0.08387933389079717,
+          "observed": 0.05712234286155109
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 1900,
+          "users": 639,
+          "equal_user_weight": 0.0047045054309192555,
+          "predicted": 0.13185593737236212,
+          "observed": 0.02302967956780254
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 5958,
+          "users": 1681,
+          "equal_user_weight": 0.014293631081223805,
+          "predicted": 0.1786670166928427,
+          "observed": 0.03991233054324653
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 12258,
+          "users": 3218,
+          "equal_user_weight": 0.030896290313086026,
+          "predicted": 0.22795482119867305,
+          "observed": 0.050403008612543695
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 19525,
+          "users": 5002,
+          "equal_user_weight": 0.0511137185630803,
+          "predicted": 0.2767179301197279,
+          "observed": 0.06391328794361614
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 26205,
+          "users": 6632,
+          "equal_user_weight": 0.06822665251101562,
+          "predicted": 0.32631297593042674,
+          "observed": 0.07842738897025135
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 31955,
+          "users": 8188,
+          "equal_user_weight": 0.08618817707748018,
+          "predicted": 0.37538134400300077,
+          "observed": 0.09764071982051939
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 35372,
+          "users": 9189,
+          "equal_user_weight": 0.0948730343636734,
+          "predicted": 0.42558156283973125,
+          "observed": 0.12315929347832304
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 37838,
+          "users": 9665,
+          "equal_user_weight": 0.10021057105310899,
+          "predicted": 0.47498952748424694,
+          "observed": 0.1425527736073112
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 37914,
+          "users": 9776,
+          "equal_user_weight": 0.09862956570407744,
+          "predicted": 0.5249215813793796,
+          "observed": 0.1697423505166202
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 37242,
+          "users": 9572,
+          "equal_user_weight": 0.0971787679774132,
+          "predicted": 0.5749272916085015,
+          "observed": 0.19577994897393308
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 36081,
+          "users": 9108,
+          "equal_user_weight": 0.0947149631281105,
+          "predicted": 0.6245524746808938,
+          "observed": 0.22984255890118355
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 32415,
+          "users": 8122,
+          "equal_user_weight": 0.08656098211433022,
+          "predicted": 0.6748675172107669,
+          "observed": 0.270128094915487
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 27628,
+          "users": 6680,
+          "equal_user_weight": 0.07440723834852535,
+          "predicted": 0.7239670538630694,
+          "observed": 0.304570600015293
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 18793,
+          "users": 4727,
+          "equal_user_weight": 0.053172677349884324,
+          "predicted": 0.7733614841568117,
+          "observed": 0.3495359358609195
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 9219,
+          "users": 2785,
+          "equal_user_weight": 0.02689081502157023,
+          "predicted": 0.8215628276954883,
+          "observed": 0.41608644507235354
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 2879,
+          "users": 1181,
+          "equal_user_weight": 0.00898588312495441,
+          "predicted": 0.8687331154843931,
+          "observed": 0.5199266261396784
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 247,
+          "users": 202,
+          "equal_user_weight": 0.0008654195811768877,
+          "predicted": 0.9110579628451659,
+          "observed": 0.5845632838574606
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 3,
+          "users": 3,
+          "equal_user_weight": 4.689764341435369e-06,
+          "predicted": 0.9512798058434172,
+          "observed": 1.0
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/transformer": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.7166964366911577,
+      "brier_case_mean": 0.2595406018074862,
+      "nll_equal_user_mean": 0.7202045183615322,
+      "brier_equal_user_mean": 0.2611270961283062,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 1756,
+          "users": 195,
+          "equal_user_weight": 0.007740493927868452,
+          "predicted": 0.0005291685840441513,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 106,
+          "users": 103,
+          "equal_user_weight": 0.0002918446581261871,
+          "predicted": 0.08236225003380254,
+          "observed": 0.0040043618716515735
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 2209,
+          "users": 863,
+          "equal_user_weight": 0.005331526520596488,
+          "predicted": 0.13424517889339102,
+          "observed": 0.035574153402106845
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 8205,
+          "users": 2123,
+          "equal_user_weight": 0.019841851050024745,
+          "predicted": 0.17784299193978106,
+          "observed": 0.04068629709516988
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 14352,
+          "users": 3633,
+          "equal_user_weight": 0.03589757981200516,
+          "predicted": 0.22721377038319393,
+          "observed": 0.05849421651999956
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 20841,
+          "users": 5320,
+          "equal_user_weight": 0.05524217831884483,
+          "predicted": 0.2757007775008221,
+          "observed": 0.06621833227596655
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 26830,
+          "users": 6760,
+          "equal_user_weight": 0.07004684410134035,
+          "predicted": 0.32592949307557867,
+          "observed": 0.07617376857379918
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 30983,
+          "users": 8034,
+          "equal_user_weight": 0.08225077765593759,
+          "predicted": 0.3753558517677634,
+          "observed": 0.10545271279066401
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 32286,
+          "users": 8749,
+          "equal_user_weight": 0.08680666488088193,
+          "predicted": 0.4249881258020373,
+          "observed": 0.12022283197881366
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 33495,
+          "users": 9041,
+          "equal_user_weight": 0.08851337720772778,
+          "predicted": 0.4749123452250307,
+          "observed": 0.14289899217342006
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 34011,
+          "users": 9191,
+          "equal_user_weight": 0.08774150957762356,
+          "predicted": 0.5246601227388679,
+          "observed": 0.1683738418247308
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 34190,
+          "users": 9074,
+          "equal_user_weight": 0.08949019968777375,
+          "predicted": 0.5750385131964079,
+          "observed": 0.19013734979021488
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 34262,
+          "users": 8861,
+          "equal_user_weight": 0.09079666665474506,
+          "predicted": 0.6251507824060951,
+          "observed": 0.21820429342943284
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 33866,
+          "users": 8328,
+          "equal_user_weight": 0.08974804664597924,
+          "predicted": 0.6751615198247013,
+          "observed": 0.2573270739081049
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 30932,
+          "users": 7128,
+          "equal_user_weight": 0.08373084798346182,
+          "predicted": 0.7241750065537597,
+          "observed": 0.29962050357524767
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 22428,
+          "users": 5222,
+          "equal_user_weight": 0.06252745667091883,
+          "predicted": 0.7730719820894899,
+          "observed": 0.3374539939316014
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 11277,
+          "users": 3105,
+          "equal_user_weight": 0.03363646200707996,
+          "predicted": 0.8215828717525511,
+          "observed": 0.4058949640072037
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 3066,
+          "users": 1296,
+          "equal_user_weight": 0.009626603052684313,
+          "predicted": 0.8667025747615473,
+          "observed": 0.517268189337015
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 240,
+          "users": 209,
+          "equal_user_weight": 0.0007290944525559732,
+          "predicted": 0.9132895376566081,
+          "observed": 0.5765039462082425
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 5,
+          "users": 5,
+          "equal_user_weight": 9.975133823942113e-06,
+          "predicted": 0.953037988361333,
+          "observed": 1.0
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/unrefined": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.45332615334647985,
+      "brier_case_mean": 0.1430157708855016,
+      "nll_equal_user_mean": 0.45131053358951895,
+      "brier_equal_user_mean": 0.14223488384788505,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 367,
+          "users": 49,
+          "equal_user_weight": 0.0008742720805344455,
+          "predicted": 0.04032892151500355,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 74028,
+          "users": 8433,
+          "equal_user_weight": 0.20172251544603093,
+          "predicted": 0.08028255918813444,
+          "observed": 0.07899186755258561
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 103803,
+          "users": 12976,
+          "equal_user_weight": 0.27868421401050747,
+          "predicted": 0.13031432490852363,
+          "observed": 0.1284601129511546
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 51134,
+          "users": 9475,
+          "equal_user_weight": 0.13353213550153042,
+          "predicted": 0.18216747706338074,
+          "observed": 0.18502032010528313
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 52650,
+          "users": 8948,
+          "equal_user_weight": 0.13435901012241877,
+          "predicted": 0.21482827354763015,
+          "observed": 0.22085411395805843
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 55834,
+          "users": 8275,
+          "equal_user_weight": 0.1462150181283503,
+          "predicted": 0.2695825049780042,
+          "observed": 0.2730960098449129
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37507,
+          "users": 4941,
+          "equal_user_weight": 0.10455235648234093,
+          "predicted": 0.36704695667997883,
+          "observed": 0.3610723031688532
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/full_parent": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.45308388630602564,
+      "brier_case_mean": 0.14292134711021187,
+      "nll_equal_user_mean": 0.45106581648451116,
+      "brier_equal_user_mean": 0.1420935644186497,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 4776,
+          "users": 1228,
+          "equal_user_weight": 0.012993002851181087,
+          "predicted": 0.03649854509256674,
+          "observed": 0.04039719738397679
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 57212,
+          "users": 7806,
+          "equal_user_weight": 0.15466446189956196,
+          "predicted": 0.07703710445328267,
+          "observed": 0.07817287640687035
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 103827,
+          "users": 13795,
+          "equal_user_weight": 0.28061640656457465,
+          "predicted": 0.12427900546000743,
+          "observed": 0.12558513079264771
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 67597,
+          "users": 11950,
+          "equal_user_weight": 0.17285619683219766,
+          "predicted": 0.17011759584457375,
+          "observed": 0.1727340154566425
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 60279,
+          "users": 11047,
+          "equal_user_weight": 0.15650670960367474,
+          "predicted": 0.22677197339629487,
+          "observed": 0.22746591993582524
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 38711,
+          "users": 8386,
+          "equal_user_weight": 0.10373513197429521,
+          "predicted": 0.2775481644685149,
+          "observed": 0.2754989826536656
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 20990,
+          "users": 4994,
+          "equal_user_weight": 0.05628316987847976,
+          "predicted": 0.32644662094754184,
+          "observed": 0.32580190754016614
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 17080,
+          "users": 3834,
+          "equal_user_weight": 0.04724594544389165,
+          "predicted": 0.381115469728742,
+          "observed": 0.3508191383102046
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 3008,
+          "users": 954,
+          "equal_user_weight": 0.009490185425075097,
+          "predicted": 0.4176021153388336,
+          "observed": 0.47069072709954424
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 1791,
+          "users": 718,
+          "equal_user_weight": 0.005387786707313841,
+          "predicted": 0.4561352782889608,
+          "observed": 0.46294705922897494
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 68,
+          "users": 67,
+          "equal_user_weight": 0.00019952884621028878,
+          "predicted": 0.5248891004563705,
+          "observed": 0.1452746157239679
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 1,
+          "users": 1,
+          "equal_user_weight": 2.1473973544064594e-05,
+          "predicted": 0.75,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/targeted-b2": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.45319343348246194,
+      "brier_case_mean": 0.1429641936859497,
+      "nll_equal_user_mean": 0.45103854837105695,
+      "brier_equal_user_mean": 0.14212990368009154,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 469,
+          "users": 73,
+          "equal_user_weight": 0.001332419047005437,
+          "predicted": 0.03968682931202345,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73800,
+          "users": 8412,
+          "equal_user_weight": 0.20055945262383834,
+          "predicted": 0.0803248896784291,
+          "observed": 0.0794499487011131
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 103929,
+          "users": 12996,
+          "equal_user_weight": 0.27935174554522846,
+          "predicted": 0.1302825026000761,
+          "observed": 0.12815314806650224
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 74646,
+          "users": 11722,
+          "equal_user_weight": 0.19142159724640415,
+          "predicted": 0.18754201927690609,
+          "observed": 0.19255769274327558
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 47087,
+          "users": 9341,
+          "equal_user_weight": 0.12326924246232897,
+          "predicted": 0.23261825359366192,
+          "observed": 0.23419049505472211
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 30971,
+          "users": 7395,
+          "equal_user_weight": 0.08161809695962888,
+          "predicted": 0.2802936836686153,
+          "observed": 0.2830671161978878
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 6827,
+          "users": 3029,
+          "equal_user_weight": 0.01762669602413599,
+          "predicted": 0.30163438156598077,
+          "observed": 0.30899015700806415
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37593,
+          "users": 5003,
+          "equal_user_weight": 0.10473879788959908,
+          "predicted": 0.3670369234840208,
+          "observed": 0.3607405909161502
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 1,
+          "users": 1,
+          "equal_user_weight": 2.1473973544064594e-05,
+          "predicted": 0.43,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/random_environment-b2": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.45319343348246194,
+      "brier_case_mean": 0.1429641936859497,
+      "nll_equal_user_mean": 0.45103854837105695,
+      "brier_equal_user_mean": 0.14212990368009154,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 469,
+          "users": 73,
+          "equal_user_weight": 0.001332419047005437,
+          "predicted": 0.03968682931202345,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73800,
+          "users": 8412,
+          "equal_user_weight": 0.20055945262383834,
+          "predicted": 0.0803248896784291,
+          "observed": 0.0794499487011131
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 103929,
+          "users": 12996,
+          "equal_user_weight": 0.27935174554522846,
+          "predicted": 0.1302825026000761,
+          "observed": 0.12815314806650224
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 74646,
+          "users": 11722,
+          "equal_user_weight": 0.19142159724640415,
+          "predicted": 0.18754201927690609,
+          "observed": 0.19255769274327558
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 47087,
+          "users": 9341,
+          "equal_user_weight": 0.12326924246232897,
+          "predicted": 0.23261825359366192,
+          "observed": 0.23419049505472211
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 30971,
+          "users": 7395,
+          "equal_user_weight": 0.08161809695962888,
+          "predicted": 0.2802936836686153,
+          "observed": 0.2830671161978878
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 6827,
+          "users": 3029,
+          "equal_user_weight": 0.01762669602413599,
+          "predicted": 0.30163438156598077,
+          "observed": 0.30899015700806415
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37593,
+          "users": 5003,
+          "equal_user_weight": 0.10473879788959908,
+          "predicted": 0.3670369234840208,
+          "observed": 0.3607405909161502
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 1,
+          "users": 1,
+          "equal_user_weight": 2.1473973544064594e-05,
+          "predicted": 0.43,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/fixed_grid-b2": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.45319343348246194,
+      "brier_case_mean": 0.1429641936859497,
+      "nll_equal_user_mean": 0.45103854837105695,
+      "brier_equal_user_mean": 0.14212990368009154,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 469,
+          "users": 73,
+          "equal_user_weight": 0.001332419047005437,
+          "predicted": 0.03968682931202345,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73800,
+          "users": 8412,
+          "equal_user_weight": 0.20055945262383834,
+          "predicted": 0.0803248896784291,
+          "observed": 0.0794499487011131
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 103929,
+          "users": 12996,
+          "equal_user_weight": 0.27935174554522846,
+          "predicted": 0.1302825026000761,
+          "observed": 0.12815314806650224
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 74646,
+          "users": 11722,
+          "equal_user_weight": 0.19142159724640415,
+          "predicted": 0.18754201927690609,
+          "observed": 0.19255769274327558
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 47087,
+          "users": 9341,
+          "equal_user_weight": 0.12326924246232897,
+          "predicted": 0.23261825359366192,
+          "observed": 0.23419049505472211
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 30971,
+          "users": 7395,
+          "equal_user_weight": 0.08161809695962888,
+          "predicted": 0.2802936836686153,
+          "observed": 0.2830671161978878
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 6827,
+          "users": 3029,
+          "equal_user_weight": 0.01762669602413599,
+          "predicted": 0.30163438156598077,
+          "observed": 0.30899015700806415
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37593,
+          "users": 5003,
+          "equal_user_weight": 0.10473879788959908,
+          "predicted": 0.3670369234840208,
+          "observed": 0.3607405909161502
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 1,
+          "users": 1,
+          "equal_user_weight": 2.1473973544064594e-05,
+          "predicted": 0.43,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/uncertainty-b2": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.4533484852089578,
+      "brier_case_mean": 0.14302344435957762,
+      "nll_equal_user_mean": 0.4512443942391473,
+      "brier_equal_user_mean": 0.14220342710109224,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 476,
+          "users": 73,
+          "equal_user_weight": 0.0013616986395044077,
+          "predicted": 0.039024208636929285,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73841,
+          "users": 8419,
+          "equal_user_weight": 0.2007857849741777,
+          "predicted": 0.08033983543070995,
+          "observed": 0.07936039010200123
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 103990,
+          "users": 13063,
+          "equal_user_weight": 0.27939440383354447,
+          "predicted": 0.1303116871372328,
+          "observed": 0.12842418371732348
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 51104,
+          "users": 9461,
+          "equal_user_weight": 0.13334362784988826,
+          "predicted": 0.18217721029061817,
+          "observed": 0.18512084063799397
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 76117,
+          "users": 10884,
+          "equal_user_weight": 0.19632493361018533,
+          "predicted": 0.2237833548115757,
+          "observed": 0.2290466484256808
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 27012,
+          "users": 6470,
+          "equal_user_weight": 0.07050842681691102,
+          "predicted": 0.28326322351342625,
+          "observed": 0.290569226293307
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 5184,
+          "users": 2640,
+          "equal_user_weight": 0.013468161932856526,
+          "predicted": 0.3167072227761948,
+          "observed": 0.2989411676032907
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37507,
+          "users": 4941,
+          "equal_user_weight": 0.10455235648234093,
+          "predicted": 0.36704695667997883,
+          "observed": 0.3610723031688532
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 92,
+          "users": 87,
+          "equal_user_weight": 0.00020012763230471936,
+          "predicted": 0.4464285714285715,
+          "observed": 0.31691961317387435
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/random_witness-b2": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.4532804434047039,
+      "brier_case_mean": 0.14300229940902293,
+      "nll_equal_user_mean": 0.45120924914128285,
+      "brier_equal_user_mean": 0.1422010996029826,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 371,
+          "users": 49,
+          "equal_user_weight": 0.0008803171270967683,
+          "predicted": 0.04025395452957528,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 74089,
+          "users": 8506,
+          "equal_user_weight": 0.20180672247389303,
+          "predicted": 0.08018503959759846,
+          "observed": 0.07927671951270808
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 93254,
+          "users": 12592,
+          "equal_user_weight": 0.2513517158733729,
+          "predicted": 0.1277762481879914,
+          "observed": 0.12629412692777622
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 85116,
+          "users": 12767,
+          "equal_user_weight": 0.21857435942384718,
+          "predicted": 0.1832787191216237,
+          "observed": 0.18689806345673365
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 25532,
+          "users": 7066,
+          "equal_user_weight": 0.06615415569030035,
+          "predicted": 0.22238889920765825,
+          "observed": 0.22604004971101604
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 59367,
+          "users": 8926,
+          "equal_user_weight": 0.1564119793200599,
+          "predicted": 0.2694879837696301,
+          "observed": 0.2714937268168335
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37593,
+          "users": 5003,
+          "equal_user_weight": 0.10473879788959908,
+          "predicted": 0.3670369234840208,
+          "observed": 0.3607405909161502
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 1,
+          "users": 1,
+          "equal_user_weight": 2.1473973544064594e-05,
+          "predicted": 0.43,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/random_capacity-b2": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.4533663970693863,
+      "brier_case_mean": 0.1430317464555592,
+      "nll_equal_user_mean": 0.45128904673217884,
+      "brier_equal_user_mean": 0.14222489818185924,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 417,
+          "users": 65,
+          "equal_user_weight": 0.001172532008197801,
+          "predicted": 0.03794158957737514,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73964,
+          "users": 8428,
+          "equal_user_weight": 0.20139337239666769,
+          "predicted": 0.08035466003424833,
+          "observed": 0.07912096626051104
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 103822,
+          "users": 12983,
+          "equal_user_weight": 0.27873716867764253,
+          "predicted": 0.13032746805649179,
+          "observed": 0.12843570801601897
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 51395,
+          "users": 9610,
+          "equal_user_weight": 0.13421620920771124,
+          "predicted": 0.1822499566244792,
+          "observed": 0.18498220764147752
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 54558,
+          "users": 9354,
+          "equal_user_weight": 0.13916188829724166,
+          "predicted": 0.21529698672837028,
+          "observed": 0.22313991387522103
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 50141,
+          "users": 8089,
+          "equal_user_weight": 0.13166628820189127,
+          "predicted": 0.268548739813462,
+          "observed": 0.27116854252151007
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 3427,
+          "users": 1871,
+          "equal_user_weight": 0.008839578867715454,
+          "predicted": 0.30818713450292395,
+          "observed": 0.3012897294319112
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 33255,
+          "users": 4817,
+          "equal_user_weight": 0.09233514139840183,
+          "predicted": 0.36226503754523215,
+          "observed": 0.3569900054123859
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 4344,
+          "users": 1952,
+          "equal_user_weight": 0.0124173427162438,
+          "predicted": 0.40541123289383013,
+          "observed": 0.39071659790058105
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/targeted-b4": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.453302775267182,
+      "brier_case_mean": 0.14300997288309888,
+      "nll_equal_user_mean": 0.45114310979091116,
+      "brier_equal_user_mean": 0.14216964285618983,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 480,
+          "users": 73,
+          "equal_user_weight": 0.0013677436860667302,
+          "predicted": 0.038981724309103225,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73902,
+          "users": 8491,
+          "equal_user_weight": 0.20086999200203975,
+          "predicted": 0.08024183705967894,
+          "observed": 0.0796464159424036
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 93441,
+          "users": 12680,
+          "equal_user_weight": 0.25206190569640985,
+          "predicted": 0.12778047547381158,
+          "observed": 0.12626040439595487
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 85086,
+          "users": 12754,
+          "equal_user_weight": 0.218385851772205,
+          "predicted": 0.18328562131537432,
+          "observed": 0.18696106085964687
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 48999,
+          "users": 9632,
+          "equal_user_weight": 0.12812007917806686,
+          "predicted": 0.2324544922959724,
+          "observed": 0.23608568420977485
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 30545,
+          "users": 7377,
+          "equal_user_weight": 0.08070538800862065,
+          "predicted": 0.28135150474127407,
+          "observed": 0.2852561984961336
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 5184,
+          "users": 2640,
+          "equal_user_weight": 0.013468161932856526,
+          "predicted": 0.3167072227761948,
+          "observed": 0.2989411676032907
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37593,
+          "users": 5003,
+          "equal_user_weight": 0.10473879788959908,
+          "predicted": 0.3670369234840208,
+          "observed": 0.3607405909161502
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 93,
+          "users": 88,
+          "equal_user_weight": 0.000221601605848784,
+          "predicted": 0.44483658518428104,
+          "observed": 0.28620899010404466
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/random_environment-b4": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.453302775267182,
+      "brier_case_mean": 0.14300997288309888,
+      "nll_equal_user_mean": 0.45114310979091116,
+      "brier_equal_user_mean": 0.14216964285618983,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 480,
+          "users": 73,
+          "equal_user_weight": 0.0013677436860667302,
+          "predicted": 0.038981724309103225,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73902,
+          "users": 8491,
+          "equal_user_weight": 0.20086999200203975,
+          "predicted": 0.08024183705967894,
+          "observed": 0.0796464159424036
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 93441,
+          "users": 12680,
+          "equal_user_weight": 0.25206190569640985,
+          "predicted": 0.12778047547381158,
+          "observed": 0.12626040439595487
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 85086,
+          "users": 12754,
+          "equal_user_weight": 0.218385851772205,
+          "predicted": 0.18328562131537432,
+          "observed": 0.18696106085964687
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 48999,
+          "users": 9632,
+          "equal_user_weight": 0.12812007917806686,
+          "predicted": 0.2324544922959724,
+          "observed": 0.23608568420977485
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 30545,
+          "users": 7377,
+          "equal_user_weight": 0.08070538800862065,
+          "predicted": 0.28135150474127407,
+          "observed": 0.2852561984961336
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 5184,
+          "users": 2640,
+          "equal_user_weight": 0.013468161932856526,
+          "predicted": 0.3167072227761948,
+          "observed": 0.2989411676032907
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37593,
+          "users": 5003,
+          "equal_user_weight": 0.10473879788959908,
+          "predicted": 0.3670369234840208,
+          "observed": 0.3607405909161502
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 93,
+          "users": 88,
+          "equal_user_weight": 0.000221601605848784,
+          "predicted": 0.44483658518428104,
+          "observed": 0.28620899010404466
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/fixed_grid-b4": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.453302775267182,
+      "brier_case_mean": 0.14300997288309888,
+      "nll_equal_user_mean": 0.45114310979091116,
+      "brier_equal_user_mean": 0.14216964285618983,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 480,
+          "users": 73,
+          "equal_user_weight": 0.0013677436860667302,
+          "predicted": 0.038981724309103225,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73902,
+          "users": 8491,
+          "equal_user_weight": 0.20086999200203975,
+          "predicted": 0.08024183705967894,
+          "observed": 0.0796464159424036
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 93441,
+          "users": 12680,
+          "equal_user_weight": 0.25206190569640985,
+          "predicted": 0.12778047547381158,
+          "observed": 0.12626040439595487
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 85086,
+          "users": 12754,
+          "equal_user_weight": 0.218385851772205,
+          "predicted": 0.18328562131537432,
+          "observed": 0.18696106085964687
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 48999,
+          "users": 9632,
+          "equal_user_weight": 0.12812007917806686,
+          "predicted": 0.2324544922959724,
+          "observed": 0.23608568420977485
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 30545,
+          "users": 7377,
+          "equal_user_weight": 0.08070538800862065,
+          "predicted": 0.28135150474127407,
+          "observed": 0.2852561984961336
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 5184,
+          "users": 2640,
+          "equal_user_weight": 0.013468161932856526,
+          "predicted": 0.3167072227761948,
+          "observed": 0.2989411676032907
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37593,
+          "users": 5003,
+          "equal_user_weight": 0.10473879788959908,
+          "predicted": 0.3670369234840208,
+          "observed": 0.3607405909161502
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 93,
+          "users": 88,
+          "equal_user_weight": 0.000221601605848784,
+          "predicted": 0.44483658518428104,
+          "observed": 0.28620899010404466
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/uncertainty-b4": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.4533129259210323,
+      "brier_case_mean": 0.1430106099925085,
+      "nll_equal_user_mean": 0.45111572851398335,
+      "brier_equal_user_mean": 0.1421641519624703,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 480,
+          "users": 75,
+          "equal_user_weight": 0.001418706926413055,
+          "predicted": 0.03773906902197661,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73783,
+          "users": 8407,
+          "equal_user_weight": 0.20036948168856925,
+          "predicted": 0.08028418545166384,
+          "observed": 0.07952527544715565
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 104014,
+          "users": 13065,
+          "equal_user_weight": 0.2795451674345563,
+          "predicted": 0.13027770433487845,
+          "observed": 0.1283549223075416
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 73606,
+          "users": 11365,
+          "equal_user_weight": 0.18688547328860916,
+          "predicted": 0.18321163302935423,
+          "observed": 0.18832996234752253
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 46447,
+          "users": 9267,
+          "equal_user_weight": 0.12338503780170931,
+          "predicted": 0.23602483687077966,
+          "observed": 0.24008994465244904
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 34123,
+          "users": 7979,
+          "equal_user_weight": 0.08990709320355171,
+          "predicted": 0.2803106403958616,
+          "observed": 0.2812638460790622
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 5184,
+          "users": 2640,
+          "equal_user_weight": 0.013468161932856526,
+          "predicted": 0.3167072227761948,
+          "observed": 0.2989411676032907
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37593,
+          "users": 5003,
+          "equal_user_weight": 0.10473879788959908,
+          "predicted": 0.3670369234840208,
+          "observed": 0.3607405909161502
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 92,
+          "users": 87,
+          "equal_user_weight": 0.00020012763230471936,
+          "predicted": 0.4464285714285715,
+          "observed": 0.31691961317387435
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 1,
+          "users": 1,
+          "equal_user_weight": 2.1473973544064594e-05,
+          "predicted": 0.75,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/random_witness-b4": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.45326876568799707,
+      "brier_case_mean": 0.14299819963129556,
+      "nll_equal_user_mean": 0.45113620487467065,
+      "brier_equal_user_mean": 0.14217030887308615,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 480,
+          "users": 73,
+          "equal_user_weight": 0.0013677436860667302,
+          "predicted": 0.038981724309103225,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73935,
+          "users": 8494,
+          "equal_user_weight": 0.2009840444983753,
+          "predicted": 0.0802171029545371,
+          "observed": 0.0796012189588068
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 93414,
+          "users": 12679,
+          "equal_user_weight": 0.2519211423304379,
+          "predicted": 0.1278080330777963,
+          "observed": 0.12633095361364793
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 82069,
+          "users": 12085,
+          "equal_user_weight": 0.20885331663447734,
+          "predicted": 0.17957142986168684,
+          "observed": 0.1830304741019987
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 48409,
+          "users": 9364,
+          "equal_user_weight": 0.12836559536800368,
+          "predicted": 0.23369871104867135,
+          "observed": 0.23821341976445595
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 34064,
+          "users": 7981,
+          "equal_user_weight": 0.08976760395961075,
+          "predicted": 0.28036514222833686,
+          "observed": 0.2812689194868394
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 5353,
+          "users": 2751,
+          "equal_user_weight": 0.013927591180095986,
+          "predicted": 0.3164973465388053,
+          "observed": 0.29464370119251604
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37502,
+          "users": 4937,
+          "equal_user_weight": 0.10449355869763693,
+          "predicted": 0.36703779245129337,
+          "observed": 0.3612167602121374
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 92,
+          "users": 87,
+          "equal_user_weight": 0.00020012763230471936,
+          "predicted": 0.4464285714285715,
+          "observed": 0.31691961317387435
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 22,
+          "users": 20,
+          "equal_user_weight": 0.00011927601299067223,
+          "predicted": 0.5246477825799662,
+          "observed": 0.051438850601668695
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/random_capacity-b4": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.45328893604067366,
+      "brier_case_mean": 0.14300324615042984,
+      "nll_equal_user_mean": 0.4512988393139055,
+      "brier_equal_user_mean": 0.1422227090513622,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 431,
+          "users": 111,
+          "equal_user_weight": 0.0010818601915728423,
+          "predicted": 0.028717851653692065,
+          "observed": 0.015491945257573834
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 68113,
+          "users": 8199,
+          "equal_user_weight": 0.18600405181275562,
+          "predicted": 0.07807000828518638,
+          "observed": 0.07725431662672841
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 109541,
+          "users": 13484,
+          "equal_user_weight": 0.29382414308235766,
+          "predicted": 0.12909208105008926,
+          "observed": 0.12706271881773348
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 38484,
+          "users": 8284,
+          "equal_user_weight": 0.10017757282457446,
+          "predicted": 0.17379897164914523,
+          "observed": 0.17693769987981178
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 65398,
+          "users": 10236,
+          "equal_user_weight": 0.16803918340362783,
+          "predicted": 0.21330956524896824,
+          "observed": 0.21812868804747887
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 55849,
+          "users": 8281,
+          "equal_user_weight": 0.14626035397448392,
+          "predicted": 0.2695764350526384,
+          "observed": 0.27310923929245695
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37507,
+          "users": 4941,
+          "equal_user_weight": 0.10455235648234093,
+          "predicted": 0.36704695667997883,
+          "observed": 0.3610723031688532
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/targeted-b8": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.4532843967157345,
+      "brier_case_mean": 0.14300257492413887,
+      "nll_equal_user_mean": 0.4511123921362221,
+      "brier_equal_user_mean": 0.14216305625183534,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 484,
+          "users": 75,
+          "equal_user_weight": 0.0014247519729753777,
+          "predicted": 0.03770373729878251,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73900,
+          "users": 8487,
+          "equal_user_weight": 0.20074588561353324,
+          "predicted": 0.08021201349949612,
+          "observed": 0.0796956554523935
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 93427,
+          "users": 12679,
+          "equal_user_weight": 0.2520113826643456,
+          "predicted": 0.12777830901686685,
+          "observed": 0.12628571697664984
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 84049,
+          "users": 12402,
+          "equal_user_weight": 0.2139141497350422,
+          "predicted": 0.17941429909141957,
+          "observed": 0.18319291915422176
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 46451,
+          "users": 9271,
+          "equal_user_weight": 0.12343299634262442,
+          "predicted": 0.23601731546543997,
+          "observed": 0.23999666032998185
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 34142,
+          "users": 7991,
+          "equal_user_weight": 0.08998179401488801,
+          "predicted": 0.2802854772008567,
+          "observed": 0.2810303473170993
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 5184,
+          "users": 2640,
+          "equal_user_weight": 0.013468161932856526,
+          "predicted": 0.3167072227761948,
+          "observed": 0.2989411676032907
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37593,
+          "users": 5003,
+          "equal_user_weight": 0.10473879788959908,
+          "predicted": 0.3670369234840208,
+          "observed": 0.3607405909161502
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 92,
+          "users": 87,
+          "equal_user_weight": 0.00020012763230471936,
+          "predicted": 0.4464285714285715,
+          "observed": 0.31691961317387435
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 1,
+          "users": 1,
+          "equal_user_weight": 2.1473973544064594e-05,
+          "predicted": 0.75,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/random_environment-b8": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.4532843967157345,
+      "brier_case_mean": 0.14300257492413887,
+      "nll_equal_user_mean": 0.4511123921362221,
+      "brier_equal_user_mean": 0.14216305625183534,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 484,
+          "users": 75,
+          "equal_user_weight": 0.0014247519729753777,
+          "predicted": 0.03770373729878251,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73900,
+          "users": 8487,
+          "equal_user_weight": 0.20074588561353324,
+          "predicted": 0.08021201349949612,
+          "observed": 0.0796956554523935
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 93427,
+          "users": 12679,
+          "equal_user_weight": 0.2520113826643456,
+          "predicted": 0.12777830901686685,
+          "observed": 0.12628571697664984
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 84049,
+          "users": 12402,
+          "equal_user_weight": 0.2139141497350422,
+          "predicted": 0.17941429909141957,
+          "observed": 0.18319291915422176
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 46451,
+          "users": 9271,
+          "equal_user_weight": 0.12343299634262442,
+          "predicted": 0.23601731546543997,
+          "observed": 0.23999666032998185
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 34142,
+          "users": 7991,
+          "equal_user_weight": 0.08998179401488801,
+          "predicted": 0.2802854772008567,
+          "observed": 0.2810303473170993
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 5184,
+          "users": 2640,
+          "equal_user_weight": 0.013468161932856526,
+          "predicted": 0.3167072227761948,
+          "observed": 0.2989411676032907
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37593,
+          "users": 5003,
+          "equal_user_weight": 0.10473879788959908,
+          "predicted": 0.3670369234840208,
+          "observed": 0.3607405909161502
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 92,
+          "users": 87,
+          "equal_user_weight": 0.00020012763230471936,
+          "predicted": 0.4464285714285715,
+          "observed": 0.31691961317387435
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 1,
+          "users": 1,
+          "equal_user_weight": 2.1473973544064594e-05,
+          "predicted": 0.75,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/fixed_grid-b8": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.4532843967157345,
+      "brier_case_mean": 0.14300257492413887,
+      "nll_equal_user_mean": 0.4511123921362221,
+      "brier_equal_user_mean": 0.14216305625183534,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 484,
+          "users": 75,
+          "equal_user_weight": 0.0014247519729753777,
+          "predicted": 0.03770373729878251,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73900,
+          "users": 8487,
+          "equal_user_weight": 0.20074588561353324,
+          "predicted": 0.08021201349949612,
+          "observed": 0.0796956554523935
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 93427,
+          "users": 12679,
+          "equal_user_weight": 0.2520113826643456,
+          "predicted": 0.12777830901686685,
+          "observed": 0.12628571697664984
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 84049,
+          "users": 12402,
+          "equal_user_weight": 0.2139141497350422,
+          "predicted": 0.17941429909141957,
+          "observed": 0.18319291915422176
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 46451,
+          "users": 9271,
+          "equal_user_weight": 0.12343299634262442,
+          "predicted": 0.23601731546543997,
+          "observed": 0.23999666032998185
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 34142,
+          "users": 7991,
+          "equal_user_weight": 0.08998179401488801,
+          "predicted": 0.2802854772008567,
+          "observed": 0.2810303473170993
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 5184,
+          "users": 2640,
+          "equal_user_weight": 0.013468161932856526,
+          "predicted": 0.3167072227761948,
+          "observed": 0.2989411676032907
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37593,
+          "users": 5003,
+          "equal_user_weight": 0.10473879788959908,
+          "predicted": 0.3670369234840208,
+          "observed": 0.3607405909161502
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 92,
+          "users": 87,
+          "equal_user_weight": 0.00020012763230471936,
+          "predicted": 0.4464285714285715,
+          "observed": 0.31691961317387435
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 1,
+          "users": 1,
+          "equal_user_weight": 2.1473973544064594e-05,
+          "predicted": 0.75,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/uncertainty-b8": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.4532843967157345,
+      "brier_case_mean": 0.14300257492413887,
+      "nll_equal_user_mean": 0.4511123921362221,
+      "brier_equal_user_mean": 0.14216305625183534,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 484,
+          "users": 75,
+          "equal_user_weight": 0.0014247519729753777,
+          "predicted": 0.03770373729878251,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73900,
+          "users": 8487,
+          "equal_user_weight": 0.20074588561353324,
+          "predicted": 0.08021201349949612,
+          "observed": 0.0796956554523935
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 93427,
+          "users": 12679,
+          "equal_user_weight": 0.2520113826643456,
+          "predicted": 0.12777830901686685,
+          "observed": 0.12628571697664984
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 84049,
+          "users": 12402,
+          "equal_user_weight": 0.2139141497350422,
+          "predicted": 0.17941429909141957,
+          "observed": 0.18319291915422176
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 46451,
+          "users": 9271,
+          "equal_user_weight": 0.12343299634262442,
+          "predicted": 0.23601731546543997,
+          "observed": 0.23999666032998185
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 34142,
+          "users": 7991,
+          "equal_user_weight": 0.08998179401488801,
+          "predicted": 0.2802854772008567,
+          "observed": 0.2810303473170993
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 5184,
+          "users": 2640,
+          "equal_user_weight": 0.013468161932856526,
+          "predicted": 0.3167072227761948,
+          "observed": 0.2989411676032907
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37593,
+          "users": 5003,
+          "equal_user_weight": 0.10473879788959908,
+          "predicted": 0.3670369234840208,
+          "observed": 0.3607405909161502
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 92,
+          "users": 87,
+          "equal_user_weight": 0.00020012763230471936,
+          "predicted": 0.4464285714285715,
+          "observed": 0.31691961317387435
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 1,
+          "users": 1,
+          "equal_user_weight": 2.1473973544064594e-05,
+          "predicted": 0.75,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/random_witness-b8": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.4532843967157345,
+      "brier_case_mean": 0.14300257492413887,
+      "nll_equal_user_mean": 0.4511123921362221,
+      "brier_equal_user_mean": 0.14216305625183534,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 484,
+          "users": 75,
+          "equal_user_weight": 0.0014247519729753777,
+          "predicted": 0.03770373729878251,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73900,
+          "users": 8487,
+          "equal_user_weight": 0.20074588561353324,
+          "predicted": 0.08021201349949612,
+          "observed": 0.0796956554523935
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 93427,
+          "users": 12679,
+          "equal_user_weight": 0.2520113826643456,
+          "predicted": 0.12777830901686685,
+          "observed": 0.12628571697664984
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 84049,
+          "users": 12402,
+          "equal_user_weight": 0.2139141497350422,
+          "predicted": 0.17941429909141957,
+          "observed": 0.18319291915422176
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 46451,
+          "users": 9271,
+          "equal_user_weight": 0.12343299634262442,
+          "predicted": 0.23601731546543997,
+          "observed": 0.23999666032998185
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 34142,
+          "users": 7991,
+          "equal_user_weight": 0.08998179401488801,
+          "predicted": 0.2802854772008567,
+          "observed": 0.2810303473170993
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 5184,
+          "users": 2640,
+          "equal_user_weight": 0.013468161932856526,
+          "predicted": 0.3167072227761948,
+          "observed": 0.2989411676032907
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 37593,
+          "users": 5003,
+          "equal_user_weight": 0.10473879788959908,
+          "predicted": 0.3670369234840208,
+          "observed": 0.3607405909161502
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 92,
+          "users": 87,
+          "equal_user_weight": 0.00020012763230471936,
+          "predicted": 0.4464285714285715,
+          "observed": 0.31691961317387435
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 17,
+          "users": 16,
+          "equal_user_weight": 6.047822828668584e-05,
+          "predicted": 0.5,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 1,
+          "users": 1,
+          "equal_user_weight": 2.1473973544064594e-05,
+          "predicted": 0.75,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    },
+    "aggregate/random_capacity-b8": {
+      "cases": 375340,
+      "users": 23284,
+      "nll_case_mean": 0.45332544848487083,
+      "brier_case_mean": 0.14302205526847184,
+      "nll_equal_user_mean": 0.4513976718434222,
+      "brier_equal_user_mean": 0.142276926545429,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.05,
+          "cases": 412,
+          "users": 68,
+          "equal_user_weight": 0.0011678022192246028,
+          "predicted": 0.03564249197776489,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.05,
+          "upper": 0.1,
+          "cases": 73888,
+          "users": 8415,
+          "equal_user_weight": 0.20089522439700355,
+          "predicted": 0.08033206413943006,
+          "observed": 0.0793171578384466
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.15,
+          "cases": 103881,
+          "users": 13018,
+          "equal_user_weight": 0.27864206651014,
+          "predicted": 0.13025845354263538,
+          "observed": 0.1286522074557752
+        },
+        {
+          "lower": 0.15,
+          "upper": 0.2,
+          "cases": 33962,
+          "users": 7927,
+          "equal_user_weight": 0.08887870118902129,
+          "predicted": 0.1688239988149359,
+          "observed": 0.17283013591345361
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.25,
+          "cases": 69964,
+          "users": 10756,
+          "equal_user_weight": 0.17970045300285137,
+          "predicted": 0.21284261173652333,
+          "observed": 0.21728117232112543
+        },
+        {
+          "lower": 0.25,
+          "upper": 0.3,
+          "cases": 55571,
+          "users": 8192,
+          "equal_user_weight": 0.1457559519724057,
+          "predicted": 0.26950486979184446,
+          "observed": 0.27302157804725347
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.35,
+          "cases": 9486,
+          "users": 2526,
+          "equal_user_weight": 0.02557429785905375,
+          "predicted": 0.33129587571551566,
+          "observed": 0.3408053616139731
+        },
+        {
+          "lower": 0.35,
+          "upper": 0.4,
+          "cases": 24330,
+          "users": 4307,
+          "equal_user_weight": 0.06864091746049748,
+          "predicted": 0.37423492481693665,
+          "observed": 0.3660943434915436
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.45,
+          "cases": 3828,
+          "users": 1961,
+          "equal_user_weight": 0.010662633187971483,
+          "predicted": 0.40700317632092026,
+          "observed": 0.3721044140616017
+        },
+        {
+          "lower": 0.45,
+          "upper": 0.5,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.55,
+          "cases": 18,
+          "users": 17,
+          "equal_user_weight": 8.195220183075043e-05,
+          "predicted": 0.5131015232442523,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.55,
+          "upper": 0.6,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.65,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.65,
+          "upper": 0.7,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.75,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.75,
+          "upper": 0.8,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.85,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.85,
+          "upper": 0.9,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 0.95,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        },
+        {
+          "lower": 0.95,
+          "upper": 1.0,
+          "cases": 0,
+          "users": 0,
+          "equal_user_weight": 0.0,
+          "predicted": null,
+          "observed": null
+        }
+      ],
+      "probability_clip": 1e-06,
+      "scope": "Fixed-case point metrics; calendar dependence and model uncertainty are separate"
+    }
+  },
+  "comparisons": {
+    "aggregate": {
+      "markov-vs-reference": {
+        "candidate": "markov",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": 0.27169506026520357,
+        "ci95": [
+          0.26725989384983556,
+          0.27607421133447324
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "context-vs-reference": {
+        "candidate": "context",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": 0.3115522283504374,
+        "ci95": [
+          0.30663770295094045,
+          0.3164700437368995
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "gru-vs-reference": {
+        "candidate": "gru",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": 0.26116299567907714,
+        "ci95": [
+          0.2567307698815348,
+          0.2654813046327877
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "transformer-vs-reference": {
+        "candidate": "transformer",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": 0.2688068465181099,
+        "ci95": [
+          0.2644020264120517,
+          0.2732152906259668
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": false,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "unrefined-vs-reference": {
+        "candidate": "unrefined",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -8.713825390327765e-05,
+        "ci95": [
+          -0.00025025440115825526,
+          6.260252432422407e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "full_parent-vs-reference": {
+        "candidate": "full_parent",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.0003318553589110137,
+        "ci95": [
+          -0.0006686435008353996,
+          -1.324128654359408e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "targeted-b2-vs-reference": {
+        "candidate": "targeted-b2",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00035912347236526776,
+        "ci95": [
+          -0.0005777540355504011,
+          -0.00016194687582308506
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "random_environment-b2-vs-reference": {
+        "candidate": "random_environment-b2",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00035912347236526776,
+        "ci95": [
+          -0.0005777540355504011,
+          -0.00016194687582308506
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "fixed_grid-b2-vs-reference": {
+        "candidate": "fixed_grid-b2",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00035912347236526776,
+        "ci95": [
+          -0.0005777540355504011,
+          -0.00016194687582308506
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "uncertainty-b2-vs-reference": {
+        "candidate": "uncertainty-b2",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00015327760427491166,
+        "ci95": [
+          -0.00036709172677760777,
+          3.5956872030271214e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "random_witness-b2-vs-reference": {
+        "candidate": "random_witness-b2",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00018842270213934148,
+        "ci95": [
+          -0.0003938363143256496,
+          -1.1734170014822797e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "random_capacity-b2-vs-reference": {
+        "candidate": "random_capacity-b2",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00010862511124343052,
+        "ci95": [
+          -0.0002839145676342972,
+          5.198172066017633e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "targeted-b4-vs-reference": {
+        "candidate": "targeted-b4",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00025456205251097534,
+        "ci95": [
+          -0.0005007625041564973,
+          -4.010953647725678e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "random_environment-b4-vs-reference": {
+        "candidate": "random_environment-b4",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00025456205251097534,
+        "ci95": [
+          -0.0005007625041564973,
+          -4.010953647725678e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "fixed_grid-b4-vs-reference": {
+        "candidate": "fixed_grid-b4",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00025456205251097534,
+        "ci95": [
+          -0.0005007625041564973,
+          -4.010953647725678e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "uncertainty-b4-vs-reference": {
+        "candidate": "uncertainty-b4",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00028194332943885754,
+        "ci95": [
+          -0.0005328392131444029,
+          -5.106093653361819e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "random_witness-b4-vs-reference": {
+        "candidate": "random_witness-b4",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.0002614669687515664,
+        "ci95": [
+          -0.0005225626144579896,
+          -2.1821721414971316e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "random_capacity-b4-vs-reference": {
+        "candidate": "random_capacity-b4",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -9.883252951666122e-05,
+        "ci95": [
+          -0.000265147224548152,
+          7.03992159222505e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "targeted-b8-vs-reference": {
+        "candidate": "targeted-b8",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00028527970720007995,
+        "ci95": [
+          -0.0005514986431317846,
+          -4.602381300747665e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "random_environment-b8-vs-reference": {
+        "candidate": "random_environment-b8",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00028527970720007995,
+        "ci95": [
+          -0.0005514986431317846,
+          -4.602381300747665e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "fixed_grid-b8-vs-reference": {
+        "candidate": "fixed_grid-b8",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00028527970720007995,
+        "ci95": [
+          -0.0005514986431317846,
+          -4.602381300747665e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "uncertainty-b8-vs-reference": {
+        "candidate": "uncertainty-b8",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00028527970720007995,
+        "ci95": [
+          -0.0005514986431317846,
+          -4.602381300747665e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "random_witness-b8-vs-reference": {
+        "candidate": "random_witness-b8",
+        "reference": "random_capacity-b8",
+        "candidate_minus_reference_nats": -0.00028527970720007995,
+        "ci95": [
+          -0.0005514986431317846,
+          -4.602381300747665e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "targeted-b8-vs-full_parent": {
+        "candidate": "targeted-b8",
+        "reference": "full_parent",
+        "candidate_minus_reference_nats": 4.6575651710933714e-05,
+        "ci95": [
+          -0.0002454909865623085,
+          0.00034691243778528237
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "targeted-b8-vs-unrefined": {
+        "candidate": "targeted-b8",
+        "reference": "unrefined",
+        "candidate_minus_reference_nats": -0.0001981414532968023,
+        "ci95": [
+          -0.000411593640251431,
+          1.4863519801230809e-05
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": false,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "targeted-b8-vs-gru": {
+        "candidate": "targeted-b8",
+        "reference": "gru",
+        "candidate_minus_reference_nats": -0.2614482753862772,
+        "ci95": [
+          -0.2657496376649536,
+          -0.2571298974047934
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "targeted-b8-vs-transformer": {
+        "candidate": "targeted-b8",
+        "reference": "transformer",
+        "candidate_minus_reference_nats": -0.26909212622531,
+        "ci95": [
+          -0.27349000781018695,
+          -0.2647016750425517
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "targeted-b8-vs-context": {
+        "candidate": "targeted-b8",
+        "reference": "context",
+        "candidate_minus_reference_nats": -0.3118375080576375,
+        "ci95": [
+          -0.31676179096037094,
+          -0.3069613492779879
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      },
+      "targeted-b8-vs-markov": {
+        "candidate": "targeted-b8",
+        "reference": "markov",
+        "candidate_minus_reference_nats": -0.2719803399724037,
+        "ci95": [
+          -0.27634680250783433,
+          -0.2675856176581941
+        ],
+        "users": 23284,
+        "cases": 375340,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "improved": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "scope": "Shared user-cluster percentile resamples conditional on fitted models; pointwise intervals, no independent-fold, calendar or retraining guarantee"
+      }
+    }
+  },
+  "frontier_records": [
+    {
+      "name": "unrefined",
+      "latent_states": 8,
+      "split_budget": 0,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "full_parent",
+      "latent_states": 32,
+      "split_budget": 0,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.0
+    },
+    {
+      "name": "targeted-b2",
+      "latent_states": 10,
+      "split_budget": 2,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_environment-b2",
+      "latent_states": 10,
+      "split_budget": 2,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "fixed_grid-b2",
+      "latent_states": 10,
+      "split_budget": 2,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "uncertainty-b2",
+      "latent_states": 10,
+      "split_budget": 2,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_witness-b2",
+      "latent_states": 10,
+      "split_budget": 2,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_capacity-b2",
+      "latent_states": 10,
+      "split_budget": 2,
+      "random_fill_states": 2,
+      "maximum_point_discrepancy": 0.45238095238095244
+    },
+    {
+      "name": "targeted-b4",
+      "latent_states": 12,
+      "split_budget": 4,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_environment-b4",
+      "latent_states": 12,
+      "split_budget": 4,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "fixed_grid-b4",
+      "latent_states": 12,
+      "split_budget": 4,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "uncertainty-b4",
+      "latent_states": 12,
+      "split_budget": 4,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_witness-b4",
+      "latent_states": 12,
+      "split_budget": 4,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3999999999999999
+    },
+    {
+      "name": "random_capacity-b4",
+      "latent_states": 12,
+      "split_budget": 4,
+      "random_fill_states": 4,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "targeted-b8",
+      "latent_states": 13,
+      "split_budget": 8,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_environment-b8",
+      "latent_states": 13,
+      "split_budget": 8,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "fixed_grid-b8",
+      "latent_states": 13,
+      "split_budget": 8,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "uncertainty-b8",
+      "latent_states": 13,
+      "split_budget": 8,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_witness-b8",
+      "latent_states": 13,
+      "split_budget": 8,
+      "random_fill_states": 0,
+      "maximum_point_discrepancy": 0.3928571428571428
+    },
+    {
+      "name": "random_capacity-b8",
+      "latent_states": 13,
+      "split_budget": 8,
+      "random_fill_states": 5,
+      "maximum_point_discrepancy": 0.45238095238095244
+    }
+  ],
+  "output_sha256": {
+    "bucket-00-test-origins.npz": "bdeaee079831d378688d19054bf7157dd42c0dff4e87b0bb002776f2d7208c91",
+    "bucket-01-test-origins.npz": "e0ce95b803c6e8b6fdc6e62366f385a461e39b79d52bbee8e06ee6e0eea96a92",
+    "bucket-02-test-origins.npz": "0daf9d5ea48776b1ff258e5e65ace60ea0ddc053d545a1fc4aadae8b7b4d9563",
+    "bucket-03-test-origins.npz": "148bd40ea063f9043738bed6d83c937a3c65bd2c65e0d5153886023524f6979b",
+    "bucket-04-test-origins.npz": "efa7137de72693aac6027ada90a228e216c9926a8567a5ce368ddcb73a5875c3",
+    "bucket-05-test-origins.npz": "b06bd1a6a668000488912883b48e560f866da2013cf51566059205d0f930dca0",
+    "bucket-06-test-origins.npz": "f0e0b9dca6fb70e5d6ec2e3be6943a140d23c42255899e5496fa0cdf10551c7d",
+    "bucket-07-test-origins.npz": "38e20d754e3e4e47350bcd6688aafbe07e441dd9e43a73b141aa132e5234ec3f",
+    "bucket-08-test-origins.npz": "6304b47edc285499b72370ddca7d9641fc2077820f71e86b2ffc73626d6a84f1",
+    "bucket-09-test-origins.npz": "d0c2e26f300836ef309c149977be34010a6af6c0d64aade4fbdaf83c9cab3425",
+    "bucket-10-test-origins.npz": "0390ec688e988c02c98a40ce608fe4fd4cb888bf325226a8c2ffa6233e920f4d",
+    "bucket-11-test-origins.npz": "97c11de3d7af0977aa6f0a32a47428ede4fbda394a63fc1437092a861a0df98a",
+    "bucket-12-test-origins.npz": "1f69b6db920118512e27c3e6ce9c83a49697133b103e2a16cf42ee72c23bf7d0",
+    "bucket-13-test-origins.npz": "ca26061eabe07dd01d8fc34951622c5da7896b1553139aa98369ff95029482fb",
+    "bucket-14-test-origins.npz": "6486c5df6d552671fbc9078cde792dfbf5bd5821890327807070cf8d6eb87071",
+    "bucket-15-test-origins.npz": "1e1a3175860fd8a81cd0c332542eea4ccb159a453b9dda562eb6708eb184aa66",
+    "bucket-16-test-origins.npz": "70929ce27822786c03ff63b42e59c46c0d6175efae9b9e2e8ce57f00d858a905",
+    "bucket-17-test-origins.npz": "2b4a9946adf2313463cfb11d41004711f69c7df32acfdc1290c2d2c7de1bda3d",
+    "bucket-18-test-origins.npz": "8e640381b0881a18a7738dddd149690e9c5a79b8b331a6a1b7b682c9a5682eaa",
+    "bucket-19-test-origins.npz": "357225973bdad66ca490463bd4dd8d1d374ac29b9987fb8769d08d759ccdaf95",
+    "bucket-20-test-origins.npz": "07dc7c7bb948fd15c3397c629d9c4d6d7461f2d7569334c1e9010523b67f652e",
+    "bucket-21-test-origins.npz": "48b6721e5b7cd67f0d7bac0a2ab7be6ef5b03cb41ef1bca3e7277a7f00c56e92",
+    "bucket-22-test-origins.npz": "3707b2bbeb2beee8203f9c39236c50767eb2f64fd67a6126985ed6d5ecd301d1",
+    "bucket-23-test-origins.npz": "435850c6318cdca86e45cab4ee133feae1d64a825f31c393ad094489b6da368d",
+    "bucket-24-test-origins.npz": "4042130b20ba0e90ab19158316c7a0ef5afd077645cdf84ac494851c3cff579c",
+    "bucket-25-test-origins.npz": "0249dc177d9e757db4a685823e09fc29e98da95dcdf2f029d4ffdd9885f6c1d4",
+    "bucket-26-test-origins.npz": "7be57fd3c7bafc9a7f8ff903c6464ee46c35c88c67d6d57985c0afbdbec86207",
+    "bucket-27-test-origins.npz": "fab11a63e3bc05532386142bd9e6628eae8636935b9a8b1a9fc113e65d5526eb",
+    "bucket-28-test-origins.npz": "d41d057fb0dcda7e909d0c1c8aa3efb6d126dd17eb7a9c131cc9f15b7b894894",
+    "bucket-29-test-origins.npz": "4b3642dea691d9b53df915f88dce812028cdd779db1db39cf3f6878c4d54e365",
+    "bucket-30-test-origins.npz": "200aed1d094f5e7d40943121f00b7f74a36f4bfcfe374ff05c69eafd87c06a5c",
+    "bucket-31-test-origins.npz": "c3446d1e2c957ffdd6a74fe98c78b9968dbcb832ffd463ed0e13298fc7c98cd6",
+    "private-user-losses.npz": "7dc0a546874c80eac0c8a44a8262744ed7c7d31e47935bcba07e16be5caa6446"
+  },
+  "root": "/artifacts/human-final-response_all_groups-083dfc60f47ea65a/20261018",
+  "wall_seconds": 98.046250454,
+  "scope": "Known-user future randomized-exposure response comparison. Offline calibration-table refinement, not active data acquisition or arbitrary-interface causal transfer. Held-out design withholds response calibration groups, not groups from base encoder training. Fixed original-user clusters; secondary contrasts descriptive.",
+  "forecast_storage": "Fine history states and immutable environments plus bound frontier tables; neural/Markov forecasts saved directly. Reconstruct each fold, average losses across three held-out folds per original case before user aggregation."
+}

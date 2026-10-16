@@ -1,0 +1,22 @@
+{
+  "status": "verified_test_only_extension",
+  "observed_at": "2026-10-16T09:27:12.358555+00:00",
+  "current_source": {
+    "sha256": "b86b73f2f96e0ca86d41a12bce86b8327064c9c45fa967ea75a23a2a77afd10f",
+    "path": "reports/source-snapshots/source-b86b73f2f96e0ca86d41a12bce86b8327064c9c45fa967ea75a23a2a77afd10f.tar.gz",
+    "source_files": 491,
+    "bytes": 756450
+  },
+  "parent_source_sha256": "ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12",
+  "parent_strict_validation": "reports/preflight/source-package-reproduction-ad74b89a721bbbba-e52eea4696b4-explicit-mount.json",
+  "unchanged_parent_source_entries": 490,
+  "added": [
+    "tests/test_release_checker_boundaries.py"
+  ],
+  "generated_manifest_changed": true,
+  "release_checker_tests": 16,
+  "release_checker_test_sha256": "c2ac0dd498ff34d9603e9a849653c671b378af1c6c2d9276cdc6ba7930d632cd",
+  "test_command": "PYTHONPATH=/tmp/research-response-installed .venv/bin/python -m pytest -q -W error -o pythonpath= tests/test_release_checker_boundaries.py",
+  "test_output": "16 passed in 0.10s",
+  "scope": "All 490 prior source entries unchanged. Sixteen new provider-free checker tests pass locally; parent 1635-test cloud run and sixteen local tests are separate executions, not a new 1651-test cloud run. Earlier fourteen-test source/report preserved."
+}

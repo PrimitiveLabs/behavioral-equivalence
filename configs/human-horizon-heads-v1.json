@@ -1,0 +1,57 @@
+{
+  "schema_version": "human-direct-horizon-heads-v1",
+  "status": "Specified before final human test predictions; implementation and training pending",
+  "role": "Secondary multistep comparators; cannot replace the fixed D6 one-step primary",
+  "protocols": [
+    "known_users",
+    "unseen_users"
+  ],
+  "architectures": [
+    "context",
+    "gru",
+    "transformer"
+  ],
+  "seeds": [
+    20261015,
+    20261016,
+    20261017,
+    20261018,
+    20261019
+  ],
+  "encoder_feature": "Frozen128dimensional penultimate GELU head activation, using only origin available-history tokens and current tab,item,intrinsic-duration context",
+  "training_origins": "Audited multistep-fit cohort, actual calendar role0; unseen-user fitting also requires user role0",
+  "validation_origins": "Actual calendar role1; unseen-user validation also requires user role1",
+  "maximum_training_origins": 100000,
+  "origin_sampling": "Uniform global eligible training-origin positions with seed20261015, before conditioning on future support or event labels; identical positions for all architectures/seeds within each protocol",
+  "normalization": "Training selected feature mean and population standard deviation, floored at1e-6; saved with the heads",
+  "decision_horizons": [
+    1,
+    5,
+    10,
+    25,
+    50
+  ],
+  "event_order": "human_event_suite: positive occupancy,positive reachability,negative reachability,at least2positives,at least4positives; each over horizons1,5,10,25,50",
+  "missing_labels": "Sentinel-1 remains excluded from fitting and scoring for its horizon; never imputed as negative",
+  "head_estimator": {
+    "algorithm": "scikit-learn LogisticRegression",
+    "solver": "newton-cholesky",
+    "C": 1.0,
+    "max_iter": 500,
+    "tol": 1e-06,
+    "random_state": 20261015,
+    "sample_weight": "Inverse observed sample count per user for that event, normalized to mean row weight1",
+    "convergence": "Record iteration counts and require convergence; no test-driven hyperparameter replacement"
+  },
+  "structural_events": "Count threshold greater than H is exactly impossible. At H1 reuse the fitted positive occupancy head for positive reachability and its complement for negative reachability.",
+  "single_class_nonstructural_fit": "Use a recorded Jeffreys-smoothed constant from observed selected training labels; distinguish this from structural zero events",
+  "forecast_scope": "Direct marginal event probabilities conditional on origin information. No future item contexts, future feedback tokens or observed future state assignments enter forecasts. These are not generative sequence rollouts and need not define one coherent joint path law across all events/horizons.",
+  "weak_reference": "Separately label frozen-origin iid Bernoulli forecasts using origin_iid_event_probabilities; do not call them learned neural rollouts",
+  "final_evaluation": "Use the existing audited fixed test-origin cohort. The full source/model/case/statistical freeze must complete before any test forecast or test score generation.",
+  "declaration_timing": "Added after strict compression failures and comparator validation engineering checks, before final predictive test scoring. Report as a secondary design extension, not a blind initial preregistration.",
+  "numerical_deviation": {
+    "recorded_at": "2026-10-16T02:35:37.841402+00:00",
+    "original_source": "0938337637efc21af62122c2ad0af7ad603fdc1a937ba45bfc5b80cfc78beda6",
+    "reason": "First real-data context-head smoke failed the L-BFGS500iteration convergence gate. Switch to exact-Hessian Newton-Cholesky for the same L2penalized logistic objective. C1,tolerance1e-6,max_iter500,features,weights,training sample and event labels remain unchanged. No final test predictions or scores inspected."
+  }
+}

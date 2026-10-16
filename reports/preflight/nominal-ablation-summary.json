@@ -1,0 +1,524 @@
+{
+  "schema_version": "nominal-ablation-summary-v1",
+  "status": "complete",
+  "source_digest": "a0450320cc941c72da068fb7873cd294c60d4b1d3bb6c8c0f2ee58e7b006960d",
+  "original_protocol_digest": "d567478458e8b39c9c67c4024a890215fb09ffcce298347a1d947d4ff78351ba",
+  "independent_datasets": 4000,
+  "point_support_evaluations": 8000,
+  "family_confidence": 0.95,
+  "simultaneous_intervals": 40,
+  "point_coverage": [
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "uniform_active",
+      "metric": "kernel_membership",
+      "successes": 0,
+      "independent_datasets": 2000,
+      "simultaneous_ci": [
+        0.0,
+        0.042946940834673764
+      ]
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "uniform_active",
+      "metric": "all_probability_enclosures_contained",
+      "successes": 0,
+      "independent_datasets": 2000,
+      "simultaneous_ci": [
+        0.0,
+        0.042946940834673764
+      ]
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "imbalanced_active",
+      "metric": "kernel_membership",
+      "successes": 0,
+      "independent_datasets": 2000,
+      "simultaneous_ci": [
+        0.0,
+        0.042946940834673764
+      ]
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "imbalanced_active",
+      "metric": "all_probability_enclosures_contained",
+      "successes": 0,
+      "independent_datasets": 2000,
+      "simultaneous_ci": [
+        0.0,
+        0.042946940834673764
+      ]
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "uniform_active",
+      "metric": "kernel_membership",
+      "successes": 0,
+      "independent_datasets": 2000,
+      "simultaneous_ci": [
+        0.0,
+        0.042946940834673764
+      ]
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "uniform_active",
+      "metric": "all_probability_enclosures_contained",
+      "successes": 1877,
+      "independent_datasets": 2000,
+      "simultaneous_ci": [
+        0.8955530591653261,
+        0.9814469408346739
+      ]
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "imbalanced_active",
+      "metric": "kernel_membership",
+      "successes": 0,
+      "independent_datasets": 2000,
+      "simultaneous_ci": [
+        0.0,
+        0.042946940834673764
+      ]
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "imbalanced_active",
+      "metric": "all_probability_enclosures_contained",
+      "successes": 102,
+      "independent_datasets": 2000,
+      "simultaneous_ci": [
+        0.008053059165326238,
+        0.09394694083467377
+      ]
+    }
+  ],
+  "paired_completion_widths": [
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "uniform_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 5,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.9216160018372253,
+      "simultaneous_ci": [
+        -1,
+        -0.8357221201678776
+      ],
+      "point_minus_reference_initial_weighted_width": -0.9267650999558574
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "uniform_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 10,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.9040120397388233,
+      "simultaneous_ci": [
+        -0.9899059214081709,
+        -0.8181181580694756
+      ],
+      "point_minus_reference_initial_weighted_width": -0.9019192012097713
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "uniform_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 25,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.9431776640649525,
+      "simultaneous_ci": [
+        -1,
+        -0.8572837823956049
+      ],
+      "point_minus_reference_initial_weighted_width": -0.935493219058991
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "uniform_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 50,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.9882920268857937,
+      "simultaneous_ci": [
+        -1,
+        -0.902398145216446
+      ],
+      "point_minus_reference_initial_weighted_width": -0.9868632279333585
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "uniform_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 5,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.7802032590685269,
+      "simultaneous_ci": [
+        -0.8660971407378746,
+        -0.6943093773991793
+      ],
+      "point_minus_reference_initial_weighted_width": -0.8176541111040603
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "uniform_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 10,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.8122506206272264,
+      "simultaneous_ci": [
+        -0.898144502296574,
+        -0.7263567389578788
+      ],
+      "point_minus_reference_initial_weighted_width": -0.848551432126429
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "uniform_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 25,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.8538235993151858,
+      "simultaneous_ci": [
+        -0.9397174809845334,
+        -0.7679297176458382
+      ],
+      "point_minus_reference_initial_weighted_width": -0.8852329322324674
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "uniform_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 50,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.8989347056492958,
+      "simultaneous_ci": [
+        -0.9848285873186434,
+        -0.8130408239799481
+      ],
+      "point_minus_reference_initial_weighted_width": -0.936600735442894
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "imbalanced_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 5,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.795322876051692,
+      "simultaneous_ci": [
+        -0.8812167577210397,
+        -0.7094289943823444
+      ],
+      "point_minus_reference_initial_weighted_width": -0.8566768704886072
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "imbalanced_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 10,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.7350412628415965,
+      "simultaneous_ci": [
+        -0.8209351445109442,
+        -0.6491473811722489
+      ],
+      "point_minus_reference_initial_weighted_width": -0.8114440238898991
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "imbalanced_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 25,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.8088266851387155,
+      "simultaneous_ci": [
+        -0.8947205668080631,
+        -0.7229328034693678
+      ],
+      "point_minus_reference_initial_weighted_width": -0.8102263263012742
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "imbalanced_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 50,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.930245331136687,
+      "simultaneous_ci": [
+        -1,
+        -0.8443514494673393
+      ],
+      "point_minus_reference_initial_weighted_width": -0.9167390519719929
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "imbalanced_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 5,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.7582684177022752,
+      "simultaneous_ci": [
+        -0.8441622993716228,
+        -0.6723745360329275
+      ],
+      "point_minus_reference_initial_weighted_width": -0.7182618630746794
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "imbalanced_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 10,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.709179622849073,
+      "simultaneous_ci": [
+        -0.7950735045184206,
+        -0.6232857411797253
+      ],
+      "point_minus_reference_initial_weighted_width": -0.7281466641092027
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "imbalanced_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 25,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.7837025685308288,
+      "simultaneous_ci": [
+        -0.8695964502001764,
+        -0.6978086868614811
+      ],
+      "point_minus_reference_initial_weighted_width": -0.7331703974673234
+    },
+    {
+      "support": "unknown_terminal_rows",
+      "regime": "imbalanced_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 50,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.9051251705898159,
+      "simultaneous_ci": [
+        -0.9910190522591635,
+        -0.8192312889204683
+      ],
+      "point_minus_reference_initial_weighted_width": -0.8397346285274188
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "uniform_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 5,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.8831205415068447,
+      "simultaneous_ci": [
+        -0.9690144231761924,
+        -0.7972266598374971
+      ],
+      "point_minus_reference_initial_weighted_width": -0.8898908472726066
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "uniform_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 10,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.8917529032671512,
+      "simultaneous_ci": [
+        -0.9776467849364988,
+        -0.8058590215978035
+      ],
+      "point_minus_reference_initial_weighted_width": -0.9069838264662423
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "uniform_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 25,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.878395400223168,
+      "simultaneous_ci": [
+        -0.9642892818925156,
+        -0.7925015185538203
+      ],
+      "point_minus_reference_initial_weighted_width": -0.8923282980612925
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "uniform_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 50,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.8777571570670389,
+      "simultaneous_ci": [
+        -0.9636510387363866,
+        -0.7918632753976913
+      ],
+      "point_minus_reference_initial_weighted_width": -0.8915186882635031
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "uniform_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 5,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.5774651372669772,
+      "simultaneous_ci": [
+        -0.6633590189363249,
+        -0.49157125559762965
+      ],
+      "point_minus_reference_initial_weighted_width": -0.5453681682919593
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "uniform_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 10,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.677073918852585,
+      "simultaneous_ci": [
+        -0.7629678005219327,
+        -0.5911800371832374
+      ],
+      "point_minus_reference_initial_weighted_width": -0.6682213756780111
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "uniform_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 25,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.6874005942770457,
+      "simultaneous_ci": [
+        -0.7732944759463933,
+        -0.6015067126076981
+      ],
+      "point_minus_reference_initial_weighted_width": -0.6826301582749498
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "uniform_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 50,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.6869288826569045,
+      "simultaneous_ci": [
+        -0.7728227643262522,
+        -0.6010350009875569
+      ],
+      "point_minus_reference_initial_weighted_width": -0.6820050070359203
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "imbalanced_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 5,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.7841932429231588,
+      "simultaneous_ci": [
+        -0.8700871245925065,
+        -0.6982993612538112
+      ],
+      "point_minus_reference_initial_weighted_width": -0.7788236496256035
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "imbalanced_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 10,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.7162339554796481,
+      "simultaneous_ci": [
+        -0.8021278371489957,
+        -0.6303400738103004
+      ],
+      "point_minus_reference_initial_weighted_width": -0.7795487848388184
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "imbalanced_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 25,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.6868428598136458,
+      "simultaneous_ci": [
+        -0.7727367414829934,
+        -0.6009489781442982
+      ],
+      "point_minus_reference_initial_weighted_width": -0.7625845340510977
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "imbalanced_active",
+      "reference_method": "certified_hoeffding",
+      "horizon": 50,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.6860968676638178,
+      "simultaneous_ci": [
+        -0.7719907493331655,
+        -0.6002029859944702
+      ],
+      "point_minus_reference_initial_weighted_width": -0.7616039537147071
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "imbalanced_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 5,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.7001520903763738,
+      "simultaneous_ci": [
+        -0.7860459720457215,
+        -0.6142582087070262
+      ],
+      "point_minus_reference_initial_weighted_width": -0.4635148384326598
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "imbalanced_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 10,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.6444771837747764,
+      "simultaneous_ci": [
+        -0.730371065444124,
+        -0.5585833021054287
+      ],
+      "point_minus_reference_initial_weighted_width": -0.5091730682602271
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "imbalanced_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 25,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.6158793254039744,
+      "simultaneous_ci": [
+        -0.701773207073322,
+        -0.5299854437346267
+      ],
+      "point_minus_reference_initial_weighted_width": -0.49649527043050107
+    },
+    {
+      "support": "known_closed_terminal_labels",
+      "regime": "imbalanced_active",
+      "reference_method": "clopper_pearson_float_quantiles",
+      "horizon": 50,
+      "independent_paired_datasets": 2000,
+      "point_minus_reference_mean_active_width": -0.6151418781719251,
+      "simultaneous_ci": [
+        -0.7010357598412728,
+        -0.5292479965025775
+      ],
+      "point_minus_reference_initial_weighted_width": -0.4955701700740533
+    }
+  ],
+  "statistical_coverage_claim": "No confidence guarantee for the empirical point estimator",
+  "interval_scope": "Numerically evaluated Hoeffding/Bonferroni Monte Carlo intervals conditional on fixed worlds. Paired width differences lie in [-1,1]. Initial-weighted differences are descriptive only.",
+  "evidence_scope": "Complete design and pairing checked. Original certificates were separately replayed; this structural summary does not replay nominal arithmetic.",
+  "analysis_source_digest": "2dc0028c982330fed7450605a13027b7d5002202236a39369a7ee05d66e42b25",
+  "original_manifest_sha256": "38ebd31d33c62c5ea172123273804ba134af0c7e1735314ba31bde90d1cd6905",
+  "nominal_manifest_sha256": "41683bc731fb206428ebd6e38aa7f34e19fa2509217ee511f88f90c883c68a7e"
+}

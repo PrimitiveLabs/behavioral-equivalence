@@ -1,0 +1,253 @@
+{
+  "status": "passed",
+  "observed_at": "2026-10-16T09:05:05.106955+00:00",
+  "inputs": [
+    {
+      "path": "reports/preflight/human-training-completion-checkpoint.json",
+      "sha256": "d9669adb9bfbe8e52ebf26dcec60c30c0a2d2def2d4129fb7687d6755644063a"
+    },
+    {
+      "path": "reports/preflight/human-nested-known_users-20261015.json",
+      "sha256": "de326a452144e5d5c01bf89bc68d649a9c07862cedbe0c7869c2cec4abdb2bb4"
+    },
+    {
+      "path": "reports/preflight/human-gru-calibrated-parent-known_users-20261015.json",
+      "sha256": "1b7b53c94d372c20bd8da8f32de0a7ad0542e6a74798efd572598a50c5cfb8cb"
+    },
+    {
+      "path": "reports/preflight/human-gru-quantization-known-20261015.json",
+      "sha256": "290e4480c5d94b0d699e4a00f369ccc61d2d5d415551340f9ca1538a5f0748c3"
+    },
+    {
+      "path": "reports/preflight/human-history-states-known_users-20261015.json",
+      "sha256": "e11373b221ceab31c94298d8188beef52c9c21752a74bc7bc98c6eab6c043a0f"
+    },
+    {
+      "path": "reports/preflight/human-nested-known_users-20261016.json",
+      "sha256": "a37f433f816bc1f6b3ef1f038a83c31bfad6b3b9c46145f6d1decea1d47245ae"
+    },
+    {
+      "path": "reports/preflight/human-gru-calibrated-parent-known-20261016.json",
+      "sha256": "52b7977af908fda880992e565f02eb6b63354e8c85aca834df98ba8439e56e1c"
+    },
+    {
+      "path": "reports/preflight/human-gru-quantization-known-20261016.json",
+      "sha256": "2b3efa5a6d04156876fb35f5ab1ce132a8d34f6e1276d3084d40f13072338298"
+    },
+    {
+      "path": "reports/preflight/human-history-states-known_users-20261016.json",
+      "sha256": "8c180629d9f3b616e0b10669f634e1a07048b651bcc6720e9e5cafa670f1f11d"
+    },
+    {
+      "path": "reports/preflight/human-nested-known_users-20261017.json",
+      "sha256": "3984736c12719c3e28a95e5acb4855c2a76eb506f89b77b1ecd985ea5a561fa1"
+    },
+    {
+      "path": "reports/preflight/human-gru-calibrated-parent-known-20261017.json",
+      "sha256": "c7c7081570483b6ed851bc9d744239470619e838790d462553cfa3b96f7f3bb8"
+    },
+    {
+      "path": "reports/preflight/human-gru-quantization-known-20261017.json",
+      "sha256": "a4136dee7cddc9bd50943008c7e64295e0fa3a06c3bbb45e28df4d6c1434b85d"
+    },
+    {
+      "path": "reports/preflight/human-history-states-known_users-20261017.json",
+      "sha256": "55bf1301452bde28c667a8d904031621f14eb4673e09b27990d5aeaa762ff9d3"
+    },
+    {
+      "path": "reports/preflight/human-nested-known_users-20261018.json",
+      "sha256": "3e3ac1c0c6c6f7ec9db5306adcf5a59e0e9aa7af552ec76aa60c1f993cd727de"
+    },
+    {
+      "path": "reports/preflight/human-calibrated-parent-known_users-20261018.json",
+      "sha256": "5d3f5b2cc71b8db5afddd4cca721755f8f134f5666b2d77bab9a7da5b6f966f7"
+    },
+    {
+      "path": "reports/preflight/human-gru-quantization-known_users-20261018.json",
+      "sha256": "636a48479b7aac09d141638d9462955583d31e759a8d7649c1c25a6d2aa1b16a"
+    },
+    {
+      "path": "reports/preflight/human-history-states-known_users-20261018.json",
+      "sha256": "2337739a7ddf01315825064a802481791e8d8fe51ec45bf003dc26e52565d9a3"
+    },
+    {
+      "path": "reports/preflight/human-nested-known_users-20261019.json",
+      "sha256": "8274887603281d53fb01274f1359db777b4c097b216730e2dd0dff2f3995c0c7"
+    },
+    {
+      "path": "reports/preflight/human-gru-calibrated-parent-known_users-20261019.json",
+      "sha256": "d07c462750f7b9e83081732ceea92b8d18223c91748a5b5f91d0dcf5d7644a8b"
+    },
+    {
+      "path": "reports/preflight/human-gru-quantization-known_users-20261019.json",
+      "sha256": "5bae9bd379213be77a1086494cc2381158203e02a178b5af273f715e0486ba30"
+    },
+    {
+      "path": "reports/preflight/human-history-states-known_users-20261019.json",
+      "sha256": "9cb4de3c1e3ab5e224faf7d655af1769e20b5ae111794153c54236cf9025b3da"
+    },
+    {
+      "path": "reports/preflight/human-nested-unseen_users-20261015.json",
+      "sha256": "a3d32dd0bc9082d306f418a247fb69dea6e97140f125814f3c6d072891d501ac"
+    },
+    {
+      "path": "reports/preflight/human-calibrated-parent-unseen_users-20261015.json",
+      "sha256": "464a463eae192809e1c033fa9283f292bea5b8e872167f1a7af94718be907eb9"
+    },
+    {
+      "path": "reports/preflight/human-gru-quantization-unseen_users-20261015.json",
+      "sha256": "882558f78622ce0502fa09e8a4474e46b329a405b2024dd41c8e941e0aa53c64"
+    },
+    {
+      "path": "reports/preflight/human-history-states-unseen_users-20261015.json",
+      "sha256": "ad700973bf8def2c5838811bbb65b88bbd6d4f432509e56197c1c0953a465757"
+    },
+    {
+      "path": "reports/preflight/human-nested-unseen_users-20261016.json",
+      "sha256": "ae5167bef66c0e40564520a4aa314fe658105a8ffa2ac1f42d62ff5701d4650c"
+    },
+    {
+      "path": "reports/preflight/human-gru-calibrated-parent-unseen-20261016.json",
+      "sha256": "a424deb31151d1afb8f4132cb091994917bd43516b0c777d50daffacdc4298f6"
+    },
+    {
+      "path": "reports/preflight/human-gru-quantization-unseen_users-20261016.json",
+      "sha256": "29755898e6a8560971e389aeb48b6ab4c5db4df802878a5f20d7f52ac5316f37"
+    },
+    {
+      "path": "reports/preflight/human-history-states-unseen_users-20261016.json",
+      "sha256": "557cfa927be363ac710f33a44a894355a96018bf80467eb7f80e3edec26e6726"
+    },
+    {
+      "path": "reports/preflight/human-nested-unseen_users-20261017.json",
+      "sha256": "bf550b974418cca730372a948a47fe6aaad67924184f7e4501e26a09df630865"
+    },
+    {
+      "path": "reports/preflight/human-gru-calibrated-parent-unseen-20261017.json",
+      "sha256": "6bf87a4a92b2ccdb4fda5fd98b19e1d645f1ad39220b55ed27bc613ec4be5117"
+    },
+    {
+      "path": "reports/preflight/human-gru-quantization-unseen_users-20261017.json",
+      "sha256": "1ec9d6776a7071077c25a311c4accf2343b42253d6a54060bbc20249bef99b51"
+    },
+    {
+      "path": "reports/preflight/human-history-states-unseen_users-20261017.json",
+      "sha256": "203048510fdfdaa33b9b88e66f4f922327c18f73e3c5c70ac0e155714c0409a7"
+    },
+    {
+      "path": "reports/preflight/human-nested-unseen_users-20261018.json",
+      "sha256": "6310d5689bbdda8ccf8b493f488de9a475808e3ee1da91fc2ae55db54d0fa366"
+    },
+    {
+      "path": "reports/preflight/human-gru-calibrated-parent-unseen_users-20261018.json",
+      "sha256": "1f7cd4d57b7c81ef8905a4d8d01e7d1aacbfbd6f30f49d9e7f5470f06e5f97d4"
+    },
+    {
+      "path": "reports/preflight/human-gru-quantization-unseen-20261018.json",
+      "sha256": "290bf5019c68e22564ad24b794db4c9c42cd8467df939bde6fb80ea20b1fa45c"
+    },
+    {
+      "path": "reports/preflight/human-history-states-unseen_users-20261018.json",
+      "sha256": "24a098b15fad89fdac51b4d643e87939c421f68287f4577b87929c575c615f32"
+    },
+    {
+      "path": "reports/preflight/human-nested-unseen_users-20261019.json",
+      "sha256": "c97e34418046846ac77a96d7506c5cc6d84174ba16d0d9ba19c7d8f9e63cdc20"
+    },
+    {
+      "path": "reports/preflight/human-gru-calibrated-parent-unseen_users-20261019.json",
+      "sha256": "4cd4a676cf51a3392669abe1a0fd3bbf46b4de98afa2127f153752f9c3d6c721"
+    },
+    {
+      "path": "reports/preflight/human-gru-quantization-unseen_users-20261019.json",
+      "sha256": "bd883fb27390ec337ccc00a0bb18be20e3f733378f3f3bfd90ce725854fd4cdc"
+    },
+    {
+      "path": "reports/preflight/human-history-states-unseen_users-20261019.json",
+      "sha256": "a72f8c717316876eb87bf7c6bc74e645868134a56a062bbb348806c9e11fac98"
+    }
+  ],
+  "fits": [
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "nested_models": 32,
+      "primary_states": 256,
+      "primary_compression_met": false,
+      "history_occupied_states": 254
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "nested_models": 35,
+      "primary_states": 256,
+      "primary_compression_met": false,
+      "history_occupied_states": 254
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "nested_models": 35,
+      "primary_states": 256,
+      "primary_compression_met": false,
+      "history_occupied_states": 253
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "nested_models": 32,
+      "primary_states": 256,
+      "primary_compression_met": false,
+      "history_occupied_states": 254
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "nested_models": 35,
+      "primary_states": 256,
+      "primary_compression_met": false,
+      "history_occupied_states": 254
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "nested_models": 32,
+      "primary_states": 256,
+      "primary_compression_met": false,
+      "history_occupied_states": 252
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "nested_models": 32,
+      "primary_states": 256,
+      "primary_compression_met": false,
+      "history_occupied_states": 251
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "nested_models": 35,
+      "primary_states": 256,
+      "primary_compression_met": false,
+      "history_occupied_states": 256
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "nested_models": 35,
+      "primary_states": 256,
+      "primary_compression_met": false,
+      "history_occupied_states": 252
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "nested_models": 32,
+      "primary_states": 256,
+      "primary_compression_met": false,
+      "history_occupied_states": 252
+    }
+  ],
+  "scope": "Retained parent/quantizer/history/fitted-neural linkage, partition coverage, support arithmetic and primary compression decision. No fresh private-array reads, model inference or integer certificate replay."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "accepted",
+  "method": "Rendered PNG inspected with view_image",
+  "checks": [
+    "Four equal-scale panels and six-method legend readable with no overlap or clipping",
+    "All 105600 source comparison rows retained, zero-origin probability axes and equality line",
+    "Floating-discrepancy and exact-certificate scopes disclosed",
+    "Caption retains conditional-property distinction and all numerical limitations"
+  ],
+  "render_digest": "4018f31e66d761d85846afc19544571ea6972fa2cb8964d50795b8040627c70b"
+}

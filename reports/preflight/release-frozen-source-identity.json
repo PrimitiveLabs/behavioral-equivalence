@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "scope": "offline exact frozen final-human source identity, no rescoring",
+  "checks": [
+    {
+      "controller": "evaluate_human_one_step.py",
+      "phase": null,
+      "digest": "8321be2e57203ca0c0812a2baf315008ee689ecfcb963c20d9096181c95a90de",
+      "exact_matching_archives": [
+        "reports/source-snapshots/final-one_step-8321be2e57203ca0.json"
+      ]
+    },
+    {
+      "controller": "evaluate_human_horizons.py",
+      "phase": null,
+      "digest": "d4984c93acbe0b14f2a81e9477738e49dec01bd53115a14ae8f0534ac66ad3be",
+      "exact_matching_archives": [
+        "reports/source-snapshots/final-direct_horizon-d4984c93acbe0b14.json"
+      ]
+    },
+    {
+      "controller": "evaluate_human_responses.py",
+      "phase": "response_all_groups",
+      "digest": "083dfc60f47ea65a01d7b34d7482b6ebf75b6b7f292d35938f4edfcf1be10203",
+      "exact_matching_archives": [
+        "reports/source-snapshots/final-response_all_groups-083dfc60f47ea65a.json"
+      ]
+    },
+    {
+      "controller": "evaluate_human_responses.py",
+      "phase": "response_heldout_groups",
+      "digest": "f7115561ad28a03bb2085626f6f9a9bc8e9577ef6f0c310c23849832ba431752",
+      "exact_matching_archives": [
+        "reports/source-snapshots/final-response_heldout_groups-f7115561ad28a03b.json"
+      ]
+    }
+  ]
+}

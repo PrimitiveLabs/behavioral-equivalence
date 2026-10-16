@@ -1,0 +1,46 @@
+PRISM
+=====
+
+Version: 4.11
+Date: Fri Oct 16 06:21:02 UTC 2026
+Hostname: modal
+Memory limits: cudd=1g, java(heap)=2g
+Command line: prism /tmp/source-reproduction-s0vj8krn/scientific-rerun/belief-perturbed.prism -pf 'P=? [ F<=10 "disengage" ]' -explicit
+
+Parsing PRISM model file "/tmp/source-reproduction-s0vj8krn/scientific-rerun/belief-perturbed.prism"...
+
+Type:        DTMC
+Modules:     behavioral
+Actions:     []
+Variables:   s
+Labels:      "active" "complete" "disengage"
+
+1 property:
+(1) P=? [ F<=10 "disengage" ]
+
+---------------------------------------------------------------------
+
+Model checking: P=? [ F<=10 "disengage" ]
+
+Building model (engine:explicit)...
+
+Computing reachable states... 32 states
+Reachable states exploration and model construction done in 0.01 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.035 seconds.
+
+Type:        DTMC
+States:      32 (1 initial)
+Transitions: 360
+
+Starting bounded probabilistic reachability...
+Bounded probabilistic reachability took 10 iterations and 0.002 seconds.
+
+Value in the initial state: 0.8532310546628782
+
+Time for model checking: 0.007 seconds.
+
+Result: 0.8532310546628782 (exact floating point)
+
+

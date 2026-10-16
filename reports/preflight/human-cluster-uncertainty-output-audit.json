@@ -1,0 +1,360 @@
+{
+  "status": "complete",
+  "source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+  "observed_at": "2026-10-16T03:03:35.301161+00:00",
+  "fits": 10,
+  "verified_output_files": 100,
+  "rows": [
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "report_sha256": "ea7e2883f30f03c1aea18d41b0e2841e38ba4fded499027cce16fb735b0d352f",
+      "verified_output_files": 10,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.9215694362225633,
+          "vacuous_emission_rows": 12
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.9843952970761044,
+          "vacuous_emission_rows": 28
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 64
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 128
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "users": 2542,
+      "cap": 64
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "report_sha256": "1c2a18cfe0bb3b5bd913e9d1fec21cadf35ad74d9fc514cc519f37e822f2b723",
+      "verified_output_files": 10,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.7608013544909358,
+          "vacuous_emission_rows": 7
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.8886611346687339,
+          "vacuous_emission_rows": 23
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 0.971484904327917,
+          "vacuous_emission_rows": 55
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 0.9983901841803806,
+          "vacuous_emission_rows": 124
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "users": 25522,
+      "cap": 64
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "report_sha256": "c42d22d6873ab965156ac2b15410d39587e4badbd37207ef66037f38162b3a24",
+      "verified_output_files": 10,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.9346793619987943,
+          "vacuous_emission_rows": 13
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.9984962506914694,
+          "vacuous_emission_rows": 30
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 64
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 128
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "users": 2542,
+      "cap": 64
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "report_sha256": "a82d058426702703ed3e237ac2c74090378bd1050b6fbeeca3d952a9ca69b1a6",
+      "verified_output_files": 10,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.9304831529922197,
+          "vacuous_emission_rows": 13
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.9928762288508293,
+          "vacuous_emission_rows": 29
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 64
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 128
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "users": 2542,
+      "cap": 64
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "report_sha256": "0b5f79e2d26d86ba1b0d6edae4817c2608a49a761ccbef1e30cfb3b9ca3a0bc6",
+      "verified_output_files": 10,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.7320139431420423,
+          "vacuous_emission_rows": 8
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.8806455087692588,
+          "vacuous_emission_rows": 23
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 0.9595412383147959,
+          "vacuous_emission_rows": 53
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 0.997488808993862,
+          "vacuous_emission_rows": 122
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "users": 25522,
+      "cap": 64
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "report_sha256": "59a275a2b45493cdd135d387425d8e3a66b814cda59923ac1c04216ada8d236c",
+      "verified_output_files": 10,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.7226422146773908,
+          "vacuous_emission_rows": 8
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.8847598022368566,
+          "vacuous_emission_rows": 21
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 0.9681527009035761,
+          "vacuous_emission_rows": 53
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 0.9992076294969192,
+          "vacuous_emission_rows": 125
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "users": 25522,
+      "cap": 64
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "report_sha256": "95a58a85a788e9a27af847ffe3886f7fc654a3f56b4eb8e6f390cda7e34009b5",
+      "verified_output_files": 10,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.7414764835608223,
+          "vacuous_emission_rows": 9
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.8967768083482586,
+          "vacuous_emission_rows": 23
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 0.9623967370574048,
+          "vacuous_emission_rows": 54
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 0.9971928690604954,
+          "vacuous_emission_rows": 125
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "users": 25522,
+      "cap": 64
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "report_sha256": "d6aec2d8355923109c2ecc218ac1565d1e6bd651573e2c0a1716295d625cb248",
+      "verified_output_files": 10,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.9248501655438046,
+          "vacuous_emission_rows": 12
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.9889088240010435,
+          "vacuous_emission_rows": 28
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 64
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 128
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "users": 2542,
+      "cap": 64
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "report_sha256": "afd922417ef58ef8520ad854349001f0e665842b9455c9b8ee2cc969918048ae",
+      "verified_output_files": 10,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.749114695766329,
+          "vacuous_emission_rows": 6
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.9062842201867387,
+          "vacuous_emission_rows": 25
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 0.9630524327390482,
+          "vacuous_emission_rows": 53
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 0.9976103198139717,
+          "vacuous_emission_rows": 122
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "users": 25522,
+      "cap": 64
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "report_sha256": "4f951b83ac4e5adcc8c69ee3d8b76c2b980f86d161183950b424f89f0adda9a8",
+      "verified_output_files": 10,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.9340950408821,
+          "vacuous_emission_rows": 13
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.9906154800169138,
+          "vacuous_emission_rows": 30
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 64
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 128
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "users": 2542,
+      "cap": 64
+    }
+  ],
+  "scope": "Artifact identity audit, not independent statistical soundness review or human predictive evidence"
+}

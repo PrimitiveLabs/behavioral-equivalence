@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-10-16T09:33:21.556806+00:00",
+  "reservation": {
+    "run_id": "source-package-ecc5a586bd135738b51dca2b392f55da94e9f8aeba4fcfe1a76f296ccde84cb2-e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e-explicit-checker-mount",
+    "reserved_usd": 0.14,
+    "total_reserved_usd": 18.418034,
+    "ceiling_usd": 25.0,
+    "actual_billing_usd": null,
+    "status": "reserved; idempotent run identity"
+  },
+  "ledger": ".campaign/synthetic-budget.sqlite",
+  "source_archive": {
+    "sha256": "ecc5a586bd135738b51dca2b392f55da94e9f8aeba4fcfe1a76f296ccde84cb2",
+    "path": "reports/source-snapshots/source-ecc5a586bd135738b51dca2b392f55da94e9f8aeba4fcfe1a76f296ccde84cb2.tar.gz",
+    "source_files": 492,
+    "bytes": 757122
+  },
+  "checker_sha256": "e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e",
+  "reason": "Fresh full validation of current 492-file source after two test-only additions. Explicit checker mount reused from the successful parent run. Separate reservation within unchanged synthetic-program ceiling; not a retry of the completed parent.",
+  "frontier_inference_calls": 0
+}

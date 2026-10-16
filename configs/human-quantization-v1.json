@@ -1,0 +1,17 @@
+{
+  "schema_version": "human-training-only-quantization-v1",
+  "state_counts": [16, 32, 64, 128, 256],
+  "representation": "128-dimensional penultimate GELU activation of the frozen content-aware head",
+  "normalization_sample_cases": 100000,
+  "sampling_seed": 20261015,
+  "fit": {"algorithm": "MiniBatchKMeans", "batch_size": 4096, "n_init": 3, "max_iter": 100, "random_state": 20261015},
+  "assignment": "float64 squared Euclidean distance using the saved training mean, scale and centers; smallest centroid index breaks ties",
+  "emission": "mean frozen-teacher probability over all training cases assigned to a state; empty states use global training teacher mean",
+  "inference_batch_size": 2048,
+  "parent": "K256; smaller separately fitted quantizers are unverified baselines, not nested quotients",
+  "allowed_final_architecture": "gru",
+  "engineering_architecture": "context",
+  "test_scoring": "prohibited; training and validation artifacts only",
+  "provider_inference": "none",
+  "hardware": "Modal CPU float32 encoder, eight threads; float64 normalization, clustering and assignment"
+}

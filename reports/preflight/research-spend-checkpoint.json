@@ -1,0 +1,248 @@
+{
+  "observed_at": "2026-10-15T22:28:28.831325+00:00",
+  "provider_reported_metered_usd": 16.88744858,
+  "provider_report_latest_hour_start_utc": "2026-10-15T21:00:00Z",
+  "actual_invoice_usd": null,
+  "estimated_current_total_usd": [
+    20,
+    30
+  ],
+  "estimate_confidence": "moderate",
+  "estimate_scope": "Modal app-attributed usage including failed attempts, with lag allowance. Excludes Cloudflare storage/requests, shared subscription fees, discounts/credits and other apps. Not a verified upper bound.",
+  "by_app_description_usd": {
+    "behavioral-equivalence-human-calendar-training-v3": 5.18195803,
+    "behavioral-equivalence-human-calendar-training-v4-replicates": 3.93180826,
+    "behavioral-equivalence-synthetic-main-v3": 3.50583208,
+    "behavioral-equivalence-integer-certificate-campaign-v2": 1.64988208,
+    "behavioral-equivalence-calendar-quantization-v1": 0.42386384,
+    "behavioral-equivalence-repeated-evidence-replay-v1": 0.33064591,
+    "behavioral-equivalence-uncertainty-repeated-v1": 0.32701553,
+    "behavioral-equivalence-intervention-main-v1": 0.24548601,
+    "behavioral-equivalence-calibrated-parent-v1": 0.20794515,
+    "behavioral-equivalence-intervention-analysis-v1": 0.15678435,
+    "behavioral-equivalence-kuairand27k-preparation-v2": 0.15346916,
+    "behavioral-equivalence-human-nested-v1": 0.14788868,
+    "behavioral-equivalence-confirmatory-cases-27k-v1": 0.06703957,
+    "behavioral-equivalence-kuairand27k-independent-audit-v1": 0.05902247,
+    "behavioral-equivalence-property-compression-pilot-v1": 0.0585566,
+    "behavioral-equivalence-kuairand27k-ingest-v1": 0.05717824,
+    "behavioral-equivalence-training-pilot-v1": 0.03962247,
+    "behavioral-equivalence-confirmatory-case-audit-v1": 0.03629402,
+    "behavioral-equivalence-uncertainty-main-v1": 0.03597739,
+    "behavioral-equivalence-adjacent-calibration-v1": 0.03491817,
+    "behavioral-equivalence-quantization-pilot-v1": 0.03221735,
+    "behavioral-equivalence-learned-certified-pilot-v1": 0.02991766,
+    "behavioral-equivalence-prepare-v1": 0.02563545,
+    "behavioral-equivalence-uncertainty-summary-v1": 0.02064532,
+    "behavioral-equivalence-uncertainty-summary-v2": 0.01978423,
+    "behavioral-equivalence-integer-certificate-audit-v1": 0.01867363,
+    "behavioral-equivalence-pilot-v1": 0.01475334,
+    "behavioral-equivalence-human-calendar-training-v1": 0.01357245,
+    "behavioral-equivalence-kuairand27k-preparation-v1": 0.01067535,
+    "behavioral-equivalence-case-context-audit-v1": 0.00792283,
+    "behavioral-equivalence-calendar-support-27k-v1": 0.00665398,
+    "behavioral-equivalence-kuairand27k-ingest-v2": 0.00498516,
+    "behavioral-equivalence-synthetic-summary-v1": 0.00466987,
+    "behavioral-equivalence-item-metadata-audit-v1": 0.0045074,
+    "behavioral-equivalence-data-audit-v2": 0.00441231,
+    "behavioral-equivalence-pilot-identity-v1": 0.00391484,
+    "behavioral-equivalence-neural-component-tests-v1": 0.00305128,
+    "behavioral-equivalence-uncertainty-comparison-pilot-v1": 0.002268,
+    "behavioral-equivalence-quantization-pilot-v3-cpu": 0.00194361,
+    "behavioral-equivalence-data-v1": 0.00176656,
+    "behavioral-equivalence-teacher-cpu-diagnosis-v1": 0.00171039,
+    "behavioral-equivalence-data-audit-v1": 0.00086102,
+    "behavioral-equivalence-synthetic-timeout-recovery-v1": 0.00073732,
+    "behavioral-equivalence-figure04-v1": 0.00031785,
+    "behavioral-equivalence-refinement-pilot-v1": 0.00017604,
+    "behavioral-equivalence-figure05-v1": 0.00017582,
+    "behavioral-equivalence-uncertainty-pilot-v1": 0.00015328,
+    "behavioral-equivalence-figure01-v1": 0.0001055,
+    "behavioral-equivalence-pilot-analysis-v1": 3.517e-05,
+    "behavioral-equivalence-coverage-analysis-v1": 1.756e-05
+  },
+  "by_resource_usd": {
+    "Memory": 3.43046031,
+    "CPU": 13.13569468,
+    "Network Egress": 0.26545445,
+    "T4": 0.02917232,
+    "L4": 0.02666676
+  },
+  "planned_reservations_usd": 287.52680499999997,
+  "ledgers": [
+    {
+      "name": "adjacent-audit-budget.sqlite",
+      "reserved_usd": 2.123776,
+      "separate_campaign_ceiling_usd": 5.0
+    },
+    {
+      "name": "adjacent-calibration-budget.sqlite",
+      "reserved_usd": 1.995044,
+      "separate_campaign_ceiling_usd": 3.0
+    },
+    {
+      "name": "calendar-quantization-budget.sqlite",
+      "reserved_usd": 29.39104,
+      "separate_campaign_ceiling_usd": 40.0
+    },
+    {
+      "name": "calendar-support-budget.sqlite",
+      "reserved_usd": 0.86834,
+      "separate_campaign_ceiling_usd": 2.0
+    },
+    {
+      "name": "calibrated-parent-budget.sqlite",
+      "reserved_usd": 13.675968,
+      "separate_campaign_ceiling_usd": 25.0
+    },
+    {
+      "name": "human-case-audit-budget.sqlite",
+      "reserved_usd": 1.907176,
+      "separate_campaign_ceiling_usd": 4.0
+    },
+    {
+      "name": "human-cases-budget.sqlite",
+      "reserved_usd": 2.360764,
+      "separate_campaign_ceiling_usd": 4.0
+    },
+    {
+      "name": "human-training-calendar-budget.sqlite",
+      "reserved_usd": 14.299953,
+      "separate_campaign_ceiling_usd": 15.0
+    },
+    {
+      "name": "human-training-calendar-v2-budget.sqlite",
+      "reserved_usd": 25.487888,
+      "separate_campaign_ceiling_usd": 30.0
+    },
+    {
+      "name": "human-training-calendar-v3-budget.sqlite",
+      "reserved_usd": 53.914352,
+      "separate_campaign_ceiling_usd": 60.0
+    },
+    {
+      "name": "human-training-calendar-v4-replicates-budget.sqlite",
+      "reserved_usd": 36.879728,
+      "separate_campaign_ceiling_usd": 40.0
+    },
+    {
+      "name": "integer-audit-budget.sqlite",
+      "reserved_usd": 28.515328,
+      "separate_campaign_ceiling_usd": 30.0
+    },
+    {
+      "name": "intervention-analysis-budget.sqlite",
+      "reserved_usd": 2.014338,
+      "separate_campaign_ceiling_usd": 3.0
+    },
+    {
+      "name": "intervention-budget.sqlite",
+      "reserved_usd": 16.2074,
+      "separate_campaign_ceiling_usd": 20.0
+    },
+    {
+      "name": "nested-human-budget.sqlite",
+      "reserved_usd": 12.923648,
+      "separate_campaign_ceiling_usd": 40.0
+    },
+    {
+      "name": "repeated-replay-budget.sqlite",
+      "reserved_usd": 9.545488,
+      "separate_campaign_ceiling_usd": 12.0
+    },
+    {
+      "name": "synthetic-budget.sqlite",
+      "reserved_usd": 17.998034,
+      "separate_campaign_ceiling_usd": 25.0
+    },
+    {
+      "name": "uncertainty-budget.sqlite",
+      "reserved_usd": 6.241612,
+      "separate_campaign_ceiling_usd": 8.0
+    },
+    {
+      "name": "uncertainty-repeated-budget.sqlite",
+      "reserved_usd": 11.176928,
+      "separate_campaign_ceiling_usd": 15.0
+    }
+  ],
+  "global_user_approved_ceiling_usd": null,
+  "active_apps": [
+    {
+      "app_id": "ap-o1S9kGqm8jiYwe0rwZrOVn",
+      "description": "behavioral-equivalence-human-calendar-training-v3",
+      "state": "ephemeral (detached)",
+      "tasks": "7",
+      "created_at": "2026-10-15 12:46:13-07:00",
+      "stopped_at": null
+    },
+    {
+      "app_id": "ap-UIDe5qGXUbIVsd4OzkVfKQ",
+      "description": "behavioral-equivalence-human-calendar-training-v4-replicates",
+      "state": "ephemeral (detached)",
+      "tasks": "5",
+      "created_at": "2026-10-15 13:22:54-07:00",
+      "stopped_at": null
+    },
+    {
+      "app_id": "ap-IuEez23vntT1d89flGeRNj",
+      "description": "behavioral-equivalence-calendar-quantization-v1",
+      "state": "ephemeral (detached)",
+      "tasks": "1",
+      "created_at": "2026-10-15 15:22:02-07:00",
+      "stopped_at": null
+    },
+    {
+      "app_id": "ap-hoxcWT684a1hubOh9iyWj0",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "state": "ephemeral (detached)",
+      "tasks": "1",
+      "created_at": "2026-10-15 15:16:18-07:00",
+      "stopped_at": null
+    },
+    {
+      "app_id": "ap-sNpcaAMrNKUKY4nGjVLN5p",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "state": "ephemeral (detached)",
+      "tasks": "1",
+      "created_at": "2026-10-15 15:15:39-07:00",
+      "stopped_at": null
+    },
+    {
+      "app_id": "ap-kCXjDj69qCU0UxhZvHv1lE",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "state": "ephemeral (detached)",
+      "tasks": "1",
+      "created_at": "2026-10-15 15:15:39-07:00",
+      "stopped_at": null
+    },
+    {
+      "app_id": "ap-yTFe3kYNHhFd20FdkcBFe9",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "state": "ephemeral (detached)",
+      "tasks": "1",
+      "created_at": "2026-10-15 15:02:24-07:00",
+      "stopped_at": null
+    },
+    {
+      "app_id": "ap-PXAJw6arIRUCs734FFSuZY",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "state": "ephemeral (detached)",
+      "tasks": "1",
+      "created_at": "2026-10-15 15:02:24-07:00",
+      "stopped_at": null
+    },
+    {
+      "app_id": "ap-6OJ085XiTAaVAcm6CIaz4H",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "state": "ephemeral (detached)",
+      "tasks": "1",
+      "created_at": "2026-10-15 14:48:27-07:00",
+      "stopped_at": null
+    }
+  ],
+  "requested_resource_run_rate_usd_per_hour": 7.666848000000002,
+  "run_rate_scope": "Current task counts at declared worker requests, conservatively treating training coordinators as fit workers. Actual task mix and metered usage differ; not a provider spending limit.",
+  "provider_inference_calls": 0,
+  "next_action": "Continue existing jobs and nonspending research integration. Await numeric global cap before expanding cloud work."
+}

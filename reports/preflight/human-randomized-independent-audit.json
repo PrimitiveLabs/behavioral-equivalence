@@ -1,0 +1,2333 @@
+{
+  "status": "complete",
+  "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+  "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+  "buckets": [
+    {
+      "status": "complete",
+      "bucket": 0,
+      "random_exposures_audited": 37220,
+      "query_bundles_audited": 37220,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 8086,
+          "users": 558
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3391,
+          "users": 547
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6505,
+          "users": 661
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12462,
+          "users": 716
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5415,
+          "users": 377
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 331,
+          "users": 53
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 732,
+          "users": 74
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1177,
+          "users": 78
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "6e95008bc18d3713519dbf0ba1093fdb6e75c8c7f4a2c2911fd0ac858bd95e26",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 3.100180879
+    },
+    {
+      "status": "complete",
+      "bucket": 1,
+      "random_exposures_audited": 37701,
+      "query_bundles_audited": 37701,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 8309,
+          "users": 540
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 4037,
+          "users": 543
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6079,
+          "users": 651
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12415,
+          "users": 750
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5174,
+          "users": 370
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 349,
+          "users": 54
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 699,
+          "users": 76
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1791,
+          "users": 81
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "617b0fb7b1b4cae18045d6946cc4221728a8119abe1910f4fcf74de3a88c6561",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 4.364592904
+    },
+    {
+      "status": "complete",
+      "bucket": 2,
+      "random_exposures_audited": 36303,
+      "query_bundles_audited": 36303,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7999,
+          "users": 562
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3583,
+          "users": 556
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6241,
+          "users": 664
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12328,
+          "users": 734
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5848,
+          "users": 409
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 282,
+          "users": 47
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 637,
+          "users": 68
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1551,
+          "users": 76
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "20026ba208151776414ef0aa9b9e9f9c53415773bce0b94e5055a76df458c45e",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 7.989327551999999
+    },
+    {
+      "status": "complete",
+      "bucket": 3,
+      "random_exposures_audited": 34704,
+      "query_bundles_audited": 34704,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 6645,
+          "users": 547
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3452,
+          "users": 555
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6351,
+          "users": 641
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12316,
+          "users": 723
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 4674,
+          "users": 386
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 240,
+          "users": 44
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 510,
+          "users": 61
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1592,
+          "users": 83
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "9cb847a2c37acdce5f00858b31461baf76d770dc821a64b32b7aaf3ce17fd95d",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 4.727907033
+    },
+    {
+      "status": "complete",
+      "bucket": 4,
+      "random_exposures_audited": 36042,
+      "query_bundles_audited": 36042,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7607,
+          "users": 557
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3541,
+          "users": 560
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6206,
+          "users": 645
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12362,
+          "users": 726
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5150,
+          "users": 413
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 334,
+          "users": 56
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 698,
+          "users": 64
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1218,
+          "users": 63
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "40701e802465af877e1219d7b89523d4a15bf83996feef54e96a1ea1e7d429c3",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.3997426179999994
+    },
+    {
+      "status": "complete",
+      "bucket": 5,
+      "random_exposures_audited": 33259,
+      "query_bundles_audited": 33259,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7300,
+          "users": 542
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 2959,
+          "users": 527
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6140,
+          "users": 665
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 10920,
+          "users": 736
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 4765,
+          "users": 389
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 277,
+          "users": 55
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 796,
+          "users": 78
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 944,
+          "users": 52
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "7645eb29be047ddad9bb613c4a48aa7e39867d780b12a96753d8d9b2bef9420b",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.6545449980000004
+    },
+    {
+      "status": "complete",
+      "bucket": 6,
+      "random_exposures_audited": 38782,
+      "query_bundles_audited": 38782,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 8603,
+          "users": 563
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3625,
+          "users": 550
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6985,
+          "users": 678
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12832,
+          "users": 736
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 6386,
+          "users": 421
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 335,
+          "users": 55
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 576,
+          "users": 60
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1572,
+          "users": 74
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "ce3e61772951c813194bfe99b676c9088eb22c9bde761257634e97d54b32e27d",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.4802039779999987
+    },
+    {
+      "status": "complete",
+      "bucket": 7,
+      "random_exposures_audited": 35348,
+      "query_bundles_audited": 35348,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7028,
+          "users": 556
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3537,
+          "users": 537
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6141,
+          "users": 663
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12188,
+          "users": 722
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 4969,
+          "users": 395
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 396,
+          "users": 39
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 695,
+          "users": 66
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1382,
+          "users": 78
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "7b2de95bcf5a14487ac33b3dc39d233e83bac3e8fce7c5f4fdc5179cf78f04df",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 7.169666796
+    },
+    {
+      "status": "complete",
+      "bucket": 8,
+      "random_exposures_audited": 36219,
+      "query_bundles_audited": 36219,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7588,
+          "users": 561
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3637,
+          "users": 523
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6009,
+          "users": 648
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12839,
+          "users": 714
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 4890,
+          "users": 392
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 438,
+          "users": 61
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 454,
+          "users": 53
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1697,
+          "users": 81
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "b80af8bfa9c2b436d54a2dd30daaa5e6737c39abf01da2c6d7b518fb15cf7830",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.9152664569999978
+    },
+    {
+      "status": "complete",
+      "bucket": 9,
+      "random_exposures_audited": 33023,
+      "query_bundles_audited": 33023,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 6797,
+          "users": 551
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3375,
+          "users": 532
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 5981,
+          "users": 660
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 11235,
+          "users": 728
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 4422,
+          "users": 382
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 426,
+          "users": 50
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 516,
+          "users": 69
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1310,
+          "users": 84
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "b71546ab1ad7960ec358d2cfa3a55271f58980b74e970124aa89a51507f143eb",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 6.876977696000001
+    },
+    {
+      "status": "complete",
+      "bucket": 10,
+      "random_exposures_audited": 32080,
+      "query_bundles_audited": 32080,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 6823,
+          "users": 555
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 2838,
+          "users": 504
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 5478,
+          "users": 641
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 11388,
+          "users": 725
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 4860,
+          "users": 398
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 356,
+          "users": 54
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 399,
+          "users": 62
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1192,
+          "users": 60
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "fe19a3aa635750edb9e1f96a26414e04b34ac79e75f730eba2316942918e399c",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.340064092000002
+    },
+    {
+      "status": "complete",
+      "bucket": 11,
+      "random_exposures_audited": 42390,
+      "query_bundles_audited": 42390,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 9260,
+          "users": 569
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 4636,
+          "users": 542
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 7184,
+          "users": 665
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 13775,
+          "users": 735
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 6440,
+          "users": 401
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 425,
+          "users": 48
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 697,
+          "users": 63
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1074,
+          "users": 66
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "2c5b8181f49d824a1d9d02e529536c74eed3e1f6bccf45c5e0332d7cd9797257",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 3.486419895000001
+    },
+    {
+      "status": "complete",
+      "bucket": 12,
+      "random_exposures_audited": 35799,
+      "query_bundles_audited": 35799,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 8060,
+          "users": 571
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3129,
+          "users": 534
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6214,
+          "users": 657
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 11870,
+          "users": 736
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5927,
+          "users": 391
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 261,
+          "users": 42
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 765,
+          "users": 73
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1174,
+          "users": 87
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "a3a12b08fbfdbb247e6d80db0dcc5bcbfadaf9e48f3ebc207480d1a6211124a4",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.381906894
+    },
+    {
+      "status": "complete",
+      "bucket": 13,
+      "random_exposures_audited": 34416,
+      "query_bundles_audited": 34416,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7766,
+          "users": 579
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3368,
+          "users": 535
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 5881,
+          "users": 667
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 11661,
+          "users": 732
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 4979,
+          "users": 391
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 315,
+          "users": 46
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 788,
+          "users": 75
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1164,
+          "users": 69
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "459b506ec6988660eb439875e876dbbab2f2b0f794eea38573cbc81feece5d97",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.882626375000001
+    },
+    {
+      "status": "complete",
+      "bucket": 14,
+      "random_exposures_audited": 33481,
+      "query_bundles_audited": 33481,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7954,
+          "users": 564
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3293,
+          "users": 535
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 5624,
+          "users": 659
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 10808,
+          "users": 720
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5974,
+          "users": 392
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 419,
+          "users": 61
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 543,
+          "users": 60
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1003,
+          "users": 68
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "24a3766d1c6882fa87fc21b459871639de19c9df43fcde69995e2388c9b2ec2d",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.715780088999999
+    },
+    {
+      "status": "complete",
+      "bucket": 15,
+      "random_exposures_audited": 36745,
+      "query_bundles_audited": 36745,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 8078,
+          "users": 554
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3510,
+          "users": 531
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6162,
+          "users": 659
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12553,
+          "users": 729
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5938,
+          "users": 373
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 364,
+          "users": 69
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 719,
+          "users": 63
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1698,
+          "users": 85
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "19fd92f5147d283f758a3bdb0a641e3e2b5bf997dbe5fd4a5064fabfad25ee23",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 5.566915080999998
+    },
+    {
+      "status": "complete",
+      "bucket": 16,
+      "random_exposures_audited": 34306,
+      "query_bundles_audited": 34306,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7534,
+          "users": 554
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3400,
+          "users": 526
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 5696,
+          "users": 649
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 11586,
+          "users": 721
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5146,
+          "users": 403
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 389,
+          "users": 53
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 559,
+          "users": 60
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1050,
+          "users": 77
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "2c442fc94ae3ab6d650120052f70a71019bc6e224439abe31b657cb477082179",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 5.9156883449999995
+    },
+    {
+      "status": "complete",
+      "bucket": 17,
+      "random_exposures_audited": 33477,
+      "query_bundles_audited": 33477,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 6498,
+          "users": 523
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3129,
+          "users": 510
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6137,
+          "users": 655
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 11892,
+          "users": 719
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 4489,
+          "users": 360
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 430,
+          "users": 63
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 671,
+          "users": 59
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 965,
+          "users": 66
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "9454c1ef0fe9a2c14434ee27f70b6555bbcc4708422a970939fe3f5e36c1cf62",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.6439064180000003
+    },
+    {
+      "status": "complete",
+      "bucket": 18,
+      "random_exposures_audited": 35572,
+      "query_bundles_audited": 35572,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7476,
+          "users": 547
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3403,
+          "users": 547
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 5917,
+          "users": 663
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12388,
+          "users": 751
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5359,
+          "users": 400
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 228,
+          "users": 49
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 566,
+          "users": 60
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1039,
+          "users": 72
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "5eb3d7d61ff856fd8612bcff639545a53b49ac09d53f1faaac214b44f4e9e8f4",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.5549596119999975
+    },
+    {
+      "status": "complete",
+      "bucket": 19,
+      "random_exposures_audited": 33633,
+      "query_bundles_audited": 33633,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 6818,
+          "users": 542
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3273,
+          "users": 532
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 5926,
+          "users": 631
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 11667,
+          "users": 723
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5094,
+          "users": 357
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 371,
+          "users": 55
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 723,
+          "users": 62
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1214,
+          "users": 74
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "172fef4878c9418dad8938d0b42096805ce804c11f9b0beb64abdefe00077d9a",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 3.370654246000001
+    },
+    {
+      "status": "complete",
+      "bucket": 20,
+      "random_exposures_audited": 36439,
+      "query_bundles_audited": 36439,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7960,
+          "users": 565
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3668,
+          "users": 533
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6441,
+          "users": 652
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 11843,
+          "users": 738
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5703,
+          "users": 403
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 363,
+          "users": 52
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 700,
+          "users": 65
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 641,
+          "users": 66
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "b87c5e32c3491c7f2fb99fbd48a2df55a37fe1674c503eb450f96ee17f8f05b5",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.5639238890000016
+    },
+    {
+      "status": "complete",
+      "bucket": 21,
+      "random_exposures_audited": 33954,
+      "query_bundles_audited": 33954,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7337,
+          "users": 567
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3365,
+          "users": 523
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 5980,
+          "users": 647
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 11092,
+          "users": 733
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5070,
+          "users": 382
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 390,
+          "users": 72
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 790,
+          "users": 62
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1117,
+          "users": 80
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "74523e30deeeb6abff0b293a37c15dbdb2617d52d77f8b76447a46d82ccf9c8c",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 5.83888202
+    },
+    {
+      "status": "complete",
+      "bucket": 22,
+      "random_exposures_audited": 37849,
+      "query_bundles_audited": 37849,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 8523,
+          "users": 563
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3905,
+          "users": 559
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6413,
+          "users": 663
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12291,
+          "users": 732
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 6562,
+          "users": 402
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 452,
+          "users": 64
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 437,
+          "users": 51
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 989,
+          "users": 70
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "035fc7ccdd2b3de87b9ce3911e5c64e0e50ba7d267194329d786fc3056ca248b",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 8.097885253999998
+    },
+    {
+      "status": "complete",
+      "bucket": 23,
+      "random_exposures_audited": 34701,
+      "query_bundles_audited": 34701,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7424,
+          "users": 570
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3289,
+          "users": 549
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6258,
+          "users": 659
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 11880,
+          "users": 729
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5051,
+          "users": 380
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 267,
+          "users": 56
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 786,
+          "users": 80
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1408,
+          "users": 77
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "e96463dd2cf2635b1f12444fb8666a8afbbeb85b72c3322d67628f7547b4ea2c",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.0817209360000035
+    },
+    {
+      "status": "complete",
+      "bucket": 24,
+      "random_exposures_audited": 34295,
+      "query_bundles_audited": 34295,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7439,
+          "users": 569
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3338,
+          "users": 533
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 5961,
+          "users": 666
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 11305,
+          "users": 728
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 4929,
+          "users": 403
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 402,
+          "users": 51
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 463,
+          "users": 51
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1333,
+          "users": 76
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "8378aa0202b58c12792b8954fa494af055c30f6ffa12de92dfed568a10a59e84",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.959523451999999
+    },
+    {
+      "status": "complete",
+      "bucket": 25,
+      "random_exposures_audited": 39387,
+      "query_bundles_audited": 39387,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 9049,
+          "users": 564
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3676,
+          "users": 549
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6829,
+          "users": 663
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12769,
+          "users": 733
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 6605,
+          "users": 415
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 442,
+          "users": 56
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 721,
+          "users": 67
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1127,
+          "users": 74
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "e6689276d47f9524c6d276ce84ccf8f62026f5ec61803f9c0d2e5b48060a5fa2",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.5205428009999977
+    },
+    {
+      "status": "complete",
+      "bucket": 26,
+      "random_exposures_audited": 38868,
+      "query_bundles_audited": 38868,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7648,
+          "users": 554
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3917,
+          "users": 584
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6438,
+          "users": 656
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 14106,
+          "users": 748
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5422,
+          "users": 384
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 478,
+          "users": 63
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 686,
+          "users": 68
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1479,
+          "users": 76
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "a81f1859ba60edc61a96da01f7d3ec590073ee378733f815b09de68ed61c12fb",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.524582135000003
+    },
+    {
+      "status": "complete",
+      "bucket": 27,
+      "random_exposures_audited": 35172,
+      "query_bundles_audited": 35172,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7610,
+          "users": 543
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3321,
+          "users": 543
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6104,
+          "users": 651
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12046,
+          "users": 726
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5256,
+          "users": 385
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 390,
+          "users": 49
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 597,
+          "users": 71
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1343,
+          "users": 72
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "9b64369c3cee13f7f7ee637cdbfeaae983aaf7a983275f3f837ff1e4bdeaffd4",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.183094266000005
+    },
+    {
+      "status": "complete",
+      "bucket": 28,
+      "random_exposures_audited": 34522,
+      "query_bundles_audited": 34522,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7132,
+          "users": 573
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3200,
+          "users": 551
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6080,
+          "users": 658
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 12098,
+          "users": 721
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 4531,
+          "users": 394
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 300,
+          "users": 53
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 667,
+          "users": 71
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1193,
+          "users": 66
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "bdaf5222fc3c7350b4cc65d646e0636fec5c0d486ad8f62cdf30542938f38fab",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 3.9761771440000047
+    },
+    {
+      "status": "complete",
+      "bucket": 29,
+      "random_exposures_audited": 33901,
+      "query_bundles_audited": 33901,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7680,
+          "users": 560
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3139,
+          "users": 540
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 5885,
+          "users": 644
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 11187,
+          "users": 735
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5224,
+          "users": 394
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 421,
+          "users": 61
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 516,
+          "users": 69
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1485,
+          "users": 72
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "b091de9697cf758f26139af9356e8aead0489d3203c0876a0ece76aa4ef43917",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 5.411242112000004
+    },
+    {
+      "status": "complete",
+      "bucket": 30,
+      "random_exposures_audited": 37956,
+      "query_bundles_audited": 37956,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 8069,
+          "users": 535
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3844,
+          "users": 549
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6418,
+          "users": 671
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 13049,
+          "users": 720
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5045,
+          "users": 362
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 421,
+          "users": 59
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 687,
+          "users": 69
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 1604,
+          "users": 70
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "0fdd06978d2cca64cceb58e8fc5d683d5cfd52e8497649cb996c2618aa571814",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.528411018
+    },
+    {
+      "status": "complete",
+      "bucket": 31,
+      "random_exposures_audited": 35478,
+      "query_bundles_audited": 35478,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 7512,
+          "users": 570
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 3547,
+          "users": 551
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 6209,
+          "users": 659
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 11992,
+          "users": 726
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 5430,
+          "users": 408
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 445,
+          "users": 61
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 589,
+          "users": 70
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 981,
+          "users": 64
+        }
+      ],
+      "checks": {
+        "all_random_physical_rows": true,
+        "concurrent_exposures_retained": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "response_binding": true
+      },
+      "independence": "Separate full physical-row selection, per-user bundle mapping and bounded-heap history reconstruction. No production selection or history helper called.",
+      "limitations": "Conditional observed random responses only; no assignment propensity, human confidence coverage or causal-effect claim.",
+      "audit_source_digest": "ff202e997093eb0cd609671f8b07659fc622be660a2938968c7aa8253fbc7bfb",
+      "cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "cohort_npz_sha256": "78bb8b647b20490f11604d601de6071fc60b84c387e020ccb6ab4c490d04247d",
+      "intrinsic_context_checked": true,
+      "environment_and_support_checked": true,
+      "wall_seconds": 2.382856891000003
+    }
+  ],
+  "bucket_count": 32,
+  "random_exposures": 1143022,
+  "query_bundles": 1143022,
+  "support": [
+    {
+      "protocol": "known_users",
+      "role": "train",
+      "exposures": 245612,
+      "users": 17828
+    },
+    {
+      "protocol": "known_users",
+      "role": "validation",
+      "exposures": 111325,
+      "users": 17290
+    },
+    {
+      "protocol": "known_users",
+      "role": "calibration",
+      "exposures": 197873,
+      "users": 21011
+    },
+    {
+      "protocol": "known_users",
+      "role": "test",
+      "exposures": 387143,
+      "users": 23345
+    },
+    {
+      "protocol": "unseen_users",
+      "role": "train",
+      "exposures": 170727,
+      "users": 12512
+    },
+    {
+      "protocol": "unseen_users",
+      "role": "validation",
+      "exposures": 11737,
+      "users": 1751
+    },
+    {
+      "protocol": "unseen_users",
+      "role": "calibration",
+      "exposures": 20382,
+      "users": 2100
+    },
+    {
+      "protocol": "unseen_users",
+      "role": "test",
+      "exposures": 40507,
+      "users": 2337
+    }
+  ],
+  "root": "/artifacts/datasets/kuairand-27k/prepared-candidate-v2/randomized-cases-60b69598b1185ce7/independent-audit-ff202e997093eb0c"
+}

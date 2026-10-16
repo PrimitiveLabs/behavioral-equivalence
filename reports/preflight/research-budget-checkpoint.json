@@ -1,0 +1,209 @@
+{
+  "status": "posted_usage_and_internal_reservations",
+  "observed_at": "2026-10-16T07:40:59.176287+00:00",
+  "latest_populated_hour": "2026-10-16T06:00:00Z",
+  "posted_modal_research_usd": "38.64764670",
+  "internal_ledgers": [
+    {
+      "ledger": ".campaign/human-training-calendar-v2-budget.sqlite",
+      "ceiling_usd": 30.0,
+      "reserved_usd": 29.987888,
+      "unreserved_usd": 0.012112
+    },
+    {
+      "ledger": ".campaign/multistep-audit-budget.sqlite",
+      "ceiling_usd": 1.0,
+      "reserved_usd": 0.988762,
+      "unreserved_usd": 0.011238
+    },
+    {
+      "ledger": ".campaign/calendar-support-budget.sqlite",
+      "ceiling_usd": 2.0,
+      "reserved_usd": 0.86834,
+      "unreserved_usd": 1.13166
+    },
+    {
+      "ledger": ".campaign/multistep-test-budget.sqlite",
+      "ceiling_usd": 2.0,
+      "reserved_usd": 1.433552,
+      "unreserved_usd": 0.566448
+    },
+    {
+      "ledger": ".campaign/repeated-replay-budget.sqlite",
+      "ceiling_usd": 12.0,
+      "reserved_usd": 11.645488,
+      "unreserved_usd": 0.354512
+    },
+    {
+      "ledger": ".campaign/uncertainty-budget.sqlite",
+      "ceiling_usd": 8.0,
+      "reserved_usd": 7.121612,
+      "unreserved_usd": 0.878388
+    },
+    {
+      "ledger": ".campaign/nominal-ablation-budget.sqlite",
+      "ceiling_usd": 2.0,
+      "reserved_usd": 1.999609,
+      "unreserved_usd": 0.000391
+    },
+    {
+      "ledger": ".campaign/integer-audit-budget.sqlite",
+      "ceiling_usd": 30.0,
+      "reserved_usd": 28.515328,
+      "unreserved_usd": 1.484672
+    },
+    {
+      "ledger": ".campaign/validation-precision-budget.sqlite",
+      "ceiling_usd": 0.5,
+      "reserved_usd": 0.48975,
+      "unreserved_usd": 0.01025
+    },
+    {
+      "ledger": ".campaign/human-case-audit-budget.sqlite",
+      "ceiling_usd": 4.0,
+      "reserved_usd": 3.625938,
+      "unreserved_usd": 0.374062
+    },
+    {
+      "ledger": ".campaign/heldout-response-budget.sqlite",
+      "ceiling_usd": 4.0,
+      "reserved_usd": 2.122313,
+      "unreserved_usd": 1.877687
+    },
+    {
+      "ledger": ".campaign/synthetic-budget.sqlite",
+      "ceiling_usd": 25.0,
+      "reserved_usd": 17.998034,
+      "unreserved_usd": 7.001966
+    },
+    {
+      "ledger": ".campaign/calibrated-parent-budget.sqlite",
+      "ceiling_usd": 25.0,
+      "reserved_usd": 22.065072,
+      "unreserved_usd": 2.934928
+    },
+    {
+      "ledger": ".campaign/intervention-budget.sqlite",
+      "ceiling_usd": 20.0,
+      "reserved_usd": 16.2074,
+      "unreserved_usd": 3.7926
+    },
+    {
+      "ledger": ".campaign/randomized-audit-budget.sqlite",
+      "ceiling_usd": 1.0,
+      "reserved_usd": 0.988762,
+      "unreserved_usd": 0.011238
+    },
+    {
+      "ledger": ".campaign/adjacent-calibration-budget.sqlite",
+      "ceiling_usd": 3.0,
+      "reserved_usd": 1.995044,
+      "unreserved_usd": 1.004956
+    },
+    {
+      "ledger": ".campaign/environment-diversity-budget.sqlite",
+      "ceiling_usd": 8.0,
+      "reserved_usd": 7.830904,
+      "unreserved_usd": 0.169096
+    },
+    {
+      "ledger": ".campaign/case-inference-verification-budget.sqlite",
+      "ceiling_usd": 0.5,
+      "reserved_usd": 0.257728,
+      "unreserved_usd": 0.242272
+    },
+    {
+      "ledger": ".campaign/human-training-calendar-v4-replicates-budget.sqlite",
+      "ceiling_usd": 40.0,
+      "reserved_usd": 36.879728,
+      "unreserved_usd": 3.120272
+    },
+    {
+      "ledger": ".campaign/response-certificate-budget.sqlite",
+      "ceiling_usd": 1.0,
+      "reserved_usd": 0.29579,
+      "unreserved_usd": 0.70421
+    },
+    {
+      "ledger": ".campaign/random-response-calibration-budget.sqlite",
+      "ceiling_usd": 3.0,
+      "reserved_usd": 1.12148,
+      "unreserved_usd": 1.87852
+    },
+    {
+      "ledger": ".campaign/randomized-cases-budget.sqlite",
+      "ceiling_usd": 2.0,
+      "reserved_usd": 1.433552,
+      "unreserved_usd": 0.566448
+    },
+    {
+      "ledger": ".campaign/human-cases-budget.sqlite",
+      "ceiling_usd": 4.0,
+      "reserved_usd": 3.794316,
+      "unreserved_usd": 0.205684
+    },
+    {
+      "ledger": ".campaign/calendar-quantization-budget.sqlite",
+      "ceiling_usd": 40.0,
+      "reserved_usd": 36.330144,
+      "unreserved_usd": 3.669856
+    },
+    {
+      "ledger": ".campaign/human-training-calendar-budget.sqlite",
+      "ceiling_usd": 15.0,
+      "reserved_usd": 14.299953,
+      "unreserved_usd": 0.700047
+    },
+    {
+      "ledger": ".campaign/adjacent-audit-budget.sqlite",
+      "ceiling_usd": 5.0,
+      "reserved_usd": 2.123776,
+      "unreserved_usd": 2.876224
+    },
+    {
+      "ledger": ".campaign/response-frontier-budget.sqlite",
+      "ceiling_usd": 1.0,
+      "reserved_usd": 0.29579,
+      "unreserved_usd": 0.70421
+    },
+    {
+      "ledger": ".campaign/history-state-budget.sqlite",
+      "ceiling_usd": 4.0,
+      "reserved_usd": 3.39592,
+      "unreserved_usd": 0.60408
+    },
+    {
+      "ledger": ".campaign/nested-human-budget.sqlite",
+      "ceiling_usd": 40.0,
+      "reserved_usd": 39.992368,
+      "unreserved_usd": 0.007632
+    },
+    {
+      "ledger": ".campaign/intervention-analysis-budget.sqlite",
+      "ceiling_usd": 3.0,
+      "reserved_usd": 2.014338,
+      "unreserved_usd": 0.985662
+    },
+    {
+      "ledger": ".campaign/resolution-support-budget.sqlite",
+      "ceiling_usd": 3.0,
+      "reserved_usd": 2.21296,
+      "unreserved_usd": 0.78704
+    },
+    {
+      "ledger": ".campaign/human-training-calendar-v3-budget.sqlite",
+      "ceiling_usd": 60.0,
+      "reserved_usd": 58.414352,
+      "unreserved_usd": 1.585648
+    },
+    {
+      "ledger": ".campaign/uncertainty-repeated-budget.sqlite",
+      "ceiling_usd": 15.0,
+      "reserved_usd": 11.176928,
+      "unreserved_usd": 3.823072
+    }
+  ],
+  "internal_ceiling_total_usd": "414.0",
+  "internal_reserved_total_usd": "369.922919",
+  "scope": "Posted Modal research compute usage, not live all-in spending or net invoice. Internal ledger allowances are not a user-approved global cap. Storage, unposted usage, credits and conversation costs remain unreconciled. No frontier research API calls."
+}

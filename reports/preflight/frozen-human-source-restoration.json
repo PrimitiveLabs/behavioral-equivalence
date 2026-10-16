@@ -1,0 +1,52 @@
+{
+  "status": "verified",
+  "restored_modules": [
+    "quantization.py",
+    "resolution_support.py",
+    "random_response.py",
+    "item_context.py",
+    "human_protocol.py",
+    "data_audit.py",
+    "heldout_response.py",
+    "neutral_response.py"
+  ],
+  "scope": "Offline restoration of all eight corrected modules exactly reproduces all four original final-human source maps; no calls or rescoring",
+  "checks": [
+    {
+      "controller": "evaluate_human_one_step.py",
+      "phase": null,
+      "current_digest": "be717974e2b4a7e2fe142d44275837ea445ebe7b7680d3f6a34efc7d52762ea3",
+      "restored_digest": "8321be2e57203ca0c0812a2baf315008ee689ecfcb963c20d9096181c95a90de",
+      "exact_archived_matches": [
+        "reports/source-snapshots/final-one_step-8321be2e57203ca0.json"
+      ]
+    },
+    {
+      "controller": "evaluate_human_horizons.py",
+      "phase": null,
+      "current_digest": "3f279b5daf96e771ae6cc7547513d255c3b324f8e5d0a3ff0783fbd8d0ed55c9",
+      "restored_digest": "d4984c93acbe0b14f2a81e9477738e49dec01bd53115a14ae8f0534ac66ad3be",
+      "exact_archived_matches": [
+        "reports/source-snapshots/final-direct_horizon-d4984c93acbe0b14.json"
+      ]
+    },
+    {
+      "controller": "evaluate_human_responses.py",
+      "phase": "response_all_groups",
+      "current_digest": "6a7b50a5f5f5200f9956067a28203707ea6f996eb44aea0aa4e8dd9b8e94fd63",
+      "restored_digest": "083dfc60f47ea65a01d7b34d7482b6ebf75b6b7f292d35938f4edfcf1be10203",
+      "exact_archived_matches": [
+        "reports/source-snapshots/final-response_all_groups-083dfc60f47ea65a.json"
+      ]
+    },
+    {
+      "controller": "evaluate_human_responses.py",
+      "phase": "response_heldout_groups",
+      "current_digest": "c868d9c6a97474eb4ac0633b246ca347a2be017c00263576b35879f5e11233bf",
+      "restored_digest": "f7115561ad28a03bb2085626f6f9a9bc8e9577ef6f0c310c23849832ba431752",
+      "exact_archived_matches": [
+        "reports/source-snapshots/final-response_heldout_groups-f7115561ad28a03b.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "human-horizon-training-v1",
+  "cohort_root": "datasets/kuairand-27k/prepared-candidate-v2/multistep-fit-dc9b74c174ca508f",
+  "cohort_report_sha256": "451ebbc40c50f5b5852f66fe50d851bbd0a430e559c5c6cb94a90d5b90546415",
+  "audit_relative": "independent-audit-a783bbabf73c5477/report.json",
+  "audit_report_sha256": "93565442cd23ad7cfb2fa9eb44578cf9335ce37081ff3b58c9516d56d890a80f",
+  "head_spec_sha256": "64b6bb7c3506b74d627f773beb7f5733b360708a6d4d0efd2385b428b5fa1f78",
+  "training_sources": [
+    {
+      "root": "human-calendar-training-v3-8c2afe99bb75",
+      "source_digest": "8c2afe99bb7532b901952f872abe18ce2ac08b4f9b5b340eaa0280cdb3a1383e",
+      "seeds": [
+        20261015,
+        20261016,
+        20261017
+      ]
+    },
+    {
+      "root": "human-calendar-training-v4-replicates-609ecd456db7",
+      "source_digest": "609ecd456db71cad956927bdde31c32c05952571cb381f9893da86789a050b55",
+      "seeds": [
+        20261018,
+        20261019
+      ]
+    }
+  ],
+  "inference_batch_size": 2048,
+  "origin_sampling_seed": 20261015,
+  "scope": "Secondary origin-only direct horizon heads, trained only on audited fitting-role data. Validation is retrospective diagnostics, not final human predictive evidence. No final test predictions or metrics, no provider inference calls.",
+  "budget_bundle": {
+    "reservation_id": "horizon-heads-0938337637efc21af62122c2ad0af7ad603fdc1a937ba45bfc5b80cfc78beda6",
+    "reserved_usd": 4.5,
+    "maximum_source_versions": 2,
+    "maximum_coordinator_calls": 3,
+    "maximum_fit_calls": 32,
+    "worker_timeout_seconds": 900,
+    "scope": "One failed original smoke, one revised smoke and30full worker calls; all attempts retained, one existing program reservation.32worker timeouts plus3coordinator timeouts and0.30startup allowance total4.464336USD at declared rates. Estimate only, not provider-enforced lifetime cap."
+  }
+}

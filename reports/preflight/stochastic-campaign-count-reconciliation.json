@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "scope": "Read-only aggregate reconciliation of retained uncertainty campaign/replay reports; paired method/support evaluations are not independent datasets. No new numerical replay or coverage theorem.",
+  "initial_uncertainty_worlds": 200,
+  "initial_paired_transition_datasets": 600,
+  "initial_method_dataset_evaluations": 1200,
+  "repeated_independent_datasets": 4000,
+  "repeated_method_support_evaluations": 16000,
+  "repeated_chunks": 400,
+  "all_cell_denominators_reconcile": true,
+  "inputs": [
+    {
+      "path": "reports/preflight/uncertainty-main-manifest.json",
+      "sha256": "17a82698a8356bbc138782ac394a3bcf4402e0e8105476fd89b47cadb753bcc4"
+    },
+    {
+      "path": "reports/preflight/uncertainty-repeated-summary.json",
+      "sha256": "24eda8e82e685db7bd8d1440acde88c5519bd3d2e58712b9a8a6aecf799128ee"
+    }
+  ]
+}

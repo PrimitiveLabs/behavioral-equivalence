@@ -1,0 +1,338 @@
+{
+  "status": "passed",
+  "observed_at": "2026-10-16T09:00:39.252397+00:00",
+  "scope": "Local reconciliation of retained aggregate preparation reports only. No private NPZ read, raw row reconstruction, fresh provider execution, inference or unknown-human coverage claim.",
+  "shared_input_buckets": 32,
+  "reports": [
+    {
+      "path": "reports/preflight/human-adjacent-calibration.json",
+      "sha256": "ded969e03e56d879bb7a2dbff3aa637c69eee821e45024125103a7a21ea09b19",
+      "buckets": 32,
+      "checks": 4,
+      "support": [
+        {
+          "protocol": "known_users",
+          "transitions": 1393257,
+          "users": 25522
+        },
+        {
+          "protocol": "unseen_users",
+          "transitions": 139378,
+          "users": 2542
+        }
+      ],
+      "horizon_totals": []
+    },
+    {
+      "path": "reports/preflight/human-randomized-preparation.json",
+      "sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+      "buckets": 32,
+      "checks": 528,
+      "support": [
+        {
+          "protocol": "known_users",
+          "role": "train",
+          "exposures": 245612,
+          "users": 17828
+        },
+        {
+          "protocol": "known_users",
+          "role": "validation",
+          "exposures": 111325,
+          "users": 17290
+        },
+        {
+          "protocol": "known_users",
+          "role": "calibration",
+          "exposures": 197873,
+          "users": 21011
+        },
+        {
+          "protocol": "known_users",
+          "role": "test",
+          "exposures": 387143,
+          "users": 23345
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "train",
+          "exposures": 170727,
+          "users": 12512
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "validation",
+          "exposures": 11737,
+          "users": 1751
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "calibration",
+          "exposures": 20382,
+          "users": 2100
+        },
+        {
+          "protocol": "unseen_users",
+          "role": "test",
+          "exposures": 40507,
+          "users": 2337
+        }
+      ],
+      "horizon_totals": []
+    },
+    {
+      "path": "reports/preflight/human-multistep-test-preparation.json",
+      "sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "buckets": 32,
+      "checks": 644,
+      "support": [
+        {
+          "protocol": "known_users",
+          "origins": 1539530,
+          "users": 25796
+        },
+        {
+          "protocol": "unseen_users",
+          "origins": 153863,
+          "users": 2582
+        }
+      ],
+      "horizon_totals": [
+        {
+          "protocol": "known_users",
+          "horizon": 1,
+          "observed_origins": 1539530,
+          "censored_origins": 0
+        },
+        {
+          "protocol": "known_users",
+          "horizon": 5,
+          "observed_origins": 1493987,
+          "censored_origins": 45543
+        },
+        {
+          "protocol": "known_users",
+          "horizon": 10,
+          "observed_origins": 1437856,
+          "censored_origins": 101674
+        },
+        {
+          "protocol": "known_users",
+          "horizon": 25,
+          "observed_origins": 1277212,
+          "censored_origins": 262318
+        },
+        {
+          "protocol": "known_users",
+          "horizon": 50,
+          "observed_origins": 1039299,
+          "censored_origins": 500231
+        },
+        {
+          "protocol": "unseen_users",
+          "horizon": 1,
+          "observed_origins": 153863,
+          "censored_origins": 0
+        },
+        {
+          "protocol": "unseen_users",
+          "horizon": 5,
+          "observed_origins": 149316,
+          "censored_origins": 4547
+        },
+        {
+          "protocol": "unseen_users",
+          "horizon": 10,
+          "observed_origins": 143590,
+          "censored_origins": 10273
+        },
+        {
+          "protocol": "unseen_users",
+          "horizon": 25,
+          "observed_origins": 127567,
+          "censored_origins": 26296
+        },
+        {
+          "protocol": "unseen_users",
+          "horizon": 50,
+          "observed_origins": 103570,
+          "censored_origins": 50293
+        }
+      ]
+    },
+    {
+      "path": "reports/preflight/multistep-fit-completion.json",
+      "sha256": "451ebbc40c50f5b5852f66fe50d851bbd0a430e559c5c6cb94a90d5b90546415",
+      "buckets": 32,
+      "checks": 1288,
+      "support": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "origins": 1654438,
+          "users": 26079
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "origins": 1396339,
+          "users": 25652
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "origins": 1158132,
+          "users": 18256
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "origins": 139656,
+          "users": 2557
+        }
+      ],
+      "horizon_totals": [
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "horizon": 1,
+          "observed_origins": 1654438,
+          "censored_origins": 0
+        },
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "horizon": 5,
+          "observed_origins": 1641345,
+          "censored_origins": 13093
+        },
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "horizon": 10,
+          "observed_origins": 1625218,
+          "censored_origins": 29220
+        },
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "horizon": 25,
+          "observed_origins": 1577446,
+          "censored_origins": 76992
+        },
+        {
+          "protocol": "known_users",
+          "split": "train",
+          "horizon": 50,
+          "observed_origins": 1500785,
+          "censored_origins": 153653
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "horizon": 1,
+          "observed_origins": 1396339,
+          "censored_origins": 0
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "horizon": 5,
+          "observed_origins": 1333338,
+          "censored_origins": 63001
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "horizon": 10,
+          "observed_origins": 1256876,
+          "censored_origins": 139463
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "horizon": 25,
+          "observed_origins": 1045219,
+          "censored_origins": 351120
+        },
+        {
+          "protocol": "known_users",
+          "split": "validation",
+          "horizon": 50,
+          "observed_origins": 757953,
+          "censored_origins": 638386
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "horizon": 1,
+          "observed_origins": 1158132,
+          "censored_origins": 0
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "horizon": 5,
+          "observed_origins": 1148930,
+          "censored_origins": 9202
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "horizon": 10,
+          "observed_origins": 1137643,
+          "censored_origins": 20489
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "horizon": 25,
+          "observed_origins": 1104142,
+          "censored_origins": 53990
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "train",
+          "horizon": 50,
+          "observed_origins": 1050600,
+          "censored_origins": 107532
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "horizon": 1,
+          "observed_origins": 139656,
+          "censored_origins": 0
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "horizon": 5,
+          "observed_origins": 133441,
+          "censored_origins": 6215
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "horizon": 10,
+          "observed_origins": 125812,
+          "censored_origins": 13844
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "horizon": 25,
+          "observed_origins": 104615,
+          "censored_origins": 35041
+        },
+        {
+          "protocol": "unseen_users",
+          "split": "validation",
+          "horizon": 50,
+          "observed_origins": 75697,
+          "censored_origins": 63959
+        }
+      ]
+    }
+  ]
+}

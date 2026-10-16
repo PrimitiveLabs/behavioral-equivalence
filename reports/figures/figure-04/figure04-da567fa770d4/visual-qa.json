@@ -1,0 +1,16 @@
+{
+  "status": "accepted",
+  "panels_checked": [
+    "figure-04a-width.png",
+    "figure-04b-ranges.png"
+  ],
+  "manifest_render_source_digest": "da567fa770d4351989525cf1e7857303d0daefbb0d16371a1fecc677a3722449",
+  "checks": [
+    "Readable labels and units; probability axes bounded by 0 and 1",
+    "Range legend outside plotting area; no observed overlap",
+    "Measured known-model and nominal markers distinguished from interval bars",
+    "Floating Clopper-Pearson quantile and synthetic-only limitations visible"
+  ],
+  "prior_version": "figure04-4bae92e72879 retained, legend overlapped data and is superseded",
+  "caption_requirement": "Panel A first averages interval width over active concrete states within each world, then averages equally across worlds. Means only; world-bootstrap comparisons reside in source summary."
+}

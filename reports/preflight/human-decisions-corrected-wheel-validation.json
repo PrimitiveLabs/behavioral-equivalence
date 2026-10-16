@@ -1,0 +1,46 @@
+{
+  "status": "complete_with_optional_skips",
+  "scope": "Local added cohort/decision/summary-entrypoint tests and expanded full suite against unchanged corrected wheel; no new cloud run or human inference",
+  "wheel_sha256": "cf98aaac676e1ba15055daee1f1a3eb38215cf2b5509a88622a0fe57116f55e9",
+  "all_wheel_python_modules_match_current_source": true,
+  "installed_wheel_import_verified": true,
+  "added_test": "tests/test_human_decision_boundaries.py",
+  "added_test_sha256": "d830c760bff1738e928141e19379c539152c92a76e95d8c39ae5259aab6ab984",
+  "added_tests_passed": 19,
+  "full_tests_passed": 1076,
+  "full_tests_skipped": 8,
+  "checks": [
+    {
+      "command": [
+        "/Users/rohittalluri/projects/behavioral-equivalence/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error",
+        "-o",
+        "pythonpath=",
+        "tests/test_human_decision_boundaries.py"
+      ],
+      "stdout": "...................                                                      [100%]\n19 passed in 0.14s\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/Users/rohittalluri/projects/behavioral-equivalence/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error",
+        "-o",
+        "pythonpath=",
+        "tests"
+      ],
+      "stdout": "........................................................................ [  6%]\n........................................................................ [ 13%]\n........................................................................ [ 20%]\n........................................................................ [ 26%]\n........................................................................ [ 33%]\n....................................................................ss.. [ 40%]\n........................................................................ [ 46%]\n........................................................................ [ 53%]\n........................................................................ [ 60%]\n........................................................................ [ 66%]\n........................................................................ [ 73%]\n........................................................................ [ 80%]\n........................................................................ [ 86%]\n............ss.......................................................... [ 93%]\n........................................................................ [100%]\n1076 passed, 8 skipped in 4.71s\n",
+      "stderr": "",
+      "returncode": 0
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "human-multistep-fit-v1",
+  "status": "Training/validation preparation for secondary direct horizon predictors; final test analysis remains unscored",
+  "prepared_root": "datasets/kuairand-27k/prepared-candidate-v2",
+  "prepared_report_sha256": "f94f6807749dcfa8b98df4329f3102081d057f90ec96aee6129cc03f030492fd",
+  "protocols": [
+    "known_users",
+    "unseen_users"
+  ],
+  "embargo_hours": 24,
+  "decision_horizons": [
+    1,
+    5,
+    10,
+    25,
+    50
+  ],
+  "origin_cap_per_user": 64,
+  "origin_seed": 20261021,
+  "representative_seed_base": 20261021,
+  "representative_rule": "Reuse the adjacent-calibration full-bundle representative rule with seed base plus source bucket. Sort exposures by bundle_index then immutable case_id before sampling one exposure per bundle.",
+  "origin_rule": "Uniform within each user and declared fitting/validation calendar role, before future support or outcomes.",
+  "observed_cohort": "H consecutive original timestamp bundles, including the origin, all within the same user's test role. No skipping excluded bundles or crossing user boundaries.",
+  "events": [
+    "positive occupancy at H",
+    "positive at least once through H",
+    "negative at least once through H",
+    "at least two positives through H",
+    "at least four positives through H"
+  ],
+  "graph_transitions": "2*H-1 from a pending origin in the emission-aware decision lift",
+  "missing_target": -1,
+  "censoring_report": "Selected, observed and unavailable origins and users, separately for every horizon and evaluation protocol. Do not count unavailable outcomes as negative.",
+  "weighting": "Equal users within each supported observed-horizon cohort; report case-weighted descriptive sensitivity separately.",
+  "minimum_inferential_support": {
+    "users": 50,
+    "observed_origins": 2000
+  },
+  "scope": "Outcome-blind within-training/validation origin selection for direct horizon prediction heads. Only same-role observed future responses become fitting targets; no test-origin target export or final test scoring. Unseen-user fitting must additionally select the matching user role. Future contexts and outcomes are excluded from origin features.",
+  "execution": "Prepare both roles in one pass per source bucket; no final evaluation.",
+  "independent_audit_sha256": "0176129f335c54fb3589e8149cea335f14edc903dee777bcd760a7fc4336d26d",
+  "calendar": {
+    "train_end": 1651190400000,
+    "validation_end": 1651449600000,
+    "calibration_end": 1651708800000
+  },
+  "metadata_root": "datasets/kuairand-27k/item-metadata-v1-14656b2136c2c3d0",
+  "metadata_report_sha256": "3bc4cd805d7d510c0eeb981368d68d33bec0c20441dab597f088a6d16e644548",
+  "resource_budget": {
+    "campaign_allowance_usd": 4,
+    "worker_cpu": 2,
+    "worker_memory_gib": 8,
+    "worker_timeout_seconds": 600,
+    "coordinator_timeout_seconds": 3600,
+    "max_workers": 4,
+    "scope": "Smoke/full timeout and startup reservations; not provider-enforced billing cap",
+    "ledger": "Existing human-cases allowance; no new ceiling"
+  },
+  "splits": [
+    "train",
+    "validation"
+  ]
+}

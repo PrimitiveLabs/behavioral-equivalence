@@ -1,0 +1,485 @@
+{
+  "schema_version": "intervention-seed-cluster-analysis-v1",
+  "status": "complete",
+  "campaign_id": "intervention-main-v1-f38425758e38",
+  "protocol_digest": "f38425758e3893c65a34dec8a6f80f2f6f7079ee0f7b896d2c5980b17733d769",
+  "response_worlds": 400,
+  "primary_response_changing_worlds": 300,
+  "negative_control_worlds": 100,
+  "seed_clusters": 10,
+  "bootstrap_replications": 5000,
+  "bootstrap_seed": 20261015,
+  "comparisons": [
+    {
+      "scope": "bundled_primary",
+      "candidate": [
+        "rbf_ucb",
+        "targeted_witness"
+      ],
+      "reference": [
+        "random",
+        "random_capacity"
+      ],
+      "horizon": 10,
+      "metric": "mean_total_prediction_max_error",
+      "paired_mean_difference": -0.004436016082577246,
+      "seed_cluster_bootstrap_interval": [
+        -0.0073541367459597825,
+        -0.0014339870950126731
+      ],
+      "interval_level": 0.95,
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "world_cells": 30,
+          "paired_mean_difference": -0.005717658153555234,
+          "candidate_mean_states": 73.93333333333334,
+          "reference_mean_states": 73.83333333333333
+        },
+        {
+          "seed": 40001,
+          "world_cells": 30,
+          "paired_mean_difference": -0.006618088983801703,
+          "candidate_mean_states": 73.96666666666667,
+          "reference_mean_states": 73.96666666666667
+        },
+        {
+          "seed": 40002,
+          "world_cells": 30,
+          "paired_mean_difference": -0.008352498906482365,
+          "candidate_mean_states": 73.93333333333334,
+          "reference_mean_states": 73.96666666666667
+        },
+        {
+          "seed": 40003,
+          "world_cells": 30,
+          "paired_mean_difference": -0.0009637651768742826,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 73.93333333333334
+        },
+        {
+          "seed": 40004,
+          "world_cells": 30,
+          "paired_mean_difference": -0.003986100367182349,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 73.96666666666667
+        },
+        {
+          "seed": 40005,
+          "world_cells": 30,
+          "paired_mean_difference": -0.0033362418316169465,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40006,
+          "world_cells": 30,
+          "paired_mean_difference": 0.002506285244426952,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 73.9
+        },
+        {
+          "seed": 40007,
+          "world_cells": 30,
+          "paired_mean_difference": -0.013654378320085708,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40008,
+          "world_cells": 30,
+          "paired_mean_difference": -0.0076134433886848344,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40009,
+          "world_cells": 30,
+          "paired_mean_difference": 0.0033757290580840086,
+          "candidate_mean_states": 73.96666666666667,
+          "reference_mean_states": 73.9
+        }
+      ],
+      "independent_seed_clusters": 10,
+      "interpretation": "Negative differences favor the candidate. Bundled search comparison can differ in capacity; only within-method targeted/random-capacity comparisons isolate matched-capacity refinement."
+    },
+    {
+      "scope": "same_data_and_capacity",
+      "candidate": [
+        "random",
+        "targeted_witness"
+      ],
+      "reference": [
+        "random",
+        "random_capacity"
+      ],
+      "horizon": 10,
+      "metric": "mean_total_prediction_max_error",
+      "paired_mean_difference": -0.016932958525140204,
+      "seed_cluster_bootstrap_interval": [
+        -0.019234698090054136,
+        -0.013971773259473151
+      ],
+      "interval_level": 0.9875,
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "world_cells": 30,
+          "paired_mean_difference": -0.019126807548862677,
+          "candidate_mean_states": 73.83333333333333,
+          "reference_mean_states": 73.83333333333333
+        },
+        {
+          "seed": 40001,
+          "world_cells": 30,
+          "paired_mean_difference": -0.019438645006019058,
+          "candidate_mean_states": 73.96666666666667,
+          "reference_mean_states": 73.96666666666667
+        },
+        {
+          "seed": 40002,
+          "world_cells": 30,
+          "paired_mean_difference": -0.019165599449985138,
+          "candidate_mean_states": 73.96666666666667,
+          "reference_mean_states": 73.96666666666667
+        },
+        {
+          "seed": 40003,
+          "world_cells": 30,
+          "paired_mean_difference": -0.01213947251893951,
+          "candidate_mean_states": 73.93333333333334,
+          "reference_mean_states": 73.93333333333334
+        },
+        {
+          "seed": 40004,
+          "world_cells": 30,
+          "paired_mean_difference": -0.015560699269237286,
+          "candidate_mean_states": 73.96666666666667,
+          "reference_mean_states": 73.96666666666667
+        },
+        {
+          "seed": 40005,
+          "world_cells": 30,
+          "paired_mean_difference": -0.019594283560104415,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40006,
+          "world_cells": 30,
+          "paired_mean_difference": -0.009510504780165095,
+          "candidate_mean_states": 73.9,
+          "reference_mean_states": 73.9
+        },
+        {
+          "seed": 40007,
+          "world_cells": 30,
+          "paired_mean_difference": -0.01779916991707096,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40008,
+          "world_cells": 30,
+          "paired_mean_difference": -0.02080561439331723,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40009,
+          "world_cells": 30,
+          "paired_mean_difference": -0.016188788807700655,
+          "candidate_mean_states": 73.9,
+          "reference_mean_states": 73.9
+        }
+      ],
+      "independent_seed_clusters": 10,
+      "interpretation": "Negative differences favor the candidate. Bundled search comparison can differ in capacity; only within-method targeted/random-capacity comparisons isolate matched-capacity refinement."
+    },
+    {
+      "scope": "same_data_and_capacity",
+      "candidate": [
+        "maximin_grid",
+        "targeted_witness"
+      ],
+      "reference": [
+        "maximin_grid",
+        "random_capacity"
+      ],
+      "horizon": 10,
+      "metric": "mean_total_prediction_max_error",
+      "paired_mean_difference": -0.018346529211795144,
+      "seed_cluster_bootstrap_interval": [
+        -0.02014725250108102,
+        -0.01643185205898966
+      ],
+      "interval_level": 0.9875,
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "world_cells": 30,
+          "paired_mean_difference": -0.020665072346360735,
+          "candidate_mean_states": 73.86666666666666,
+          "reference_mean_states": 73.86666666666666
+        },
+        {
+          "seed": 40001,
+          "world_cells": 30,
+          "paired_mean_difference": -0.017961534167336417,
+          "candidate_mean_states": 73.93333333333334,
+          "reference_mean_states": 73.93333333333334
+        },
+        {
+          "seed": 40002,
+          "world_cells": 30,
+          "paired_mean_difference": -0.017518233561085877,
+          "candidate_mean_states": 73.9,
+          "reference_mean_states": 73.9
+        },
+        {
+          "seed": 40003,
+          "world_cells": 30,
+          "paired_mean_difference": -0.016671920658965573,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40004,
+          "world_cells": 30,
+          "paired_mean_difference": -0.017718957726726145,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40005,
+          "world_cells": 30,
+          "paired_mean_difference": -0.020932604136400315,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40006,
+          "world_cells": 30,
+          "paired_mean_difference": -0.01409989127935011,
+          "candidate_mean_states": 73.86666666666666,
+          "reference_mean_states": 73.86666666666666
+        },
+        {
+          "seed": 40007,
+          "world_cells": 30,
+          "paired_mean_difference": -0.020624623318252475,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40008,
+          "world_cells": 30,
+          "paired_mean_difference": -0.021673642499977427,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40009,
+          "world_cells": 30,
+          "paired_mean_difference": -0.015598812423496356,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        }
+      ],
+      "independent_seed_clusters": 10,
+      "interpretation": "Negative differences favor the candidate. Bundled search comparison can differ in capacity; only within-method targeted/random-capacity comparisons isolate matched-capacity refinement."
+    },
+    {
+      "scope": "same_data_and_capacity",
+      "candidate": [
+        "rbf_ucb",
+        "targeted_witness"
+      ],
+      "reference": [
+        "rbf_ucb",
+        "random_capacity"
+      ],
+      "horizon": 10,
+      "metric": "mean_total_prediction_max_error",
+      "paired_mean_difference": -0.015355896786494082,
+      "seed_cluster_bootstrap_interval": [
+        -0.017303951074013835,
+        -0.013360095471324034
+      ],
+      "interval_level": 0.9875,
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "world_cells": 30,
+          "paired_mean_difference": -0.016115840722998143,
+          "candidate_mean_states": 73.93333333333334,
+          "reference_mean_states": 73.93333333333334
+        },
+        {
+          "seed": 40001,
+          "world_cells": 30,
+          "paired_mean_difference": -0.01237438713877041,
+          "candidate_mean_states": 73.96666666666667,
+          "reference_mean_states": 73.96666666666667
+        },
+        {
+          "seed": 40002,
+          "world_cells": 30,
+          "paired_mean_difference": -0.01733685249553194,
+          "candidate_mean_states": 73.93333333333334,
+          "reference_mean_states": 73.93333333333334
+        },
+        {
+          "seed": 40003,
+          "world_cells": 30,
+          "paired_mean_difference": -0.011274176755536743,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40004,
+          "world_cells": 30,
+          "paired_mean_difference": -0.014419611781581864,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40005,
+          "world_cells": 30,
+          "paired_mean_difference": -0.01808616457731257,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40006,
+          "world_cells": 30,
+          "paired_mean_difference": -0.013862617091393126,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40007,
+          "world_cells": 30,
+          "paired_mean_difference": -0.019814385454132437,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40008,
+          "world_cells": 30,
+          "paired_mean_difference": -0.016562811249083972,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40009,
+          "world_cells": 30,
+          "paired_mean_difference": -0.013712120598599605,
+          "candidate_mean_states": 73.96666666666667,
+          "reference_mean_states": 73.96666666666667
+        }
+      ],
+      "independent_seed_clusters": 10,
+      "interpretation": "Negative differences favor the candidate. Bundled search comparison can differ in capacity; only within-method targeted/random-capacity comparisons isolate matched-capacity refinement."
+    },
+    {
+      "scope": "same_data_and_capacity",
+      "candidate": [
+        "local_search",
+        "targeted_witness"
+      ],
+      "reference": [
+        "local_search",
+        "random_capacity"
+      ],
+      "horizon": 10,
+      "metric": "mean_total_prediction_max_error",
+      "paired_mean_difference": -0.0134122042254146,
+      "seed_cluster_bootstrap_interval": [
+        -0.01503868856834272,
+        -0.011888926726705483
+      ],
+      "interval_level": 0.9875,
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "world_cells": 30,
+          "paired_mean_difference": -0.012936202239455415,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40001,
+          "world_cells": 30,
+          "paired_mean_difference": -0.01256838803770093,
+          "candidate_mean_states": 73.93333333333334,
+          "reference_mean_states": 73.93333333333334
+        },
+        {
+          "seed": 40002,
+          "world_cells": 30,
+          "paired_mean_difference": -0.012605319451636269,
+          "candidate_mean_states": 73.86666666666666,
+          "reference_mean_states": 73.86666666666666
+        },
+        {
+          "seed": 40003,
+          "world_cells": 30,
+          "paired_mean_difference": -0.010893362993107813,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40004,
+          "world_cells": 30,
+          "paired_mean_difference": -0.015491507599068558,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40005,
+          "world_cells": 30,
+          "paired_mean_difference": -0.01654000341098012,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40006,
+          "world_cells": 30,
+          "paired_mean_difference": -0.010240012427534827,
+          "candidate_mean_states": 73.96666666666667,
+          "reference_mean_states": 73.96666666666667
+        },
+        {
+          "seed": 40007,
+          "world_cells": 30,
+          "paired_mean_difference": -0.014120919854837533,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40008,
+          "world_cells": 30,
+          "paired_mean_difference": -0.01655783719543891,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        },
+        {
+          "seed": 40009,
+          "world_cells": 30,
+          "paired_mean_difference": -0.01216848904438564,
+          "candidate_mean_states": 74.0,
+          "reference_mean_states": 74.0
+        }
+      ],
+      "independent_seed_clusters": 10,
+      "interpretation": "Negative differences favor the candidate. Bundled search comparison can differ in capacity; only within-method targeted/random-capacity comparisons isolate matched-capacity refinement."
+    }
+  ],
+  "negative_control_max_mean_prediction_error": 8.270294171719428e-16,
+  "scope": "Conditional on the fixed synthetic generator and held-out catalogue. Ten planned shared seed clusters, not states, horizons, coordinates or surfaces, determine uncertainty. Limited-cluster bootstrap summaries are not distribution-free certificates. No human generalization inference.",
+  "analysis_source_digest": "773c68323e0f7a90fd39debaaf6d1eaaa09b70ef77fd92eee2a61fe05ac079ad",
+  "manifest_sha256": "dee4b63f12c5ad1e07d3d45831cbbcafdc2f526f4476c396b9371e865e19c217",
+  "audited_worlds": 400,
+  "model_certificate_bindings_checked": 25600
+}

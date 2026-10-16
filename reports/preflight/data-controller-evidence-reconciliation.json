@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "scope": "Read-only reconciliation of retained aggregate data/audit and exact archive metadata identities; no raw records downloaded or reparsed, no license opinion or new ingestion",
+  "archive_bytes": 9892191178,
+  "archive_sha256": "b8a8a5b777e564202cff6b96676959ee0d6baccc7ad7376bcb4af6767362d41b",
+  "deposit_metadata_bytes_match_report": true,
+  "buckets": 32,
+  "eligible_nonpilot_users": 26285,
+  "excluded_pilot_users": 1000,
+  "prepared_rows": 309105777,
+  "all_bucket_aggregate_counts_match": true,
+  "inputs": [
+    {
+      "path": "data/rights/zenodo-record-full-20261015.json",
+      "sha256": "2c48fffeae76242de27e7708d35077bc15d749dc510c0255f6126ab4e00a08da"
+    },
+    {
+      "path": "reports/preflight/kuairand-27k-inspection.json",
+      "sha256": "354b7006e686d0984787bc88e9c03c694953822b3819fabdbdedb4e294c2d9ef"
+    },
+    {
+      "path": "reports/preflight/kuairand-27k-independent-audit.json",
+      "sha256": "0176129f335c54fb3589e8149cea335f14edc903dee777bcd760a7fc4336d26d"
+    },
+    {
+      "path": "reports/preflight/kuairand-27k-item-metadata-audit.json",
+      "sha256": "3bc4cd805d7d510c0eeb981368d68d33bec0c20441dab597f088a6d16e644548"
+    },
+    {
+      "path": "reports/preflight/pilot-identity-report.json",
+      "sha256": "47cfe75dc65efd086b0b4cdb110e89ec1247ab7a96e55bbcb821f6df1f786902"
+    }
+  ]
+}

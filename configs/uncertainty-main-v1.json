@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.1",
+  "phase": "frozen_synthetic_uncertainty_benchmark",
+  "frozen_at": "2026-10-15T17:31:51.634869+00:00",
+  "families": [
+    "preference",
+    "belief",
+    "trust",
+    "patience",
+    "memory"
+  ],
+  "sizes": [
+    32,
+    128
+  ],
+  "seeds": [
+    20000,
+    20001,
+    20002,
+    20003,
+    20004,
+    20005,
+    20006,
+    20007,
+    20008,
+    20009,
+    20010,
+    20011,
+    20012,
+    20013,
+    20014,
+    20015,
+    20016,
+    20017,
+    20018,
+    20019
+  ],
+  "samples_per_row": [
+    100,
+    1000,
+    10000
+  ],
+  "perturbation": 0.01,
+  "horizons": [
+    5,
+    10,
+    25,
+    50
+  ],
+  "alpha": [
+    1,
+    20
+  ],
+  "bits": 48,
+  "source_files": [
+    "__init__.py",
+    "budget.py",
+    "core.py",
+    "synthetic.py",
+    "uncertainty.py",
+    "integer_bounds.py",
+    "uncertainty_abstraction.py",
+    "confidence.py",
+    "robust_benchmark.py"
+  ],
+  "source_digest": "3052beab5b662b3080e66b22568c8ad2d885a270bfa6f0b860ba41f0a9c9411d",
+  "expected_worlds": 200,
+  "statistical_design": "Fixed iid row samples paired between certified Hoeffding and floating-quantile Clopper-Pearson. Aggregate coverage by transition dataset, cluster across methods/sample counts by world.",
+  "outcomes": [
+    "kernel confidence-set inclusion",
+    "robust probability coverage by all related states",
+    "width versus row sample size",
+    "uniform abstraction cost and vacuity"
+  ],
+  "independence_limit": "No human coverage claim. State/property/horizon checks within a dataset are dependent. PRISM zero-lower-bound interval limitation remains explicit.",
+  "resource_budget": {
+    "compute_allowance_usd": 8,
+    "rates_per_second": {
+      "cpu_core": 1.31e-05,
+      "memory_gib": 2.22e-06
+    },
+    "worker": {
+      "timeout_seconds": 300,
+      "cpu_cores": 2,
+      "memory_gib": 4
+    },
+    "coordinator": {
+      "timeout_seconds": 7200,
+      "cpu_cores": 0.5,
+      "memory_gib": 1
+    },
+    "startup_buffer_usd": 2
+  },
+  "protocol_digest": "9550b167f4b9f826e04d38cf73b238fd40a749c85d6f65c6dace2a27701a4597",
+  "campaign_id": "uncertainty-main-v1-9550b167f4b9"
+}

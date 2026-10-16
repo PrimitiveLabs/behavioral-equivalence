@@ -1,0 +1,126 @@
+{
+  "status": "complete",
+  "source_digest": "6963249238dc5d0e55b2c31682a7bc20e4221d63ca692c4bf44005b3777bc0c0",
+  "inputs": [
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "artifact_root": "/artifacts/joint-trajectories-008e1d7a132aabdb/known_users-20261015",
+      "report_sha256": "6f5c4a5a577df298188027ddd78b0fbdf16cdb3c9a9f2972ed9fda22f391c211"
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "artifact_root": "/artifacts/joint-trajectories-008e1d7a132aabdb/known_users-20261016",
+      "report_sha256": "e9ef41166c28a0c0b70b2a93d2f63c03fe5f03faf53b5108f33e29439d3ae4dd"
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "artifact_root": "/artifacts/joint-trajectories-008e1d7a132aabdb/known_users-20261017",
+      "report_sha256": "57f4079d95364d39ac1d86d534d327a3ca88aef33f6a6d1d21d1a632de2f6be0"
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "artifact_root": "/artifacts/joint-trajectories-008e1d7a132aabdb/known_users-20261018",
+      "report_sha256": "7873f23384a73aa1e86d90b4a1a76dfbc670beae01fbb88a39110ae3860ae730"
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "artifact_root": "/artifacts/joint-trajectories-008e1d7a132aabdb/known_users-20261019",
+      "report_sha256": "3618f20f3495b9dc1c689391bf1976ba4f77e82fa89fb87c707ac3404826887d"
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "artifact_root": "/artifacts/joint-trajectories-008e1d7a132aabdb/unseen_users-20261015",
+      "report_sha256": "add65b3e1a63da43142fb6a9d2341d7edfedcf5fb57dae22c2e3e9a052758b94"
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "artifact_root": "/artifacts/joint-trajectories-008e1d7a132aabdb/unseen_users-20261016",
+      "report_sha256": "a1ccc3ebb9f3fdf8e10687ad49812ce99c62008568610187b98600208f01964c"
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "artifact_root": "/artifacts/joint-trajectories-008e1d7a132aabdb/unseen_users-20261017",
+      "report_sha256": "92e3bdddb27bbd0effbc9a2517a935aa8294446609e9098ac2315785b9109e82"
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "artifact_root": "/artifacts/joint-trajectories-008e1d7a132aabdb/unseen_users-20261018",
+      "report_sha256": "4647093c205300a140278141bdd108c601583af71f55640f0c790e9d22e476a7"
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "artifact_root": "/artifacts/joint-trajectories-008e1d7a132aabdb/unseen_users-20261019",
+      "report_sha256": "e76026ae3581b138d8f3d69772f9070340a1917bb0faee437bc5058a61e68e90"
+    }
+  ],
+  "records": [
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "status": "passed"
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "status": "passed"
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "status": "passed"
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "status": "passed"
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "status": "passed"
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "status": "passed"
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "status": "passed"
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "status": "passed"
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "status": "passed"
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "status": "passed"
+    }
+  ],
+  "hashes_verified": 30,
+  "metric_cells": 450,
+  "bootstrap_contrasts": 400,
+  "maximum_likelihood_difference": 2.8421709430404007e-13,
+  "maximum_metric_difference": 7.105427357601002e-15,
+  "maximum_bootstrap_difference": 3.0531133177191805e-16,
+  "wall_seconds": 76.37865835199999,
+  "scope": "All fully observed sampled sequences, all saved models/horizons, backward versus forward likelihood, sorted-user losses and explicit-index user bootstrap. Same sampled IDs across fits verified; outcome-blind selection rule and raw representative construction not independently re-executed here."
+}

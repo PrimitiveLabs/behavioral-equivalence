@@ -1,0 +1,41 @@
+PRISM
+=====
+
+Version: 4.11
+Date: Thu Oct 15 15:29:07 UTC 2026
+Hostname: modal
+Memory limits: cudd=1g, java(heap)=30.0g
+Command line: prism /artifacts/pilot-20261015-b/uncertainty.prism -pf 'Pmin=? [ F<=5 "complete" ]' -explicit
+
+Parsing PRISM model file "/artifacts/pilot-20261015-b/uncertainty.prism"...
+
+Type:        IDTMC
+Modules:     behavioral
+Actions:     []
+Variables:   s
+Labels:      "active" "complete"
+
+1 property:
+(1) Pmin=? [ F<=5 "complete" ]
+
+---------------------------------------------------------------------
+
+Model checking: Pmin=? [ F<=5 "complete" ]
+
+Building model (engine:explicit)...
+
+Computing reachable states... 2 states
+Reachable states exploration and model construction done in 0.005 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.022 seconds.
+
+Type:        IDTMC
+States:      2 (1 initial)
+Transitions: 3
+
+Starting bounded probabilistic reachability...
+
+Error: Transition probability has lower bound of 0 in state (0).
+
+

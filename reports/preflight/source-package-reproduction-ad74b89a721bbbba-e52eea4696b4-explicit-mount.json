@@ -1,0 +1,125 @@
+{
+  "status": "complete",
+  "stage": "installed_wheel_tests",
+  "checks": [
+    {
+      "command": [
+        "/usr/local/bin/python",
+        "-m",
+        "pip",
+        "wheel",
+        "--no-deps",
+        "--no-build-isolation",
+        "/tmp/source-reproduction-9pdzjdnk/source",
+        "-w",
+        "/tmp/source-reproduction-9pdzjdnk/wheels"
+      ],
+      "returncode": 0,
+      "stdout": "Processing /tmp/source-reproduction-9pdzjdnk/source\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nBuilding wheels for collected packages: behavioral-equivalence\n  Building wheel for behavioral-equivalence (pyproject.toml): started\n  Building wheel for behavioral-equivalence (pyproject.toml): finished with status 'done'\n  Created wheel for behavioral-equivalence: filename=behavioral_equivalence-0.1.0-py3-none-any.whl size=148124 sha256=3c250bd2cdcf8571ce4ac7dbc36e97800d9513c178ff3fe04ca03d1c208e2b9c\n  Stored in directory: /tmp/pip-ephem-wheel-cache-2flugipd/wheels/9f/98/fe/c05e8c926fb3ee05f00ad8add0c379de258ecfed069487018c\nSuccessfully built behavioral-equivalence\n",
+      "stderr": "\n[notice] A new release of pip is available: 25.2 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\n"
+    },
+    {
+      "command": [
+        "/usr/local/bin/python",
+        "-m",
+        "venv",
+        "--system-site-packages",
+        "/tmp/source-reproduction-9pdzjdnk/test-env"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/tmp/source-reproduction-9pdzjdnk/test-env/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-deps",
+        "/tmp/source-reproduction-9pdzjdnk/wheels/behavioral_equivalence-0.1.0-py3-none-any.whl"
+      ],
+      "returncode": 0,
+      "stdout": "Processing /tmp/source-reproduction-9pdzjdnk/wheels/behavioral_equivalence-0.1.0-py3-none-any.whl\nInstalling collected packages: behavioral-equivalence\nSuccessfully installed behavioral-equivalence-0.1.0\n",
+      "stderr": "\n[notice] A new release of pip is available: 24.0 -> 26.2.1\n[notice] To update, run: python -m pip install --upgrade pip\n"
+    },
+    {
+      "command": [
+        "/tmp/source-reproduction-9pdzjdnk/test-env/bin/python",
+        "-c",
+        "import behavioral_equivalence; print(behavioral_equivalence.__file__)"
+      ],
+      "returncode": 0,
+      "stdout": "/tmp/source-reproduction-9pdzjdnk/test-env/lib/python3.11/site-packages/behavioral_equivalence/__init__.py\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/tmp/source-reproduction-9pdzjdnk/test-env/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-W",
+        "error",
+        "-o",
+        "pythonpath=",
+        "tests"
+      ],
+      "returncode": 0,
+      "stdout": "........................................................................ [  4%]\n........................................................................ [  8%]\n........................................................................ [ 13%]\n........................................................................ [ 17%]\n........................................................................ [ 22%]\n........................................................................ [ 26%]\n........................................................................ [ 30%]\n........................................................................ [ 35%]\n........................................................................ [ 39%]\n........................................................................ [ 44%]\n........................................................................ [ 48%]\n........................................................................ [ 52%]\n........................................................................ [ 57%]\n........................................................................ [ 61%]\n........................................................................ [ 66%]\n........................................................................ [ 70%]\n........................................................................ [ 74%]\n........................................................................ [ 79%]\n........................................................................ [ 83%]\n........................................................................ [ 88%]\n........................................................................ [ 92%]\n........................................................................ [ 96%]\n...................................................                      [100%]\n1635 passed in 20.19s\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/tmp/source-reproduction-9pdzjdnk/test-env/bin/python",
+        "tools/scientific_reproduction.py",
+        "--output",
+        "/tmp/source-reproduction-9pdzjdnk/scientific-rerun"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"complete\", \"worlds\": 10, \"mechanism_families\": [\"preference\", \"belief\", \"trust\", \"patience\", \"memory\"], \"method_families\": 6, \"certificate_replays\": 10, \"external_queries\": 20, \"maximum_external_difference\": 3.3306690738754696e-16, \"scope\": \"Fresh 32-state scientific subset, all five mechanisms, exact/perturbed worlds, all six abstraction method families and all four horizons; 20 independent PRISM point queries. Not a repeat of the full 1200-world matrix or human training.\"}\n",
+      "stderr": ""
+    }
+  ],
+  "imported_from_wheel": true,
+  "tests_passed": 1635,
+  "tests_skipped": 0,
+  "wheel_sha256": "3c250bd2cdcf8571ce4ac7dbc36e97800d9513c178ff3fe04ca03d1c208e2b9c",
+  "scientific_reproduction": {
+    "status": "complete",
+    "worlds": 10,
+    "mechanism_families": [
+      "preference",
+      "belief",
+      "trust",
+      "patience",
+      "memory"
+    ],
+    "method_families": 6,
+    "certificate_replays": 10,
+    "external_queries": 20,
+    "maximum_external_difference": 3.3306690738754696e-16,
+    "scope": "Fresh 32-state scientific subset, all five mechanisms, exact/perturbed worlds, all six abstraction method families and all four horizons; 20 independent PRISM point queries. Not a repeat of the full 1200-world matrix or human training."
+  },
+  "source_bundle_sha256": "ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12",
+  "source_files": 490,
+  "source_hashes_verified": true,
+  "checker_source_sha256": "e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e",
+  "dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pydantic": "2.11.7",
+    "pytest": "8.4.1",
+    "ruff": "0.12.0",
+    "setuptools": "80.9.0",
+    "wheel": "0.45.1",
+    "torch": "2.7.1",
+    "scikit-learn": "1.7.1",
+    "polars": "1.31.0",
+    "duckdb": "1.3.2",
+    "pyarrow": "20.0.0"
+  },
+  "wall_seconds": 58.315823758,
+  "scope": "Fresh pinned cloud dependencies, independently extracted source, built wheel and original tests against installed wheel with source-path injection disabled, plus a small all-five-mechanism/six-method scientific rerun with pinned PRISM. No human rows, weights, full 1200-world rerun or independently authored proof review.",
+  "root": "/artifacts/source-package-reproduction-ad74b89a721bbbba"
+}

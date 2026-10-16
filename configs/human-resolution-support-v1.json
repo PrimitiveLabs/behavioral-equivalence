@@ -1,0 +1,23 @@
+{
+  "schema_version": "human-training-defined-resolution-support-v1",
+  "split_seed": 20261015,
+  "split_rule": "SHA256 user split, entire user assigned to discovery or estimation; no response selection",
+  "minimum_users_per_state_environment": 50,
+  "minimum_cases_per_state_environment": 2000,
+  "known_duration_groups": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "inference_batch_size": 2048,
+  "scope": "Outcome-free calibration support sensitivity after K256 sparsity result, before final scores; nested training-rank coarsenings, not independently refitted quantizers; fixed thresholds unchanged.",
+  "state_counts": [
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "initial_blocks": "Four adjacent training-rank states per block, independently per resolution"
+}

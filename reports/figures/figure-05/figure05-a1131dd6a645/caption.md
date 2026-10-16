@@ -1,0 +1,11 @@
+# Figure 5. Counterexample-guided refinement and held-out controls
+
+Panel A uses a fixed trust-family 128-state world (seed 40000, localized response surface). RBF acquisition chooses a witness from eight queries. Both displayed states share an exact training equivalence class. The changed kernel is known here, so merged and refined forecasts isolate state-abstraction error. The states, probabilities and selected environment are measured outputs, not psychological profiles.
+
+Panel B reports the complete response-changing portion of the frozen 400-world experiment: 300 worlds across three surfaces, with 100 structural negative controls reported separately. Errors compare learned environment-response kernels and their quotients with actual held-out synthetic kernels. The primary strategy comparison can differ in capacity. Four within-method comparisons hold queried kernels and reduced state count fixed. Effects average within each seed over mechanisms, sizes, surfaces and the same sixteen evaluation coordinates. Gray dots show ten shared seed-cluster effects. Bootstrap intervals use 5,000 resamples: 95% for the primary and 98.75% for each member of the four-comparison family. These limited-cluster summaries condition on the generator and fixed catalogue; they are not distribution-free confidence certificates.
+
+The primary mean change is -0.00443602, with interval [-0.0073541367459597825, -0.0014339870950126731]. The maximum mean prediction discrepancy in structural negative controls is 8.2703e-16.
+
+Panel C shows every search method and partition control descriptively, without additional hypothesis tests. With targeted refinement in both strategies, RBF minus random-search error is 0.01249694, and RBF minus maximin-grid error is 0.00920350. Positive differences mean RBF is worse. The bundled primary comparison therefore does not establish an advantage for adaptive search. State counts can differ slightly across search strategies; the CSV records them.
+
+Formal certificates apply to estimated full-kernel versus quotient discrepancies. They do not certify environment-response learning or human generalization. Source CSVs retain every displayed probability and seed effect.

@@ -1,0 +1,17 @@
+{
+  "schema_version": "repeated-calibration-summary-v1",
+  "status": "complete",
+  "campaign_id": "uncertainty-repeated-v1-d567478458e8",
+  "protocol_digest": "d567478458e8b39c9c67c4024a890215fb09ffcce298347a1d947d4ff78351ba",
+  "independent_datasets": 4000,
+  "paired_method_support_evaluations": 16000,
+  "simultaneous_coverage_intervals": 320,
+  "family_confidence": 0.95,
+  "scope": "Coverage conditional on each fixed world and sampling regime. Methods/support controls share calibration datasets and are never pooled as independent trials. Summary structure checks do not replace certificate verification.",
+  "manifest_sha256": "38ebd31d33c62c5ea172123273804ba134af0c7e1735314ba31bde90d1cd6905",
+  "replay_source_digest": "0c72c9bd01f19b9a920d5af19e16180fdc70e1dfb8ced0588c50ef7d42ddcde2",
+  "replayed_chunks": 400,
+  "replayed_datasets": 4000,
+  "replayed_method_support_evaluations": 16000,
+  "evidence_replay_scope": "All retained draws, confidence sets, integer certificates and report metrics replayed using the original arithmetic implementation."
+}

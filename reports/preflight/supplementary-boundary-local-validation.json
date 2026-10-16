@@ -1,0 +1,19 @@
+{
+  "scope": "Expanded local installed-wheel library plus current supplementary tools; warnings retained, no fresh cloud execution",
+  "wheel_sha256": "8d9f08b5d571da66f2ffb389d6f935dfc46e8ac07b7beb57db0e0455f570dbeb",
+  "full_tests_passed": 1448,
+  "full_tests_skipped": 3,
+  "local_warnings": 3,
+  "command": [
+    "/Users/rohittalluri/projects/behavioral-equivalence/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-o",
+    "pythonpath=",
+    "tests"
+  ],
+  "stdout": "........................................................................ [  4%]\n........................................................................ [  9%]\n........................................................................ [ 14%]\n........................................................................ [ 19%]\n........................................................................ [ 24%]\n........................................................................ [ 29%]\n........................................................................ [ 34%]\n........................................................................ [ 39%]\n........................................................................ [ 44%]\n........................................................................ [ 49%]\n........................................................................ [ 54%]\n........................................................................ [ 59%]\n........................................................................ [ 64%]\n........................................................................ [ 69%]\n........................................................................ [ 74%]\n........................................................................ [ 79%]\n........................................................................ [ 84%]\n........................................................................ [ 89%]\n........................................................................ [ 94%]\n........................................................................ [ 99%]\n........                                                                 [100%]\n=============================== warnings summary ===============================\ntests/test_horizon_heads.py::test_fitted_heads_learn_origin_signal_and_preserve_h1_identities\n  /tmp/research-response-installed/behavioral_equivalence/horizon_heads.py:133: RuntimeWarning: divide by zero encountered in matmul\n    probabilities = expit(((x - mean) / scale) @ weights.T + intercepts)\n\ntests/test_horizon_heads.py::test_fitted_heads_learn_origin_signal_and_preserve_h1_identities\n  /tmp/research-response-installed/behavioral_equivalence/horizon_heads.py:133: RuntimeWarning: overflow encountered in matmul\n    probabilities = expit(((x - mean) / scale) @ weights.T + intercepts)\n\ntests/test_horizon_heads.py::test_fitted_heads_learn_origin_signal_and_preserve_h1_identities\n  /tmp/research-response-installed/behavioral_equivalence/horizon_heads.py:133: RuntimeWarning: invalid value encountered in matmul\n    probabilities = expit(((x - mean) / scale) @ weights.T + intercepts)\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n1448 passed, 3 skipped, 3 warnings in 5.52s\n",
+  "stderr": "",
+  "returncode": 0
+}

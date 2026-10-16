@@ -1,0 +1,35 @@
+{
+  "status": "verified_local_corrections",
+  "corrected_modules": [
+    {
+      "module": "random_response.py",
+      "old_sha256": "93a5437c50ba03bd7d6328a484d51de83c67c5dc9fc07dafb537efe9482441a4",
+      "new_sha256": "fe270b3651a2f2de692b4d28241739abe1678aa40877a1aa2439b762f0df6ecd"
+    },
+    {
+      "module": "item_context.py",
+      "old_sha256": "af1f4ba081b21c9fb5d697e7b7870b27da14cb3c421916833f7c2a1ee57ea651",
+      "new_sha256": "31037baaa1ee761eaaf66524a04463f0cf27d0d3cc3f96344a5345d781d40c3c"
+    },
+    {
+      "module": "human_protocol.py",
+      "old_sha256": "386d5e2b248f4e71bec57358d7ba3d2fde50142c94324d48dbbfe1c86d207e21",
+      "new_sha256": "d043cc9507897b193e3ef252b3db5954ef5f8cc14d47b90702e60f0084fe8697"
+    },
+    {
+      "module": "data_audit.py",
+      "old_sha256": "94d7b7845887592d17d36e77ee6a50441e9506bc77a668a73cda1fc2c038ad62",
+      "new_sha256": "cd8570e322a545994180d3e67ddcc878ba0fea4808bf2455f63dd14d60b235ef"
+    }
+  ],
+  "confirmed_original_failures": [
+    "response_table TypeError with uint64 user/environment keys",
+    "encode_items misses adjacent mixed-signed training IDs above 2**53",
+    "identity_fingerprints collides for distinct uint64 timestamps after mixed-column float promotion",
+    "independent data audit rejects otherwise exact mixed-integer timestamps because its hash stream rounds them"
+  ],
+  "compatibility": "Synthetic signed-source fixtures match original operations. Existing independent audit signed-path test and unchanged actual source schema (pa.int64 nonbinary columns) retain the recorded domain. Exact UINT64 IDs are preserved; fingerprint timestamp/tab values outside the fixed signed64 codec now reject before hashing.",
+  "frozen_source_preserved": true,
+  "frozen_source_restoration": "reports/preflight/frozen-human-source-restoration.json",
+  "scope": "Generic integer-boundary corrections. No original observations, cohort manifests, model weights or predictions overwritten; no human inference or training."
+}

@@ -1,0 +1,1478 @@
+{
+  "scope": "Current executable Python source inventory for final QA. A linked scoped review is not automatic acceptance. Test files, frozen archived source and Lean proof evidence are tracked separately.",
+  "source_files": 210,
+  "source_lines": 36999,
+  "linked_scoped_reviews": 210,
+  "files": [
+    {
+      "path": "cloud/analyze_environment_diversity.py",
+      "sha256": "2f96673445afc8ac05a948050b0c2f11e6af6fa9fc29f3a5a34bdcff417e05cb",
+      "lines": 270,
+      "scoped_review": "reports/qa/diagnostic-release-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/analyze_training.py",
+      "sha256": "7ce1f22cd4368753fcae1412d15544eda3d962fdee8e4bb75271a78341980602",
+      "lines": 99,
+      "scoped_review": "reports/qa/cloud-pilot-summary-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/assess_history_resolution.py",
+      "sha256": "9d92fb9b0bfaf6df267209c8dda7137212275925fae85a2e7d121e3f70517bc2",
+      "lines": 316,
+      "scoped_review": "reports/qa/diagnostic-release-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/attach_supplementary_calibration.py",
+      "sha256": "1bc75f20df99b2718b758c85616bbc5afa1183144b2af5f6b2fdb41e4fe07903",
+      "lines": 194,
+      "scoped_review": "reports/qa/supplementary-pipeline-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/attach_supplementary_outcomes.py",
+      "sha256": "2761b1a1bc22716d95e4f39d0fb534852ce2c0b455a4501583cf6e2c53045628",
+      "lines": 194,
+      "scoped_review": "reports/qa/supplementary-pipeline-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/audit_27k.py",
+      "sha256": "f23109a80f5b9009b44f5d8889dd26a93f05d666e04f9d3d4a22f4248768c3c7",
+      "lines": 259,
+      "scoped_review": "reports/qa/full-data-controller-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/audit_adjacent_calibration.py",
+      "sha256": "c1b1338ec551c016d53b9a09353e3193a0c0338a290d764e1a672e4d07babf3b",
+      "lines": 273,
+      "scoped_review": "reports/qa/case-audit-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/audit_case_context.py",
+      "sha256": "050feb6e08e50f2fb33796605507fa48069a1a499fd75f3e81be90f0cd67961a",
+      "lines": 202,
+      "scoped_review": "reports/qa/case-audit-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/audit_confirmatory_cases.py",
+      "sha256": "2208e5c95a30a1ff87c56571934c158696d1774ae3929286e65254d5bd539d85",
+      "lines": 251,
+      "scoped_review": "reports/qa/case-audit-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/audit_data.py",
+      "sha256": "1e7d866f3884d64e702cb57ca2126702b21f16767dca1455f7844f0ebf93bb5b",
+      "lines": 109,
+      "scoped_review": "reports/qa/cloud-pilot-summary-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/audit_final_human.py",
+      "sha256": "3e7316fbc96a5732111355c963cdbfad321ff4d373bd6c7dc224d6e0c8b5679d",
+      "lines": 327,
+      "scoped_review": "reports/qa/human-result-audit-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/audit_multistep_fit.py",
+      "sha256": "7ad9cdfab4a48062cbbe7a899bebc44e6c49c51b8aecc03e5f7d68ae51c1f033",
+      "lines": 315,
+      "scoped_review": "reports/qa/case-audit-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/audit_multistep_test.py",
+      "sha256": "50a3b806fb2ae31c996c61e959ad02b34217236ff874fffa45e09bccb3b3b883",
+      "lines": 285,
+      "scoped_review": "reports/qa/case-audit-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/audit_randomized_cases.py",
+      "sha256": "912f07aea4769af09c7e7d2e7a122f39c40bba4c0eafa8b1b839ad9519f4a2de",
+      "lines": 335,
+      "scoped_review": "reports/qa/human-result-audit-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/audit_supplementary.py",
+      "sha256": "536cc05936423d9effc90418f70b6718eae1e68e61e92541200c927f8b40a1ee",
+      "lines": 320,
+      "scoped_review": "reports/qa/human-result-audit-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/audit_trajectories.py",
+      "sha256": "ad0249eb89b3b5cec9b8a59f3cf8c14ae5c41caf24c695e402c2cd4dffd96bdc",
+      "lines": 317,
+      "scoped_review": "reports/qa/human-result-audit-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/benchmark_cpu_training.py",
+      "sha256": "85a052bf21a4706603b565d55ad26ac5316ec56f0f7dd20d313c75ecc6b04edb",
+      "lines": 110,
+      "scoped_review": "reports/qa/pilot-compute-controller-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/build_heldout_response_frontiers.py",
+      "sha256": "b91270e0bd75c77fcc1f1bdf347b87262ebc0a42cfe2bf181d4e722810a0826e",
+      "lines": 387,
+      "scoped_review": "reports/qa/response-frontier-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/build_response_frontier.py",
+      "sha256": "f815b8c954818725387368c4d7aad14e26283f28938944b0cd76bbc9f8216f27",
+      "lines": 244,
+      "scoped_review": "reports/qa/response-frontier-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/calendar_support_27k.py",
+      "sha256": "56c6dc80b6d55df1ec6c7bd9912d913251b3581f3468ee81d5c3533fbb3d3d67",
+      "lines": 226,
+      "scoped_review": "reports/qa/preparation-support-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/calibrate_random_response.py",
+      "sha256": "93c1712cb61a26616e28eab67b2a2db8c6deaeb14504c482640e306f584d7143",
+      "lines": 321,
+      "scoped_review": "reports/qa/response-frontier-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/calibrate_supplementary.py",
+      "sha256": "85a29dcfcb523c7b1e150b656b3300d88200aec831fe4c19b39642e6ff111cfe",
+      "lines": 376,
+      "scoped_review": "reports/qa/supplementary-trajectory-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/certify_campaign.py",
+      "sha256": "c6f8a1aaa79c3e6b76eea3929af5ada761b95383e96133a5be3803218d57e8d5",
+      "lines": 86,
+      "scoped_review": "reports/qa/certificate-recovery-diversity-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/certify_campaign_parallel.py",
+      "sha256": "6edc608221e694670e41829e3532efd2d4d8ae82d58da4d5fdb24a86ea15c384",
+      "lines": 289,
+      "scoped_review": "reports/qa/certificate-recovery-diversity-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/certify_response_frontier.py",
+      "sha256": "3ab0a44fade73eb6612a3d5c9eb9cf5fd300097f20c3dca63426a9c4a7fd8516",
+      "lines": 227,
+      "scoped_review": "reports/qa/response-frontier-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/check_finite_coupling.py",
+      "sha256": "cb7491a69d3eb80d6c72d674bdced5569f390784de7a494dcca73db05a88adca",
+      "lines": 152,
+      "scoped_review": "reports/qa/formal-check-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/check_formal_bounds.py",
+      "sha256": "eef25209c4f05a5f38bd55013cf30f7c1f8520567a3001da1ea405d0e7532236",
+      "lines": 138,
+      "scoped_review": "reports/qa/formal-check-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/check_neural_models.py",
+      "sha256": "a844ceb427df2d23d584776139d145666b9fa7570f90cef9090c5a6515f42214",
+      "lines": 112,
+      "scoped_review": "reports/qa/formal-check-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/check_weighted_events.py",
+      "sha256": "3cdcc918ff692ba47886e5101383a44ea09b9bc41bbd0845d63ac6fb2db66d41",
+      "lines": 152,
+      "scoped_review": "reports/qa/formal-check-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/compare_uncertainty.py",
+      "sha256": "f0523b9516cafcdf6ed0f4c5c75395132a20461ba98d4368442b7412758dd039",
+      "lines": 112,
+      "scoped_review": "reports/qa/pilot-compute-controller-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/confirmatory_cases_27k.py",
+      "sha256": "2a41ab999ac3b85e495e56348e4ef8e591fc3156a0037faa6e87b955e9959079",
+      "lines": 295,
+      "scoped_review": "reports/qa/preparation-support-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/coverage_summary.py",
+      "sha256": "de5a2483cedb6bd8f1688e082eed5645cbca81acebeec5a4eccf5ed0e3b37d23",
+      "lines": 56,
+      "scoped_review": "reports/qa/cloud-pilot-summary-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/data.py",
+      "sha256": "bf0a4d233c367e75ed5e3b6700bb82b512281545fccb7f34b0531dd3575eddd7",
+      "lines": 73,
+      "scoped_review": "reports/qa/cloud-pilot-summary-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/diagnose_state_sufficiency.py",
+      "sha256": "24be2f5a97354dd7b728cb2111ffe39abb1cf46680cf23df589ad1995c3a23d0",
+      "lines": 273,
+      "scoped_review": "reports/qa/diagnostic-release-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/environment_diversity_campaign.py",
+      "sha256": "fc749fd21454081731014b657741d658d1d1b28577a25f08eb63a945f2c5741c",
+      "lines": 196,
+      "scoped_review": "reports/qa/certificate-recovery-diversity-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/estimate_calendar_parent.py",
+      "sha256": "2496ee06d99744c93e77afd37ac80d3f62ec7d20a73959a61010dc14e134e1a0",
+      "lines": 351,
+      "scoped_review": "reports/qa/abstraction-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/evaluate_human_horizons.py",
+      "sha256": "770990342a1f90b28c623bcba5d67ff15e9b5b3516b01ebfbf07aec311abc184",
+      "lines": 478,
+      "scoped_review": "reports/qa/final-evaluation-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/evaluate_human_one_step.py",
+      "sha256": "57fb5168dacbe4494ad5392585ba516843aa5b6cfae9ee41f916d2516e61a1bc",
+      "lines": 518,
+      "scoped_review": "reports/qa/final-evaluation-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/evaluate_human_responses.py",
+      "sha256": "e087af1532262c67d311feed6f7fb600cfbaea88676e710c181eab264760d7f7",
+      "lines": 458,
+      "scoped_review": "reports/qa/final-evaluation-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/evaluate_supplementary.py",
+      "sha256": "93c62707a1f103dc01b14289cd7ed063c5d379f6edb5ecb02b337461dbd05da8",
+      "lines": 590,
+      "scoped_review": "reports/qa/final-evaluation-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/evaluate_trajectories.py",
+      "sha256": "38ffdd337340ad1dbe721fee05bcae9000560804fb77f4ab6f20922adfc21db6",
+      "lines": 340,
+      "scoped_review": "reports/qa/supplementary-trajectory-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/figure_abstraction.py",
+      "sha256": "6e100e82ba146cd84d91cc987b83cf96948af67322867718ee3491efeb885dc8",
+      "lines": 267,
+      "scoped_review": "reports/qa/measured-figure-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/figure_human.py",
+      "sha256": "ae06a0bb6a0b45b360c6b9972faa5740c080713713881cacb0808dfe6c9ee439",
+      "lines": 342,
+      "scoped_review": "reports/qa/measured-figure-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/figure_interventions.py",
+      "sha256": "801da0fc3a4597a3641ba61f40695c1a8fff38550e890d648ff179b06189d246",
+      "lines": 394,
+      "scoped_review": "reports/qa/measured-figure-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/figure_preservation.py",
+      "sha256": "be2171f5f9d616d0acda6667e5098ba4eccacbb554976a6f50fa0228a1c62ae2",
+      "lines": 239,
+      "scoped_review": "reports/qa/measured-figure-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/figure_uncertainty.py",
+      "sha256": "61ee3d78bab89c347b481979f67dfdf0f934f8fb31bf35ecfdff753ec10676e7",
+      "lines": 322,
+      "scoped_review": "reports/qa/measured-figure-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/fit_history_states.py",
+      "sha256": "ed561908fa93add232a32be7b487d648f8ba93ad542f529d0fe2f22cc1fd4af0",
+      "lines": 295,
+      "scoped_review": "reports/qa/abstraction-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/fit_response_teacher_priors.py",
+      "sha256": "6a9d828f1cac5d71652824968e5438b3d56aa351f8ad5aef1a43598cb06d8727",
+      "lines": 270,
+      "scoped_review": "reports/qa/precision-prior-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/human_cluster_uncertainty.py",
+      "sha256": "c49f61fe726779982f6556112a83f75b4be639d91ae2bd570eae2ab521ecdb43",
+      "lines": 226,
+      "scoped_review": "reports/qa/inference-uncertainty-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/ingest_27k.py",
+      "sha256": "8f7d4fc37aba63b17c7cab8abf1bd062f3a9cff6b1292157f759854a399ab9c6",
+      "lines": 161,
+      "scoped_review": "reports/qa/full-data-controller-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/intervention_campaign.py",
+      "sha256": "929a816606dd0f00815ae6281d8ba256326c82858c37d611c0f51cf71de78335",
+      "lines": 221,
+      "scoped_review": "reports/qa/stochastic-campaign-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/item_metadata_audit.py",
+      "sha256": "19f37b2b20b191c872e503182e2f6ad8dce176bd1d6efe986295aa2e44b6eb5c",
+      "lines": 243,
+      "scoped_review": "reports/qa/full-data-controller-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/learned_pilot.py",
+      "sha256": "33a6fa6214018ea7d4770d4d0fd95b24ed1c9a358f1a08c9ddd7c0d1c70ccc7f",
+      "lines": 271,
+      "scoped_review": "reports/qa/learned-pilot-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/nest_calendar.py",
+      "sha256": "4754e5d3423748159c6da11e9a8c82f0b011b03bc974e200d6c4732d368e142f",
+      "lines": 393,
+      "scoped_review": "reports/qa/abstraction-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/nominal_ablation_campaign.py",
+      "sha256": "89d4085b4ea68cb99a7e4b0a375b8cad315d6e8517bb76d9d6c7cd65ff1a481e",
+      "lines": 247,
+      "scoped_review": "reports/qa/stochastic-campaign-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/nominal_failure_counts.py",
+      "sha256": "31e3f1e38de75168fce71d7ce9dc140d745eee23ddacfadeeabccc91c6933622",
+      "lines": 108,
+      "scoped_review": "reports/qa/cloud-pilot-summary-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/pilot.py",
+      "sha256": "68b06ef5a9f6c38443aac69ddb877a438a30f13213700190a83f1af04e2209a8",
+      "lines": 153,
+      "scoped_review": "reports/qa/learned-pilot-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/pilot_identity.py",
+      "sha256": "17f9cffbec3ffe599f0bb04813336772df1596ffe2a89812b8412d8783b3d136",
+      "lines": 74,
+      "scoped_review": "reports/qa/full-data-controller-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/plan_heldout_response_precision.py",
+      "sha256": "677108284eba07fbe4e32b570f99b6ec98bbd2ebf45b90e64509b8576c9f4fce",
+      "lines": 371,
+      "scoped_review": "reports/qa/precision-prior-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/plan_response_precision.py",
+      "sha256": "1ac4771e036d8fe472cccada387afb685ed6df7b87ebad2a32e8092566a97959",
+      "lines": 272,
+      "scoped_review": "reports/qa/precision-prior-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/plan_validation_precision.py",
+      "sha256": "1bba85b684711198b45c343d066167f70b752ab62cdd18202606ccf41e2ce953",
+      "lines": 167,
+      "scoped_review": "reports/qa/precision-prior-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/prepare.py",
+      "sha256": "87f184ef0dcba5b765f253922578ecc739f04c8f1307557c23e9c76be7258ea7",
+      "lines": 209,
+      "scoped_review": "reports/qa/preparation-support-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/prepare_27k.py",
+      "sha256": "41e5fbf754e8f639cb1b1ce3e679340dfaaeb02d503d0cca95d13527f9ca79e3",
+      "lines": 418,
+      "scoped_review": "reports/qa/preparation-support-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/prepare_adjacent_calibration.py",
+      "sha256": "b1701b4745fe7ea962e846a4b83d5cc5ae651ae551f950b456e9f0dedbedd7ec",
+      "lines": 330,
+      "scoped_review": "reports/qa/cohort-construction-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/prepare_multistep_fit.py",
+      "sha256": "863c6c035512dd3606a2adda7d9dc1ca54e9121b97f43cb437292692086c1570",
+      "lines": 393,
+      "scoped_review": "reports/qa/cohort-construction-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/prepare_multistep_test.py",
+      "sha256": "0da709b000fc5a697a0ceff4309443ac7248e942f7dae9c1998a85577e7ec399",
+      "lines": 353,
+      "scoped_review": "reports/qa/cohort-construction-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/prepare_randomized_cases.py",
+      "sha256": "031f5feb6053628b2f028d63e1ba6d9e88688dcc72ae6b8fbb09fc6ecbc282f2",
+      "lines": 371,
+      "scoped_review": "reports/qa/cohort-construction-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/prepare_supplementary_fit.py",
+      "sha256": "2718ca823e1067a078e6d334b36575ad77f6df979631b4352c8886d6a65bac3e",
+      "lines": 242,
+      "scoped_review": "reports/qa/supplementary-pipeline-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/prepare_trajectory_sequences.py",
+      "sha256": "bec8748a6b8f819e092b3ffc45ff111eada5e577121f2e323f92b1b3acd24236",
+      "lines": 233,
+      "scoped_review": "reports/qa/supplementary-trajectory-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/profile_environment_diversity.py",
+      "sha256": "d33df5195e806a8f40684353b506b09e24c0f3961435b2a661deb4ee0b1c82fe",
+      "lines": 123,
+      "scoped_review": "reports/qa/certificate-recovery-diversity-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/property_pilot.py",
+      "sha256": "9e9f39424414932bf8874ee3861f00ffede2eb2f1058edfece0682a0a39e2970",
+      "lines": 279,
+      "scoped_review": "reports/qa/learned-pilot-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/quantize_calendar.py",
+      "sha256": "06d9a58690c8dd85ad62e10963bbc3537d83d0eae642614a408a8c624307eb35",
+      "lines": 344,
+      "scoped_review": "reports/qa/abstraction-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/quantize_pilot.py",
+      "sha256": "9ecc54740f76124e59e8d071f61b97eef1e58a3c8d1be62b8be30ef070e7b595",
+      "lines": 239,
+      "scoped_review": "reports/qa/learned-pilot-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/recover_synthetic.py",
+      "sha256": "dc2aa5f3da5fef3f76c982906e2df8885a11cd4f2bad1a0af4dbbcd62d1eca6a",
+      "lines": 179,
+      "scoped_review": "reports/qa/certificate-recovery-diversity-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/refinement_pilot.py",
+      "sha256": "391b2c1926986489425ddf1dc685974dbf92a299aa458cae86f524287739d7d0",
+      "lines": 94,
+      "scoped_review": "reports/qa/pilot-compute-controller-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/replay_nominal.py",
+      "sha256": "74a5d7e81a5e7d891444814683576f3a3ce925d8891a53d15c190079bab30a92",
+      "lines": 266,
+      "scoped_review": "reports/qa/inference-uncertainty-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/reproduce_source_package.py",
+      "sha256": "e52eea4696b44bacca279aaaaab967f48c0361273e3563cdb235306fbdd6f54e",
+      "lines": 261,
+      "scoped_review": "reports/qa/diagnostic-release-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/reproduce_teacher_cpu.py",
+      "sha256": "9bb56ec1ebba21edceb537a69b06ee02dd04bb42f874b7d940ebbcb9dc581d05",
+      "lines": 123,
+      "scoped_review": "reports/qa/pilot-compute-controller-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/summarize_interventions.py",
+      "sha256": "eace5919d440c785ebb2e99bd36eb50ebd4a388f7f8d6622640298cb086d4e2a",
+      "lines": 293,
+      "scoped_review": "reports/qa/campaign-summarizers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/summarize_nominal.py",
+      "sha256": "e2dc4de20d008bdd51a68ef1031d802315fe3e7063938a058089c3da84bffb05",
+      "lines": 119,
+      "scoped_review": "reports/qa/campaign-summarizers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/summarize_repeated.py",
+      "sha256": "61350b919b2bd7a57856ddee9bce88fe0fe522f44ae39a2d2536c8c7669ed745",
+      "lines": 187,
+      "scoped_review": "reports/qa/campaign-summarizers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/summarize_synthetic.py",
+      "sha256": "c70a3b35942d32c0a14f87d8d4c37976511d7e1c86f8e7c78a26c404febc698d",
+      "lines": 229,
+      "scoped_review": "reports/qa/campaign-summarizers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/summarize_uncertainty.py",
+      "sha256": "5a48c736527100acb0335d1b08712d3e78e1a0139faeab439601e3a4ca794deb",
+      "lines": 254,
+      "scoped_review": "reports/qa/campaign-summarizers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/synthetic_campaign.py",
+      "sha256": "4ec98d61ee29290c2f7007b55e2cdfae5cf2da98829325f8ff640b796b324216",
+      "lines": 298,
+      "scoped_review": "reports/qa/release-core-boundaries-iteration-2.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/train_calendar.py",
+      "sha256": "622a23c4eaac6b3acf66a67032e83dbecc4e3a80892a56750ee12ecdeec7dfea",
+      "lines": 581,
+      "scoped_review": "reports/qa/training-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/train_calendar_replicates.py",
+      "sha256": "af6cffecc9866a4ef9f940389024ba4145af7fbb599b59f9ca3ea68a3733b325",
+      "lines": 586,
+      "scoped_review": "reports/qa/training-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/train_horizon_heads.py",
+      "sha256": "54d1455ec75972026ff6bbceddb280fa5eb8f2dfa3d9500fd7d52730b415ede5",
+      "lines": 459,
+      "scoped_review": "reports/qa/training-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/train_pilot.py",
+      "sha256": "91779f8fe50989433d148508b6acc20bccb99e4ef4b54e677bec1e7b85688ed8",
+      "lines": 228,
+      "scoped_review": "reports/qa/training-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/train_supplementary_heads.py",
+      "sha256": "2192bb2f80f169efb4a4a502786c320b9db6f795ec98a96399617c1a2f392791",
+      "lines": 318,
+      "scoped_review": "reports/qa/supplementary-trajectory-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/uncertainty_campaign.py",
+      "sha256": "ecdf78f11dd1f716f8f03c676178497f952f0cb7b3b072c3f0217cb8146e3059",
+      "lines": 262,
+      "scoped_review": "reports/qa/stochastic-campaign-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/uncertainty_pilot.py",
+      "sha256": "400ed77e5dda5f9bb3f2281c0ab84383a3191e62c1e03a57026382ea3cb26f2b",
+      "lines": 97,
+      "scoped_review": "reports/qa/pilot-compute-controller-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/uncertainty_repeated_campaign.py",
+      "sha256": "51cc2c3b7a689ac475aede7c38a46727d31576c507344b85bdd3c4ef4f987298",
+      "lines": 322,
+      "scoped_review": "reports/qa/stochastic-campaign-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/validate_comparative_inference.py",
+      "sha256": "cccd061d549e84099d3ddcd88f033ed8088e50e4f9370a56dea92a3f1989f2e4",
+      "lines": 481,
+      "scoped_review": "reports/qa/inference-uncertainty-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/validate_supplementary.py",
+      "sha256": "1b34a782aee2590e76fb6f9319c885f8a54b1fce95de0371c43b584bd55488f1",
+      "lines": 136,
+      "scoped_review": "reports/qa/supplementary-pipeline-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/verify_case_inference.py",
+      "sha256": "7715ad6c360d64082420d5b5dbc817e0bbc2d4f9dbc7b1c59cc35ea0f8de24b4",
+      "lines": 256,
+      "scoped_review": "reports/qa/inference-uncertainty-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "cloud/verify_interval_vertices.py",
+      "sha256": "779822e325cb81ea84eecd478a6babcf189bbda6a2912f0c2782ce654897b73d",
+      "lines": 210,
+      "scoped_review": "reports/qa/formal-check-controllers-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/__init__.py",
+      "sha256": "b4f6d462ab4b1ec82291ed614e6e622e06fee14111592547441fe6b4d740cf5e",
+      "lines": 1,
+      "scoped_review": "reports/qa/library-entrypoint-horizon-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/__main__.py",
+      "sha256": "c19458154f29d5967e7e44946f8434bd10bc04b52eec4277607ef824b5f775ff",
+      "lines": 55,
+      "scoped_review": "reports/qa/library-entrypoint-horizon-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/adjacent_audit.py",
+      "sha256": "a1a107ad4ad85c18579661a1db12b7887bc7521646a69f9760dee6a349eb10a8",
+      "lines": 123,
+      "scoped_review": "reports/qa/physical-audit-frontier-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/adjacent_calibration.py",
+      "sha256": "c3ba560aedf87712b9b55693aa556c247a291757ae8f4263e2157107e421b7b0",
+      "lines": 99,
+      "scoped_review": "reports/qa/physical-audit-frontier-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/analysis_freeze.py",
+      "sha256": "ab151c42e68f97341dc62a774358ea885af37a24961722948820db35e6562c0d",
+      "lines": 84,
+      "scoped_review": "reports/qa/release-core-boundaries-iteration-2.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/benchmark.py",
+      "sha256": "fbef6545f6bec5ecee1164271123ebb8491c0af2b3414dc794a98c0a5da3d589",
+      "lines": 211,
+      "scoped_review": "reports/qa/abstraction-properties-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/budget.py",
+      "sha256": "5116a572f3cf5fd69b1a586fd8ef8e957fb4ee49a7365fb24f2fbdc3034bfc96",
+      "lines": 85,
+      "scoped_review": "reports/qa/release-core-boundaries-iteration-2.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/calendar_splits.py",
+      "sha256": "ad78eba1897469ace9e3464ad09655abcd55610b5b2a82ade70474750fee3734",
+      "lines": 116,
+      "scoped_review": "reports/qa/evaluation-boundaries-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/calendar_support.py",
+      "sha256": "2c985e4b14518e654ad486f21365c9f5216a8fb74bffe2acbb3643f1f1d96fc7",
+      "lines": 87,
+      "scoped_review": "reports/qa/evaluation-boundaries-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/case_audit.py",
+      "sha256": "f0b6d5ce4d7b850f70d3b60c6b4e868a6527c77eaf339a9519e674e6c65f7817",
+      "lines": 134,
+      "scoped_review": "reports/qa/physical-audit-frontier-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/case_inference.py",
+      "sha256": "3957e8283141b21ec333e8ab432ce9fb97ea123adfdf21f2150cfe340f7160d1",
+      "lines": 111,
+      "scoped_review": "reports/qa/neural-inference-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/catalogue_search.py",
+      "sha256": "f41de44877399c38841665ca3b8272471f08e387d78f61086f1800f2628481af",
+      "lines": 109,
+      "scoped_review": "reports/qa/intervention-search-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/certificate_audit.py",
+      "sha256": "636d768c77c305140a2fecf48a369b061dba59916b9b6613544f506aa7a003a7",
+      "lines": 77,
+      "scoped_review": "reports/qa/verification-boundaries-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/cluster_ratio.py",
+      "sha256": "ab85ed1f51a0c0ebca087ecd225a56f1ea8a1057511bf6ba5269e8b3f0936c04",
+      "lines": 149,
+      "scoped_review": "reports/qa/human-uncertainty-support-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/clustering.py",
+      "sha256": "ee15782cdd750a25596f1c3faa414f92345d15357b0208d9e09f71c3fc4c8a5f",
+      "lines": 75,
+      "scoped_review": "reports/qa/abstraction-properties-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/cohort_uncertainty.py",
+      "sha256": "a3f97e8d9896880ce646a3fa4ca74c63de85811137344b6ce634253860ddc6c5",
+      "lines": 98,
+      "scoped_review": "reports/qa/human-uncertainty-support-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/confidence.py",
+      "sha256": "8e60795fd209cd86526229319cecaa4db637895b48674790063f2ab418f80796",
+      "lines": 95,
+      "scoped_review": "reports/qa/confidence-coverage-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/confirmatory_preparation.py",
+      "sha256": "13b31ac2d05dcf26c32c6d9874f8503b04fb0b59759dfe0cff99420f1724b107",
+      "lines": 73,
+      "scoped_review": "reports/qa/evaluation-boundaries-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/content_neural.py",
+      "sha256": "140869dfa56558e9f5d9f16a726b9222a49c3fd31f50932e105e58c9e7e9fe94",
+      "lines": 37,
+      "scoped_review": "reports/qa/neural-inference-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/content_scaling.py",
+      "sha256": "ad7714012a14bf9993647c6d7c522fa55af24884c89cc29f0261d944562cb060",
+      "lines": 34,
+      "scoped_review": "reports/qa/identifier-content-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/contracts.py",
+      "sha256": "b3337085992cd44aa8598bffca9d9a099fbb6f2840776a81b9136cb5d03d9456",
+      "lines": 70,
+      "scoped_review": "reports/qa/release-core-boundaries-iteration-2.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/core.py",
+      "sha256": "9c67590d2716d06e6579ee5dabd8536190920c601da318f017137df625599ca1",
+      "lines": 212,
+      "scoped_review": "reports/qa/release-core-boundaries-iteration-2.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/coverage_analysis.py",
+      "sha256": "b8c3915ee6b836b018f6478216e96f9b18cb8abecc5bf1948e5125ca474185ca",
+      "lines": 93,
+      "scoped_review": "reports/qa/confidence-coverage-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/data.py",
+      "sha256": "90351f320d16a9b32cc21664c891d7b6e17e09cf1a38ec1e57701be8c7e9eb46",
+      "lines": 166,
+      "scoped_review": "reports/qa/evaluation-boundaries-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/data_audit.py",
+      "sha256": "cd8570e322a545994180d3e67ddcc878ba0fea4808bf2455f63dd14d60b235ef",
+      "lines": 182,
+      "scoped_review": "reports/qa/identifier-content-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/decision_model.py",
+      "sha256": "7a41431d7be10e477ed188c5ae0d8dcccbe871fee66bd021decd68e383cd5625",
+      "lines": 45,
+      "scoped_review": "reports/qa/decision-model-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/diversity_analysis.py",
+      "sha256": "40f7d9e2eb1ecb3d70dba78333e791a77e28f4ce000bda8214868bc581425486",
+      "lines": 195,
+      "scoped_review": "reports/qa/synthetic-diversity-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/environment_diversity.py",
+      "sha256": "5e079b206c86fbbe38d05a526afbd4911c7c8afc3ff728ca90b7779b99dfd496",
+      "lines": 130,
+      "scoped_review": "reports/qa/synthetic-diversity-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/evidence_registry.py",
+      "sha256": "5d34ad0d199e637987c2da5328ad8b83aa35455c593e9368b4db8194c5976175",
+      "lines": 95,
+      "scoped_review": "reports/qa/verification-boundaries-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/exposure_neural.py",
+      "sha256": "8550a6d43a41308e7c720c3fc3637fbf44a51258b75f3d0d0cb0b764f14d2b40",
+      "lines": 22,
+      "scoped_review": "reports/qa/neural-inference-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/features.py",
+      "sha256": "50621fd5862ca1cf9cbbd14452ded9c6700cb103401222af87a9b1b2c3b39a19",
+      "lines": 47,
+      "scoped_review": "reports/qa/evaluation-boundaries-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/heldout_frontier.py",
+      "sha256": "3edb7e1aa98afbcabfa22b7fad8d1c646f81b20d21bc659a431899f06ccefeb6",
+      "lines": 121,
+      "scoped_review": "reports/qa/physical-audit-frontier-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/heldout_response.py",
+      "sha256": "08aceca2ffb6dde58f3ca381777e59715b2cc019753f7da4ff70bbe7387151d1",
+      "lines": 111,
+      "scoped_review": "reports/qa/response-models-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/history_state.py",
+      "sha256": "47b41301b03d3b2b7bcef4f9b26387b8f50f00bcda6cc6b96f8cd05c70c04690",
+      "lines": 47,
+      "scoped_review": "reports/qa/history-forecast-storage-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/horizon_archive.py",
+      "sha256": "dac97c338928c8c9cb84e12852182057c3808cc22b05c7d84becfc7d7348850f",
+      "lines": 44,
+      "scoped_review": "reports/qa/history-forecast-storage-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/horizon_heads.py",
+      "sha256": "e21583dc716690929110fe926819e1bfaad97eb3dd7dfa8f294b07afe232e7ff",
+      "lines": 135,
+      "scoped_review": "reports/qa/library-entrypoint-horizon-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/horizon_targets.py",
+      "sha256": "d343766ac660d6b25c3ec84b341bb494c886b877a1938efe26b6b6414b349144",
+      "lines": 77,
+      "scoped_review": "reports/qa/multistep-targets-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/human_comparison.py",
+      "sha256": "1ea434dde5009ef46503d0f306457158259938a95efd7eb37f6054b046adec50",
+      "lines": 82,
+      "scoped_review": "reports/qa/human-decisions-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/human_preparation.py",
+      "sha256": "92e9eab6d2eca14e3b28f604634da744bd4dda2ba45d1cf8443b7125c38b51be",
+      "lines": 81,
+      "scoped_review": "reports/qa/library-entrypoint-horizon-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/human_protocol.py",
+      "sha256": "d043cc9507897b193e3ef252b3db5954ef5f8cc14d47b90702e60f0084fe8697",
+      "lines": 137,
+      "scoped_review": "reports/qa/identifier-content-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/integer_bounds.py",
+      "sha256": "3bf508d8070c4add11dd9ecd2e6d724cd00555e2fa29d00561907cf766fa9372",
+      "lines": 297,
+      "scoped_review": "reports/qa/numerical-certificates-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/intervention_analysis.py",
+      "sha256": "183391c7499e06b7bcc4d7d575be24d32879af5ded7ec20561574231c4436098",
+      "lines": 172,
+      "scoped_review": "reports/qa/analysis-evidence-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/intervention_benchmark.py",
+      "sha256": "2b16041d39c75f426866baeb944feda9e4f13d0b95186adca2672588bc8baa35",
+      "lines": 198,
+      "scoped_review": "reports/qa/intervention-search-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/intervention_space.py",
+      "sha256": "50108094cabde00fb7a95e49746ca5e1b9ac5e7ca4acbc638472341d568c26c9",
+      "lines": 104,
+      "scoped_review": "reports/qa/intervention-search-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/intrinsic_context.py",
+      "sha256": "175b4c9d0fb73bc4fbb7290644e31f2381210261f83d9ce4df54364f5685a721",
+      "lines": 25,
+      "scoped_review": "reports/qa/identifier-content-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/item_context.py",
+      "sha256": "31037baaa1ee761eaaf66524a04463f0cf27d0d3cc3f96344a5345d781d40c3c",
+      "lines": 36,
+      "scoped_review": "reports/qa/identifier-content-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/item_metadata.py",
+      "sha256": "fc43c4fdf7d4e0879235cc78f8e50ee2c8defa2c057e9c8d62fdef69f3b3bfef",
+      "lines": 12,
+      "scoped_review": "reports/qa/identifier-content-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/latent_estimation.py",
+      "sha256": "720f825379df881b3a0d70d7bb93f4aaced48ccd80f9745ebb53f166dc4e130e",
+      "lines": 67,
+      "scoped_review": "reports/qa/learned-state-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/learned_abstraction.py",
+      "sha256": "8a420760d02e5f89f1e95ed07bd0afb96fc288339e8da099c7b2f1e2e9841d6d",
+      "lines": 97,
+      "scoped_review": "reports/qa/learned-state-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/multistep_audit.py",
+      "sha256": "54260b505de132c74c0965481d1b284e7cc9787e7bef75dd1eedf5f50988c3d2",
+      "lines": 158,
+      "scoped_review": "reports/qa/physical-audit-frontier-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/multistep_cohort.py",
+      "sha256": "dca6ce4c2994e8fbdaa50cf44c1cb13ab34ad9dd063d89786afa2e26eb487593",
+      "lines": 111,
+      "scoped_review": "reports/qa/multistep-targets-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/nested_design.py",
+      "sha256": "08aad6890b1d48cfb1dee8818719bc6420a17e713b928d71e4e895dc282dc67f",
+      "lines": 51,
+      "scoped_review": "reports/qa/multistep-targets-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/neural.py",
+      "sha256": "27b336ceda43098372c2dc0aa9f847dd682044b56f0c016381ae864f1ffcfa71",
+      "lines": 38,
+      "scoped_review": "reports/qa/neural-inference-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/neutral_response.py",
+      "sha256": "62698e9b15740ca2c71b5aff81b113f7db34e8306330545cc7d7e54d490a8a07",
+      "lines": 169,
+      "scoped_review": "reports/qa/response-models-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/nominal_ablation.py",
+      "sha256": "c3981472b4368576a447ac1ee19798fe4a0750077613d3759e24812fb52c803f",
+      "lines": 80,
+      "scoped_review": "reports/qa/repeated-replay-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/nominal_analysis.py",
+      "sha256": "15804209d4eb71b1a32b34ac030a633bc3e138f0504bd6cce7cf9154eecb7a5b",
+      "lines": 168,
+      "scoped_review": "reports/qa/analysis-evidence-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/nominal_chunk.py",
+      "sha256": "ee8623adc088fbb56b8feb17ab4b0b56605f6e64437d4ea92deb322869fd9a3f",
+      "lines": 110,
+      "scoped_review": "reports/qa/repeated-replay-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/nominal_replay.py",
+      "sha256": "4b90a086fcc9e277050bbf5b5fcdfb1f61a0bf0e3c8752fc8c50ffb53fea2ca7",
+      "lines": 47,
+      "scoped_review": "reports/qa/repeated-replay-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/parent_identity.py",
+      "sha256": "b6c59212d4143653a9f835be3bec944af2d380d5bbb2acc52fde44e70c177784",
+      "lines": 19,
+      "scoped_review": "reports/qa/learned-state-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/pooled_forecasts.py",
+      "sha256": "01101504192ff06697d3a3996539978e37ca04d56bf2788b1444f1d8d3315c49",
+      "lines": 39,
+      "scoped_review": "reports/qa/history-forecast-storage-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/precision_planning.py",
+      "sha256": "25e42c171eea6e227c6640035d13eff8afbf9f8a95986ec52ebdcf6e62ec27da",
+      "lines": 103,
+      "scoped_review": "reports/qa/human-uncertainty-support-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/prism.py",
+      "sha256": "337196d3739bbcf2aeb8c888fc36c8f2af22a96e0a2f899b84523f56b6d63ca0",
+      "lines": 67,
+      "scoped_review": "reports/qa/verification-boundaries-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/property_bounds.py",
+      "sha256": "701e21605a0a457150615d0cfc90ac5146d34d606042735f99bd6069c855c385",
+      "lines": 209,
+      "scoped_review": "reports/qa/abstraction-properties-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/property_refinement.py",
+      "sha256": "8201243fafa197729941d6d09990fae6d50e12d29107fdeeee31f9b63e17b10a",
+      "lines": 90,
+      "scoped_review": "reports/qa/learned-state-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/quantization.py",
+      "sha256": "5fd79f3e62aff0c6c86c1aab1c9d65f6367fb8a86642f2259b01e01a9778bbee",
+      "lines": 61,
+      "scoped_review": "reports/qa/learned-state-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/random_response.py",
+      "sha256": "fe270b3651a2f2de692b4d28241739abe1678aa40877a1aa2439b762f0df6ecd",
+      "lines": 112,
+      "scoped_review": "reports/qa/identifier-content-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/randomized_audit.py",
+      "sha256": "fe3332e05e6cccfa5bac4bd78b57bef1ca32a2e442da859ff6be638c67ac6e04",
+      "lines": 116,
+      "scoped_review": "reports/qa/physical-audit-frontier-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/randomized_cohort.py",
+      "sha256": "2d3acf6d95dc4203fc27ed03bda6f5fa0f01fe7b1716814ef69056aced405929",
+      "lines": 61,
+      "scoped_review": "reports/qa/identifier-content-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/rational.py",
+      "sha256": "e30c7f268afcc66b330b2756a8c9ecd9d548e291232feab000acb368faee1f3a",
+      "lines": 91,
+      "scoped_review": "reports/qa/numerical-certificates-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/refinement.py",
+      "sha256": "1ae52ab6611f88db64a18bb4eedfd7882a7a80d5ac1aded9c04434374768bae9",
+      "lines": 116,
+      "scoped_review": "reports/qa/intervention-search-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/repeated_analysis.py",
+      "sha256": "44551af29e5408a4d0fcb8ab4ce8e49b8d0296950a97fa300f78d2f636abd85e",
+      "lines": 119,
+      "scoped_review": "reports/qa/repeated-replay-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/repeated_evidence.py",
+      "sha256": "a9f95f3304e48897de6fefcddfe5494bcbe108b99192166b5de3151243a91061",
+      "lines": 153,
+      "scoped_review": "reports/qa/repeated-replay-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/resolution_support.py",
+      "sha256": "44e47c481b1657066c9c59958c1394d4b0632470c122dd59b04f7632ebcb2eca",
+      "lines": 63,
+      "scoped_review": "reports/qa/human-uncertainty-support-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/response_chain.py",
+      "sha256": "568618996c17a3e1b2acff2359751b3c2e676b851e76757810ddb3ba113b6882",
+      "lines": 35,
+      "scoped_review": "reports/qa/response-models-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/response_coarsening.py",
+      "sha256": "3300f6cb0a34bd3513a37f56a1409a42e5784413b6f3eef0adef4164567cbf7c",
+      "lines": 41,
+      "scoped_review": "reports/qa/response-models-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/response_frontier.py",
+      "sha256": "e36784fc9b0ba25d7eb11c7ccd9db9946b1572540dfa7082631608660eef7052",
+      "lines": 179,
+      "scoped_review": "reports/qa/physical-audit-frontier-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/response_refinement.py",
+      "sha256": "b30b904144be68604535bd2bdf9c7166a0503894cc697d1b40778508838f35e3",
+      "lines": 111,
+      "scoped_review": "reports/qa/response-models-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/response_replicas.py",
+      "sha256": "ac2af6cf52327a7193fd0779a9aa0d00e209519b2c1b8134a177bb97691571e0",
+      "lines": 34,
+      "scoped_review": "reports/qa/response-models-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/robust_benchmark.py",
+      "sha256": "fd6e03c3d90766ba47dab6d105bd27011fe22904bba7a6b220c08c4681cc13b1",
+      "lines": 87,
+      "scoped_review": "reports/qa/confidence-coverage-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/statistics.py",
+      "sha256": "328ed69dbbcc69f9376187f3bd5f95964b15703a41b01b8271ae3baae8e3967d",
+      "lines": 106,
+      "scoped_review": "reports/qa/evaluation-boundaries-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/streaming_scores.py",
+      "sha256": "b737be8a11bb64c0fd813fd64b0a66ef8cb5fdb21234e4544412ad4dbefc27a2",
+      "lines": 203,
+      "scoped_review": "reports/qa/evaluation-boundaries-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/synthetic.py",
+      "sha256": "8daf7417114a448f6bfc58c40022bdcda80b244f4a52eb60bbb3d9491c9a2e4e",
+      "lines": 144,
+      "scoped_review": "reports/qa/synthetic-diversity-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/synthetic_analysis.py",
+      "sha256": "8c93eeef5ef31e515e9969f455e58f384426c778d7663de6e5d7a841503c3f46",
+      "lines": 70,
+      "scoped_review": "reports/qa/analysis-evidence-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/training_horizons.py",
+      "sha256": "685e5426212585e81b3ef043290d4c9f499ccd4ba305baa5de90b1da9ea39073",
+      "lines": 30,
+      "scoped_review": "reports/qa/multistep-targets-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/uncertainty.py",
+      "sha256": "28e1e5152300d31e29feccf899e935362a3c9d5a9c4ccf72fce8359b397460ed",
+      "lines": 126,
+      "scoped_review": "reports/qa/numerical-certificates-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/uncertainty_abstraction.py",
+      "sha256": "ca7cf96bcd11525ae9af38f3860dd707b694e2d42281fd2922708c938f784904",
+      "lines": 93,
+      "scoped_review": "reports/qa/abstraction-properties-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/uncertainty_analysis.py",
+      "sha256": "507deec9566884c187838c75a126a5ecd6489499130213bebbd2e5245d91f30c",
+      "lines": 106,
+      "scoped_review": "reports/qa/analysis-evidence-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "src/behavioral_equivalence/uncertainty_repetition.py",
+      "sha256": "6e792fe442fba86ed22c45f5685e1b9618bd249cc46271f1b611268d2ccbab5a",
+      "lines": 54,
+      "scoped_review": "reports/qa/analysis-evidence-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/build_human_figure_tables.py",
+      "sha256": "9918192c9e6bbe59b54cc3f3d5d97bc8e97ef8ba65e701c458f94112047ae845",
+      "lines": 173,
+      "scoped_review": "reports/qa/result-audit-figure-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/check_evidence.py",
+      "sha256": "45845edcd672b2df11ba126d9dac07c375c0cf9fa49746f0677e0c9220a2e04a",
+      "lines": 19,
+      "scoped_review": "reports/qa/tool-evidence-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/final_result_audit.py",
+      "sha256": "172fcdf98c292d476683d8fbb81ac977bdf9f878c146a8cd6af97eaac5f2d564",
+      "lines": 103,
+      "scoped_review": "reports/qa/result-audit-figure-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/freeze_human_analysis.py",
+      "sha256": "96c4011d1587004ae8303a1c26166ce19f7842dfa8f7ca5f319523342a3d69a8",
+      "lines": 323,
+      "scoped_review": "reports/qa/analysis-freeze-tools-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/freeze_supplementary.py",
+      "sha256": "374a5122bd2ba4e78054ccfc83e64a37f848142993c1711adb533e71cc3848ef",
+      "lines": 114,
+      "scoped_review": "reports/qa/analysis-freeze-tools-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/freeze_synthetic.py",
+      "sha256": "5046d3f9e6b033eb68e6cebf4057ca022f38aa1edb8eaaa1f91ed90b08d64140",
+      "lines": 31,
+      "scoped_review": "reports/qa/tool-evidence-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/freeze_trajectory.py",
+      "sha256": "62831c1afbfbeb63fba0ff65b13daacce82ff2abd9ac623736c18e7d72b6d30f",
+      "lines": 76,
+      "scoped_review": "reports/qa/trajectory-tools-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/guarded_modal.py",
+      "sha256": "815d9176fca70f1c91c49eee31cd1b4cd3deba70577c00cdc195316b83fe059e",
+      "lines": 210,
+      "scoped_review": "reports/qa/release-packager-guard-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/interval_vertices.py",
+      "sha256": "b1818ac55c96592ee0daad8a2019afc9eb9da55eb5fac23f36e9f51fe72ba25b",
+      "lines": 85,
+      "scoped_review": "reports/qa/tool-evidence-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/package_source.py",
+      "sha256": "ab94be25a072658be894fdc28ec67cddf9675973c6db6a45ddd4267559009229",
+      "lines": 132,
+      "scoped_review": "reports/qa/release-packager-guard-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/run_final_human_jobs.py",
+      "sha256": "6bae157e2bfeb1b43754be337700c55fa89faa3b58e80f377cadf9a8e6e1122e",
+      "lines": 224,
+      "scoped_review": "reports/qa/runner-operational-amendment.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/run_supplementary_fits.py",
+      "sha256": "3cc7cec9c48836740b66a75b9e9b1d0ef76197a827d7cf2581498706a2703474",
+      "lines": 166,
+      "scoped_review": "reports/qa/tool-evidence-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/scientific_reproduction.py",
+      "sha256": "7ce0184ed034e1ec4da3b948c7875b9e61a5a88137d79fc4534bb13910a488a9",
+      "lines": 101,
+      "scoped_review": "reports/qa/tool-evidence-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/state_sufficiency.py",
+      "sha256": "b7b33904690c0aedebc28a57a7ee7812aceac60b735fc2b06852de9f6440d819",
+      "lines": 100,
+      "scoped_review": "reports/qa/result-audit-figure-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/summarize_human_primary.py",
+      "sha256": "61df120cdfbdc291bf79fb1adde24123ce0d5f8b8587699f8ceeeaaaf444323f",
+      "lines": 111,
+      "scoped_review": "reports/qa/human-decisions-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/supplementary_abstraction.py",
+      "sha256": "1f7d3cc869c167a144ce00b6c809cc1dacb1be59df89062c4cb920e7d47c3e29",
+      "lines": 77,
+      "scoped_review": "reports/qa/supplementary-model-tools-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/supplementary_counts.py",
+      "sha256": "e6d7cc7b43f370fe19aa5ca9acea982b94e4b5f7a00513dce081c137d142e5af",
+      "lines": 66,
+      "scoped_review": "reports/qa/supplementary-model-tools-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/supplementary_heads.py",
+      "sha256": "99f671c6ed3cf87031da15e8f6dc4d792e5b85f6049425bd77795878ff3676f3",
+      "lines": 126,
+      "scoped_review": "reports/qa/supplementary-model-tools-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/supplementary_intervals.py",
+      "sha256": "a51b9193b9ef606937561806e4241c3a4ef475b4c566543e378a4d850ded4e73",
+      "lines": 64,
+      "scoped_review": "reports/qa/supplementary-model-tools-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/supplementary_metrics.py",
+      "sha256": "a18b4c5b847d5337cd8d4203ccc802029275eaeccb0a7828c1df026efb13f6d3",
+      "lines": 105,
+      "scoped_review": "reports/qa/supplementary-model-tools-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/supplementary_outcomes.py",
+      "sha256": "3565170e5fd5cd602e7ffa6f0fb0e5e82e04d8641528b8777a6408dc179d3553",
+      "lines": 119,
+      "scoped_review": "reports/qa/supplementary-model-tools-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/supplementary_result_audit.py",
+      "sha256": "e6be06ee8613d8bd8fd5de2c0489e60e485e8067e0d8e54b705aaea0ff0976dd",
+      "lines": 125,
+      "scoped_review": "reports/qa/result-audit-figure-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/trajectory_backward_audit.py",
+      "sha256": "8d8f32a8aa58bda94a675238b2271255361cd6858e5a1cdf5cad2ee6cc816aee",
+      "lines": 28,
+      "scoped_review": "reports/qa/trajectory-tools-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/trajectory_design.py",
+      "sha256": "e832282da83c1810c24073d81266fc5981cf86b4c2c79e7ec06a00bf26fe300c",
+      "lines": 60,
+      "scoped_review": "reports/qa/trajectory-tools-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/trajectory_likelihood.py",
+      "sha256": "480b390d65860b520fcc9d8ebc5aad8a4512cdab0c65a67a456c2813b9f76e4a",
+      "lines": 58,
+      "scoped_review": "reports/qa/trajectory-tools-review.md",
+      "whole_release_acceptance": "not_assessed"
+    },
+    {
+      "path": "tools/trajectory_targets.py",
+      "sha256": "e83e5aef934baf1bb8bc9bacd6cf92a970cce5eb5cc6ac421ad1b675bd0ad696",
+      "lines": 45,
+      "scoped_review": "reports/qa/trajectory-tools-review.md",
+      "whole_release_acceptance": "not_assessed"
+    }
+  ]
+}

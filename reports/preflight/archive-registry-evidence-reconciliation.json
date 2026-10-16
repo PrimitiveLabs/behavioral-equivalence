@@ -1,0 +1,10 @@
+{
+  "status": "fixed_mutable_registry_reference",
+  "observed_at": "2026-10-16T09:24:08.233087+00:00",
+  "snapshot": "reports/source-snapshots/archive-registry-snapshot-2b4ace7fce631dd9.json",
+  "sha256": "2b4ace7fce631dd9b992201e12698b140ef859405ef33698d888d7760d1338e5",
+  "source_candidate_sha256": "6f1897215c724c4c6727778dcfc7592b350e7644bee6ff0744e51dabb9a10552",
+  "live_registry": "reports/research-archive.json",
+  "subsequent_receipt": "reports/preflight/private-release-archive-receipt-6f1897215c724c4c.json",
+  "scope": "Preserve the exact hash-indexed registry bytes and point evidence to an immutable snapshot, avoiding a self-referential archive/index cycle. Existing registry entries and uploaded candidate bytes are unchanged."
+}

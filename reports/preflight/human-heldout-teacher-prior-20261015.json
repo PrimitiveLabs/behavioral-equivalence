@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "source_digest": "8f8d6a687041c70defd81ded2b9e8a701f0efb7170bd10a3f0065112bbf8c96f",
+  "seed": 20261015,
+  "protocol": "known_users",
+  "history_report_sha256": "e11373b221ceab31c94298d8188beef52c9c21752a74bc7bc98c6eab6c043a0f",
+  "sample_standard_training_cases": 100000,
+  "maximum_sample_teacher_mean_reproduction_error": 2.3255291359269847e-08,
+  "known_duration_sample_cases": 71847,
+  "unknown_duration_sample_cases": 28153,
+  "output_sha256": {
+    "priors.npz": "44693f8e5c3304c65f6977c81a743ad26198e48c237265cea030f604d4376b15"
+  },
+  "root": "/artifacts/human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/history-states-ced0bbdf76c3-25046fd0a2d3/heldout-teacher-prior-8f8d6a687041c70d",
+  "random_calibration_responses_used": false,
+  "validation_or_test_responses_used": false,
+  "scope": "Mean frozen teacher probability by saved history state and scenario/duration group on the fixed100000standard-policy training sample; environment-global then global teacher fallback. Standard-policy item mixture, not uniform random-pool mixture."
+}

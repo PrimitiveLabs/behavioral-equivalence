@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.1",
+  "source_digest": "36cbc99f1f2082daac9e764fa42d2ad5605b39e125109c215ee0d316d02c3805",
+  "kernel_semantics": "exact binary-rational weights normalized within each row",
+  "partition": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      9,
+      10,
+      11
+    ],
+    [
+      12,
+      13,
+      14,
+      15
+    ]
+  ],
+  "target": "complete",
+  "horizon": 5,
+  "numeric_status": "exact_rational",
+  "epsilon": "0",
+  "delta": "0",
+  "abstract_values": [
+    "30469/131072",
+    "69499/131072",
+    "1",
+    "0"
+  ],
+  "intervals": [
+    [
+      "30469/131072",
+      "30469/131072"
+    ],
+    [
+      "69499/131072",
+      "69499/131072"
+    ],
+    [
+      "1",
+      "1"
+    ],
+    [
+      "0",
+      "0"
+    ]
+  ],
+  "observed_max_error": "0",
+  "scope": "specified_normalized_model_only"
+}

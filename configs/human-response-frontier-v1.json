@@ -1,0 +1,17 @@
+{
+  "schema_version": "human-known-user-response-frontier-v1",
+  "protocol": "known_users",
+  "parent_states": 32,
+  "initial_block_size": 4,
+  "split_budgets": [2,4,8],
+  "primary_split_budget": 8,
+  "minimum_cases": 2000,
+  "minimum_users": 50,
+  "control_seed": 20261015,
+  "primary_reference": "random_capacity-b8",
+  "primary_candidate": "targeted-b8",
+  "selection": "Discovery responses only; estimation counts/users may gate support, estimation outcomes never select splits.",
+  "capacity_matching": "All selectors match targeted achieved state count; report random fill when supported candidates exhaust.",
+  "search_scope": "Offline selectors share the full observed calibration table. This is not active acquisition or a search-efficiency claim.",
+  "scope": "Fitted one-step observed-response models. Numerical point discrepancies are not arithmetic certificates or human confidence bounds. No final test scoring in construction."
+}

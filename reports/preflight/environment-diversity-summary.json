@@ -1,0 +1,3608 @@
+{
+  "status": "complete",
+  "phase": "exploratory",
+  "source_digest": "a750f43e1a3a284a1e83aed6539a4d299f6798a20139b483d13f99c0c2966b77",
+  "worlds": 400,
+  "response_changing_worlds": 300,
+  "negative_control_worlds": 100,
+  "seed_clusters": 10,
+  "bootstrap_replications": 5000,
+  "bootstrap_seed": 20261015,
+  "comparisons": [
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "unchanged"
+      ],
+      "reference": [
+        "narrow",
+        "unchanged"
+      ],
+      "metric": "initial_completion_error",
+      "paired_mean_difference": -0.01148680022874803,
+      "descriptive_seed_cluster_ci95": [
+        -0.012768967094300254,
+        -0.010321912167137747
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.01265012807907944
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.015683897391926858
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.011667149364326007
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.011964698135117583
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.009236363479764384
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.00944096615854339
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.010373569368649199
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.011098038226310876
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.013525995991140584
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.009227196092621981
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "unchanged"
+      ],
+      "reference": [
+        "narrow",
+        "unchanged"
+      ],
+      "metric": "total_prediction_max_error",
+      "paired_mean_difference": -0.007897126161713081,
+      "descriptive_seed_cluster_ci95": [
+        -0.009816385835515598,
+        -0.005645387020626794
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.012013923413432813
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.00865497659176155
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.005981591533060064
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.010606574934023828
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.01035686552852884
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.007977211477313093
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.010880732313717105
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.007892722578895155
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.0037618054785616794
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.0008448577678366847
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "unchanged"
+      ],
+      "reference": [
+        "narrow",
+        "unchanged"
+      ],
+      "metric": "environment_model_max_error",
+      "paired_mean_difference": -0.021725870806681077,
+      "descriptive_seed_cluster_ci95": [
+        -0.023535969119289575,
+        -0.019864118334498686
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.02581280739328501
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.02003615098380264
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.017627047384898523
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.02483202534348851
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.021948256605917302
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.022720735632934943
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02564557151222696
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.022076448983851568
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.019942734337861312
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.016616929888544
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "unchanged"
+      ],
+      "reference": [
+        "narrow",
+        "unchanged"
+      ],
+      "metric": "abstraction_max_error",
+      "paired_mean_difference": 0.023783058854974604,
+      "descriptive_seed_cluster_ci95": [
+        0.022439375529481363,
+        0.02531317844960961
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": 0.022270210800348775
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 0.024938275217857627
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": 0.019845055125294577
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": 0.02348842488489801
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": 0.022606633756725624
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": 0.029459217468861567
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": 0.02380345098810392
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": 0.02436028679101511
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.02425173533678205
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": 0.022807298179858767
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "targeted"
+      ],
+      "reference": [
+        "narrow",
+        "targeted"
+      ],
+      "metric": "initial_completion_error",
+      "paired_mean_difference": -0.012347831502347131,
+      "descriptive_seed_cluster_ci95": [
+        -0.013800295094939121,
+        -0.010862762941450683
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.013745784632165838
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.016337322532876026
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.013234494457596986
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.01335999774698967
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.009477365003582601
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.01030409824599628
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.012551784118200453
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.011273530407649064
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.01483230788053775
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.008361629997876648
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "targeted"
+      ],
+      "reference": [
+        "narrow",
+        "targeted"
+      ],
+      "metric": "total_prediction_max_error",
+      "paired_mean_difference": -0.02164216342214352,
+      "descriptive_seed_cluster_ci95": [
+        -0.02351454878076012,
+        -0.019688682009709076
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.025861898400743134
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.020035001218067408
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.016906400587863555
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.024832025343488516
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.02203553076171747
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.022720735632934936
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02549267227812208
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.021977705332985417
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.01994273433786132
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.016616930327651342
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "targeted"
+      ],
+      "reference": [
+        "narrow",
+        "targeted"
+      ],
+      "metric": "environment_model_max_error",
+      "paired_mean_difference": -0.021725870806681077,
+      "descriptive_seed_cluster_ci95": [
+        -0.023535969119289575,
+        -0.019864118334498686
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.02581280739328501
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.02003615098380264
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.017627047384898523
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.02483202534348851
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.021948256605917302
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.022720735632934943
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02564557151222696
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.022076448983851568
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.019942734337861312
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.016616929888544
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "targeted"
+      ],
+      "reference": [
+        "narrow",
+        "targeted"
+      ],
+      "metric": "abstraction_max_error",
+      "paired_mean_difference": 0.00038821531023557835,
+      "descriptive_seed_cluster_ci95": [
+        -0.00012186918972534127,
+        0.0010862021287431837
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": 0.0003391014712395689
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 0.00018462259817457864
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": 0.003156405695106995
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -5.059610138265687e-18
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.0003645507257318731
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -3.5706391547189276e-18
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": 0.0012955442153544934
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.00040165105952777946
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 1.0805881652438861e-18
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.00032731909226019234
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "random_capacity"
+      ],
+      "reference": [
+        "narrow",
+        "random_capacity"
+      ],
+      "metric": "initial_completion_error",
+      "paired_mean_difference": -0.011948715290175835,
+      "descriptive_seed_cluster_ci95": [
+        -0.013487166241361037,
+        -0.010474480967004656
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.012954481875607052
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.016509121282260304
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.013206832329019166
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.012875354243556455
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.009534212665277087
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.009493964414889026
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.011730737327790081
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.010598070324249344
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.0144274700384749
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.008156908400634929
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "random_capacity"
+      ],
+      "reference": [
+        "narrow",
+        "random_capacity"
+      ],
+      "metric": "total_prediction_max_error",
+      "paired_mean_difference": -0.010748578090802052,
+      "descriptive_seed_cluster_ci95": [
+        -0.012583364637740305,
+        -0.008926663408383209
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.013133848562748178
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.009859297786333794
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.007657154115198633
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.013269732387137505
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.013453172948697762
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.01071447034587106
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.01586326327561104
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.009764381647462126
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.00645960040278379
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.007310859436176639
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "random_capacity"
+      ],
+      "reference": [
+        "narrow",
+        "random_capacity"
+      ],
+      "metric": "environment_model_max_error",
+      "paired_mean_difference": -0.021725870806681077,
+      "descriptive_seed_cluster_ci95": [
+        -0.023535969119289575,
+        -0.019864118334498686
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.02581280739328501
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.02003615098380264
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.017627047384898523
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.02483202534348851
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.021948256605917302
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.022720735632934943
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02564557151222696
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.022076448983851568
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.019942734337861312
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.016616929888544
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "random_capacity"
+      ],
+      "reference": [
+        "narrow",
+        "random_capacity"
+      ],
+      "metric": "abstraction_max_error",
+      "paired_mean_difference": 0.014498069964719227,
+      "descriptive_seed_cluster_ci95": [
+        0.012648993884592646,
+        0.01634268290821208
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": 0.010591093400533552
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 0.015241140431896215
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": 0.011614405005934145
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": 0.01153799570940442
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": 0.014451465439850356
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": 0.01828500382510894
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": 0.015120870805546178
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": 0.019616366988690008
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.01719302402918402
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": 0.011329334011044427
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "all_observed"
+      ],
+      "reference": [
+        "narrow",
+        "all_observed"
+      ],
+      "metric": "initial_completion_error",
+      "paired_mean_difference": -0.01234517657657876,
+      "descriptive_seed_cluster_ci95": [
+        -0.013800287742158319,
+        -0.010859338949070289
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.013745747868261814
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.016337322532876022
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.013234494457596986
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.01335999774698967
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.009458288949465796
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.01030409824599628
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.012551784118200451
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.011273530407649066
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.014832307880537753
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.008354193558213742
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "all_observed"
+      ],
+      "reference": [
+        "narrow",
+        "all_observed"
+      ],
+      "metric": "total_prediction_max_error",
+      "paired_mean_difference": -0.021725990505420976,
+      "descriptive_seed_cluster_ci95": [
+        -0.02353597237419634,
+        -0.01986447416199908
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.02581280739328502
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.020037345208693547
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.0176270501474066
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.024832025343488516
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.021948256605917305
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.022720735632934936
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02564557151222695
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.022076448983851568
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.01994273433786132
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.016616929888543998
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "all_observed"
+      ],
+      "reference": [
+        "narrow",
+        "all_observed"
+      ],
+      "metric": "environment_model_max_error",
+      "paired_mean_difference": -0.021725870806681077,
+      "descriptive_seed_cluster_ci95": [
+        -0.023535969119289575,
+        -0.019864118334498686
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.02581280739328501
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.02003615098380264
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.017627047384898523
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.02483202534348851
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.021948256605917302
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.022720735632934943
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02564557151222696
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.022076448983851568
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.019942734337861312
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.016616929888544
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "all_observed"
+      ],
+      "reference": [
+        "narrow",
+        "all_observed"
+      ],
+      "metric": "abstraction_max_error",
+      "paired_mean_difference": 2.0857779411017692e-06,
+      "descriptive_seed_cluster_ci95": [
+        -1.7064438693111437e-19,
+        5.034828479827172e-06
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -3.729655473350135e-18
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 1.22250534347673e-05
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": 8.632725976247894e-06
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -1.5034270125132329e-18
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": 3.1080462277917794e-19
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": 1.2143064331837649e-18
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": 1.1564823173178713e-18
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -9.685539407537173e-19
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 2.967099945368664e-18
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": 3.0502221119258858e-18
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "identity"
+      ],
+      "reference": [
+        "narrow",
+        "identity"
+      ],
+      "metric": "initial_completion_error",
+      "paired_mean_difference": -0.01234517657657876,
+      "descriptive_seed_cluster_ci95": [
+        -0.013800287742158319,
+        -0.010859338949070287
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.013745747868261814
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.016337322532876026
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.013234494457596986
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.013359997746989673
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.009458288949465798
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.010304098245996282
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.012551784118200448
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.011273530407649062
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.014832307880537752
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.008354193558213742
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "identity"
+      ],
+      "reference": [
+        "narrow",
+        "identity"
+      ],
+      "metric": "total_prediction_max_error",
+      "paired_mean_difference": -0.021725870806681077,
+      "descriptive_seed_cluster_ci95": [
+        -0.023535969119289575,
+        -0.019864118334498686
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.02581280739328501
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.02003615098380264
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.017627047384898523
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.02483202534348851
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.021948256605917302
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.022720735632934943
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02564557151222696
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.022076448983851568
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.019942734337861312
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.016616929888544
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "identity"
+      ],
+      "reference": [
+        "narrow",
+        "identity"
+      ],
+      "metric": "environment_model_max_error",
+      "paired_mean_difference": -0.021725870806681077,
+      "descriptive_seed_cluster_ci95": [
+        -0.023535969119289575,
+        -0.019864118334498686
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.02581280739328501
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.02003615098380264
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.017627047384898523
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.02483202534348851
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.021948256605917302
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.022720735632934943
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02564557151222696
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.022076448983851568
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.019942734337861312
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.016616929888544
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "broad",
+        "identity"
+      ],
+      "reference": [
+        "narrow",
+        "identity"
+      ],
+      "metric": "abstraction_max_error",
+      "paired_mean_difference": 0.0,
+      "descriptive_seed_cluster_ci95": [
+        0.0,
+        0.0
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "unchanged"
+      ],
+      "reference": [
+        "narrow",
+        "unchanged"
+      ],
+      "metric": "initial_completion_error",
+      "paired_mean_difference": -0.0054655589073262425,
+      "descriptive_seed_cluster_ci95": [
+        -0.00713191881714916,
+        -0.0034057567913715523
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.006437572591289838
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.008544814824799168
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.005687205831716471
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.003891972266323749
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.003218084526918313
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.006149293885752272
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.006004914380794992
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.008395177509349505
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.0018984675249650973
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.008225020781283216
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "unchanged"
+      ],
+      "reference": [
+        "narrow",
+        "unchanged"
+      ],
+      "metric": "total_prediction_max_error",
+      "paired_mean_difference": -0.009464468430404436,
+      "descriptive_seed_cluster_ci95": [
+        -0.010848415745004947,
+        -0.008053174017145502
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.011221434495904367
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.008764741553298868
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.007957563010582336
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.01238369544506206
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.00724030678315636
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.009045605284347148
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.011266516850323241
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.012853523562957941
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.005584021494165032
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.008327275824247011
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "unchanged"
+      ],
+      "reference": [
+        "narrow",
+        "unchanged"
+      ],
+      "metric": "environment_model_max_error",
+      "paired_mean_difference": -0.01849522257640921,
+      "descriptive_seed_cluster_ci95": [
+        -0.020329172417793355,
+        -0.016632530121311967
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.01909330801422392
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.01804461202725553
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.013798233023149815
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.019368243419744042
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.014901762980983054
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.020150076810342917
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02193404756562958
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.023760951022904004
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.015113785784494394
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.01878720511536485
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "unchanged"
+      ],
+      "reference": [
+        "narrow",
+        "unchanged"
+      ],
+      "metric": "abstraction_max_error",
+      "paired_mean_difference": 0.016122314514473927,
+      "descriptive_seed_cluster_ci95": [
+        0.014040301360443055,
+        0.017995486758871814
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": 0.01514838525735468
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 0.014982098729437402
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": 0.010621219993094492
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": 0.017883923174352643
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": 0.010988972005280463
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": 0.02052517761010427
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": 0.019562105630421968
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": 0.01894421292454158
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.016291048734374886
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": 0.0162760010857769
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "targeted"
+      ],
+      "reference": [
+        "narrow",
+        "targeted"
+      ],
+      "metric": "initial_completion_error",
+      "paired_mean_difference": -0.005718767235289234,
+      "descriptive_seed_cluster_ci95": [
+        -0.007507771245958877,
+        -0.0034843934755376576
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.0068195148209788435
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.009548377916427719
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.00692473212103194
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.0038823708425127345
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.003320714328068694
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.006505876422624044
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.006212043192765379
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.00801955314624364
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.002427637000264492
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.00838212656250384
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "targeted"
+      ],
+      "reference": [
+        "narrow",
+        "targeted"
+      ],
+      "metric": "total_prediction_max_error",
+      "paired_mean_difference": -0.018480839339365118,
+      "descriptive_seed_cluster_ci95": [
+        -0.02029270365447462,
+        -0.016626027945372632
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.01909274078687589
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.01804464148043316
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.013798225945562452
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.019368243419744042
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.014989037136783227
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.02015007681034291
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.021927045832597285
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.02366239572811193
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.015113785784494398
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.018662200468705866
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "targeted"
+      ],
+      "reference": [
+        "narrow",
+        "targeted"
+      ],
+      "metric": "environment_model_max_error",
+      "paired_mean_difference": -0.01849522257640921,
+      "descriptive_seed_cluster_ci95": [
+        -0.020329172417793355,
+        -0.016632530121311967
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.01909330801422392
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.01804461202725553
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.013798233023149815
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.019368243419744042
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.014901762980983054
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.020150076810342917
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02193404756562958
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.023760951022904004
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.015113785784494394
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.01878720511536485
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "targeted"
+      ],
+      "reference": [
+        "narrow",
+        "targeted"
+      ],
+      "metric": "abstraction_max_error",
+      "paired_mean_difference": 0.00010712771718290994,
+      "descriptive_seed_cluster_ci95": [
+        -8.205155203334805e-05,
+        0.00032253551269913915
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": 0.0008716613896687043
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 5.08211255957613e-06
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": 5.858849440680908e-06
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -2.6599093298311044e-18
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.0003645507257318727
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -4.6837533851373795e-18
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.0001801480406735809
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": 0.000295197547727251
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -2.4033148156762016e-18
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": 0.00043817603883835015
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "random_capacity"
+      ],
+      "reference": [
+        "narrow",
+        "random_capacity"
+      ],
+      "metric": "initial_completion_error",
+      "paired_mean_difference": -0.005659482482329926,
+      "descriptive_seed_cluster_ci95": [
+        -0.00744549702309505,
+        -0.0034640633726310535
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.006534245860418688
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.00964221166143006
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.007018830023092957
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.004000075800667341
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.0033436039013413094
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.005980377746017956
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.006161939965055075
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.0077992530844834835
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.0023963300127907055
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.008510616793583106
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "random_capacity"
+      ],
+      "reference": [
+        "narrow",
+        "random_capacity"
+      ],
+      "metric": "total_prediction_max_error",
+      "paired_mean_difference": -0.013796353623102098,
+      "descriptive_seed_cluster_ci95": [
+        -0.015564792947847508,
+        -0.012000509046098555
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.014568924912413161
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.013141700261140804
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.009463466254798582
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.01587634266384907
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.012343414428310669
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.012932369820722878
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.01805256691546118
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.017943637102924664
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.009170857754178089
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.014470256117221891
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "random_capacity"
+      ],
+      "reference": [
+        "narrow",
+        "random_capacity"
+      ],
+      "metric": "environment_model_max_error",
+      "paired_mean_difference": -0.01849522257640921,
+      "descriptive_seed_cluster_ci95": [
+        -0.020329172417793355,
+        -0.016632530121311967
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.01909330801422392
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.01804461202725553
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.013798233023149815
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.019368243419744042
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.014901762980983054
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.020150076810342917
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02193404756562958
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.023760951022904004
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.015113785784494394
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.01878720511536485
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "random_capacity"
+      ],
+      "reference": [
+        "narrow",
+        "random_capacity"
+      ],
+      "metric": "abstraction_max_error",
+      "paired_mean_difference": 0.009105577052877937,
+      "descriptive_seed_cluster_ci95": [
+        0.00685727591384741,
+        0.011557337597631518
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": 0.00980612780178767
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 0.009130891314041838
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": 0.0034557558976506947
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": 0.005435264081549116
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": 0.007422956998240969
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": 0.009913351829133889
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": 0.008371770193237397
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": 0.015319621350783979
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.01624232917081676
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": 0.005957701891537043
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "all_observed"
+      ],
+      "reference": [
+        "narrow",
+        "all_observed"
+      ],
+      "metric": "initial_completion_error",
+      "paired_mean_difference": -0.005715684880362222,
+      "descriptive_seed_cluster_ci95": [
+        -0.007506596496443545,
+        -0.0034786706593026157
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.006819514820978849
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.009548377916427715
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.00692473212103194
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.0038823708425127345
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.0033016382739518894
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.006505876422624044
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.006212043192765378
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.00801955314624364
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.002427637000264493
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.008370379067350522
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "all_observed"
+      ],
+      "reference": [
+        "narrow",
+        "all_observed"
+      ],
+      "metric": "total_prediction_max_error",
+      "paired_mean_difference": -0.018495224813968238,
+      "descriptive_seed_cluster_ci95": [
+        -0.020329181106480753,
+        -0.016632528797121404
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.019093308014223917
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.018044641480433162
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.013798225945562454
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.019368243419744042
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.014901762980983058
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.020150076810342903
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02193404756562958
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.023760951022904004
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.015113785784494396
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.01878720511536485
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "all_observed"
+      ],
+      "reference": [
+        "narrow",
+        "all_observed"
+      ],
+      "metric": "environment_model_max_error",
+      "paired_mean_difference": -0.01849522257640921,
+      "descriptive_seed_cluster_ci95": [
+        -0.020329172417793355,
+        -0.016632530121311967
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.01909330801422392
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.01804461202725553
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.013798233023149815
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.019368243419744042
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.014901762980983054
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.020150076810342917
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02193404756562958
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.023760951022904004
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.015113785784494394
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.01878720511536485
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "all_observed"
+      ],
+      "reference": [
+        "narrow",
+        "all_observed"
+      ],
+      "metric": "abstraction_max_error",
+      "paired_mean_difference": 1.0940962000232786e-06,
+      "descriptive_seed_cluster_ci95": [
+        -3.0700991517547863e-18,
+        2.6187299678966246e-06
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -3.932039878880763e-18
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 5.082112559573716e-06
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": 5.85884944067968e-06
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -4.0187760526796035e-18
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -2.949029909160572e-18
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -3.2670625464229866e-18
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -2.5876291849987373e-18
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": 1.4166908387143924e-18
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -6.324512672832109e-19
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -4.640385298237959e-18
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "identity"
+      ],
+      "reference": [
+        "narrow",
+        "identity"
+      ],
+      "metric": "initial_completion_error",
+      "paired_mean_difference": -0.005715684880362221,
+      "descriptive_seed_cluster_ci95": [
+        -0.007506596496443543,
+        -0.0034786706593026157
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.006819514820978849
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.009548377916427715
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.00692473212103194
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.0038823708425127367
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.0033016382739518876
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.006505876422624043
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.006212043192765375
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.00801955314624364
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.0024276370002644914
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.008370379067350518
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "identity"
+      ],
+      "reference": [
+        "narrow",
+        "identity"
+      ],
+      "metric": "total_prediction_max_error",
+      "paired_mean_difference": -0.01849522257640921,
+      "descriptive_seed_cluster_ci95": [
+        -0.020329172417793355,
+        -0.016632530121311967
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.01909330801422392
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.01804461202725553
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.013798233023149815
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.019368243419744042
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.014901762980983054
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.020150076810342917
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02193404756562958
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.023760951022904004
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.015113785784494394
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.01878720511536485
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "identity"
+      ],
+      "reference": [
+        "narrow",
+        "identity"
+      ],
+      "metric": "environment_model_max_error",
+      "paired_mean_difference": -0.01849522257640921,
+      "descriptive_seed_cluster_ci95": [
+        -0.020329172417793355,
+        -0.016632530121311967
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.01909330801422392
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.01804461202725553
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.013798233023149815
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.019368243419744042
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.014901762980983054
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.020150076810342917
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.02193404756562958
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.023760951022904004
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.015113785784494394
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.01878720511536485
+        }
+      ]
+    },
+    {
+      "scope": "span",
+      "candidate": [
+        "medium",
+        "identity"
+      ],
+      "reference": [
+        "narrow",
+        "identity"
+      ],
+      "metric": "abstraction_max_error",
+      "paired_mean_difference": 0.0,
+      "descriptive_seed_cluster_ci95": [
+        0.0,
+        0.0
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "scope": "capacity_matched_refinement",
+      "candidate": [
+        "narrow",
+        "targeted"
+      ],
+      "reference": [
+        "narrow",
+        "random_capacity"
+      ],
+      "metric": "initial_completion_error",
+      "paired_mean_difference": -0.00023923908662269624,
+      "descriptive_seed_cluster_ci95": [
+        -0.0003600926385502287,
+        -0.00011179684320271487
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": 3.367450475144906e-05
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.0001567049534023419
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.0003392626028537224
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": 4.364651306289156e-05
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -1.568506970970549e-05
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.00033691819442416016
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.0002688173654766345
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.0005928562475185153
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.00042037367075192127
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.0003390937799043023
+        }
+      ]
+    },
+    {
+      "scope": "capacity_matched_refinement",
+      "candidate": [
+        "narrow",
+        "targeted"
+      ],
+      "reference": [
+        "narrow",
+        "random_capacity"
+      ],
+      "metric": "total_prediction_max_error",
+      "paired_mean_difference": -0.0074529438804536805,
+      "descriptive_seed_cluster_ci95": [
+        -0.008306409124383206,
+        -0.006448583406262678
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.007937022508365777
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.007785830735602799
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.008268987088420957
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.005109627702614567
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.009136599913706437
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.008926338849336442
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.004470482276839079
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.008411299632729189
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.008190508564899905
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.006292741532021654
+        }
+      ]
+    },
+    {
+      "scope": "capacity_matched_refinement",
+      "candidate": [
+        "narrow",
+        "targeted"
+      ],
+      "reference": [
+        "narrow",
+        "random_capacity"
+      ],
+      "metric": "environment_model_max_error",
+      "paired_mean_difference": 0.0,
+      "descriptive_seed_cluster_ci95": [
+        0.0,
+        0.0
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "scope": "capacity_matched_refinement",
+      "candidate": [
+        "narrow",
+        "targeted"
+      ],
+      "reference": [
+        "narrow",
+        "random_capacity"
+      ],
+      "metric": "abstraction_max_error",
+      "paired_mean_difference": -0.0420202445250845,
+      "descriptive_seed_cluster_ci95": [
+        -0.04416856050736061,
+        -0.03982852815103225
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.047319931981755416
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.04177067665106958
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.047120794002252595
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.04134464439518996
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.040573094876163875
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.044167420694830574
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.035279648402762286
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.04284072922649563
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.03844521842380631
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.04134028659651875
+        }
+      ]
+    },
+    {
+      "scope": "capacity_matched_refinement",
+      "candidate": [
+        "medium",
+        "targeted"
+      ],
+      "reference": [
+        "medium",
+        "random_capacity"
+      ],
+      "metric": "initial_completion_error",
+      "paired_mean_difference": -0.0002985238395820036,
+      "descriptive_seed_cluster_ci95": [
+        -0.0004994806047995357,
+        -0.00011513542258998651
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.00025159445580870724
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -6.287120840000072e-05
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.0002451647007927047
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": 0.00016135147121749935
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": 7.2045035629096645e-06
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.0008624168710302506
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.000318920593186938
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.0008131563092786704
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.00038906668327813484
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.00021060354882503792
+        }
+      ]
+    },
+    {
+      "scope": "capacity_matched_refinement",
+      "candidate": [
+        "medium",
+        "targeted"
+      ],
+      "reference": [
+        "medium",
+        "random_capacity"
+      ],
+      "metric": "total_prediction_max_error",
+      "paired_mean_difference": -0.012137429596716699,
+      "descriptive_seed_cluster_ci95": [
+        -0.013528933534335395,
+        -0.010662995576181352
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.012460838382828502
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.012688771954895154
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.012603746779184829
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.00860152845850954
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.011782222622178993
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.016144045838956473
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.00834496119397518
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.01413005825791646
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.014133436595216214
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.010484685883505632
+        }
+      ]
+    },
+    {
+      "scope": "capacity_matched_refinement",
+      "candidate": [
+        "medium",
+        "targeted"
+      ],
+      "reference": [
+        "medium",
+        "random_capacity"
+      ],
+      "metric": "environment_model_max_error",
+      "paired_mean_difference": 0.0,
+      "descriptive_seed_cluster_ci95": [
+        0.0,
+        0.0
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "scope": "capacity_matched_refinement",
+      "candidate": [
+        "medium",
+        "targeted"
+      ],
+      "reference": [
+        "medium",
+        "random_capacity"
+      ],
+      "metric": "abstraction_max_error",
+      "paired_mean_difference": -0.05101869386077952,
+      "descriptive_seed_cluster_ci95": [
+        -0.05367856768528897,
+        -0.04834824649978801
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.05625439839387439
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.05089648585255183
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.050570691050462635
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.04677990847673908
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.04836060260013671
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.054080772523964475
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.04383156663667325
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.057865153029552356
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.05468754759462306
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.04685981244921743
+        }
+      ]
+    },
+    {
+      "scope": "capacity_matched_refinement",
+      "candidate": [
+        "broad",
+        "targeted"
+      ],
+      "reference": [
+        "broad",
+        "random_capacity"
+      ],
+      "metric": "initial_completion_error",
+      "paired_mean_difference": -0.0006383552987939944,
+      "descriptive_seed_cluster_ci95": [
+        -0.0009062824114524455,
+        -0.0003553778542740938
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.0007576282518073333
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 1.5093795981938977e-05
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.0003669247314315446
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.00044099699037032473
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": 4.1162591984778184e-05
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.0011470520255314172
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.0010898641558870084
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.001268316330918236
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.000825211512814777
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.0005438153771460196
+        }
+      ]
+    },
+    {
+      "scope": "capacity_matched_refinement",
+      "candidate": [
+        "broad",
+        "targeted"
+      ],
+      "reference": [
+        "broad",
+        "random_capacity"
+      ],
+      "metric": "total_prediction_max_error",
+      "paired_mean_difference": -0.018346529211795144,
+      "descriptive_seed_cluster_ci95": [
+        -0.019780331361802864,
+        -0.016845506368330685
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.020665072346360735
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.017961534167336417
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.017518233561085877
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.01667192065896557
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.01771895772672615
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.020932604136400315
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.01409989127935011
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.020624623318252475
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.021673642499977427
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.015598812423496356
+        }
+      ]
+    },
+    {
+      "scope": "capacity_matched_refinement",
+      "candidate": [
+        "broad",
+        "targeted"
+      ],
+      "reference": [
+        "broad",
+        "random_capacity"
+      ],
+      "metric": "environment_model_max_error",
+      "paired_mean_difference": 0.0,
+      "descriptive_seed_cluster_ci95": [
+        0.0,
+        0.0
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": 0.0
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": 0.0
+        }
+      ]
+    },
+    {
+      "scope": "capacity_matched_refinement",
+      "candidate": [
+        "broad",
+        "targeted"
+      ],
+      "reference": [
+        "broad",
+        "random_capacity"
+      ],
+      "metric": "abstraction_max_error",
+      "paired_mean_difference": -0.05613009917956814,
+      "descriptive_seed_cluster_ci95": [
+        -0.058586318187260726,
+        -0.05369282503907891
+      ],
+      "seed_effects": [
+        {
+          "seed": 40000,
+          "paired_worlds": 30,
+          "difference": -0.0575719239110494
+        },
+        {
+          "seed": 40001,
+          "paired_worlds": 30,
+          "difference": -0.056827194484791205
+        },
+        {
+          "seed": 40002,
+          "paired_worlds": 30,
+          "difference": -0.05557879331307976
+        },
+        {
+          "seed": 40003,
+          "paired_worlds": 30,
+          "difference": -0.05288264010459439
+        },
+        {
+          "seed": 40004,
+          "paired_worlds": 30,
+          "difference": -0.05538911104174609
+        },
+        {
+          "seed": 40005,
+          "paired_worlds": 30,
+          "difference": -0.06245242451993953
+        },
+        {
+          "seed": 40006,
+          "paired_worlds": 30,
+          "difference": -0.049104974992953965
+        },
+        {
+          "seed": 40007,
+          "paired_worlds": 30,
+          "difference": -0.06285874727471343
+        },
+        {
+          "seed": 40008,
+          "paired_worlds": 30,
+          "difference": -0.05563824245299033
+        },
+        {
+          "seed": 40009,
+          "paired_worlds": 30,
+          "difference": -0.05299693969982335
+        }
+      ]
+    }
+  ],
+  "negative_control_max_mean_prediction_error": 4.753142324176451e-16,
+  "certificates_replayed": 19200,
+  "scope": "Conditional exploratory summaries for the frozen generator and fixed heldout catalogue; limited-cluster bootstrap intervals are descriptive, not confirmatory or distribution-free. Cross-span targeted comparisons can change capacity; identity isolates environment-learning error. Within-span targeted/random comparisons match capacity. No human inference.",
+  "analysis_source_digest": "4baf4ad60c79b8baac10474dbeb1d2a4424b5894a97e70446513dfc3ad6f40ab",
+  "campaign_manifest_sha256": "1bfde5274eb6c2b6f006343576872b0f447f768e6546c9198fb0aae222d9d6cd",
+  "audit_manifest_sha256": "3d2356297634137c96b0a33b4d9c7f5054bd39c438cab13c7d65bd887c8cb7cd",
+  "root": "/artifacts/environment-diversity-a750f43e1a3a284a/analysis-4baf4ad60c79b8ba"
+}

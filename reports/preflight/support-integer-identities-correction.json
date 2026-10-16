@@ -1,0 +1,14 @@
+{
+  "status": "verified_local_correction",
+  "change": "Preserve integer cell/environment keys and use separate structured cell/user fields, avoiding signed/uint64 float promotion",
+  "old_source_sha256": "f8f971046d834d76d55bad21bce6108cad90c76d3dc3961b2b19f9b11446ddf7",
+  "new_source_sha256": "44e47c481b1657066c9c59958c1394d4b0632470c122dd59b04f7632ebcb2eca",
+  "before_fix": "Accepted uint64 environment or user inputs raised TypeError in bincount after float64 promotion. Large unsigned user identities require exact grouping.",
+  "recorded_pipeline_types": {
+    "cloud/prepare_27k.py": "Nonbinary source columns, including user_id, are encoded as pa.int64",
+    "randomized_cohort.exposure_environment": "Environment codes are constructed using tab.astype(np.int16) and int8 duration groups"
+  },
+  "compatibility": "Synthetic signed-int64 users and int16 environments match the original function exactly at four cohort sizes, and direct Python-set counting verifies distinct-user cells. UINT64 identities near 2**64 stay distinct.",
+  "frozen_source_matches_cloud_archive_and_all_four_final_human_maps": true,
+  "scope": "No original support tables, model weights, forecasts or scientific conclusions changed. No human inference rerun."
+}

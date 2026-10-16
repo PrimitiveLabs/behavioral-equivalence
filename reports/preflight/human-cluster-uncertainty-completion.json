@@ -1,0 +1,558 @@
+{
+  "status": "complete",
+  "source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+  "records": [
+    {
+      "status": "complete",
+      "source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "parent": {
+        "root": "human-calendar-training-v3-8c2afe99bb75/fits/unseen_users-gru-20261017/quantization-eaa699cb5987-ce6fcc8529ea/calibrated-parent-40c80c043abe",
+        "report_sha256": "6bf87a4a92b2ccdb4fda5fd98b19e1d645f1ad39220b55ed27bc613ec4be5117",
+        "protocol": "unseen_users",
+        "seed": 20261017
+      },
+      "users": 2542,
+      "maximum_observed_origins_per_user": 64,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.9215694362225633,
+          "vacuous_emission_rows": 12
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.9843952970761044,
+          "vacuous_emission_rows": 28
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 64
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 128
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "output_sha256": {
+        "k16-intervals.npz": "8d8d5fa0f9258c77b9c17374633165e5022c3a569d7ebd59a78ea516bacff507",
+        "k16-certificate.json": "466acccf65fbe24a32df66ff6229f13ca8ab00c3ccfc42a890cd8d47f1835854",
+        "k32-intervals.npz": "c52d1c224d7d0395aba2fb9c02c973adad33c1b6827a9e252668d739efa7c255",
+        "k32-certificate.json": "1f7c75bfe9adf6e3076b878f0e044cc1d8b007593ce88e558c2dacd9e81a305a",
+        "k64-intervals.npz": "7c792d29b836c6de308cdc0f4c2590f77920163cf08bc0c12a9b3bba99a5b6d2",
+        "k64-certificate.json": "a5daac05a6ed6aff5ca9bf78c05e6e98d08c256bbcf34e6c10c7a61cd8d8f76f",
+        "k128-intervals.npz": "6769dd0edfdeeb412631fc75e32495a6756455581e6fd5d72e062eb36fe91d8a",
+        "k128-certificate.json": "785dacd0b93c3df3a15cd455bdeb9e7f3dd8dee413744550d069b287e47f8cf2",
+        "k256-intervals.npz": "312e282c1007eaa68ed7cc86bab776f63e90cb46128019f4175f7729cb42d7d3",
+        "k256-certificate.json": "c18cacc6ea96f86a69e689e6030b6ef3077be6efff9d57191d8a6b1e6b12be47"
+      },
+      "root": "/artifacts/human-cluster-uncertainty-65cd0d180d0f9089/unseen_users-20261017",
+      "human_multistep_coverage_established": false,
+      "final_test_access": false,
+      "scope": "Conditional pooled count model uncertainty, not teacher emissions or human Markov coverage"
+    },
+    {
+      "status": "complete",
+      "source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "parent": {
+        "root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261019/quantization-eaa699cb5987-609765ef318f/calibrated-parent-40c80c043abe",
+        "report_sha256": "d07c462750f7b9e83081732ceea92b8d18223c91748a5b5f91d0dcf5d7644a8b",
+        "protocol": "known_users",
+        "seed": 20261019
+      },
+      "users": 25522,
+      "maximum_observed_origins_per_user": 64,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.7608013544909358,
+          "vacuous_emission_rows": 7
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.8886611346687339,
+          "vacuous_emission_rows": 23
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 0.971484904327917,
+          "vacuous_emission_rows": 55
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 0.9983901841803806,
+          "vacuous_emission_rows": 124
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "output_sha256": {
+        "k16-intervals.npz": "2cb79135376dd98a2f944662d6536695e057e555fe6d2b6946f2d757977f4162",
+        "k16-certificate.json": "fdc20322d2ae6c12a831c43359c450618c6acf6bb2f1b6082cc4216dd9aa7dd2",
+        "k32-intervals.npz": "3b7873125dc908abc8905ace592f5fe48c6beef336ca2edaf6a8c554fc64c4b8",
+        "k32-certificate.json": "889b3e44ec5881e5ace97e286ffeffb0bf0ab4d6713ebf7ee55419825b1c1296",
+        "k64-intervals.npz": "fb790dbe20a377af0595f56687ff6d608c1825be7ff4223f6fdb96acf5bc704d",
+        "k64-certificate.json": "48db3720558cf498883073ef4e9854331078d7c04ebcbb8c8dbd630e485ef292",
+        "k128-intervals.npz": "30f3884fd9f0a478853090430a4f07c4d11d8d8f227d231d3c22140a0d65cd18",
+        "k128-certificate.json": "2b90bb15a2ec7a9f244cac16b99766556dedd6c59b9e3493dade3d7ab926d995",
+        "k256-intervals.npz": "d81ee34d57a1de48e70ea113a9c26f1d46fe26c94cb3421e54c6bd882fe94522",
+        "k256-certificate.json": "b9ad6b7cc4bd9c3e1fabe69f7685dd155147682017ad9d00da6d072172a7ddda"
+      },
+      "root": "/artifacts/human-cluster-uncertainty-65cd0d180d0f9089/known_users-20261019",
+      "human_multistep_coverage_established": false,
+      "final_test_access": false,
+      "scope": "Conditional pooled count model uncertainty, not teacher emissions or human Markov coverage"
+    },
+    {
+      "status": "complete",
+      "source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "parent": {
+        "root": "human-calendar-training-v3-8c2afe99bb75/fits/unseen_users-gru-20261015/quantization-eaa699cb5987-8686ccebfe7c/calibrated-parent-40c80c043abe",
+        "report_sha256": "464a463eae192809e1c033fa9283f292bea5b8e872167f1a7af94718be907eb9",
+        "protocol": "unseen_users",
+        "seed": 20261015
+      },
+      "users": 2542,
+      "maximum_observed_origins_per_user": 64,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.9346793619987943,
+          "vacuous_emission_rows": 13
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.9984962506914694,
+          "vacuous_emission_rows": 30
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 64
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 128
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "output_sha256": {
+        "k16-intervals.npz": "c325f39ed9b96b1111e0f79de82bb5c814c67ca4d45de64ae5420a3e7f60bdab",
+        "k16-certificate.json": "56e6031586726f06c9aadb09ab3c3bf5a3414dbb0cf4485dddd3cd26f2cac966",
+        "k32-intervals.npz": "b3fb2657203defb1549ae302c34264010ccdf97c2a66a1c1c6d2f210b47f62cd",
+        "k32-certificate.json": "fcee3dc27e01a169df4dc55b15fbe0b78b5d62c2ccb76cb6cdad591fcd02bd99",
+        "k64-intervals.npz": "0b08a346e9a4769ede38124fec9c938780a7932c43c9c5f8937d6c7746d89061",
+        "k64-certificate.json": "a5daac05a6ed6aff5ca9bf78c05e6e98d08c256bbcf34e6c10c7a61cd8d8f76f",
+        "k128-intervals.npz": "390db32467a5347d8d87d2f0d4338ff2d2b7f4bdf5d6ac480f4c901d1f1ca58f",
+        "k128-certificate.json": "785dacd0b93c3df3a15cd455bdeb9e7f3dd8dee413744550d069b287e47f8cf2",
+        "k256-intervals.npz": "138aae298d4c59a40f5dde36ccba357ca82257c14f0d1d3c2777a077d25e43f7",
+        "k256-certificate.json": "c18cacc6ea96f86a69e689e6030b6ef3077be6efff9d57191d8a6b1e6b12be47"
+      },
+      "root": "/artifacts/human-cluster-uncertainty-65cd0d180d0f9089/unseen_users-20261015",
+      "human_multistep_coverage_established": false,
+      "final_test_access": false,
+      "scope": "Conditional pooled count model uncertainty, not teacher emissions or human Markov coverage"
+    },
+    {
+      "status": "complete",
+      "source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "parent": {
+        "root": "human-calendar-training-v4-replicates-609ecd456db7/fits/unseen_users-gru-20261019/quantization-eaa699cb5987-d48741d614ab/calibrated-parent-40c80c043abe",
+        "report_sha256": "4cd4a676cf51a3392669abe1a0fd3bbf46b4de98afa2127f153752f9c3d6c721",
+        "protocol": "unseen_users",
+        "seed": 20261019
+      },
+      "users": 2542,
+      "maximum_observed_origins_per_user": 64,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.9304831529922197,
+          "vacuous_emission_rows": 13
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.9928762288508293,
+          "vacuous_emission_rows": 29
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 64
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 128
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "output_sha256": {
+        "k16-intervals.npz": "a731504296dad1004afef33379071832977e6ac5d65c4131aef755ec105cdaf9",
+        "k16-certificate.json": "ed562a735e6a453830ca3f26735402dedeca2e93c6af4f606e09a52a94a4f9c3",
+        "k32-intervals.npz": "ca137ad462017283ba9896bd8ebae27c41caa920088f1a6d1de99e9780aceb95",
+        "k32-certificate.json": "e82f085dd54a4bfc2444ea8a960ee25e3c4288e3e7be78d954e12809960e5ca1",
+        "k64-intervals.npz": "7211b60db4cfffbdb1d53e0547469cc6ba1aaa6bf357b6d677febd4ea827a202",
+        "k64-certificate.json": "f55bb52637753a6a7b946f37b113f416f37fb560cd3ffcba8082145598bcdb29",
+        "k128-intervals.npz": "c77c03ed987255549a37afe04024e242102b21bcc678ba660d08eb899808e8b0",
+        "k128-certificate.json": "785dacd0b93c3df3a15cd455bdeb9e7f3dd8dee413744550d069b287e47f8cf2",
+        "k256-intervals.npz": "59fd5ba07876b3509a2ccb1d4f4c0e8d85203825b63f18b418be51369e99e3e5",
+        "k256-certificate.json": "c18cacc6ea96f86a69e689e6030b6ef3077be6efff9d57191d8a6b1e6b12be47"
+      },
+      "root": "/artifacts/human-cluster-uncertainty-65cd0d180d0f9089/unseen_users-20261019",
+      "human_multistep_coverage_established": false,
+      "final_test_access": false,
+      "scope": "Conditional pooled count model uncertainty, not teacher emissions or human Markov coverage"
+    },
+    {
+      "status": "complete",
+      "source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "parent": {
+        "root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261016/quantization-eaa699cb5987-1031ff8239ca/calibrated-parent-c0c628bb9aaf",
+        "report_sha256": "52b7977af908fda880992e565f02eb6b63354e8c85aca834df98ba8439e56e1c",
+        "protocol": "known_users",
+        "seed": 20261016
+      },
+      "users": 25522,
+      "maximum_observed_origins_per_user": 64,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.7320139431420423,
+          "vacuous_emission_rows": 8
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.8806455087692588,
+          "vacuous_emission_rows": 23
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 0.9595412383147959,
+          "vacuous_emission_rows": 53
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 0.997488808993862,
+          "vacuous_emission_rows": 122
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "output_sha256": {
+        "k16-intervals.npz": "8a2634e15228f87531c231b845c0522d67a7ce4c4e7073c782dda3e12d7f6788",
+        "k16-certificate.json": "ac433fa4c4b6ed62ee9e2e2265b6e3d26ff62b08f0cc2dab2235c34048e5feec",
+        "k32-intervals.npz": "db50064b11f9aaf0c735e6358e2b19df3086aec6c76751ae55a1b95e0930d795",
+        "k32-certificate.json": "0bc210cd7cd00544cf0fb362222293aa347facd563dafe69bd88ab0d22ee10fa",
+        "k64-intervals.npz": "97ee24bc4519905ae2ac299737bce3ed7186fe8e369f8d92b14c952cdb775948",
+        "k64-certificate.json": "770f1639ad6209e3a4ffb41c7436739c47cad58f9ec4c500fb7e7ec14fc73e15",
+        "k128-intervals.npz": "7ed07e7734e8aeaa54cec3ebf17d9b003cfdd015c239356a79231961982cbbd6",
+        "k128-certificate.json": "9f8f38c3d52a3a6fa38eda35140d8cee6d3a50f21cabab7b4f518a426b952c3d",
+        "k256-intervals.npz": "ef5236fd1947195e36fdcbae9089123f7ffad785a352b42eb9352a0f8bb0a16e",
+        "k256-certificate.json": "b9ad6b7cc4bd9c3e1fabe69f7685dd155147682017ad9d00da6d072172a7ddda"
+      },
+      "root": "/artifacts/human-cluster-uncertainty-65cd0d180d0f9089/known_users-20261016",
+      "human_multistep_coverage_established": false,
+      "final_test_access": false,
+      "scope": "Conditional pooled count model uncertainty, not teacher emissions or human Markov coverage"
+    },
+    {
+      "status": "complete",
+      "source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "parent": {
+        "root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261017/quantization-eaa699cb5987-3fc604fcb0d7/calibrated-parent-c0c628bb9aaf",
+        "report_sha256": "c7c7081570483b6ed851bc9d744239470619e838790d462553cfa3b96f7f3bb8",
+        "protocol": "known_users",
+        "seed": 20261017
+      },
+      "users": 25522,
+      "maximum_observed_origins_per_user": 64,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.7226422146773908,
+          "vacuous_emission_rows": 8
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.8847598022368566,
+          "vacuous_emission_rows": 21
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 0.9681527009035761,
+          "vacuous_emission_rows": 53
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 0.9992076294969192,
+          "vacuous_emission_rows": 125
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "output_sha256": {
+        "k16-intervals.npz": "de511e82f2ce8ae7d1a273efdb7ae13a6dc463ddbf3f57784f9c2e081185391b",
+        "k16-certificate.json": "2bf439b4096a934478b66a17bacb6a6fb78cc03c9ba8d540b883a6b3e40d307e",
+        "k32-intervals.npz": "a3bb21a9c14a46ea6663d6d76940d85cef67de3b60aad965b82697cd8c333eed",
+        "k32-certificate.json": "16118cade6ca73dd823768ea6a625200bcb53249f6cdcf21f922454370171890",
+        "k64-intervals.npz": "d85fda5e86087f0570b333329fb6355d8445f6e2484c0d24a141d9ef5bf6967b",
+        "k64-certificate.json": "1148910c12acbfd1065e8cc3928128de3b5e10b195158994fcc3f211297bb219",
+        "k128-intervals.npz": "01879eca824145b1eb4b2289a3aa030650420242b20d0d394e1cf52d40860b67",
+        "k128-certificate.json": "03262c0ff98e0e397b59fddebc30804b169d1f1d6c1ea1a49f89e1461babfe8b",
+        "k256-intervals.npz": "0c9c98e31fbfb552ebb3e07ddc4b77418faf0086c1683e35d4f0bcb8ae38daa4",
+        "k256-certificate.json": "b9ad6b7cc4bd9c3e1fabe69f7685dd155147682017ad9d00da6d072172a7ddda"
+      },
+      "root": "/artifacts/human-cluster-uncertainty-65cd0d180d0f9089/known_users-20261017",
+      "human_multistep_coverage_established": false,
+      "final_test_access": false,
+      "scope": "Conditional pooled count model uncertainty, not teacher emissions or human Markov coverage"
+    },
+    {
+      "status": "complete",
+      "source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "parent": {
+        "root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261018/quantization-eaa699cb5987-6472527fcb5f/calibrated-parent-40c80c043abe",
+        "report_sha256": "5d3f5b2cc71b8db5afddd4cca721755f8f134f5666b2d77bab9a7da5b6f966f7",
+        "protocol": "known_users",
+        "seed": 20261018
+      },
+      "users": 25522,
+      "maximum_observed_origins_per_user": 64,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.7414764835608223,
+          "vacuous_emission_rows": 9
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.8967768083482586,
+          "vacuous_emission_rows": 23
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 0.9623967370574048,
+          "vacuous_emission_rows": 54
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 0.9971928690604954,
+          "vacuous_emission_rows": 125
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "output_sha256": {
+        "k16-intervals.npz": "fe9c691c386b351612df6e9ad5d2b6d9986dab76ad4c42671f4be102e9dcb72a",
+        "k16-certificate.json": "f6ef3a8e098b83a1aec42aecf8279614ee06e52e0c1fc4913a52839e8b6ca0ba",
+        "k32-intervals.npz": "e59eaa57b5b0db5e320f0476ac40c3343d22bd1c178f03e31f9463cf9bead0f2",
+        "k32-certificate.json": "c63df5fb37bf01b38805a7c52171ffe90fecdfa896c239a2e826ed31ca753d88",
+        "k64-intervals.npz": "05d0bb4090fe0ed30712dd1126723f87dafcf4e5ac59a04c8ab0cbb7456b1354",
+        "k64-certificate.json": "4d51369c07124e385db2ff1e63e3840f41bf10f594abfe91658cc6624403ae0e",
+        "k128-intervals.npz": "ca2f7e87059fc7aa764ef87604e518020731664cf92f4dff5ef9b7086a4bf403",
+        "k128-certificate.json": "66eeb9afb2691210da6eec23d783de2959ee23ad8330a9094b12508ec07e2a7d",
+        "k256-intervals.npz": "919c7537d72f518acf4418d0a59f8f34d057aaf9abb8d7ee1ee8f9e192bd0d9a",
+        "k256-certificate.json": "b9ad6b7cc4bd9c3e1fabe69f7685dd155147682017ad9d00da6d072172a7ddda"
+      },
+      "root": "/artifacts/human-cluster-uncertainty-65cd0d180d0f9089/known_users-20261018",
+      "human_multistep_coverage_established": false,
+      "final_test_access": false,
+      "scope": "Conditional pooled count model uncertainty, not teacher emissions or human Markov coverage"
+    },
+    {
+      "status": "complete",
+      "source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "parent": {
+        "root": "human-calendar-training-v4-replicates-609ecd456db7/fits/unseen_users-gru-20261018/quantization-eaa699cb5987-1bc4681e655d/calibrated-parent-40c80c043abe",
+        "report_sha256": "1f7cd4d57b7c81ef8905a4d8d01e7d1aacbfbd6f30f49d9e7f5470f06e5f97d4",
+        "protocol": "unseen_users",
+        "seed": 20261018
+      },
+      "users": 2542,
+      "maximum_observed_origins_per_user": 64,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.9248501655438046,
+          "vacuous_emission_rows": 12
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.9889088240010435,
+          "vacuous_emission_rows": 28
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 64
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 128
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "output_sha256": {
+        "k16-intervals.npz": "9232c8052ae78110308a8853ce8cc3c4d8862738dba37eb79bfecbd1e3ddc9f1",
+        "k16-certificate.json": "307e9b7402c0c9d9000d98bfc3650ac28768627c012fe16010d51c3db30497f3",
+        "k32-intervals.npz": "322b482437693214ce3e7b2bdec5b3a2592307870573001a242c1ac3bb67d956",
+        "k32-certificate.json": "2623f2e72e852808c7155929e3b1491024e524780131f5b80ced69c3f421abfe",
+        "k64-intervals.npz": "7caab9159f8900342b994ac7954b8b59b36f9581746529aa8c1c74e7187c28a3",
+        "k64-certificate.json": "a5daac05a6ed6aff5ca9bf78c05e6e98d08c256bbcf34e6c10c7a61cd8d8f76f",
+        "k128-intervals.npz": "cd338852e0b93161d82812d5be781b0973567c4e3a78c456526441c21efdee74",
+        "k128-certificate.json": "785dacd0b93c3df3a15cd455bdeb9e7f3dd8dee413744550d069b287e47f8cf2",
+        "k256-intervals.npz": "57e90019039aaa4fac6f8397ebac8babd9e744f4549ed2517a3d9609cd15ff5f",
+        "k256-certificate.json": "c18cacc6ea96f86a69e689e6030b6ef3077be6efff9d57191d8a6b1e6b12be47"
+      },
+      "root": "/artifacts/human-cluster-uncertainty-65cd0d180d0f9089/unseen_users-20261018",
+      "human_multistep_coverage_established": false,
+      "final_test_access": false,
+      "scope": "Conditional pooled count model uncertainty, not teacher emissions or human Markov coverage"
+    },
+    {
+      "status": "complete",
+      "source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "parent": {
+        "root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/quantization-eaa699cb5987-25046fd0a2d3/calibrated-parent-c0c628bb9aaf",
+        "report_sha256": "1b7b53c94d372c20bd8da8f32de0a7ad0542e6a74798efd572598a50c5cfb8cb",
+        "protocol": "known_users",
+        "seed": 20261015
+      },
+      "users": 25522,
+      "maximum_observed_origins_per_user": 64,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.749114695766329,
+          "vacuous_emission_rows": 6
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.9062842201867387,
+          "vacuous_emission_rows": 25
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 0.9630524327390482,
+          "vacuous_emission_rows": 53
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 0.9976103198139717,
+          "vacuous_emission_rows": 122
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "output_sha256": {
+        "k16-intervals.npz": "bd55eae3b2075e432ca14233276dcac40eb48a66b05006751e1a4abf6dbf82cd",
+        "k16-certificate.json": "52fbbb05911104db023318d5a3f1ddb549578524f22ee4fbb22207727de3d4b5",
+        "k32-intervals.npz": "9463a25e107c957a89a8ee0cdbf9cacedc73a6811e6d79dbba9918b134fccb84",
+        "k32-certificate.json": "507b9781f691cf4237e697395ac424d0f05f7c8911cdc4096c74f6c220362b91",
+        "k64-intervals.npz": "a6327ec89794388456f26ed605900725fe46ac695444ac9cd65f9aa64fbdf100",
+        "k64-certificate.json": "123887370da84f94bf8de2cffbb022909b1e4ca706bee30b093fb33d085bf084",
+        "k128-intervals.npz": "f98da3c32838c672b683eb2433fbd2d88e1bb0d8d984f4c9ca44cd7d99b25ec9",
+        "k128-certificate.json": "4885c7a11031eee5941624fdb971475203d589df7796312cfb685e5183610651",
+        "k256-intervals.npz": "68e451bb277d271e88a9c91890ed0203bc4c8302565e34aa4167229871f12e63",
+        "k256-certificate.json": "b9ad6b7cc4bd9c3e1fabe69f7685dd155147682017ad9d00da6d072172a7ddda"
+      },
+      "root": "/artifacts/human-cluster-uncertainty-65cd0d180d0f9089/known_users-20261015",
+      "human_multistep_coverage_established": false,
+      "final_test_access": false,
+      "scope": "Conditional pooled count model uncertainty, not teacher emissions or human Markov coverage"
+    },
+    {
+      "status": "complete",
+      "source_digest": "65cd0d180d0f9089aff95ba88a3e6dbcd962561ec131a9de87200b060de26c1c",
+      "parent": {
+        "root": "human-calendar-training-v3-8c2afe99bb75/fits/unseen_users-gru-20261016/quantization-eaa699cb5987-a60a6bb52860/calibrated-parent-40c80c043abe",
+        "report_sha256": "a424deb31151d1afb8f4132cb091994917bd43516b0c777d50daffacdc4298f6",
+        "protocol": "unseen_users",
+        "seed": 20261016
+      },
+      "users": 2542,
+      "maximum_observed_origins_per_user": 64,
+      "models": [
+        {
+          "states": 16,
+          "mean_emission_width": 0.9340950408821,
+          "vacuous_emission_rows": 13
+        },
+        {
+          "states": 32,
+          "mean_emission_width": 0.9906154800169138,
+          "vacuous_emission_rows": 30
+        },
+        {
+          "states": 64,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 64
+        },
+        {
+          "states": 128,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 128
+        },
+        {
+          "states": 256,
+          "mean_emission_width": 1.0,
+          "vacuous_emission_rows": 256
+        }
+      ],
+      "output_sha256": {
+        "k16-intervals.npz": "f9e44db7baa72139e9374390fd139e694958566600e348389f890d12140dc9e4",
+        "k16-certificate.json": "e60362fe24b46eaff2177a4dfbbff1ef7ab9b658ff1fb169224427f0d88a4486",
+        "k32-intervals.npz": "40841e34bf6bd1120016915575e9069f4544be16a7209d30ddae0c0cac7b6157",
+        "k32-certificate.json": "76fad5471883a807cab0249c425657e2002b36c8fbb6d4c66e039c668f96e52d",
+        "k64-intervals.npz": "e876099c8786401480ef4aa33d2298e918a1be7ee2e82d7c3cbafa46faa549a3",
+        "k64-certificate.json": "a5daac05a6ed6aff5ca9bf78c05e6e98d08c256bbcf34e6c10c7a61cd8d8f76f",
+        "k128-intervals.npz": "fb2cfe20832d06161de306bc90a71e16465913535f7ca584c2be2e58c87fc011",
+        "k128-certificate.json": "785dacd0b93c3df3a15cd455bdeb9e7f3dd8dee413744550d069b287e47f8cf2",
+        "k256-intervals.npz": "d0b09b73a290bbd527955181a67f146cceaeb0c1543ace7acbf626c449313cca",
+        "k256-certificate.json": "c18cacc6ea96f86a69e689e6030b6ef3077be6efff9d57191d8a6b1e6b12be47"
+      },
+      "root": "/artifacts/human-cluster-uncertainty-65cd0d180d0f9089/unseen_users-20261016",
+      "human_multistep_coverage_established": false,
+      "final_test_access": false,
+      "scope": "Conditional pooled count model uncertainty, not teacher emissions or human Markov coverage"
+    }
+  ],
+  "root": "/artifacts/human-cluster-uncertainty-65cd0d180d0f9089",
+  "wall_seconds": 281.045521347
+}

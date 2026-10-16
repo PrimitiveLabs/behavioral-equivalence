@@ -1,0 +1,62 @@
+{
+  "status": "partial",
+  "measured_figures_available": 4,
+  "required_core_figures": 6,
+  "figures": [
+    {
+      "figure": 1,
+      "status": "measured and visually checked",
+      "artifact": "figure-01/figure01-5fcd76d2f800/figure-01-abstraction.pdf",
+      "evidence": {
+        "figure-01/figure01-5fcd76d2f800/manifest.json": "461cc313c8626bca9631deeb7adae0025b0e2b0ba9925b8d0fe9188342668664",
+        "figure-01/figure01-5fcd76d2f800/caption.md": "2c41a7f310df033e56acadcf7fa877e85df5e3dadfdc13801e84f3b7000a6277",
+        "figure-01/figure01-5fcd76d2f800/visual-qa.json": "3e0015507996e6aa1d8fb1677929b2caaabd51b6b6c6d068d1ed415c7a100841",
+        "figure-01/figure01-5fcd76d2f800/figure-01-abstraction.pdf": "e8336c345a010eb547d1d5580bbb740e2f2d25f1aa7a1d39fc2dea4dadc8ee53"
+      }
+    },
+    {
+      "figure": 2,
+      "status": "pending",
+      "artifact": null
+    },
+    {
+      "figure": 3,
+      "status": "measured and visually checked",
+      "artifact": "figure-03/figure03-4018f31e66d7/figure-03-preservation.pdf",
+      "evidence": {
+        "figure-03/figure03-4018f31e66d7/manifest.json": "3ba8eccfaac171c745d7355d7326bd82dd67e680a1c2ce9f4f86f29000e29550",
+        "figure-03/figure03-4018f31e66d7/caption.md": "8c1f7f3034747736835ab0bd29b89ce52d004f7d1d73c3dc6459a94db6513f58",
+        "figure-03/figure03-4018f31e66d7/visual-qa.json": "44679bd43d53b0351082db62aaf3d59913d10e52807eabd9c1e0fcc03537d446",
+        "figure-03/figure03-4018f31e66d7/figure-03-preservation.pdf": "3f15ef902a5c87473bc1f74c9593e6f76bb4f818f5609b8c2f899792329e93b8"
+      }
+    },
+    {
+      "figure": 4,
+      "status": "measured and visually checked",
+      "artifact": "figure-04/figure04-da567fa770d4/figure-04-uncertainty.pdf",
+      "evidence": {
+        "figure-04/figure04-da567fa770d4/manifest.json": "771618f0e8ead1ce0e2ba4e3014ea7aef5b62c47584fb3d4fcc82a31ab2288e9",
+        "figure-04/figure04-da567fa770d4/caption.md": "2122e05d8665499d51da5cd4cca4f2c13c366e67c3eaa058735fe16c59eb925e",
+        "figure-04/figure04-da567fa770d4/visual-qa.json": "92310ad9838fe66e5bd39a54e0329c0a55897d0e74702b0c7d0a0f4c2984ae9c",
+        "figure-04/figure04-da567fa770d4/figure-04-uncertainty.pdf": "537bf6269325550a2ade5c8e43551ca444da27dc8fa092a45fb8044619555c5e"
+      }
+    },
+    {
+      "figure": 5,
+      "status": "measured and visually checked",
+      "artifact": "figure-05/figure05-a1131dd6a645/figure-05-interventions.pdf",
+      "evidence": {
+        "figure-05/figure05-a1131dd6a645/manifest.json": "40b01da3b6a41c62a35e2e6b11658e2ed8d874ebd8b96602e26406b24d3a0661",
+        "figure-05/figure05-a1131dd6a645/caption.md": "65e697a88cab4d07fa29fc837ac6a9564b42f0f7218ae5c6d1528bd86b263225",
+        "figure-05/figure05-a1131dd6a645/visual-qa.json": "831f5932abdf9185977eb1df2880b05c705d0fc98ab67eaafcdbe3a8a1bcc56d",
+        "figure-05/figure05-a1131dd6a645/figure-05-interventions.pdf": "c1f569b11d43c70063cf9ea71d7b67780ec559b4306e2af639bd22bcde74fedd"
+      }
+    },
+    {
+      "figure": 6,
+      "status": "pending",
+      "artifact": null
+    }
+  ],
+  "scope": "Figures 01, 03, 04 and 05 contain measured synthetic results and visual checks. Figures 02 and 06 and final human predictive/intervention confirmation remain pending."
+}

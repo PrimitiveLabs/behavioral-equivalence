@@ -1,0 +1,10 @@
+{
+  "status": "corrected_provenance_index",
+  "observed_at": "2026-10-16T09:21:24.386161+00:00",
+  "old_manifest_sha256": "0aed2c1d9d912e80e3e07b426365f7361366aa12919abb02b140262b85691af3",
+  "old_manifest_preserved": "reports/source-snapshots/historical-source-manifest-0aed2c1d9d912e80.json",
+  "new_manifest_sha256": "d0bad15eacbccc3b5fd1b7209939ca2a97588d32ec6aacada802502759203cfc",
+  "source_archive_sha256": "ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12",
+  "verified_source_entries": 490,
+  "scope": "Generated working-copy manifest lagged the validated source archive. Copied exact archive manifest, verified every declared source entry against current bytes and refreshed only its D9 reference. No executable source, test result, scientific output or validated archive changed."
+}

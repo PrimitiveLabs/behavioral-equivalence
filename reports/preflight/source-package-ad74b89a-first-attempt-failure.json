@@ -1,0 +1,8 @@
+{
+  "status": "failed_checker_source_mount",
+  "observed_at": "2026-10-16T09:16:37.621809+00:00",
+  "function_call_id": "fc-01M51ZWGW0M1GPEMT2V56VRMS0",
+  "source_bundle_sha256": "ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12",
+  "failure": "FileNotFoundError while reading checker __file__ for report provenance; detached import launcher omitted original checker source file mount. No result or test success inferred.",
+  "restart_policy": "Original handle terminal via returned remote exception; preserve it and reserve a separate transport-corrected attempt."
+}

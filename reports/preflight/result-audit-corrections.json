@@ -1,0 +1,25 @@
+{
+  "status": "verified_local_corrections",
+  "corrections": [
+    {
+      "module": "tools/state_sufficiency.py",
+      "old_sha256": "92edc229331bf921fbbc1a21a843ce1a9e9721a3ef4d6af8a7bf51d1cafbf193",
+      "new_sha256": "b7b33904690c0aedebc28a57a7ee7812aceac60b735fc2b06852de9f6440d819",
+      "original_source_matches_cloud_archive": true,
+      "matching_frozen_source_maps": [],
+      "fixture": "data/synthetic/fixtures/release/state-sufficiency-integer-identities-v1.json"
+    },
+    {
+      "module": "tools/supplementary_result_audit.py",
+      "old_sha256": "8700a523480c98f4d69a36bd8819e37c4cb9eb441be9eb83cb7771445ce5fb12",
+      "new_sha256": "e6be06ee8613d8bd8fd5de2c0489e60e485e8067e0d8e54b705aaea0ff0976dd",
+      "original_source_matches_cloud_archive": true,
+      "matching_frozen_source_maps": [
+        "reports/source-snapshots/supplementary-output-audit-b13ad5a974bf901f.json"
+      ],
+      "fixture": "data/synthetic/fixtures/release/supplementary-calibration-finite-v1.json"
+    }
+  ],
+  "scope": "Large integer identity grouping and nonfinite calibration rejection; no original human forecasts, records or metrics changed",
+  "signed_domain_compatibility_test": "tests/test_result_audit_boundaries.py"
+}

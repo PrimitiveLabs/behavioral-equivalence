@@ -1,0 +1,4571 @@
+{
+  "observed_at": "2026-10-16T07:40:59.176287+00:00",
+  "start": "2026-10-14T00:00:00Z",
+  "end": "2026-10-16T07:40:58.313991Z",
+  "scope": "Whole-workspace metered query filtered after retrieval by research app prefix or persisted known research app identity, avoiding recent-app inventory truncation. Unrelated rows not persisted.",
+  "app_ids": [
+    "ap-03ZrD4Nt4029cv2x4Rrz1Q",
+    "ap-09XzmNpE1a8WIz1PQbHb4B",
+    "ap-0FU3HGk7Y7SdyPWlKHYXsD",
+    "ap-0FjpB3MEBHjUAh6hZd6yUf",
+    "ap-0JuiWPtaA9Cjli9d9ykvv8",
+    "ap-0aEOxISnJEoe2zlPB0q8P6",
+    "ap-0jqWvUwoML5R1lKLTtgZ9D",
+    "ap-0k5lP5l6w85rpGAUHqJNqW",
+    "ap-0l6VLibOaGjLhup7Vi2LIm",
+    "ap-0lToCxfUWewwhg8WuiG1GW",
+    "ap-0nPQ33y38wLLUaVPkctWqj",
+    "ap-0ps13xmf85Iw05APAWAfsE",
+    "ap-0tOmKIB7pI0nsXEF12cJdm",
+    "ap-0zCj8bnXIKpUvbjJ5Y6hId",
+    "ap-18BCvTHNIhtEf1bgRnSuDY",
+    "ap-1LvlknAAmIW9WbLJfmXwYp",
+    "ap-1OVNiNupLLOAcUBkwgoYsZ",
+    "ap-1h3o5yygQuEgkffY0NrcVq",
+    "ap-1onpRd8TilywcZxQiF9nYw",
+    "ap-1rHg7mmdTPl5ma8QMcIxlB",
+    "ap-2BLzIX751HB5b2HZMcBJXO",
+    "ap-2IVmQosGbqss6J55ER6GGC",
+    "ap-2KNSmCGQwDVDp7KaBlwI6o",
+    "ap-2XT6QnMGw35BkN5dOcX5MR",
+    "ap-34wyopelrfB38LgALBOU7R",
+    "ap-3DUDVzHfh7fYVtv4mliyv2",
+    "ap-3WaUUhuLlql8kWSaIx70uQ",
+    "ap-3clou45kg38VSLaCZheHKs",
+    "ap-3rrkikhjBs2VFOubTZgr32",
+    "ap-4GlyhbZx49VFtqxvN3Sqjy",
+    "ap-4SPKLf1qAMolSImihftYZd",
+    "ap-4WNH82EoFnH01PZw00ZqiJ",
+    "ap-4jikoTO0MxxuJp3wfiwkJ7",
+    "ap-4lQAxBUk6YMKKuwvSJHP1I",
+    "ap-4ym9zOlRBneFPmRnoWh2zv",
+    "ap-5HemoFDYQfmNSjZLiDPPLq",
+    "ap-5YF234vdlDZhCoxLnprAsS",
+    "ap-5cRAA2ZjTGdSDrHxEgCP8h",
+    "ap-5mgVErSqgsRgk8PZ7rStdZ",
+    "ap-5mw9rTkIHU4ZxHfGRuX1BQ",
+    "ap-6EpKlkUTbB9CeGHYUeiuLa",
+    "ap-6OJ085XiTAaVAcm6CIaz4H",
+    "ap-6dWK6CN0OEXZWNWl6Koej4",
+    "ap-6lCckBbrOqD0WnmzrQlhXQ",
+    "ap-7ACU2QwHJlUOnqfhVY21PX",
+    "ap-7ZHIaCfVlqfh2qSi5wK3wN",
+    "ap-7a3d4I3rt6caMHU2ZghQQF",
+    "ap-868HuOqTUb7MKyfFJssHGr",
+    "ap-88dSaHTwik6wCgvnAjvm3I",
+    "ap-8LFbEDK29lLsKrEGhScuCo",
+    "ap-8P9ThvcRx5nOPuJOxYCKx2",
+    "ap-8atjDTO4lke9PWiK5zBhNM",
+    "ap-8wcOAe3EPt14npeBLqpNPl",
+    "ap-8zgPnvyoMiHkT6oNCkB6pN",
+    "ap-93R7wEcaYYprj75aWelRYM",
+    "ap-95LTbzsWSYJLz4YTN6WdVf",
+    "ap-9G4mmPDRoO8SaEVEEcNxQP",
+    "ap-9Gm6DNIIbajthCJV22AaHQ",
+    "ap-9KnBQHfP8XUnKRPCtGzt7H",
+    "ap-9RU6dmEBor0Ew4q1TczZQD",
+    "ap-A3783hioyueNkmzYah4SB5",
+    "ap-A9r5TL2IlTkxAfmGsUHrpI",
+    "ap-ANRVf3CFeT2UhvhA6qvl4v",
+    "ap-AajyqJmpcVimewUQ7MPkau",
+    "ap-AjdNi5wHGMK9wqKgXz72U2",
+    "ap-AsKO4pXJ7QikNTWoqq2gea",
+    "ap-B23PTJVzcfS3LRqZNRcUJ6",
+    "ap-B3CXQxmo4h5Wti55viTbQY",
+    "ap-B863ZHHsU4jSxNP6PT6JCe",
+    "ap-B8vXyWIdxL0MXGNID6J1Zj",
+    "ap-BKhvej8npoKupirrPVkcGV",
+    "ap-CAVA969Wgx9aqBTgGFTau1",
+    "ap-CGNTORpcI1cBe3uNbaACuu",
+    "ap-CKzKpMK1hxNIiotBzRZ7Zv",
+    "ap-CUKaGOSLylMh2AZE2gRDp3",
+    "ap-CVIv2DoNaB3PeLMKvi9irH",
+    "ap-CrGJw4ICR1igURDRseL4d6",
+    "ap-D33eNH2Fth2SbzJL3dObqA",
+    "ap-DGEcmeBJFT2vigZVmcBsiF",
+    "ap-DW51QWP1GQA0l532x7X8Fr",
+    "ap-Dc83lotjDXlwf3rPVAiBrP",
+    "ap-DcSfhDWIJglKgx2p8ciOAH",
+    "ap-Dukn5aF7mx9RaoVOTabFh9",
+    "ap-E2gqlxFKLO1bvmrBrLjRRL",
+    "ap-EN2e3bN85e43awfMVlAVQd",
+    "ap-EUkvo3WYf4o5UYLc7zIZCn",
+    "ap-EksdJHDoN0Tdkf4tqLEu0n",
+    "ap-EsgyJZVH1sRaq8VmRBDSGl",
+    "ap-EvwbFyN1lQRHEMHzqp5m36",
+    "ap-F6HqGzfMLBTSdpK1FV18IN",
+    "ap-FEsVo9XCJT32I3oCMxFJiA",
+    "ap-FF9Oax501YPhgWvKuvbRiQ",
+    "ap-FGMTM9i9KyYqlmWQwsaGCR",
+    "ap-FS4mruYH3r2adHEJRBsVAW",
+    "ap-GH7VYP1btKirRcneRfgHmQ",
+    "ap-GHyLOtGLHRn5PDzrfQbXXl",
+    "ap-GJQGXaPFOl8Ww9vwMa8ZRx",
+    "ap-GQeC8K90aZiKo8fPT5wPgi",
+    "ap-GQwwE06IP9yBOAwTKc85Zn",
+    "ap-Gcluq5HtEUe3Pb6it9UtWZ",
+    "ap-GfchJlEcJBUBuxtOfI07WJ",
+    "ap-GvjdvSKq8MGcXgaLFKWoq0",
+    "ap-H1p6ZE4D0CBOMuXNC0rZ65",
+    "ap-HQMnVAfOocsnRwFr6Khzx6",
+    "ap-HYw5AZlIgvLZ0NPuoAqmtZ",
+    "ap-HZ6u7oaTyAx1Xyh9kO3ux5",
+    "ap-HZcQ2Od8YXuLDeJ6ozTG4w",
+    "ap-ILuQVy5K4mkp9prpOctWii",
+    "ap-INawsNvwo0TRRWKfe9hH73",
+    "ap-IXVYoxsNHrFP5neXVKFsX5",
+    "ap-IgYXfOTTJl65zrJLIdCsEn",
+    "ap-IlKFAx2u96uwkedYWemaxo",
+    "ap-IuEez23vntT1d89flGeRNj",
+    "ap-IxjZY4ZWnCASycHQJXcu3K",
+    "ap-Iy9zGEIN4tVMPlGCVJlFie",
+    "ap-JP5b3vcUqRuPt23VLVg2mo",
+    "ap-Jz9JdEP7qcnt4TnjkYDnoz",
+    "ap-K1QITay7TyhNC1Krxi6HMl",
+    "ap-K6mFaGmgX9VBdMT8VYdW6s",
+    "ap-KCgdN4Tna41ahGeov6JT6D",
+    "ap-KKVpMkwREQUdcbjfT6h30w",
+    "ap-KOsaWP7BJer0OFQUkEkC20",
+    "ap-KZPd4XDKdLlt3cd76eLEXV",
+    "ap-KoDmXA94h8xlnJXd2i9FyG",
+    "ap-KoN9K6PzozSBitgkBcRet2",
+    "ap-Kt0UBxaKqHEfmPR8CKy7y7",
+    "ap-LKhDEpZ7vDqznJOHfal6pc",
+    "ap-LPn4Y3e7maq3YZalbdaRS0",
+    "ap-Lbp4Y3I7L2PHJahPYzmfTn",
+    "ap-Li2G6umYCPa9rEpOLqzmHU",
+    "ap-M962GLEXHDtrsxZzrTxwxq",
+    "ap-MB1aUzQBbjzwZkTvMIlkhZ",
+    "ap-MGqhgUZZK0JjHom0xmbYud",
+    "ap-MY8PglQMA97RcfsIEwodG2",
+    "ap-Me630LIE7OgiqW5rVfx11B",
+    "ap-MlpmaA75ieEnpLwXziVB9j",
+    "ap-N7D1u5eC8Uihs9Sa0XvBUL",
+    "ap-NDuxiNWELYplskDFMqhs3j",
+    "ap-NV3FeBl3tvtYC8rQriIJ5A",
+    "ap-NbKTp9NYfOEeDkkLb17LBk",
+    "ap-NohH2yazNFWBIbB6q5Bnxv",
+    "ap-NtKpJddQEJSX8AupBiPvAq",
+    "ap-O1vsR9zP4c3CyeCdfibAct",
+    "ap-O37KkVg3wEUc6Ci39UgnYY",
+    "ap-Oj4vB4ADyv9GFJaWBU6a4q",
+    "ap-OkIZXQWhgbFyhbcRJkUgg4",
+    "ap-OnqbasDSSCwWT7VbguhBpc",
+    "ap-OwGnQp53uzbtTJi8yAcApD",
+    "ap-POGndAYFUs6Y25CVZNqUiw",
+    "ap-PQvWeskHH3uQry0EWuZSTD",
+    "ap-PUEEkYNtNuQqWibBs2Sf5E",
+    "ap-PVXVOycEfHUB3keMrx216p",
+    "ap-PXAJw6arIRUCs734FFSuZY",
+    "ap-PmT8qdM3SutX3LgiCbN7hQ",
+    "ap-PwDX98pqF3Yzm4IP1PJihN",
+    "ap-Q7lyMuFP11gyb5EKyuQNJd",
+    "ap-QGMduX7rgRZfEoSQKfIDoQ",
+    "ap-QNs6Va4KQfuLnCSX5F97SI",
+    "ap-QgPG2DFUhCeExFtcM66CIy",
+    "ap-QmLIcF8pQYMRjQrLLJav0c",
+    "ap-Qp3UoyPxOnLqUuTzoiKMBa",
+    "ap-QxVzD1bz2jeMPOQtyXfxiK",
+    "ap-RBE0hpX7T1h9rtV87I2G2i",
+    "ap-RIQT1bIXaKLNKrnadkkOyg",
+    "ap-RcszWjN5zrm8RzSUTtFjXZ",
+    "ap-Rsp2Z48DjWwYKOO1r2s5fv",
+    "ap-SBB6jC4tC5Rn0lYgRPpPUW",
+    "ap-SXJe0SGweW74fmACSvhIVm",
+    "ap-SnNdd3C7R95GXrkWD3pfly",
+    "ap-SqV1fjgCa7adrQBIHUmS8D",
+    "ap-TotTYQxTW98HJSKH8KNdHM",
+    "ap-UE22M5uDzTMVjf9rQ0EcUE",
+    "ap-UIDe5qGXUbIVsd4OzkVfKQ",
+    "ap-UMABx3fS3Z0Ps2GNMFHFvV",
+    "ap-VIK7S2cF7kZp9SKij5zAtz",
+    "ap-VKrQy03Gx2kKqG3rstHrx1",
+    "ap-VOz2opwbpZkDCMoicrTJFp",
+    "ap-VPAc6kZdHW9fGKoyu9H6zG",
+    "ap-VahJYa1c3bsqXKUaLof48b",
+    "ap-Vk3jfxrlMrBKsoZ6sGV8l7",
+    "ap-W2wPJS2v5s974ZxBO9Qrfc",
+    "ap-WQydxlI0V4TYxfad5QtIuc",
+    "ap-WXxQZLwjMJsajwQymd2aNa",
+    "ap-WkJaQAXSxDVdq7yZQSvz0I",
+    "ap-Wr5SlHZ1kx6qGTdkcKbMtw",
+    "ap-XDOmahXN7tcElmiTrzK3oY",
+    "ap-XsqjkSVevwIycu203ILHUh",
+    "ap-Y1GIrKZXa1WrraERazlVRi",
+    "ap-Y4xrjV7FsJBtvOjecYR5sM",
+    "ap-YOPGCN8kgSfEYC2rWg5oOg",
+    "ap-Ypf0wzHk5h5dcmv3onZWpM",
+    "ap-Z1rdj0gLp2ch3m5VyyazFJ",
+    "ap-ZDoNpkNaQmEcx4lUzpGD52",
+    "ap-ZKRYHtTsDH6snLMx9pOwv9",
+    "ap-ZKaWlCmeItZotHT3rQwgCi",
+    "ap-Zeesp2jcHxK0kemb1p2BQe",
+    "ap-Zh5whpNIR583oxyZGpfgc8",
+    "ap-ZhUDwEQLDvL3NRCPp9OLjy",
+    "ap-ZnevfDBntg4LH4TC4B3BDv",
+    "ap-Zqdx0Db4CE4n2PtkcjNNP5",
+    "ap-a0KRq1Xi9BCYLSVF1doJyD",
+    "ap-a6i6g16Ro4efbtyoxSP0fn",
+    "ap-a7hYNHgCvXoRo0DqvTGiyl",
+    "ap-arAGVowNCAUBmM9cRdOpah",
+    "ap-auveLk1kzdVUq4hqxXgmGt",
+    "ap-aylXCaPqrXOtMswyn8BGqB",
+    "ap-bPSuZkifxKmzgF0MyKIKcn",
+    "ap-bYxJ6L31owVsc8MvmTUz36",
+    "ap-baFnGdbMnhoZSV67fMkGXP",
+    "ap-bbGM5ifcHgPNi6ltPuRkr5",
+    "ap-bsgUuRhBP5mq4icsJ7NDwx",
+    "ap-cDEgAotumGiRaiXbd59Ajy",
+    "ap-cJA2VODtzAJD6n1OTkwguu",
+    "ap-cJxEYPCff7je49EAPyohsn",
+    "ap-cLsJPjHF8inTJui3robBpH",
+    "ap-cyOZuL7HYu7huI7bVHRrCI",
+    "ap-dCTUQ6nM7EHRNQehKuN1Bv",
+    "ap-dF6LuG3ZwjgomqcXhhZeiN",
+    "ap-dRGCLUs8fiYCAM4H3U4pFH",
+    "ap-dXy6stWnKTMv1UmiGjTVAO",
+    "ap-dtrimgLWmHfRC0ZQF100Ph",
+    "ap-e4HCzIzqAWpaY1FMJqJfPU",
+    "ap-eGYETuDE7M2QYMrtDDfOC3",
+    "ap-eifnR8k8nNNU2fWzVvcQgG",
+    "ap-eqBxhNwx90mA34fwB10hg9",
+    "ap-expF8XvWKE2gvpEsblrPhs",
+    "ap-fDD0EqaimDzkJE1xHnxWSN",
+    "ap-fMHUwu4eHV9giyD6HYuSc0",
+    "ap-fSzkOofu3ZTjIBIXHOKfKp",
+    "ap-fbUGiVhYP1fV91rdlORqwj",
+    "ap-fjD5HwGRVcPacpZCAaJftG",
+    "ap-fk0Z0v8onxK824Q9wTyG1r",
+    "ap-fnhhWnnaz0AwjXFV3YsOIs",
+    "ap-fxQmBztChIRaWKqDFmnUxC",
+    "ap-g4LZYhcRgTxcVppM7bGkr0",
+    "ap-gAfWU2XXcrj6wTX23X3Zdt",
+    "ap-gYQCYTbUOdZlKXL5IjaFXu",
+    "ap-gclir3pHyHiU7Q5I3bKSBH",
+    "ap-hQ2ZiT7eN0aDMqZOPEQ96U",
+    "ap-hlTMsijvLgl4Hch5IGMC9C",
+    "ap-hoxcWT684a1hubOh9iyWj0",
+    "ap-hpUEXNaCrLxzl3bPfAdLzs",
+    "ap-hpfxDUN4dbqnLqfEkO3yJV",
+    "ap-iDOwWbZwqdvgvoRMJe6ZT2",
+    "ap-iHLbG7zQAjpGkPn0BwJI8D",
+    "ap-iNKrtUapdCNqGeDyD7tKp9",
+    "ap-iiXhrXliPlnHKtkT2Y3Hs7",
+    "ap-iqh5zso1hqLB2sR5ImFD5K",
+    "ap-jR0WkL1GpXdVVotU7s67FB",
+    "ap-jePC6y76MTVbgIRp45xbG2",
+    "ap-jrJgKOVMX7lnvGWBfoFGEt",
+    "ap-k85HxWPVFnIJC1wPF6DNE1",
+    "ap-kCXjDj69qCU0UxhZvHv1lE",
+    "ap-kIctTuMgPpEwmPi3YAoxu7",
+    "ap-l05Wn5PzL7HM7soUKFDoOU",
+    "ap-lEEl5vDM5wCGosFgeMhnK1",
+    "ap-lGDBSpt15XwyjNOwZ95g4j",
+    "ap-lGR3kNMZ6oOk60i4PGQUP7",
+    "ap-lts5DJTqlMV6B8yUEKBMh3",
+    "ap-mJlNIkUH9pHHEvaWqecA3b",
+    "ap-mNlQtLPFtP9LuxGrkQdkJO",
+    "ap-mSfAunatDKUYDhftW494PI",
+    "ap-mhmg6r11ubqjjkCXR6j8yI",
+    "ap-mkIXVHGqXJ0QamHD8pIpTT",
+    "ap-mnzEQ38vVKtl3NVGdtZkYz",
+    "ap-nbfFzL9IsRKJQFjlTKcwWD",
+    "ap-nlWdFj4C3Gw4iU53Vfzcdf",
+    "ap-o1S9kGqm8jiYwe0rwZrOVn",
+    "ap-o9U3s1zozSLWC311C48FC8",
+    "ap-oTwDVtKghO7S40JO1qIfIY",
+    "ap-ok7Doi3jKIDo8Ew5jl8YV6",
+    "ap-oshbXI9Kx2Ym0nMb4XbZG2",
+    "ap-p94ok9musZTMh4NbhEd9za",
+    "ap-pAVLgx1YYdtcQkHOhiSz7T",
+    "ap-pB4xJ5FKwg5OxcabD5K8fl",
+    "ap-pJaPFwe9wRKPm0nbaFJ4wF",
+    "ap-q8nqGFIqsPAt1rs6eFeR9h",
+    "ap-qIZuoR01qZtPxiO6FjMwpn",
+    "ap-qUpmul7naFi4eBsFNDNG1d",
+    "ap-qYv5Q8vDfJhKrARhKp7IzR",
+    "ap-qbx3Qy5meT8sz4ypInNbZE",
+    "ap-qn3C7uszJVUWJCG4usDllk",
+    "ap-r7H0tRzyoWe2L5hKxw70n1",
+    "ap-rXAlXDmLNtxDulHRSN6rWP",
+    "ap-re1tbQjBcMPIa0TNS7vbyi",
+    "ap-sHH5wpqWeqt3y3eLqYxzfi",
+    "ap-sNpcaAMrNKUKY4nGjVLN5p",
+    "ap-suGgvSlDBQsPN2Bn8QOxah",
+    "ap-t1ug1wd7fFUFnu8UgG39WT",
+    "ap-tPaDihM0xThprV050W6WU5",
+    "ap-tQYmbByVALej61pA7suHoP",
+    "ap-twlqQt3qc4hJ5EACFWCvgT",
+    "ap-txDMGLbU8cyFTevLXA6Cib",
+    "ap-u6MarBXsbq7D9H3AkGCUIz",
+    "ap-uBRUUhDhHBFsGOdpCnjrx1",
+    "ap-uDtWVgjeTGybzpVdR1rw8Z",
+    "ap-uG2Ox4XCyNf4DhrRAnQzZh",
+    "ap-udYyFpDPsmXcmKJjopdBif",
+    "ap-ujOpcOgmYG4ckKInoiE7nh",
+    "ap-v5v9H86CMA3Jp5aL4UKjiP",
+    "ap-vBtfU2oJDkqUxuIGY11qjj",
+    "ap-vVUS05JulBRWdCcjrhA9ad",
+    "ap-viRnygxbQPHPi7wJfdGqph",
+    "ap-w5p7MesWh6a62nGN6I9WoL",
+    "ap-wOpXH8Y6IMLmFsciF3Kjer",
+    "ap-wYZHocZ86xyOiRvYWDE2Mj",
+    "ap-weeRSyqNzKWsyqkAqHcIgy",
+    "ap-wvOCIx1dz46qgwFnuODwNt",
+    "ap-wyJr27CKmCffCKdzL42I65",
+    "ap-xTIOlHrXaVaAJM2ByWIA1O",
+    "ap-xbFcRYlS7lTPMGZBe2YBvx",
+    "ap-xhEqy1HKTMaTGwmcL5MFUS",
+    "ap-xvq2i2zpqaKnZyJawsaQEr",
+    "ap-y0yQbbQkVfjfr8GQPkmeqH",
+    "ap-y7S10VsZlPIj3974ja80YH",
+    "ap-yCD8nCLgVxFvSD6l0LGmtH",
+    "ap-yQnL6nBuTNQDRtnNBSbG7b",
+    "ap-yTFe3kYNHhFd20FdkcBFe9",
+    "ap-ydPa0T1DkeIjoQ5iBPdUR9",
+    "ap-yl7BLyhS9kPZFvMHjpWZxq",
+    "ap-yn68zP0VShbByryUnreSTh",
+    "ap-z706IlkCD3zjiZkOqRH2er",
+    "ap-zAing0D1rGN1GGufJ9hjwf",
+    "ap-zIIdK21Y8oIMrJMU9fPs47",
+    "ap-zN4f8fUtqotOuCcL0q6FrT",
+    "ap-zT5GSkQD1oUJ0fN9MU47RC",
+    "ap-zn6tyjYnliI2ReoQw564yN",
+    "ap-zpTkL7yj0hd0wg8JiGl6NF"
+  ],
+  "rows": [
+    {
+      "object_id": "ap-03ZrD4Nt4029cv2x4Rrz1Q",
+      "description": "behavioral-equivalence-calibrated-parent-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.02609209",
+      "cost_by_resource": {
+        "Memory": "0.00528002",
+        "CPU": "0.02081207"
+      }
+    },
+    {
+      "object_id": "ap-03ZrD4Nt4029cv2x4Rrz1Q",
+      "description": "behavioral-equivalence-calibrated-parent-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.00026347",
+      "cost_by_resource": {
+        "Memory": "0.00005332",
+        "CPU": "0.00021016"
+      }
+    },
+    {
+      "object_id": "ap-09XzmNpE1a8WIz1PQbHb4B",
+      "description": "behavioral-equivalence-heldout-response-precision-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00711551",
+      "cost_by_resource": {
+        "Memory": "0.00143990",
+        "CPU": "0.00567561"
+      }
+    },
+    {
+      "object_id": "ap-0FU3HGk7Y7SdyPWlKHYXsD",
+      "description": "behavioral-equivalence-resolution-support-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.01159638",
+      "cost_by_resource": {
+        "Memory": "0.00234665",
+        "CPU": "0.00924972"
+      }
+    },
+    {
+      "object_id": "ap-0FjpB3MEBHjUAh6hZd6yUf",
+      "description": "behavioral-equivalence-calendar-quantization-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.06641596",
+      "cost_by_resource": {
+        "Memory": "0.01343999",
+        "CPU": "0.05297596"
+      }
+    },
+    {
+      "object_id": "ap-0JuiWPtaA9Cjli9d9ykvv8",
+      "description": "behavioral-equivalence-uncertainty-summary-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.02064532",
+      "cost_by_resource": {
+        "Memory": "0.00298666",
+        "CPU": "0.01765866"
+      }
+    },
+    {
+      "object_id": "ap-0aEOxISnJEoe2zlPB0q8P6",
+      "description": "behavioral-equivalence-adjacent-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.00970153",
+      "cost_by_resource": {
+        "Memory": "0.00382669",
+        "Network Egress": "0.00002799",
+        "CPU": "0.00584685"
+      }
+    },
+    {
+      "object_id": "ap-0jqWvUwoML5R1lKLTtgZ9D",
+      "description": "behavioral-equivalence-final-human-output-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.00794766",
+      "cost_by_resource": {
+        "Memory": "0.00200889",
+        "CPU": "0.00593877"
+      }
+    },
+    {
+      "object_id": "ap-0k5lP5l6w85rpGAUHqJNqW",
+      "description": "behavioral-equivalence-random-response-calibration-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00263551",
+      "cost_by_resource": {
+        "Memory": "0.00053332",
+        "CPU": "0.00210218"
+      }
+    },
+    {
+      "object_id": "ap-0l6VLibOaGjLhup7Vi2LIm",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00632619",
+      "cost_by_resource": {
+        "Memory": "0.00128001",
+        "CPU": "0.00504618"
+      }
+    },
+    {
+      "object_id": "ap-0lToCxfUWewwhg8WuiG1GW",
+      "description": "behavioral-equivalence-uncertainty-pilot-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00015328",
+      "cost_by_resource": {
+        "Memory": "0.00003722",
+        "Network Egress": "0.00000108",
+        "CPU": "0.00011497"
+      }
+    },
+    {
+      "object_id": "ap-0nPQ33y38wLLUaVPkctWqj",
+      "description": "behavioral-equivalence-history-states-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.01159646",
+      "cost_by_resource": {
+        "Memory": "0.00234667",
+        "CPU": "0.00924979"
+      }
+    },
+    {
+      "object_id": "ap-0ps13xmf85Iw05APAWAfsE",
+      "description": "behavioral-equivalence-trajectory-sequences-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.00680418",
+      "cost_by_resource": {
+        "Memory": "0.00270556",
+        "Network Egress": "0.00000412",
+        "CPU": "0.00409451"
+      }
+    },
+    {
+      "object_id": "ap-0tOmKIB7pI0nsXEF12cJdm",
+      "description": "behavioral-equivalence-randomized-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.01134462",
+      "cost_by_resource": {
+        "Memory": "0.00448000",
+        "Network Egress": "0.00003240",
+        "CPU": "0.00683222"
+      }
+    },
+    {
+      "object_id": "ap-0zCj8bnXIKpUvbjJ5Y6hId",
+      "description": "behavioral-equivalence-human-final-horizons-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.02635555",
+      "cost_by_resource": {
+        "Memory": "0.00533333",
+        "CPU": "0.02102222"
+      }
+    },
+    {
+      "object_id": "ap-18BCvTHNIhtEf1bgRnSuDY",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00909438",
+      "cost_by_resource": {
+        "Memory": "0.00183987",
+        "CPU": "0.00725452"
+      }
+    },
+    {
+      "object_id": "ap-1LvlknAAmIW9WbLJfmXwYp",
+      "description": "behavioral-equivalence-synthetic-main-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T16:00:00Z",
+      "cost": "0.00272502",
+      "cost_by_resource": {
+        "Memory": "0.00046222",
+        "Network Egress": "0.00000291",
+        "CPU": "0.00225989"
+      }
+    },
+    {
+      "object_id": "ap-1OVNiNupLLOAcUBkwgoYsZ",
+      "description": "behavioral-equivalence-human-calendar-training-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.00132165",
+      "cost_by_resource": {
+        "Memory": "0.00053333",
+        "CPU": "0.00078832"
+      }
+    },
+    {
+      "object_id": "ap-1h3o5yygQuEgkffY0NrcVq",
+      "description": "behavioral-equivalence-calibrated-parent-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.02266581",
+      "cost_by_resource": {
+        "Memory": "0.00458667",
+        "CPU": "0.01807913"
+      }
+    },
+    {
+      "object_id": "ap-1onpRd8TilywcZxQiF9nYw",
+      "description": "behavioral-equivalence-randomized-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00007033",
+      "cost_by_resource": {
+        "Memory": "0.00001778",
+        "CPU": "0.00005256"
+      }
+    },
+    {
+      "object_id": "ap-1rHg7mmdTPl5ma8QMcIxlB",
+      "description": "behavioral-equivalence-history-states-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00369014",
+      "cost_by_resource": {
+        "Memory": "0.00074668",
+        "CPU": "0.00294346"
+      }
+    },
+    {
+      "object_id": "ap-2BLzIX751HB5b2HZMcBJXO",
+      "description": "behavioral-equivalence-adjacent-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.00007033",
+      "cost_by_resource": {
+        "Memory": "0.00001778",
+        "CPU": "0.00005255"
+      }
+    },
+    {
+      "object_id": "ap-2IVmQosGbqss6J55ER6GGC",
+      "description": "behavioral-equivalence-joint-trajectories-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.00156059",
+      "cost_by_resource": {
+        "Memory": "0.00039277",
+        "Network Egress": "0.00000176",
+        "CPU": "0.00116606"
+      }
+    },
+    {
+      "object_id": "ap-2KNSmCGQwDVDp7KaBlwI6o",
+      "description": "behavioral-equivalence-human-final-horizons-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.08539208",
+      "cost_by_resource": {
+        "Memory": "0.01728002",
+        "CPU": "0.06811206"
+      }
+    },
+    {
+      "object_id": "ap-2XT6QnMGw35BkN5dOcX5MR",
+      "description": "behavioral-equivalence-human-calendar-training-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.00202992",
+      "cost_by_resource": {
+        "Memory": "0.00003667",
+        "Network Egress": "0.00009808",
+        "CPU": "0.00189518"
+      }
+    },
+    {
+      "object_id": "ap-34wyopelrfB38LgALBOU7R",
+      "description": "behavioral-equivalence-human-final-horizons-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.08355819",
+      "cost_by_resource": {
+        "Memory": "0.01690666",
+        "CPU": "0.06665153"
+      }
+    },
+    {
+      "object_id": "ap-3DUDVzHfh7fYVtv4mliyv2",
+      "description": "behavioral-equivalence-calibrated-parent-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.02003030",
+      "cost_by_resource": {
+        "Memory": "0.00405335",
+        "CPU": "0.01597695"
+      }
+    },
+    {
+      "object_id": "ap-3WaUUhuLlql8kWSaIx70uQ",
+      "description": "behavioral-equivalence-heldout-teacher-priors-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00237221",
+      "cost_by_resource": {
+        "Memory": "0.00048002",
+        "CPU": "0.00189220"
+      }
+    },
+    {
+      "object_id": "ap-3clou45kg38VSLaCZheHKs",
+      "description": "behavioral-equivalence-resolution-support-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.01054224",
+      "cost_by_resource": {
+        "Memory": "0.00213334",
+        "CPU": "0.00840890"
+      }
+    },
+    {
+      "object_id": "ap-3rrkikhjBs2VFOubTZgr32",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.08089660",
+      "cost_by_resource": {
+        "Memory": "0.01637031",
+        "CPU": "0.06452630"
+      }
+    },
+    {
+      "object_id": "ap-4GlyhbZx49VFtqxvN3Sqjy",
+      "description": "behavioral-equivalence-response-frontier-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00126600",
+      "cost_by_resource": {
+        "Memory": "0.00032000",
+        "CPU": "0.00094600"
+      }
+    },
+    {
+      "object_id": "ap-4GlyhbZx49VFtqxvN3Sqjy",
+      "description": "behavioral-equivalence-response-frontier-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.00014068",
+      "cost_by_resource": {
+        "Memory": "0.00003556",
+        "CPU": "0.00010512"
+      }
+    },
+    {
+      "object_id": "ap-4SPKLf1qAMolSImihftYZd",
+      "description": "behavioral-equivalence-heldout-response-precision-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.01080578",
+      "cost_by_resource": {
+        "Memory": "0.00218667",
+        "CPU": "0.00861912"
+      }
+    },
+    {
+      "object_id": "ap-4WNH82EoFnH01PZw00ZqiJ",
+      "description": "behavioral-equivalence-human-final-responses-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.01027864",
+      "cost_by_resource": {
+        "Memory": "0.00207999",
+        "CPU": "0.00819864"
+      }
+    },
+    {
+      "object_id": "ap-4jikoTO0MxxuJp3wfiwkJ7",
+      "description": "behavioral-equivalence-uncertainty-summary-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.01978423",
+      "cost_by_resource": {
+        "Memory": "0.00295111",
+        "Network Egress": "0.00038321",
+        "CPU": "0.01644991"
+      }
+    },
+    {
+      "object_id": "ap-4lQAxBUk6YMKKuwvSJHP1I",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00738815",
+      "cost_by_resource": {
+        "Memory": "0.00149333",
+        "CPU": "0.00589481"
+      }
+    },
+    {
+      "object_id": "ap-4ym9zOlRBneFPmRnoWh2zv",
+      "description": "behavioral-equivalence-pilot-analysis-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00003517",
+      "cost_by_resource": {
+        "Memory": "0.00000889",
+        "CPU": "0.00002628"
+      }
+    },
+    {
+      "object_id": "ap-5HemoFDYQfmNSjZLiDPPLq",
+      "description": "behavioral-equivalence-kuairand27k-preparation-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.00003072",
+      "cost_by_resource": {
+        "Memory": "0.00000444",
+        "CPU": "0.00002628"
+      }
+    },
+    {
+      "object_id": "ap-5YF234vdlDZhCoxLnprAsS",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00741803",
+      "cost_by_resource": {
+        "Memory": "0.00149820",
+        "CPU": "0.00591983"
+      }
+    },
+    {
+      "object_id": "ap-5cRAA2ZjTGdSDrHxEgCP8h",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.03558001",
+      "cost_by_resource": {
+        "Memory": "0.00720000",
+        "CPU": "0.02838001"
+      }
+    },
+    {
+      "object_id": "ap-5cRAA2ZjTGdSDrHxEgCP8h",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.06773381",
+      "cost_by_resource": {
+        "Memory": "0.01370667",
+        "CPU": "0.05402714"
+      }
+    },
+    {
+      "object_id": "ap-5mgVErSqgsRgk8PZ7rStdZ",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.08275657",
+      "cost_by_resource": {
+        "Memory": "0.01674669",
+        "CPU": "0.06600988"
+      }
+    },
+    {
+      "object_id": "ap-5mw9rTkIHU4ZxHfGRuX1BQ",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00869731",
+      "cost_by_resource": {
+        "Memory": "0.00176000",
+        "CPU": "0.00693732"
+      }
+    },
+    {
+      "object_id": "ap-6EpKlkUTbB9CeGHYUeiuLa",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.09013607",
+      "cost_by_resource": {
+        "Memory": "0.01824001",
+        "CPU": "0.07189606"
+      }
+    },
+    {
+      "object_id": "ap-6OJ085XiTAaVAcm6CIaz4H",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.04824864",
+      "cost_by_resource": {
+        "Memory": "0.01219555",
+        "CPU": "0.03605309"
+      }
+    },
+    {
+      "object_id": "ap-6OJ085XiTAaVAcm6CIaz4H",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.13349269",
+      "cost_by_resource": {
+        "Memory": "0.03374223",
+        "CPU": "0.09975046"
+      }
+    },
+    {
+      "object_id": "ap-6dWK6CN0OEXZWNWl6Koej4",
+      "description": "behavioral-equivalence-resolution-support-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00237200",
+      "cost_by_resource": {
+        "Memory": "0.00048000",
+        "CPU": "0.00189200"
+      }
+    },
+    {
+      "object_id": "ap-6lCckBbrOqD0WnmzrQlhXQ",
+      "description": "behavioral-equivalence-confirmatory-cases-27k-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.00013294",
+      "cost_by_resource": {
+        "Memory": "0.00001222",
+        "Network Egress": "0.00000536",
+        "CPU": "0.00011536"
+      }
+    },
+    {
+      "object_id": "ap-7ACU2QwHJlUOnqfhVY21PX",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.08249293",
+      "cost_by_resource": {
+        "Memory": "0.01669334",
+        "CPU": "0.06579959"
+      }
+    },
+    {
+      "object_id": "ap-7ZHIaCfVlqfh2qSi5wK3wN",
+      "description": "behavioral-equivalence-neural-component-tests-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.00262118",
+      "cost_by_resource": {
+        "Memory": "0.00020438",
+        "CPU": "0.00241680"
+      }
+    },
+    {
+      "object_id": "ap-7a3d4I3rt6caMHU2ZghQQF",
+      "description": "behavioral-equivalence-cpu-training-throughput-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.02234954",
+      "cost_by_resource": {
+        "Memory": "0.00090668",
+        "CPU": "0.02144287"
+      }
+    },
+    {
+      "object_id": "ap-868HuOqTUb7MKyfFJssHGr",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00948857",
+      "cost_by_resource": {
+        "Memory": "0.00192006",
+        "CPU": "0.00756851"
+      }
+    },
+    {
+      "object_id": "ap-88dSaHTwik6wCgvnAjvm3I",
+      "description": "behavioral-equivalence-integer-certificate-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.00481796",
+      "cost_by_resource": {
+        "Memory": "0.00119445",
+        "Network Egress": "0.00000155",
+        "CPU": "0.00362197"
+      }
+    },
+    {
+      "object_id": "ap-8LFbEDK29lLsKrEGhScuCo",
+      "description": "behavioral-equivalence-response-certificates-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.00010551",
+      "cost_by_resource": {
+        "Memory": "0.00002667",
+        "CPU": "0.00007884"
+      }
+    },
+    {
+      "object_id": "ap-8P9ThvcRx5nOPuJOxYCKx2",
+      "description": "behavioral-equivalence-human-final-horizons-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.00026165",
+      "cost_by_resource": {
+        "Memory": "0.00003785",
+        "CPU": "0.00022380"
+      }
+    },
+    {
+      "object_id": "ap-8atjDTO4lke9PWiK5zBhNM",
+      "description": "behavioral-equivalence-random-response-calibration-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00289915",
+      "cost_by_resource": {
+        "Memory": "0.00058668",
+        "CPU": "0.00231248"
+      }
+    },
+    {
+      "object_id": "ap-8wcOAe3EPt14npeBLqpNPl",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.01160239",
+      "cost_by_resource": {
+        "Memory": "0.00234667",
+        "CPU": "0.00925573"
+      }
+    },
+    {
+      "object_id": "ap-8zgPnvyoMiHkT6oNCkB6pN",
+      "description": "behavioral-equivalence-supplementary-calibration-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.01666899",
+      "cost_by_resource": {
+        "Memory": "0.00421333",
+        "CPU": "0.01245566"
+      }
+    },
+    {
+      "object_id": "ap-93R7wEcaYYprj75aWelRYM",
+      "description": "behavioral-equivalence-validation-precision-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.00023683",
+      "cost_by_resource": {
+        "Memory": "0.00004778",
+        "Network Egress": "0.00000104",
+        "CPU": "0.00018802"
+      }
+    },
+    {
+      "object_id": "ap-95LTbzsWSYJLz4YTN6WdVf",
+      "description": "behavioral-equivalence-calibrated-parent-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.00685241",
+      "cost_by_resource": {
+        "Memory": "0.00138666",
+        "CPU": "0.00546575"
+      }
+    },
+    {
+      "object_id": "ap-9G4mmPDRoO8SaEVEEcNxQP",
+      "description": "behavioral-equivalence-history-states-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00263574",
+      "cost_by_resource": {
+        "Memory": "0.00053333",
+        "CPU": "0.00210240"
+      }
+    },
+    {
+      "object_id": "ap-9Gm6DNIIbajthCJV22AaHQ",
+      "description": "behavioral-equivalence-multistep-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.01492794",
+      "cost_by_resource": {
+        "Memory": "0.00588895",
+        "Network Egress": "0.00003876",
+        "CPU": "0.00900023"
+      }
+    },
+    {
+      "object_id": "ap-9KnBQHfP8XUnKRPCtGzt7H",
+      "description": "behavioral-equivalence-data-audit-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00441231",
+      "cost_by_resource": {
+        "Memory": "0.00149334",
+        "CPU": "0.00291897"
+      }
+    },
+    {
+      "object_id": "ap-9RU6dmEBor0Ew4q1TczZQD",
+      "description": "behavioral-equivalence-human-final-responses-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.01423407",
+      "cost_by_resource": {
+        "Memory": "0.00288001",
+        "Network Egress": "0.00000200",
+        "CPU": "0.01135206"
+      }
+    },
+    {
+      "object_id": "ap-A3783hioyueNkmzYah4SB5",
+      "description": "behavioral-equivalence-calibrated-parent-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00685248",
+      "cost_by_resource": {
+        "Memory": "0.00138667",
+        "CPU": "0.00546580"
+      }
+    },
+    {
+      "object_id": "ap-A9r5TL2IlTkxAfmGsUHrpI",
+      "description": "behavioral-equivalence-prepare-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00311068",
+      "cost_by_resource": {
+        "Memory": "0.00114111",
+        "CPU": "0.00196957"
+      }
+    },
+    {
+      "object_id": "ap-ANRVf3CFeT2UhvhA6qvl4v",
+      "description": "behavioral-equivalence-repeated-evidence-replay-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.00084398",
+      "cost_by_resource": {
+        "Memory": "0.00021333",
+        "CPU": "0.00063065"
+      }
+    },
+    {
+      "object_id": "ap-AajyqJmpcVimewUQ7MPkau",
+      "description": "behavioral-equivalence-human-calendar-training-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.00563909",
+      "cost_by_resource": {
+        "Memory": "0.00227555",
+        "CPU": "0.00336354"
+      }
+    },
+    {
+      "object_id": "ap-AjdNi5wHGMK9wqKgXz72U2",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.06799747",
+      "cost_by_resource": {
+        "Memory": "0.01376003",
+        "CPU": "0.05423744"
+      }
+    },
+    {
+      "object_id": "ap-AsKO4pXJ7QikNTWoqq2gea",
+      "description": "behavioral-equivalence-case-context-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.00792283",
+      "cost_by_resource": {
+        "Memory": "0.00199278",
+        "Network Egress": "0.00003396",
+        "CPU": "0.00589609"
+      }
+    },
+    {
+      "object_id": "ap-B23PTJVzcfS3LRqZNRcUJ6",
+      "description": "behavioral-equivalence-prepare-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00701521",
+      "cost_by_resource": {
+        "Memory": "0.00259554",
+        "CPU": "0.00441967"
+      }
+    },
+    {
+      "object_id": "ap-B3CXQxmo4h5Wti55viTbQY",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.01134329",
+      "cost_by_resource": {
+        "Memory": "0.00229332",
+        "CPU": "0.00904997"
+      }
+    },
+    {
+      "object_id": "ap-B863ZHHsU4jSxNP6PT6JCe",
+      "description": "behavioral-equivalence-horizon-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T02:00:00Z",
+      "cost": "0.25031826",
+      "cost_by_resource": {
+        "Memory": "0.05100888",
+        "Network Egress": "0.00033483",
+        "CPU": "0.19897455"
+      }
+    },
+    {
+      "object_id": "ap-B8vXyWIdxL0MXGNID6J1Zj",
+      "description": "behavioral-equivalence-response-certificates-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.00010550",
+      "cost_by_resource": {
+        "Memory": "0.00002667",
+        "CPU": "0.00007883"
+      }
+    },
+    {
+      "object_id": "ap-BKhvej8npoKupirrPVkcGV",
+      "description": "behavioral-equivalence-property-compression-pilot-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.05855660",
+      "cost_by_resource": {
+        "Memory": "0.02949336",
+        "CPU": "0.02906324"
+      }
+    },
+    {
+      "object_id": "ap-CAVA969Wgx9aqBTgGFTau1",
+      "description": "behavioral-equivalence-calendar-quantization-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.03669044",
+      "cost_by_resource": {
+        "Memory": "0.00742461",
+        "Network Egress": "0.00000051",
+        "CPU": "0.02926532"
+      }
+    },
+    {
+      "object_id": "ap-CGNTORpcI1cBe3uNbaACuu",
+      "description": "behavioral-equivalence-data-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00086102",
+      "cost_by_resource": {
+        "Memory": "0.00014389",
+        "Network Egress": "0.00000325",
+        "CPU": "0.00071388"
+      }
+    },
+    {
+      "object_id": "ap-CKzKpMK1hxNIiotBzRZ7Zv",
+      "description": "behavioral-equivalence-supplementary-final-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.57207064",
+      "cost_by_resource": {
+        "Memory": "0.11509335",
+        "CPU": "0.45697729"
+      }
+    },
+    {
+      "object_id": "ap-CKzKpMK1hxNIiotBzRZ7Zv",
+      "description": "behavioral-equivalence-supplementary-final-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T06:00:00Z",
+      "cost": "0.02872746",
+      "cost_by_resource": {
+        "Memory": "0.00581331",
+        "CPU": "0.02291414"
+      }
+    },
+    {
+      "object_id": "ap-CUKaGOSLylMh2AZE2gRDp3",
+      "description": "behavioral-equivalence-heldout-response-frontiers-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00114591",
+      "cost_by_resource": {
+        "Memory": "0.00046223",
+        "CPU": "0.00068368"
+      }
+    },
+    {
+      "object_id": "ap-CVIv2DoNaB3PeLMKvi9irH",
+      "description": "behavioral-equivalence-human-calendar-training-v4-replicates",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.00273591",
+      "cost_by_resource": {
+        "Memory": "0.00021333",
+        "CPU": "0.00252258"
+      }
+    },
+    {
+      "object_id": "ap-CrGJw4ICR1igURDRseL4d6",
+      "description": "behavioral-equivalence-calendar-quantization-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.03321613",
+      "cost_by_resource": {
+        "Memory": "0.00672000",
+        "CPU": "0.02649613"
+      }
+    },
+    {
+      "object_id": "ap-D33eNH2Fth2SbzJL3dObqA",
+      "description": "behavioral-equivalence-uncertainty-repeated-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.00047535",
+      "cost_by_resource": {
+        "Memory": "0.00012000",
+        "Network Egress": "0.00000060",
+        "CPU": "0.00035475"
+      }
+    },
+    {
+      "object_id": "ap-DGEcmeBJFT2vigZVmcBsiF",
+      "description": "behavioral-equivalence-randomized-cases-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.01997884",
+      "cost_by_resource": {
+        "Memory": "0.00789340",
+        "Network Egress": "0.00005011",
+        "CPU": "0.01203532"
+      }
+    },
+    {
+      "object_id": "ap-DW51QWP1GQA0l532x7X8Fr",
+      "description": "behavioral-equivalence-response-frontier-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00003516",
+      "cost_by_resource": {
+        "Memory": "0.00000889",
+        "CPU": "0.00002628"
+      }
+    },
+    {
+      "object_id": "ap-Dc83lotjDXlwf3rPVAiBrP",
+      "description": "behavioral-equivalence-comparative-inference-validation-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.05269990",
+      "cost_by_resource": {
+        "Memory": "0.01018499",
+        "Network Egress": "0.00031143",
+        "CPU": "0.04220348"
+      }
+    },
+    {
+      "object_id": "ap-DcSfhDWIJglKgx2p8ciOAH",
+      "description": "behavioral-equivalence-resolution-support-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00004954",
+      "cost_by_resource": {
+        "Memory": "0.00001252",
+        "CPU": "0.00003702"
+      }
+    },
+    {
+      "object_id": "ap-Dukn5aF7mx9RaoVOTabFh9",
+      "description": "behavioral-equivalence-nominal-replay-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.02963060",
+      "cost_by_resource": {
+        "Memory": "0.00717777",
+        "Network Egress": "0.00123354",
+        "CPU": "0.02121928"
+      }
+    },
+    {
+      "object_id": "ap-Dukn5aF7mx9RaoVOTabFh9",
+      "description": "behavioral-equivalence-nominal-replay-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T02:00:00Z",
+      "cost": "0.14366307",
+      "cost_by_resource": {
+        "Memory": "0.03554680",
+        "Network Egress": "0.00303104",
+        "CPU": "0.10508523"
+      }
+    },
+    {
+      "object_id": "ap-E2gqlxFKLO1bvmrBrLjRRL",
+      "description": "behavioral-equivalence-calendar-quantization-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.05798225",
+      "cost_by_resource": {
+        "Memory": "0.01173334",
+        "CPU": "0.04624891"
+      }
+    },
+    {
+      "object_id": "ap-EN2e3bN85e43awfMVlAVQd",
+      "description": "behavioral-equivalence-response-frontier-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00007033",
+      "cost_by_resource": {
+        "Memory": "0.00001778",
+        "CPU": "0.00005255"
+      }
+    },
+    {
+      "object_id": "ap-EUkvo3WYf4o5UYLc7zIZCn",
+      "description": "behavioral-equivalence-finite-coupling-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00320509",
+      "cost_by_resource": {
+        "Memory": "0.00011433",
+        "Network Egress": "0.00003257",
+        "CPU": "0.00305818"
+      }
+    },
+    {
+      "object_id": "ap-EksdJHDoN0Tdkf4tqLEu0n",
+      "description": "behavioral-equivalence-random-response-calibration-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00003518",
+      "cost_by_resource": {
+        "Memory": "0.00000889",
+        "CPU": "0.00002629"
+      }
+    },
+    {
+      "object_id": "ap-EsgyJZVH1sRaq8VmRBDSGl",
+      "description": "behavioral-equivalence-nominal-replay-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00077441",
+      "cost_by_resource": {
+        "Memory": "0.00019556",
+        "Network Egress": "0.00000073",
+        "CPU": "0.00057812"
+      }
+    },
+    {
+      "object_id": "ap-EvwbFyN1lQRHEMHzqp5m36",
+      "description": "behavioral-equivalence-supplementary-output-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T06:00:00Z",
+      "cost": "0.05075199",
+      "cost_by_resource": {
+        "Memory": "0.02047999",
+        "CPU": "0.03027199"
+      }
+    },
+    {
+      "object_id": "ap-F6HqGzfMLBTSdpK1FV18IN",
+      "description": "behavioral-equivalence-supplementary-final-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.16435149",
+      "cost_by_resource": {
+        "Memory": "0.03274335",
+        "Network Egress": "0.00021227",
+        "CPU": "0.13139587"
+      }
+    },
+    {
+      "object_id": "ap-FEsVo9XCJT32I3oCMxFJiA",
+      "description": "behavioral-equivalence-history-states-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.01212364",
+      "cost_by_resource": {
+        "Memory": "0.00245335",
+        "CPU": "0.00967029"
+      }
+    },
+    {
+      "object_id": "ap-FF9Oax501YPhgWvKuvbRiQ",
+      "description": "behavioral-equivalence-kuairand27k-independent-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.05556841",
+      "cost_by_resource": {
+        "Memory": "0.02194666",
+        "Network Egress": "0.00013666",
+        "CPU": "0.03348508"
+      }
+    },
+    {
+      "object_id": "ap-FGMTM9i9KyYqlmWQwsaGCR",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00474548",
+      "cost_by_resource": {
+        "Memory": "0.00096002",
+        "CPU": "0.00378546"
+      }
+    },
+    {
+      "object_id": "ap-FS4mruYH3r2adHEJRBsVAW",
+      "description": "behavioral-equivalence-history-states-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00289919",
+      "cost_by_resource": {
+        "Memory": "0.00058668",
+        "CPU": "0.00231251"
+      }
+    },
+    {
+      "object_id": "ap-GH7VYP1btKirRcneRfgHmQ",
+      "description": "behavioral-equivalence-multistep-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.00193416",
+      "cost_by_resource": {
+        "Memory": "0.00048889",
+        "CPU": "0.00144528"
+      }
+    },
+    {
+      "object_id": "ap-GHyLOtGLHRn5PDzrfQbXXl",
+      "description": "behavioral-equivalence-kuairand27k-preparation-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.02046130",
+      "cost_by_resource": {
+        "Memory": "0.00516444",
+        "Network Egress": "0.00002949",
+        "CPU": "0.01526737"
+      }
+    },
+    {
+      "object_id": "ap-GJQGXaPFOl8Ww9vwMa8ZRx",
+      "description": "behavioral-equivalence-multistep-test-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.00086387",
+      "cost_by_resource": {
+        "Memory": "0.00032445",
+        "Network Egress": "0.00000072",
+        "CPU": "0.00053870"
+      }
+    },
+    {
+      "object_id": "ap-GQeC8K90aZiKo8fPT5wPgi",
+      "description": "behavioral-equivalence-human-final-responses-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.01403675",
+      "cost_by_resource": {
+        "Memory": "0.00284049",
+        "CPU": "0.01119626"
+      }
+    },
+    {
+      "object_id": "ap-GQwwE06IP9yBOAwTKc85Zn",
+      "description": "behavioral-equivalence-heldout-teacher-priors-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.01265056",
+      "cost_by_resource": {
+        "Memory": "0.00255998",
+        "CPU": "0.01009058"
+      }
+    },
+    {
+      "object_id": "ap-Gcluq5HtEUe3Pb6it9UtWZ",
+      "description": "behavioral-equivalence-uncertainty-repeated-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.01834928",
+      "cost_by_resource": {
+        "Memory": "0.00441777",
+        "Network Egress": "0.00087149",
+        "CPU": "0.01306002"
+      }
+    },
+    {
+      "object_id": "ap-Gcluq5HtEUe3Pb6it9UtWZ",
+      "description": "behavioral-equivalence-uncertainty-repeated-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.30819090",
+      "cost_by_resource": {
+        "Memory": "0.07618088",
+        "Network Egress": "0.00680022",
+        "CPU": "0.22520981"
+      }
+    },
+    {
+      "object_id": "ap-GfchJlEcJBUBuxtOfI07WJ",
+      "description": "behavioral-equivalence-calibrated-parent-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.02609200",
+      "cost_by_resource": {
+        "Memory": "0.00528000",
+        "CPU": "0.02081200"
+      }
+    },
+    {
+      "object_id": "ap-GvjdvSKq8MGcXgaLFKWoq0",
+      "description": "behavioral-equivalence-neural-component-tests-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.00043010",
+      "cost_by_resource": {
+        "Memory": "0.00006222",
+        "CPU": "0.00036788"
+      }
+    },
+    {
+      "object_id": "ap-H1p6ZE4D0CBOMuXNC0rZ65",
+      "description": "behavioral-equivalence-horizon-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T02:00:00Z",
+      "cost": "0.00524349",
+      "cost_by_resource": {
+        "Memory": "0.00106651",
+        "Network Egress": "0.00000142",
+        "CPU": "0.00417557"
+      }
+    },
+    {
+      "object_id": "ap-HQMnVAfOocsnRwFr6Khzx6",
+      "description": "behavioral-equivalence-item-metadata-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.00450740",
+      "cost_by_resource": {
+        "Memory": "0.00144667",
+        "Network Egress": "0.00000674",
+        "CPU": "0.00305399"
+      }
+    },
+    {
+      "object_id": "ap-HYw5AZlIgvLZ0NPuoAqmtZ",
+      "description": "behavioral-equivalence-intervention-analysis-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.15284567",
+      "cost_by_resource": {
+        "Memory": "0.03790254",
+        "Network Egress": "0.00289374",
+        "CPU": "0.11204938"
+      }
+    },
+    {
+      "object_id": "ap-HZ6u7oaTyAx1Xyh9kO3ux5",
+      "description": "behavioral-equivalence-heldout-response-precision-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00079073",
+      "cost_by_resource": {
+        "Memory": "0.00016001",
+        "CPU": "0.00063072"
+      }
+    },
+    {
+      "object_id": "ap-HZcQ2Od8YXuLDeJ6ozTG4w",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.05106197",
+      "cost_by_resource": {
+        "Memory": "0.01290666",
+        "CPU": "0.03815531"
+      }
+    },
+    {
+      "object_id": "ap-HZcQ2Od8YXuLDeJ6ozTG4w",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.10071733",
+      "cost_by_resource": {
+        "Memory": "0.02545778",
+        "CPU": "0.07525956"
+      }
+    },
+    {
+      "object_id": "ap-ILuQVy5K4mkp9prpOctWii",
+      "description": "behavioral-equivalence-random-response-calibration-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00158128",
+      "cost_by_resource": {
+        "Memory": "0.00031999",
+        "CPU": "0.00126129"
+      }
+    },
+    {
+      "object_id": "ap-INawsNvwo0TRRWKfe9hH73",
+      "description": "behavioral-equivalence-heldout-response-precision-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00474454",
+      "cost_by_resource": {
+        "Memory": "0.00096001",
+        "Network Egress": "0.00000048",
+        "CPU": "0.00378405"
+      }
+    },
+    {
+      "object_id": "ap-IXVYoxsNHrFP5neXVKFsX5",
+      "description": "behavioral-equivalence-multistep-fit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00230196",
+      "cost_by_resource": {
+        "Memory": "0.00089780",
+        "Network Egress": "0.00001140",
+        "CPU": "0.00139276"
+      }
+    },
+    {
+      "object_id": "ap-IXVYoxsNHrFP5neXVKFsX5",
+      "description": "behavioral-equivalence-multistep-fit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T02:00:00Z",
+      "cost": "0.02957035",
+      "cost_by_resource": {
+        "Memory": "0.01169508",
+        "Network Egress": "0.00006293",
+        "CPU": "0.01781234"
+      }
+    },
+    {
+      "object_id": "ap-IgYXfOTTJl65zrJLIdCsEn",
+      "description": "behavioral-equivalence-human-calendar-training-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.00000000",
+      "cost_by_resource": {
+        "Memory": "0.00000000",
+        "CPU": "0.00000000",
+        "T4": "0.00000000"
+      }
+    },
+    {
+      "object_id": "ap-IlKFAx2u96uwkedYWemaxo",
+      "description": "behavioral-equivalence-human-cluster-uncertainty-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T02:00:00Z",
+      "cost": "0.00443101",
+      "cost_by_resource": {
+        "Memory": "0.00112000",
+        "CPU": "0.00331101"
+      }
+    },
+    {
+      "object_id": "ap-IlKFAx2u96uwkedYWemaxo",
+      "description": "behavioral-equivalence-human-cluster-uncertainty-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.00555633",
+      "cost_by_resource": {
+        "Memory": "0.00140444",
+        "CPU": "0.00415189"
+      }
+    },
+    {
+      "object_id": "ap-IuEez23vntT1d89flGeRNj",
+      "description": "behavioral-equivalence-calendar-quantization-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.05904252",
+      "cost_by_resource": {
+        "Memory": "0.01194667",
+        "Network Egress": "0.00000051",
+        "CPU": "0.04709534"
+      }
+    },
+    {
+      "object_id": "ap-IxjZY4ZWnCASycHQJXcu3K",
+      "description": "behavioral-equivalence-figure03-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.00295398",
+      "cost_by_resource": {
+        "Memory": "0.00074666",
+        "CPU": "0.00220732"
+      }
+    },
+    {
+      "object_id": "ap-Iy9zGEIN4tVMPlGCVJlFie",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00501736",
+      "cost_by_resource": {
+        "Memory": "0.00101332",
+        "CPU": "0.00400405"
+      }
+    },
+    {
+      "object_id": "ap-JP5b3vcUqRuPt23VLVg2mo",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00654130",
+      "cost_by_resource": {
+        "Memory": "0.00131954",
+        "CPU": "0.00522176"
+      }
+    },
+    {
+      "object_id": "ap-Jz9JdEP7qcnt4TnjkYDnoz",
+      "description": "behavioral-equivalence-calendar-quantization-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.03109999",
+      "cost_by_resource": {
+        "Memory": "0.00629332",
+        "Network Egress": "0.00000050",
+        "CPU": "0.02480616"
+      }
+    },
+    {
+      "object_id": "ap-K1QITay7TyhNC1Krxi6HMl",
+      "description": "behavioral-equivalence-resolution-support-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00237198",
+      "cost_by_resource": {
+        "Memory": "0.00048000",
+        "CPU": "0.00189198"
+      }
+    },
+    {
+      "object_id": "ap-K6mFaGmgX9VBdMT8VYdW6s",
+      "description": "behavioral-equivalence-training-pilot-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00260470",
+      "cost_by_resource": {
+        "Memory": "0.00007004",
+        "Network Egress": "0.00034272",
+        "CPU": "0.00219194"
+      }
+    },
+    {
+      "object_id": "ap-KCgdN4Tna41ahGeov6JT6D",
+      "description": "behavioral-equivalence-intervention-analysis-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.00393868",
+      "cost_by_resource": {
+        "Memory": "0.00099556",
+        "CPU": "0.00294312"
+      }
+    },
+    {
+      "object_id": "ap-KKVpMkwREQUdcbjfT6h30w",
+      "description": "behavioral-equivalence-heldout-teacher-priors-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.01159648",
+      "cost_by_resource": {
+        "Memory": "0.00234667",
+        "CPU": "0.00924980"
+      }
+    },
+    {
+      "object_id": "ap-KOsaWP7BJer0OFQUkEkC20",
+      "description": "behavioral-equivalence-confirmatory-case-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.00008986",
+      "cost_by_resource": {
+        "Memory": "0.00002271",
+        "CPU": "0.00006715"
+      }
+    },
+    {
+      "object_id": "ap-KZPd4XDKdLlt3cd76eLEXV",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00607380",
+      "cost_by_resource": {
+        "Memory": "0.00122668",
+        "CPU": "0.00484712"
+      }
+    },
+    {
+      "object_id": "ap-KoDmXA94h8xlnJXd2i9FyG",
+      "description": "behavioral-equivalence-integer-certificate-campaign-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.12447877",
+      "cost_by_resource": {
+        "Memory": "0.03128889",
+        "Network Egress": "0.00069189",
+        "CPU": "0.09249798"
+      }
+    },
+    {
+      "object_id": "ap-KoDmXA94h8xlnJXd2i9FyG",
+      "description": "behavioral-equivalence-integer-certificate-campaign-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.01181635",
+      "cost_by_resource": {
+        "Memory": "0.00298666",
+        "Network Egress": "0.00000036",
+        "CPU": "0.00882932"
+      }
+    },
+    {
+      "object_id": "ap-KoN9K6PzozSBitgkBcRet2",
+      "description": "behavioral-equivalence-human-calendar-training-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.01041321",
+      "cost_by_resource": {
+        "Memory": "0.00081195",
+        "CPU": "0.00960126"
+      }
+    },
+    {
+      "object_id": "ap-Kt0UBxaKqHEfmPR8CKy7y7",
+      "description": "behavioral-equivalence-human-final-responses-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.01080574",
+      "cost_by_resource": {
+        "Memory": "0.00218666",
+        "CPU": "0.00861908"
+      }
+    },
+    {
+      "object_id": "ap-LKhDEpZ7vDqznJOHfal6pc",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00527882",
+      "cost_by_resource": {
+        "Memory": "0.00106667",
+        "CPU": "0.00421215"
+      }
+    },
+    {
+      "object_id": "ap-LPn4Y3e7maq3YZalbdaRS0",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.01871255",
+      "cost_by_resource": {
+        "Memory": "0.00378669",
+        "CPU": "0.01492587"
+      }
+    },
+    {
+      "object_id": "ap-Lbp4Y3I7L2PHJahPYzmfTn",
+      "description": "behavioral-equivalence-calibrated-parent-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.04190538",
+      "cost_by_resource": {
+        "Memory": "0.00848001",
+        "CPU": "0.03342537"
+      }
+    },
+    {
+      "object_id": "ap-Li2G6umYCPa9rEpOLqzmHU",
+      "description": "behavioral-equivalence-multistep-test-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.02026001",
+      "cost_by_resource": {
+        "Memory": "0.00800476",
+        "Network Egress": "0.00004875",
+        "CPU": "0.01220650"
+      }
+    },
+    {
+      "object_id": "ap-M962GLEXHDtrsxZzrTxwxq",
+      "description": "behavioral-equivalence-calibrated-parent-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.03979681",
+      "cost_by_resource": {
+        "Memory": "0.00805332",
+        "CPU": "0.03174349"
+      }
+    },
+    {
+      "object_id": "ap-MB1aUzQBbjzwZkTvMIlkhZ",
+      "description": "behavioral-equivalence-integer-certificate-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.01385567",
+      "cost_by_resource": {
+        "Memory": "0.00350222",
+        "CPU": "0.01035345"
+      }
+    },
+    {
+      "object_id": "ap-MGqhgUZZK0JjHom0xmbYud",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00448685",
+      "cost_by_resource": {
+        "Memory": "0.00090666",
+        "CPU": "0.00358019"
+      }
+    },
+    {
+      "object_id": "ap-MY8PglQMA97RcfsIEwodG2",
+      "description": "behavioral-equivalence-pilot-identity-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T16:00:00Z",
+      "cost": "0.00391484",
+      "cost_by_resource": {
+        "Memory": "0.00097945",
+        "Network Egress": "0.00000252",
+        "CPU": "0.00293287"
+      }
+    },
+    {
+      "object_id": "ap-Me630LIE7OgiqW5rVfx11B",
+      "description": "behavioral-equivalence-figure05-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.00017582",
+      "cost_by_resource": {
+        "Memory": "0.00004444",
+        "CPU": "0.00013138"
+      }
+    },
+    {
+      "object_id": "ap-MlpmaA75ieEnpLwXziVB9j",
+      "description": "behavioral-equivalence-resolution-support-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00079063",
+      "cost_by_resource": {
+        "Memory": "0.00015999",
+        "CPU": "0.00063064"
+      }
+    },
+    {
+      "object_id": "ap-N7D1u5eC8Uihs9Sa0XvBUL",
+      "description": "behavioral-equivalence-uncertainty-main-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.00344674",
+      "cost_by_resource": {
+        "Memory": "0.00087111",
+        "Network Egress": "0.00000040",
+        "CPU": "0.00257523"
+      }
+    },
+    {
+      "object_id": "ap-NDuxiNWELYplskDFMqhs3j",
+      "description": "behavioral-equivalence-comparative-inference-validation-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.01713112",
+      "cost_by_resource": {
+        "Memory": "0.00346667",
+        "CPU": "0.01366445"
+      }
+    },
+    {
+      "object_id": "ap-NV3FeBl3tvtYC8rQriIJ5A",
+      "description": "behavioral-equivalence-finite-coupling-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00236719",
+      "cost_by_resource": {
+        "Memory": "0.00013831",
+        "Network Egress": "0.00005456",
+        "CPU": "0.00217432"
+      }
+    },
+    {
+      "object_id": "ap-NbKTp9NYfOEeDkkLb17LBk",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00580205",
+      "cost_by_resource": {
+        "Memory": "0.00117145",
+        "CPU": "0.00463060"
+      }
+    },
+    {
+      "object_id": "ap-NohH2yazNFWBIbB6q5Bnxv",
+      "description": "behavioral-equivalence-heldout-response-frontiers-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00074895",
+      "cost_by_resource": {
+        "Memory": "0.00030222",
+        "CPU": "0.00044672"
+      }
+    },
+    {
+      "object_id": "ap-NtKpJddQEJSX8AupBiPvAq",
+      "description": "behavioral-equivalence-heldout-response-frontiers-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00083746",
+      "cost_by_resource": {
+        "Memory": "0.00033777",
+        "CPU": "0.00049969"
+      }
+    },
+    {
+      "object_id": "ap-O1vsR9zP4c3CyeCdfibAct",
+      "description": "behavioral-equivalence-intervention-main-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.24034982",
+      "cost_by_resource": {
+        "Memory": "0.05917342",
+        "Network Egress": "0.00624478",
+        "CPU": "0.17493162"
+      }
+    },
+    {
+      "object_id": "ap-O37KkVg3wEUc6Ci39UgnYY",
+      "description": "behavioral-equivalence-synthetic-main-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T16:00:00Z",
+      "cost": "0.00558770",
+      "cost_by_resource": {
+        "Memory": "0.00094667",
+        "Network Egress": "0.00000301",
+        "CPU": "0.00463802"
+      }
+    },
+    {
+      "object_id": "ap-Oj4vB4ADyv9GFJaWBU6a4q",
+      "description": "behavioral-equivalence-synthetic-timeout-recovery-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.00073732",
+      "cost_by_resource": {
+        "Memory": "0.00010667",
+        "CPU": "0.00063066"
+      }
+    },
+    {
+      "object_id": "ap-OkIZXQWhgbFyhbcRJkUgg4",
+      "description": "behavioral-equivalence-interval-vertex-crosscheck-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.00725845",
+      "cost_by_resource": {
+        "Memory": "0.00178611",
+        "Network Egress": "0.00000317",
+        "CPU": "0.00546917"
+      }
+    },
+    {
+      "object_id": "ap-OnqbasDSSCwWT7VbguhBpc",
+      "description": "behavioral-equivalence-calibrated-parent-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.02503757",
+      "cost_by_resource": {
+        "Memory": "0.00506663",
+        "CPU": "0.01997095"
+      }
+    },
+    {
+      "object_id": "ap-OwGnQp53uzbtTJi8yAcApD",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.00018877",
+      "cost_by_resource": {
+        "Memory": "0.00001502",
+        "Network Egress": "0.00000320",
+        "CPU": "0.00017055"
+      }
+    },
+    {
+      "object_id": "ap-POGndAYFUs6Y25CVZNqUiw",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.02740987",
+      "cost_by_resource": {
+        "Memory": "0.00554669",
+        "CPU": "0.02186318"
+      }
+    },
+    {
+      "object_id": "ap-PQvWeskHH3uQry0EWuZSTD",
+      "description": "behavioral-equivalence-multistep-fit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00505661",
+      "cost_by_resource": {
+        "Memory": "0.00190223",
+        "Network Egress": "0.00000103",
+        "CPU": "0.00315335"
+      }
+    },
+    {
+      "object_id": "ap-PQvWeskHH3uQry0EWuZSTD",
+      "description": "behavioral-equivalence-multistep-fit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T02:00:00Z",
+      "cost": "0.00107452",
+      "cost_by_resource": {
+        "Memory": "0.00040444",
+        "Network Egress": "0.00000001",
+        "CPU": "0.00067007"
+      }
+    },
+    {
+      "object_id": "ap-PUEEkYNtNuQqWibBs2Sf5E",
+      "description": "behavioral-equivalence-diversity-analysis-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.00003516",
+      "cost_by_resource": {
+        "Memory": "0.00000889",
+        "CPU": "0.00002628"
+      }
+    },
+    {
+      "object_id": "ap-PVXVOycEfHUB3keMrx216p",
+      "description": "behavioral-equivalence-human-figures-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.00010550",
+      "cost_by_resource": {
+        "Memory": "0.00002667",
+        "CPU": "0.00007883"
+      }
+    },
+    {
+      "object_id": "ap-PXAJw6arIRUCs734FFSuZY",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.18089736",
+      "cost_by_resource": {
+        "Memory": "0.04572445",
+        "CPU": "0.13517291"
+      }
+    },
+    {
+      "object_id": "ap-PmT8qdM3SutX3LgiCbN7hQ",
+      "description": "behavioral-equivalence-uncertainty-comparison-pilot-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T16:00:00Z",
+      "cost": "0.00226800",
+      "cost_by_resource": {
+        "Memory": "0.00053111",
+        "Network Egress": "0.00000324",
+        "CPU": "0.00173364"
+      }
+    },
+    {
+      "object_id": "ap-PwDX98pqF3Yzm4IP1PJihN",
+      "description": "behavioral-equivalence-heldout-teacher-priors-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00237302",
+      "cost_by_resource": {
+        "Memory": "0.00048000",
+        "CPU": "0.00189302"
+      }
+    },
+    {
+      "object_id": "ap-Q7lyMuFP11gyb5EKyuQNJd",
+      "description": "behavioral-equivalence-repeated-evidence-replay-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.31283110",
+      "cost_by_resource": {
+        "Memory": "0.07714674",
+        "Network Egress": "0.00761916",
+        "CPU": "0.22806520"
+      }
+    },
+    {
+      "object_id": "ap-Q7lyMuFP11gyb5EKyuQNJd",
+      "description": "behavioral-equivalence-repeated-evidence-replay-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.01697083",
+      "cost_by_resource": {
+        "Memory": "0.00428888",
+        "Network Egress": "0.00000296",
+        "CPU": "0.01267899"
+      }
+    },
+    {
+      "object_id": "ap-QGMduX7rgRZfEoSQKfIDoQ",
+      "description": "behavioral-equivalence-random-response-calibration-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00237198",
+      "cost_by_resource": {
+        "Memory": "0.00048000",
+        "CPU": "0.00189199"
+      }
+    },
+    {
+      "object_id": "ap-QNs6Va4KQfuLnCSX5F97SI",
+      "description": "behavioral-equivalence-kuairand27k-preparation-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.00003072",
+      "cost_by_resource": {
+        "Memory": "0.00000444",
+        "CPU": "0.00002628"
+      }
+    },
+    {
+      "object_id": "ap-QgPG2DFUhCeExFtcM66CIy",
+      "description": "behavioral-equivalence-human-figures-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.00010550",
+      "cost_by_resource": {
+        "Memory": "0.00002667",
+        "CPU": "0.00007884"
+      }
+    },
+    {
+      "object_id": "ap-QmLIcF8pQYMRjQrLLJav0c",
+      "description": "behavioral-equivalence-figure04-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.00024753",
+      "cost_by_resource": {
+        "Memory": "0.00003889",
+        "Network Egress": "0.00000234",
+        "CPU": "0.00020629"
+      }
+    },
+    {
+      "object_id": "ap-Qp3UoyPxOnLqUuTzoiKMBa",
+      "description": "behavioral-equivalence-kuairand27k-preparation-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.03572931",
+      "cost_by_resource": {
+        "Memory": "0.00903111",
+        "CPU": "0.02669821"
+      }
+    },
+    {
+      "object_id": "ap-Qp3UoyPxOnLqUuTzoiKMBa",
+      "description": "behavioral-equivalence-kuairand27k-preparation-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.05825571",
+      "cost_by_resource": {
+        "Memory": "0.01472498",
+        "CPU": "0.04353072"
+      }
+    },
+    {
+      "object_id": "ap-QxVzD1bz2jeMPOQtyXfxiK",
+      "description": "behavioral-equivalence-multistep-fit-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T02:00:00Z",
+      "cost": "0.03017902",
+      "cost_by_resource": {
+        "Memory": "0.01193332",
+        "Network Egress": "0.00004836",
+        "CPU": "0.01819734"
+      }
+    },
+    {
+      "object_id": "ap-RBE0hpX7T1h9rtV87I2G2i",
+      "description": "behavioral-equivalence-calendar-quantization-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.09567232",
+      "cost_by_resource": {
+        "Memory": "0.01936003",
+        "Network Egress": "0.00000051",
+        "CPU": "0.07631178"
+      }
+    },
+    {
+      "object_id": "ap-RIQT1bIXaKLNKrnadkkOyg",
+      "description": "behavioral-equivalence-kuairand27k-independent-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.00148470",
+      "cost_by_resource": {
+        "Memory": "0.00035000",
+        "Network Egress": "0.00000653",
+        "CPU": "0.00112816"
+      }
+    },
+    {
+      "object_id": "ap-RcszWjN5zrm8RzSUTtFjXZ",
+      "description": "behavioral-equivalence-human-final-horizons-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.01370489",
+      "cost_by_resource": {
+        "Memory": "0.00277333",
+        "CPU": "0.01093156"
+      }
+    },
+    {
+      "object_id": "ap-Rsp2Z48DjWwYKOO1r2s5fv",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.01001521",
+      "cost_by_resource": {
+        "Memory": "0.00202669",
+        "CPU": "0.00798852"
+      }
+    },
+    {
+      "object_id": "ap-SBB6jC4tC5Rn0lYgRPpPUW",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00712919",
+      "cost_by_resource": {
+        "Memory": "0.00144002",
+        "CPU": "0.00568917"
+      }
+    },
+    {
+      "object_id": "ap-SXJe0SGweW74fmACSvhIVm",
+      "description": "behavioral-equivalence-calendar-support-27k-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.00665398",
+      "cost_by_resource": {
+        "Memory": "0.00167556",
+        "Network Egress": "0.00002504",
+        "CPU": "0.00495338"
+      }
+    },
+    {
+      "object_id": "ap-SnNdd3C7R95GXrkWD3pfly",
+      "description": "behavioral-equivalence-environment-diversity-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.07372764",
+      "cost_by_resource": {
+        "Memory": "0.02740000",
+        "Network Egress": "0.00342823",
+        "CPU": "0.04289942"
+      }
+    },
+    {
+      "object_id": "ap-SqV1fjgCa7adrQBIHUmS8D",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.01159663",
+      "cost_by_resource": {
+        "Memory": "0.00234670",
+        "CPU": "0.00924993"
+      }
+    },
+    {
+      "object_id": "ap-TotTYQxTW98HJSKH8KNdHM",
+      "description": "behavioral-equivalence-history-states-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.01923958",
+      "cost_by_resource": {
+        "Memory": "0.00389334",
+        "CPU": "0.01534624"
+      }
+    },
+    {
+      "object_id": "ap-UE22M5uDzTMVjf9rQ0EcUE",
+      "description": "behavioral-equivalence-diversity-analysis-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.06070685",
+      "cost_by_resource": {
+        "Memory": "0.02268901",
+        "Network Egress": "0.00250325",
+        "CPU": "0.03551459"
+      }
+    },
+    {
+      "object_id": "ap-UIDe5qGXUbIVsd4OzkVfKQ",
+      "description": "behavioral-equivalence-human-calendar-training-v4-replicates",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "1.17824167",
+      "cost_by_resource": {
+        "Memory": "0.24036439",
+        "Network Egress": "0.00057630",
+        "CPU": "0.93730098"
+      }
+    },
+    {
+      "object_id": "ap-UIDe5qGXUbIVsd4OzkVfKQ",
+      "description": "behavioral-equivalence-human-calendar-training-v4-replicates",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "2.75083068",
+      "cost_by_resource": {
+        "Memory": "0.55961257",
+        "Network Egress": "0.00077833",
+        "CPU": "2.19043979"
+      }
+    },
+    {
+      "object_id": "ap-UIDe5qGXUbIVsd4OzkVfKQ",
+      "description": "behavioral-equivalence-human-calendar-training-v4-replicates",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "1.98583642",
+      "cost_by_resource": {
+        "Memory": "0.40336024",
+        "Network Egress": "0.00043803",
+        "CPU": "1.58203815"
+      }
+    },
+    {
+      "object_id": "ap-UIDe5qGXUbIVsd4OzkVfKQ",
+      "description": "behavioral-equivalence-human-calendar-training-v4-replicates",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "1.92915609",
+      "cost_by_resource": {
+        "Memory": "0.39189334",
+        "Network Egress": "0.00043282",
+        "CPU": "1.53682992"
+      }
+    },
+    {
+      "object_id": "ap-UIDe5qGXUbIVsd4OzkVfKQ",
+      "description": "behavioral-equivalence-human-calendar-training-v4-replicates",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "1.86825840",
+      "cost_by_resource": {
+        "Memory": "0.37957350",
+        "Network Egress": "0.00041600",
+        "CPU": "1.48826890"
+      }
+    },
+    {
+      "object_id": "ap-UIDe5qGXUbIVsd4OzkVfKQ",
+      "description": "behavioral-equivalence-human-calendar-training-v4-replicates",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.78351477",
+      "cost_by_resource": {
+        "Memory": "0.16010663",
+        "Network Egress": "0.00020449",
+        "CPU": "0.62320365"
+      }
+    },
+    {
+      "object_id": "ap-UIDe5qGXUbIVsd4OzkVfKQ",
+      "description": "behavioral-equivalence-human-calendar-training-v4-replicates",
+      "environment_name": "main",
+      "interval": "2026-10-16T02:00:00Z",
+      "cost": "0.35295099",
+      "cost_by_resource": {
+        "Memory": "0.07251558",
+        "Network Egress": "0.00010399",
+        "CPU": "0.28033142"
+      }
+    },
+    {
+      "object_id": "ap-UMABx3fS3Z0Ps2GNMFHFvV",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.11122049",
+      "cost_by_resource": {
+        "Memory": "0.02250668",
+        "CPU": "0.08871381"
+      }
+    },
+    {
+      "object_id": "ap-VIK7S2cF7kZp9SKij5zAtz",
+      "description": "behavioral-equivalence-response-frontier-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00007034",
+      "cost_by_resource": {
+        "Memory": "0.00001778",
+        "CPU": "0.00005256"
+      }
+    },
+    {
+      "object_id": "ap-VKrQy03Gx2kKqG3rstHrx1",
+      "description": "behavioral-equivalence-calendar-quantization-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.05483244",
+      "cost_by_resource": {
+        "Memory": "0.01109335",
+        "Network Egress": "0.00000051",
+        "CPU": "0.04373858"
+      }
+    },
+    {
+      "object_id": "ap-VOz2opwbpZkDCMoicrTJFp",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.06773374",
+      "cost_by_resource": {
+        "Memory": "0.01370666",
+        "CPU": "0.05402708"
+      }
+    },
+    {
+      "object_id": "ap-VPAc6kZdHW9fGKoyu9H6zG",
+      "description": "behavioral-equivalence-data-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00129290",
+      "cost_by_resource": {
+        "Memory": "0.00025778",
+        "Network Egress": "0.00026657",
+        "CPU": "0.00076855"
+      }
+    },
+    {
+      "object_id": "ap-VahJYa1c3bsqXKUaLof48b",
+      "description": "behavioral-equivalence-refinement-pilot-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00014087",
+      "cost_by_resource": {
+        "Memory": "0.00003555",
+        "CPU": "0.00010532"
+      }
+    },
+    {
+      "object_id": "ap-Vk3jfxrlMrBKsoZ6sGV8l7",
+      "description": "behavioral-equivalence-cpu-training-throughput-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.02824385",
+      "cost_by_resource": {
+        "Memory": "0.00109389",
+        "Network Egress": "0.00022240",
+        "CPU": "0.02692755"
+      }
+    },
+    {
+      "object_id": "ap-W2wPJS2v5s974ZxBO9Qrfc",
+      "description": "behavioral-equivalence-refinement-pilot-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00003517",
+      "cost_by_resource": {
+        "Memory": "0.00000889",
+        "CPU": "0.00002628"
+      }
+    },
+    {
+      "object_id": "ap-WQydxlI0V4TYxfad5QtIuc",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00791916",
+      "cost_by_resource": {
+        "Memory": "0.00160002",
+        "CPU": "0.00631914"
+      }
+    },
+    {
+      "object_id": "ap-WXxQZLwjMJsajwQymd2aNa",
+      "description": "behavioral-equivalence-heldout-response-frontiers-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00299578",
+      "cost_by_resource": {
+        "Memory": "0.00120889",
+        "CPU": "0.00178689"
+      }
+    },
+    {
+      "object_id": "ap-WkJaQAXSxDVdq7yZQSvz0I",
+      "description": "behavioral-equivalence-diversity-analysis-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.00007034",
+      "cost_by_resource": {
+        "Memory": "0.00001778",
+        "CPU": "0.00005256"
+      }
+    },
+    {
+      "object_id": "ap-Wr5SlHZ1kx6qGTdkcKbMtw",
+      "description": "behavioral-equivalence-history-states-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.01502275",
+      "cost_by_resource": {
+        "Memory": "0.00304002",
+        "CPU": "0.01198273"
+      }
+    },
+    {
+      "object_id": "ap-XDOmahXN7tcElmiTrzK3oY",
+      "description": "behavioral-equivalence-nominal-failure-counts-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00196933",
+      "cost_by_resource": {
+        "Memory": "0.00049778",
+        "CPU": "0.00147155"
+      }
+    },
+    {
+      "object_id": "ap-XsqjkSVevwIycu203ILHUh",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00606309",
+      "cost_by_resource": {
+        "Memory": "0.00122667",
+        "CPU": "0.00483642"
+      }
+    },
+    {
+      "object_id": "ap-Y1GIrKZXa1WrraERazlVRi",
+      "description": "behavioral-equivalence-kuairand27k-preparation-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.00033056",
+      "cost_by_resource": {
+        "Memory": "0.00003111",
+        "Network Egress": "0.00000563",
+        "CPU": "0.00029382"
+      }
+    },
+    {
+      "object_id": "ap-Y4xrjV7FsJBtvOjecYR5sM",
+      "description": "behavioral-equivalence-heldout-teacher-priors-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.00182866",
+      "cost_by_resource": {
+        "Memory": "0.00046222",
+        "CPU": "0.00136644"
+      }
+    },
+    {
+      "object_id": "ap-Y4xrjV7FsJBtvOjecYR5sM",
+      "description": "behavioral-equivalence-heldout-teacher-priors-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00028133",
+      "cost_by_resource": {
+        "Memory": "0.00007111",
+        "CPU": "0.00021022"
+      }
+    },
+    {
+      "object_id": "ap-YOPGCN8kgSfEYC2rWg5oOg",
+      "description": "behavioral-equivalence-multistep-fit-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T02:00:00Z",
+      "cost": "0.00196933",
+      "cost_by_resource": {
+        "Memory": "0.00049778",
+        "CPU": "0.00147155"
+      }
+    },
+    {
+      "object_id": "ap-Ypf0wzHk5h5dcmv3onZWpM",
+      "description": "behavioral-equivalence-human-final-horizons-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.01502265",
+      "cost_by_resource": {
+        "Memory": "0.00304000",
+        "CPU": "0.01198266"
+      }
+    },
+    {
+      "object_id": "ap-Z1rdj0gLp2ch3m5VyyazFJ",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.08275648",
+      "cost_by_resource": {
+        "Memory": "0.01674667",
+        "CPU": "0.06600981"
+      }
+    },
+    {
+      "object_id": "ap-ZDoNpkNaQmEcx4lUzpGD52",
+      "description": "behavioral-equivalence-confirmatory-case-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.00193416",
+      "cost_by_resource": {
+        "Memory": "0.00048889",
+        "CPU": "0.00144528"
+      }
+    },
+    {
+      "object_id": "ap-ZKRYHtTsDH6snLMx9pOwv9",
+      "description": "behavioral-equivalence-finite-coupling-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00034090",
+      "cost_by_resource": {
+        "Memory": "0.00008617",
+        "CPU": "0.00025473"
+      }
+    },
+    {
+      "object_id": "ap-ZKaWlCmeItZotHT3rQwgCi",
+      "description": "behavioral-equivalence-source-package-reproduction-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T06:00:00Z",
+      "cost": "0.00746605",
+      "cost_by_resource": {
+        "Memory": "0.00278576",
+        "Network Egress": "0.00001146",
+        "CPU": "0.00466883"
+      }
+    },
+    {
+      "object_id": "ap-Zeesp2jcHxK0kemb1p2BQe",
+      "description": "behavioral-equivalence-horizon-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T02:00:00Z",
+      "cost": "0.00658878",
+      "cost_by_resource": {
+        "Memory": "0.00135578",
+        "Network Egress": "0.00000191",
+        "CPU": "0.00523109"
+      }
+    },
+    {
+      "object_id": "ap-Zh5whpNIR583oxyZGpfgc8",
+      "description": "behavioral-equivalence-human-final-responses-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.01133287",
+      "cost_by_resource": {
+        "Memory": "0.00229333",
+        "CPU": "0.00903954"
+      }
+    },
+    {
+      "object_id": "ap-ZhUDwEQLDvL3NRCPp9OLjy",
+      "description": "behavioral-equivalence-joint-trajectories-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.01266472",
+      "cost_by_resource": {
+        "Memory": "0.00320000",
+        "Network Egress": "0.00000389",
+        "CPU": "0.00946083"
+      }
+    },
+    {
+      "object_id": "ap-ZnevfDBntg4LH4TC4B3BDv",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.01449569",
+      "cost_by_resource": {
+        "Memory": "0.00293336",
+        "CPU": "0.01156233"
+      }
+    },
+    {
+      "object_id": "ap-Zqdx0Db4CE4n2PtkcjNNP5",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00870582",
+      "cost_by_resource": {
+        "Memory": "0.00176002",
+        "CPU": "0.00694580"
+      }
+    },
+    {
+      "object_id": "ap-a0KRq1Xi9BCYLSVF1doJyD",
+      "description": "behavioral-equivalence-human-final-horizons-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.01607698",
+      "cost_by_resource": {
+        "Memory": "0.00325335",
+        "CPU": "0.01282363"
+      }
+    },
+    {
+      "object_id": "ap-a6i6g16Ro4efbtyoxSP0fn",
+      "description": "behavioral-equivalence-randomized-cases-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00068754",
+      "cost_by_resource": {
+        "Memory": "0.00025333",
+        "Network Egress": "0.00000064",
+        "CPU": "0.00043357"
+      }
+    },
+    {
+      "object_id": "ap-a7hYNHgCvXoRo0DqvTGiyl",
+      "description": "behavioral-equivalence-cpu-training-throughput-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.00262923",
+      "cost_by_resource": {
+        "Memory": "0.00010666",
+        "CPU": "0.00252257"
+      }
+    },
+    {
+      "object_id": "ap-arAGVowNCAUBmM9cRdOpah",
+      "description": "behavioral-equivalence-synthetic-main-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.00000000",
+      "cost_by_resource": {
+        "Memory": "0.00000000",
+        "CPU": "0.00000000"
+      }
+    },
+    {
+      "object_id": "ap-auveLk1kzdVUq4hqxXgmGt",
+      "description": "behavioral-equivalence-kuairand27k-preparation-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.00187406",
+      "cost_by_resource": {
+        "Memory": "0.00027111",
+        "CPU": "0.00160295"
+      }
+    },
+    {
+      "object_id": "ap-aylXCaPqrXOtMswyn8BGqB",
+      "description": "behavioral-equivalence-human-final-responses-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.02266569",
+      "cost_by_resource": {
+        "Memory": "0.00458665",
+        "CPU": "0.01807904"
+      }
+    },
+    {
+      "object_id": "ap-bPSuZkifxKmzgF0MyKIKcn",
+      "description": "behavioral-equivalence-synthetic-main-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T16:00:00Z",
+      "cost": "0.13165329",
+      "cost_by_resource": {
+        "Memory": "0.01711999",
+        "Network Egress": "0.01896105",
+        "CPU": "0.09557224"
+      }
+    },
+    {
+      "object_id": "ap-bPSuZkifxKmzgF0MyKIKcn",
+      "description": "behavioral-equivalence-synthetic-main-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.55369048",
+      "cost_by_resource": {
+        "Memory": "0.07200000",
+        "Network Egress": "0.07964045",
+        "CPU": "0.40205002"
+      }
+    },
+    {
+      "object_id": "ap-bPSuZkifxKmzgF0MyKIKcn",
+      "description": "behavioral-equivalence-synthetic-main-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.53692650",
+      "cost_by_resource": {
+        "Memory": "0.07198222",
+        "Network Egress": "0.06294681",
+        "CPU": "0.40199748"
+      }
+    },
+    {
+      "object_id": "ap-bPSuZkifxKmzgF0MyKIKcn",
+      "description": "behavioral-equivalence-synthetic-main-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.50664485",
+      "cost_by_resource": {
+        "Memory": "0.07196445",
+        "Network Egress": "0.03284059",
+        "CPU": "0.40183981"
+      }
+    },
+    {
+      "object_id": "ap-bPSuZkifxKmzgF0MyKIKcn",
+      "description": "behavioral-equivalence-synthetic-main-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.65736151",
+      "cost_by_resource": {
+        "Memory": "0.09472893",
+        "Network Egress": "0.02619622",
+        "CPU": "0.53643636"
+      }
+    },
+    {
+      "object_id": "ap-bPSuZkifxKmzgF0MyKIKcn",
+      "description": "behavioral-equivalence-synthetic-main-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "1.10470564",
+      "cost_by_resource": {
+        "Memory": "0.16121835",
+        "Network Egress": "0.00945063",
+        "CPU": "0.93403667"
+      }
+    },
+    {
+      "object_id": "ap-bYxJ6L31owVsc8MvmTUz36",
+      "description": "behavioral-equivalence-adjacent-calibration-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.00294426",
+      "cost_by_resource": {
+        "Memory": "0.00108888",
+        "Network Egress": "0.00000280",
+        "CPU": "0.00185258"
+      }
+    },
+    {
+      "object_id": "ap-baFnGdbMnhoZSV67fMkGXP",
+      "description": "behavioral-equivalence-training-pilot-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.03701777",
+      "cost_by_resource": {
+        "Memory": "0.00316446",
+        "CPU": "0.00468099",
+        "T4": "0.02917232"
+      }
+    },
+    {
+      "object_id": "ap-bbGM5ifcHgPNi6ltPuRkr5",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.04796709",
+      "cost_by_resource": {
+        "Memory": "0.00970666",
+        "CPU": "0.03826043"
+      }
+    },
+    {
+      "object_id": "ap-bbGM5ifcHgPNi6ltPuRkr5",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.05640091",
+      "cost_by_resource": {
+        "Memory": "0.01141334",
+        "CPU": "0.04498757"
+      }
+    },
+    {
+      "object_id": "ap-bsgUuRhBP5mq4icsJ7NDwx",
+      "description": "behavioral-equivalence-response-frontier-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00000000",
+      "cost_by_resource": {
+        "Memory": "0.00000000",
+        "CPU": "0.00000000"
+      }
+    },
+    {
+      "object_id": "ap-cDEgAotumGiRaiXbd59Ajy",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00685983",
+      "cost_by_resource": {
+        "Memory": "0.00138667",
+        "CPU": "0.00547316"
+      }
+    },
+    {
+      "object_id": "ap-cJA2VODtzAJD6n1OTkwguu",
+      "description": "behavioral-equivalence-quantization-pilot-v3-cpu",
+      "environment_name": "main",
+      "interval": "2026-10-15T16:00:00Z",
+      "cost": "0.00194361",
+      "cost_by_resource": {
+        "Memory": "0.00078222",
+        "CPU": "0.00116139"
+      }
+    },
+    {
+      "object_id": "ap-cJxEYPCff7je49EAPyohsn",
+      "description": "behavioral-equivalence-human-final-responses-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.00024578",
+      "cost_by_resource": {
+        "Memory": "0.00003556",
+        "CPU": "0.00021023"
+      }
+    },
+    {
+      "object_id": "ap-cLsJPjHF8inTJui3robBpH",
+      "description": "behavioral-equivalence-nominal-ablation-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.09776162",
+      "cost_by_resource": {
+        "Memory": "0.02412443",
+        "Network Egress": "0.00231934",
+        "CPU": "0.07131784"
+      }
+    },
+    {
+      "object_id": "ap-cLsJPjHF8inTJui3robBpH",
+      "description": "behavioral-equivalence-nominal-ablation-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.08325043",
+      "cost_by_resource": {
+        "Memory": "0.02089335",
+        "Network Egress": "0.00059093",
+        "CPU": "0.06176615"
+      }
+    },
+    {
+      "object_id": "ap-cyOZuL7HYu7huI7bVHRrCI",
+      "description": "behavioral-equivalence-calibrated-parent-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.04823057",
+      "cost_by_resource": {
+        "Memory": "0.00975998",
+        "CPU": "0.03847059"
+      }
+    },
+    {
+      "object_id": "ap-dCTUQ6nM7EHRNQehKuN1Bv",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.02813335",
+      "cost_by_resource": {
+        "Memory": "0.00711112",
+        "CPU": "0.02102224"
+      }
+    },
+    {
+      "object_id": "ap-dCTUQ6nM7EHRNQehKuN1Bv",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.15951599",
+      "cost_by_resource": {
+        "Memory": "0.04032000",
+        "CPU": "0.11919599"
+      }
+    },
+    {
+      "object_id": "ap-dF6LuG3ZwjgomqcXhhZeiN",
+      "description": "behavioral-equivalence-final-human-output-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.05301929",
+      "cost_by_resource": {
+        "Memory": "0.01340106",
+        "Network Egress": "0.00000134",
+        "CPU": "0.03961689"
+      }
+    },
+    {
+      "object_id": "ap-dRGCLUs8fiYCAM4H3U4pFH",
+      "description": "behavioral-equivalence-human-final-horizons-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.02582843",
+      "cost_by_resource": {
+        "Memory": "0.00522666",
+        "CPU": "0.02060177"
+      }
+    },
+    {
+      "object_id": "ap-dXy6stWnKTMv1UmiGjTVAO",
+      "description": "behavioral-equivalence-resolution-support-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.01475913",
+      "cost_by_resource": {
+        "Memory": "0.00298667",
+        "CPU": "0.01177246"
+      }
+    },
+    {
+      "object_id": "ap-dtrimgLWmHfRC0ZQF100Ph",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.07379567",
+      "cost_by_resource": {
+        "Memory": "0.01493336",
+        "CPU": "0.05886232"
+      }
+    },
+    {
+      "object_id": "ap-e4HCzIzqAWpaY1FMJqJfPU",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00528511",
+      "cost_by_resource": {
+        "Memory": "0.00106665",
+        "CPU": "0.00421847"
+      }
+    },
+    {
+      "object_id": "ap-eGYETuDE7M2QYMrtDDfOC3",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00607184",
+      "cost_by_resource": {
+        "Memory": "0.00122669",
+        "CPU": "0.00484515"
+      }
+    },
+    {
+      "object_id": "ap-eifnR8k8nNNU2fWzVvcQgG",
+      "description": "behavioral-equivalence-source-package-reproduction-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.00450657",
+      "cost_by_resource": {
+        "Memory": "0.00045895",
+        "Network Egress": "0.00028233",
+        "CPU": "0.00376529"
+      }
+    },
+    {
+      "object_id": "ap-eqBxhNwx90mA34fwB10hg9",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.01475917",
+      "cost_by_resource": {
+        "Memory": "0.00298668",
+        "CPU": "0.01177249"
+      }
+    },
+    {
+      "object_id": "ap-expF8XvWKE2gvpEsblrPhs",
+      "description": "behavioral-equivalence-resolution-support-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.01528630",
+      "cost_by_resource": {
+        "Memory": "0.00309335",
+        "CPU": "0.01219295"
+      }
+    },
+    {
+      "object_id": "ap-fDD0EqaimDzkJE1xHnxWSN",
+      "description": "behavioral-equivalence-human-calendar-training-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.00000000",
+      "cost_by_resource": {
+        "Memory": "0.00000000",
+        "CPU": "0.00000000",
+        "T4": "0.00000000"
+      }
+    },
+    {
+      "object_id": "ap-fMHUwu4eHV9giyD6HYuSc0",
+      "description": "behavioral-equivalence-kuairand27k-ingest-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T16:00:00Z",
+      "cost": "0.01113194",
+      "cost_by_resource": {
+        "Memory": "0.00270222",
+        "Network Egress": "0.00044127",
+        "CPU": "0.00798845"
+      }
+    },
+    {
+      "object_id": "ap-fMHUwu4eHV9giyD6HYuSc0",
+      "description": "behavioral-equivalence-kuairand27k-ingest-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.04604630",
+      "cost_by_resource": {
+        "Memory": "0.01121778",
+        "Network Egress": "0.00165142",
+        "CPU": "0.03317710"
+      }
+    },
+    {
+      "object_id": "ap-fSzkOofu3ZTjIBIXHOKfKp",
+      "description": "behavioral-equivalence-intervention-main-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.00513619",
+      "cost_by_resource": {
+        "Memory": "0.00129778",
+        "Network Egress": "0.00000185",
+        "CPU": "0.00383656"
+      }
+    },
+    {
+      "object_id": "ap-fbUGiVhYP1fV91rdlORqwj",
+      "description": "behavioral-equivalence-response-precision-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.01792181",
+      "cost_by_resource": {
+        "Memory": "0.00362667",
+        "CPU": "0.01429513"
+      }
+    },
+    {
+      "object_id": "ap-fjD5HwGRVcPacpZCAaJftG",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.01054228",
+      "cost_by_resource": {
+        "Memory": "0.00213334",
+        "CPU": "0.00840893"
+      }
+    },
+    {
+      "object_id": "ap-fk0Z0v8onxK824Q9wTyG1r",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.07880301",
+      "cost_by_resource": {
+        "Memory": "0.01594665",
+        "CPU": "0.06285637"
+      }
+    },
+    {
+      "object_id": "ap-fnhhWnnaz0AwjXFV3YsOIs",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00000000",
+      "cost_by_resource": {
+        "Memory": "0.00000000",
+        "CPU": "0.00000000"
+      }
+    },
+    {
+      "object_id": "ap-fnhhWnnaz0AwjXFV3YsOIs",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.01027867",
+      "cost_by_resource": {
+        "Memory": "0.00208000",
+        "CPU": "0.00819867"
+      }
+    },
+    {
+      "object_id": "ap-fxQmBztChIRaWKqDFmnUxC",
+      "description": "behavioral-equivalence-human-calendar-training-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.00590344",
+      "cost_by_resource": {
+        "Memory": "0.00238222",
+        "CPU": "0.00352122"
+      }
+    },
+    {
+      "object_id": "ap-g4LZYhcRgTxcVppM7bGkr0",
+      "description": "behavioral-equivalence-calendar-quantization-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.04691300",
+      "cost_by_resource": {
+        "Memory": "0.00949336",
+        "CPU": "0.03741964"
+      }
+    },
+    {
+      "object_id": "ap-gAfWU2XXcrj6wTX23X3Zdt",
+      "description": "behavioral-equivalence-calendar-quantization-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.03773175",
+      "cost_by_resource": {
+        "Memory": "0.00675333",
+        "Network Egress": "0.00032806",
+        "CPU": "0.03065036"
+      }
+    },
+    {
+      "object_id": "ap-gYQCYTbUOdZlKXL5IjaFXu",
+      "description": "behavioral-equivalence-state-sufficiency-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T06:00:00Z",
+      "cost": "0.01125333",
+      "cost_by_resource": {
+        "Memory": "0.00284444",
+        "CPU": "0.00840889"
+      }
+    },
+    {
+      "object_id": "ap-gclir3pHyHiU7Q5I3bKSBH",
+      "description": "behavioral-equivalence-figure01-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.00010550",
+      "cost_by_resource": {
+        "Memory": "0.00002667",
+        "CPU": "0.00007883"
+      }
+    },
+    {
+      "object_id": "ap-hQ2ZiT7eN0aDMqZOPEQ96U",
+      "description": "behavioral-equivalence-integer-certificate-campaign-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.39909431",
+      "cost_by_resource": {
+        "Memory": "0.10064113",
+        "Network Egress": "0.00093283",
+        "CPU": "0.29752035"
+      }
+    },
+    {
+      "object_id": "ap-hQ2ZiT7eN0aDMqZOPEQ96U",
+      "description": "behavioral-equivalence-integer-certificate-campaign-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.41326630",
+      "cost_by_resource": {
+        "Memory": "0.10441646",
+        "Network Egress": "0.00016868",
+        "CPU": "0.30868116"
+      }
+    },
+    {
+      "object_id": "ap-hQ2ZiT7eN0aDMqZOPEQ96U",
+      "description": "behavioral-equivalence-integer-certificate-campaign-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.70122635",
+      "cost_by_resource": {
+        "Memory": "0.17717350",
+        "Network Egress": "0.00028370",
+        "CPU": "0.52376915"
+      }
+    },
+    {
+      "object_id": "ap-hlTMsijvLgl4Hch5IGMC9C",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.01792185",
+      "cost_by_resource": {
+        "Memory": "0.00362668",
+        "CPU": "0.01429517"
+      }
+    },
+    {
+      "object_id": "ap-hoxcWT684a1hubOh9iyWj0",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.15768731",
+      "cost_by_resource": {
+        "Memory": "0.03985777",
+        "CPU": "0.11782953"
+      }
+    },
+    {
+      "object_id": "ap-hpUEXNaCrLxzl3bPfAdLzs",
+      "description": "behavioral-equivalence-uncertainty-main-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.03253065",
+      "cost_by_resource": {
+        "Memory": "0.00808000",
+        "Network Egress": "0.00056413",
+        "CPU": "0.02388651"
+      }
+    },
+    {
+      "object_id": "ap-hpfxDUN4dbqnLqfEkO3yJV",
+      "description": "behavioral-equivalence-data-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00047366",
+      "cost_by_resource": {
+        "Memory": "0.00011888",
+        "CPU": "0.00035478"
+      }
+    },
+    {
+      "object_id": "ap-iDOwWbZwqdvgvoRMJe6ZT2",
+      "description": "behavioral-equivalence-supplementary-targets-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00391084",
+      "cost_by_resource": {
+        "Memory": "0.00157796",
+        "Network Egress": "0.00000046",
+        "CPU": "0.00233243"
+      }
+    },
+    {
+      "object_id": "ap-iHLbG7zQAjpGkPn0BwJI8D",
+      "description": "behavioral-equivalence-resolution-support-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.01080575",
+      "cost_by_resource": {
+        "Memory": "0.00218666",
+        "CPU": "0.00861909"
+      }
+    },
+    {
+      "object_id": "ap-iNKrtUapdCNqGeDyD7tKp9",
+      "description": "behavioral-equivalence-history-states-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.01554972",
+      "cost_by_resource": {
+        "Memory": "0.00314666",
+        "CPU": "0.01240307"
+      }
+    },
+    {
+      "object_id": "ap-iiXhrXliPlnHKtkT2Y3Hs7",
+      "description": "behavioral-equivalence-human-final-responses-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.01396848",
+      "cost_by_resource": {
+        "Memory": "0.00282667",
+        "CPU": "0.01114181"
+      }
+    },
+    {
+      "object_id": "ap-iqh5zso1hqLB2sR5ImFD5K",
+      "description": "behavioral-equivalence-trajectory-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.00562669",
+      "cost_by_resource": {
+        "Memory": "0.00142223",
+        "CPU": "0.00420446"
+      }
+    },
+    {
+      "object_id": "ap-jR0WkL1GpXdVVotU7s67FB",
+      "description": "behavioral-equivalence-kuairand27k-preparation-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.00003072",
+      "cost_by_resource": {
+        "Memory": "0.00000444",
+        "CPU": "0.00002628"
+      }
+    },
+    {
+      "object_id": "ap-jePC6y76MTVbgIRp45xbG2",
+      "description": "behavioral-equivalence-learned-certified-pilot-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.02991766",
+      "cost_by_resource": {
+        "Memory": "0.01381001",
+        "Network Egress": "0.00024330",
+        "CPU": "0.01586435"
+      }
+    },
+    {
+      "object_id": "ap-jrJgKOVMX7lnvGWBfoFGEt",
+      "description": "behavioral-equivalence-human-final-horizons-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.00026632",
+      "cost_by_resource": {
+        "Memory": "0.00003853",
+        "CPU": "0.00022779"
+      }
+    },
+    {
+      "object_id": "ap-k85HxWPVFnIJC1wPF6DNE1",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.06272633",
+      "cost_by_resource": {
+        "Memory": "0.01269335",
+        "CPU": "0.05003297"
+      }
+    },
+    {
+      "object_id": "ap-kCXjDj69qCU0UxhZvHv1lE",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.18131930",
+      "cost_by_resource": {
+        "Memory": "0.04583110",
+        "CPU": "0.13548820"
+      }
+    },
+    {
+      "object_id": "ap-kIctTuMgPpEwmPi3YAoxu7",
+      "description": "behavioral-equivalence-kuairand27k-preparation-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.00844001",
+      "cost_by_resource": {
+        "Memory": "0.00213334",
+        "CPU": "0.00630667"
+      }
+    },
+    {
+      "object_id": "ap-l05Wn5PzL7HM7soUKFDoOU",
+      "description": "behavioral-equivalence-prepare-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00745768",
+      "cost_by_resource": {
+        "Memory": "0.00288333",
+        "Network Egress": "0.00000869",
+        "CPU": "0.00456566"
+      }
+    },
+    {
+      "object_id": "ap-lEEl5vDM5wCGosFgeMhnK1",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.04838930",
+      "cost_by_resource": {
+        "Memory": "0.01223110",
+        "CPU": "0.03615820"
+      }
+    },
+    {
+      "object_id": "ap-lEEl5vDM5wCGosFgeMhnK1",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.10662536",
+      "cost_by_resource": {
+        "Memory": "0.02695112",
+        "CPU": "0.07967425"
+      }
+    },
+    {
+      "object_id": "ap-lGDBSpt15XwyjNOwZ95g4j",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.01765825",
+      "cost_by_resource": {
+        "Memory": "0.00357334",
+        "CPU": "0.01408491"
+      }
+    },
+    {
+      "object_id": "ap-lGR3kNMZ6oOk60i4PGQUP7",
+      "description": "behavioral-equivalence-case-inference-verification-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.01871244",
+      "cost_by_resource": {
+        "Memory": "0.00378667",
+        "CPU": "0.01492577"
+      }
+    },
+    {
+      "object_id": "ap-lts5DJTqlMV6B8yUEKBMh3",
+      "description": "behavioral-equivalence-human-calendar-training-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.00220275",
+      "cost_by_resource": {
+        "Memory": "0.00088888",
+        "CPU": "0.00131387"
+      }
+    },
+    {
+      "object_id": "ap-mJlNIkUH9pHHEvaWqecA3b",
+      "description": "behavioral-equivalence-response-certificates-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.00017593",
+      "cost_by_resource": {
+        "Memory": "0.00004445",
+        "CPU": "0.00013149"
+      }
+    },
+    {
+      "object_id": "ap-mNlQtLPFtP9LuxGrkQdkJO",
+      "description": "behavioral-equivalence-coverage-analysis-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.00001756",
+      "cost_by_resource": {
+        "Memory": "0.00000444",
+        "CPU": "0.00001312"
+      }
+    },
+    {
+      "object_id": "ap-mSfAunatDKUYDhftW494PI",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00658953",
+      "cost_by_resource": {
+        "Memory": "0.00133331",
+        "CPU": "0.00525623"
+      }
+    },
+    {
+      "object_id": "ap-mhmg6r11ubqjjkCXR6j8yI",
+      "description": "behavioral-equivalence-formal-bounds-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.00483115",
+      "cost_by_resource": {
+        "Memory": "0.00077125",
+        "Network Egress": "0.00009448",
+        "CPU": "0.00396542"
+      }
+    },
+    {
+      "object_id": "ap-mkIXVHGqXJ0QamHD8pIpTT",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.08829102",
+      "cost_by_resource": {
+        "Memory": "0.01786665",
+        "CPU": "0.07042438"
+      }
+    },
+    {
+      "object_id": "ap-mnzEQ38vVKtl3NVGdtZkYz",
+      "description": "behavioral-equivalence-prepare-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00805188",
+      "cost_by_resource": {
+        "Memory": "0.00298666",
+        "CPU": "0.00506522"
+      }
+    },
+    {
+      "object_id": "ap-nbfFzL9IsRKJQFjlTKcwWD",
+      "description": "behavioral-equivalence-pilot-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00405557",
+      "cost_by_resource": {
+        "Memory": "0.00058667",
+        "Network Egress": "0.00000023",
+        "CPU": "0.00346867"
+      }
+    },
+    {
+      "object_id": "ap-nlWdFj4C3Gw4iU53Vfzcdf",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.01113802",
+      "cost_by_resource": {
+        "Memory": "0.00225390",
+        "CPU": "0.00888412"
+      }
+    },
+    {
+      "object_id": "ap-o1S9kGqm8jiYwe0rwZrOVn",
+      "description": "behavioral-equivalence-human-calendar-training-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T19:00:00Z",
+      "cost": "0.44102535",
+      "cost_by_resource": {
+        "Memory": "0.09108895",
+        "Network Egress": "0.00034122",
+        "CPU": "0.34959518"
+      }
+    },
+    {
+      "object_id": "ap-o1S9kGqm8jiYwe0rwZrOVn",
+      "description": "behavioral-equivalence-human-calendar-training-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "1.93066833",
+      "cost_by_resource": {
+        "Memory": "0.39199555",
+        "Network Egress": "0.00133721",
+        "CPU": "1.53733557"
+      }
+    },
+    {
+      "object_id": "ap-o1S9kGqm8jiYwe0rwZrOVn",
+      "description": "behavioral-equivalence-human-calendar-training-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "2.79985114",
+      "cost_by_resource": {
+        "Memory": "0.57005310",
+        "Network Egress": "0.00085062",
+        "CPU": "2.22894741"
+      }
+    },
+    {
+      "object_id": "ap-o1S9kGqm8jiYwe0rwZrOVn",
+      "description": "behavioral-equivalence-human-calendar-training-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "2.87877285",
+      "cost_by_resource": {
+        "Memory": "0.58399999",
+        "Network Egress": "0.00072271",
+        "CPU": "2.29405016"
+      }
+    },
+    {
+      "object_id": "ap-o1S9kGqm8jiYwe0rwZrOVn",
+      "description": "behavioral-equivalence-human-calendar-training-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "2.78595034",
+      "cost_by_resource": {
+        "Memory": "0.56522665",
+        "Network Egress": "0.00067138",
+        "CPU": "2.22005230"
+      }
+    },
+    {
+      "object_id": "ap-o1S9kGqm8jiYwe0rwZrOVn",
+      "description": "behavioral-equivalence-human-calendar-training-v3",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "1.66411517",
+      "cost_by_resource": {
+        "Memory": "0.33827049",
+        "Network Egress": "0.00037812",
+        "CPU": "1.32546657"
+      }
+    },
+    {
+      "object_id": "ap-o1S9kGqm8jiYwe0rwZrOVn",
+      "description": "behavioral-equivalence-human-calendar-training-v3",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.89106877",
+      "cost_by_resource": {
+        "Memory": "0.18186666",
+        "Network Egress": "0.00022759",
+        "CPU": "0.70897452"
+      }
+    },
+    {
+      "object_id": "ap-o1S9kGqm8jiYwe0rwZrOVn",
+      "description": "behavioral-equivalence-human-calendar-training-v3",
+      "environment_name": "main",
+      "interval": "2026-10-16T02:00:00Z",
+      "cost": "0.11280541",
+      "cost_by_resource": {
+        "Memory": "0.02317777",
+        "Network Egress": "0.00003360",
+        "CPU": "0.08959405"
+      }
+    },
+    {
+      "object_id": "ap-o9U3s1zozSLWC311C48FC8",
+      "description": "behavioral-equivalence-heldout-response-frontiers-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00214518",
+      "cost_by_resource": {
+        "Memory": "0.00054223",
+        "CPU": "0.00160296"
+      }
+    },
+    {
+      "object_id": "ap-oTwDVtKghO7S40JO1qIfIY",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00975163",
+      "cost_by_resource": {
+        "Memory": "0.00197335",
+        "CPU": "0.00777828"
+      }
+    },
+    {
+      "object_id": "ap-ok7Doi3jKIDo8Ew5jl8YV6",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.08004979",
+      "cost_by_resource": {
+        "Memory": "0.01619895",
+        "CPU": "0.06385084"
+      }
+    },
+    {
+      "object_id": "ap-oshbXI9Kx2Ym0nMb4XbZG2",
+      "description": "behavioral-equivalence-history-states-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.01502266",
+      "cost_by_resource": {
+        "Memory": "0.00304000",
+        "CPU": "0.01198266"
+      }
+    },
+    {
+      "object_id": "ap-p94ok9musZTMh4NbhEd9za",
+      "description": "behavioral-equivalence-adjacent-calibration-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T20:00:00Z",
+      "cost": "0.03197391",
+      "cost_by_resource": {
+        "Memory": "0.01263585",
+        "Network Egress": "0.00006286",
+        "CPU": "0.01927519"
+      }
+    },
+    {
+      "object_id": "ap-pAVLgx1YYdtcQkHOhiSz7T",
+      "description": "behavioral-equivalence-history-states-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00300299",
+      "cost_by_resource": {
+        "Memory": "0.00009945",
+        "Network Egress": "0.00035143",
+        "CPU": "0.00255212"
+      }
+    },
+    {
+      "object_id": "ap-pB4xJ5FKwg5OxcabD5K8fl",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00581114",
+      "cost_by_resource": {
+        "Memory": "0.00117335",
+        "CPU": "0.00463779"
+      }
+    },
+    {
+      "object_id": "ap-pJaPFwe9wRKPm0nbaFJ4wF",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00764936",
+      "cost_by_resource": {
+        "Memory": "0.00154665",
+        "CPU": "0.00610271"
+      }
+    },
+    {
+      "object_id": "ap-q8nqGFIqsPAt1rs6eFeR9h",
+      "description": "behavioral-equivalence-human-final-horizons-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.09725289",
+      "cost_by_resource": {
+        "Memory": "0.01968001",
+        "CPU": "0.07757288"
+      }
+    },
+    {
+      "object_id": "ap-qIZuoR01qZtPxiO6FjMwpn",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00554022",
+      "cost_by_resource": {
+        "Memory": "0.00112002",
+        "CPU": "0.00442020"
+      }
+    },
+    {
+      "object_id": "ap-qUpmul7naFi4eBsFNDNG1d",
+      "description": "behavioral-equivalence-calendar-quantization-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.05113036",
+      "cost_by_resource": {
+        "Memory": "0.01034668",
+        "Network Egress": "0.00000050",
+        "CPU": "0.04078318"
+      }
+    },
+    {
+      "object_id": "ap-qYv5Q8vDfJhKrARhKp7IzR",
+      "description": "behavioral-equivalence-heldout-teacher-priors-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00131781",
+      "cost_by_resource": {
+        "Memory": "0.00026667",
+        "CPU": "0.00105114"
+      }
+    },
+    {
+      "object_id": "ap-qbx3Qy5meT8sz4ypInNbZE",
+      "description": "behavioral-equivalence-synthetic-main-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.00000000",
+      "cost_by_resource": {
+        "Memory": "0.00000000",
+        "CPU": "0.00000000"
+      }
+    },
+    {
+      "object_id": "ap-qn3C7uszJVUWJCG4usDllk",
+      "description": "behavioral-equivalence-nominal-ablation-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.00096794",
+      "cost_by_resource": {
+        "Memory": "0.00024444",
+        "Network Egress": "0.00000087",
+        "CPU": "0.00072263"
+      }
+    },
+    {
+      "object_id": "ap-r7H0tRzyoWe2L5hKxw70n1",
+      "description": "behavioral-equivalence-figure04-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.00007032",
+      "cost_by_resource": {
+        "Memory": "0.00001778",
+        "CPU": "0.00005255"
+      }
+    },
+    {
+      "object_id": "ap-rXAlXDmLNtxDulHRSN6rWP",
+      "description": "behavioral-equivalence-supplementary-fit-cohort-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00599155",
+      "cost_by_resource": {
+        "Memory": "0.00241778",
+        "CPU": "0.00357378"
+      }
+    },
+    {
+      "object_id": "ap-re1tbQjBcMPIa0TNS7vbyi",
+      "description": "behavioral-equivalence-pilot-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00701086",
+      "cost_by_resource": {
+        "Memory": "0.00088790",
+        "Network Egress": "0.00001569",
+        "CPU": "0.00610727"
+      }
+    },
+    {
+      "object_id": "ap-sHH5wpqWeqt3y3eLqYxzfi",
+      "description": "behavioral-equivalence-calibrated-parent-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.03439810",
+      "cost_by_resource": {
+        "Memory": "0.00696083",
+        "CPU": "0.02743727"
+      }
+    },
+    {
+      "object_id": "ap-sNpcaAMrNKUKY4nGjVLN5p",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.16345467",
+      "cost_by_resource": {
+        "Memory": "0.04131556",
+        "CPU": "0.12213911"
+      }
+    },
+    {
+      "object_id": "ap-suGgvSlDBQsPN2Bn8QOxah",
+      "description": "behavioral-equivalence-confirmatory-cases-27k-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.06690663",
+      "cost_by_resource": {
+        "Memory": "0.02644960",
+        "Network Egress": "0.00015870",
+        "CPU": "0.04029834"
+      }
+    },
+    {
+      "object_id": "ap-t1ug1wd7fFUFnu8UgG39WT",
+      "description": "behavioral-equivalence-synthetic-main-v3",
+      "environment_name": "main",
+      "interval": "2026-10-15T16:00:00Z",
+      "cost": "0.00653709",
+      "cost_by_resource": {
+        "Memory": "0.00110667",
+        "Network Egress": "0.00000404",
+        "CPU": "0.00542638"
+      }
+    },
+    {
+      "object_id": "ap-tPaDihM0xThprV050W6WU5",
+      "description": "behavioral-equivalence-kuairand27k-preparation-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.03896140",
+      "cost_by_resource": {
+        "Memory": "0.02149321",
+        "Network Egress": "0.00011556",
+        "CPU": "0.01735263"
+      }
+    },
+    {
+      "object_id": "ap-tQYmbByVALej61pA7suHoP",
+      "description": "behavioral-equivalence-quantization-pilot-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.03221735",
+      "cost_by_resource": {
+        "L4": "0.02666676",
+        "Memory": "0.00214501",
+        "Network Egress": "0.00000573",
+        "CPU": "0.00339986"
+      }
+    },
+    {
+      "object_id": "ap-twlqQt3qc4hJ5EACFWCvgT",
+      "description": "behavioral-equivalence-supplementary-adjacent-targets-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00140977",
+      "cost_by_resource": {
+        "Memory": "0.00056889",
+        "CPU": "0.00084089"
+      }
+    },
+    {
+      "object_id": "ap-txDMGLbU8cyFTevLXA6Cib",
+      "description": "behavioral-equivalence-supplementary-output-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.01127820",
+      "cost_by_resource": {
+        "Memory": "0.00455110",
+        "CPU": "0.00672710"
+      }
+    },
+    {
+      "object_id": "ap-u6MarBXsbq7D9H3AkGCUIz",
+      "description": "behavioral-equivalence-source-package-reproduction-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.00315005",
+      "cost_by_resource": {
+        "Memory": "0.00040478",
+        "Network Egress": "0.00014843",
+        "CPU": "0.00259685"
+      }
+    },
+    {
+      "object_id": "ap-uBRUUhDhHBFsGOdpCnjrx1",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00951220",
+      "cost_by_resource": {
+        "Memory": "0.00192001",
+        "CPU": "0.00759219"
+      }
+    },
+    {
+      "object_id": "ap-uDtWVgjeTGybzpVdR1rw8Z",
+      "description": "behavioral-equivalence-diversity-profile-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.00030839",
+      "cost_by_resource": {
+        "Memory": "0.00012444",
+        "CPU": "0.00018395"
+      }
+    },
+    {
+      "object_id": "ap-uG2Ox4XCyNf4DhrRAnQzZh",
+      "description": "behavioral-equivalence-supplementary-calibration-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00260236",
+      "cost_by_resource": {
+        "Memory": "0.00061111",
+        "Network Egress": "0.00000305",
+        "CPU": "0.00198820"
+      }
+    },
+    {
+      "object_id": "ap-udYyFpDPsmXcmKJjopdBif",
+      "description": "behavioral-equivalence-human-final-responses-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.01106928",
+      "cost_by_resource": {
+        "Memory": "0.00223999",
+        "CPU": "0.00882929"
+      }
+    },
+    {
+      "object_id": "ap-ujOpcOgmYG4ckKInoiE7nh",
+      "description": "behavioral-equivalence-nominal-analysis-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00021101",
+      "cost_by_resource": {
+        "Memory": "0.00005333",
+        "CPU": "0.00015767"
+      }
+    },
+    {
+      "object_id": "ap-v5v9H86CMA3Jp5aL4UKjiP",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.10282736",
+      "cost_by_resource": {
+        "Memory": "0.02599112",
+        "CPU": "0.07683624"
+      }
+    },
+    {
+      "object_id": "ap-v5v9H86CMA3Jp5aL4UKjiP",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.06133067",
+      "cost_by_resource": {
+        "Memory": "0.01550222",
+        "CPU": "0.04582845"
+      }
+    },
+    {
+      "object_id": "ap-vBtfU2oJDkqUxuIGY11qjj",
+      "description": "behavioral-equivalence-resolution-support-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00237198",
+      "cost_by_resource": {
+        "Memory": "0.00048000",
+        "CPU": "0.00189199"
+      }
+    },
+    {
+      "object_id": "ap-vVUS05JulBRWdCcjrhA9ad",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.01123608",
+      "cost_by_resource": {
+        "Memory": "0.00226806",
+        "CPU": "0.00896801"
+      }
+    },
+    {
+      "object_id": "ap-viRnygxbQPHPi7wJfdGqph",
+      "description": "behavioral-equivalence-confirmatory-case-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.03427000",
+      "cost_by_resource": {
+        "Memory": "0.01355763",
+        "Network Egress": "0.00005497",
+        "CPU": "0.02065740"
+      }
+    },
+    {
+      "object_id": "ap-w5p7MesWh6a62nGN6I9WoL",
+      "description": "behavioral-equivalence-human-final-responses-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.02582853",
+      "cost_by_resource": {
+        "Memory": "0.00522668",
+        "CPU": "0.02060184"
+      }
+    },
+    {
+      "object_id": "ap-wOpXH8Y6IMLmFsciF3Kjer",
+      "description": "behavioral-equivalence-supplementary-validation-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00447432",
+      "cost_by_resource": {
+        "Memory": "0.00098944",
+        "Network Egress": "0.00000858",
+        "CPU": "0.00347629"
+      }
+    },
+    {
+      "object_id": "ap-wYZHocZ86xyOiRvYWDE2Mj",
+      "description": "behavioral-equivalence-human-final-responses-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.00282644",
+      "cost_by_resource": {
+        "Memory": "0.00040889",
+        "CPU": "0.00241755"
+      }
+    },
+    {
+      "object_id": "ap-weeRSyqNzKWsyqkAqHcIgy",
+      "description": "behavioral-equivalence-response-certificates-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.00161767",
+      "cost_by_resource": {
+        "Memory": "0.00040889",
+        "CPU": "0.00120878"
+      }
+    },
+    {
+      "object_id": "ap-wvOCIx1dz46qgwFnuODwNt",
+      "description": "behavioral-equivalence-human-final-horizons-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.09221718",
+      "cost_by_resource": {
+        "Memory": "0.01865853",
+        "CPU": "0.07355865"
+      }
+    },
+    {
+      "object_id": "ap-wyJr27CKmCffCKdzL42I65",
+      "description": "behavioral-equivalence-heldout-response-frontiers-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T01:00:00Z",
+      "cost": "0.00259951",
+      "cost_by_resource": {
+        "Memory": "0.00104889",
+        "CPU": "0.00155062"
+      }
+    },
+    {
+      "object_id": "ap-xTIOlHrXaVaAJM2ByWIA1O",
+      "description": "behavioral-equivalence-pilot-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T15:00:00Z",
+      "cost": "0.00368691",
+      "cost_by_resource": {
+        "Memory": "0.00053333",
+        "Network Egress": "0.00000023",
+        "CPU": "0.00315334"
+      }
+    },
+    {
+      "object_id": "ap-xbFcRYlS7lTPMGZBe2YBvx",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00685543",
+      "cost_by_resource": {
+        "Memory": "0.00138667",
+        "CPU": "0.00546876"
+      }
+    },
+    {
+      "object_id": "ap-xhEqy1HKTMaTGwmcL5MFUS",
+      "description": "behavioral-equivalence-weighted-events-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00316504",
+      "cost_by_resource": {
+        "Memory": "0.00080001",
+        "CPU": "0.00236503"
+      }
+    },
+    {
+      "object_id": "ap-xvq2i2zpqaKnZyJawsaQEr",
+      "description": "behavioral-equivalence-history-states-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00289909",
+      "cost_by_resource": {
+        "Memory": "0.00058666",
+        "CPU": "0.00231243"
+      }
+    },
+    {
+      "object_id": "ap-y0yQbbQkVfjfr8GQPkmeqH",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00475021",
+      "cost_by_resource": {
+        "Memory": "0.00095998",
+        "CPU": "0.00379023"
+      }
+    },
+    {
+      "object_id": "ap-y7S10VsZlPIj3974ja80YH",
+      "description": "behavioral-equivalence-kuairand27k-independent-audit-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T18:00:00Z",
+      "cost": "0.00196936",
+      "cost_by_resource": {
+        "Memory": "0.00049778",
+        "CPU": "0.00147157"
+      }
+    },
+    {
+      "object_id": "ap-yCD8nCLgVxFvSD6l0LGmtH",
+      "description": "behavioral-equivalence-human-final-horizons-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.08012117",
+      "cost_by_resource": {
+        "Memory": "0.01621339",
+        "CPU": "0.06390778"
+      }
+    },
+    {
+      "object_id": "ap-yCD8nCLgVxFvSD6l0LGmtH",
+      "description": "behavioral-equivalence-human-final-horizons-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.01528593",
+      "cost_by_resource": {
+        "Memory": "0.00309327",
+        "CPU": "0.01219265"
+      }
+    },
+    {
+      "object_id": "ap-yQnL6nBuTNQDRtnNBSbG7b",
+      "description": "behavioral-equivalence-synthetic-summary-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T21:00:00Z",
+      "cost": "0.00466987",
+      "cost_by_resource": {
+        "Memory": "0.00188444",
+        "CPU": "0.00278543"
+      }
+    },
+    {
+      "object_id": "ap-yQnL6nBuTNQDRtnNBSbG7b",
+      "description": "behavioral-equivalence-synthetic-summary-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.01436212",
+      "cost_by_resource": {
+        "Memory": "0.00579556",
+        "CPU": "0.00856656"
+      }
+    },
+    {
+      "object_id": "ap-yTFe3kYNHhFd20FdkcBFe9",
+      "description": "behavioral-equivalence-human-nested-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T22:00:00Z",
+      "cost": "0.14924730",
+      "cost_by_resource": {
+        "Memory": "0.03772444",
+        "CPU": "0.11152287"
+      }
+    },
+    {
+      "object_id": "ap-ydPa0T1DkeIjoQ5iBPdUR9",
+      "description": "behavioral-equivalence-teacher-cpu-diagnosis-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T16:00:00Z",
+      "cost": "0.00171039",
+      "cost_by_resource": {
+        "Memory": "0.00067556",
+        "CPU": "0.00103483"
+      }
+    },
+    {
+      "object_id": "ap-yl7BLyhS9kPZFvMHjpWZxq",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T05:00:00Z",
+      "cost": "0.01067222",
+      "cost_by_resource": {
+        "Memory": "0.00215964",
+        "CPU": "0.00851258"
+      }
+    },
+    {
+      "object_id": "ap-yn68zP0VShbByryUnreSTh",
+      "description": "behavioral-equivalence-response-frontier-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00168799",
+      "cost_by_resource": {
+        "Memory": "0.00042666",
+        "CPU": "0.00126132"
+      }
+    },
+    {
+      "object_id": "ap-yn68zP0VShbByryUnreSTh",
+      "description": "behavioral-equivalence-response-frontier-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.00021100",
+      "cost_by_resource": {
+        "Memory": "0.00005333",
+        "CPU": "0.00015767"
+      }
+    },
+    {
+      "object_id": "ap-z706IlkCD3zjiZkOqRH2er",
+      "description": "behavioral-equivalence-supplementary-heads-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.00845104",
+      "cost_by_resource": {
+        "Memory": "0.00170667",
+        "CPU": "0.00674437"
+      }
+    },
+    {
+      "object_id": "ap-zAing0D1rGN1GGufJ9hjwf",
+      "description": "behavioral-equivalence-human-final-one-step-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T04:00:00Z",
+      "cost": "0.02240210",
+      "cost_by_resource": {
+        "Memory": "0.00453331",
+        "CPU": "0.01786879"
+      }
+    },
+    {
+      "object_id": "ap-zIIdK21Y8oIMrJMU9fPs47",
+      "description": "behavioral-equivalence-resolution-support-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00105424",
+      "cost_by_resource": {
+        "Memory": "0.00021334",
+        "CPU": "0.00084090"
+      }
+    },
+    {
+      "object_id": "ap-zN4f8fUtqotOuCcL0q6FrT",
+      "description": "behavioral-equivalence-human-final-responses-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T03:00:00Z",
+      "cost": "0.01370666",
+      "cost_by_resource": {
+        "Memory": "0.00277331",
+        "Network Egress": "0.00000186",
+        "CPU": "0.01093148"
+      }
+    },
+    {
+      "object_id": "ap-zT5GSkQD1oUJ0fN9MU47RC",
+      "description": "behavioral-equivalence-random-response-calibration-v1",
+      "environment_name": "main",
+      "interval": "2026-10-15T23:00:00Z",
+      "cost": "0.00237205",
+      "cost_by_resource": {
+        "Memory": "0.00048001",
+        "CPU": "0.00189204"
+      }
+    },
+    {
+      "object_id": "ap-zn6tyjYnliI2ReoQw564yN",
+      "description": "behavioral-equivalence-kuairand27k-ingest-v2",
+      "environment_name": "main",
+      "interval": "2026-10-15T17:00:00Z",
+      "cost": "0.00498516",
+      "cost_by_resource": {
+        "Memory": "0.00124444",
+        "Network Egress": "0.00000007",
+        "CPU": "0.00374065"
+      }
+    },
+    {
+      "object_id": "ap-zpTkL7yj0hd0wg8JiGl6NF",
+      "description": "behavioral-equivalence-response-certificates-v1",
+      "environment_name": "main",
+      "interval": "2026-10-16T00:00:00Z",
+      "cost": "0.00161766",
+      "cost_by_resource": {
+        "Memory": "0.00040889",
+        "CPU": "0.00120878"
+      }
+    }
+  ],
+  "status": "provider metered report",
+  "workspace_row_count": 958
+}

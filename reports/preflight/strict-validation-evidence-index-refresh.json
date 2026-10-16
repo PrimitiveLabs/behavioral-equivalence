@@ -1,0 +1,24 @@
+{
+  "status": "controlled_refresh_complete",
+  "observed_at": "2026-10-16T09:19:17.466457+00:00",
+  "changes": [
+    {
+      "path": "reports/execution-state.json",
+      "old": "89de0922066848a3475a3a2c7baff26b14c863f1314b58ba9b82649d326915a0",
+      "new": "e3e464026520c674751de4fa548dd9e73178e05a6366a7b7d785051be92f09d0"
+    },
+    {
+      "path": "reports/paper-draft.md",
+      "old": "220c4cf0a191ce8134cd0952ed20b039443ca63f65ba23c0591e4ddd83b4dfea",
+      "new": "fb85614c862b69febc53da55e39433b3538b3394d6f1a0a9e5f80d46e3bade14"
+    },
+    {
+      "path": "reports/blog-draft.md",
+      "old": "a98106c34927e6aeba395ece3fb67bf466e78ecbf7435ec49b5cb286f6ad0cf8",
+      "new": "190074501830bea6052d5441e26da835d825a0807cff4170aae91f6c3556743a"
+    }
+  ],
+  "new_evidence": "reports/preflight/source-package-reproduction-ad74b89a721bbbba-e52eea4696b4-explicit-mount.json",
+  "goal_status": "active",
+  "scope": "New current-source strict reproduction evidence appended; synthesis/execution-state hashes refreshed explicitly. No original experiment outputs changed. Final QA acceptance and publication still open."
+}

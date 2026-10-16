@@ -1,0 +1,2578 @@
+{
+  "status": "complete",
+  "campaign_id": "uncertainty-main-v1-9550b167f4b9",
+  "protocol_digest": "9550b167f4b9f826e04d38cf73b238fd40a749c85d6f65c6dace2a27701a4597",
+  "worlds": 200,
+  "paired_transition_datasets": 600,
+  "method_dataset_evaluations": 1200,
+  "verified_certificate_artifacts": 1200,
+  "coverage": [
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "sampled_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "proven_noncoverage_count": 0,
+      "unresolved_comparisons": 0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "sampled_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "proven_noncoverage_count": 0,
+      "unresolved_comparisons": 0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "sampled_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "proven_noncoverage_count": 0,
+      "unresolved_comparisons": 0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "sampled_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "proven_noncoverage_count": 0,
+      "unresolved_comparisons": 0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "sampled_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "proven_noncoverage_count": 0,
+      "unresolved_comparisons": 0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "sampled_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "proven_noncoverage_count": 0,
+      "unresolved_comparisons": 0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "sampled_datasets": 100,
+      "kernel_inclusion_count": 99,
+      "all_probability_enclosures_contained_count": 100,
+      "proven_noncoverage_count": 0,
+      "unresolved_comparisons": 0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "sampled_datasets": 100,
+      "kernel_inclusion_count": 97,
+      "all_probability_enclosures_contained_count": 100,
+      "proven_noncoverage_count": 0,
+      "unresolved_comparisons": 0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "sampled_datasets": 100,
+      "kernel_inclusion_count": 98,
+      "all_probability_enclosures_contained_count": 100,
+      "proven_noncoverage_count": 0,
+      "unresolved_comparisons": 0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "sampled_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "proven_noncoverage_count": 0,
+      "unresolved_comparisons": 0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "sampled_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "proven_noncoverage_count": 0,
+      "unresolved_comparisons": 0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "sampled_datasets": 100,
+      "kernel_inclusion_count": 100,
+      "all_probability_enclosures_contained_count": 100,
+      "proven_noncoverage_count": 0,
+      "unresolved_comparisons": 0
+    }
+  ],
+  "widths": [
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9999996650250432,
+      "mean_active_state_vacuous_fraction": 0.9933333333333333
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9999999999418594,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 1.0,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 1.0,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9999996660790947,
+      "mean_active_state_vacuous_fraction": 0.9933333333333333
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9999999999418588,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 1.0,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 1.0,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9999996671232521,
+      "mean_active_state_vacuous_fraction": 0.9933333333333333
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9999999999418602,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 1.0,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 1.0,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9604245229616502,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9914974969225934,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.993007469845688,
+      "mean_active_state_vacuous_fraction": 0.41333333333333333
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9930101355700235,
+      "mean_active_state_vacuous_fraction": 0.68
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9621339216952437,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9906322370436194,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9918656942788016,
+      "mean_active_state_vacuous_fraction": 0.43833333333333335
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9918678284537823,
+      "mean_active_state_vacuous_fraction": 0.5883333333333333
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9752594366776394,
+      "mean_active_state_vacuous_fraction": 0.005
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9681608842123167,
+      "mean_active_state_vacuous_fraction": 0.195
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9417929593508966,
+      "mean_active_state_vacuous_fraction": 0.355
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9048918257972457,
+      "mean_active_state_vacuous_fraction": 0.35333333333333333
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.6159244513308054,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.769669953191973,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8521676360993855,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8686524883929064,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.6209590491602414,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.7644363734567002,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8339261716596781,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.847433120419602,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.4745954282839295,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.307887443586237,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.10415524969063984,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.03216143991999642,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9999999975425229,
+      "mean_active_state_vacuous_fraction": 0.9996666666666667
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9999999999999863,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 1.0,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 1.0,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9999999975425229,
+      "mean_active_state_vacuous_fraction": 0.9996666666666667
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9999999999999863,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 1.0,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 1.0,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9999999975425229,
+      "mean_active_state_vacuous_fraction": 0.9996666666666667
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9999999999999863,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 1.0,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 1.0,
+      "mean_active_state_vacuous_fraction": 1.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9785200232595987,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9969039608893188,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9973938743564146,
+      "mean_active_state_vacuous_fraction": 0.7236666666666668
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9973941095390902,
+      "mean_active_state_vacuous_fraction": 0.7936666666666667
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9796465535694757,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.996887307024477,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9973137695810782,
+      "mean_active_state_vacuous_fraction": 0.711
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9973139888340584,
+      "mean_active_state_vacuous_fraction": 0.7763333333333335
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9940931463073097,
+      "mean_active_state_vacuous_fraction": 0.17466666666666664
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.994541716905766,
+      "mean_active_state_vacuous_fraction": 0.47100000000000003
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9942146016304245,
+      "mean_active_state_vacuous_fraction": 0.593
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9936618502009429,
+      "mean_active_state_vacuous_fraction": 0.5923333333333334
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.6859586288691746,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8321254519899527,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8906557398809273,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8990825927300675,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.6886589664660113,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.830194193793415,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8845985946807947,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8924350775774519,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.5612226490339779,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.40297294839427455,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.1879483213416184,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "certified_hoeffding",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.09641915156406372,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9876771536098875,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9893190103180223,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.989331732208686,
+      "mean_active_state_vacuous_fraction": 0.065
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9893317322422667,
+      "mean_active_state_vacuous_fraction": 0.065
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9875758988238704,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9889448302796785,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9889557811416698,
+      "mean_active_state_vacuous_fraction": 0.04666666666666666
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9889557811708621,
+      "mean_active_state_vacuous_fraction": 0.04666666666666666
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9387495934860793,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8919048394469905,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.771086067728706,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.6210786155951555,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.6379823637270663,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.7870329062613329,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8549023614782232,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8586205280481403,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.6443388853584068,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.7839873024708673,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8421392629487177,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8449095678466366,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.46985679397978813,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.26919281283866586,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.06083139590381414,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.008930877825775294,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.21694727275469147,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.2893304069615874,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.38863805664864354,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.49069813848568694,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.2218728322153893,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.2911372661099609,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.38225279742902024,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.4751596866117241,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.16209440767892797,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.07400570535430159,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.006088880955446545,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.00012649258446633858,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9937629763421688,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9940452201222334,
+      "mean_active_state_vacuous_fraction": 0.016000000000000004
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9940466062383239,
+      "mean_active_state_vacuous_fraction": 0.08433333333333333
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9940466062388089,
+      "mean_active_state_vacuous_fraction": 0.08433333333333333
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9933731409017038,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9936199336376756,
+      "mean_active_state_vacuous_fraction": 0.012333333333333337
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9936211458933257,
+      "mean_active_state_vacuous_fraction": 0.062333333333333324
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9936211458937116,
+      "mean_active_state_vacuous_fraction": 0.062333333333333324
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9754421822194372,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9604876503193293,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.9180272765874207,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8545312186653905,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.7377080951775242,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8627750218716759,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8960691083853131,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8966926393726525,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.7407550851679562,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.861231530326053,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8925249042144522,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.8931167469941397,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.5389781656650624,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.3343232976267522,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.09478777852373163,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.019279329820479592,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.28776003342846773,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.42035574648606705,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.5868113312208526,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.6650999224535853,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.28866917530853575,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.420253225207033,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.5846781425306247,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.6615456040556548,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 5,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.18471029797225957,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 10,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.08676850052762675,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 25,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.007926782320722628,
+      "mean_active_state_vacuous_fraction": 0.0
+    },
+    {
+      "method": "clopper_pearson_float_quantiles",
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 50,
+      "independent_worlds": 100,
+      "mean_active_state_width": 0.00020515799682429878,
+      "mean_active_state_vacuous_fraction": 0.0
+    }
+  ],
+  "paired_width_comparisons": [
+    {
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.012322511415155613,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.013489325064363946,
+        -0.01121003722472126
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.010680989623837305,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.011975872734896285,
+        -0.009467367285625285
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.010668267791313921,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.01186567900798333,
+        -0.009406639069336625
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.010668267757733307,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.011857513069988416,
+        -0.009432406404410483
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.012423767255224342,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.013513600454494632,
+        -0.011305153727523796
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.011055169662180604,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.012252420022146823,
+        -0.009896816716270022
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.011044218858330276,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.012248047362017596,
+        -0.009869342575426661
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.011044218829137847,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.01221303860862525,
+        -0.009857462412696453
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.061250073637172525,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.06866001021601786,
+        -0.05408453726974811
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.10809516049486963,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.12158562153142916,
+        -0.09471085231393343
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.22891393227129397,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.256689557214382,
+        -0.19952105501563636
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.37892138440484446,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.4209227597876269,
+        -0.33694782321342964
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.32244215923458386,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.3241634023225581,
+        -0.3207232278431786
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.2044645906612606,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.20782551971369403,
+        -0.20112085408829417
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.13810510836746479,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.14402148173506973,
+        -0.1320423052911059
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.13438960752188328,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.14017271649737914,
+        -0.1284662953914146
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.3177950363368369,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.31902736758111655,
+        -0.3165172484960651
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.20664493457275201,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.20971568076624306,
+        -0.2034960244639022
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.14972643133008393,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.15459685206256987,
+        -0.1448777525839118
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.1469582606071459,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.15150337748678558,
+        -0.14218382302429547
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.5054026426978515,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.5231215422955724,
+        -0.48547263034308247
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.6989680713736506,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.7217931789347536,
+        -0.6742544201073144
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.8809615634470823,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.8969223305580218,
+        -0.86535956536859
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.8959609479714704,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.9218434833739327,
+        -0.8688081202824581
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.398977178576114,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.4007573294851913,
+        -0.39700756544736443
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.48033954623038544,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.48477732618495145,
+        -0.4757659855214151
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.46352957945074197,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.46799488197854877,
+        -0.4591858992183081
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.37795434990721943,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.38195644131770345,
+        -0.3742700058678275
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.39908621694485197,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.40110075297675274,
+        -0.3971463126870081
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.4732991073467393,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.4777023536808052,
+        -0.4690708041268347
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.45167337423065795,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.45600869587711285,
+        -0.447455359593387
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.3722734338078777,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.3770924066384288,
+        -0.36772877705152524
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.31250102060500157,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.3317785450996623,
+        -0.29417107383763164
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.23388173823193548,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.2637134613657785,
+        -0.20521213659049073
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.09806636873519331,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.12590744614166693,
+        -0.07342493040507109
+      ]
+    },
+    {
+      "size": 32,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.032034947335530084,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.044859804405768776,
+        -0.019978475920088258
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.006237021200353853,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.0069956054396093145,
+        -0.0054795319855694535
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.005954779877753027,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.006663650943616357,
+        -0.005235543530778491
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.005953393761676002,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.006701056163723666,
+        -0.005212339064054268
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "complete",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.005953393761191101,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.006671853263765518,
+        -0.005258994482917941
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.006626856640819211,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.007352000560765366,
+        -0.005864541576887415
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.006380066362310658,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.007112641653495051,
+        -0.0056313282168919425
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.006378854106674096,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.007137484538187917,
+        -0.005631789349473782
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "disengage",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.006378854106288391,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.00712365616179807,
+        -0.005619832889752151
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.024557815323085656,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.02788295208718349,
+        -0.02099558381954275
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.039512349680657144,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.04551095056366933,
+        -0.03321866757335219
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.08197272341257938,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.09555297433311263,
+        -0.06919896298947902
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 100,
+      "property": "survival",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.14546878133460958,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.16928372929491453,
+        -0.12441400392581003
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.24081192808207458,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.24268834784101917,
+        -0.23902111535432866
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.13412893901764297,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.13759093804909675,
+        -0.1306291141801157
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.10132476597110157,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.1062721556563329,
+        -0.09593100072739932
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "complete",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.10070147016643759,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.1058731113235014,
+        -0.09543988715229344
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.23889146840151965,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.24024421394181666,
+        -0.23756463986696794
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.13565577669842382,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.13910446227467732,
+        -0.13225217262825772
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.1047888653666261,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.10940555128326385,
+        -0.09995768864431218
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "disengage",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.10419724183991846,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.10913530481969581,
+        -0.09941227859656601
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.45511498064224754,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.47536975844572854,
+        -0.4327976990804646
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.6602184192790138,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.6880471472071878,
+        -0.6313861378900081
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.8994268231066929,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.9181391958470737,
+        -0.8796315021851578
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 1000,
+      "property": "survival",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.9743825203804632,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.9793606328047194,
+        -0.9689556986819575
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.3981985954407067,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.3999439485323317,
+        -0.39639728547686454
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.4117697055038858,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.41699581700116883,
+        -0.406808553390983
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.30384440866007456,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.30773563644426927,
+        -0.30010415183913625
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "complete",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.23398267027648223,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.23654652104176221,
+        -0.2314099552100054
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.39998979115747546,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.402017726907547,
+        -0.39796565193106814
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.409940968586382,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.4155225275041726,
+        -0.4041115015820193
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.2999204521501701,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.30456642467193235,
+        -0.29557664132709016
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "disengage",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.23088947352179734,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.23464474650717512,
+        -0.22712615122236252
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 5,
+      "cp_minus_hoeffding_mean_width": -0.3765123510617181,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.39737074474773854,
+        -0.356215140307626
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 10,
+      "cp_minus_hoeffding_mean_width": -0.31620444786664786,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.350641875506459,
+        -0.28272014352449854
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 25,
+      "cp_minus_hoeffding_mean_width": -0.1800215390208958,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.2267669283991773,
+        -0.1373774019850903
+      ]
+    },
+    {
+      "size": 128,
+      "samples_per_row": 10000,
+      "property": "survival",
+      "horizon": 50,
+      "cp_minus_hoeffding_mean_width": -0.09621399356723936,
+      "paired_stratified_world_bootstrap_95_ci": [
+        -0.1304288092139384,
+        -0.06392734768963718
+      ]
+    }
+  ],
+  "world_report_sha256": {
+    "775d21d6c0de09cfee65024d20fbf48bff0a6a5a75294881f0bff5093b6f1a76": "c62acd4ed8573f12188a757e1098d656964d923a9868cc8c0a972c47427c3aeb",
+    "bdf26c4489fd25081c23201abc6414d2f5507cb4c1348b23dcd85f5fa1f1d905": "9d3ec136588088cc5ae25e7177f9ffdbdf7103cc8e272766f62d1b8e9341bc1f",
+    "395a78d30b1a665aa7c3c7ff189c9990c6cba71e4f252a85b0ffe6f64ca9fea4": "389d333f5ace3b0092b7fc524fc52a7d5aad2f4db886524081e7745d042fbb17",
+    "b2e977b8c538ef1b05ce4d37905b8f09876a1bc28f9ac2221da6bcc772dd6731": "4faaa987eec64990f8b325a35a8cf54e9b043ed862f9a640f516654b4300d52d",
+    "f50a5223e54af62872844f3dd8569f928669565f728a4136538c212cb505a173": "7134b45d82253ea9a530e37c89caf48b0185af1ad8ccf34134a5070f8760d4ea",
+    "09c2e8f2e91715eadf382e99eee67803efce4089d4b35b2dad4ed028ee05fe6e": "936563d0d94a147831b0d3a7add9f12e5fe5a6ebcc358f3892aaeeeaa7b2cce7",
+    "a7e77f8b39f9f90ee2191032df8eb5bb1d7ed691a3427181ffec7f9326b92e53": "b1c9db8b6e6b5ddeb67cd3cb8613c84b9f5fc7d54f20bafdfe42ea0908622944",
+    "bb85092d791111a0d87f21d3488f66dc71bffdc5342ad2575d62f9f40c33aad7": "2ab680e02f22d5ba33269ddd8513cec1a0cbf734318c7f3c14c8b6e1b8fe6f33",
+    "f2209027c6614c954732fedc39f23416ffdd187c014e8770b5462fba849b3aca": "37e09ef939528644aa4151a553be633e182dbceac6c342f1f55fae70227f81d5",
+    "d557395505db0ded3ab78e05662c55e6dc01456ad4e24a1718e1336334a4e387": "14c7ca09e5c50ca72b93324e797c0bd55831f519ba8b4e48f2e3079ea8d22afa",
+    "8b859ea7f246d20e728ba371fdc91349bf88cf872a190b5d0f2f2d7beb499f25": "5d37535c3fab11c003655dac246734beb5c6e58faa3d70537613f4a0deaacf4f",
+    "b8bfbabea0e165703ace34ab0939c81d84d013a7b7d395b770a3f9d03490e729": "4c0aca790758e245cdd06fe253318bd6e793d30e702de2287f83f9dafc325f8a",
+    "6d5ecdcbe6cd9d8e78e8d3543ee93369c648378ae5ac770ebb4ed7a39b587598": "4f8f388477861c7db313b2b34931843fc0f33fc35fb93f5a4b908f1e2cc58118",
+    "1a9dfda4767ccb0cef8cf18394adee581f9bd9ef2b9616f485e61720776d4d03": "a71a2a9892206710b1265d77ea296110e82b15b39ba4527661a6135d302dcd8e",
+    "a937086bc3d620446a7537bdb4135c728367581386b20fb9f61a883dce2de4dc": "3cb072548e11ee46fe7110622caa67b0e88f30e482344b399b8a4f005e9f004a",
+    "f8f60d2b6a18afc881bcea74b8f35069ed34280f07495dc21a3bc39935c6c224": "e1de172bc22083c231a768c95dba5c4eb0ecbb55749d0fb6df7d981e4d342799",
+    "20f7df9c332b62def0ae05cd487c48c1d7898b028ec1fd1795422adddb22fc7c": "475d72e0625331d9329b3d4ae816324362491c485077245da9cb7d323bf5489e",
+    "762d0a1ef57e349c8c288ae7f8a07c8db29def58bd588fe02e5b22afb76be029": "14dd57ae49f6b8b9b750f481814a5828cb1bd6030391a120e79e5a87f08b7057",
+    "a88155477b1585bf5a49fc9eb5e86e3e19607e6b5f79787d7e428f6e7dc0687b": "0a8d925720d0f55b83f01506005d5aa1be2eef51e1e84c29cc573388a6039322",
+    "816f4ba0a0e80b81e8c3706b05b575d5f662cef80390a5350190e28c2b51e9ce": "54c12583f92a0b9778042b6d3440034c97a1e24a72bd769f85a9898b6ac6beff",
+    "37b292c20973a1214fe1da35325a64b8c0d0582efe42da1bcd16b90935b4a36b": "684d001c71f305bc21a013569148365e67f7f66ac456d9158431d91d450b9252",
+    "b82b1f32e5d606f6f94fe8eca3bd2a4fbec0d14de061e3fb69a7cba6f4fc6821": "86b2a5b75a78345dcad8c95efd3d280d94c57c49ab1b73c6f0a0d9d8f66ce70f",
+    "19c663aa6203a8676fecfdd0799b65b27c7dd5e1c05a627156cf73abd707f43f": "ba26829cdd3f709eb1406e2a546228099f1c6067fdd20bede99661b4ccaaf92e",
+    "14491174915b577e370de293bd0ffb404cf211026129a7b2016f8c022854f63f": "1f61ac0de48c5ec22e40401905c0d634053e5a95bf404000e621e2283600a7e7",
+    "46c8c44b3bd777b6093417c47f16e2d8d0d6acd751b120904e4a41c53ef943bb": "dba30f4190ba016169f4098c8b9e03f9e710934dc54853733475137a6d60cdd2",
+    "d076f42bd8fd6f97926ba71b3c337e1ba90b7c0a2fbc2c77692d45bf4dc4fd51": "71a7682810733a397f649b19a148bf8be570d08854bb130250769ef9dcc41632",
+    "0fdee2318b5035e62ac177a65b4150ee69fa96a5db749c952eedff392c5a13f2": "919566f8a5c76dc53d11ff241a540b168d2f2857c108dd89f4e165d350024812",
+    "de484ce74928df33fb5bbfbc85ed653bae84aa11c9c8577e1affc3100f328292": "50d02c33b4228c9a5d0eb8dd1771c84dce102412db3d1648d5e596edba739067",
+    "d062d33782a090c90d72a563aa5eb65255f1c5e07b2fac15ab9c2409b8e6b3e4": "312494d1e9ce8b91e53eaba1a51b6882fe4957d891b385e9a15dea2dc38a1b09",
+    "c43bef20de73c92d7795dc123b3aa3127714415b285ef926ddff556692bf4dd0": "5fd59d7942999b98d342799161f42946e77c0bc9dc6e40703a408fc2d77ee201",
+    "e24cc6f053f6dd5793ae40a619d182cf1270b5642d1bc8c969566aa0eaf7d9b2": "dd95d107a921272db5a2271b44bad2a7c19c6555bcb2dd06ce537577325d856f",
+    "f8508c8fffe72515fcdd6a3286aafb038c1190a420e2b14ee8cc4918a7aebb34": "5c4f69557c20f136621806fd86d7c487b4ca0bb81fd69ea226b386dec3de88d0",
+    "d924fc95394d71c07b66af2df37758a7d40c44baca133bc19b107139823e15ad": "c158c7a7fd6b7e165901e1d9096ed88897494582d4151dac17a88b491fe2d2b9",
+    "4e1cb122916d7da9d1b339ce3d6ffe4e203986b50beb2410ce39a6a1c4c7e591": "7a12ca0581a829c8ff1efc0bff119333b7f8234a78e8ef7322d4d50c81943597",
+    "a25786176b5a91f1df2652179eadeca6f9d6fbee4a72ee7cf90983bbccc1d479": "4a1d4830788dcfc1b29c4bac6f8c16c9161c6e41453f7bf74b7a95b62d6b1bf5",
+    "0d41e049d5beb7fbc31b25477ecaa6074e64c2f5c468d1c773d8d1a6c3728d64": "01fad611bfb70573dff8add04e08ce67b201629153def44054c2bd0ea1a92f1a",
+    "4fadc1ae408ad87e49febc9a1f3c0938183dd1871134370df8245a9b75e15848": "0ea50eef9e50cb67cd0ff5f499ceab394c9e317054793eca14aaa1bae1fa6cfa",
+    "17b83b58906898641dc774da3d1e040c9c3236f8f717098951662b762bda1c86": "04660086796f6078e1619f4275e1010bfe15b79975f70435ca575eb6cdc59ddf",
+    "2c81361c5d8f43f135040a392002e9e4d9d316743621e7d440b6ee7391755707": "4ab9d78a6844696599e222e072db61913d44dd27a92fa961cde70f8ad4c1739e",
+    "1ba407e8d7b180b4a5fb347d8ea1cd2787c98aedad045850dce885e4dc2330d9": "3fd4b2ca72480f4d0adbe926408ca99314ea2e01e29271240ee6458a636c8dac",
+    "0740479d96279c0af315667924ba9943f82c5ef03a6f9a0be85301736de5af8f": "9caae10076dfa8bcde3aa5c3e26a9ca6d2d070d0dfb95c22716431afa26f43a1",
+    "865c729dfe6cabff455d97631de8d8015ff412a4952e2d4031491fce769fee5b": "a38ff939a1c6ccebe935ca68ec2cedba2fbe5f9948e94e364500ec696ad66f0b",
+    "9ae6eccf14063ad4da22932457e542621af1d2590ed818abb6dc4ffc020ce7de": "32e676f62aae9671f200e72bf4652963ac328325009be2893de1f2aceee090ef",
+    "e45306b0f68a363f1dfec40c95ccb32777a81ea70f2dda8708296c467a0fe905": "3dec6bca8b45864d4d8d252c5ad31df535d74a202b6defc73ad933ccde4ea4fa",
+    "490b4b64a58b7c99cf186e1ee1fc4827f0784ed1d96dc13515a4aeeebd53d6cd": "890671bfddd9f967c1b308126457f13a30f0628098b1b05cf3edc324366d742f",
+    "01b22e105d7679a960e1d57ef6053d6c9562974774b57fefb486788e11cc6863": "de9d5f5dcc241accbe22e2ef749a000071725df5d6e4f93b0fbf512c9126dbac",
+    "342583b078aa9fa84f1d1c57faa3772b4ec6357dda95f4b0ddee6e01a703068a": "dfa8a5c1b3b341d8eee6246cae3e175ab19a7d08d299881f13c8551fb128c7b3",
+    "40e4d9be7c9477e692720bf8595054477cd163248f01eebecc2015838fe9037f": "01dcfc234df7e5bc78860c3eea6b638678e1ad9c28b7433605a2362547efa849",
+    "c2ebcbf93425ebe7009ee56c7f02596c566b5f4ba4a2f8cc3378a7cda0568a39": "c6e5df23f99716eaae257260f10ec3e4e626fb6477255882c1daf2e533ed573e",
+    "785d6785ec12185d1699b6d612aac0ae87bd19b152c015837e38017d833cfad7": "885027a8acdb7e269af427c506d32e4be879edb7d83bdd65927d9e4f2aa50eda",
+    "fdf076d501674405bcf3dfcc5a56d206a733287f23fe7d3eda48a56484fa143c": "29e8cad1995932e2e4f2ed87b53aa528115a9096a488de2f689f4d7bff494b49",
+    "e49fbb2cf4c91be3abf066867d6b899cb03bb4ba0e82cfa103af3caaf66cde13": "de7f0886d6c784e33a489b1917d5d2313f2e5af9576e705b50b7253b248eb9bf",
+    "c3f8be350bf359eadca5a6c376eec23186d4d297dc8933cfc1976a86fe982ecc": "eb041b0dd30862b0e94f55b624acaab293c1bb99b9eae4ed428451499e90596f",
+    "cd3e834a48a9e52f621cfe2d869400c2e0bcad8f5a8133e503b15c7ef110d871": "02ae48fa438699597a3fa88f9653dc3970f9336c2b4ed1751ef789e5ec7c826c",
+    "2093ddcb963ef7fa4076cae5d26e50fe20395cadd71bffb78be939d92b2e66f1": "323b85ab47ff798f5087ff799f0967ec1e30ad2159cd488ecf68c7422e57a8df",
+    "6b98e8bf60f1022bdc3f7bf172eedd9eedd03e6e1164f8f635d193a9173ca4b6": "a0722e05c03ab857e07d6148c0b37f94a20c4e51f8783d890a25c535fbf21023",
+    "bd0b5507a31b4c39082afc9677481b16138bd8417b0ddf1306ff7ee320226a5f": "00e447df13624be44859a5cdea8be5f96106844791190ff2e22df007762e48b1",
+    "11fc2b5b2572bf5a0ef2f22af81838e666495021b051e212009d00bbf1a8291b": "24cf9d186ba5de4f5624c907b80b068ade0bcf9b4f231bafba89389324a0a46b",
+    "be49e167598a7bdfa20898a0b6faf3b9be492e5a3cd736c32973ac5616cf88e7": "edbc6fef8d1870641fe74e9bbb988c3b839dff8814df5f3874d6cde673e8add2",
+    "82a22e8efd1737daf4159d3a9163a031dd4065dff70e4082e426725f2153b30d": "390b6c8e27b51975d9393ace7dfbe6dd45ecd342c453914ca69f4c5076cc4811",
+    "537ec4a99aacee2dfef0f2d39358c9227eeca3a00b1169cb5e79af7e64efba0e": "a8daad5e6afd11c4b7d1c13b5145fafda35062126a9dc4e05d26cf2700d6c9c9",
+    "48d610b5cd652a93ddef811024562687eef932cfbde905a2547c40c042b29a41": "7bd453ef92b228d0fd2262037cdc62a1a1aa7d8bd95fb40da325387927ee1cf4",
+    "e171ba9cd663e824967367af4c1a80df790bd10ab3056b9dfc6908418a985b5d": "c6ebc034f20cb5e4f3d832c510272d04e17ebe85705cb451834682daa0c57b49",
+    "95b30667af0ffa8e5cef049864d1bee5e4aae1beba640da1e61211872510355c": "62b9921e4839c798ff78affcf27917559439640e21a4a046fccb5990d49bbaf5",
+    "dd42f0858dc43536abcab8b215c22f419f21963c733235ffb8dfe0c08a11e85d": "d9cd4389b16e9ee318d8cbf15c69e1ae6ff68f596bb835dff58465a67a4bfe0c",
+    "d9e70e8d7bc9b6aec5eb9213acd7a3b1a34f15cf5d20fbdd88cd49747f23bb86": "33df37ef48cdb67876f90bfae388a0a52d2c642113752a8b99891bc796a5c356",
+    "4dfd52cbbba6edf64f30b11477d784a93093c7388f9658782d1bb5f8653f2c00": "8be50871b2e59fd87b4e98a2a5c37d6dbcabfc9cd1eb00cef77b37662cd26a9c",
+    "9fa96c8bc2e7a58d666e763b5e20866095b02bec318bed659a6e7e352def4383": "3f770c089d3a67b06beb96a4b966b79f8b2b7121765d78cb72d2073eeb2a05e1",
+    "8bf4aa86c7148ad0b226be765484bb7738193a04c25e86ad4c4104764f706c45": "2f3c6dcd9eb9f8073af1a4e3f7adca30421a8304d5ae3243e5fc3421437438a2",
+    "105eb43cb955963d48a4fb03d1be86bace743d8a1f8127a0b2c0d7acbbb72ee7": "9c2724cf493b6c38a63c632440daaa3a691c6811f796852df02d6bd5f1a501a7",
+    "bb65afdb050e0eec48b27c98902a4f51d174d44bdae8e57e6e44014369f4ae87": "ef2ca1d1ea5424db782aa7c157433cecc8cfbd6106253f1a6648f3475e4b3e16",
+    "02bc686cc99a4393c2323570d0d3b0b6e7fb3d94cc9b4b130486a25172d357dc": "bc8df08f22311eb904855e1848a14a08e29a80e51fb017d7aee237ee747c55df",
+    "c89c1f797935fd8706ac94da51e326039fdfe43bf693c0c83fcbafb9e62c91ac": "b8fc82a2c3d971df54b71d10147b0387059fa1f35641e3addeddd18c41351ea0",
+    "5ca62b172935ae9a61c35c40e00a2536828251f9bb739eee6495229649501758": "225221b9bc9163e5c0ad6196930191be3a661e5ab07e60aa82e4656a23755660",
+    "954765dc5886c6b3ae39089b1caf033064e786a75a2c16403e3e31f9f913cf80": "274ad7de549961e5c96067ad7c488760f6dcb781458ec310e489edd2af69f57b",
+    "78454ca85ac2e067dcaebee58369b466bef3ef934416f60cd56ef7640896b892": "4968f45ca5fd07caa55df1a62bff8474369d9f29d6da5138448ed1e045824dba",
+    "e9504781da43aa9d0b855de3f48b2c2d5cde56b7990135ccb61be3417deffd0d": "e5d1a4b3f846063b39ebe36fe561d8cf9f6e0e0159a5e4606efc81b20543c93d",
+    "c44d91d2b2e524d223a25668e22382e6b0c4d3a93e91f49b598b7e068c0aaa65": "73aa1a1878cf52f4e3f0cb29a7503fce94454a254cc8dc0af318539d38aba175",
+    "528a8de5419ff2203241e70b7a38e5a92bbfe0132c556391b4247d1253e471cf": "b14a97691ca17a57cfaa030495fa921ac2e7c53c76f65ea2d32a6c987b09b0e2",
+    "f23b6cb45d26bf4925096036fd6e117371ccf8350c2fb07ce91452aeed18d388": "2740629422883ab445ace15dee164a1dc5985c9b61fc6f8f53920714931115a8",
+    "cc052c0a7cc2f7f9e519ededcd91955deee45d38dacba340cee720f9078869e7": "4e5b447f3b71ae44f0586f0f02d70e43d6de3cb4560fc7f7a77654c56832f775",
+    "d3ade1940f4f42c552bcb1a12324dad9d94e5659cd0c20dfd34daca108b84a4d": "c9a37c8e88304e2f59771960cdab6e753fec109b4d70ece566879e1b4d7f8532",
+    "6b7e00b94eea89477cb9c79a03ca484ff6993106dc8067233b23009b2949c019": "9d3babaa5541d380c3256b866f760f0d162c2ed8e95a3178c38fce7d6c70bb6c",
+    "f0a1bd4b73bf7b3381faf4968c1e76ba63d597da1e4f9166d2eb63a1473d5d5a": "7af7ee2646698af9c7ffc47f23987d34497affede10da3e2b0b18175a9ac7cda",
+    "0615f64517ce19574fa7f99f5245362711e5710ed9b59be2cf7642b4c5df4fa1": "b6de2f80bf2d671eda92aeae3ae55214d0e5663df6b9e81009ff519a704fee36",
+    "3479c3596ef05a987c7dbd6545e7edc9aaa82fd3e137c33306080048141d7fcb": "0a59b70f0585291444225214f1c481a7118c91029bdd06bfdd44925042ed4c67",
+    "855f27c53b2ab8fb497a5d3ed2e58bdd7ab41bc9b5e04a2f9114e6be877d828c": "1675a67f38e09941890c45d323a37a5f6d86f0458c9682915eec7d6db13be806",
+    "317cdd94503ae2bdabf6024ad70ba506937da60600e443c24c24f25bcdc958eb": "4c09b3c243304ddcb6c7a98269dabd3e7aaea97e2cf26c2d69a2685270307495",
+    "f675b73ce2c0ce1809807e4a2073666222a701ef9091798dc97c24d69ad4c882": "155a7dd65dc0e48ac4c617430f2e248776cc1d834aa6bbe83e6f33082dec1fa9",
+    "3818d65d25e41b2709665059673d9cfb8b4555b2b0dc53543e6133b821163c26": "26d0155dc33d6af2f2afe4f091d7f72509622ec6aaaeed8d2b6e542d9d7bb7cc",
+    "f90bb415e5c4b9d6ee134b3d1307270e187dd6b836ca5db9954d6027e695d8f5": "15f62ada2bfdeb00b02ea74cd3403089cc2d1a0b66fab5eff6fa7bdfdb2aad54",
+    "74adb11b5dfb81783149245a3050b72723e737479e9ce9d24596e29206b0a351": "546fb5d3abaa841ca88f4fd36cd9f53dc1c615bc0a98533ce6a7c135bd30d13c",
+    "cd4c451e350e0386e570bf3c05b7152f19d71a8f9d8d0214175b635c0a421f3b": "d0b443800410a1267fd228e97d2fa7a87427713e3c767f1a36e1ad66a352b0ab",
+    "198d820e295fadfa3fe6f87eaefb05e65346cc8ab73552eeecec1fd241e60e8b": "4afc731e0c859e9f5d58c30defeac975683a3590204b3cf71ca1cf8ca5da2971",
+    "1b1a534f8b064d7a2a21a684796e874ad7f44bb63c6557cd09861c66f740f272": "0d76b95c307809ac1452e692c4245091fd05ca130503096783eab9123a73a2ef",
+    "3c27c5236dc3d270287133d83a8da738cc15ac799fd9f821b0ec0601acf66919": "b1ec870eb17adeccba0ce4239d688a0ba5abe5f509ebe6df14775c4efc42e076",
+    "9681f2ce63d43b976c7de4a195e506a385294c9a847b6d62edae20d9bd6eaef0": "9cf7074b3093e9299d309819e1737ef31206e33eb00d1cb0339fa34a4905d9fd",
+    "edff8d84db6fa96ec7c1c5f9e7b8ca229792abd7c70e9bafc52176075d462b44": "d138f0297160b251602131e6eff47a4e69fc56e8c21e07ded2a2430995c33958",
+    "dba03d2efbfe41f6b720fda6a7cfd6e0388669c85d86562179bdad1274ed0dd7": "20421b34a14541f5511479951210d43200fbeadee63987998bceb7fa66df6456",
+    "a8c969bb882261b0f3e230a52cbc6a314b9d462b57fb3212c3c98fdbfb94feca": "a98347b61636936ed6a5bdef36d0d8e3c97dbebd68b8de20cf366152c70079ce",
+    "f1eab9bb5cb50597157e8ba0e2c9e91608dfd45a74d7848bf81dd83ace0c3f2b": "1ccc4dca4036dad3ec6058be9524d2be858dfc7cdaf48399f803434f0b1a3267",
+    "8d0a940a82dc68c5fffd8d320fd526f1de03119799be4bd89685d74f7ae59ed2": "6243429871422fa7f0978da9f1e7e2201db84042d3bf374bc5f39ac438e9e928",
+    "7ba67d47e39683065cd813cc6cc376837e05d30e87b8bdf97b1583dfaf6b349b": "04e642ff91ae7dc2ae63df51c0660bad7e0f17fd98f0d925b200abc7b0dfa25f",
+    "d3237e2c5aba92a5b14502fb615107dbfc4b03eeaf29798c12280bcca32b9db6": "589254749c397aabed58a69d683fe9c63361553ff202d56a3a12836fead351a4",
+    "e6feaab98e0360727dd0ed764966ce56287d725c8d8224d8941b922f6a1f9794": "9bf1475806ceea21dae89daacfb4cb4e49872450bfc1bd814c7c4167f1336432",
+    "6973365452283810ba6a3e00603056a6f579dae71cd513ac72ec056d94c89cd3": "c1c0aaa1ff900f5fa234c8513060e37e747354a2964359652de448c40ca9bae4",
+    "54fde855f28a488311053d74740c5a4a61120a82ac138454c1566111854bfb1a": "c6f03dd01e7df9da7d086a7bc2c97b5e788050a25ad1c925e120d4fcda19f93f",
+    "a0c12dc611805f56b110f4ea975b29595d3e1755cb67fa70e51a7dda410d9354": "a2a7b35d4a4bcd406cc368654ec5983771013722e43d7f797273148ddcfcb949",
+    "7204807643c628bd4bdf0b6b0ef008877ea006a3284d6ece50ef3ed20824ff6d": "c8c7e5b2fdf36fe5d3fb886cfe4fd76a59fd98cdd79bc4354a9602261077898b",
+    "92f5a055897d8b3007676f5bd38ed9a6510bcf15d26a76137f03d5a0e755bc1f": "a0d83448a33d096b7d7d975b1968b4e0fb2bcb51c634cc3a3b9fb2786f690c8f",
+    "5ab76b16e360353d50affc42f0e2b28c7665eb2dcc565a1126d4ceb200927535": "a1f1a3c1c9eab3a5d55fafe0420e500a8918c812dd918f0f90584b37df347845",
+    "2b1becd01072739e9fb4bac30e47107003b487654e5bc0f0d564bee6b903745a": "70cca27de66d7e7d1b1356b24323098025e1351aee22145ff3518a87b361a734",
+    "be02159cc1230d0103d971570c15479971162189a7f6cbd2b45c06956373ac2f": "fcf96ecca5f82c8d99d0005ead2e7d45c785f2f7aa35a4b8cd15a1053db04704",
+    "3413ae04b0f384b048c2384b96823f0f722ee82855bb0e6432636e28c8ef09ad": "3c4d4091d7a9a0f0e3d3ba5bd7401d3e1aefb20ccf8cfc61d361a9fdf1fdb028",
+    "1f2aabdd03defb6c8c3af07c68458780e2e1ad3ea4a337375a17273bd6ce905c": "d1ce9c90f2f32381c6789d8227fbbcea68135d1704e3916c0ee5808b6912db53",
+    "fabc5c8c9331b5cf0e43bc9b33ab2d01fecaa5bdb090e01532501fa565375eb0": "a26690eaebe3c4ad6083957a0987175c10585e1421f64ecd87fe98d7a984605c",
+    "911f436b8f5683ecd6dc4deb1e89687717be17a2b3330ff8cdfa9ba9ae041a07": "7a1defeb7a525eb32caee3fdbfbb31f29bb3127d61e68d9282e3c2798e109b5a",
+    "c881fa073e74691ba614764b2363d55ef13af864ade95075f053246dc2cf06ec": "958407fcc863b3ca430e9d613c0cacbe9580bc8a4dd64ec2b6ce81d3ac51d9d5",
+    "005202ad72c7e33e4fdea63d7dbb78601587a7d6cfc9e70e32a799a13d0a853c": "2ada68ac5de3deb7e5a02f19ac74ae3e91e46df4db94db9ff283073912975eb8",
+    "c3d74a5c159307d614934130788a8d6b189bf3730aaba9799bc87c4cfebbd61f": "a6f05829d6843fc7f7bac2d9ea4d1d23f2350bb81265a971f2a737d346b31e7c",
+    "24ee05179a9c2c95e0a5a62797aed97587fd9d02a2f26ed1bd924a12a1216133": "210bc5d65e02d2675b3295982ab168a14d99041b409844ff957499eeefb84817",
+    "1c693731af9584fcb8e9fa6629cf001cfb75ee29d5c0b7aa994a2b30824f8a43": "e8e2e06b1a3383a892226c2d6f80888c680a8c37221eab85db488457b4f85350",
+    "a217c569509302f4a02e8d777fa66a965850f020cd3b01f65b13cdfced0d6174": "81623f10b4bcd2380aa9c556fed226d3ca0fb0bfcefc41fec289dba33db6384f",
+    "aa460754d3c38c61df025433ddea87305b16a97276f7e094c56f8338dd588dc4": "ed9f8ecda11520170b7b345ad53a7407e745cf1d1a8a2f54b37e403091737336",
+    "3422117d95e771b8c2c9e62b596332fa2393912f0a50de46aa04ee152c25435b": "f2a82aaa0b3a40bc82292c466a1d38cc713996997cf761b7df4d30fe0dd8fade",
+    "69b21568ac664bd7e195910afd9cd9b2110dd4895e8403a6e81bf8f429d5e024": "bcd126702bb6a3d12d767a805161a7e158c9f0d725b551e2f2e206d3750d6ba1",
+    "826ce6885ecce9b09de064b9b3e239fe6bb0524ecff97f0594f5bd79f744f1af": "d225f8b43ac50b4837c49249ad0286e72a01797dccbb2b4da6eb247bc5e6d661",
+    "f6d217fed6cee23ec8ef47b86e60e72b4c5f86389f0852e4c267cb4112b39c88": "ff2f36374c635758e25428a53385769211efc4700c5faa9693e74d764bada623",
+    "c475f2323865569484ab935c24d994484ee9a5b6f2a5ffb5b8cda996b7a62790": "458c8f525dc93501bdd2b59643bc7219964a992f15f123c27473baee30998846",
+    "87d9ac42bfb018eaafa651318121e17ac879407082c33461909082ca3b9cc971": "0553125657abe32cbf53e1ef12c2b8f1922b1640c6e38864ffaf7d7d3b71b729",
+    "aa28468dbf3e68cd9c3588c9329cdd3a0df633562d4ed89ac14402c9bbe17ff4": "f641259194936728347628de8fbae0fd90fafdd7611ace3b2609a126a74a8bf8",
+    "8619ae30333f720b1f3b4fff8e090947324501d007da8072672ea8c44f9506f7": "a25b652db470c2a0624ecec5349873e7cf86aaeffd1f2ccba748910ce44dbe35",
+    "74eca8456f74a1643147269d82e5d748fcede9e0829fa2436a3722eb1fee4ac0": "195e36d5292d66df354e14d560490b144270e9de7a3298e38fecf305fe70eeb9",
+    "7bfb5892520ca9a47a9db5fca28fac9cb7ef33b8fe2bd227d6eb81e261e5779f": "be2b60c3bf1f5d319e04d258ee00f43c180c2b54b7987fb1292ec5f40a267366",
+    "f7fd5bcd8ecf328400b40479d48466b389930df663d06c825f61b2db0545354b": "b0a78726d39347d0c1229f85ca8503a0ce9bcb59158f4c9b028f5621039868e5",
+    "22a8131db9a88096ae576f679bbc1cb7446b8f97956a680011274ae524ab9f10": "11bf4f79d0cb4612806f8d26830a0ac2b2a9573d693d6420af4519e6b7a232ba",
+    "ecf0e27ffbe1562af9ac20a6ef32b84a801617189e1c5ae87d53faecaff4e01b": "fc4a1f1747fb581503b6d03ce4641ef4bdf35f7ccdeb0bd91e2cf586bfb0ff35",
+    "70f96c202007ad29556c1884f2d4f88756115cf336f750eac080874ed016669b": "80907f77207c8983f56548ddd81ba5ef3e610a464943fdd2557395dc049c6388",
+    "603a94f8dfa8a4ee2d635f1cb843056c47d63e43b228ff91f2ad47d4256083a9": "3b46f8131140f7bb1f27ed552d67d7f1de2ee83cf66a52e590ede72ef111dd0c",
+    "bee31be6cc040301c72588ffff709bf18f6af6bdad6661632aa20a663db4d122": "44dc450ee26624221e229ba8d9e268bbbbf22acc2486a05b39e78fbba51f982c",
+    "e0498ac803207a1d70cc701fee9a5e0c84ff1103c866d56127097c04c071bc96": "8f195fe1ad416836ebdf4529eec19486c2184364fcd33bb67fcf615b28400c1d",
+    "a13e79769ce9b81388eaeb2757569ae9cd1b87855ec43d7d9daa8e24dd9f5aa8": "8ac80ba17ed86f5268111600472d612062906e5471ecd573896af7dee125261d",
+    "1304ae2e7ee87c7aab82e044f14beddbddb897689a03bc56e9697beb48a11afb": "d7a5b0f291df1b02db311127da574498c85a6905619987d744c7f8df6bd3cf36",
+    "828a73e2c012efe581138e0c4cc09725ab48a4487571d12ab910496ec8e70a95": "816eecc85c368fbc66b20adb33d0cf625c5ef7aa2f470d94e716add40a165202",
+    "37e294d0f7e2c5c479cbe771200e2c00fd9261e2074ecfcd8810772159dbc4b5": "0ed29b043abb2fe0f922ea79996e2e0dab0a6aaf3d517484ea60e8d8b8c8fceb",
+    "5b3a538d1d4a32518b17108a37d6ce46dbde9aeedd14e47cd276c5dd485bb7f0": "b6aab4e48d51340d4f8ec24c8c6d206f7939cfce2cca0a1cf0b7e7e31c439993",
+    "f4335210db1016721a47b56e41efcf56dffe51ef5959d5fafa18e5eeb639c5ea": "b075a21a11b518d0b3b612d16d11c8a827d8d17ec7a4312288ab12932cba25a3",
+    "69fddf618bd19d0d19496d20bf71ec9bd76ae84f0c3211af47855e17ea7a135b": "189c2e380861dbff02f0b52a3100b67bcb96a2422372e2d65376f3c1e2879211",
+    "04b0f3f9ef117cfb2e6c149d051b82e8bc48fbe2dfcf6813589cedeb6aedf5ca": "2ac9715edd5733347d34cd490b2c1e4ae823f5a9ebb5f7d84c9e8c9e899cc6b6",
+    "008a7767590516b171e120f41069efaedc8fdc119b383849de89d8148a3a55e9": "d7a8d9306a7573d610ad31b87aefbfe44331f126a1c642b910c02fe018b220a6",
+    "08e8084eb0e4a1818f0f83037599079a2278195b75fbb30a1f5a1ff3d039a090": "a7eda98eeee503440fe844886199f7172d011be7402e6b4f324e293cd5f406d4",
+    "493bd70acb2ce136c5461993fcbd00843d0a0340ac711db302fac353fa5234c3": "185810894d396e25ed751d6392b018a3ad1c70ed8f891413d971e21c6975155a",
+    "695ccf5476d1249f1abc2b767a4960d281a95e7e447fbeb9d131f1740d2afcbc": "9e23c87bed4729694e968a52a7a921c0ff885c33b70ce7d0b79ddb8a26eb482a",
+    "9dc0b6ebef090be2d1793d1e889081e3e9db8c0376e262cda86583da4c5494b6": "627b73b249d8511fad0e425a2b1f84fda0cef22fbbf3864b84ecd909b83aac97",
+    "c8a80a263d576a17dace1a9139715fb932db0508aae057eff4016cbd231ee146": "97ff35f269b8d7ab51cb50ed9ff18876971f74a7d4eabbaff50cc162330ca7f3",
+    "02d9ee9d23e79074518beecb712666958c0284bac533a46758e8fc22692402a3": "3e2c7813e2eb6c1f60e4ee10cedcbb3ba8adcd6f7006f117ff4c28d84f6065cd",
+    "1751730026cf181345a691a00b2b4235a9f07616e789940f886813917be017c4": "2fcf0ab479cb70bbde451ea370c32b976901755252300369b5b738c09aa20455",
+    "08b1eb40cd376c90a9ca8e5ff70c95b165985280054f23433bd8f7042adbd493": "d3c5b1ad867215035ae2b5afe448328622b447a22ca670206a2809f288b22a89",
+    "d567ad3e823cb9efa7043423f46febaf00e477b01ae61603ec81289c6b270b59": "08278742a1cfa896952a6e7aa72fc1ff45a11f6be80d3031cbe111ee991c5c39",
+    "ed19c4652ea23aab5727c645d30c099e5a8733688e2d72e2fcee8e7541ac2ea9": "a3979db18f13e9a6050790d9383d68f2ff2be0d1acfa76f39feb2e629198e6f0",
+    "69e9e6a55193a5f40e8a549dd96796c24f98c0f139c626ca72bb6d9bd606e38e": "e31512375296645846fcf155dda80220d0318b9bc9b8a4831cb894ae350f5413",
+    "b688f80494d8b82502314a5d9700ce9a1a49a2c3732f3f913be56b87f187715b": "c0ca81db9731d8db963909615c81f6498fc3f5c3c2d9c18462b8395dbfd286d4",
+    "5c7a87668d2616345a11bf69d40b90c7400262daca17fd3979fb67c10e0e62f4": "9376d863ff351f0ae6c6d1ee34621fa1d01b68d1753da2add74ab54541f3a5bd",
+    "ac89045f46483202b023b3b135e179580d0d72b15396d23bfe41c5f8e549e8dd": "88cc0bc196c74712666da690c0ba8d5c3ba3e508e1fa3520fbee12a3ac1f767b",
+    "c090c8d80fa0c31a8c2c62fb1abe9f243869d7fd20e7582a7b93d46b9276a42e": "16bd3ad0ef747283931054f0c374fa419dcb614daf3dba27bc2034061ac8a049",
+    "3707d594ec2fa251455ddd5492bc60b553277a1c803ff473ec8bd5ba5b4d5585": "5ad10019d1b784a7aeac7747ae0552639fdf5d8666da48872bd5847fed1fcc43",
+    "ee69caa739ac4cd0fb82a18aa54cbad607a8dedea2f7ca668a72552124178b55": "c9262d86a234587e2e4eb32a8cac80c939401a7935b483df67693d526aa37419",
+    "44e7821c700b4c0e5a62f326f3c5382f341b72fb526b8cad8e0e237f8e22a9f4": "c315ed33ae337b6aa1415605f380af7d03df92545e3e3806ba80d877e4363d42",
+    "f70b9938ce9bdc12d71d36d3544c5acaa977282e4566d0f5a7969c8c4a4ee5c6": "07e2e9e8324b3e4dd9058ccf5af2c31d438648cf926e6a10327ed454a5931622",
+    "5751b38d79b6033df0ecf5e9c968dd4e877a03fb90456c2c24de28794234ab5a": "99048bdb3865ce5cfb421d22a787f865fabb1239b5368b1e3cbcef662f6ab33f",
+    "162613611edea5380096c42d6fe77908d62e5dc0c7d3a02c255d32dabef55f56": "9ef0528fa5edaa8b9d8ef1fa1c1852bd0686aa12e3939b625c45dd71acb9cbcb",
+    "eda4203ec1be904807de25f48c86a0152e109cde4f8166be93611c000ec2e7c8": "fbc495befb7e86bd4b12f943579a807db191801d35da27b7299948d75e54f939",
+    "7879e31f88388f1aae2c98a8351125367c6c0e908d42bd317d6dae8807a00841": "018977585a6dcb39e8c4f7aad65652aa00d0acc2be1fdbf9e7e3b9cca521c62e",
+    "cf253d55013b74b34e3d0a87797387ab18e0895ce73cd8a24549044396db9032": "a8f1d0f027a777cb16717349a90b6d94bc3f0c42cb7a2442376e7a43b3db66b7",
+    "b385dfcdc30f0ffe4e86f93e9713e8c9f4c1aa81b9a4333bb77612cdce905606": "a3fa6f25408a38f953d6681d698a92ca1e5efec68a7175e3b108b89f3d208099",
+    "de1082440c7a93392355bedcf3b103e608f6f09f859809dc2d0b70e1a9346188": "53ff4f4eaebb215bfa5d56ddfb6d03ee9642d35c32be5a1d952c56e9da8cf320",
+    "1b0db17623d5701f3f077ad1530cd12b8fdca74b2d762f29793ee63257835758": "43236551e82fb9e6e434744d053b8494aad90cd2dcd6a6f5bd077445dec8d51d",
+    "d1c9464ef45d11c91bfe1bc406d21a0207a288e59dbae3c25c52f4746f1c6e36": "452bcc32fd5df7547468f88ef58bcd073e6210607e0aae94b2d826ca7b6068af",
+    "3465318246633f36a3369182c12250204b8aaa7bb6fdfbb12669b4b6cf676a0a": "06def50ecc23317f27fa6dab657596e7f0ce802f90b70a21340f36a0040386aa",
+    "a1277bc05e248a54a9d5d7c023fb002b895c3dc7f17f2e435a8b1458419640d5": "fec28b6456b7f372ec6e4c3793679099d189c1f944e006c79a7a1080cf052c2a",
+    "e4b3f3ac64dacd49ba4885a63d5e10960ddc7b93d23d0ed837970e21017d9d9c": "eebdbd85e17d27f29afadda56f86ed5d2fc8d382c87a43eda1c6e07fd7cf433f",
+    "e91de22afee0c1dd48a7a212627cf5683b3378b9ab0de1d23c63c245eedefb1b": "3418312ed67a75166e531475e0f0c33bd81ec4d44928c604ab033dbbc42f7834",
+    "4781941071b0a122ef9b21a20455d7a9f819edb5c5d573927fe5ec9ecf980c94": "3daeab13087a6841d509a091dad371507dc1758a5cdb3a1fa1fae339328657c6",
+    "bf901bec189996a891061a09101c0ccf0d351265d0d4b02789c6fe44d02c0388": "f38e8c99e5c2c49425f323705bd433c1e2feb961fcbbb33950928bec8b16be64",
+    "5c87a138044d9fc48d1c25e78aed2819499596700523294a1609f67d490eb336": "70cf31c3aa063602e5d62d3c14a7712c04b73c346ca65b152dc2b3268a51bb59",
+    "a4ccd94897788f6435f73fb518e5e3dde968b80e03e599f3b5c39c567ec48f5d": "4ef29d78d25751a26f578ed444fe9e062dfb07008551769b27cb5d534ed2af8b",
+    "7e8682ea307293b2144e64f2456686f11389cda8f2e89849387ddc1d4ba34981": "2f37c97ae396fd7fb1764269e7880ff537f52481a27d5165d33f7f902904e677",
+    "e81de6860e185de0310394fe7ac8fab73e0a7f5c4ea58e4fb847df56f4938914": "48a037db1ed14f87e29a88649fc56bc7a90036288ccd295ef2e04d4b7093f2fd",
+    "0227e47c385b6e6db6183e3b69c9ebb462d16ca6968a3358a5a8eec5581ad415": "d134958d788444343040d2d7dc5362c24bedf01209ded68988e16b99af655d68",
+    "81206061ceb02fd5190b9515a7a05f25a65f88bc2a909ad1ee9f27cb2234e9d9": "9baad2ca034452fbbfe89e7f1c3ba16817b6bfb5f349a1875834e4a36593c731",
+    "9c51438266c6d8920c561155b663288d124a68ee041c7461faeee1b42781d8d8": "9e1cafa7e9826a6dcb0b16a336a8d5a312f15abac53998637d8df864e941230d",
+    "14df494652bccdd90acf73e054004624b93b639baf54b4960887389f73ed7819": "47fc2840264a618ecad0e6509d631a8e227eac14df04f655a2af1da4889b3dba",
+    "c8533c73ac50d4ba5cf6548973910edf653dfc178307afd77cff1eca784a675e": "6ab3bd9b7f5109cf8066023fd05ee3441e71e9f73e6f0560c976c1421c17c633",
+    "c2891e848d68fe6c8d649787518ac1a1622bd631cc8077d768e006108ba85b99": "adec3d05a9fe5da351fbe15c233f45799b54822c37da0d9ad844d30f2bf96916",
+    "8593ee2cc842fe2ef065a7f084150fd8a8e54c23a55d218ce348a8d5cb90e3b7": "9a2e109ab894487ed4ecbd6777f12cbc56f1b3cb179232c11767d5572e656e89",
+    "a64378f1a8926c5edc45a8eeb7f8cc882097d0c44aa58e2a40bbf1d7b13a689b": "5c62ea7752fbefb92fa2a1997e2a8b94b139dd8184c42a378add1a4611ba8615",
+    "dddfb6a07713b41a784d25dc8c04d5a7d05f5a52e0216956e05551a6cec43ede": "ff53a010e0e1ddb24c207f0ae34aa75dc4f7cb942f00ed9e91e5899cbf3fa964",
+    "ee29291a285715bedec154b73f417d01dab23e2bd180092235cd18e63bc3aef7": "a16bf357ef30c6b8639c57ff97bb667f8f51a0df67f9588bc2a817263fa7344e",
+    "972b786a85a550f147143fac6965e1a339a8d3f2adfec0a5c9d3cd8f5a7fa1b4": "aefe1c9c12ab0b462f1cbac8597df8de3363c076bc3cae1bb321211acc9ba3bf",
+    "120f8a4c3eea4af0b9695e573b450a7273efa044771406b73988790030ee0cf7": "f27b3cdcace2daaf9908faa8d575f089322c529bb3d3a19b8fa1eff9122a588e"
+  },
+  "wall_seconds": 150.44074662999998,
+  "limitations": [
+    "Finite Monte Carlo coverage counts are descriptive, not a proof of nominal coverage.",
+    "The exact Hoeffding argument requires fixed-design iid row samples; no human coverage claim follows.",
+    "Clopper-Pearson beta quantiles lack outward-rounding certification.",
+    "PRISM 4.11 does not independently check the represented zero-lower-bound rows in this suite.",
+    "Rectangular envelopes can be more conservative than fixed-kernel uncertainty.",
+    "Width confidence intervals condition on fixed generator families and use paired world-level stratified resampling."
+  ]
+}

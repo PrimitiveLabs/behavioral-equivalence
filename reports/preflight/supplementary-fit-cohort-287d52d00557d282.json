@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "source_digest": "287d52d00557d282db992afca78bd4b29413c26dfb7bbde9913f5a69ee8770ca",
+  "root": "/artifacts/supplementary-fit-cohort-287d52d00557d282",
+  "records": [
+    {
+      "protocol": "known_users",
+      "role": "train",
+      "eligible_cases": 6623154,
+      "sampled_cases": 100000,
+      "users": 25445,
+      "path": "known_users-train.npz",
+      "sha256": "3590f3686f131384bc77a1581c51f2f4bba0059b090a76daddd32c249f5aa825",
+      "case_id_sha256": "d4141f324e2738d3d1912099afa8c4abab5b421daa7639d984e2a886c4c3f38b"
+    },
+    {
+      "protocol": "known_users",
+      "role": "validation",
+      "eligible_cases": 1594880,
+      "sampled_cases": 100000,
+      "users": 24932,
+      "path": "known_users-validation.npz",
+      "sha256": "c758ddf594eb19e56443ff9efcdd6a3d74b5e20db905162b07d346a7fdfe31b7",
+      "case_id_sha256": "327c5864ed58478c300ada62533daef217da2f2b35566bbb3abf0ae5b7c7819c"
+    },
+    {
+      "protocol": "unseen_users",
+      "role": "train",
+      "eligible_cases": 4636194,
+      "sampled_cases": 100000,
+      "users": 18115,
+      "path": "unseen_users-train.npz",
+      "sha256": "ad06fa7815f6264f8ef7200c16392c1fe5621e20b0599558dc3f8d1bb2a5df94",
+      "case_id_sha256": "4fe9a1baf6ac93f6c94f8951493129d366a98343c98ca3859cb9de48f86c6fd8"
+    },
+    {
+      "protocol": "unseen_users",
+      "role": "validation",
+      "eligible_cases": 159059,
+      "sampled_cases": 100000,
+      "users": 2554,
+      "path": "unseen_users-validation.npz",
+      "sha256": "39fc6595f5afe6b6dc36c3ee93fc83cf91f8e34934c2c449fd95e68a04ce60d2",
+      "case_id_sha256": "0a57ec46413dd5161098c6be0d8041dcfb317c45e39200a9a23d4c78e1b1cf9d"
+    }
+  ],
+  "wall_seconds": 26.284735441,
+  "scope": "Outcome-blind train/validation cohort only; no supplementary test sampling or scores. Exact global ordinal sample independently replayed; shared frozen input identity."
+}

@@ -1,0 +1,10 @@
+{
+  "source_sha256": "1349c3a64ccc7ae2ef1d4d39e9784f1bf792e4e44884eff83d6b87c64760d803",
+  "source_files": 259,
+  "scope": "Clean source extraction and implementation tests, not independent scientific campaign reproduction",
+  "status": "complete",
+  "returncode": 0,
+  "stdout": "........................................................................ [ 32%]\n........................................................................ [ 65%]\n........................................................................ [ 98%]\n...                                                                      [100%]\n219 passed, 6 skipped in 1.11s\n",
+  "stderr": "",
+  "import_from_extracted_source": true
+}

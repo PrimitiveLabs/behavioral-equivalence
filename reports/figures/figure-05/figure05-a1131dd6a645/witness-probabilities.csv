@@ -1,0 +1,9 @@
+stage,state,completion_probability
+Neutral training environment,44,0.36546715138236774
+Neutral training environment,47,0.36546715138236774
+Changed environment: true states,44,0.27169260984211996
+Changed environment: true states,47,0.4934226165648403
+Changed environment: merged forecast,44,0.35792680601138205
+Changed environment: merged forecast,47,0.35792680601138205
+Changed environment: refined forecast,44,0.27169260984211996
+Changed environment: refined forecast,47,0.4934226165648403

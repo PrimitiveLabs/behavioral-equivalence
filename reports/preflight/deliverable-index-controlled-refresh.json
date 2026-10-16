@@ -1,0 +1,93 @@
+{
+  "status": "controlled_refresh_complete",
+  "observed_at": "2026-10-16T09:11:44.521374+00:00",
+  "references_checked": 305,
+  "changed_references": [
+    {
+      "deliverable": "D2",
+      "path": "reports/current-source-package.json",
+      "old_sha256": "c75b7a61951d4106a83037c5318ac08ea465465519e2a83e1cf36ae4711f0ef6",
+      "new_sha256": "8bc0ba6f29e5c9cf9cbbcb32b4066fbebb1d93a1fd78acfabcd61b9f9bf7daa5"
+    },
+    {
+      "deliverable": "D4",
+      "path": "tools/supplementary_counts.py",
+      "old_sha256": "80cfd181e159bc5e11ad4a5a6f23846d76dd25dd9ee90f25fa3d51ed062503da",
+      "new_sha256": "e6d7cc7b43f370fe19aa5ca9acea982b94e4b5f7a00513dce081c137d142e5af"
+    },
+    {
+      "deliverable": "D6",
+      "path": "tools/supplementary_counts.py",
+      "old_sha256": "80cfd181e159bc5e11ad4a5a6f23846d76dd25dd9ee90f25fa3d51ed062503da",
+      "new_sha256": "e6d7cc7b43f370fe19aa5ca9acea982b94e4b5f7a00513dce081c137d142e5af"
+    },
+    {
+      "deliverable": "D6",
+      "path": "tools/supplementary_result_audit.py",
+      "old_sha256": "8700a523480c98f4d69a36bd8819e37c4cb9eb441be9eb83cb7771445ce5fb12",
+      "new_sha256": "e6be06ee8613d8bd8fd5de2c0489e60e485e8067e0d8e54b705aaea0ff0976dd"
+    },
+    {
+      "deliverable": "D8",
+      "path": "reports/execution-state.json",
+      "old_sha256": "a30f834942ed5b03fb1a93bfbfa5e802f558f116f2da1cc6bfdf5f28c0298bf5",
+      "new_sha256": "89de0922066848a3475a3a2c7baff26b14c863f1314b58ba9b82649d326915a0"
+    },
+    {
+      "deliverable": "D8",
+      "path": "tools/supplementary_counts.py",
+      "old_sha256": "80cfd181e159bc5e11ad4a5a6f23846d76dd25dd9ee90f25fa3d51ed062503da",
+      "new_sha256": "e6d7cc7b43f370fe19aa5ca9acea982b94e4b5f7a00513dce081c137d142e5af"
+    },
+    {
+      "deliverable": "D8",
+      "path": "tools/supplementary_result_audit.py",
+      "old_sha256": "8700a523480c98f4d69a36bd8819e37c4cb9eb441be9eb83cb7771445ce5fb12",
+      "new_sha256": "e6be06ee8613d8bd8fd5de2c0489e60e485e8067e0d8e54b705aaea0ff0976dd"
+    },
+    {
+      "deliverable": "D8",
+      "path": "reports/current-source-package.json",
+      "old_sha256": "c75b7a61951d4106a83037c5318ac08ea465465519e2a83e1cf36ae4711f0ef6",
+      "new_sha256": "8bc0ba6f29e5c9cf9cbbcb32b4066fbebb1d93a1fd78acfabcd61b9f9bf7daa5"
+    },
+    {
+      "deliverable": "D9",
+      "path": "reports/paper-draft.md",
+      "old_sha256": "d9dd0a6b5c085274896885a913020d3b24276cf0aaf53d6676e62499e65b9c63",
+      "new_sha256": "220c4cf0a191ce8134cd0952ed20b039443ca63f65ba23c0591e4ddd83b4dfea"
+    },
+    {
+      "deliverable": "D9",
+      "path": "reports/blog-draft.md",
+      "old_sha256": "8e1e6871794d3d451c35e8a68d1ffd47ea27bcbaa420b09cac88559c7531ad25",
+      "new_sha256": "a98106c34927e6aeba395ece3fb67bf466e78ecbf7435ec49b5cb286f6ad0cf8"
+    },
+    {
+      "deliverable": "D9",
+      "path": "reports/current-source-package.json",
+      "old_sha256": "c75b7a61951d4106a83037c5318ac08ea465465519e2a83e1cf36ae4711f0ef6",
+      "new_sha256": "8bc0ba6f29e5c9cf9cbbcb32b4066fbebb1d93a1fd78acfabcd61b9f9bf7daa5"
+    },
+    {
+      "deliverable": "D9",
+      "path": "reports/preflight/current-source-local-validation.json",
+      "old_sha256": "03d2d67f84b8695f0a8a97f6528994318f52ccb26c306cb6db1dd71394e6e7a4",
+      "new_sha256": "2a05b1fb2433587eee6c55c92a9341ad5c8ed90eefc64fc89371967650a29383"
+    },
+    {
+      "deliverable": "D9",
+      "path": "reports/qa/source-audit-inventory.json",
+      "old_sha256": "47940ed8e8a58b0467bb523f914692c4728a2cbe5636b6a426ea8bdd22c4784a",
+      "new_sha256": "5ccf64505fd28ec9c1881759ca5a0f56886120bfc038a57b8e519ac477bf8782"
+    }
+  ],
+  "scientific_result_hashes_changed": 0,
+  "basis": [
+    "reports/preflight/supplementary-integer-states-correction.json",
+    "reports/preflight/result-audit-corrections.json",
+    "reports/preflight/current-source-local-validation.json",
+    "reports/preflight/complete-source-review-identity.json"
+  ],
+  "scope": "Only explicitly classified source/provenance/synthesis/review updates refreshed. No original experimental output, certificate or human metric hash rewritten. Deliverable completion statuses unchanged."
+}

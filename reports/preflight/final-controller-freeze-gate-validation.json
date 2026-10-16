@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "observed_at": "2026-10-16T09:33:01.306460+00:00",
+  "actual_evaluator_phases": 4,
+  "mutations": [
+    "status",
+    "source",
+    "config"
+  ],
+  "cases": 12,
+  "combined_launcher_release_freeze_cases": 92,
+  "provider_calls": 0,
+  "test_file": "tests/test_final_controller_freeze_gates.py",
+  "test_sha256": "78d108b4326f84c09a9937efbb211e77d8b1962b13b0acede2c30b535fa3efd0",
+  "source_continuity": "reports/preflight/release-checker-test-extension.json",
+  "scope": "Real freeze verification through actual controller bodies before any private artifact read or inference. No model/provider execution or new full cloud test run."
+}

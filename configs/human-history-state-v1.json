@@ -1,0 +1,16 @@
+{
+  "schema_version": "human-pre-exposure-history-states-v1",
+  "state_count": 256,
+  "initial_block_count": 64,
+  "sample_cases": 100000,
+  "sampling_seed": 20261015,
+  "representation": "frozen GRU encode(tokens), available prior feedback only",
+  "initial_partition": "stable sorted standard-policy sampled teacher means, equal parent-state-count bins",
+  "random_cohort_root": "datasets/kuairand-27k/prepared-candidate-v2/randomized-cases-60b69598b1185ce7",
+  "random_cohort_report_sha256": "82b9c911061fce07f429977af499e26d42ce7f3a9ddc92684d387f21260ea071",
+  "random_audit_relative": "independent-audit-ff202e997093eb0c/report.json",
+  "random_audit_sha256": "7576df68fbf90fbc491d5733390485eebbcd3c42a380c8013ec5b6c19d3913d2",
+  "fit": {"batch_size":4096,"n_init":3,"max_iter":100,"random_state":20261015},
+  "inference_batch_size": 2048,
+  "scope": "Training-only initial state design. No final intervention observations or D6 primary changes. Encoder training itself included earlier random exposures. Sample teacher means are initialization features, not calibrated group-response forecasts."
+}

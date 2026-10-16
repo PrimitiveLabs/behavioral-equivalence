@@ -1,0 +1,15 @@
+{
+  "schema_version": "formal-bounds-v1",
+  "lean_release": "v4.19.0",
+  "mathlib_tag": "v4.19.0",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "theorems": [
+    "BehavioralBounds.match_probability_lower_bound",
+    "BehavioralBounds.finite_horizon_event_error",
+    "BehavioralBounds.uncertainty_interval_composition",
+    "BehavioralBounds.zero_event_discrepancy"
+  ],
+  "scope": "Mechanical checking of recurrence-to-event error and interval expansion over real numbers. Coupling construction, kernel-to-recurrence mapping, event-indicator inequality, statistical sampling assumptions and numerical implementation proofs remain outside this module. This is not a complete formalization of stochastic behavioral abstraction or human validity.",
+  "resource_allowance_usd": 0.25,
+  "resource_scope": "One bounded CPU proof-check attempt plus setup buffer; image builds and provider restarts not a hard lifetime billing cap"
+}

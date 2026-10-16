@@ -1,0 +1,14 @@
+{
+  "scope": "Small synthetic local numerical-backend diagnostic; no human inference or source change",
+  "numpy_version": "2.2.6",
+  "standardized_max_abs": 3.7084284855698573,
+  "coefficients_max_abs": 4.807729112457921,
+  "max_probability_difference_vs_unoptimized_einsum": 2.220446049250313e-16,
+  "all_predictions_finite": true,
+  "warnings": [
+    "divide by zero encountered in matmul",
+    "overflow encountered in matmul",
+    "invalid value encountered in matmul"
+  ],
+  "interpretation": "Bounded finite operands agree with a separate unoptimized contraction. Local strict warnings-as-errors still fails; this diagnostic does not establish fresh cloud validation."
+}

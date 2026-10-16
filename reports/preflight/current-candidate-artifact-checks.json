@@ -1,0 +1,28 @@
+{
+  "status": "passed_artifact_checks_acceptance_open",
+  "observed_at": "2026-10-16T09:13:41.375691+00:00",
+  "release_candidate": {
+    "status": "candidate_pending_final_review",
+    "path": "reports/releases/behavioral-equivalence-research-8057bd4ab2f2b775.tar.gz",
+    "sha256": "8057bd4ab2f2b7756c81b8ca53ae0a9c5a6d7f546e6c83d156b5c6c43ce7df87",
+    "bytes": 21019475,
+    "files": 1210,
+    "contents_manifest": "reports/releases/contents-f7b13d47c1aa0048.json",
+    "contents_sha256": "f7b13d47c1aa00489f93de768729b6c67b531c24aecabf16673ba6d6dd165d5f",
+    "all_archive_members_readback_verified": true,
+    "source_archive_sha256": "ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12"
+  },
+  "archive_files_readback": 1210,
+  "initial_gitleaks_findings": 1,
+  "reviewed_exception": {
+    "file": "reports/preflight/synthetic-recovery-audit-reconciliation.json",
+    "public_world_key": "c9c92bde175d0591e04135bfdc5047e03db404dedaeaae1a60ee4b6ad398f2d8",
+    "binding": "reports/preflight/synthetic-main-reconciled-manifest.json",
+    "binding_sha256": "3a8a8d57f75acde31e91bc55eff331f5b24342672e8571a093c4694d06c34ca1"
+  },
+  "scan_configuration": "[extend]\nuseDefault = true\n\n[[allowlists]]\ndescription = \"SHA256 world identifiers in retained synthetic experiment manifests\"\ncondition = \"AND\"\npaths = ['''^reports/preflight/(synthetic-campaign-smoke-v2|synthetic-campaign-smoke|synthetic-large-smoke|uncertainty-main-manifest|integer-campaign-audit-progress)\\.json$''']\nregexTarget = \"line\"\nregexes = ['''^\\s*\"key\": \"[0-9a-f]{64}\",?\\s*$''']\n\n[[allowlists]]\ndescription = \"Public archive filenames in the unmodified Zenodo deposit metadata\"\ncondition = \"AND\"\npaths = ['''^data/rights/zenodo-record-full-20261015\\.json$''']\nregexTarget = \"match\"\nregexes = ['''key\": \"KuaiRand-(1K|27K|Pure)\\.tar\\.gz\"''']\n\n[[allowlists]]\ndescription = \"SHA256 intervention world identifiers, recomputed from the public synthetic spec\"\ncondition = \"AND\"\npaths = ['''^reports/preflight/intervention-multidimensional-smoke\\.json$''']\nregexTarget = \"line\"\nregexes = ['''^\\s*\"world_key\": \"[0-9a-f]{64}\",?\\s*$''']\n\n[[allowlists]]\ndescription = \"Public synthetic world hashes, all independently recomputed in public-world-digest-scan-validation.json\"\ncondition = \"AND\"\npaths = ['''^reports/preflight/(synthetic-main-original-manifest|synthetic-main-reconciled-manifest|integer-campaign-audit-manifest|synthetic-recovery-interpretation)\\.json$''']\nregexTarget = \"line\"\nregexes = ['''^\\s*\"key\": \"[0-9a-f]{64}\",?\\s*$''']\n\n[[allowlists]]\ndescription = \"Exact public synthetic recovery identifier verified in reconciled campaign\"\ncondition = \"AND\"\npaths = ['''^reports/preflight/synthetic-recovery-audit-reconciliation\\.json$''']\nregexTarget = \"line\"\nregexes = ['''^\\s*\"key\": \"c9c92bde175d0591e04135bfdc5047e03db404dedaeaae1a60ee4b6ad398f2d8\",?\\s*$''']\n",
+  "remaining_secret_findings": 0,
+  "forbidden_files": [],
+  "strict_current_validation": "open",
+  "scope": "Exact candidate extracted and scanned without generated scanner controls in input. One exact verified synthetic identifier exception. Restricted data-file policy checked; not semantic privacy proof or ship-ready verdict."
+}

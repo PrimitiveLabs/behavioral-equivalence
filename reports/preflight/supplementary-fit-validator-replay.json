@@ -1,0 +1,217 @@
+{
+  "status": "complete",
+  "scope": "Read-only local replay of retained fit report identity and validation selection; no new fits or provider calls; does not independently rehash remote weights",
+  "reports_validated": 30,
+  "records": [
+    {
+      "path": "reports/supplementary-heads/known_users-context-20261015.json",
+      "sha256": "9ec2eef76649b0ea56883f6f9cf17f5c1bc95c8d004503cd248fb736ee40f873",
+      "protocol": "known_users",
+      "architecture": "context",
+      "seed": 20261015
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-context-20261016.json",
+      "sha256": "141e88d70d26684a9cdb19c8c0cad35bd53c2a085eff8ce77cf8d781cd164283",
+      "protocol": "known_users",
+      "architecture": "context",
+      "seed": 20261016
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-context-20261017.json",
+      "sha256": "13a3a83f39fb534fccfcc510edda5be9f54420129b2ee8ca0d782372e91a15d8",
+      "protocol": "known_users",
+      "architecture": "context",
+      "seed": 20261017
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-context-20261018.json",
+      "sha256": "24851e10e3410ec16b607448279b110e45ac5128d16e5f8ac81a55f931dfd67b",
+      "protocol": "known_users",
+      "architecture": "context",
+      "seed": 20261018
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-context-20261019.json",
+      "sha256": "db6765528dacd706fec76734d6b856749e5e7f99779685210d61c29d27ba6f92",
+      "protocol": "known_users",
+      "architecture": "context",
+      "seed": 20261019
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-gru-20261015.json",
+      "sha256": "7a897510e621efbeed50e9e9ad1396bc26625d7840bf06d2d5d4515fad8d9063",
+      "protocol": "known_users",
+      "architecture": "gru",
+      "seed": 20261015
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-gru-20261016.json",
+      "sha256": "4c996d071c2854974f404e761c00d66f1edb5342cea956e29fb125cbd6be3f71",
+      "protocol": "known_users",
+      "architecture": "gru",
+      "seed": 20261016
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-gru-20261017.json",
+      "sha256": "90bed9bf8547c7ba1d0acfbfdf08722236a047bbaad10a9c013af45acc8b8b22",
+      "protocol": "known_users",
+      "architecture": "gru",
+      "seed": 20261017
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-gru-20261018.json",
+      "sha256": "9f5b13fe0d4cfa1389a458e1964942c2d7cde7a1ba0ee4b44fccbc907b9080f5",
+      "protocol": "known_users",
+      "architecture": "gru",
+      "seed": 20261018
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-gru-20261019.json",
+      "sha256": "1c7984ca55a7dbb8f1270641db2d7cbf3764a39a03c9ecc51900d0a2144f788c",
+      "protocol": "known_users",
+      "architecture": "gru",
+      "seed": 20261019
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-transformer-20261015.json",
+      "sha256": "5a3f8d0df5ce43c18fbdaf3d0763257feb0f45b5820b0fcacde917c38be08554",
+      "protocol": "known_users",
+      "architecture": "transformer",
+      "seed": 20261015
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-transformer-20261016.json",
+      "sha256": "7f08e69d93778a3e4dbfbc2ce2d840eb977faf5064a48516380a0ef427b03070",
+      "protocol": "known_users",
+      "architecture": "transformer",
+      "seed": 20261016
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-transformer-20261017.json",
+      "sha256": "b47bb8a1fe7bb67d7ce8261303b8f2ae33430154cef040aae10f51c9b6e33f1d",
+      "protocol": "known_users",
+      "architecture": "transformer",
+      "seed": 20261017
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-transformer-20261018.json",
+      "sha256": "4973558d6d4c5016c2c05923460a83863f0fd5a9c61ff44a52b194ad1fde2ae5",
+      "protocol": "known_users",
+      "architecture": "transformer",
+      "seed": 20261018
+    },
+    {
+      "path": "reports/supplementary-heads/known_users-transformer-20261019.json",
+      "sha256": "a287cb275f15c4cedab0c7e9c80fdd7e19a9e527a843c2ba860f31fd2eb36ff2",
+      "protocol": "known_users",
+      "architecture": "transformer",
+      "seed": 20261019
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-context-20261015.json",
+      "sha256": "05156d67302f21ad2502e9f99bbb0169a6ee4780fa2b5d215dbd24ca35a582cb",
+      "protocol": "unseen_users",
+      "architecture": "context",
+      "seed": 20261015
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-context-20261016.json",
+      "sha256": "c577331da5bcbc891420a9b882373dcbd6c6577468e64b45cfc056e907320de3",
+      "protocol": "unseen_users",
+      "architecture": "context",
+      "seed": 20261016
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-context-20261017.json",
+      "sha256": "6a36dbc63629f4d5d4e2be2d82b9f942111304306b3610f5a896eefea009f815",
+      "protocol": "unseen_users",
+      "architecture": "context",
+      "seed": 20261017
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-context-20261018.json",
+      "sha256": "970044be5e41f6c5e43767e139105c2b6c12046750b58e6dc4aebffcd33bb80f",
+      "protocol": "unseen_users",
+      "architecture": "context",
+      "seed": 20261018
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-context-20261019.json",
+      "sha256": "de68b6b35347b51427cb1577013c32bd221b98cd395ac29c5034bd44d620303b",
+      "protocol": "unseen_users",
+      "architecture": "context",
+      "seed": 20261019
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-gru-20261015.json",
+      "sha256": "4ce88c8308b94168261b836775880708c548458ff11eb98e23917a42175f11ae",
+      "protocol": "unseen_users",
+      "architecture": "gru",
+      "seed": 20261015
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-gru-20261016.json",
+      "sha256": "9f84c3f3c2f3e3c9dd14222005bba00209206313e86c77671c2435aeeb17877d",
+      "protocol": "unseen_users",
+      "architecture": "gru",
+      "seed": 20261016
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-gru-20261017.json",
+      "sha256": "838fce037d39a6aa59682f4722e3cbef1eebb9162acfbe0e8cf1555f761aaacb",
+      "protocol": "unseen_users",
+      "architecture": "gru",
+      "seed": 20261017
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-gru-20261018.json",
+      "sha256": "8d52ca1c26e543cf9fec03a7f6a7345f6940679ebbcdc1e72dc64855729119f4",
+      "protocol": "unseen_users",
+      "architecture": "gru",
+      "seed": 20261018
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-gru-20261019.json",
+      "sha256": "0ed843682be8bf4792b1492722181a20dc6cc47220f0777fa5087e3a2d142303",
+      "protocol": "unseen_users",
+      "architecture": "gru",
+      "seed": 20261019
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-transformer-20261015.json",
+      "sha256": "dded287d23a2d8a3afe809cede5d13e499ab2e995a1be465fc952ce56069d6ad",
+      "protocol": "unseen_users",
+      "architecture": "transformer",
+      "seed": 20261015
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-transformer-20261016.json",
+      "sha256": "78e233baef7c4f2216e612d82305d866cdf069d9d645516c1f60cb3cb3a85d32",
+      "protocol": "unseen_users",
+      "architecture": "transformer",
+      "seed": 20261016
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-transformer-20261017.json",
+      "sha256": "1e0ecb30e5e66b1cd142b46c498568d9fc5ec68e4c3f0d0c3471a4e4f270f096",
+      "protocol": "unseen_users",
+      "architecture": "transformer",
+      "seed": 20261017
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-transformer-20261018.json",
+      "sha256": "5997e9b877ff34bad07cfaf75b7a7eced5ec93a17c1003db70e6b9a5063399d8",
+      "protocol": "unseen_users",
+      "architecture": "transformer",
+      "seed": 20261018
+    },
+    {
+      "path": "reports/supplementary-heads/unseen_users-transformer-20261019.json",
+      "sha256": "0dbb94f507a7e457f69aa0e8fd0a55ae5d615f8a747e3210235fc88ca0c385f4",
+      "protocol": "unseen_users",
+      "architecture": "transformer",
+      "seed": 20261019
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "accepted",
+  "checked_at": "2026-10-15T21:01:57.051125+00:00",
+  "panels": [
+    "witness.png",
+    "comparisons.png",
+    "full-frontier.png"
+  ],
+  "checks": {
+    "text_legible": true,
+    "no_label_or_legend_overlap": true,
+    "axes_and_units_explicit": true,
+    "zero_baselines_and_scope_visible": true,
+    "all_strong_baseline_controls_included": true,
+    "seed_cluster_unit_and_interval_levels_visible": true,
+    "caption_separates_oracle_witness_and_learned_environment_predictions": true,
+    "source_csv_and_artifact_hashes_verified": true
+  },
+  "scope": "Visual inspection of all three rendered PNG panels. Statistical and source evidence has separate hashes; visual review does not validate a human behavioral claim."
+}

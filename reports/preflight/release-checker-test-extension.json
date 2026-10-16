@@ -1,0 +1,26 @@
+{
+  "status": "verified_test_only_extension",
+  "observed_at": "2026-10-16T09:33:01.306460+00:00",
+  "current_source": {
+    "sha256": "ecc5a586bd135738b51dca2b392f55da94e9f8aeba4fcfe1a76f296ccde84cb2",
+    "path": "reports/source-snapshots/source-ecc5a586bd135738b51dca2b392f55da94e9f8aeba4fcfe1a76f296ccde84cb2.tar.gz",
+    "source_files": 492,
+    "bytes": 757122
+  },
+  "parent_source_sha256": "ad74b89a721bbbba269b32bfdba9c9d7f93549355b80d2f75f23868c1dfc5e12",
+  "parent_strict_validation": "reports/preflight/source-package-reproduction-ad74b89a721bbbba-e52eea4696b4-explicit-mount.json",
+  "unchanged_parent_source_entries": 490,
+  "added": [
+    "tests/test_final_controller_freeze_gates.py",
+    "tests/test_release_checker_boundaries.py"
+  ],
+  "generated_manifest_changed": true,
+  "release_checker_tests": 16,
+  "release_checker_test_sha256": "c2ac0dd498ff34d9603e9a849653c671b378af1c6c2d9276cdc6ba7930d632cd",
+  "test_command": "PYTHONPATH=/tmp/research-response-installed .venv/bin/python -m pytest -q -W error -o pythonpath= tests/test_release_checker_boundaries.py",
+  "test_output": "16 passed in 0.10s",
+  "scope": "All 490 parent source entries unchanged. Sixteen added checker and twelve actual-controller freeze-gate tests pass locally. Parent 1635-test cloud run plus 28 added local tests are separate executions, not a new 1663-test cloud run.",
+  "final_controller_freeze_tests": 12,
+  "total_added_tests": 28,
+  "final_controller_freeze_test_sha256": "78d108b4326f84c09a9937efbb211e77d8b1962b13b0acede2c30b535fa3efd0"
+}

@@ -1,0 +1,1614 @@
+{
+  "status": "complete",
+  "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+  "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+  "buckets": [
+    {
+      "status": "complete",
+      "bucket": 0,
+      "queries_audited": 48666,
+      "known_users": 803,
+      "unseen_origins": 5096,
+      "unseen_users": 87,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48666,
+          "unseen_observed": 5096
+        },
+        {
+          "horizon": 5,
+          "known_observed": 47280,
+          "unseen_observed": 4925
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45592,
+          "unseen_observed": 4714
+        },
+        {
+          "horizon": 25,
+          "known_observed": 40642,
+          "unseen_observed": 4132
+        },
+        {
+          "horizon": 50,
+          "known_observed": 33059,
+          "unseen_observed": 3305
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "3d5b4ff36cfd8c5289a694194b8daf1ea4808ac809ae36e1a4492c074e2781c6",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 5.275567004
+    },
+    {
+      "status": "complete",
+      "bucket": 1,
+      "queries_audited": 48305,
+      "known_users": 810,
+      "unseen_origins": 5171,
+      "unseen_users": 88,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48305,
+          "unseen_observed": 5171
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46919,
+          "unseen_observed": 5012
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45157,
+          "unseen_observed": 4819
+        },
+        {
+          "horizon": 25,
+          "known_observed": 40206,
+          "unseen_observed": 4294
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32969,
+          "unseen_observed": 3527
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "57c90c4f02be812a5e740b8746c50b78c53830554ba8a5bc9091ef062e1e4f8a",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 6.251990998
+    },
+    {
+      "status": "complete",
+      "bucket": 2,
+      "queries_audited": 48271,
+      "known_users": 814,
+      "unseen_origins": 5285,
+      "unseen_users": 88,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48271,
+          "unseen_observed": 5285
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46821,
+          "unseen_observed": 5139
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45033,
+          "unseen_observed": 4957
+        },
+        {
+          "horizon": 25,
+          "known_observed": 40073,
+          "unseen_observed": 4458
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32690,
+          "unseen_observed": 3675
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "d9dd3fc25510b55b810c1a8864a46d013caad5aa0fe458c79a318c8a87a1e72d",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.672943161000001
+    },
+    {
+      "status": "complete",
+      "bucket": 3,
+      "queries_audited": 47979,
+      "known_users": 799,
+      "unseen_origins": 5432,
+      "unseen_users": 90,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 47979,
+          "unseen_observed": 5432
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46579,
+          "unseen_observed": 5280
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44846,
+          "unseen_observed": 5081
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39973,
+          "unseen_observed": 4572
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32711,
+          "unseen_observed": 3762
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "fdc2c3644c133bc4d652ed679c9e5ba205aa5b6be3a9d82147285eb9a49a87f8",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.876692584000001
+    },
+    {
+      "status": "complete",
+      "bucket": 4,
+      "queries_audited": 47715,
+      "known_users": 797,
+      "unseen_origins": 4171,
+      "unseen_users": 70,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 47715,
+          "unseen_observed": 4171
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46363,
+          "unseen_observed": 4066
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44741,
+          "unseen_observed": 3927
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39959,
+          "unseen_observed": 3562
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32907,
+          "unseen_observed": 3013
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "af69c2bf2e39b72214b4fcd6534b123a68c3005a3b4b893db2ffd5e4220f5fa8",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 12.848986132000002
+    },
+    {
+      "status": "complete",
+      "bucket": 5,
+      "queries_audited": 48041,
+      "known_users": 812,
+      "unseen_origins": 3412,
+      "unseen_users": 59,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48041,
+          "unseen_observed": 3412
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46611,
+          "unseen_observed": 3317
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44875,
+          "unseen_observed": 3174
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39942,
+          "unseen_observed": 2810
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32713,
+          "unseen_observed": 2290
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "fc6caf96e556b6ff8430af717df42c0a7b5aee547a44fffa9987026e885b80b6",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.0258756349999985
+    },
+    {
+      "status": "complete",
+      "bucket": 6,
+      "queries_audited": 48495,
+      "known_users": 806,
+      "unseen_origins": 4840,
+      "unseen_users": 78,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48495,
+          "unseen_observed": 4840
+        },
+        {
+          "horizon": 5,
+          "known_observed": 47031,
+          "unseen_observed": 4717
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45262,
+          "unseen_observed": 4556
+        },
+        {
+          "horizon": 25,
+          "known_observed": 40252,
+          "unseen_observed": 4108
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32943,
+          "unseen_observed": 3385
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "48ae9f91dd5b34d822aeff69c291cec6c30b30b63489db010df29a37f2f42ed3",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.630851417999999
+    },
+    {
+      "status": "complete",
+      "bucket": 7,
+      "queries_audited": 47871,
+      "known_users": 798,
+      "unseen_origins": 5387,
+      "unseen_users": 90,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 47871,
+          "unseen_observed": 5387
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46519,
+          "unseen_observed": 5229
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44811,
+          "unseen_observed": 5008
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39937,
+          "unseen_observed": 4427
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32677,
+          "unseen_observed": 3550
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "7255c359ffe36eb9e63573098e526e0cadf653cda622f732ab92dbf35d83207a",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.645046295
+    },
+    {
+      "status": "complete",
+      "bucket": 8,
+      "queries_audited": 48356,
+      "known_users": 805,
+      "unseen_origins": 5449,
+      "unseen_users": 89,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48356,
+          "unseen_observed": 5449
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46942,
+          "unseen_observed": 5283
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45247,
+          "unseen_observed": 5076
+        },
+        {
+          "horizon": 25,
+          "known_observed": 40359,
+          "unseen_observed": 4517
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32921,
+          "unseen_observed": 3560
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "8cf9ac46594f9ad6d23a4f7345cf74ca7fa9224ae5fffaac87aaec6c1cfa1a98",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.258675404000002
+    },
+    {
+      "status": "complete",
+      "bucket": 9,
+      "queries_audited": 47842,
+      "known_users": 800,
+      "unseen_origins": 5038,
+      "unseen_users": 89,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 47842,
+          "unseen_observed": 5038
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46414,
+          "unseen_observed": 4852
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44716,
+          "unseen_observed": 4646
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39798,
+          "unseen_observed": 4085
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32274,
+          "unseen_observed": 3224
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "3c391afae3a7f2d7aacdd08343560c23bcb959ecc329b92def0d58fbd978d650",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.362139118000002
+    },
+    {
+      "status": "complete",
+      "bucket": 10,
+      "queries_audited": 48224,
+      "known_users": 810,
+      "unseen_origins": 4050,
+      "unseen_users": 70,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48224,
+          "unseen_observed": 4050
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46783,
+          "unseen_observed": 3929
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45000,
+          "unseen_observed": 3773
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39920,
+          "unseen_observed": 3336
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32372,
+          "unseen_observed": 2748
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "c106e5e5a1bbf0f125b609730abd29f0f82371e5d6fa58ab679c66a33a2c2412",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 3.8064438759999994
+    },
+    {
+      "status": "complete",
+      "bucket": 11,
+      "queries_audited": 48451,
+      "known_users": 805,
+      "unseen_origins": 4726,
+      "unseen_users": 77,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48451,
+          "unseen_observed": 4726
+        },
+        {
+          "horizon": 5,
+          "known_observed": 47008,
+          "unseen_observed": 4579
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45281,
+          "unseen_observed": 4396
+        },
+        {
+          "horizon": 25,
+          "known_observed": 40223,
+          "unseen_observed": 3878
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32768,
+          "unseen_observed": 3032
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "7c08f99b17dcc8d5ae569aee7c7de4efd703aa7e89f63f53f5ba1e2a8cb4fb93",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.8431940440000005
+    },
+    {
+      "status": "complete",
+      "bucket": 12,
+      "queries_audited": 48383,
+      "known_users": 810,
+      "unseen_origins": 5598,
+      "unseen_users": 91,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48383,
+          "unseen_observed": 5598
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46894,
+          "unseen_observed": 5430
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45072,
+          "unseen_observed": 5235
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39951,
+          "unseen_observed": 4712
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32311,
+          "unseen_observed": 3882
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "633e3479c70f2e1c3da001eec30149630383d711e8e231592c4a028d63821554",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 6.261328998
+    },
+    {
+      "status": "complete",
+      "bucket": 13,
+      "queries_audited": 47752,
+      "known_users": 806,
+      "unseen_origins": 4769,
+      "unseen_users": 78,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 47752,
+          "unseen_observed": 4769
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46275,
+          "unseen_observed": 4631
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44496,
+          "unseen_observed": 4465
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39383,
+          "unseen_observed": 3955
+        },
+        {
+          "horizon": 50,
+          "known_observed": 31686,
+          "unseen_observed": 3173
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "15f77fec5703718162f58f7b2c273eb0d63496779c40bc80f56ae303359046c0",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.387045064000002
+    },
+    {
+      "status": "complete",
+      "bucket": 14,
+      "queries_audited": 48017,
+      "known_users": 808,
+      "unseen_origins": 4619,
+      "unseen_users": 79,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48017,
+          "unseen_observed": 4619
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46662,
+          "unseen_observed": 4475
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44956,
+          "unseen_observed": 4315
+        },
+        {
+          "horizon": 25,
+          "known_observed": 40213,
+          "unseen_observed": 3891
+        },
+        {
+          "horizon": 50,
+          "known_observed": 33048,
+          "unseen_observed": 3212
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "d32cfb82e23e0fca8c9ad9ac6622359d4d6977e1e4e2568c9a4bf5adc779c1b5",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.056583459999999
+    },
+    {
+      "status": "complete",
+      "bucket": 15,
+      "queries_audited": 47789,
+      "known_users": 812,
+      "unseen_origins": 5417,
+      "unseen_users": 91,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 47789,
+          "unseen_observed": 5417
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46318,
+          "unseen_observed": 5262
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44427,
+          "unseen_observed": 5047
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39209,
+          "unseen_observed": 4470
+        },
+        {
+          "horizon": 50,
+          "known_observed": 31543,
+          "unseen_observed": 3613
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "f17d3f229df2c67351f99eb59d4fad9823d42f7283a71c0af21984555c19ca33",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 5.5543921849999975
+    },
+    {
+      "status": "complete",
+      "bucket": 16,
+      "queries_audited": 48407,
+      "known_users": 811,
+      "unseen_origins": 4826,
+      "unseen_users": 80,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48407,
+          "unseen_observed": 4826
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46975,
+          "unseen_observed": 4683
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45188,
+          "unseen_observed": 4496
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39994,
+          "unseen_observed": 3976
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32297,
+          "unseen_observed": 3153
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "c54bf3a3c66585ae0e6b0610f78f3891c041b73e0bfedb5aa142c824b597c55e",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 5.644275251999996
+    },
+    {
+      "status": "complete",
+      "bucket": 17,
+      "queries_audited": 47777,
+      "known_users": 804,
+      "unseen_origins": 4378,
+      "unseen_users": 76,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 47777,
+          "unseen_observed": 4378
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46363,
+          "unseen_observed": 4246
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44616,
+          "unseen_observed": 4094
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39739,
+          "unseen_observed": 3656
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32417,
+          "unseen_observed": 3043
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "71c725e7ac2b4a8da315251953ed74769eae37a05374c8fefe0a9dbc436e26aa",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.480420170999999
+    },
+    {
+      "status": "complete",
+      "bucket": 18,
+      "queries_audited": 48699,
+      "known_users": 815,
+      "unseen_origins": 4673,
+      "unseen_users": 79,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48699,
+          "unseen_observed": 4673
+        },
+        {
+          "horizon": 5,
+          "known_observed": 47209,
+          "unseen_observed": 4532
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45352,
+          "unseen_observed": 4351
+        },
+        {
+          "horizon": 25,
+          "known_observed": 40082,
+          "unseen_observed": 3861
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32215,
+          "unseen_observed": 3086
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "24e39075701f1d773622124081e3bac0d71c78698b5f69f729d36fd3b9412e1c",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 3.9397136030000013
+    },
+    {
+      "status": "complete",
+      "bucket": 19,
+      "queries_audited": 47818,
+      "known_users": 806,
+      "unseen_origins": 5343,
+      "unseen_users": 88,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 47818,
+          "unseen_observed": 5343
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46362,
+          "unseen_observed": 5184
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44574,
+          "unseen_observed": 5002
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39410,
+          "unseen_observed": 4408
+        },
+        {
+          "horizon": 50,
+          "known_observed": 31784,
+          "unseen_observed": 3584
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "70b49c8e62e6db709298d95ba4911d6e037e07ece1f618a230b91f707c4fcf23",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.806868592000001
+    },
+    {
+      "status": "complete",
+      "bucket": 20,
+      "queries_audited": 48037,
+      "known_users": 813,
+      "unseen_origins": 4000,
+      "unseen_users": 70,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48037,
+          "unseen_observed": 4000
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46562,
+          "unseen_observed": 3858
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44722,
+          "unseen_observed": 3668
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39546,
+          "unseen_observed": 3142
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32055,
+          "unseen_observed": 2428
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "d0e442eadb51cb326650c48344a4e893d5d042b2ce01d707000090163f63116f",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.2529767010000015
+    },
+    {
+      "status": "complete",
+      "bucket": 21,
+      "queries_audited": 47835,
+      "known_users": 808,
+      "unseen_origins": 5015,
+      "unseen_users": 86,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 47835,
+          "unseen_observed": 5015
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46403,
+          "unseen_observed": 4886
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44633,
+          "unseen_observed": 4723
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39550,
+          "unseen_observed": 4248
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32289,
+          "unseen_observed": 3597
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "188a028e4a0a4a790922599f51d269050a81d56e6a550224aaa619ca83d05079",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 7.8504960890000035
+    },
+    {
+      "status": "complete",
+      "bucket": 22,
+      "queries_audited": 47553,
+      "known_users": 804,
+      "unseen_origins": 4532,
+      "unseen_users": 78,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 47553,
+          "unseen_observed": 4532
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46117,
+          "unseen_observed": 4386
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44324,
+          "unseen_observed": 4194
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39282,
+          "unseen_observed": 3669
+        },
+        {
+          "horizon": 50,
+          "known_observed": 31980,
+          "unseen_observed": 2930
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "d07e84b6147d75a55ef31f1b8dd03bd01616d74e2e03f5037be70c73287e50a2",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.216472844000002
+    },
+    {
+      "status": "complete",
+      "bucket": 23,
+      "queries_audited": 47694,
+      "known_users": 806,
+      "unseen_origins": 5163,
+      "unseen_users": 86,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 47694,
+          "unseen_observed": 5163
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46203,
+          "unseen_observed": 5015
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44391,
+          "unseen_observed": 4827
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39135,
+          "unseen_observed": 4284
+        },
+        {
+          "horizon": 50,
+          "known_observed": 31568,
+          "unseen_observed": 3468
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "0482cf1daf8396e40c43f3e5fd5c01705996ec7e84bdace0d37b4be20616a7cb",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 8.188573131999995
+    },
+    {
+      "status": "complete",
+      "bucket": 24,
+      "queries_audited": 47922,
+      "known_users": 805,
+      "unseen_origins": 4926,
+      "unseen_users": 83,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 47922,
+          "unseen_observed": 4926
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46508,
+          "unseen_observed": 4774
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44761,
+          "unseen_observed": 4590
+        },
+        {
+          "horizon": 25,
+          "known_observed": 39672,
+          "unseen_observed": 4078
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32263,
+          "unseen_observed": 3301
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "17c2609b4ff9ab692c55b956c140ca2d2bd0d4afd3db5b02723748ead5fc9615",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.112309087999996
+    },
+    {
+      "status": "complete",
+      "bucket": 25,
+      "queries_audited": 48242,
+      "known_users": 805,
+      "unseen_origins": 4609,
+      "unseen_users": 79,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48242,
+          "unseen_observed": 4609
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46849,
+          "unseen_observed": 4457
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45137,
+          "unseen_observed": 4271
+        },
+        {
+          "horizon": 25,
+          "known_observed": 40192,
+          "unseen_observed": 3771
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32739,
+          "unseen_observed": 3023
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "11794918e95355949da899a16f5cdda9c2e90fdf4892524ab327ea8f7dcae897",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 3.874946283000007
+    },
+    {
+      "status": "complete",
+      "bucket": 26,
+      "queries_audited": 49266,
+      "known_users": 808,
+      "unseen_origins": 4998,
+      "unseen_users": 81,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 49266,
+          "unseen_observed": 4998
+        },
+        {
+          "horizon": 5,
+          "known_observed": 47946,
+          "unseen_observed": 4868
+        },
+        {
+          "horizon": 10,
+          "known_observed": 46302,
+          "unseen_observed": 4712
+        },
+        {
+          "horizon": 25,
+          "known_observed": 41394,
+          "unseen_observed": 4215
+        },
+        {
+          "horizon": 50,
+          "known_observed": 34150,
+          "unseen_observed": 3494
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "d40a956af89d36d1a9aeb7411fcbbdb9c337fb275d09ba704eed2b6696f4899d",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.873039860999995
+    },
+    {
+      "status": "complete",
+      "bucket": 27,
+      "queries_audited": 46969,
+      "known_users": 799,
+      "unseen_origins": 4405,
+      "unseen_users": 75,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 46969,
+          "unseen_observed": 4405
+        },
+        {
+          "horizon": 5,
+          "known_observed": 45527,
+          "unseen_observed": 4272
+        },
+        {
+          "horizon": 10,
+          "known_observed": 43732,
+          "unseen_observed": 4110
+        },
+        {
+          "horizon": 25,
+          "known_observed": 38665,
+          "unseen_observed": 3600
+        },
+        {
+          "horizon": 50,
+          "known_observed": 31388,
+          "unseen_observed": 2948
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "c275cb99e282535914877c0a0377b608c2b5bbc31dbf522ff4fb50761646825d",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 3.846035212000004
+    },
+    {
+      "status": "complete",
+      "bucket": 28,
+      "queries_audited": 48049,
+      "known_users": 803,
+      "unseen_origins": 4657,
+      "unseen_users": 79,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48049,
+          "unseen_observed": 4657
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46681,
+          "unseen_observed": 4526
+        },
+        {
+          "horizon": 10,
+          "known_observed": 44997,
+          "unseen_observed": 4355
+        },
+        {
+          "horizon": 25,
+          "known_observed": 40150,
+          "unseen_observed": 3863
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32815,
+          "unseen_observed": 3122
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "e545968959addfcf415b0f4d0dadafb5af389098c8043abc82f16cbda52510c4",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 3.9458158139999995
+    },
+    {
+      "status": "complete",
+      "bucket": 29,
+      "queries_audited": 48499,
+      "known_users": 805,
+      "unseen_origins": 4730,
+      "unseen_users": 78,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48499,
+          "unseen_observed": 4730
+        },
+        {
+          "horizon": 5,
+          "known_observed": 47045,
+          "unseen_observed": 4597
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45249,
+          "unseen_observed": 4419
+        },
+        {
+          "horizon": 25,
+          "known_observed": 40032,
+          "unseen_observed": 3921
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32271,
+          "unseen_observed": 3166
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "be8ebff8002f1717ce57fe1b8d5c78222658265d1d9c96b180bd78579fc340a9",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 4.6630231119999905
+    },
+    {
+      "status": "complete",
+      "bucket": 30,
+      "queries_audited": 48287,
+      "known_users": 803,
+      "unseen_origins": 4837,
+      "unseen_users": 78,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48287,
+          "unseen_observed": 4837
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46905,
+          "unseen_observed": 4716
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45210,
+          "unseen_observed": 4559
+        },
+        {
+          "horizon": 25,
+          "known_observed": 40230,
+          "unseen_observed": 4077
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32824,
+          "unseen_observed": 3309
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "b7323a9050ed175c15bef51d74bcde7646c87050c0f949925f9bd9173696557e",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 6.220489064999995
+    },
+    {
+      "status": "complete",
+      "bucket": 31,
+      "queries_audited": 48319,
+      "known_users": 806,
+      "unseen_origins": 4311,
+      "unseen_users": 72,
+      "horizons": [
+        {
+          "horizon": 1,
+          "known_observed": 48319,
+          "unseen_observed": 4311
+        },
+        {
+          "horizon": 5,
+          "known_observed": 46913,
+          "unseen_observed": 4190
+        },
+        {
+          "horizon": 10,
+          "known_observed": 45156,
+          "unseen_observed": 4030
+        },
+        {
+          "horizon": 25,
+          "known_observed": 40099,
+          "unseen_observed": 3591
+        },
+        {
+          "horizon": 50,
+          "known_observed": 32652,
+          "unseen_observed": 2967
+        }
+      ],
+      "checks": {
+        "physical_source_binding": true,
+        "representative_draw": true,
+        "outcome_blind_origin_draw": true,
+        "calendar_and_user_roles": true,
+        "all_available_history_tokens": true,
+        "target_and_censoring_reconstruction": true
+      },
+      "independence": "Separate physical-row NumPy mapping, per-user origin sampling, bounded-heap histories and direct future slices. Shared specified NumPy PRNG only; no production cohort/history helper called.",
+      "limitations": "Availability proxies and released-cohort assumptions remain. No predictive scores, unconditional survival or human confidence guarantee.",
+      "audit_source_digest": "8e9a008066ec5d558e90a90cabdd0e4e7e69368fe4fd447369c3c534eae2434a",
+      "cohort_report_sha256": "200b8c2f603467ac63a807e8ae4e294286c671f35d377f49eb5fe7d6e95b198f",
+      "cohort_npz_sha256": "87f20ce1460b5f4c8b4c4b2f8579a85d8374824769f0930b335bd8234136e0af",
+      "intrinsic_context_checked": true,
+      "wall_seconds": 3.9501992380000104
+    }
+  ],
+  "bucket_count": 32,
+  "queries": 1539530,
+  "known_origins": 1539530,
+  "known_users": 25796,
+  "unseen_origins": 153863,
+  "unseen_users": 2582,
+  "root": "/artifacts/datasets/kuairand-27k/prepared-candidate-v2/multistep-test-49fe45c8024a0c88/independent-audit-8e9a008066ec5d55"
+}

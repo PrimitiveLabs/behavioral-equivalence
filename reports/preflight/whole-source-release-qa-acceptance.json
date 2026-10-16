@@ -1,0 +1,13 @@
+{
+  "status": "ship_ready_research_release",
+  "observed_at": "2026-10-16T09:37:13.089437+00:00",
+  "report": "reports/qa/whole-source-release-audit.md",
+  "source_archive_sha256": "ecc5a586bd135738b51dca2b392f55da94e9f8aeba4fcfe1a76f296ccde84cb2",
+  "source_files": 492,
+  "executable_sources": 210,
+  "strict_tests": 1663,
+  "strict_skips": 0,
+  "strict_report": "reports/preflight/source-package-reproduction-ecc5a586bd135738-e52eea4696b4.json",
+  "strict_report_sha256": "1de6add539e0ee4ad326446d647bd59cf0c25df33e225b437f7ce47f3131d347",
+  "scope": "Research release acceptance under the recorded per-module review and explicit model/data/provider limitations. Publication and final delivered artifact remain separate; goal stays active."
+}

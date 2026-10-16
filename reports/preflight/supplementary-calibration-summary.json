@@ -1,0 +1,171 @@
+{
+  "status": "complete",
+  "fits": 10,
+  "point_interval_models": 300,
+  "one_outcome_certificates_replayed": 1200,
+  "primary_state_ranges": {
+    "is_like": [
+      90,
+      137
+    ],
+    "is_follow": [
+      66,
+      93
+    ],
+    "is_comment": [
+      65,
+      94
+    ],
+    "is_forward": [
+      65,
+      93
+    ],
+    "is_hate": [
+      65,
+      94
+    ],
+    "watch_category": [
+      241,
+      252
+    ]
+  },
+  "k256_interval_mean_width_ranges": {
+    "is_like": [
+      0.9996421114775282,
+      1.0
+    ],
+    "is_follow": [
+      0.9995574555386928,
+      1.0
+    ],
+    "is_comment": [
+      0.9995647885201369,
+      1.0
+    ],
+    "is_forward": [
+      0.9995583154301446,
+      1.0
+    ],
+    "is_hate": [
+      0.9995546221140577,
+      1.0
+    ],
+    "watch_category": [
+      1.0,
+      1.0
+    ]
+  },
+  "rows": [
+    {
+      "protocol": "known_users",
+      "seed": 20261015,
+      "report_path": "reports/supplementary-calibration/known_users-20261015.json",
+      "report_sha256": "378a1b60a5bda41237eedfd02d9f5882a3d81128d96387bd4605e01dd027d201",
+      "users": 25522,
+      "origins": 1393257,
+      "models": 30,
+      "certificates": 120,
+      "runtime": 63.299372223999995
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261016,
+      "report_path": "reports/supplementary-calibration/known_users-20261016.json",
+      "report_sha256": "9481ebbd1bbc7f7414f11b864fabd46e8527b3120a86836d34bce3fc70074c52",
+      "users": 25522,
+      "origins": 1393257,
+      "models": 30,
+      "certificates": 120,
+      "runtime": 52.399384072000004
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261017,
+      "report_path": "reports/supplementary-calibration/known_users-20261017.json",
+      "report_sha256": "7fcd8e95feaed1453a98c8f6879bced59693b87cb518d79f88af14b220d24ee8",
+      "users": 25522,
+      "origins": 1393257,
+      "models": 30,
+      "certificates": 120,
+      "runtime": 36.913860023999995
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261018,
+      "report_path": "reports/supplementary-calibration/known_users-20261018.json",
+      "report_sha256": "23dcc435690677bd02d9787d72fa1f9bf2f53402c06e68b6d5b4d1a3bae64b78",
+      "users": 25522,
+      "origins": 1393257,
+      "models": 30,
+      "certificates": 120,
+      "runtime": 40.332717084
+    },
+    {
+      "protocol": "known_users",
+      "seed": 20261019,
+      "report_path": "reports/supplementary-calibration/known_users-20261019.json",
+      "report_sha256": "c23438dee16322293af472b70042871292eefe6e9260aa9dcf0cb72618d89e0e",
+      "users": 25522,
+      "origins": 1393257,
+      "models": 30,
+      "certificates": 120,
+      "runtime": 53.579109604
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261015,
+      "report_path": "reports/supplementary-calibration/unseen_users-20261015.json",
+      "report_sha256": "7a5b40a6f75bd1c1be238e6a754bcf53a101a8f5efb5023fa1b2f85fac9755cb",
+      "users": 2542,
+      "origins": 139378,
+      "models": 30,
+      "certificates": 120,
+      "runtime": 39.418134666
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261016,
+      "report_path": "reports/supplementary-calibration/unseen_users-20261016.json",
+      "report_sha256": "56f6af906ceaa858129409d7c08960350033f0d37d43b0e5fa5eade6d54f9618",
+      "users": 2542,
+      "origins": 139378,
+      "models": 30,
+      "certificates": 120,
+      "runtime": 52.73448141599998
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261017,
+      "report_path": "reports/supplementary-calibration/unseen_users-20261017.json",
+      "report_sha256": "c10b8d60e4ec674fba37e1984c6ba964e9c562df374a95fb7295b0856eeb8a95",
+      "users": 2542,
+      "origins": 139378,
+      "models": 30,
+      "certificates": 120,
+      "runtime": 38.66945831999999
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261018,
+      "report_path": "reports/supplementary-calibration/unseen_users-20261018.json",
+      "report_sha256": "e574cd94b53d00fa82d961ee46be5c6abc884a44220606274b4b40e6e6033ce9",
+      "users": 2542,
+      "origins": 139378,
+      "models": 30,
+      "certificates": 120,
+      "runtime": 37.84999766500002
+    },
+    {
+      "protocol": "unseen_users",
+      "seed": 20261019,
+      "report_path": "reports/supplementary-calibration/unseen_users-20261019.json",
+      "report_sha256": "8fa870a95c4b15701a5df5ae328635a72810ef0ae1bfd71492d21ad8e71ab2be",
+      "users": 2542,
+      "origins": 139378,
+      "models": 30,
+      "certificates": 120,
+      "runtime": 54.222755234999994
+    }
+  ],
+  "scope": "Complete supplementary calibration matrix only. Human test prediction, interval coverage and joint/sequential endpoint preservation are not established."
+}

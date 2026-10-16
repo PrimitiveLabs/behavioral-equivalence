@@ -1,0 +1,350 @@
+{
+  "status": "complete",
+  "phase": "exploratory finite-property human compression pilot",
+  "source_run": "human-training-pilot-20261015-b",
+  "records": [
+    {
+      "protocol": "chronological",
+      "candidate_k": 64,
+      "property_error_budget_probability": 0.005,
+      "reduced_latent_states": 240,
+      "compression_ratio": 1.0666666666666667,
+      "parent_digest": "f676469f6695dc2e2ddc07bf48473cbca30ebad3c3708205d5270f8848d689ba",
+      "certificate": "chronological-k64-tol0.005.json.gz",
+      "certificate_sha256": "0e7c56f95f7450062ed1a3d2b3d0021948b1cfbb6e0b146a0559745fe747ad41",
+      "paired_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": -3.384798953139305e-06,
+        "ci95": [
+          -3.507105365154042e-05,
+          2.8350629168786228e-05
+        ],
+        "users": 979,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "seconds": 93.34524577299999,
+      "property_count": 25
+    },
+    {
+      "protocol": "chronological",
+      "candidate_k": 64,
+      "property_error_budget_probability": 0.01,
+      "reduced_latent_states": 219,
+      "compression_ratio": 1.1689497716894977,
+      "parent_digest": "f676469f6695dc2e2ddc07bf48473cbca30ebad3c3708205d5270f8848d689ba",
+      "certificate": "chronological-k64-tol0.01.json.gz",
+      "certificate_sha256": "d64c51ea303fe1ec9bb88dcd78c8e1d9d26e6f42a69f3669603f4c8166c92904",
+      "paired_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 1.4829259811422635e-05,
+        "ci95": [
+          -7.132886211821463e-05,
+          0.00010260226468263034
+        ],
+        "users": 979,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "seconds": 80.59377733500001,
+      "property_count": 25
+    },
+    {
+      "protocol": "chronological",
+      "candidate_k": 64,
+      "property_error_budget_probability": 0.03,
+      "reduced_latent_states": 159,
+      "compression_ratio": 1.610062893081761,
+      "parent_digest": "f676469f6695dc2e2ddc07bf48473cbca30ebad3c3708205d5270f8848d689ba",
+      "certificate": "chronological-k64-tol0.03.json.gz",
+      "certificate_sha256": "88e78cd07014ca86fafabf495f5300b920ee6f891e0660f51bc0ab680d844ade",
+      "paired_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 0.0002459370272156852,
+        "ci95": [
+          9.764517516141631e-06,
+          0.0004848294829079436
+        ],
+        "users": 979,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "seconds": 60.06280960500001,
+      "property_count": 25
+    },
+    {
+      "protocol": "chronological",
+      "candidate_k": 128,
+      "property_error_budget_probability": 0.005,
+      "reduced_latent_states": 247,
+      "compression_ratio": 1.0364372469635628,
+      "parent_digest": "f676469f6695dc2e2ddc07bf48473cbca30ebad3c3708205d5270f8848d689ba",
+      "certificate": "chronological-k128-tol0.005.json.gz",
+      "certificate_sha256": "a3e2bd91d88a84ecc59e79675f52ee8f4e26c40d8edbf0744d207ffcfb0a8dcf",
+      "paired_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 1.1914189166787318e-05,
+        "ci95": [
+          -1.2574368331564974e-05,
+          3.732386983426704e-05
+        ],
+        "users": 979,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "seconds": 94.01803447200001,
+      "property_count": 25
+    },
+    {
+      "protocol": "chronological",
+      "candidate_k": 128,
+      "property_error_budget_probability": 0.01,
+      "reduced_latent_states": 236,
+      "compression_ratio": 1.0847457627118644,
+      "parent_digest": "f676469f6695dc2e2ddc07bf48473cbca30ebad3c3708205d5270f8848d689ba",
+      "certificate": "chronological-k128-tol0.01.json.gz",
+      "certificate_sha256": "e788362202a4674118a42f44ce84f2f89b38d4d115c90cbc09a529048dfa7731",
+      "paired_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": -1.5059228523696193e-05,
+        "ci95": [
+          -7.15337372145504e-05,
+          4.00816573276548e-05
+        ],
+        "users": 979,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "seconds": 86.86928221699998,
+      "property_count": 25
+    },
+    {
+      "protocol": "chronological",
+      "candidate_k": 128,
+      "property_error_budget_probability": 0.03,
+      "reduced_latent_states": 189,
+      "compression_ratio": 1.3544973544973544,
+      "parent_digest": "f676469f6695dc2e2ddc07bf48473cbca30ebad3c3708205d5270f8848d689ba",
+      "certificate": "chronological-k128-tol0.03.json.gz",
+      "certificate_sha256": "290b256873eb4433b82c2513475286c56e7586200c3fad9156a65200aa714523",
+      "paired_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 6.535540168984023e-05,
+        "ci95": [
+          -5.584745709402911e-05,
+          0.00018356177612461298
+        ],
+        "users": 979,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "seconds": 65.31578230099996,
+      "property_count": 25
+    },
+    {
+      "protocol": "users",
+      "candidate_k": 64,
+      "property_error_budget_probability": 0.005,
+      "reduced_latent_states": 249,
+      "compression_ratio": 1.0281124497991967,
+      "parent_digest": "406d6d156fb47318a062a87da2b1e480db83a4e2128d31952c40fa7eb7991963",
+      "certificate": "users-k64-tol0.005.json.gz",
+      "certificate_sha256": "2a5f4f94a7a22f638baba78f848bdbd1ed613f24d2df18e41e879a88240659bf",
+      "paired_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": -2.0241755766082012e-05,
+        "ci95": [
+          -6.891764505927493e-05,
+          2.2885286688174118e-05
+        ],
+        "users": 100,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "seconds": 96.59512939900003,
+      "property_count": 25
+    },
+    {
+      "protocol": "users",
+      "candidate_k": 64,
+      "property_error_budget_probability": 0.01,
+      "reduced_latent_states": 229,
+      "compression_ratio": 1.1179039301310043,
+      "parent_digest": "406d6d156fb47318a062a87da2b1e480db83a4e2128d31952c40fa7eb7991963",
+      "certificate": "users-k64-tol0.01.json.gz",
+      "certificate_sha256": "4579db6cb06dcd9bb17e1e6c0b75efd5e6d164441a6cb9fc91cc91a1e9cf1b8f",
+      "paired_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": 1.6025719812827826e-05,
+        "ci95": [
+          -9.851983695135253e-05,
+          0.00012321806972731677
+        ],
+        "users": 100,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "seconds": 86.06573057399999,
+      "property_count": 25
+    },
+    {
+      "protocol": "users",
+      "candidate_k": 64,
+      "property_error_budget_probability": 0.03,
+      "reduced_latent_states": 171,
+      "compression_ratio": 1.4970760233918128,
+      "parent_digest": "406d6d156fb47318a062a87da2b1e480db83a4e2128d31952c40fa7eb7991963",
+      "certificate": "users-k64-tol0.03.json.gz",
+      "certificate_sha256": "ecaef729c804662f11c4e2677cae421e9bce10d446a829afa8a5d85b281b2b52",
+      "paired_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": -0.00014227346956487667,
+        "ci95": [
+          -0.00037339858913232294,
+          7.14807402663447e-05
+        ],
+        "users": 100,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "seconds": 65.33864640699994,
+      "property_count": 25
+    },
+    {
+      "protocol": "users",
+      "candidate_k": 128,
+      "property_error_budget_probability": 0.005,
+      "reduced_latent_states": 253,
+      "compression_ratio": 1.0118577075098814,
+      "parent_digest": "406d6d156fb47318a062a87da2b1e480db83a4e2128d31952c40fa7eb7991963",
+      "certificate": "users-k128-tol0.005.json.gz",
+      "certificate_sha256": "514d91196d2f2e400b9123cda69f8f0c32c44fc84ec120f82400f4a44cae63ae",
+      "paired_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": -1.3832178428189096e-05,
+        "ci95": [
+          -5.097931241484723e-05,
+          1.180278102803659e-05
+        ],
+        "users": 100,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "seconds": 98.47702246699998,
+      "property_count": 25
+    },
+    {
+      "protocol": "users",
+      "candidate_k": 128,
+      "property_error_budget_probability": 0.01,
+      "reduced_latent_states": 243,
+      "compression_ratio": 1.0534979423868314,
+      "parent_digest": "406d6d156fb47318a062a87da2b1e480db83a4e2128d31952c40fa7eb7991963",
+      "certificate": "users-k128-tol0.01.json.gz",
+      "certificate_sha256": "c51a5b983756afc5773cc7ab9c0d89213ab414a69188792fdb2632b490e7adfd",
+      "paired_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": -3.231941376916337e-05,
+        "ci95": [
+          -0.0001059326616989542,
+          3.3126913486723256e-05
+        ],
+        "users": 100,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "seconds": 91.32182312099997,
+      "property_count": 25
+    },
+    {
+      "protocol": "users",
+      "candidate_k": 128,
+      "property_error_budget_probability": 0.03,
+      "reduced_latent_states": 199,
+      "compression_ratio": 1.2864321608040201,
+      "parent_digest": "406d6d156fb47318a062a87da2b1e480db83a4e2128d31952c40fa7eb7991963",
+      "certificate": "users-k128-tol0.03.json.gz",
+      "certificate_sha256": "1b1d32a336fcdda30daba62e234f5f01ee2e4b1e3617d9003fa5f9ca55c70e09",
+      "paired_nll": {
+        "aggregation": "equal user-weighted mean NLL difference",
+        "candidate_minus_reference_nats": -8.066330140716464e-05,
+        "ci95": [
+          -0.0002042482440231059,
+          2.8036726271729104e-05
+        ],
+        "users": 100,
+        "cases": 20000,
+        "margin_nats": 0.01,
+        "noninferior_at_margin": true,
+        "replications": 2000,
+        "seed": 20261015,
+        "probability_clip": 1e-06,
+        "scope": "conditional on fixed fitted models; not a compression result"
+      },
+      "seconds": 71.28568068499999,
+      "property_count": 25
+    }
+  ],
+  "wall_seconds": 1024.05219547,
+  "limitations": [
+    "Specifically enumerated finite-model properties only, not bisimulation.",
+    "No guarantee for the unknown human process, unlisted properties or environmental interventions.",
+    "Same pilot timing assumptions, one trained seed and observational transition estimates.",
+    "No final 27K evaluation or confirmatory parameter selection."
+  ]
+}

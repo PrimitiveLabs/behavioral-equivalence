@@ -1,0 +1,114 @@
+{
+  "schema_version": "supplementary-emission-calibration-v1",
+  "status": "calibration_design_frozen_before_emission_estimation",
+  "calibration_root": "datasets/kuairand-27k/prepared-candidate-v2/adjacent-calibration-314b2e408cb56897",
+  "calibration_report_sha256": "ded969e03e56d879bb7a2dbff3aa637c69eee821e45024125103a7a21ea09b19",
+  "parents": [
+    {
+      "root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/quantization-eaa699cb5987-25046fd0a2d3/calibrated-parent-c0c628bb9aaf",
+      "report_sha256": "1b7b53c94d372c20bd8da8f32de0a7ad0542e6a74798efd572598a50c5cfb8cb",
+      "protocol": "known_users",
+      "seed": 20261015
+    },
+    {
+      "root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261016/quantization-eaa699cb5987-1031ff8239ca/calibrated-parent-c0c628bb9aaf",
+      "report_sha256": "52b7977af908fda880992e565f02eb6b63354e8c85aca834df98ba8439e56e1c",
+      "protocol": "known_users",
+      "seed": 20261016
+    },
+    {
+      "root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261017/quantization-eaa699cb5987-3fc604fcb0d7/calibrated-parent-c0c628bb9aaf",
+      "report_sha256": "c7c7081570483b6ed851bc9d744239470619e838790d462553cfa3b96f7f3bb8",
+      "protocol": "known_users",
+      "seed": 20261017
+    },
+    {
+      "root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261018/quantization-eaa699cb5987-6472527fcb5f/calibrated-parent-40c80c043abe",
+      "report_sha256": "5d3f5b2cc71b8db5afddd4cca721755f8f134f5666b2d77bab9a7da5b6f966f7",
+      "protocol": "known_users",
+      "seed": 20261018
+    },
+    {
+      "root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261019/quantization-eaa699cb5987-609765ef318f/calibrated-parent-40c80c043abe",
+      "report_sha256": "d07c462750f7b9e83081732ceea92b8d18223c91748a5b5f91d0dcf5d7644a8b",
+      "protocol": "known_users",
+      "seed": 20261019
+    },
+    {
+      "root": "human-calendar-training-v3-8c2afe99bb75/fits/unseen_users-gru-20261015/quantization-eaa699cb5987-8686ccebfe7c/calibrated-parent-40c80c043abe",
+      "report_sha256": "464a463eae192809e1c033fa9283f292bea5b8e872167f1a7af94718be907eb9",
+      "protocol": "unseen_users",
+      "seed": 20261015
+    },
+    {
+      "root": "human-calendar-training-v3-8c2afe99bb75/fits/unseen_users-gru-20261016/quantization-eaa699cb5987-a60a6bb52860/calibrated-parent-40c80c043abe",
+      "report_sha256": "a424deb31151d1afb8f4132cb091994917bd43516b0c777d50daffacdc4298f6",
+      "protocol": "unseen_users",
+      "seed": 20261016
+    },
+    {
+      "root": "human-calendar-training-v3-8c2afe99bb75/fits/unseen_users-gru-20261017/quantization-eaa699cb5987-ce6fcc8529ea/calibrated-parent-40c80c043abe",
+      "report_sha256": "6bf87a4a92b2ccdb4fda5fd98b19e1d645f1ad39220b55ed27bc613ec4be5117",
+      "protocol": "unseen_users",
+      "seed": 20261017
+    },
+    {
+      "root": "human-calendar-training-v4-replicates-609ecd456db7/fits/unseen_users-gru-20261018/quantization-eaa699cb5987-1bc4681e655d/calibrated-parent-40c80c043abe",
+      "report_sha256": "1f7cd4d57b7c81ef8905a4d8d01e7d1aacbfbd6f30f49d9e7f5470f06e5f97d4",
+      "protocol": "unseen_users",
+      "seed": 20261018
+    },
+    {
+      "root": "human-calendar-training-v4-replicates-609ecd456db7/fits/unseen_users-gru-20261019/quantization-eaa699cb5987-d48741d614ab/calibrated-parent-40c80c043abe",
+      "report_sha256": "4cd4a676cf51a3392669abe1a0fd3bbf46b4de98afa2127f153752f9c3d6c721",
+      "protocol": "unseen_users",
+      "seed": 20261019
+    }
+  ],
+  "state_counts": [
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "endpoint_classes": {
+    "is_like": 2,
+    "is_follow": 2,
+    "is_comment": 2,
+    "is_forward": 2,
+    "is_hate": 2,
+    "watch_category": 4
+  },
+  "maximum_per_user": 64,
+  "selection": "Retained source_query_indices then stored pair_current only; current origins are capped outcome-blind and disjoint across physical user buckets",
+  "point_emission_smoothing_total": 1.0,
+  "interval_alpha": [
+    1,
+    6000
+  ],
+  "alpha_scope": "Union allocation of .05 across 10 fixed parent fits,5 state counts,6 endpoint models. Within each model the count-ratio construction allocates across rows and successor coordinates. Representation validity and independent-user assumptions remain conditional.",
+  "parent_start_counts": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "epsilons": [
+    0.0,
+    0.01
+  ],
+  "supplementary_primary": {
+    "start_count": 64,
+    "epsilon": 0.01,
+    "scope": "separate next-outcome preservation, cannot replace click primary"
+  },
+  "matched_controls": [
+    "feature partition without refinement",
+    "random parent-state partition at refined capacity"
+  ],
+  "certificate_scope": "Endpoint-specific absorbing one-outcome graphs at H1 only, exact-normalized float weights. Separate marginal certificates do not identify the joint endpoint law.",
+  "test_access": false,
+  "target_root": "supplementary-adjacent-targets-128efa849c042a5b",
+  "target_report_canonical_digest": "96c554429d2a0a7e62d208b3ad10345542abc6a1b93c092349b8ceb65966de7b"
+}

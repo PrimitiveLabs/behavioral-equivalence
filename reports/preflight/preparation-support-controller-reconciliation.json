@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "scope": "Read-only arithmetic reconciliation of retained outcome-free support aggregates; no new data preparation, outcomes inspected or power/fidelity claim",
+  "bucket_reports": 32,
+  "conditions": 12,
+  "role_cells": 48,
+  "users": 26285,
+  "cases": 309105777,
+  "all_role_and_history_counts_match": true,
+  "all_timestamp_extrema_match": true,
+  "prepared_report_identity_matches_independent_audit_and_case_config": true,
+  "input_sha256": "9a6918ffea315341be9ffc2aceb6f46f4528256a5561c600007c4d08d2f47d75"
+}

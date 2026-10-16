@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "source_digest": "b13ad5a974bf901f14991a8fe04f8ad99cd42074b710b005118c479b1186a647",
+  "scored_source_digest": "9a4cb36c39c2419e034a088daa1a6622c6bec84f45f443a5ecb69e2a35b8f4d1",
+  "scored_report_sha256": "2c539e53bd318dc1e7af5bde263ddab97a9b9fc0456f0c76bf64bd1c584e8cb3",
+  "protocol": "known_users",
+  "seed": 20261016,
+  "case_count": 3220197,
+  "output_hashes_checked": 34,
+  "proper_loss_cells_checked": 720,
+  "model_endpoint_blocks": 180,
+  "all_category_and_top_calibration_bins_checked": true,
+  "bootstrap_contrasts_checked": 186,
+  "maximum_proper_loss_difference": 4.440892098500626e-16,
+  "maximum_calibration_difference": 1.2710943408933417e-12,
+  "maximum_private_user_loss_difference": 1.2434497875801753e-14,
+  "maximum_bootstrap_difference": 7.7021722333370235e-16,
+  "tolerance": 1e-10,
+  "wall_seconds": 229.23096025200002,
+  "scope": "Independent saved-forecast reconstruction and sorted-user categorical proper losses, all reported class/top calibration cells, private user statistics and all paired NLL bootstrap contrasts. No neural-forward/state-assignment recomputation. Interval compatibility diagnostics and uniform-envelope arithmetic are not independently replayed by this audit."
+}

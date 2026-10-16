@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "source_digest": "a0450320cc941c72da068fb7873cd294c60d4b1d3bb6c8c0f2ee58e7b006960d",
+  "phase": "secondary paired nominal ablation",
+  "original_manifest_sha256": "38ebd31d33c62c5ea172123273804ba134af0c7e1735314ba31bde90d1cd6905",
+  "failures": [],
+  "point_evaluations": 8000,
+  "root": "/artifacts/uncertainty-repeated-v1-d567478458e8/nominal-a0450320cc941c72",
+  "statistical_coverage_claim": "none"
+}

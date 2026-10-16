@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "source_digest": "4ceca2656733c1b04e4df8e716170cfebde721ff30c6567b1d71738af7d6d6b7",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "lean_version": "Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)",
+  "returncode": 0,
+  "invalid_proof_control_returncode": 1,
+  "invalid_proof_control_output": "/tmp/invalid-coupling-control.lean:1:22: error: type mismatch\n  True.intro\nhas type\n  True : Prop\nbut is expected to have type\n  False : Prop\n",
+  "compiler_output": "/research/FiniteCoupling.lean:26:0: warning: automatically included section variable(s) unused in theorem 'BehavioralCoupling.overlap_identity':\n  [DecidableEq \u03b9]\nconsider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:\n  omit [DecidableEq \u03b9] in theorem ...\nnote: this linter can be disabled with `set_option linter.unusedSectionVars false`\n/research/FiniteCoupling.lean:33:19: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\nnote: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n'BehavioralCoupling.finite_maximal_coupling' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "proof_sha256": "81376450cc2cddf7828283562cb4854ad26a705e0909db348ed1253c4677b17d",
+  "theorems": [
+    "BehavioralCoupling.finite_maximal_coupling"
+  ],
+  "scope": "Finite maximal coupling existence and exact row/column marginals with match mass1-TV. This does not yet mechanize partition-to-concrete lifting, path-event construction, statistical assumptions or numerical implementation.",
+  "wall_seconds": 6.760956511,
+  "root": "/artifacts/finite-coupling-4ceca2656733c1b0"
+}

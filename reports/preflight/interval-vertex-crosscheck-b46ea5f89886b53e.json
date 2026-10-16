@@ -1,0 +1,2507 @@
+{
+  "status": "complete",
+  "source_digest": "b46ea5f89886b53e022b0467b255db6605d549ee21540bb7610a67f023b10ed4",
+  "fixtures": 4,
+  "checks": 144,
+  "horizons": [
+    0,
+    1,
+    5,
+    10,
+    25,
+    50
+  ],
+  "records": [
+    {
+      "fixture": "two",
+      "state": 0,
+      "horizon": 0,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 1,
+      "horizon": 0,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 0,
+      "horizon": 0,
+      "extremum": "max",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 1,
+      "horizon": 0,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 0,
+      "horizon": 1,
+      "extremum": "min",
+      "prism": 0.25,
+      "exact_numerator": "1",
+      "exact_denominator": "4",
+      "directed_lower": "1/4",
+      "directed_upper": "1/4",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 1,
+      "horizon": 1,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 0,
+      "horizon": 1,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 1,
+      "horizon": 1,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 0,
+      "horizon": 5,
+      "extremum": "min",
+      "prism": 0.7626953125,
+      "exact_numerator": "781",
+      "exact_denominator": "1024",
+      "directed_lower": "781/1024",
+      "directed_upper": "781/1024",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 1,
+      "horizon": 5,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 0,
+      "horizon": 5,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 1,
+      "horizon": 5,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 0,
+      "horizon": 10,
+      "extremum": "min",
+      "prism": 0.9436864852905273,
+      "exact_numerator": "989527",
+      "exact_denominator": "1048576",
+      "directed_lower": "989527/1048576",
+      "directed_upper": "989527/1048576",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 1,
+      "horizon": 10,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 0,
+      "horizon": 10,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 1,
+      "horizon": 10,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 0,
+      "horizon": 25,
+      "extremum": "min",
+      "prism": 0.999247456541835,
+      "exact_numerator": "1125052618233181",
+      "exact_denominator": "1125899906842624",
+      "directed_lower": "281263154558295/281474976710656",
+      "directed_upper": "35157894319787/35184372088832",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 1,
+      "horizon": 25,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 0,
+      "horizon": 25,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 1,
+      "horizon": 25,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 0,
+      "horizon": 50,
+      "extremum": "min",
+      "prism": 0.9999994336783435,
+      "exact_numerator": "1267649882330241709644114435127",
+      "exact_denominator": "1267650600228229401496703205376",
+      "directed_lower": "281474817305279/281474976710656",
+      "directed_upper": "140737408652641/140737488355328",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 1,
+      "horizon": 50,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 0,
+      "horizon": 50,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "two",
+      "state": 1,
+      "horizon": 50,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        2,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 0,
+      "horizon": 0,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 1,
+      "horizon": 0,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 2,
+      "horizon": 0,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 0,
+      "horizon": 0,
+      "extremum": "max",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 1,
+      "horizon": 0,
+      "extremum": "max",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 2,
+      "horizon": 0,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 0,
+      "horizon": 1,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 1,
+      "horizon": 1,
+      "extremum": "min",
+      "prism": 0.25,
+      "exact_numerator": "1",
+      "exact_denominator": "4",
+      "directed_lower": "1/4",
+      "directed_upper": "1/4",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 2,
+      "horizon": 1,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 0,
+      "horizon": 1,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 1,
+      "horizon": 1,
+      "extremum": "max",
+      "prism": 0.75,
+      "exact_numerator": "3",
+      "exact_denominator": "4",
+      "directed_lower": "3/4",
+      "directed_upper": "3/4",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 2,
+      "horizon": 1,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 0,
+      "horizon": 5,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 1,
+      "horizon": 5,
+      "extremum": "min",
+      "prism": 0.3330078125,
+      "exact_numerator": "341",
+      "exact_denominator": "1024",
+      "directed_lower": "341/1024",
+      "directed_upper": "341/1024",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 2,
+      "horizon": 5,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 0,
+      "horizon": 5,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 1,
+      "horizon": 5,
+      "extremum": "max",
+      "prism": 0.9990234375,
+      "exact_numerator": "1023",
+      "exact_denominator": "1024",
+      "directed_lower": "1023/1024",
+      "directed_upper": "1023/1024",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 2,
+      "horizon": 5,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 0,
+      "horizon": 10,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 1,
+      "horizon": 10,
+      "extremum": "min",
+      "prism": 0.33333301544189453,
+      "exact_numerator": "349525",
+      "exact_denominator": "1048576",
+      "directed_lower": "349525/1048576",
+      "directed_upper": "349525/1048576",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 2,
+      "horizon": 10,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 0,
+      "horizon": 10,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 1,
+      "horizon": 10,
+      "extremum": "max",
+      "prism": 0.9999990463256836,
+      "exact_numerator": "1048575",
+      "exact_denominator": "1048576",
+      "directed_lower": "1048575/1048576",
+      "directed_upper": "1048575/1048576",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 2,
+      "horizon": 10,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 0,
+      "horizon": 25,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 1,
+      "horizon": 25,
+      "extremum": "min",
+      "prism": 0.33333333333333304,
+      "exact_numerator": "375299968947541",
+      "exact_denominator": "1125899906842624",
+      "directed_lower": "93824992236885/281474976710656",
+      "directed_upper": "46912496118443/140737488355328",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 2,
+      "horizon": 25,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 0,
+      "horizon": 25,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 1,
+      "horizon": 25,
+      "extremum": "max",
+      "prism": 0.9999999999999991,
+      "exact_numerator": "1125899906842623",
+      "exact_denominator": "1125899906842624",
+      "directed_lower": "281474976710655/281474976710656",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 2,
+      "horizon": 25,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 0,
+      "horizon": 50,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 1,
+      "horizon": 50,
+      "extremum": "min",
+      "prism": 0.3333333333333333,
+      "exact_numerator": "422550200076076467165567735125",
+      "exact_denominator": "1267650600228229401496703205376",
+      "directed_lower": "93824992236885/281474976710656",
+      "directed_upper": "46912496118443/140737488355328",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 2,
+      "horizon": 50,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 0,
+      "horizon": 50,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 1,
+      "horizon": 50,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1267650600228229401496703205375",
+      "exact_denominator": "1267650600228229401496703205376",
+      "directed_lower": "281474976710655/281474976710656",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "simplex",
+      "state": 2,
+      "horizon": 50,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 0,
+      "horizon": 0,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 1,
+      "horizon": 0,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 2,
+      "horizon": 0,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 0,
+      "horizon": 0,
+      "extremum": "max",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 1,
+      "horizon": 0,
+      "extremum": "max",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 2,
+      "horizon": 0,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 0,
+      "horizon": 1,
+      "extremum": "min",
+      "prism": 0.25,
+      "exact_numerator": "1",
+      "exact_denominator": "4",
+      "directed_lower": "1/4",
+      "directed_upper": "1/4",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 1,
+      "horizon": 1,
+      "extremum": "min",
+      "prism": 0.25,
+      "exact_numerator": "1",
+      "exact_denominator": "4",
+      "directed_lower": "1/4",
+      "directed_upper": "1/4",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 2,
+      "horizon": 1,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 0,
+      "horizon": 1,
+      "extremum": "max",
+      "prism": 0.5,
+      "exact_numerator": "1",
+      "exact_denominator": "2",
+      "directed_lower": "1/2",
+      "directed_upper": "1/2",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 1,
+      "horizon": 1,
+      "extremum": "max",
+      "prism": 0.75,
+      "exact_numerator": "3",
+      "exact_denominator": "4",
+      "directed_lower": "3/4",
+      "directed_upper": "3/4",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 2,
+      "horizon": 1,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 0,
+      "horizon": 5,
+      "extremum": "min",
+      "prism": 0.7626953125,
+      "exact_numerator": "781",
+      "exact_denominator": "1024",
+      "directed_lower": "781/1024",
+      "directed_upper": "781/1024",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 1,
+      "horizon": 5,
+      "extremum": "min",
+      "prism": 0.7626953125,
+      "exact_numerator": "781",
+      "exact_denominator": "1024",
+      "directed_lower": "781/1024",
+      "directed_upper": "781/1024",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 2,
+      "horizon": 5,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 0,
+      "horizon": 5,
+      "extremum": "max",
+      "prism": 0.994140625,
+      "exact_numerator": "509",
+      "exact_denominator": "512",
+      "directed_lower": "509/512",
+      "directed_upper": "509/512",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 1,
+      "horizon": 5,
+      "extremum": "max",
+      "prism": 0.9990234375,
+      "exact_numerator": "1023",
+      "exact_denominator": "1024",
+      "directed_lower": "1023/1024",
+      "directed_upper": "1023/1024",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 2,
+      "horizon": 5,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 0,
+      "horizon": 10,
+      "extremum": "min",
+      "prism": 0.9436864852905273,
+      "exact_numerator": "989527",
+      "exact_denominator": "1048576",
+      "directed_lower": "989527/1048576",
+      "directed_upper": "989527/1048576",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 1,
+      "horizon": 10,
+      "extremum": "min",
+      "prism": 0.9436864852905273,
+      "exact_numerator": "989527",
+      "exact_denominator": "1048576",
+      "directed_lower": "989527/1048576",
+      "directed_upper": "989527/1048576",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 2,
+      "horizon": 10,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 0,
+      "horizon": 10,
+      "extremum": "max",
+      "prism": 0.9999895095825195,
+      "exact_numerator": "1048565",
+      "exact_denominator": "1048576",
+      "directed_lower": "1048565/1048576",
+      "directed_upper": "1048565/1048576",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 1,
+      "horizon": 10,
+      "extremum": "max",
+      "prism": 0.9999990463256836,
+      "exact_numerator": "1048575",
+      "exact_denominator": "1048576",
+      "directed_lower": "1048575/1048576",
+      "directed_upper": "1048575/1048576",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 2,
+      "horizon": 10,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 0,
+      "horizon": 25,
+      "extremum": "min",
+      "prism": 0.999247456541835,
+      "exact_numerator": "1125052618233181",
+      "exact_denominator": "1125899906842624",
+      "directed_lower": "281263154558295/281474976710656",
+      "directed_upper": "35157894319787/35184372088832",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 1,
+      "horizon": 25,
+      "extremum": "min",
+      "prism": 0.999247456541835,
+      "exact_numerator": "1125052618233181",
+      "exact_denominator": "1125899906842624",
+      "directed_lower": "281263154558295/281474976710656",
+      "directed_upper": "35157894319787/35184372088832",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 2,
+      "horizon": 25,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 0,
+      "horizon": 25,
+      "extremum": "max",
+      "prism": 0.9999999999999769,
+      "exact_numerator": "562949953421299",
+      "exact_denominator": "562949953421312",
+      "directed_lower": "281474976710649/281474976710656",
+      "directed_upper": "140737488355325/140737488355328",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 1,
+      "horizon": 25,
+      "extremum": "max",
+      "prism": 0.9999999999999991,
+      "exact_numerator": "1125899906842623",
+      "exact_denominator": "1125899906842624",
+      "directed_lower": "281474976710655/281474976710656",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 2,
+      "horizon": 25,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 0,
+      "horizon": 50,
+      "extremum": "min",
+      "prism": 0.9999994336783435,
+      "exact_numerator": "1267649882330241709644114435127",
+      "exact_denominator": "1267650600228229401496703205376",
+      "directed_lower": "281474817305279/281474976710656",
+      "directed_upper": "140737408652641/140737488355328",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 1,
+      "horizon": 50,
+      "extremum": "min",
+      "prism": 0.9999994336783435,
+      "exact_numerator": "1267649882330241709644114435127",
+      "exact_denominator": "1267650600228229401496703205376",
+      "directed_lower": "281474817305279/281474976710656",
+      "directed_upper": "140737408652641/140737488355328",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 2,
+      "horizon": 50,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 0,
+      "horizon": 50,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1267650600228229401496703205325",
+      "exact_denominator": "1267650600228229401496703205376",
+      "directed_lower": "281474976710655/281474976710656",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 1,
+      "horizon": 50,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1267650600228229401496703205375",
+      "exact_denominator": "1267650600228229401496703205376",
+      "directed_lower": "281474976710655/281474976710656",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "capped",
+      "state": 2,
+      "horizon": 50,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        4,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 0,
+      "horizon": 0,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 1,
+      "horizon": 0,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 2,
+      "horizon": 0,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 3,
+      "horizon": 0,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 0,
+      "horizon": 0,
+      "extremum": "max",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 1,
+      "horizon": 0,
+      "extremum": "max",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 2,
+      "horizon": 0,
+      "extremum": "max",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 3,
+      "horizon": 0,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 0,
+      "horizon": 1,
+      "extremum": "min",
+      "prism": 0.25,
+      "exact_numerator": "1",
+      "exact_denominator": "4",
+      "directed_lower": "1/4",
+      "directed_upper": "1/4",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 1,
+      "horizon": 1,
+      "extremum": "min",
+      "prism": 0.0,
+      "exact_numerator": "0",
+      "exact_denominator": "1",
+      "directed_lower": "0",
+      "directed_upper": "0",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 2,
+      "horizon": 1,
+      "extremum": "min",
+      "prism": 0.25,
+      "exact_numerator": "1",
+      "exact_denominator": "4",
+      "directed_lower": "1/4",
+      "directed_upper": "1/4",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 3,
+      "horizon": 1,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 0,
+      "horizon": 1,
+      "extremum": "max",
+      "prism": 0.75,
+      "exact_numerator": "3",
+      "exact_denominator": "4",
+      "directed_lower": "3/4",
+      "directed_upper": "3/4",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 1,
+      "horizon": 1,
+      "extremum": "max",
+      "prism": 0.5,
+      "exact_numerator": "1",
+      "exact_denominator": "2",
+      "directed_lower": "1/2",
+      "directed_upper": "1/2",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 2,
+      "horizon": 1,
+      "extremum": "max",
+      "prism": 0.5,
+      "exact_numerator": "1",
+      "exact_denominator": "2",
+      "directed_lower": "1/2",
+      "directed_upper": "1/2",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 3,
+      "horizon": 1,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 0,
+      "horizon": 5,
+      "extremum": "min",
+      "prism": 0.5322265625,
+      "exact_numerator": "545",
+      "exact_denominator": "1024",
+      "directed_lower": "545/1024",
+      "directed_upper": "545/1024",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 1,
+      "horizon": 5,
+      "extremum": "min",
+      "prism": 0.41796875,
+      "exact_numerator": "107",
+      "exact_denominator": "256",
+      "directed_lower": "107/256",
+      "directed_upper": "107/256",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 2,
+      "horizon": 5,
+      "extremum": "min",
+      "prism": 0.6044921875,
+      "exact_numerator": "619",
+      "exact_denominator": "1024",
+      "directed_lower": "619/1024",
+      "directed_upper": "619/1024",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 3,
+      "horizon": 5,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 0,
+      "horizon": 5,
+      "extremum": "max",
+      "prism": 0.9892578125,
+      "exact_numerator": "1013",
+      "exact_denominator": "1024",
+      "directed_lower": "1013/1024",
+      "directed_upper": "1013/1024",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 1,
+      "horizon": 5,
+      "extremum": "max",
+      "prism": 0.978515625,
+      "exact_numerator": "501",
+      "exact_denominator": "512",
+      "directed_lower": "501/512",
+      "directed_upper": "501/512",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 2,
+      "horizon": 5,
+      "extremum": "max",
+      "prism": 0.96875,
+      "exact_numerator": "31",
+      "exact_denominator": "32",
+      "directed_lower": "31/32",
+      "directed_upper": "31/32",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 3,
+      "horizon": 5,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 0,
+      "horizon": 10,
+      "extremum": "min",
+      "prism": 0.7655229568481445,
+      "exact_numerator": "802709",
+      "exact_denominator": "1048576",
+      "directed_lower": "802709/1048576",
+      "directed_upper": "802709/1048576",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 1,
+      "horizon": 10,
+      "extremum": "min",
+      "prism": 0.7090854644775391,
+      "exact_numerator": "371765",
+      "exact_denominator": "524288",
+      "directed_lower": "371765/524288",
+      "directed_upper": "371765/524288",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 2,
+      "horizon": 10,
+      "extremum": "min",
+      "prism": 0.8035602569580078,
+      "exact_numerator": "421297",
+      "exact_denominator": "524288",
+      "directed_lower": "421297/524288",
+      "directed_upper": "421297/524288",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 3,
+      "horizon": 10,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 0,
+      "horizon": 10,
+      "extremum": "max",
+      "prism": 0.9996738433837891,
+      "exact_numerator": "524117",
+      "exact_denominator": "524288",
+      "directed_lower": "524117/524288",
+      "directed_upper": "524117/524288",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 1,
+      "horizon": 10,
+      "extremum": "max",
+      "prism": 0.9993486404418945,
+      "exact_numerator": "1047893",
+      "exact_denominator": "1048576",
+      "directed_lower": "1047893/1048576",
+      "directed_upper": "1047893/1048576",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 2,
+      "horizon": 10,
+      "extremum": "max",
+      "prism": 0.9990234375,
+      "exact_numerator": "1023",
+      "exact_denominator": "1024",
+      "directed_lower": "1023/1024",
+      "directed_upper": "1023/1024",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 3,
+      "horizon": 10,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 0,
+      "horizon": 25,
+      "extremum": "min",
+      "prism": 0.9708141784851607,
+      "exact_numerator": "1093039593117941",
+      "exact_denominator": "1125899906842624",
+      "directed_lower": "273259898279485/281474976710656",
+      "directed_upper": "136629949139743/140737488355328",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 1,
+      "horizon": 25,
+      "extremum": "min",
+      "prism": 0.9637921528930349,
+      "exact_numerator": "33910421723685",
+      "exact_denominator": "35184372088832",
+      "directed_lower": "33910421723685/35184372088832",
+      "directed_upper": "33910421723685/35184372088832",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 2,
+      "horizon": 25,
+      "extremum": "min",
+      "prism": 0.9755549645783121,
+      "exact_numerator": "1098377243738581",
+      "exact_denominator": "1125899906842624",
+      "directed_lower": "274594310934645/281474976710656",
+      "directed_upper": "137297155467323/140737488355328",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 3,
+      "horizon": 25,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 0,
+      "horizon": 25,
+      "extremum": "max",
+      "prism": 0.9999999900658922,
+      "exact_numerator": "1125899895657813",
+      "exact_denominator": "1125899906842624",
+      "directed_lower": "281474973914453/281474976710656",
+      "directed_upper": "140737486957227/140737488355328",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 1,
+      "horizon": 25,
+      "extremum": "max",
+      "prism": 0.9999999801317845,
+      "exact_numerator": "562949942236501",
+      "exact_denominator": "562949953421312",
+      "directed_lower": "140737485559125/140737488355328",
+      "directed_upper": "281474971118251/281474976710656",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 2,
+      "horizon": 25,
+      "extremum": "max",
+      "prism": 0.9999999701976776,
+      "exact_numerator": "33554431",
+      "exact_denominator": "33554432",
+      "directed_lower": "33554431/33554432",
+      "directed_upper": "33554431/33554432",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 3,
+      "horizon": 25,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 0,
+      "horizon": 50,
+      "extremum": "min",
+      "prism": 0.9990945202412331,
+      "exact_numerator": "1266502768268533952278939133205",
+      "exact_denominator": "1267650600228229401496703205376",
+      "directed_lower": "140610053408321/140737488355328",
+      "directed_upper": "35152513352081/35184372088832",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 1,
+      "horizon": 50,
+      "extremum": "min",
+      "prism": 0.9988766643900385,
+      "exact_numerator": "633113301584001919571466577561",
+      "exact_denominator": "633825300114114700748351602688",
+      "directed_lower": "17572424115375/17592186044416",
+      "directed_upper": "281158785846007/281474976710656",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 2,
+      "horizon": 50,
+      "extremum": "min",
+      "prism": 0.9992416014517082,
+      "exact_numerator": "633344607926637486401821526503",
+      "exact_denominator": "633825300114114700748351602688",
+      "directed_lower": "281261506496935/281474976710656",
+      "directed_upper": "70315376624235/70368744177664",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 3,
+      "horizon": 50,
+      "extremum": "min",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 0,
+      "horizon": 50,
+      "extremum": "max",
+      "prism": 0.9999999999999997,
+      "exact_numerator": "633825300114114513098367128917",
+      "exact_denominator": "633825300114114700748351602688",
+      "directed_lower": "281474976710655/281474976710656",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 1,
+      "horizon": 50,
+      "extremum": "max",
+      "prism": 0.9999999999999993,
+      "exact_numerator": "1267650600228228650896765310293",
+      "exact_denominator": "1267650600228229401496703205376",
+      "directed_lower": "281474976710655/281474976710656",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 2,
+      "horizon": 50,
+      "extremum": "max",
+      "prism": 0.9999999999999991,
+      "exact_numerator": "1125899906842623",
+      "exact_denominator": "1125899906842624",
+      "directed_lower": "281474976710655/281474976710656",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    },
+    {
+      "fixture": "four",
+      "state": 3,
+      "horizon": 50,
+      "extremum": "max",
+      "prism": 1.0,
+      "exact_numerator": "1",
+      "exact_denominator": "1",
+      "directed_lower": "1",
+      "directed_upper": "1",
+      "vertex_counts": [
+        7,
+        7,
+        4,
+        1
+      ]
+    }
+  ],
+  "output_sha256": {
+    "two-state0.prism": "efbab37c2c6b7d3eeb5b4b20ab36c43f9062a3fa0640f177e1a24e9ed9a57315",
+    "two-state0-min-h0.log": "a9107102117fba93aae6b94fb45231398491bbda0cbf2779ad7ee8bd933feacd",
+    "two-state1.prism": "521550e9b9658bf298748c39b32a1702dbf18354dfd5bfdc09cdb2e2e8676c20",
+    "two-state1-min-h0.log": "1a1acb17d98481b5b04538cb3ceb7787e54f6fef2ccd0c3bfee6f6e479246ecb",
+    "two-state0-max-h0.log": "1dd78f5435adbb3f3c15378124641c488c64ec9fdf12354b37ddc5ce2c3ecc2d",
+    "two-state1-max-h0.log": "a8375048fef7824bbba7ebd50cf5fa0cd60a04603e3d9a24aea514ccb7bd943d",
+    "two-state0-min-h1.log": "6361ba759802221a7287dbfc513f45e7b195af03a58033033a334c3120e79e82",
+    "two-state1-min-h1.log": "28d4c411003a8d694fe2dbc411384ba3944337f0d62a7689b8495a066fd0b97d",
+    "two-state0-max-h1.log": "d09e9f9cecda8ae07d28e1cc358b7e5c82bb67aecb77fa51760ee179fb709728",
+    "two-state1-max-h1.log": "a8e8477eb3f1a247c699c0c6ae5b7f2250d221b83416bc1df4b25a5b9c46ac44",
+    "two-state0-min-h5.log": "951e3b372cc21a0876d1fe6f67c255b6cc957eaacc00d5912ddb5da1a93b1a96",
+    "two-state1-min-h5.log": "458f21feb57ccf00e1cd8b49dbfe4ff0a633e54d9632dbf6955cefecafe97163",
+    "two-state0-max-h5.log": "4187a45c24fe6a6af9d74a2595a0af632888b79c03f1afd1ac2ed9bf5e6e2752",
+    "two-state1-max-h5.log": "5689aecabf9b49bf6887fc1f13e5b3e87e1febfa1c501cc899bcb3ed887a9d46",
+    "two-state0-min-h10.log": "4209adb39d6de0f5a29a0f8a025ad108f412611d755f93ac4a23fd3cea4f0cf9",
+    "two-state1-min-h10.log": "c53347c217cb0190e8ccb3a605a5395ef50ddc9dea7317278a1e2f7d86e6fb4e",
+    "two-state0-max-h10.log": "cf6a8fe8272ad5a6d7ad766ae4524959cfb07e3994c820cfd5db4a36a42db9bc",
+    "two-state1-max-h10.log": "19aa4a99edcde9622a02b5688efbaf07f9a6231a57e971e9238a81bbc73cd64e",
+    "two-state0-min-h25.log": "447ace40737c02c2a92befacdaa5a2c2a46795191409b0669e166604fd5371aa",
+    "two-state1-min-h25.log": "f63b278635c2a00fe23c0ae067dcfac8b721677b61e5d9a2c0d234f1da9c40d0",
+    "two-state0-max-h25.log": "8fefbd45e4688bf45395923cd2c9b6bc72faa03b46308215680fc9b7713a7682",
+    "two-state1-max-h25.log": "f8cf0e7223cf12cd685784c16ffd9bcec9827c774fc124f78443e16780d59b34",
+    "two-state0-min-h50.log": "72b2502600d8b9419c18297a94fe8d5d4e23f9bf55dbfd0b3d83e5f579c68ed1",
+    "two-state1-min-h50.log": "be3073cf311c82c51e85013f0a7a76867d72e2697005586470d91470ab69e042",
+    "two-state0-max-h50.log": "2083456d841bc3ca75a85eb5ac5679d45465b409cbdc692afc9a501dedbf56a0",
+    "two-state1-max-h50.log": "8ea96bd187f22e96481e5c5ad3515417d76ca5f72f9e941a107e15657fda7b2a",
+    "simplex-state0.prism": "a60a456ac458e3439b060649b6bd733d4f28cf6137e5df827c9a9abf133981e6",
+    "simplex-state0-min-h0.log": "db7161f57c4253f6b090c72ea6b6f296160a8e815af27911c088e5638bc82d8a",
+    "simplex-state1.prism": "315d21387e8cc63f6e61e9ce1ae0a3e278f31d67a9a491da68f741f02f2b9a72",
+    "simplex-state1-min-h0.log": "cebf0c600091415f943c443cd978518cc9f015a81b6f1a15367f414d3ea1acb5",
+    "simplex-state2.prism": "c3e4f6589fc83a96a7e68e8d4f37cf24dbc8b310879a842cfa156e4aee4fb008",
+    "simplex-state2-min-h0.log": "28adb4773e7ef2b6cc1fde36ab49d1d35cf6f7c36eb7a3847efc92f14ecb39cf",
+    "simplex-state0-max-h0.log": "af7c269bbd8fa6f04eca8e137b3fb6aca8adde83062f3dd672f7e6330a567009",
+    "simplex-state1-max-h0.log": "7bfdba2752ab0353ebb6412f05ee562ed8a3c1a82e4ad904d92d058d1a84edb0",
+    "simplex-state2-max-h0.log": "68be99be68808b6b36e872869f71062ef927ac8f6c2aa281e92fc59b9382b588",
+    "simplex-state0-min-h1.log": "3e0d954fdb6e45e5a229ab2db134905ccb0508b949d882f658473e6cd837fe63",
+    "simplex-state1-min-h1.log": "efcdffbdb95bac79af7eb6d19a7937119d98aa43bea1e55e1737c8586f970fb1",
+    "simplex-state2-min-h1.log": "b6d634d9d7a477bb83158bfed3288c75090c761cef3d2f7fd11f1c4c87244c09",
+    "simplex-state0-max-h1.log": "b104301d0084c5a56a2d6d9a12593c6f1108cf6a095683a9b6d97fe11eb582ea",
+    "simplex-state1-max-h1.log": "0c4f58363093d341076df190ad6feb3971b1f2055209e5a5c36f2372349155e8",
+    "simplex-state2-max-h1.log": "0692469bba48eb58d3e8b0a86348acbd07755ddaf9e6f99cb7922fcc96dae417",
+    "simplex-state0-min-h5.log": "2ae945fb2527056d90a1f465b0e7acff97228525253aa559078f52471eee0d6a",
+    "simplex-state1-min-h5.log": "2425495582c4ee6aa03e351f6f51887448d4c76a43d75d0b390c63ce8071ae4a",
+    "simplex-state2-min-h5.log": "0f05f886f9a2e295df0ce8036cab14751d6bded11bedaa0c1d60392c61c37cf5",
+    "simplex-state0-max-h5.log": "cb17f47735bb19250bc07fc00897586c8b5ec29cead9b033b378e87440dfd0c5",
+    "simplex-state1-max-h5.log": "16eff3c16b4831fb374d72abf55030f90deb77f4a3c2136585950acf2160fe59",
+    "simplex-state2-max-h5.log": "96ece216fc7254b8b0158fb7009723b715022db842070acd4e6999b27905f441",
+    "simplex-state0-min-h10.log": "08426ab5a7b085cc0be6b03be3df925274811058cbcf229aaeb222c69fd1bdbf",
+    "simplex-state1-min-h10.log": "903a3d763e11a21caf0b7e49c410372a5bae14a5599eb43a9668ed2b28ace146",
+    "simplex-state2-min-h10.log": "5e2f3d4e22149b843543a3ec0d8865cbcb0b2d9164af2be3be1e14b59130070d",
+    "simplex-state0-max-h10.log": "aba1636e2e0cd434d8a937d250d8f64e8f93f10bdd98d51ca233590aae8730ea",
+    "simplex-state1-max-h10.log": "f2c18e293970787e8c55cf6dcbbb15b3410616b7d85d8ef40441dec6dc93e849",
+    "simplex-state2-max-h10.log": "8f1c9ecf3631b28fc40c8f6d6f83570bf058e59e73ac92a63bc2118fbf36ac88",
+    "simplex-state0-min-h25.log": "e173acad15fa1dcb8959827c3b58e5e5f764fb73c20f46f0278b02d2969ce04e",
+    "simplex-state1-min-h25.log": "c2c5ca657b65b237eaf03c6750d56bfe186550047f92b166ebec5586175adfb1",
+    "simplex-state2-min-h25.log": "22c558af21633afc9813c908477d72feb2eb382b288b321c19436875fe334079",
+    "simplex-state0-max-h25.log": "0c82219d5db6b0cc76dbc06cdde4badac227eeaab629ac834e9a03a5b10dcc8b",
+    "simplex-state1-max-h25.log": "f7f391e1321d8762ea96c875fe0b53225443eddc31bcc611bd8b94cb70a62571",
+    "simplex-state2-max-h25.log": "8b83ca20bf9ebd32d0d1d590b2c952a9360aadf17493a45ed7a16651ab5a241a",
+    "simplex-state0-min-h50.log": "4790ca52ec9932444701743efbd5cdcba3e51c91303b33917260c64577d82f59",
+    "simplex-state1-min-h50.log": "6bbf6ab923f19c624d90d8711fe2ecd1a30b2561cd6d1ba841c6521b34858f07",
+    "simplex-state2-min-h50.log": "4aea696a3258ada862483b2ad13eafb07b0b8a39f83cf47aaa922d36693a4f5d",
+    "simplex-state0-max-h50.log": "585f711e8d35fd6994a704d86c7889c01b209858a008b5bc06011b9082992340",
+    "simplex-state1-max-h50.log": "520d55f59ccc76097ea69f0c312994b34f6e6d934d2da0b4f3df934f575b7af9",
+    "simplex-state2-max-h50.log": "51a83a3f6a107d3052e06eff2592df21deca7a0527afcf4e618b91a4de006d1a",
+    "capped-state0.prism": "b794454022d84c0a96a304dd681706f539606268e702c94458420ee0ef49ede7",
+    "capped-state0-min-h0.log": "58ba7ba30257e51a00b122d2b932398f79b39784241906ba6564936be5cf9542",
+    "capped-state1.prism": "e1d7d061f996d49771b921de9ba3ac511b4f1cf5758fc9d3a458e34c9915469f",
+    "capped-state1-min-h0.log": "6b07fb5f5e28f560e140fcf01d730a5f9f4b6926db45328d462caca3839067c2",
+    "capped-state2.prism": "c0795e12b3f64f3027d458eee917818ff8b10d5909e1340a0721f6866c15ab55",
+    "capped-state2-min-h0.log": "2cedb2ad9eefb5fc9398543188e4c88b78b5a112c5c789ac9cf248d828019144",
+    "capped-state0-max-h0.log": "f89ef58cacda1c2421bcf06f3d65a45bb545ed98cc91bdb3ae35375f41f1f388",
+    "capped-state1-max-h0.log": "90e398a707c0310f00ada9a4342beac8a023aa2264127b3259743cedd1f35548",
+    "capped-state2-max-h0.log": "9d090cffc1662139e80271a1dd9e2dcce2f8386e3b1a09d3a366fd23b114946e",
+    "capped-state0-min-h1.log": "77392e7d4f57f3f34dea151603a1e70631f27c04693e7747ce64a2562b2a387e",
+    "capped-state1-min-h1.log": "4dd1a95b36b35bfc22198f3a19471569b21d2f2f4a0bf3ef4270152698a6277a",
+    "capped-state2-min-h1.log": "ac29c2decf6d1fedb8d976f9091fdabf04951e39b7e015619cf57342fc0d8236",
+    "capped-state0-max-h1.log": "4567ea0ccbc497524d3a3b8aea64b247cda82836de3c55989678d51a05d7143c",
+    "capped-state1-max-h1.log": "f5fe96ca5b8fc276a748dac9ed84b58e420f09006b0f042506a12a78d083a99b",
+    "capped-state2-max-h1.log": "65c93700a1f27ff987a777e9eb1c33bf2bef0b9e51c05d594522056046ef12df",
+    "capped-state0-min-h5.log": "f7a5c4f09cc1a5e75cf4325ff628269b13d06b601c18f87615662e43ead30796",
+    "capped-state1-min-h5.log": "049e311b24bc5b19bfaca538a3185f49339c187a9fc6f411210be42083858dc8",
+    "capped-state2-min-h5.log": "aaf3fe37f4fcdc177a9e6c79fac04537a22084370cc2121ee12aac4dcb4e6134",
+    "capped-state0-max-h5.log": "898ad922a4a7e906661bee65e1857bbd80b2a2b618a73e76eb45f4310e85260c",
+    "capped-state1-max-h5.log": "e4c956920c3136053d5c7679ea2e0d930862b87e09b19b1e09293423800a98f3",
+    "capped-state2-max-h5.log": "7983bd35583fa78e6ac04abdd913295cb142dfcac9e1b36aba167169cef2de27",
+    "capped-state0-min-h10.log": "8ad2f58fd116dc33631a14744d56a44c09c97f91ceb8d618a8368a9d788b6d30",
+    "capped-state1-min-h10.log": "344c9aa6a9e4f7d4d3ffbdd9f6e020776b1d31f5cd7c0ecbf1bf19121c1805ca",
+    "capped-state2-min-h10.log": "8e5fced63c6bfa1c6e6c1879bdd4b8fc8550e6bea2a1916109eb277195489e4c",
+    "capped-state0-max-h10.log": "f9194227614875922c82176d5690066286dec163b53fd16f6a4273a5c98cef9e",
+    "capped-state1-max-h10.log": "286ad3d6f6a7fd129cb1a1ea476dca60bb9f511917e23f09a37899ecda846e11",
+    "capped-state2-max-h10.log": "043c78a45fe3e72530a312d395f4795aa4a8c8d252b0f21d3e9afaa3a48112e7",
+    "capped-state0-min-h25.log": "8ae05c3142e212c6d1e021025174107fe9172f1994bbe79e97834f6af3820055",
+    "capped-state1-min-h25.log": "7b8c505c670d475d5517f01dab35659d489dcf282d13ac60f70203dbd36ece7d",
+    "capped-state2-min-h25.log": "cfef83262c4f28a4c79dd9ac212d387f8715b88f94957657e8b7ff1b7aacb6f3",
+    "capped-state0-max-h25.log": "42d9c5a8d1c610584d02d1b47725c19e0ef29887746d447584039d0ed9219eb5",
+    "capped-state1-max-h25.log": "48d86d60dc4bdcdb59062f1597146c0925a41e70954027c2e01bdba337e5d2c1",
+    "capped-state2-max-h25.log": "24be02525f9c424ae2b01239d67f0908b5dc085084a606cd39ece61278cfd6c7",
+    "capped-state0-min-h50.log": "589eec45b4c3fce8369e8f3798e07951294465749aee7deea9c3a9818cec457b",
+    "capped-state1-min-h50.log": "2db8da73e398f6fb3773bce232c75eb4c7dfb804f7a6db070082111f81be2b0b",
+    "capped-state2-min-h50.log": "beaf3455984e5aeded95338a38cd621373cc6fab86a81424466cd2d827f0fc5e",
+    "capped-state0-max-h50.log": "803bd660c8ba7333ec97b549c5dd1770a2c1c807f96d9d3d705d67ddd745f7a7",
+    "capped-state1-max-h50.log": "f3a65546818130b3f9f40da53ad44e71c3e726366f83101b9bc2328588db48c4",
+    "capped-state2-max-h50.log": "1333fdfb8f558ec6a8e5aacb622de56111677ef037daf7ffd5888a7c119eefb1",
+    "four-state0.prism": "0471e756786bac6ceeb9efc4230510b206e44483f909ad3df5b7305051e6e70b",
+    "four-state0-min-h0.log": "f0621bde2fb11b7fc512e0f828cc92f06d7b022267ecc0434a3a050c62d96958",
+    "four-state1.prism": "755ff3d1037f9a093d761d01c43bd830e4da71d9b4bbd3c832d53d6ecf16cf84",
+    "four-state1-min-h0.log": "7c34226f41cb749cec0e15866a8eec2b3f40a23194fb61665c3e3c93c8090ad3",
+    "four-state2.prism": "fc6197e119e69b6449d0a5a660dbf46112cc3a960ad987e39a9c43684e10069d",
+    "four-state2-min-h0.log": "48a3b26e6c45320ef05754af5bb1499ad9b10ed5c2c07b3f1baa404f3270fd33",
+    "four-state3.prism": "de5e0b92a749ef6fe2d4c973a526607bbc841b592b33133ccc3a5acd06e24716",
+    "four-state3-min-h0.log": "78e14701c79e4c019487f8d20ac791f37884dc49f198862f712252dba7fe3a52",
+    "four-state0-max-h0.log": "08597a8c41ef55a973b3d580d640610824976e9e58ad2294f6782236ff71582c",
+    "four-state1-max-h0.log": "6cb2f7bb3fe16c41817752febc580abafed72b930473bfc8cad87f29b34fbfa1",
+    "four-state2-max-h0.log": "e0ed2c8ac1ad918b2d30039e69840abbd7e0496c75dfe388183810a9d0fb99e7",
+    "four-state3-max-h0.log": "7de2eac93ad910bcc31a82a5e96be85d49abbbe3719f2bce2a91e1f415442264",
+    "four-state0-min-h1.log": "d01a38efcae96e90720e1f7aad6173c69dfbef5da8c0f3b872bc11c779cd3ee5",
+    "four-state1-min-h1.log": "5fbc2a355b1205941d4b57e7c5c9740eecb659aa5e396d61d7020a7b77a82b8d",
+    "four-state2-min-h1.log": "a5aac9042aa17b549794ca0f3114b78ccadf52f5f0d9673e194fd0826369dd1b",
+    "four-state3-min-h1.log": "00c6bfb7446948c015771c2a1a2300d8227a36173afbc02d11bfe1cccd30e32a",
+    "four-state0-max-h1.log": "61800b927abcc1da3b76e1b1ad0ed44ac5b30aa6ad8fbd4a4e24fafbb08e1fb3",
+    "four-state1-max-h1.log": "a5cd2d779ba48af0c7dd7f76f57f41b59a4813964480517cadfa5519b0918cf4",
+    "four-state2-max-h1.log": "b29ec2ffff3b3e7e3f99c54070908c73461c8d2190e488e325b02440fc7c0ec0",
+    "four-state3-max-h1.log": "437f3be7fe63cad17e96b86b65128ecd3ef401d2b7368f2dd7a07b9371f21769",
+    "four-state0-min-h5.log": "dcd2ffc63348b16f5ffa4fb8e5954443afd32463ebfec97f53d0711946a02e02",
+    "four-state1-min-h5.log": "cd5daaa0aeeb5b012805731cfb4c5adb4b7d2230834731ac1b3cbb24f2bfa221",
+    "four-state2-min-h5.log": "459947bb386d28dbc085c793e2f6f07804ef73f9bab37fc07aa912cc0e92c224",
+    "four-state3-min-h5.log": "0c78e5790e7842934b3b32019b3ae742a375edfa4f1de1c4b38d052daa727ce7",
+    "four-state0-max-h5.log": "30ef4e1fcbf85acb6a8624660e4ad0a9de7fb8293caa772b91f9c045417dd0e3",
+    "four-state1-max-h5.log": "b68b6d9fcad27fff66128079c7d3980388cdbcd9d0a8488f42513bd311bb0091",
+    "four-state2-max-h5.log": "a10dcfaac900a244b017d728d23997b06777949b2ad1d4d3f06d020b4635c16a",
+    "four-state3-max-h5.log": "efd9b6a30a6672b455b6b8c109e1ee4265576010b39dae40a2038da0f314f7a9",
+    "four-state0-min-h10.log": "0d38d1547e2607a8374ac3bbe6f8711d2d22ed749c181ec0267bcb542f8fd627",
+    "four-state1-min-h10.log": "5b75fe839752b789b8bc5585a7213b8ec72daa42bdf641062cd1d7c53f9dd1c9",
+    "four-state2-min-h10.log": "54a51dd71e1c6adcfbed8b9d188b66386d90eac2479c213706660150877baaa6",
+    "four-state3-min-h10.log": "82c61c5d0b75a3ffdd3c4465b0fbcedf2c6ec57e8bacf9cf32fc39671f03d2f2",
+    "four-state0-max-h10.log": "92c007336ed6cbb9d945d7f0d55d2588c8d785deb5f3b3abd902fe78044d2122",
+    "four-state1-max-h10.log": "8f422d2fd845068ce9c121cecb175da82c7d5105e673f20b70c198e93bf23409",
+    "four-state2-max-h10.log": "b691aa0a6ab82324d47ec76a57a263fe88f7a01d390aca89fdefde63a2dc06f0",
+    "four-state3-max-h10.log": "0cd057a4461a62369dfb9f3bca387dfc9a799731a5c7664167c06aa3c3b63abb",
+    "four-state0-min-h25.log": "38f3e4814ebd9cef32e953bc38e111a4f660f5682d1c81b9e3081123b935e54e",
+    "four-state1-min-h25.log": "fe2a4ea03ec2e3557f029daeb11992d0bb149a24c594edc2d38e7e8f91fc435a",
+    "four-state2-min-h25.log": "bc6eb20275acead57e8284af87b382132147c91f422428893c86248ec92d609c",
+    "four-state3-min-h25.log": "349e1f425fa5bfcd671b46c96f1a7f8dd3a1e05e8a558258cd340a7f207b40d6",
+    "four-state0-max-h25.log": "612b5882fec32068e715a3ee4d23c7479e717ea42fef043f29d6cb0990248de0",
+    "four-state1-max-h25.log": "ca13ef027a94b27a693194ce7412d185206198bd91266955e7d0d18dee811351",
+    "four-state2-max-h25.log": "65cf5486c825feb022fca51ee419af269e99e063f990737a632cb9faf45ecf2f",
+    "four-state3-max-h25.log": "f777b44ffa1d726f36f38291c4184552cd367c06aa445d005b4a1b0a19e30d8e",
+    "four-state0-min-h50.log": "eef87814fba4927044388283759d5914037299182e08c8314041128ca3aea4c0",
+    "four-state1-min-h50.log": "c8d3c62c0232d1497b9f49a743bb4dfa11ddc166b06f2f349d60f449a7076195",
+    "four-state2-min-h50.log": "50f965eff24be970a81dd37c3c610361370065ff7d4d3799f6eb4a430d6fe107",
+    "four-state3-min-h50.log": "ff5f6dc77bdb0828e1378ac9d8a0d5a5a60981b93e9e4572e01437d9a34c4308",
+    "four-state0-max-h50.log": "475786b08d0cd0bdbc37e1877e0fddfea1aa0583d218e2c621b12cc2db8e5038",
+    "four-state1-max-h50.log": "eb37469ccf8ac09d524f998af940fa9094a996eacb6e6c632628fab8e0f72d3d",
+    "four-state2-max-h50.log": "54a79ccaa682b1c7cd8a968fae45aab9a1550fe06588b579b2e4bbe6fe978b8f",
+    "four-state3-max-h50.log": "d73f8078102ea552e2cec9be601a8e39ee523c406c69b2a7bad663830abc5270"
+  },
+  "tests": ".......                                                                  [100%]\n7 passed in 0.69s\n",
+  "maximum_prism_difference": 1.1102230246251565e-16,
+  "wall_seconds": 197.832610608,
+  "backend": "Pinned PRISM4.11 explicit ordinary MDP engine, standard bounded Pmin/Pmax",
+  "scope": "Small dyadic interval-simplex fixtures, including represented zero lower edges; exact vertex enumeration and independent PRISM MDP solving. Exponential vertex construction restricted to at most8 coordinates. Does not claim external-checker coverage of every large uncertainty-benchmark model."
+}

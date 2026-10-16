@@ -1,0 +1,92 @@
+{
+  "status": "applied",
+  "changes": [
+    {
+      "function_id": "fu-u0BpMzJbgKqDZRzAYq6SfQ",
+      "app_id": "ap-bPSuZkifxKmzgF0MyKIKcn",
+      "label": "synthetic world verification",
+      "static_maximum": 4,
+      "new_maximum": 12,
+      "settings": {
+        "min_containers": null,
+        "max_containers": 12,
+        "scaledown_window": 60,
+        "buffer_containers": null
+      },
+      "updated_at": "2026-10-15T20:49:14.246402+00:00"
+    },
+    {
+      "function_id": "fu-6cnc7dASxOPaSHUrD6gMxd",
+      "app_id": "ap-Q7lyMuFP11gyb5EKyuQNJd",
+      "label": "repeated uncertainty replay",
+      "static_maximum": 4,
+      "new_maximum": 8,
+      "settings": {
+        "min_containers": null,
+        "max_containers": 8,
+        "scaledown_window": 60,
+        "buffer_containers": null
+      },
+      "updated_at": "2026-10-15T20:49:14.515993+00:00"
+    },
+    {
+      "function_id": "fu-66ah8iU4QlcTbZj1Khaawz",
+      "app_id": "ap-HYw5AZlIgvLZ0NPuoAqmtZ",
+      "label": "intervention structural audit",
+      "static_maximum": 4,
+      "new_maximum": 12,
+      "settings": {
+        "min_containers": null,
+        "max_containers": 12,
+        "scaledown_window": 60,
+        "buffer_containers": null
+      },
+      "updated_at": "2026-10-15T20:50:09.151448+00:00"
+    },
+    {
+      "function_id": "fu-FkL7dOLStR8UIqv5Z6V1y6",
+      "app_id": "ap-hQ2ZiT7eN0aDMqZOPEQ96U",
+      "label": "integer certificate audit",
+      "static_maximum": 4,
+      "new_maximum": 8,
+      "settings": {
+        "min_containers": null,
+        "max_containers": 8,
+        "scaledown_window": 60,
+        "buffer_containers": null
+      },
+      "updated_at": "2026-10-15T20:50:09.420995+00:00"
+    },
+    {
+      "function_id": "fu-kLalHpfKmA6SIQPSW83nwq",
+      "app_id": "ap-o1S9kGqm8jiYwe0rwZrOVn",
+      "label": "fixed human fit matrix",
+      "static_maximum": 4,
+      "new_maximum": 6,
+      "settings": {
+        "min_containers": null,
+        "max_containers": 6,
+        "scaledown_window": 60,
+        "buffer_containers": null
+      },
+      "updated_at": "2026-10-15T21:05:30.495246+00:00"
+    },
+    {
+      "function_id": "fu-qhHCf756SDUuDpQjGxSqLZ",
+      "app_id": "ap-UIDe5qGXUbIVsd4OzkVfKQ",
+      "label": "fixed human fit matrix",
+      "static_maximum": 4,
+      "new_maximum": 6,
+      "settings": {
+        "min_containers": null,
+        "max_containers": 6,
+        "scaledown_window": 60,
+        "buffer_containers": null
+      },
+      "updated_at": "2026-10-15T21:05:30.722823+00:00"
+    }
+  ],
+  "reason": "Shorten critical-path wall time using more independent cloud tasks. Scientific sources, cases, seeds, algorithms, per-input resource/time limits and per-input budget reservations are unchanged. Total campaign wall time spans different concurrency phases; do not report it as a uniform four-worker measurement.",
+  "actual_billing_usd": null,
+  "scope": "Operational concurrency deviations only. Per-fit eight CPU cores, twelve GiB, float32, eight Torch threads, cases, model architectures, seeds, epochs and scientific thresholds stay fixed. Frozen source configs retain static limits; this sidecar records actual live overrides. Runtime comparisons must account for the separate concurrency phases."
+}

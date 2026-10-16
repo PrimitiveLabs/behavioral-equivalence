@@ -1,0 +1,168 @@
+{
+  "schema_version": "human-final-response-v1",
+  "primary_candidate": "targeted-b8",
+  "primary_reference": "random_neutral_capacity-b8",
+  "scope": "Known-user future randomized-exposure response comparison. Offline calibration-table refinement, not active data acquisition or arbitrary-interface causal transfer. Held-out design withholds response calibration groups, not groups from base encoder training. Fixed original-user clusters; secondary contrasts descriptive.",
+  "folds": [
+    {
+      "name": "q01",
+      "query_groups": [
+        0,
+        1
+      ],
+      "heldout_groups": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "q02",
+      "query_groups": [
+        0,
+        2
+      ],
+      "heldout_groups": [
+        1,
+        3
+      ]
+    },
+    {
+      "name": "q03",
+      "query_groups": [
+        0,
+        3
+      ],
+      "heldout_groups": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "q12",
+      "query_groups": [
+        1,
+        2
+      ],
+      "heldout_groups": [
+        0,
+        3
+      ]
+    },
+    {
+      "name": "q13",
+      "query_groups": [
+        1,
+        3
+      ],
+      "heldout_groups": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "q23",
+      "query_groups": [
+        2,
+        3
+      ],
+      "heldout_groups": [
+        0,
+        1
+      ]
+    }
+  ],
+  "phase": "response_heldout_groups",
+  "split": "test",
+  "probes": [
+    {
+      "seed": 20261015,
+      "history_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/history-states-ced0bbdf76c3-25046fd0a2d3",
+      "history_report_sha256": "e11373b221ceab31c94298d8188beef52c9c21752a74bc7bc98c6eab6c043a0f",
+      "frontier_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261015/history-states-ced0bbdf76c3-25046fd0a2d3/heldout-response-frontier-881b55e16a973e00",
+      "frontier_report_sha256": "41503672bee01b680f7810699a075178c3bb62e13d3ebf55cf5b810541c4f0ef",
+      "protocol": "known_users",
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "3cac5acd2e905a591b0a826f2e4b364d313d6c4447356f7e28247c75b256e6c7",
+        "gru": "25046fd0a2d3958837c93c2227e8693b7686ce70f95a190c432798e7329ee65d",
+        "transformer": "a4048f21e61a52727839abc5845cecf87da2c3d799f2bc575775ea1fe095b53d"
+      }
+    },
+    {
+      "seed": 20261016,
+      "history_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261016/history-states-ced0bbdf76c3-1031ff8239ca",
+      "history_report_sha256": "8c180629d9f3b616e0b10669f634e1a07048b651bcc6720e9e5cafa670f1f11d",
+      "frontier_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261016/history-states-ced0bbdf76c3-1031ff8239ca/heldout-response-frontier-881b55e16a973e00",
+      "frontier_report_sha256": "07215c273c18c1704be84ab1417265356759f5b9945869c310eda51c5418c20f",
+      "protocol": "known_users",
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "923cdfc26001d359f530a54d8599dbe3dab69b3c8654d4dca9384d11011d6652",
+        "gru": "1031ff8239ca9d57704298bd6cf80ae134a33b341288d73e87dd70d4048eec62",
+        "transformer": "91ad9cc8c1ab1262a2b0e663c9888f9756b646d5bd27def37d3d4fcb12ff95da"
+      }
+    },
+    {
+      "seed": 20261017,
+      "history_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261017/history-states-ced0bbdf76c3-3fc604fcb0d7",
+      "history_report_sha256": "55bf1301452bde28c667a8d904031621f14eb4673e09b27990d5aeaa762ff9d3",
+      "frontier_root": "human-calendar-training-v3-8c2afe99bb75/fits/known_users-gru-20261017/history-states-ced0bbdf76c3-3fc604fcb0d7/heldout-response-frontier-881b55e16a973e00",
+      "frontier_report_sha256": "4a2af39386963a22adb74d11e259da57a09befb66ae642f3ac433f70830c7e93",
+      "protocol": "known_users",
+      "training_root": "human-calendar-training-v3-8c2afe99bb75",
+      "fit_report_sha256": {
+        "context": "87f0cea154f1536bf4c102c6d8fb9886afeaa2ce0dbf7010fa3aefc02aaba62b",
+        "gru": "3fc604fcb0d7d5f6facd31fa21c52f8e5b1228d388716d84a24ff0c89454fe08",
+        "transformer": "e5680be5f85b9809b69e3d6deb4679ea83a308b71bb30d97bc5af46d88e2dea0"
+      }
+    },
+    {
+      "seed": 20261018,
+      "history_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261018/history-states-ced0bbdf76c3-6472527fcb5f",
+      "history_report_sha256": "2337739a7ddf01315825064a802481791e8d8fe51ec45bf003dc26e52565d9a3",
+      "frontier_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261018/history-states-ced0bbdf76c3-6472527fcb5f/heldout-response-frontier-881b55e16a973e00",
+      "frontier_report_sha256": "16d0286fc2add2ed0c89f09caa45c2e118911d10bbbbecc93f6feb46df35de7f",
+      "protocol": "known_users",
+      "training_root": "human-calendar-training-v4-replicates-609ecd456db7",
+      "fit_report_sha256": {
+        "context": "93f2bfa457041c3c4d4ec34de17dcb402d9ea24c0659239efe21ced637a24d58",
+        "gru": "6472527fcb5fa2bc18e8845ff6ef6e003204662ea47de084318659994187f4b2",
+        "transformer": "a0690a9973903a503495b10bfb1f76e808a4866e6c7a2aec58d4bd2193c631d4"
+      }
+    },
+    {
+      "seed": 20261019,
+      "history_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261019/history-states-ced0bbdf76c3-609765ef318f",
+      "history_report_sha256": "9cb4de3c1e3ab5e224faf7d655af1769e20b5ae111794153c54236cf9025b3da",
+      "frontier_root": "human-calendar-training-v4-replicates-609ecd456db7/fits/known_users-gru-20261019/history-states-ced0bbdf76c3-609765ef318f/heldout-response-frontier-881b55e16a973e00",
+      "frontier_report_sha256": "8609847b2103105d9215bab9b2617af655cd0ee366068e762a0b2f6127ad8ef0",
+      "protocol": "known_users",
+      "training_root": "human-calendar-training-v4-replicates-609ecd456db7",
+      "fit_report_sha256": {
+        "context": "85f4ae44c6fe6c2d66e46e9c7b79d71ef708c2984b423def356a5a50b620f4ef",
+        "gru": "609765ef318f6bfeb383bb004f3b15fac888f5626eecff1434da3f3c5fd8a5bd",
+        "transformer": "a8b474569054887e758ecb4d601e2f8e87f84fef9d9b40eb38c9a31f22a22072"
+      }
+    }
+  ],
+  "freeze_path": "human-final-analysis-freeze-v1/freeze.json",
+  "minimum_cohort_users": 50,
+  "minimum_cohort_cases": 2000,
+  "bootstrap_replications": 2000,
+  "bootstrap_seed": 20261015,
+  "noninferiority_margin_nats": 0.01,
+  "inference_batch_size": 2048,
+  "expected_cases": 375340,
+  "expected_users": 23284,
+  "expected_case_id_sha256": "4831e001139d26eaffeb406dab8dbae560866981a65d40a8c10bde084ba860f6",
+  "execution_resources": {
+    "cpu_cores": 8,
+    "memory_gib": 12,
+    "timeout_seconds": 3600,
+    "maximum_containers_per_app": 2,
+    "reservation_per_call_usd": 0.573184,
+    "ledger": "nested-human-budget.sqlite",
+    "internal_ceiling_usd": 40,
+    "scope": "Full cohorts and model matrices unchanged. Runtime limits include conservative startup margin, based on complete validation timings. Reservations are not provider-enforced lifetime billing caps; automatic preemptions may add cost."
+  }
+}

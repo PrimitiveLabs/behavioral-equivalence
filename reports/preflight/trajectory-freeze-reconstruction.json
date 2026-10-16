@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "scope": "Read-only reconstruction of existing frozen trajectory configuration from aggregate source reports; no new forecasts, raw human rows or file replacement",
+  "builder_source_sha256": "62831c1afbfbeb63fba0ff65b13daacce82ff2abd9ac623736c18e7d72b6d30f",
+  "frozen_config_sha256": "d835fc6ded1b46f5982efabed5677910ca9ecea64911bf2a429f2be7b12ab6cf",
+  "exact_bytes_match": true,
+  "fixed_fits": 10,
+  "forecast_output_identities": 340,
+  "sequence_report_sha256": "c12a280aef72ff4d7f7434513729c6f4a740143ff3f434d52ff925873fbae940"
+}
